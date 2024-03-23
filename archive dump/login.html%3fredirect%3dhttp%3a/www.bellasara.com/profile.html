@@ -1,0 +1,226 @@
+ 
+
+
+ 
+
+
+
+ 
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate,max-age=-1"> 
+<meta http-equiv="Pragma" content="no-cache"> 
+<meta http-equiv="Expires" content="-1">
+<title>Welcome to the World of Bella Sara</title>
+<meta name="Description" content="Bella Sara is a Collectable Card game with an E-Game element." />
+<meta name="Keywords" content="collectable card game, ccg, tcg, trading card game, horses, fantasy horses, equines" />
+<link rel="stylesheet" href="screen2.css" media="screen" type="text/css" />
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="swfobject.js"></script>
+<!-- render png correctly in IE -->
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head> 
+  
+  
+ 
+<body>
+
+<center>
+<div id="wrapper" align="center">
+
+	<div id="header"><!-- this nav-bg div is because of IE --><div id="nav-bg">
+	<a href="http://www.bellasara.com/"><img src="images/bella-logo-small.gif" alt="Bella Sara" id="logo" /></a>
+	
+        
+        
+        
+        
+        
+        
+	<div id="top-banner">
+		<img src="images/banners/banner-jewel.jpg" alt="Bella Message" />
+	</div>        
+        
+	<div id="current-horse">
+		<img src="images/notlogged_thumb.jpg" alt="Not Logged In" />
+		<p><a href="login.html">Log In</a></p>
+	</div>
+
+
+                
+        
+        
+
+<!--
+    Topnav.jsp
+    
+    Defines the top navigation.
+--> 
+
+<ul id="topnav">
+		<li id="nav-ranch"><a href="stables.html" onmouseover="layerSwap('sub-ranch','','show');" onmouseenter="layerSwap('sub-ranch','','show');" onmouseout="layerSwap('sub-ranch','','hide');"><img src="images/nav-ranch.gif" alt="Ranch" /></a></li>
+		<li id="nav-cards"><a href="cards.html" onmouseover="layerSwap('sub-cards','','show');" onmouseenter="layerSwap('sub-cards','','show');" onmouseout="layerSwap('sub-cards','','hide');"><img src="images/nav-cards.gif" alt="Cards" /></a></li>
+		<li id="nav-games"><a href="gameslist.html" onmouseover="layerSwap('sub-games','','show');" onmouseenter="layerSwap('sub-games','','show');" onmouseout="layerSwap('sub-games','','hide');"><img src="images/nav-games.gif" alt="Games" /></a></li>
+		<li id="nav-world"><a href="world.html"><img src="images/nav-world.gif" alt="World" /></a></li>
+		<li id="nav-community"><a href="news.html" onmouseover="layerSwap('sub-community','','show');" onmouseenter="layerSwap('sub-community','','show');" onmouseout="layerSwap('sub-community','','hide');"><img src="images/nav-whatsNew2.gif" alt="What's New" /></a></li>
+		<li id="nav-shop"><a href="shop.html" onmouseover="layerSwap('sub-shop','','show');" onmouseenter="layerSwap('sub-shop','','show');" onmouseout="layerSwap('sub-shop','','hide');"><img src="images/nav-shop.gif" alt="Shop" /></a></li>
+		<li id="nav-activate">
+
+			<form method="get" action="activate.html">
+				<input type="text" name="cardCode" value="activate card code" onfocus="if (this.value == 'activate card code') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'activate card code'; } return true;" id="nav-activate-box" /><input type="image" src="images/nav-activate-go.gif" id="nav-activate-go" />
+			</form>
+		</li>
+	</ul>
+	 
+
+<!-- subnav -->
+	<div id="subnav">
+		<ul id="sub-ranch" style="visibility:hidden;" onmouseover="layerSwap('sub-ranch','','show');" onmouseenter="layerSwap('sub-ranch','','show');" onmouseout="layerSwap('sub-ranch','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+			<li><a href="stables.html">Choose a Horse</a></li>
+			<li><a href="stall.html">Active Stable</a></li>
+			</div>
+		</ul>
+		<ul id="sub-cards" style="visibility:hidden;" onmouseover="layerSwap('sub-cards','','show');" onmouseenter="layerSwap('sub-cards','','show');" onmouseout="layerSwap('sub-cards','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+			<li><a href="cardsets.html">Card Sets</a></li>
+			<li><a href="cards.html">Your Card Collection</a></li>			
+			<li><a href="gamerules.html">Card Games</a></li>
+			<li><a href="collecting.html">Card Collecting</a></li>
+			</div>
+		</ul>
+		<ul id="sub-games" style="visibility:hidden;" onmouseover="layerSwap('sub-games','','show');" onmouseenter="layerSwap('sub-games','','show');" onmouseout="layerSwap('sub-games','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+			<li><a href="cloudjumper.html">Cloud Jumper</a></li>			
+			<li><a href="lanceriding.html">Lance Riding Game</a></li>
+			<li><a href="beautybox_load.html">Bella's Beauty Box</a></li>
+			<li><a href="coloring.html">Coloring Book</a></li>				
+			<li><a href="puzzles.html">Jigsaw Puzzles</a></li>
+			<li><a href="wallpapers.html">Desktop Wallpapers</a></li>			
+			<li><a href="memorygame.html">Yin & Yang's Memory Game</a></li>
+			<li><a href="jumpinggame.html">Bellisimo's Jumping Contest</a></li>
+			<li><a href="quizgame.html">Bello's Quiz</a></li>
+			<li><a href="knowledge.html">Santo's Knowledge Quiz</a></li>
+			</div>
+		</ul>
+		<ul id="sub-community" style="visibility:hidden;" onmouseover="layerSwap('sub-community','','show');" onmouseenter="layerSwap('sub-community','','show');" onmouseout="layerSwap('sub-community','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+                            <li><a href="about.html">About Bella Sara</a></li>
+							<li><a href="faq.html">Bella Sara FAQ</a></li>
+			</div>
+		</ul>
+		<ul id="sub-shop" style="visibility:hidden;" onmouseover="layerSwap('sub-shop','','show');" onmouseenter="layerSwap('sub-shop','','show');" onmouseout="layerSwap('sub-shop','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+<!--			<div>
+			<li><a href="locator.html">Store Locator</a></li>
+			</div>-->
+		</ul>
+	</div>
+
+</div>
+
+<!-- subnav goes here where applicable -->
+</div><!-- end header -->
+	
+<style type="text/css">
+body {
+	background-color: #202b57;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top left;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+	
+#wrapper {
+	margin:0 auto;
+	width:1065px;
+	height:682px;
+	padding:0;
+	position:relative;
+	background:url(images/sunset.jpg) top left no-repeat;
+	}
+</style>
+
+<div id="content-internalpage" style="background:url(images/internal-bg-login-new.jpg) top right no-repeat;">
+
+<div id="login-text1">
+Already a Bella Sara member?
+</div>
+<div id="login-text2">
+Not a member? Sign up for your<br>FREE membership now and<br>receive a free virtual horse.<br>
+<a href="register.html"><img src="images/internalpage-login-signup.jpg"></a>
+</div>
+<div id="login-links">
+<a href="about.html"><img src="images/loginlink-about.jpg"></a>
+<a href="news.html"><img src="images/loginlink-new.jpg"></a>
+<a href="shop.html"><img src="images/loginlink-buy.jpg"></a>
+</div>
+
+    <div id="generic-login-box">
+        <form id="generic-login" method="post" action="/login.html;jsessionid=c82ec6715390a02acabc8053f4ae8?redirect=http://www.bellasara.com/profile.html">
+            
+            <img src="images/searchfield_leftcap.gif" alt="" width="16" height="18" align="absbottom" class="srchimgs" style="top:9px;left:13px;" />
+            <input id="userName" name="userName" class="input username sbox" onfocus="if (this.value == 'username') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'username'; } return true;" type="text" value=""/>
+            <img src="images/searchfield_rightcap.gif" alt="" align="absbottom" width="9" height="18" class="srchimgs" style="top:9px;left:187px;" />
+            <img src="images/searchfield_leftcap.gif" alt="" width="16" height="18" align="absbottom" class="srchimgs" style="top:39px;left:13px;" />
+            <input id="password" name="password" class="input password sbox" onfocus="if (this.value == 'password') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'password'; } return true;" type="password" value=""/><img src="images/searchfield_rightcap.gif" alt="" align="absbottom" width="9" height="18" class="srchimgs" style="top:39px;left:187px;" />
+            <input type="image" value="submit" name="login" src="images/homepage-signin-login.gif" class="button-login" />
+        </form>
+        <a href="forgot.html" id="forgot">forgot your password?</a>
+    </div>
+    <!-- end generic login box -->
+
+    <script language="javascript">
+        document.forms[1].userName.value = "username";
+        document.forms[1].password.value = "password";
+        
+        
+    </script>
+</div>
+<!-- end content internal page -->
+	
+	<div id="footer">
+	
+	<div id="logos-copyright">
+	<a href="http://www.hiddencitygames.com/" target="_blank"><img src="images/logo-hcg.jpg" alt="Hidden City Games" /></a><a href="http://www.concept-card.com/" target="_blank"><img src="images/logo-cc.gif" alt="ConceptCard" /></a>
+	<p>&copy; 2006 Hidden City Games, LLC. All Rights Reserved. All trademarks and character names and their distinctive likenesses are properties of conceptcard, in Denmark and elsewhere.</p>
+	</div>
+	
+	<div id="footer-slug">
+		<div id="footer-slug">
+		<a href="logout.html">log out</a> | <a href="profile.html">view profile</a> | <a href="parents.html">parents</a> | <a href="legal.html">legal</a> | <a href="help.html">help</a><br />
+<a href="http://drtoy.com/awards/5443.html" target="_blank"><img alt="Dr. Toy Best Products List 2007" src="images/drToy_home.png" border="0"/></a> 
+<a href="http://iparentingmediaawards.com/winners/15/26526-5-1470.php" target="_blank"><img hspace="5" alt="iParenting Media Awards Best Product 2007" src="images/awards_iParentingMedia.png" border="0"/></a>
+		</div><!-- end footer slug -->
+	</div><!-- end footer slug -->
+
+</div>
+	<!-- end footer -->
+        
+</div><!-- end wrapper -->
+
+
+</center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-851782-5";
+urchinTracker();
+</script>
+</body>
+</html>
+        
+        

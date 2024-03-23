@@ -1,0 +1,235 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate,max-age=-1" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta name="description" content="Bella Sara is a magical world where children can play games, activate trading cards, and take care of horses online." /><meta name="keywords" content="collectable card game, trading cards, online children's games, magical horses, fantasy horses, equines, magical world, horses, horseshoes, interact with online horses, girl games, Bella Sara, magical friends, safe online children's games, play online, bellasara.com.mx, bellasara.com, bellasara.ch, bellasara.co.uk, bellasara.cz, bellasara.ca, bellasara.hr, bellasara.za, bellasara.se, bellasara.au, bellasara.fr, bellasara.de, bellasara.it, bellasara.com.au, bellasara.be, bellasara.sl, bellasara.cl, bellasara.fi, bellasara.dk, bellasara.no, bellasara.nl" /><meta name="robots" content="Index, Follow" /><meta name="revisit-after" content="7 days" /><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /><title>
+	Journey into a magical world of horses
+</title>
+    <script src="/Utility/loadFlash.js" type="text/javascript"></script>
+<link href="App_Themes/q4/activation.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/dropdown-EN.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/global.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/product.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/reset.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/signup.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/store.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <div id="newcontent-container">
+        
+
+<div id="nonflash-topnav">
+    <a href="/about2.aspx" class="nonflash-topnav-link">About</a> |
+    <a href="/customercare.aspx" class="nonflash-topnav-link">Help</a> |
+    <a href="/parentguide.aspx" class="nonflash-topnav-link">Parents</a> |
+    <a href="/shop.html" class="nonflash-topnav-link">Store Locator</a> 
+    <!-- | <a href='http://www.bellasara.com/store.aspx' class='nonflash-topnav-link'>Buy Horseshoes</a> --> |
+    <a href="/activities.aspx" class="nonflash-topnav-link">Activities</a> | <a href="http://shop.bellasara.com/" target="_blank" class="nonflash-topnav-link">Shop</a>
+</div>
+<div id="global-banner" style="z-index:+1">
+    <a href="/index.aspx">
+    <img style="margin-top: 10px; margin-left: 40px" src="/images/logo-bellasara.png"
+        alt="" border="0" />
+    </a>
+</div>
+
+
+        
+<div id="global-joinnow" style="z-index:+1">
+<a href="register.html" class="global-backtomycottage-text">Join now, it's FREE!</a></div>
+<!--<div id="global-thumb">
+    <a href="login.aspx"><img src="/images/playNow_nav.png" alt="" /></a>
+</div> -->
+<div id="global-welcometext" style="z-index:+1">
+     <div id="global-welcometext-button" style="cursor:hand" onclick="location.href='login.aspx'">   
+        <a href="login.aspx" class="global-welcometext-button-text">
+            Play Now</a></div>
+</div>
+
+        <div id="center-content">
+            <form name="aspnetForm" method="post" action="faq.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTk0MTIwOTk1Mw9kFgJmD2QWCGYPZBYCAgsPFQEVL1V0aWxpdHkvbG9hZEZsYXNoLmpzZAIBD2QWDmYPFgIeBFRleHQFBUFib3V0ZAIBDxYCHwAFBEhlbHBkAgIPFgIfAAUHUGFyZW50c2QCAw8WAh8ABQ1TdG9yZSBMb2NhdG9yZAIEDxYCHwAFX3wgPGEgaHJlZj0naHR0cDovL3d3dy5iZWxsYXNhcmEuY29tL3N0b3JlLmFzcHgnIGNsYXNzPSdub25mbGFzaC10b3BuYXYtbGluayc+QnV5IEhvcnNlc2hvZXM8L2E+ZAIFDxYCHwAFSDxhIGhyZWY9Ii9hY3Rpdml0aWVzLmFzcHgiIGNsYXNzPSJub25mbGFzaC10b3BuYXYtbGluayI+QWN0aXZpdGllczwvYT4gfGQCBg8WAh8ABVo8YSBocmVmPSJodHRwOi8vc2hvcC5iZWxsYXNhcmEuY29tLyIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSJub25mbGFzaC10b3BuYXYtbGluayI+U2hvcDwvYT5kAgIPZBYEAgYPFgIfAAUUSm9pbiBub3csIGl0J3MgRlJFRSFkAgcPFgIfAAUIUGxheSBOb3dkAgQPZBYQZg8WAh8ABaIBPGEgY2xhc3M9Imdsb2JhbC1sb3dlcm5hdi1saW5rIiB0YXJnZXQ9Il9ibGFuayIgb25DbGljaz0iamF2YXNjcmlwdDp1cmNoaW5UcmFja2VyICgnL2V4dGVybmFsL3ByZXNzcm9vbScpOyIgaHJlZj0iaHR0cDovL3ByZXNzcm9vbS5iZWxsYXNhcmEuY29tIj5QcmVzc3Jvb208L2E+IHwgZAIBDxYCHwAFEFRlcm1zIG9mIFNlcnZpY2VkAgIPFgIfAAUHUHJpdmFjeWQCAw8WAh8ABQdQcm9maWxlZAIEDxYCHwAFCFBsYXkgTm93ZAIFDxYCHwAFIyZjb3B5OyAyMDA5IEhpZGRlbiBDaXR5IEdhbWVzLCBJbmMuZAIGDxYCHwAFFEFsbCBSaWdodHMgUmVzZXJ2ZWQuZAIHD2QWAmYPFgIfAAURRGFpbHkgVGltZSBMaW1pdDpkZMQiBmixCLATFbprZy0axfgrMcri" />
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+    _uacct = "UA-851782-5"
+    urchinTracker();
+</script>
+                
+	
+    <div id="newcontent-title">
+        Bella Sara&trade; Frequently Asked Questions
+    </div>
+	
+	<div id="newcontent-main">
+
+	    <div id="generic-box">
+		
+			<h2>How do I get more horseshoes?</h2>
+			<p>You can now buy horseshoes from the Bella Sara Horseshoe Shop.  This is the fastest way to receive horseshoes.  Another way to earn horseshoes is to activate Bella Sara trading cards!  Each time you activate a card you earn more horseshoes: Common cards equal 25 horseshoes, Rare cards equal 100 horseshoes, Energy cards equal 150 horseshoes and Shiny cards equal 250 horseshoes!</p><p>You can also earn horseshoes by playing the Magic Bubble Wand game and the Firelight Festival. Very soon all of our games will award horseshoes. Tutorials on how to earn horseshoes and purchase items in the bazaar can be found in the “getting started” section of the website.  Just click on the “My Cottage and My Things” video.</p>
+            
+			<h2>How do I train and ride my horses?</h2>
+			<p>We will be adding activities very soon that will let you play with your horses outside of your stables and games that will let you ride your horses!  While we work on those features be sure to play the Lance Riding game where you can ride your horse and collect rings with your lance.  You can play the easy version on the practice course and then, when you are ready, move up to the harder version and enter the competition!</p>
+			
+			<h2>How do I earn ribbons and trophies?</h2>
+			<p>At this time ribbons and trophies are awarded for Bello’s Quiz, Yin and Yang’s game and Santo’s Knowledge Quiz. Very soon trophies and ribbons will be awarded for all games, activities and events.  Until then we hope you enjoy playing all of the fantastical games you will find in the arena for the fun of it.  You can also earn horseshoes for the Magic Bubble Wand and the Firelights Festival Game! And be sure to visit The World Tree often to see what’s new in the World of Bella Sara.</p>
+			
+			<h2>I purchased items in the Bazaar and now I can’t find them!</h2>
+			<p>When you return from a shopping trip at the Bazaar, you will find all of your purchases waiting for you in your “My Things” treasure chest once you move from the entry way of your cottage into one of the side rooms, or by pulling the pink and blue cord surrounded by twinkling stars in the upper left corner of the room if you are in the entry way.</p>
+			
+			<h2>How do I decorate my cottage?</h2>
+			<p>If you want to decorate your bedroom, navigate to that room, then open your “My Things” treasure chest by clicking on it.  You will then see a menu of all of your purchases.  If you have purchased a bunk bed, you would select “furniture” which then moves the menu to the furniture section of your purchases where you should see your bed.  To move it from your treasure chest into your room, simply drag and drop it into the room.  When you are finished adding everything you would like in that room close the menu.  You can then arrange your things however you would like.  Once you have everything just the way you want it be sure to save it by clicking on the “save” button.  Ta-da!</p>
+			
+            <h2>What is Bella Sara?</h2>
+            <p>Bella Sara is a safe, happy, and friendly place for horse lovers age 5 and up. It is currently available in the United States, Canada, Europe, Latin America, Australia, South Africa.</p>
+            
+            
+            <h2>How safe is BellaSara.com?</h2>
+            <p>There is no way for anyone to contact you through BellaSara.com.  Your user experience is private.  The HCG team is working on safe ways to permit users to contact each other, but that will come later with plenty of advance notice to you and your parents.</p>
+            
+                        
+            <h2>How do I get horses?</h2>
+            <p>You acquire new horses by purchasing Bella Sara cards.  All cards contain a unique collector number that you can input on this site to activate the horse.  When activated, the horse on your card appears in your online stable.  For more information on collecting cards, click <a href="collecting.html">here</a>.</p>
+            
+                  
+            <h2>Are the horses real?</h2>
+            <p>No.  The horses pictured on the cards and on the website are play-pretend.  They live in your imagination.</p>
+            
+                        
+            <h2>How do the cards work?</h2>
+            <p>Cards are published for a limited time in "sets."  Current sets include Northern Lights, Ancient Lights, Native Lights, and soon, Magical Friends.   Cards come in packs and are available at stores and online.  For a store near you, click <a href="storelocator.html">here</a> (currently US and Canada only).  Each Bella Sara pack contains a random selection of cards.  You won’t know which specific cards are inside any pack until it’s opened.  The pictures on the packaging do not indicate what cards are inside, other than which set they belong to.  Some cards might be cards you already own, some will be different and new.  Opening each pack is a surprise.  </p>
+            
+                        
+            <h2>How do I buy individual cards to complete my collection?</h2>
+            <p>You can’t buy individual cards, but you can trade cards with your friends to complete your collection.  Each set has a <a href="collecting.html">card list</a> which is available on the website for you to download and use to keep track of your collection: how many cards you have, and how many you still need.   In the “Cards” section of the website the cards you have activated show up in color.</p>
+            <p>Tip:  When trading cards, make sure you only trade cards that have not been activated.  Once a card is activated, it cannot be reactivated by someone else.  This limitation may change in the future, so be sure to check out “What’s New in Bella Sara” when you visit the site.</p>
+            
+            <h2>What is an activation code?</h2>
+            <p>An activation code is a set of 10 or 12 letters and numbers at the bottom of each Bella Sara card. If you are a registered user, log in  to <a href="http://www.bellasara.com">www.bellasara.com</a> and click the “Activate Cards” button.  Type any card's activation code into the Activation Wizard. Activated horse cards put that horse in your own stable (Air, Water, or Land).  Activated energy cards place an available item in your collection of “My Things” you can place in your cottage.  Some energy cards are only added to your card collection.</p>
+            
+            
+            <h2>Are activation codes case sensitive?</h2>
+            <p>No. The codes are not case sensitive.</p>
+            
+            
+            <h2>Why can't I activate my card?</h2>
+            <p>Make sure that the card has not already been activated either by you or someone else and double-check you typed the code in correctly.   Beginning with Magical Friends Bella Sara cards come with 12-digit activation codes.  There are no ones or zeros in the new codes, these are the letters capital I and capital O.</p>
+            <p>If you're sure you followed the directions properly and your card still won't activate, please send us an email at <a href="mailto:customerservice@hiddencitygames.com">customerservice@hiddencitygames.com</a>. Include the following details:</p>
+
+            <p style="margin-left: 25px;">The activation code you are trying to use<br />
+            The name of the Bella Sara card you got the activation code from</p>
+                        
+
+            <h2>When I tried to activate my horse, I got a different horse! What do I do now?</h2>
+            <p>We want to make sure you get the right horse in your stall. If you get a different horse than you expected, please contact our customer service team at <a href="mailto:customerservice@hiddencitygames.com">customerservice@hiddencitygames.com</a>. Include the following details:</p>
+			
+            <p style="margin-left: 25px;">Your user name<br />
+            The name of the horse you are trying to activate<br />
+            The activation code you are using</p>
+         
+            <p>We will give you a new code for the right horse, and you can keep the other horse too!</p>
+
+            <h2>Why do some of my cards look shiny?</h2>
+            <p>A shiny card is an extra-rare card with a special foil treatment that makes it look all shiny. Some people call shiny cards "foil cards."</p>
+
+            <h2>How do I activate a shiny card?</h2>
+            <p>You can activate shiny cards the same way you do regular Bella Sara cards. Just type your activation code into the activation code box and click on the checkmark. Horses from shiny cards behave exactly the same as horses from regular cards.</p>
+
+            <h2>What's the difference between shiny-card horses and other horses?</h2>
+            <p>Nothing. Regular horses and horses from shiny cards behave exactly the same on the Bella Sara website.</p>
+
+            <h2>What is a foil card?</h2>
+            <p>A foil card is another name for a shiny card.</p>
+
+            <h2>What is an energy card?</h2>
+            <p>Bella Sara cards that don't have horses on them are called energy cards. Energy cards represent horse-related gear such as riding boots, saddles, blankets, and similar items.</p>
+
+            <h2>What do energy cards do?</h2>
+            <p>Soon you'll be able to use energy cards to make your horses stronger, faster, or wiser. You'll also be able to use energy cards to play special game levels.</p>
+
+            <h2>How do I activate an energy card?</h2>
+            <p>You can activate energy cards the same way you do horse cards. Just type your activation code into the activation code box and click on the "GO" button.</p>
+
+            <h2>My horse is tired. What do I do now?</h2>
+            <p>Just like people, horses get tired too. Game play and web activities use up a horse's energy, so if your horse gets tired, it just needs to rest a while.</p>
+
+            <h2>Is there a time limit on how long I can play on the Bella Sara website?</h2>
+            <p>Your parents can set or change your time limit in the parental controls section of the website.  They have the option of selecting one, two, or three hour limits, or unlimited access.</p>
+
+            <h2>What games can I play with my Bella Sara cards?</h2>
+            <p>You can play many different games with Bella Sara cards. For some basic game instructions, check out <a href="http://www.bellasara.com/gamerules.html">www.bellasara.com/gamerules.html</a>. Bella Sara Card Packs also include activity cards with game rules on them. Feel free to make up your own games and share them with your friends!</p>
+            
+            <h2>What if my Stable is crashing?</h2>
+            <p>Please <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">download the latest Flash</a> from Adobe and clear your browser’s cache.
+<ul><li><b>Firefox:</b> Tools &gt; Clear Private Data &gt; Checkbox On for Cache</li>
+<li><b>Internet Explorer 7:</b> Tools &gt; Internet Options &gt; Browsing History &gt; Delete… button &gt; Temporary Internet Files &gt; Delete Files… button &gt; press Yes</li>
+<li><b>Internet Explorer 6:</b> Tools &gt; Internet Options > Temporary Internet Files &gt; Delete Files…button &gt; Click OK</li></ul></p>
+            
+                        
+            <h2>How much does it cost to use the Bella Sara website?</h2>
+            <p>Nothing.  Using the Bella Sara website, activating your horses and energy cards, exploring the Bella Sara world and playing online games, is free.</p>
+            
+                  
+            <h2>Then, why do I have to register?</h2>
+            <p>You are asked to register in order to store your activated horses so that you can retrieve your stable when you revisit.  By registering, you are also able to access more content on the website than if you don’t register.</p>
+            
+                        
+            <h2>What do you do with the information I give you?</h2>
+            <p>That is explained in our privacy policy, which you can read <a href="legal.html#privacy">here</a>.</p>
+            
+                        
+            <h2>How do I change my password?</h2>
+            <p>Your parent can change your password for you in the <a href="parents.html">parental controls</a>.</p>
+            
+
+            <h2>Why can't I pick up any food to feed my horse?</h2>
+            <p>If you can't pick up any food, your horse is probably full. (You can check your horse's hunger level by putting the cursor between your horse's feet.) If your horse is full, just take it out to play some games or come back tomorrow and it will probably be hungry again!</p>
+            
+            
+            <h2>How many regular cards are in the Bella Sara First Series set?</h2>
+            <p>There are 55: 45 horses and 10 energy cards.</p>
+
+            <h2>How many shiny cards are in the Bella Sara First Series set?</h2>
+            <p>There are 9: Bella, Bellisimo, Bello, Fiona, Jewel, Rain, Shaman, Thunder, and Yin and Yang.</p>
+
+            <h2>How many regular cards are in the Bella Sara Second Series set?</h2>
+            <p>There are 97: 85 horses and 12 energy cards.</p>
+
+            <h2>How many shiny cards are in the Bella Sara Second series set?</h2>
+            <p>There are 27: Angel, Balto, Bella, Bellisimo, Bello, Cajus, Dino, Fiona, Flipper, Freja, Hummingbird, Jewel, Lancelot, Mermaid, Misla, Parlez, Pegasus, Rain, Roxy, Shaman, Spottie, Tao, Thunder, Tiffi, Treasure, Wavebreaker, and Yin and Yang.</p>
+				
+	    </div>
+	    <!-- end generic text box -->
+	
+	
+	</div>
+
+                
+            </form>
+            <div id="newcontent-footer">
+            
+<div id="global-footer-legal">
+    <div id="global-footer-lowernav">
+    <a class="global-lowernav-link" target="_blank" onClick="javascript:urchinTracker ('/external/pressroom');" href="http://pressroom.bellasara.com">Pressroom</a> | 
+    <a href="http://www.bellasara.com/legal.html" class="global-lowernav-link">
+                Terms of Service</a>
+    | <a href="http://www.bellasara.com/legal.html#privacy" class="global-lowernav-link global-lowernav-link-big">
+        Privacy</a> |    <a href="http://www.bellasara.com/profile.aspx" class="global-lowernav-link">
+        Profile</a>
+    <!-- | <a href="http://www.bellasara.com/login.html" class="global-lowernav-link">
+    Play Now</a> -->
+    </div>
+    <div class="global-footer-text">
+        &copy; 2009 Hidden City Games, Inc.
+        All Rights Reserved.
+    </div>
+</div>
+<div id="global-footer-timer">
+    
+</div>
+
+        </div>
+        </div>
+    </div>
+</body>
+<!-- render png correctly in IE -->
+<!--[if lt IE 7.]>
+        <script defer type="text/javascript" src="/pngfix.js"></script>
+        <![endif]-->
+
+
+
+</html>

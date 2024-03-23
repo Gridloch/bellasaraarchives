@@ -1,0 +1,112 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate,max-age=-1" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta name="description" content="Bella Sara is a magical world where children can play games, activate trading cards, and take care of horses online." /><meta name="keywords" content="collectable card game, trading cards, online children's games, magical horses, fantasy horses, equines, magical world, horses, horseshoes, interact with online horses, girl games, Bella Sara, magical friends, safe online children's games, play online, bellasara.com.mx, bellasara.com, bellasara.ch, bellasara.co.uk, bellasara.cz, bellasara.ca, bellasara.hr, bellasara.za, bellasara.se, bellasara.au, bellasara.fr, bellasara.de, bellasara.it, bellasara.com.au, bellasara.be, bellasara.sl, bellasara.cl, bellasara.fi, bellasara.dk, bellasara.no, bellasara.nl" /><meta name="robots" content="Index, Follow" /><meta name="revisit-after" content="7 days" /><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /><title>
+	Bienvenue dans le monde de Bella Sara
+</title>
+    <script src="/Utility/loadFlash.js" type="text/javascript"></script>
+<link href="App_Themes/q4/activation.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/dropdown-EN.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/global.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/product.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/reset.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/signup.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/store.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <div id="newcontent-container">
+        
+
+<div id="nonflash-topnav">
+    <a href="/about2.aspx" class="nonflash-topnav-link">À propos de Bella Sara</a> |
+    <!--<a href="/customercare.aspx" class="nonflash-topnav-link">Aide</a> |-->
+    <a href="/parentguide.aspx" class="nonflash-topnav-link">Parents</a> |
+    <a href="/shop.aspx" class="nonflash-topnav-link">Revendeurs</a> |
+    <a href="/apps.aspx" class="nonflash-topnav-link">Mobile</a>
+    <!--<a href="/activities.aspx" class="nonflash-topnav-link"><a href="/activities.aspx" class="nonflash-topnav-link">Activités</a> |</a> -->  
+</div>
+<div id="global-banner" style="z-index:+1">
+    <a href="/index.aspx">
+    <img style="margin-top: 10px; margin-left: 40px" src="/images/logo-bellasara.png"
+        alt="" border="0" />
+    </a>
+</div>
+
+
+        
+<div id="global-joinnow" style="z-index:+1">
+<a href="register.html" class="global-backtomycottage-text">S'enregistrer maintenant!</a></div>
+<!--<div id="global-thumb">
+    <a href="login.aspx"><img src="/images/playNow_nav.png" alt="" /></a>
+</div> -->
+<div id="global-welcometext" style="z-index:+1">
+     <div id="global-welcometext-button" style="cursor:hand" onclick="location.href='login.aspx'">   
+        <a href="login.aspx" class="global-welcometext-button-text">
+            Jouer maintenant</a></div>
+</div>
+
+        <div id="center-content">
+            <form name="aspnetForm" method="post" action="404.aspx?404%3bhttp%3a%2f%2fwww.bellasara.com%3a80%2fimages%2fdiscovery-activate.jpg" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjIwMzI0OTQ2D2QWAmYPZBYIZg9kFgICCw8VARUvVXRpbGl0eS9sb2FkRmxhc2guanNkAgEPZBYMZg8WAh4EVGV4dAUXw4AgcHJvcG9zIGRlIEJlbGxhIFNhcmFkAgEPFgIfAAUEQWlkZWQCAg8WAh8ABQdQYXJlbnRzZAIDDxYCHwAFClJldmVuZGV1cnNkAgQPFgIfAAUGTW9iaWxlZAIFDxYCHwAFSDxhIGhyZWY9Ii9hY3Rpdml0aWVzLmFzcHgiIGNsYXNzPSJub25mbGFzaC10b3BuYXYtbGluayI+QWN0aXZpdMOpczwvYT4gfGQCAg9kFgQCBg8WAh8ABRlTJ2VucmVnaXN0cmVyIG1haW50ZW5hbnQhZAIHDxYCHwAFEEpvdWVyIG1haW50ZW5hbnRkAgQPZBYSAgEPFgIfAAURTWVudGlvbnMgTMOpZ2FsZXNkAgIPFgIfAAUHUHJpdmFjeWQCAw8WAh8ABQRBaWRlZAIEDxYCHwAFEUFkdmVydGlzZSB3aXRoIFVzZAIFDxYCHwAFBlByb2ZpbGQCBg8WAh8ABRBKb3VlciBtYWludGVuYW50ZAIHDxYCHwAFKCZjb3B5OyAyMDE2IFRoZSBCZWxsYSBTYXJhIENvbXBhbnksIExMQy5kAggPFgIfAAW0AVRvdXMgZHJvaXRzIHLDqXNlcnbDqXMuIFRvdXRlcyBsZXMgbWFycXVlcyBkw6lwb3PDqWVzLCBsZXMgbm9tcyBkZSBwZXJzb25uYWdlcyBldCBsZXVycyBjYXJhY3TDqXJpc3RpcXVlcyBzb250IGxhIHByb3ByacOpdMOpIGRlIENvbmNlcHRjYXJkLCBhdSBEYW5lbWFyayBldCBwYXJ0b3V0IGRhbnMgbGUgbW9uZGUuCmQCCQ9kFgJmDxYCHwAFEURhaWx5IFRpbWUgTGltaXQ6ZGT/J3VSAfH9l9UKp5LqNy9jCRbaFQ==" />
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+    _uacct = "UA-851782-5"
+    urchinTracker();
+</script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A475655C" />
+                
+
+    <div id="newcontent-title">
+        Oops!
+    </div>
+
+    <div id="newcontent-main">
+
+        <div id="generic-box">
+        <p>Une erreur s'est produite ! Tu as peut-être cliqué sur un mauvais lien ou mal écrit l'adresse de la page, à moins que nous ne l'ayons déplacée. Ne t'inquiète pas, la page que tu cherches est probablement quelque part par ici ! Tu peux revenir en arrière ou cliquer sur un des liens ci-dessous :</p>
+        <ul>
+            <li><a href="stables.html"><span>Ton écurie</span></a></li>
+            <li><a href="cards.html"><span>Tes cartes</span></a></li>
+            <li><a href="index.html"><span>BellaSara.fr</span></a></li>
+            <li><a href="shop.html"><span>Boutique Bella Sara</span></a></li>
+        </ul>
+
+
+        </div>
+
+    </div>
+
+                
+            </form>
+            <div id="newcontent-footer">
+            
+<div id="global-footer-legal">
+    <div id="global-footer-lowernav">
+    
+    <a href="http://www.bellasara.com/legal.html" class="global-lowernav-link">
+                Mentions Légales</a>
+    | <a href="http://www.bellasara.com/legal.html#privacy" class="global-lowernav-link global-lowernav-link-big">
+        Privacy</a> |
+        <a href="/customercare.aspx" class="global-lowernav-link">Aide</a> <!-- |  <a href="/mediakit.aspx" class="global-lowernav-link">Advertise with Us</a>--> |  
+        <a href="http://www.bellasara.com/profile.aspx" class="global-lowernav-link">
+        Profil</a>
+    <!-- | <a href="http://www.bellasara.com/login.html" class="global-lowernav-link">
+    Jouer maintenant</a> -->
+    </div>
+    <div class="global-footer-text">
+        &copy; 2016 The Bella Sara Company, LLC.
+        Tous droits réservés. Toutes les marques déposées, les noms de personnages et leurs caractéristiques sont la propriété de Conceptcard, au Danemark et partout dans le monde.
+
+    </div>
+</div>
+<div id="global-footer-timer">
+    
+</div>
+
+        </div>
+        </div>
+    </div>
+</body>
+<!-- render png correctly in IE -->
+<!--[if lt IE 7.]>
+        <script defer type="text/javascript" src="/pngfix.js"></script>
+        <![endif]-->
+
+
+
+</html>

@@ -1,0 +1,174 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate,max-age=-1" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta name="Description" content="Bella Sara is a Collectable Card game with an E-Game element." /><meta name="Keywords" content="collectable card game, ccg, tcg, trading card game, horses, fantasy horses, equines" /><title>
+	Welcome to the World of Bella Sara
+</title>
+    <script src="/Utility/loadFlash.js" type="text/javascript"></script>
+
+<link href="App_Themes/q4/dropdown-EN.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/global.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/reset.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <div id="interior2c-container">
+        
+
+<div id="nonflash-topnav">
+    <a href="/about.html" class="nonflash-topnav-link">About Bella Sara</a> |
+    <a href="/help.html" class="nonflash-topnav-link">Help</a> |
+    <a href="/parents.html" class="nonflash-topnav-link">Parents</a> |
+    <a href="/faq.html" class="nonflash-topnav-link">FAQ</a> |
+    <a href="http://pressroom.bellasara.com" class="nonflash-topnav-link">Pressroom</a>
+</div>
+<div id="global-banner">
+    <a href="/index.aspx">
+    <img style="margin-top: 10px; margin-left: 40px" src="/images/logo-bellasara.png"
+        alt="" border="0" />
+    </a>
+</div>
+
+
+        
+<div id="global-joinnow">
+<a href="register.html" class="global-backtomycottage-text">Join now, it's FREE</a>
+</div>
+<div id="global-thumb">
+    <img src="images/notlogged_thumb.jpg" alt="" />
+</div>
+<div id="global-welcometext">
+     <div id="global-welcometext-button">   
+        <a href="login.aspx" class="global-welcometext-button-text">
+            Log In</a></div>
+</div>
+
+        <div id="center-content">
+            <form name="aspnetForm" method="post" action="login.aspx?ReturnUrl=%2fcards2.aspx%23" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQzNTUzNjI1Ng9kFgJmD2QWCmYPZBYCAgcPFQEVL1V0aWxpdHkvbG9hZEZsYXNoLmpzZAIBD2QWCGYPFgIeBFRleHQFEEFib3V0IEJlbGxhIFNhcmFkAgEPFgIfAAUESGVscGQCAg8WAh8ABQdQYXJlbnRzZAIDDxYCHwAFA0ZBUWQCAg9kFgICBQ8WAh8ABQZMb2cgSW5kAgMPZBYEAgEPZBYEAgsPDxYCHwAFI1lvdSBtdXN0IGxvZyBpbiB0byB2aXNpdCB0aGlzIHBhZ2UhZGQCDQ9kFgJmD2QWBAIDDw8WAh8ABQlVc2VyIE5hbWUWBB4Hb25mb2N1cwVAaWYgKHRoaXMudmFsdWUgPT0gJ1VzZXIgTmFtZScpIHsgdGhpcy52YWx1ZSA9ICcnOyB9IHJldHVybiB0cnVlOx4Gb25ibHVyBUBpZiAodGhpcy52YWx1ZSA9PSAnJykgeyB0aGlzLnZhbHVlID0gJ1VzZXIgTmFtZSc7IH0gcmV0dXJuIHRydWU7ZAIFDw9kFgYfAQU/aWYgKHRoaXMudmFsdWUgPT0gJ1Bhc3N3b3JkJykgeyB0aGlzLnZhbHVlID0gJyc7IH0gcmV0dXJuIHRydWU7HwIFP2lmICh0aGlzLnZhbHVlID09ICcnKSB7IHRoaXMudmFsdWUgPSAnUGFzc3dvcmQnOyB9IHJldHVybiB0cnVlOx4FdmFsdWUFCFBhc3N3b3JkZAIDD2QWDmYPFgIfAAUGTG9nIEluZAIBDxYCHwAFB1NpZ24gVXBkAgIPFgIfAAUQQWJvdXQgQmVsbGEgU2FyYWQCAw8WAh8ABQdQYXJlbnRzZAIEDxYCHwAFBUdhbWVzZAIFDxYCHwAFA0ZBUWQCBg8WAh8ABQRIZWxwZAIED2QWEGYPFgIfAAXMASZjb3B5OyAyMDA4IEhpZGRlbiBDaXR5IEdhbWVzLCBJbmMuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuIEFsbCB0cmFkZW1hcmtzIGFuZCANCgkgICAgICAgICAgICAgICAgICAgIGNoYXJhY3RlciBuYW1lcyBhbmQgdGhlaXIgZGlzdGluY3RpdmUgbGlrZW5lc3NlcyBhcmUgcHJvcGVydGllcyBvZiBjb25jZXB0Y2FyZCwgaW4gRGVubWFyayBhbmQgZWxzZXdoZXJlLmQCAQ9kFgJmDxYCHwAFEURhaWx5IFRpbWUgTGltaXQ6ZAICDxYCHwAFB1Byb2ZpbGVkAgMPFgIfAAUDRkFRZAIEDxYCHwAFB1BhcmVudHNkAgUPFgIfAAUFTGVnYWxkAgYPFgIfAAUESGVscGQCBw8WAh8ABQZMb2cgSW5kZAvKYz3lQNCixOypXymzRn/tK2It" />
+
+                
+    
+    <script type="text/javascript">
+        function setLocalOffset()
+        {
+            var date = new Date();
+            var offset = - date.getTimezoneOffset();
+            
+            document.getElementById("ctl00_Main_utcOffset").value = offset;
+        }
+    </script>
+    
+    <input type="hidden" name="ctl00$Main$utcOffset" id="ctl00_Main_utcOffset" />
+    
+        <div id="interior2c-title">
+            Log In
+        </div>
+
+	    <div id="interior2c-main">
+            <div id="login-text1">
+                Already a Bella Sara member?
+            </div>
+            <div id="login-text2">
+                Not a member? Sign up for your<br>FREE membership now and<br>receive a free virtual horse.<br>
+                <a href="register.html" class="home-signin-new">
+                NEW MEMBER SIGN UP
+                </a>
+            </div>
+            
+            <div id="login-redirect-error">
+                <span id="ctl00_Main_redirectError">You must log in to visit this page!</span>
+            </div>
+
+            <div id="generic-login-box">
+                <div id="generic-login">
+                    <table id="ctl00_Main_Login1" title="Log In" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td>
+                            <div>
+                                <span class="home-signin-welcome">
+                                    Welcome!
+                                </span>
+                                <div id="home-login">
+                                    <input name="ctl00$Main$Login1$UserName" type="text" value="User Name" id="ctl00_Main_Login1_UserName" title="User Name" onfocus="if (this.value == 'User Name') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'User Name'; } return true;" />
+                                    <input name="ctl00$Main$Login1$Password" type="password" id="ctl00_Main_Login1_Password" title="Password" onfocus="if (this.value == 'Password') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'Password'; } return true;" value="Password" />
+                                    <br />
+                                    <input type="submit" name="ctl00$Main$Login1$hlnkLogin" value="Sign In" onclick="setLocalOffset();" id="ctl00_Main_Login1_hlnkLogin" class="home-login loginButton" />
+                                </div>
+                            </div>
+                            <div id="login-error">
+                                
+                            </div>
+                        </td>
+	</tr>
+</table>
+                    <a href="forgot.aspx" id="forgot">
+                        forgot your password?
+                    </a>
+                </div>
+            </div>
+        </div>
+
+                
+
+<div id="interior2c-leftnav">
+    <a href="/login.html" class="interior2c-leftnav-link">Log In</a><br />
+    <a href="/register.html" class="interior2c-leftnav-link">Sign Up</a><br />
+    <br />
+    <a href="/about.html" class="interior2c-leftnav-link">About Bella Sara</a><br />
+    <a href="/parents.html" class="interior2c-leftnav-link">Parents</a><br />
+    <a href="/gameslist.html" class="interior2c-leftnav-link">Games</a><br />
+    <a href="/faq.html" class="interior2c-leftnav-link">FAQ</a><br />
+    <a href="/help.html" class="interior2c-leftnav-link">Help</a>
+</div>
+            
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBQKlq48KAqP+qZQOAszf/5wFAsnX5pYHAvG9yJUDdeJoNQlaby28zma8dwo3pWOmk8g=" /></form>
+        </div>
+        <div id="global-footer">
+            
+<div id="global-footer-legal">
+    <div style="margin: 2px; float: left;">
+        <a href="http://www.hiddencitygames.com/" target="_blank">
+            <img src="/images/logo-hcg.jpg" alt="Hidden City Games" align="left" />
+        </a>
+    </div>
+    <div style="margin: 2px; float: left;">
+        <a href="http://www.conceptcard.dk/" target="_blank">
+            <img src="/images/logo-cc.gif" alt="ConceptCard" align="left" />
+        </a>
+    </div>
+    <div class="global-footer-text">
+        &copy; 2008 Hidden City Games, Inc. All Rights Reserved. All trademarks and 
+	                    character names and their distinctive likenesses are properties of conceptcard, in Denmark and elsewhere.
+    </div>
+</div>
+<div id="global-footer-timer">
+    
+</div>
+<div id="global-footer-lowernav">
+    <a href="/profile.aspx" class="global-lowernav-link">
+        Profile</a> | <a href="/faq.html" class="global-lowernav-link">
+                FAQ</a>
+    | <a href="/parents.html" class="global-lowernav-link">
+        Parents</a> | <a href="/legal.html" class="global-lowernav-link">
+                Legal</a>
+    | <a href="/help.html" class="global-lowernav-link">
+        Help</a>
+        
+    | <a href="/login.html" class="global-lowernav-link">
+    Log In</a>
+</div>
+
+        </div>
+    </div>
+</body>
+<!-- render png correctly in IE -->
+<!--[if lt IE 7.]>
+        <script defer type="text/javascript" src="/pngfix.js"></script>
+        <![endif]-->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+    _uacct = "UA-851782-5";
+    urchinTracker();
+</script>
+
+</html>

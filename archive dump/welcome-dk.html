@@ -1,0 +1,236 @@
+ 
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Bella Sara</title>
+
+<style type="text/css">	
+*
+{	
+	margin: 0;
+	padding: 0;
+}
+h2{
+	font-size: 22px;
+}
+h3{
+	font-size: 18px;
+}
+
+.smaller{
+	font-size: 12px;
+}
+.loginheader{
+	font-size: 20px;
+	font-weight:bold;	
+}
+
+	
+a {
+	color:#F3E9A3;
+	text-decoration:none;
+	font-weight:bold;
+}
+	
+a:hover, a:active {
+	text-decoration:underline;
+}
+	
+a:visited {
+	color:#F3E9A3;
+}
+
+.navlink {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:normal;
+}
+.navlink:hover, .navlink:active	 {
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+.navlink:visited{
+	color:#FFFFFF;
+	}
+		
+#content-homepage {
+	position:absolute;
+	background:url(images/migration-bg.jpg) top left no-repeat;
+	width:950px;
+	height:610px;
+	z-index:1;
+	}
+#content-center {
+	position:absolute;
+	width:260px;
+	height:310px;
+	left:390px;
+	top:95px;
+	z-index:1;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	}
+#content-righttop {
+	position:absolute;
+	width:220px;
+	height:200px;
+	left:680px;
+	top:110px;
+	z-index:1;
+	color:#F3E9A3;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	}
+#content-rightbottom {
+	position:absolute;
+	width:220px;
+	height:200px;
+	left:680px;
+	top:355px;
+	z-index:1;
+	color:#F3E9A3;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	}
+	
+#top-nav {
+	position:absolute;
+	width:320px;
+	height:40px;
+	left:630px;
+	top:10px;
+	z-index:1;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;	
+	color: #FFFFFF;
+	}	
+			
+#wrapper {
+	margin:0 auto;
+	width:890px;
+	padding:0;
+	position:relative;
+	}
+
+#footer {
+	position:absolute;
+	left:0px;
+	bottom:10px;
+	margin:0 auto;
+	width:890px;
+	height:70px;
+	top: 650px;
+	}
+	
+	#logos-copyright {
+		position: absolute;
+		left: 0px;
+		top: 0;
+		width: 435px;
+		text-align: left;
+		color:#ffffff;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		line-height: 11px;
+	}
+	
+	#logos-copyright a {
+		margin-right: 11px;
+		float: left;
+		display: block;
+	}
+	
+	#content-login {
+	width:280px;
+	height:155px;
+	position:absolute;
+	left: 75px;
+	top: 415px;
+	color:#F3E9A3;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;	
+	}		
+</style>	
+  </head>
+
+ <body bgcolor="#4C416B">
+  <div id="wrapper">
+
+<div id="content-homepage">
+
+<div id="top-nav">
+<a href="http://www.bellasara.com" class="navlink">Bella Sara Startside</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="help.html" class="navlink">Hjælp</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="about.html" class="navlink">Om Bella Sara</a>
+</div>
+
+	<div id="content-center">
+		<h2>Velkommen til Bella Sara</h2>
+		<br>
+		<p>Dine nye kort kan blive aktiveret her på Bella Sara hjemmesiden. Se din nye hest komme til live i din online stald. Bliv på siden og  prøv de spændende spil og andre aktiviteter og fortsæt din personlige samling af fantastiske heste.</p>
+	</div>
+
+	<div id="content-righttop">
+		<h3>Bellacard og Bella Sara</h3>
+<br>
+		<p><img align="right" src="images/migration-bellacard.jpg">Nye heste vil være tilgængelig på Bellasara.com</p>
+<br>
+		<p><img align="right" src="images/migration-bellasara.jpg">For mere information</p>
+<br>
+		<p><a href="faq-dk.html">Klik her</a></p>
+	</div>
+
+	<div id="content-rightbottom">
+		<h3>Dine Bella Sara heste</h3>
+<br>
+		<p>Dine nye heste har lidt liv i sig. Kom og se!<br><span class="smaller">(currently in English only)</span><br><img src='images/home-safebutton.gif'></p>
+<br>
+		<p><a href="stables.html">Klik her</a></p>
+	</div>
+	
+	   <div id="content-login">
+	           <form method="post" id="home-login" action="login.html"> 
+	   <p><span class="loginheader">Login</span><br>Brug dine login informationer fra Bellacard.com hjemmesiden.</p>
+<br>
+            
+       <input id="homepage-username-box" name="userName" value="username" type="text" onfocus="if (this.value == 'username') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'username'; } return true;" />
+  <input id="homepage-password-box" name="password" value="password" type="password" onfocus="if (this.value == 'password') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'password'; } return true;" />
+<input id="homepage-signin-button" type="image" value="submit" name="login" src="images/migration-login-en.jpg"/>
+<br><br>
+<p><a href="register.html">Opret en ny profil</a>
+</p> 
+
+        </form>
+
+    </div>
+
+</div>
+
+
+
+	
+	
+<div id="footer">
+	
+	<div id="logos-copyright">
+	<a href="http://www.hiddencitygames.com/" target="_blank"><img src="images/logo-hcg.jpg" alt="Hidden City Games" border="0"/></a><a href="http://www.concept-card.com/" target="_blank"><img src="images/logo-cc.gif" alt="ConceptCard" border="0" /></a>
+	<p>&copy; 2006 Hidden City Games, LLC. All Rights Reserved. All trademarks and character names and their distinctive likenesses are properties of conceptcard, in Denmark and elsewhere.</p>
+	</div>
+	
+</div>
+	<!-- end footer -->
+	</div>
+		
+	
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-851782-5";
+urchinTracker();
+</script>
+  </body>
+</html>	
+

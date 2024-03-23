@@ -1,0 +1,207 @@
+.activation-main
+{
+    position: relative;
+    left: 13px;
+    background-image: url('../../images/activation-background.jpg' );
+    background-repeat: no-repeat;
+    height: 462px;
+    width: 886px;
+}
+
+.activationbuttonsmalllink
+{
+    font-size: 16px;
+    color: #7F3CA3;
+    text-decoration: none;
+}
+.activation-buttonsmall
+{
+    background-image: url('../../images/activation-buttonsmall.gif' );
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 103px;
+    text-align: center;
+    padding-top: 12px;
+}
+.activationbuttonlink
+{
+    font-size: 14px;
+    color: #7F3CA3;
+    text-decoration: none;
+}
+.activation-button
+{
+    background-image: url('../../images/activation-button.gif' );
+    background-repeat: no-repeat;
+    height: 51px;
+    width: 168px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+a.activation-check
+{
+    display: block;
+    width: 56px;
+    height: 52px;
+    background: url(../../images/activation-check.gif) 0 0 no-repeat;
+    text-decoration: none;
+}
+a:hover.activation-check
+{
+    background-position: -56px 0;
+}
+.activation-headertext
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.activation-subheadtext
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.activation-specialtext
+{
+    font-size: 16px;
+    color: #910FA7;
+    font-weight: bold;
+}
+.activation-inputtext
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.activation-bodytext
+{
+    font-size: 14px;
+}
+.activation-input
+{
+    background-image: url('../../images/activation-input-background.jpg' );
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-x-position: 0%;
+    background-y-position: 0%;
+    width: 214px;
+    height: 31px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: -moz-use-text-color;
+    border-right-color: -moz-use-text-color;
+    border-bottom-color: -moz-use-text-color;
+    border-left-color: -moz-use-text-color;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+
+
+
+#activation-horsecircle
+{
+    position: absolute;
+    left: 53px;
+    top: 23px;
+}
+#activation-text1
+{
+    position: absolute;
+    left: 95px;
+    top: 30px;
+}
+#activation-text2
+{
+    position: absolute;
+    left: 450px;
+    top: 30px;
+    text-align: right;
+}
+#activation-leftbox
+{
+    position: absolute;
+    left: 145px;
+    top: 130px;
+    width: 285px;
+    text-align: center;
+}
+#activation-rightbox
+{
+    position: absolute;
+    left: 435px;
+    top: 130px;
+    width: 285px;
+    text-align: center;
+}
+#activation-inputbox
+{
+    position: absolute;
+    left: 290px;
+    top: 380px;
+}
+
+#activation-leftboxheaderintro
+{
+    position: absolute;
+    left: 95px;
+    top: 30px;
+    font-size: 24px;
+    font-face: bold;
+}
+#activation-leftboxintro
+{
+    position: absolute;
+    left: 95px;
+    top: 100px;
+    width: 300px;
+    font-size: 18px;
+}
+
+#activation-inputboxintro
+{
+    position: absolute;
+    left: 140px;
+    top: 190px;
+}
+#activation-hints li
+{
+    list-style-type: circle;
+    font-size: 12px;
+}
+#activation-questioncircle
+{
+    position: absolute;
+    left: 530px;
+    top: 23px;
+}
+#activation-rightboxheader
+{
+    position: absolute;
+    left: 575px;
+    top: 30px;
+    font-size: 24px;
+    font-face: bold;
+    color: #813DA4;
+}
+#activation-rightboxintro
+{
+    background-color: #E1D4EE;
+    position: absolute;
+    left: 530px;
+    top: 70px;
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-right: 20px;
+}

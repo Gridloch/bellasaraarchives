@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appsettings>
+	<add key="useWebService" value="1"/>
+	<add key="ExtrasLockName" value="0"/>
+	<add key="exitURL" value="/beautybox_load.html"/>
+	<add key="version" value="1"/>
+</appsettings>

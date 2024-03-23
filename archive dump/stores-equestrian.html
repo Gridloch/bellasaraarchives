@@ -1,0 +1,333 @@
+ 
+
+
+
+ 
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate,max-age=-1"> 
+<meta http-equiv="Pragma" content="no-cache"> 
+<meta http-equiv="Expires" content="-1">
+<title>Welcome to the World of Bella Sara</title>
+<meta name="Description" content="Bella Sara is a Collectable Card game with an E-Game element." />
+<meta name="Keywords" content="collectable card game, ccg, tcg, trading card game, horses, fantasy horses, equines" />
+<link rel="stylesheet" href="screen.css" media="screen" type="text/css" />
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="swfobject.js"></script>
+<!-- render png correctly in IE -->
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+
+
+<body>
+
+<center>
+<div id="wrapper" align="center">
+
+	<div id="header"><!-- this nav-bg div is because of IE --><div id="nav-bg">
+	<a href="http://www.bellasara.com/"><img src="images/bella-logo-small.gif" alt="Bella Sara" id="logo" /></a>
+	
+        
+        
+        
+        
+        
+        
+	<div id="top-banner">
+		<img src="images/banners/banner-thunder.jpg" alt="Bella Message" />
+	</div>        
+        
+	<div id="current-horse">
+		<img src="images/notlogged_thumb.jpg" alt="Not Logged In" />
+		<p><a href="login.html">Log In</a></p>
+	</div>
+
+
+                
+        
+        
+
+<!--
+    Topnav.jsp
+    
+    Defines the top navigation.
+--> 
+
+<ul id="topnav">
+		<li id="nav-ranch"><a href="stables.html" onmouseover="layerSwap('sub-ranch','','show');" onmouseenter="layerSwap('sub-ranch','','show');" onmouseout="layerSwap('sub-ranch','','hide');"><img src="images/nav-ranch.gif" alt="Ranch" /></a></li>
+		<li id="nav-cards"><a href="cards.html" onmouseover="layerSwap('sub-cards','','show');" onmouseenter="layerSwap('sub-cards','','show');" onmouseout="layerSwap('sub-cards','','hide');"><img src="images/nav-cards.gif" alt="Cards" /></a></li>
+		<li id="nav-games"><a href="gameslist.html" onmouseover="layerSwap('sub-games','','show');" onmouseenter="layerSwap('sub-games','','show');" onmouseout="layerSwap('sub-games','','hide');"><img src="images/nav-games.gif" alt="Games" /></a></li>
+		<li id="nav-world"><a href="world.html"><img src="images/nav-world.gif" alt="World" /></a></li>
+		<li id="nav-community"><a href="news.html" onmouseover="layerSwap('sub-community','','show');" onmouseenter="layerSwap('sub-community','','show');" onmouseout="layerSwap('sub-community','','hide');"><img src="images/nav-whatsNew2.gif" alt="Community" /></a></li>
+		<li id="nav-shop"><a href="shop.html" onmouseover="layerSwap('sub-shop','','show');" onmouseenter="layerSwap('sub-shop','','show');" onmouseout="layerSwap('sub-shop','','hide');"><img src="images/nav-shop.gif" alt="Shop" /></a></li>
+		<li id="nav-activate">
+			<form method="get" action="activate.html">
+				<input type="text" name="cardCode" value="activate card code" onfocus="if (this.value == 'activate card code') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'activate card code'; } return true;" id="nav-activate-box" /><input type="image" src="images/nav-activate-go.gif" id="nav-activate-go" />
+			</form>
+		</li>
+	</ul>
+	
+
+<!-- subnav -->
+	<div id="subnav">
+		<ul id="sub-ranch" style="visibility:hidden;" onmouseover="layerSwap('sub-ranch','','show');" onmouseenter="layerSwap('sub-ranch','','show');" onmouseout="layerSwap('sub-ranch','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+			<li><a href="stables.html">Choose a Horse</a></li>
+			<li><a href="stall.html">Active Stable</a></li>
+			</div>
+		</ul>
+		<ul id="sub-cards" style="visibility:hidden;" onmouseover="layerSwap('sub-cards','','show');" onmouseenter="layerSwap('sub-cards','','show');" onmouseout="layerSwap('sub-cards','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+			<li><a href="cards.html">Bella Sara Cards</a></li>			
+			<li><a href="gamerules.html">Card Games</a></li>
+			</div>
+		</ul>
+		<ul id="sub-games" style="visibility:hidden;" onmouseover="layerSwap('sub-games','','show');" onmouseenter="layerSwap('sub-games','','show');" onmouseout="layerSwap('sub-games','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+			<li><a href="beautybox_load.html">Bella's Beauty Box</a></li>
+			<li><a href="coloring.html">Coloring Book</a></li>				
+			<li><a href="puzzles.html">Jigsaw Puzzles</a></li>
+			<li><a href="wallpapers.html">Desktop Wallpapers</a></li>			
+			<li><a href="memorygame.html">Yin & Yang's Memory Game</a></li>
+			<li><a href="jumpinggame.html">Bellisimo's Jumping Contest</a></li>
+			<li><a href="quizgame.html">Bello's Quiz</a></li>
+			<li><a href="knowledge.html">Santo's Knowledge Quiz</a></li>
+			</div>
+		</ul>
+		<ul id="sub-community" style="visibility:hidden;" onmouseover="layerSwap('sub-community','','show');" onmouseenter="layerSwap('sub-community','','show');" onmouseout="layerSwap('sub-community','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+                            <li><a href="about.html">About Bella Sara</a></li>
+							<li><a href="faq.html">Bella Sara FAQ</a></li>
+			</div>
+		</ul>
+		<ul id="sub-shop" style="visibility:hidden;" onmouseover="layerSwap('sub-shop','','show');" onmouseenter="layerSwap('sub-shop','','show');" onmouseout="layerSwap('sub-shop','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+<!--			<div>
+			<li><a href="locator.html">Store Locator</a></li>
+			</div>-->
+		</ul>
+	</div>
+
+</div>
+
+	
+	<!-- subnav goes here where applicable -->
+  </div><!-- end header -->
+	
+	
+	<div id="content-internalpage" style="background:url(images/internal-bg-checkout.jpg) top right no-repeat;">
+	
+
+	
+	
+	<div class="main-shop-box">
+<div align="center"><a href="shop.html"><img src="images/shop-header-small.png"></a></div>
+
+<a name="top"></a>
+
+<h1>Equestrian/Tack Stores</h1>
+Available States:<BR />
+<a href="#Equestrian-CA">CA</a>
+, <a href="#Equestrian-CT">CT</a>
+, <a href="#Equestrian-FL">FL</a>
+, <a href="#Equestrian-GA">GA</a>
+, <a href="#Equestrian-IL">IL</a>
+, <a href="#Equestrian-IN">IN</a>
+, <a href="#Equestrian-KY">KY</a>
+, <a href="#Equestrian-MA">MA</a>
+, <a href="#Equestrian-ME">ME</a>
+, <a href="#Equestrian-MI">MI</a>
+, <a href="#Equestrian-MO">MO</a>
+, <a href="#Equestrian-NC">NC</a>
+, <a href="#Equestrian-NH">NH</a>
+, <a href="#Equestrian-NJ">NJ</a>
+, <a href="#Equestrian-NY">NY</a>
+, <a href="#Equestrian-OH">OH</a>
+, <a href="#Equestrian-OK">OK</a>
+, <a href="#Equestrian-OR">OR</a>
+, <a href="#Equestrian-PA">PA</a>
+, <a href="#Equestrian-RI">RI</a>
+, <a href="#Equestrian-SC">SC</a>
+, <a href="#Equestrian-TN">TN</a>
+, <a href="#Equestrian-VA">VA</a>
+, <a href="#Equestrian-VT">VT</a>
+, <a href="#Equestrian-WY">WY</a>
+
+<BR /><BR /><div class="hr"><hr /></div>
+
+<a name="Equestrian-CA"></a><h4>Equestrian/Tack - CA - Stores</h4>
+<strong>Equine Treasures</strong><address>28708-C Roadside Dr<br />Agoura Hills, CA 91301</address><strong>Tel: </strong> 818-879-8333
+<br /><br /><strong>Horse Presence</strong><address>45 Outlook Circle<br />Pacifica, CA 94044</address><strong>Tel: </strong> <br><a href="http://www.horsepresence.com" target="_blank">www.horsepresence.com</a>
+<br /><br /><strong>Los Angeles Turf Club Gift Shop</strong><address>285 W Huntington Dr<br />Arcadia, CA 91007</address><strong>Tel: </strong> 800 675-2114<br><a href="http://www.santaanita.com" target="_blank">www.santaanita.com</a>
+<br /><br /><strong>Tackwest Inc</strong><address>32848 Wolf Store Rd Suite A<br />Temecula, CA 92592</address><strong>Tel: </strong> 951-302-0220
+<br /><br /><strong>Wye Road Feed & Supply</strong><address>1260 N Main St<br />Bishop, CA 93514</address><strong>Tel: </strong> 760 872-8010
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-CT"></a><h4>Equestrian/Tack - CT - Stores</h4>
+<strong>Equestrian Centre, Inc.</strong><address>136 Simsbury Rd # 12<br />Avon, CT 06001</address><strong>Tel: </strong> 860-678-1913
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-FL"></a><h4>Equestrian/Tack - FL - Stores</h4>
+<strong>Dakota Duke Enterprises</strong><address>2650 Elisa Drive West<br />Jacksonville, FL 32216</address><strong>Tel: </strong> 904-686-7396
+<br /><br /><strong>Littlewood Farm</strong><address>3512 Grand Prix Farm Dr<br />Wellington, FL 33414</address><strong>Tel: </strong> 651-239-5267
+<br /><br /><strong>Tack Shack of Ocala</strong><address>481 SW 60th Ave Unit 100<br />Ocala, FL 34474</address><strong>Tel: </strong> 352-873-3599<br><a href="http://www.tackshackofocala.com" target="_blank">www.tackshackofocala.com</a>
+<br /><br /><strong>Sunset Feed</strong><address>7650 South West 117th Ave<br />Miami, FL 33183</address><strong>Tel: </strong>305-271-0341
+<br /><br /><strong>Spectrum Saddle Shop </strong><address>6738 N. State Rd. 7<br />Coconut Creek, FL 33073</address><strong>Tel: </strong>954-429-8877
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-GA"></a><h4>Equestrian/Tack - GA - Stores</h4>
+<strong>Atlanta Saddlery</strong><address>1670C Highway 9 South<br />Alpharetta, GA 30004</address><strong>Tel: </strong> 1800-356-7203
+<br /><br /><strong>Horse Power</strong><address>2730 Hwy 34 East, Suite B<br />Newnan, GA 30265</address><strong>Tel: </strong> 678 423-3699
+<br /><br /><strong>Rucker Horse and Pet</strong><address>3540 Keith Bridge Rd<br />Cumming, GA 30041</address><strong>Tel: </strong> 770.844.7275
+<br /><br /><strong>The Equine Store</strong><address>210 Long Dirt Rd<br />Leesburg , GA 31763</address><strong>Tel: </strong> 229-420-7287
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-IL"></a><h4>Equestrian/Tack - IL - Stores</h4>
+<strong>Ann Hubbard Tack</strong><address>123  N. Waukegan Rd<br />Lake Bluff, IL 60044</address><strong>Tel: </strong> 847-234-7080
+<br /><br /><strong>Bit 'N Bridle</strong><address>2240 Irving Park Rd<br />Hanover Park, IL 60133</address><strong>Tel: </strong> 630-837-8070
+<br /><br /><strong>Horse & Groom</strong><address>17850 Maple Park Rd<br />Maple Park, IL 60151</address><strong>Tel: </strong> 847-606-5308
+<br /><br /><strong>Oros Saddlery</strong><address>1931 W Wilson<br />Batavia, IL 60510</address><strong>Tel: </strong> 630 482-3240
+<br /><br /><strong>The Riding Store</strong><address>3050 Hobson Rd<br />Woodridge, IL 60517</address><strong>Tel: </strong> 630-515-9779
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-IN"></a><h4>Equestrian/Tack - IN - Stores</h4>
+<strong>Wild Horse Crossing</strong><address>6703 W 800 N<br />Lake Village, IN 46349</address><strong>Tel: </strong>219-992-9000
+<br /><br /><strong>Golden Royal Saddlery</strong><address>12603 Southeastern Ave<br />Indianapolis, IN 46259</address><strong>Tel: </strong>317-862-3070
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-KY"></a><h4>Equestrian/Tack - KY - Stores</h4>
+<strong>JR & Co.</strong><address>2430 Log Lick Rd<br />Winchester, KY 40391</address><strong>Tel: </strong> 717-817-1646
+<br /><br /><strong>Central Kentucky Tack & Leather</strong><address>3380 Paris Pike<br />Lexington, KY 40511</address><strong>Tel: </strong>859-299-8225
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-MA"></a><h4>Equestrian/Tack - MA - Stores</h4>
+<strong>Crop and Carrot Tack Shop</strong><address>133 W Main St Rte 9<br />Spencer, MA O1562</address><strong>Tel: </strong>508-885-0255
+<br /><br /><strong>Pegasus Tack Shop</strong><address>429 Great Rd. <br />Acton, MA O1720</address><strong>Tel: </strong>978-263-4222
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-ME"></a><h4>Equestrian/Tack - ME - Stores</h4>
+<strong>Blue Seal Feeds, Inc.</strong><address>43 Main St<br />Windham, ME 04062</address><strong>Tel: </strong> 207-892-9411
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-MI"></a><h4>Equestrian/Tack - MI - Stores</h4>
+<strong>Franklin Saddler</strong><address>32800 Franklin Rd<br />Franklin, MI 48025</address><strong>Tel: </strong> 248 538 8293
+<br /><br /><strong>Lazy K Tack Shop</strong><address>1820 East Michigan Ave<br />Battle Creek, MI 49014</address><strong>Tel: </strong> 269 964 1714
+<br /><br /><strong>The Horse Crossing, LLC</strong><address>925 S Main St, G5<br />Frankenmuth, MI 48734</address><strong>Tel: </strong> 989-652-4080
+<br /><br /><strong>Tack Stop Saddlery</strong><address>7088 Highland Rd<br />Waterford, MI 48327</address><strong>Tel: </strong>248-886-0105
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-MO"></a><h4>Equestrian/Tack - MO - Stores</h4>
+<strong>Chariton Vet Supply</strong><address>1136 Private Rd.  #1219<br />Moberly, MO 65270</address><strong>Tel: </strong>800-748-7837<br><a href="http://www.charitonvet.com" target="_blank">http://www.charitonvet.com</a>
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-NC"></a><h4>Equestrian/Tack - NC - Stores</h4>
+<strong>Tack & Treasures</strong><address>450 Clearwater Dr Northwest<br />Concord, NC 28027</address><strong>Tel: </strong> 704-787-3467
+<br /><br /><strong>Cabin Branch Tack Shop</strong><address>232 SW Broad St<br />Southern Pines, NC 28387</address><strong>Tel: </strong>1-800-358-7123
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-NH"></a><h4>Equestrian/Tack - NH - Stores</h4>
+<strong>The Cheshire Horse</strong><address>8 Whittemore Farm Rd<br />Swanzey, NH O3446</address><strong>Tel: </strong>603-358-3001
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-NJ"></a><h4>Equestrian/Tack - NJ - Stores</h4>
+<strong>Beval Staddlery Ltd</strong><address>10 Park Ave<br />Gladstone, NJ O7934</address><strong>Tel: </strong> 908-234-2828
+<br /><br /><strong>Friends of Lord Stirling Gift Shop</strong><address>256 S Maple Ave<br />Basking Ridge, NJ O7920</address><strong>Tel: </strong> 908-766-5955
+<br /><br /><strong>Rick's Saddle Shop</strong><address>9 Water St<br />Englishtown, NJ 07726</address><strong>Tel: </strong> 732-446-4330
+<br /><br /><strong>Rick's Saddle Shop & Feed Supplies</strong><address>282 Route 539  <br />Cream Ridge, NJ 08514</address><strong>Tel: </strong> 609 758-7267
+<br /><br /><strong>Toll Booth Tack Shop</strong><address>2441 Route 206<br />Eastampton, NJ 08060</address><strong>Tel: </strong> 609-702-1404
+<br /><br /><strong>Stitching Horse Leathers INC</strong><address>4422 Rte 27<br />Kingston, NJ O8528</address><strong>Tel: </strong>609-921-6854
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-NY"></a><h4>Equestrian/Tack - NY - Stores</h4>
+<strong>Gallop On Saddlery</strong><address>38 E Genesee St<br />Skaneateles, NY 13152</address><strong>Tel: </strong> 315 685 5232<br><a href="http://www.galloponsaddlery.com" target="_blank">www.galloponsaddlery.com</a>
+<br /><br /><strong>JP North</strong><address>10251 County Route 36<br />Greenville, NY 12083</address><strong>Tel: </strong> 518 966-4488
+<br /><br /><strong>Brennan's Bit & Bridle</strong><address>42 Snake Hollow Rd<br />Bridgehampton, NY 11932</address><strong>Tel: </strong>631-537-2574
+<br /><br /><strong>Manhattan Saddlery</strong><address>117 E 24th St<br />New York, NY 10010</address><strong>Tel: </strong>212-673-1400
+<br /><br /><strong>North Shore Saddlery</strong><address>6308 Northern Blvd (Rte 25A)<br />East Norwich, NY 11732</address><strong>Tel: </strong>516-922-9198
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-OH"></a><h4>Equestrian/Tack - OH - Stores</h4>
+<strong>Dark Star Books</strong><address>237 Xenia Ave<br />Yellow Springs, OH 45387</address><strong>Tel: </strong> 937 767-9400<br><a href="http://www.darkstarbookstore.com" target="_blank">www.darkstarbookstore.com</a>
+<br /><br /><strong>Dublin Tack Shoppe</strong><address>24 North High<br />Dublin, OH 43017</address><strong>Tel: </strong> 614-889-1965
+<br /><br /><strong>Lucky Horse Junction</strong><address>1967 St Route 42 North<br />Lebanon, OH 45036</address><strong>Tel: </strong> 800-730-0923
+<br /><br /><strong>Tack Trunk</strong><address>700 S St Route 42<br />Lebanon, OH 45036</address><strong>Tel: </strong> 513-932-4375
+<br /><br /><strong>Valley Tack Shop</strong><address>6780 Center Rd<br />Valley City, OH 44280</address><strong>Tel: </strong> 330 483-3366
+<br /><br /><strong>All For The Horse</strong><address>5784 Amy Boyle Rd<br />Brookfield, OH 44403</address><strong>Tel: </strong>330-448-8159
+<br /><br /><strong>McCauley Saddlery</strong><address>467 Wards Corner Rd<br />Loveland, OH 45140</address><strong>Tel: </strong>513 831-5551
+<br /><br /><strong>Winning Edge Products Inc</strong><address>6998 N US Hwy 27 Suite 112<br />Ocala, OH 34482</address><strong>Tel: </strong>1-800-239-8119
+<br /><br /><strong>Youngs Jersey Dairy</strong><address>6880 Springfield-Xenia Rd<br />Yellow Springs, OH 45387</address><strong>Tel: </strong>937-325-7009
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-OK"></a><h4>Equestrian/Tack - OK - Stores</h4>
+<strong>Drysdales</strong><address>3220 S Memorial Dr<br />Tulsa, OK 74145</address><strong>Tel: </strong> 918-664-6481<br><a href="http://www.drysdales.com" target="_blank">www.drysdales.com</a>
+<br /><br /><strong>Drysdales</strong><address>10127 E 71st St<br />Tulsa, OK 74133</address><strong>Tel: </strong> 
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-OR"></a><h4>Equestrian/Tack - OR - Stores</h4>
+<strong>Gallops Saddlery</strong><address>17937 SW McEwan<br />Tigard, OR 97224</address><strong>Tel: </strong> 503 639-6347<br><a href="http://www.shopgallops.com" target="_blank">www.shopgallops.com</a>
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-PA"></a><h4>Equestrian/Tack - PA - Stores</h4>
+<strong>Everything Horses</strong><address>110 Fey Lane<br />Mars, PA 16046</address><strong>Tel: </strong> 724-625-9991
+<br /><br /><strong>Horseloverz.com (Choice Brands)</strong><address>254 N. Cedar St<br />Hazleton, PA 18201</address><strong>Tel: </strong> 800 214-4295
+<br /><br /><strong>HorsePlace </strong><address>826 E Baltimore Pike<br />Kennett Square, PA 19348</address><strong>Tel: </strong> 610-444-1119
+<br /><br /><strong>Rick's Heritage Saddlery</strong><address>1340 Pottstown Pike, Rte 100<br />West Chester, PA 19380</address><strong>Tel: </strong> 610-431-3272
+<br /><br /><strong>Bucks County Saddlery</strong><address>4765 York Rd<br />Buckingham, PA 18912</address><strong>Tel: </strong>215-794-5411
+<br /><br /><strong>The Horse Place</strong><address>5050 Hamot St<br />McKean, PA 16426</address><strong>Tel: </strong>814-476-7878
+<br /><br /><strong>Springhouse Tack</strong><address>1860 Rte 119 North<br />Greensburg, PA 15601</address><strong>Tel: </strong>724 837-2631
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-RI"></a><h4>Equestrian/Tack - RI - Stores</h4>
+<strong>The Equine Connection</strong><address>10 King Charles Dr, Suite 104<br />Portsmouth, RI 2871</address><strong>Tel: </strong> 401-682-1650
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-SC"></a><h4>Equestrian/Tack - SC - Stores</h4>
+<strong>Carolina Country Store</strong><address>9510 Charlotte Hwy<br />Indian Land, SC 29715</address><strong>Tel: </strong> 803-547-5146
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-TN"></a><h4>Equestrian/Tack - TN - Stores</h4>
+<strong>Dickson Farm Coop</strong><address>705 Henslee Drive<br />Dickson, TN 37055</address><strong>Tel: </strong> 615 446-2343
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-VA"></a><h4>Equestrian/Tack - VA - Stores</h4>
+<strong>Somerset Saddlery</strong><address>8210D Oak Springs Rd<br />Marshall, VA 20115</address><strong>Tel: </strong> 256-810-9800
+<br /><br /><strong>Tack Box, Inc</strong><address>7 W Federal St<br />Middleburg, VA 20117</address><strong>Tel: </strong> 540-687-3231
+<br /><br /><strong>The Gifted Horse</strong><address>1417 N Emmet St Suite D<br />Charlottesville, VA  22903</address><strong>Tel: </strong> 434-979-0957
+<br /><br /><strong>Horse N Hound</strong><address>667 Zachary Taylor Hwy<br />Flint Hill, VA 22627</address><strong>Tel: </strong>540-675-1650
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-VT"></a><h4>Equestrian/Tack - VT - Stores</h4>
+<strong>Irwin's</strong><address>2470-1 Rt 7<br />Ferrisburg, VT 05456</address><strong>Tel: </strong> 802 877-3665 (US)
+<br /><br /><strong>Strafford Saddlery Shop</strong><address>264 Route 132<br />South Strafford, VT 05070</address><strong>Tel: </strong> 802-765-4485
+
+<br /><br /><a href="#top">Back to top</a><BR /><a name="Equestrian-WY"></a><h4>Equestrian/Tack - WY - Stores</h4>
+<strong>Synergist Saddles</strong><address>1087 St James Rd<br />Cheyenne, WY 82009</address><strong>Tel: </strong> 307 433-1008
+
+	</div>
+	<!-- end main shop box -->
+	
+	
+	
+	</div>
+	<!-- end content internal page -->
+	
+	<div id="footer">
+	
+	<div id="logos-copyright">
+	<a href="http://www.hiddencitygames.com/" target="_blank"><img src="images/logo-hcg.jpg" alt="Hidden City Games" /></a><a href="http://www.concept-card.com/" target="_blank"><img src="images/logo-cc.gif" alt="ConceptCard" /></a>
+	<p>&copy; 2006 Hidden City Games, LLC. All Rights Reserved. All trademarks and character names and their distinctive likenesses are properties of conceptcard, in Denmark and elsewhere.</p>
+	</div>
+	
+	<div id="footer-slug">
+		<div id="footer-slug">
+		<a href="logout.html">log out</a> | <a href="profile.html">view profile</a> | <a href="parents.html">parents</a> | <a href="legal.html">legal</a> | <a href="help.html">help</a><br />
+
+		</div><!-- end footer slug -->
+	</div><!-- end footer slug -->
+
+</div>
+	<!-- end footer -->
+        
+</div><!-- end wrapper -->
+
+
+</center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-851782-5";
+urchinTracker();
+</script>
+</body>
+</html>
+        
+        

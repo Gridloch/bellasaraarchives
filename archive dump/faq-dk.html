@@ -1,0 +1,254 @@
+ 
+ 
+
+
+
+ 
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate,max-age=-1"> 
+<meta http-equiv="Pragma" content="no-cache"> 
+<meta http-equiv="Expires" content="-1">
+<title>Welcome to the World of Bella Sara</title>
+<meta name="Description" content="Bella Sara is a Collectable Card game with an E-Game element." />
+<meta name="Keywords" content="collectable card game, ccg, tcg, trading card game, horses, fantasy horses, equines" />
+<link rel="stylesheet" href="screen.css" media="screen" type="text/css" />
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="swfobject.js"></script>
+<!-- render png correctly in IE -->
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+
+
+<body>
+
+<center>
+<div id="wrapper" align="center">
+
+	<div id="header"><!-- this nav-bg div is because of IE --><div id="nav-bg">
+	<a href="http://www.bellasara.com/"><img src="images/bella-logo-small.gif" alt="Bella Sara" id="logo" /></a>
+	
+        
+        
+        
+        
+        
+        
+	<div id="top-banner">
+		<img src="images/banners/banner-skipper.jpg" alt="Bella Message" />
+	</div>        
+        
+	<div id="current-horse">
+		<img src="images/notlogged_thumb.jpg" alt="Not Logged In" />
+		<p><a href="login.html">Log In</a></p>
+	</div>
+
+
+                
+        
+        
+
+<!--
+    Topnav.jsp
+    
+    Defines the top navigation.
+--> 
+
+<ul id="topnav">
+		<li id="nav-ranch"><a href="stables.html" onmouseover="layerSwap('sub-ranch','','show');" onmouseenter="layerSwap('sub-ranch','','show');" onmouseout="layerSwap('sub-ranch','','hide');"><img src="images/nav-ranch.gif" alt="Ranch" /></a></li>
+		<li id="nav-cards"><a href="cards.html" onmouseover="layerSwap('sub-cards','','show');" onmouseenter="layerSwap('sub-cards','','show');" onmouseout="layerSwap('sub-cards','','hide');"><img src="images/nav-cards.gif" alt="Cards" /></a></li>
+		<li id="nav-games"><a href="gameslist.html" onmouseover="layerSwap('sub-games','','show');" onmouseenter="layerSwap('sub-games','','show');" onmouseout="layerSwap('sub-games','','hide');"><img src="images/nav-games.gif" alt="Games" /></a></li>
+		<li id="nav-world"><a href="world.html"><img src="images/nav-world.gif" alt="World" /></a></li>
+		<li id="nav-community"><a href="news.html" onmouseover="layerSwap('sub-community','','show');" onmouseenter="layerSwap('sub-community','','show');" onmouseout="layerSwap('sub-community','','hide');"><img src="images/nav-whatsNew2.gif" alt="What's New" /></a></li>
+		<li id="nav-shop"><a href="shop.html" onmouseover="layerSwap('sub-shop','','show');" onmouseenter="layerSwap('sub-shop','','show');" onmouseout="layerSwap('sub-shop','','hide');"><img src="images/nav-shop.gif" alt="Shop" /></a></li>
+		<li id="nav-activate">
+
+			<form method="get" action="activate.html">
+				<input type="text" name="cardCode" value="activate card code" onfocus="if (this.value == 'activate card code') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'activate card code'; } return true;" id="nav-activate-box" /><input type="image" src="images/nav-activate-go.gif" id="nav-activate-go" />
+			</form>
+		</li>
+	</ul>
+	
+
+<!-- subnav -->
+	<div id="subnav">
+		<ul id="sub-ranch" style="visibility:hidden;" onmouseover="layerSwap('sub-ranch','','show');" onmouseenter="layerSwap('sub-ranch','','show');" onmouseout="layerSwap('sub-ranch','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+			<li><a href="stables.html">Choose a Horse</a></li>
+			<li><a href="stall.html">Active Stable</a></li>
+			</div>
+		</ul>
+		<ul id="sub-cards" style="visibility:hidden;" onmouseover="layerSwap('sub-cards','','show');" onmouseenter="layerSwap('sub-cards','','show');" onmouseout="layerSwap('sub-cards','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+			<li><a href="cards.html">Your Card Collection</a></li>			
+			<li><a href="gamerules.html">Card Games</a></li>
+			<li><a href="collecting.html">Card Collecting</a></li>
+			</div>
+		</ul>
+		<ul id="sub-games" style="visibility:hidden;" onmouseover="layerSwap('sub-games','','show');" onmouseenter="layerSwap('sub-games','','show');" onmouseout="layerSwap('sub-games','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+			<li><a href="lanceriding.html">Lance Riding Game</a></li>
+			<li><a href="beautybox_load.html">Bella's Beauty Box</a></li>
+			<li><a href="coloring.html">Coloring Book</a></li>				
+			<li><a href="puzzles.html">Jigsaw Puzzles</a></li>
+			<li><a href="wallpapers.html">Desktop Wallpapers</a></li>			
+			<li><a href="memorygame.html">Yin & Yang's Memory Game</a></li>
+			<li><a href="jumpinggame.html">Bellisimo's Jumping Contest</a></li>
+			<li><a href="quizgame.html">Bello's Quiz</a></li>
+			<li><a href="knowledge.html">Santo's Knowledge Quiz</a></li>
+			</div>
+		</ul>
+		<ul id="sub-community" style="visibility:hidden;" onmouseover="layerSwap('sub-community','','show');" onmouseenter="layerSwap('sub-community','','show');" onmouseout="layerSwap('sub-community','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+			<div>
+                            <li><a href="about.html">About Bella Sara</a></li>
+							<li><a href="faq.html">Bella Sara FAQ</a></li>
+			</div>
+		</ul>
+		<ul id="sub-shop" style="visibility:hidden;" onmouseover="layerSwap('sub-shop','','show');" onmouseenter="layerSwap('sub-shop','','show');" onmouseout="layerSwap('sub-shop','','hide');">
+			<img src="images/nav-bg-over.gif" alt="" class="navon" />
+<!--			<div>
+			<li><a href="locator.html">Store Locator</a></li>
+			</div>-->
+		</ul>
+	</div>
+
+</div>
+
+	
+	
+  </div><!-- end header -->
+	
+	
+	<div id="content-internalpage" style="background:url(images/internal-bg-generic.jpg) top right no-repeat;">
+
+	<div id="generic-box">
+	<h1>Bellacard.com & BellaSara.com:  Spørgsmål og svar</h1>
+
+<p><b>sp. Hvad sker der? Når jeg går ind på BellaCard.com kommer jeg ind på en ny hjemmeside?</b><br>
+<b>sv.</b> Det er rigtigt. Bella Sara har nu fans i hele verden så vi har lavet en hjemmeside til alle, der er både størrer og bedre. På den ny hjemmeside kan du udforske Bella Sara's verden med gode spil og sjove aktiviteter.</p>
+
+<p><b>sp. Hvad er BellaSara.com?</b><br>
+<b>sv.</b> BellaSara.com er det ny hjem for Bella Sara kort spillet. Først var det kun for fans i USA, men nu er det for alle der holder af Bella Sara.</p>
+
+<p><b>sp. Er Bella Sara det samme som Bella?</b><br>
+<b>sv.</b> Ja det er det. I USA var der alledre noget der hed Bella så derfor var det nødvendigt at finde et andet mere specielt navn.</p>
+
+<p><b>sp. Hvordan logger jeg på BellaSara.com?</b><br>
+<b>sv.</b> Når du går ind på BellaSara.com for første gang, skal du tilmelde dig som nyt medlem. Det er nemt- bare følg linket på forsiden og vi vil hjælpe dig igennem. Hvis du allerede er tilmeldt BellaCard.com skal du bare bruge det samme brugernavn og password. Du skal også genindtaste din og dine forældres email adresse, hvis du er under 13år. </p>
+
+
+<p><b>sp. Nogle af siderne er på mit sprog, mens andre kun er på engelsk, Hvorfor?</b><br>
+<b>sv.</b> At få hjemmesiden til at virke for alle Bella Sara fans verden over er en stor opgave og vi er ikke helt færdige endnu. Du må se nogle af siderne på engelsk indtil vi er færdige med alle oversættelser i August. Vi beklager ventetiden og vi håber du vil have sjov på de øvrige sider indtil da.</p>
+
+
+
+<p></p><b>sp. Nogle af mine heste er ikke her!  Hvor er de?</b><br>
+<b>sv.</b> Bare rolig- alle dine heste er i sikre hænder. Vi vil tage os godt af dine heste indtil vi har gjort siden stor nok til alle's heste. I løbet af de næste par måneder vil de alle være tilbage. Og når de er tilbage vil de se endnu flottere ud!</p>
+
+
+
+<p><b>sp. Jeg kan ikke finde nogle af de spil,jeg plejer at spille, hvor er de?</b><br>
+<b>sv.</b> Nogle af de spil du plejer at spille på Bellacard.com er ikke på BellaSara.com, men vi bliver ved med at tilføje nye spil på BellaSara.com og vi håber at  nogle af disse spil vil blive dine nye farvoritter.</p>
+
+<p><b>sp. Alle mine venner er væk, hvor kan jeg se dem?</b><br>
+<b>sv.</b> Vi beklager men de næste par måneder vil du ikke have mulighed for at benytte vennelisten. Vi arbejder stadig på denne del af siden. I August vil dine venner være tilbage. Indtil da vil de blive sikkert opbevaret ved os.</p>
+
+<p><b>sp. Hvad skal der ske med Bellacard.com?</b><br>
+<b>sv.</b> BellaSara.com og Bellacard.com vil blive slået sammen til en hjemmeside, så Bellacard.com vil ikke længere fungere. Hvis du går ind på Bellacard.com vil du automatisk blive flyttet videre til BellaSara.com Dette efterår vil du igen kunne benytte din venneliste, dagbog og andre sjove ting  som du har brugt på Bellacard.com. Indtil da så bliv ved med at besøge os her på BellaSara.com og tilmeld dine nye heste, spille spil og have sjov.<br>
+Vi vil holde dig informeret så du ved hvornår disse to hjemmesider er blevet til en.</p>
+
+
+
+<p><b>sp. Hvad sker der på BellaSara.com?</b><br>
+<b>sv.</b> Der sker mange sjove ting her på siden!!! Sammen med dine heste og din kort samling har vi spil, aktiviteter og andre sjove muligheder til dig.  Og der er meget mere på vej, så hold øjnene åbne for nye ting den kommende måned.<br>
+Senere i år vil du kunne bygge din egen stald og ranch.  Vi vil også tilføje vennelisten fra Bellacard.com og mange flere personlige tjenester. Så hold dig klar!</p>
+
+
+
+<p><b>sp. Hvorfor er koderne på Bella Sara kort forskellige fra Bella kortene?</b><br>
+<b>sv.</b> Koderne er forskellige på Bella Sara kortene, da alle koder er individuelle. Dette betyder at koden på dit Jewel kort er DIN kode og din alene. Ingen andre har samme Jewel som dig.<br>
+Dettet betyder også at når du har aktiveret koden kan ingen andre, ikke engang dig, benytte den igen. Hvis du bytter kort med dine venner vil de ikke kunne aktivere de kort du allerede har brugt. Vi arbejder på at lave et system hvor det vil være muligt at bytte kort med dine venner, hvor de så også vil modtage din hest på hjemmesiden. Indtil videre er dette dog ikke muligt. <br>
+En anden grund til at koderne er forskellige er fordi du kun kan benytte dem på BellaSara.com</p>
+
+<p><b>sp. Hvordan aktiverer jeg mine E-Game kort på BellaSara.com?</b><br>
+<b>sv.</b> Lige nu virker dine E-Game koder ikke på BellaSara.com. Vi har specielle planer med E-Game kortene, så gem dine kort et sikkert sted. Du vil få flere informationer senere på året.<br>
+Bare rolig- på BellaSara.com behøver du ikke et E-Game kort for at aktivere dine heste og spille vores spil. På alle tidspunkter kan du indtaste din kort kode og med det samme få din visuelle hest i brug. <br>
+Dettet virker kun med Bella Sara kort og Bella Sara Northern Lights kort, ikke på ældre Bella kort.</p>
+
+<p><b>sp. Er alle mine Bella Sara heste allerede aktive?</b><br>
+<b>sv.</b> Det er rigtigt! Hvis du har nogle Bella Sara kort skal du blot indtaste kortets kode og det vil være aktiveret. Din nye hest vil blive aktiv i din stald hvor du kan passe og spille med den med det samme
+Hvis du allerede har en kollektion af heste på BellaSara.com venter alle disse heste i din stald lige nu! Spil med dem!
+
+<p><b>sp. Hvad kan jeg gøre med mine energi kort?</b><br>
+<b>sv.</b> Det eneste du kan gøre med dine energi kort lige nu, er at tilføje dem i din kortsamling, men vi arbejder på mange nye ting som energi kortene kommer til at kunne. Snart vil det være muligt for dig, at åbne for ekstra måder at spille spillene på,  få seje samle objekter, få adgang til hemmelige steder på websitet og meget mere.
+Hold dig klar!</p>
+
+<p><b>sp. Kan jeg bruge koderne fra mine gamle Bella kort på BellaSara.com?</b><br>
+<b>sv.</b> Ikke endnu! Lige nu kan du kun benytte dine gamle Bella kort på Bellacard.com. Snart vil der dog være mulighed for også at bruge dem på BellaSara.com Men lige  nu vil Bella kortene ikke give dig en aktiv hest ligesom Bella Sara kortene. Ligesom på Bellacard.com vil du få hestene i din private stald, men du behøver et Bella E-Game kort for at aktivere kortet.<br>
+De gamle Bella koder er på højkant af kortet og vil se ud i stil med dette: <br>
+DK-XXXXXX-XXXX<br>
+De nye Bella Sara koder er nederst i midten og ser ud i stil med dette:<br>
+XXXXXXXXXX</p>
+
+<p><b>sp. Hvor mange heste kan jeg have i min stald?</b><br>
+<b>sv.</b> Du kan have lige så mange heste i din stald som du har lyst til, men kun 10 af gangen kan ses. Men hvis du har mere end 10, kan du trykke på pilene i bunden af siden og dermed se alle dine heste.</p>
+
+<p><b>sp. Jeg har flere spørgsmål! Hvor kan jeg få svar?</b><br>
+<b>sv.</b> Du kan kontakte vores kundeservice døgnet rundt, de hjælper med de spørgsmål du måtte have. Husk vi er her for at hjælpe!!</p>
+
+<p><a href="mailto:mail@conceptcard.dk">mail@conceptcard.dk</a><br>
+Andre kunde service kontakter</p>
+			
+				
+				
+	</div>
+	<!-- end generic text box -->
+	
+	
+	</div>
+	<!-- end content internal page -->
+	
+		<div id="footer">
+	
+	<div id="logos-copyright">
+	<a href="http://www.hiddencitygames.com/" target="_blank"><img src="images/logo-hcg.jpg" alt="Hidden City Games" /></a><a href="http://www.concept-card.com/" target="_blank"><img src="images/logo-cc.gif" alt="ConceptCard" /></a>
+	<p>&copy; 2006 Hidden City Games, LLC. All Rights Reserved. All trademarks and character names and their distinctive likenesses are properties of conceptcard, in Denmark and elsewhere.</p>
+	</div>
+	
+	<div id="footer-slug">
+		<div id="footer-slug">
+		<a href="logout.html">log out</a> | <a href="profile.html">view profile</a> | <a href="parents.html">parents</a> | <a href="legal.html">legal</a> | <a href="help.html">help</a><br />
+<a href="http://drtoy.com/awards/5443.html" target="_blank"><img alt="Dr. Toy Best Products List 2007" src="images/drToy_home.png" border="0"/></a> 
+<a href="http://iparentingmediaawards.com/winners/15/26526-5-1470.php" target="_blank"><img hspace="5" alt="iParenting Media Awards Best Product 2007" src="images/awards_iParentingMedia.png" border="0"/></a>
+		</div><!-- end footer slug -->
+	</div><!-- end footer slug -->
+
+</div>
+	<!-- end footer -->
+        
+</div><!-- end wrapper -->
+
+
+</center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-851782-5";
+urchinTracker();
+</script>
+</body>
+</html>
+        
+        

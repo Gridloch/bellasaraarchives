@@ -1,0 +1,234 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate,max-age=-1" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta name="Description" content="Bella Sara is a Collectable Card game with an E-Game element." /><meta name="Keywords" content="collectable card game, ccg, tcg, trading card game, horses, fantasy horses, equines" /><link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+	<script src="/Utility/loadFlash.js" type="text/javascript"></script>
+    <title>
+	Welcome to the World of Bella Sara
+</title>
+    <script src="/Utility/loadFlash.js" type="text/javascript"></script>
+	
+	<style type="text/css">
+	
+		#discovery-body { background-image: url(../images/discovery-bg-repeat.jpg); }
+	
+		#discovery-container {
+			position: relative;
+			width: 1087px;
+			height: 983px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(../images/discovery-girls-bg.jpg); 
+		}
+		
+		#discovery-footer {
+			position: absolute;
+			top: 810px;
+			width: 900px;
+			margin-top: 5px;
+			margin-left: 70px;
+			margin-right: auto;
+		}
+		
+		#discovery-nav { position: absolute; top: 710px; left: 125px; }
+		
+		.nav {
+			width: 240px;
+			height: 90px;
+			margin-right:35px;
+			float: left;
+		}
+		
+		.nav h1 { font-family: verdana; font-size: 15px; font-weight: bold; padding-bottom: 15px;}
+		.nav img { padding-right: 7px; }
+		.nav a { font-family: verdana; color: #b5f9ae; font-size: 12px; text-decoration: none;}
+		.nav a:hover { text-decoration: underline;}
+	
+		#friendbox { position: relative; left: 350px; top: 70px; width: 650px;}
+		#friendbox h1 { font-family: helvetica; font-size: 30px; color: #000075; }
+		#friendbox h2 { font-family: verdana; font-size: 20px; color: #000075; font-style: italic; } 
+		#friendbox img { margin-left: -50px; margin-right: 40px; }
+		#friendbox p { padding-top: 10px; width: 600px; color: #000075; font-family: helvetica; font-size: 18px; }
+	
+		#actimg { position: absolute; left: 76px; top: 300px;}
+	
+		#startedbox { position: absolute; left: 120px; top: 550px; width: 600px; }
+		#startedbox h1 { font-family: helvetica; font-size: 30px; color: #000075; }
+		#startedbox p { padding-top: 10px; width: 630px; color: #000075; font-family: helvetica; font-size: 18px; }
+		#couponimg { position: absolute; top: 515px; left: 765px; }
+		
+		#setbox { position: absolute; left: 350px; top: 400px; width: 520px; font-family: verdana; color: #000075; }
+		#about-top {position: absolute; top: 200px; left: 350px; z-index: 4;}
+		#about-top h1 { font-family: helvetica; color: #000075; font-size: 40px; }
+		#about-top h2 { font-variant: small-caps; font-family: helvetica; color: #67579f; font-size: 30px; font-weight: bold; text-indent: 200px;}
+		#whiffle { position: absolute; top: 500px; left: 80px; }
+		
+		#prize-header { position: relative; left: 350px; top: 70px; width: 600px;} 
+		#prize-header h1 { font-family: helvetica; font-size: 30px; color: #000075; padding-left: 100px; text-indent: -100px; }
+		#prize-text { position: relative; top: 80px; left: 110px; width: 800px;}
+		#prize-text p { font-family: verdana; color: #000075; padding-bottom: 10px; }
+	
+		#top-links { position: absolute; left: 300px; top: 138px; color: white; text-decoration: none; }
+		.top-link { color: white; text-decoration: none; }
+		.top-link:hover { color: darkblue; text-decoration: underline; }
+	
+		#hayden-top { position: absolute; left: 350px; top: 200px; }
+		#hayden-top img { float: left; }
+		#hayden-top h1 { text-indent: 50px; margin-top: 30px; font-family: helvetica; color: #000075; font-size: 40px; }
+		#hayden-top h2 { font-family: helvetica; color: #000075; font-size: 30px;  text-indent: 65px; }
+		#hayden-text { position: absolute; left: 76px; top: 400px; width: 875px;}
+		#hayden-text img { float: left; }
+		#hayden-text p { font-family: verdana; color: #000075; font-size: 15px; margin-top: 30px; margin-left: 230px;}
+		#videobox { position: absolute; left: 635px; top: 400px; }
+		
+		.disco-link { color: #6f8bd1; }
+		.disco-link:hover { color: #7fa3fc; text-decoration: none; }
+		#locator { position: relative; top: 200px; left: 380px; width: 400px; }
+	</style>
+	
+	<script type="text/javascript">
+	
+		function windowOpen(horse) {
+			if (horse != "hayden") {
+				horse = horse + ".html";
+				window.open(horse,'EANITHING','toolbar=no,location=no, directories=no, status=yes, menubar=no, resizable=yes, copyhistory=no, scrollbars=no, width=600, height=400');
+			} else {
+				horse = "../flash/quest/HaydenPlayer.swf";
+				window.open(horse,'EANITHING','toolbar=no,location=no, directories=no, status=yes, menubar=no, resizable=yes, copyhistory=no, scrollbars=no, width=320, height=280');
+			}
+		}
+	
+	</script>
+	
+<link href="../App_Themes/q4/activation.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/q4/dropdown-EN.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/q4/global.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/q4/reset.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/q4/signup.css" type="text/css" rel="stylesheet" /></head>
+<body id="discovery-body">
+    <div id="discovery-container">
+        
+
+<div id="nonflash-topnav">
+    <a href="http://www.bellasara.com/about.html" class="nonflash-topnav-link">About Bella Sara</a> |
+    <a href="http://www.bellasara.com/help.html" class="nonflash-topnav-link">Help</a> |
+    <a href="http://www.bellasara.com/parents.html" class="nonflash-topnav-link">Parents</a> |
+    <a href="http://www.bellasara.com/faq.html" class="nonflash-topnav-link">FAQ</a> 
+    | <a href='http://pressroom.bellasara.com/pr/bellasara/default.aspx' class='nonflash-topnav-link'>Pressroom</a>
+</div>
+<div id="global-banner">
+    <a href="http://www.bellasara.com/index.aspx">
+    <img style="margin-top: 10px; margin-left: 40px" src="/images/logo-bellasara.png"
+        alt="" border="0" />
+    </a>
+</div>
+
+
+        
+<div id="global-joinnow">
+<a href="../register.html" class="global-backtomycottage-text">Join now, it's FREE!</a></div>
+<div id="global-thumb">
+    <img src="../images/notlogged_thumb.jpg" alt="" />
+</div>
+<div id="global-welcometext">
+     <div id="global-welcometext-button">   
+        <a href="../login.aspx" class="global-welcometext-button-text">
+            Log In</a></div>
+</div>
+
+        <div id="center-content">
+            <form name="aspnetForm" method="post" action="index.aspx?ref=dg-mp-tp01" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjgPZBYCZg9kFghmD2QWBAIHDxUBFS9VdGlsaXR5L2xvYWRGbGFzaC5qc2QCCQ8VARUvVXRpbGl0eS9sb2FkRmxhc2guanNkAgEPZBYKZg8WAh4EVGV4dAUQQWJvdXQgQmVsbGEgU2FyYWQCAQ8WAh8ABQRIZWxwZAICDxYCHwAFB1BhcmVudHNkAgMPFgIfAAUDRkFRZAIEDxYCHwAFb3wgPGEgaHJlZj0naHR0cDovL3ByZXNzcm9vbS5iZWxsYXNhcmEuY29tL3ByL2JlbGxhc2FyYS9kZWZhdWx0LmFzcHgnIGNsYXNzPSdub25mbGFzaC10b3BuYXYtbGluayc+UHJlc3Nyb29tPC9hPmQCAg9kFgQCBg8WAh8ABRRKb2luIG5vdywgaXQncyBGUkVFIWQCBw8WAh8ABQZMb2cgSW5kAgQPZBYQZg8WAh8ABcwBJmNvcHk7IDIwMDggSGlkZGVuIENpdHkgR2FtZXMsIEluYy4gQWxsIFJpZ2h0cyBSZXNlcnZlZC4gQWxsIHRyYWRlbWFya3MgYW5kIA0KCSAgICAgICAgICAgICAgICAgICAgY2hhcmFjdGVyIG5hbWVzIGFuZCB0aGVpciBkaXN0aW5jdGl2ZSBsaWtlbmVzc2VzIGFyZSBwcm9wZXJ0aWVzIG9mIGNvbmNlcHRjYXJkLCBpbiBEZW5tYXJrIGFuZCBlbHNld2hlcmUuZAIBD2QWAmYPFgIfAAURRGFpbHkgVGltZSBMaW1pdDpkAgIPFgIfAAUHUHJvZmlsZWQCAw8WAh8ABQNGQVFkAgQPFgIfAAUHUGFyZW50c2QCBQ8WAh8ABQVMZWdhbGQCBg8WAh8ABQRIZWxwZAIHDxYCHwAFBkxvZyBJbmRkmLY6FbtFB0VS0wBaMY4nmoPHwJY=" />
+
+                
+
+	<div id="friendbox">
+	
+		<h1>Which friend did you meet? Collect all 3!</h2>
+		<h2>(Click on the image to learn more)</h2>
+		<a href="#" onclick="windowOpen('aleut')"><img border="0" alt="" src="../images/discovery-aleut.png" /></a>
+		<a href="#" onclick="windowOpen('potawatomi')"><img border="0" alt="" src="../images/discovery-potawatomi.png" /></a>
+		<a href="#" onclick="windowOpen('inupiat')"><img border="0" alt="" src="../images/discovery-inupiat.png" /></a>
+		
+		<p>Begin your adventure by activating the Bella Sara horse card you just found in the June/July Discovery Girls Magazine.  If you don’t have a Bella Sara account sign up for your free membership.</p>
+	
+	</div>
+	
+	<a id="actimg" href="../register.html?ref=dg-in-act"><img alt="" src="../images/discovery-activate.jpg" /></a>
+	
+	<div id="startedbox">
+		<h1>It’s easy to get started.</h1>
+		<p>Your private Bella Sara account gives you access to exclusive Bella Sara content, including your personal cottage and stables, games, and stories.</p>
+		<p><a class="disco-link" href="../register.html?ref=dg-in01">Click here</a> and follow the easy steps to enter the magical world of Bella Sara.</p>
+	</div>
+	
+	<a id="couponimg" href="bs-target-coupon.pdf"><img alt="" src="../images/discovery-coupon.png" /></a>
+
+
+                
+            </form>
+			
+			<span id="top-links"><a class="top-link" href="index.aspx?ref=dg-mp-tp01">Home</a> - <a class="top-link" href="../storelocator.aspx?ref=dg-mp-tp02">Find a Retailer Near You</a> - <a class="top-link" href="../register.html?ref=dg-mp-tp03">Sign Up & Play</a> </span>
+			
+			<div id="discovery-nav">
+			<span class="nav">
+			<a href='about.aspx?ref=dg-mp-nv01'><img style='float: left;' alt='' src='../images/discovery-about.jpg' /></a><h1>Available in stores now!</h1><a href='about.aspx?ref=dg-mp-nv02'>Learn More &gt;</a>
+			</span>
+			<span class="nav">
+			<a href='discovery.aspx?ref=dg-mp-nv03'><img style='float: left;' alt='' src='../images/discovery-scavenge.jpg' /></a><h1>Win Fabulous Prizes</h1><a href='discovery.aspx?ref=dg-mp-nv04'>Learn More &gt;</a>
+			</span>
+			<span class="nav">
+			<a href='hayden.aspx?ref=dg-mp-nv05'><img style='float: left;' alt='' src='../images/discovery-hayden.jpg' /></a><h1>Hayden Panettiere enjoys Bella Sara</h1><a href='hayden.aspx?ref=dg-mp-nv06'>Learn More &gt;</a>
+			</span>
+			</div>
+			
+            <div id="discovery-footer">
+            
+<div id="global-footer-legal">
+    <div style="margin: 2px; float: left;">
+        <a href="http://www.hiddencitygames.com/" target="_blank">
+            <img src="/images/logo-hcg.jpg" alt="Hidden City Games" align="left" />
+        </a>
+    </div>
+    <div style="margin: 2px; float: left;">
+        <a href="http://www.conceptcard.dk/" target="_blank">
+            <img src="/images/logo-cc.gif" alt="ConceptCard" align="left" />
+        </a>
+    </div>
+    <div class="global-footer-text">
+        &copy; 2008 Hidden City Games, Inc. All Rights Reserved. All trademarks and 
+	                    character names and their distinctive likenesses are properties of conceptcard, in Denmark and elsewhere.
+    </div>
+</div>
+<div id="global-footer-timer">
+    
+</div>
+<div id="global-footer-lowernav">
+    <a href="http://www.bellasara.com/profile.aspx" class="global-lowernav-link">
+        Profile</a>
+    | <a href="http://www.bellasara.com/faq.html" class="global-lowernav-link">
+                FAQ</a>
+    | <a href="http://www.bellasara.com/parents.html" class="global-lowernav-link">
+        Parents</a>
+    | <a href="http://www.bellasara.com/legal.html" class="global-lowernav-link">
+                Legal</a>
+    | <a href="http://www.bellasara.com/help.html" class="global-lowernav-link">
+        Help</a>
+    | <a href="http://www.bellasara.com/login.html" class="global-lowernav-link">
+    Log In</a>
+</div>
+
+        </div>
+        </div>
+    </div>
+</body>
+<!-- render png correctly in IE -->
+<!--[if lt IE 7.]>
+        <script defer type="text/javascript" src="/pngfix.js"></script>
+        <![endif]-->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+    _uacct = "UA-851782-5";
+    urchinTracker();
+</script>
+
+</html>

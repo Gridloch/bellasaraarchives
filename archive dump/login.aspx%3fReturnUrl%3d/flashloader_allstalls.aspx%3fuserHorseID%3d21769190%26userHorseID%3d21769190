@@ -1,0 +1,251 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate,max-age=-1" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta name="description" content="Bella Sara is a magical world where children can play games, activate trading cards, and take care of horses online." /><meta name="keywords" content="collectable card game, trading cards, online children's games, magical horses, fantasy horses, equines, magical world, horses, horseshoes, interact with online horses, girl games, Bella Sara, magical friends, safe online children's games, play online, bellasara.com.mx, bellasara.com, bellasara.ch, bellasara.co.uk, bellasara.cz, bellasara.ca, bellasara.hr, bellasara.za, bellasara.se, bellasara.au, bellasara.fr, bellasara.de, bellasara.it, bellasara.com.au, bellasara.be, bellasara.sl, bellasara.cl, bellasara.fi, bellasara.dk, bellasara.no, bellasara.nl" /><meta name="robots" content="Index, Follow" /><meta name="revisit-after" content="7 days" /><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /><link rel="stylesheet" href="App_Themes/q4/global.css" type="text/css" /><link rel="stylesheet2" href="App_Themes/q4/reset.css" type="text/css" /><link rel="Stylesheet" href="App_Themes/q4/product.css" type="text/css" /><title>
+	Journey into a magical world of horses
+</title>
+
+    <script src="" type="text/javascript"></script>
+
+<link href="App_Themes/q4/activation.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/dropdown-EN.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/global.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/product.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/reset.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/signup.css" type="text/css" rel="stylesheet" /><link href="App_Themes/q4/store.css" type="text/css" rel="stylesheet" /></head>
+
+<body id="ctl00_Q4TemplateBody">
+    <a name="top" />
+    <div id="newcontent-container" class="product-page">
+        
+
+<div id="nonflash-topnav">
+    <a href="/about2.aspx" class="nonflash-topnav-link">About</a> |
+    <a href="/customercare.aspx" class="nonflash-topnav-link">Help</a> |
+    <a href="/parentguide.aspx" class="nonflash-topnav-link">Parents</a> |
+    <a href="/shop.html" class="nonflash-topnav-link">Store Locator</a> |
+    <a href="/activities.aspx" class="nonflash-topnav-link"><a href="/activities.aspx" class="nonflash-topnav-link">Activities</a> |</a>  
+</div>
+<div id="global-banner" style="z-index:+1">
+    <a href="/index.aspx">
+    <img style="margin-top: 10px; margin-left: 40px" src="/images/logo-bellasara.png"
+        alt="" border="0" />
+    </a>
+</div>
+
+
+        
+<div id="global-joinnow" style="z-index:+1">
+<a href="register.html" class="global-backtomycottage-text">Join now, it's FREE!</a></div>
+<!--<div id="global-thumb">
+    <a href="login.aspx"><img src="/images/playNow_nav.png" alt="" /></a>
+</div> -->
+<div id="global-welcometext" style="z-index:+1">
+     <div id="global-welcometext-button" style="cursor:hand" onclick="location.href='login.aspx'">   
+        <a href="login.aspx" class="global-welcometext-button-text">
+            Play Now</a></div>
+</div>
+
+        
+        <div id="center-content">
+            <form name="aspnetForm" method="post" action="login.aspx?ReturnUrl=%2fflashloader_allstalls.aspx%3fuserHorseID%3d21769190&amp;userHorseID=21769190" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUINDY3NDI3NDAPZBYCZg9kFgICAQ9kFggCAQ9kFgpmDxYCHgRUZXh0BQVBYm91dGQCAQ8WAh8ABQRIZWxwZAICDxYCHwAFB1BhcmVudHNkAgMPFgIfAAUNU3RvcmUgTG9jYXRvcmQCBA8WAh8ABUg8YSBocmVmPSIvYWN0aXZpdGllcy5hc3B4IiBjbGFzcz0ibm9uZmxhc2gtdG9wbmF2LWxpbmsiPkFjdGl2aXRpZXM8L2E+IHxkAgMPZBYEAgYPFgIfAAUUSm9pbiBub3csIGl0J3MgRlJFRSFkAgcPFgIfAAUIUGxheSBOb3dkAgUPZBYCAgEPZBYEAgUPDxYCHwAFI1lvdSBtdXN0IGxvZyBpbiB0byB2aXNpdCB0aGlzIHBhZ2UhZGQCDw9kFgJmD2QWBgIDDw9kFgIeCW9ua2V5ZG93bgURZ2V0S2V5Q29kZShldmVudClkAgcPD2QWAh8BBRFnZXRLZXlDb2RlKGV2ZW50KWQCDw8PFgQeCENzc0NsYXNzBRBsb2dpbkJ1dHRvbkFsaWduHgRfIVNCAgJkFgICAw8PFgQfAgUFbG9nb24fAwICZGQCBw9kFhBmDxYCHwAFogE8YSBjbGFzcz0iZ2xvYmFsLWxvd2VybmF2LWxpbmsiIHRhcmdldD0iX2JsYW5rIiBvbkNsaWNrPSJqYXZhc2NyaXB0OnVyY2hpblRyYWNrZXIgKCcvZXh0ZXJuYWwvcHJlc3Nyb29tJyk7IiBocmVmPSJodHRwOi8vcHJlc3Nyb29tLmJlbGxhc2FyYS5jb20iPlByZXNzcm9vbTwvYT4gfCBkAgEPFgIfAAUQVGVybXMgb2YgU2VydmljZWQCAg8WAh8ABQdQcml2YWN5ZAIDDxYCHwAFB1Byb2ZpbGVkAgQPFgIfAAUIUGxheSBOb3dkAgUPFgIfAAUrJmNvcHk7IDIwMTEgSGlkZGVuIENpdHkgRW50ZXJ0YWlubWVudCwgSW5jLmQCBg8WAh8ABRRBbGwgUmlnaHRzIFJlc2VydmVkLmQCBw9kFgJmDxYCHwAFEURhaWx5IFRpbWUgTGltaXQ6ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAwUcY3RsMDAkTWFpbiRMb2dpbjEkaWJ0bkZvcmdvdAUcY3RsMDAkTWFpbiRMb2dpbjEkaGxua0xvZ2luMQUcY3RsMDAkTWFpbiRMb2dpbjEkaWJ0blNpZ25VcKUauxrLY89rTf+Bv3mqGGZvbmC0" />
+
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="9ofC1__mVA8vJDzQ2KUGLg2" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgKllLe4CwKj/qmUDgLM3/+cBQLJ1+aWBwLKp+TbAQLWsoTGDgLxvZzZCQLx2uPFDQLopOaeDwKT1PvICrYlUiHsHJXitHkdX1RHOJxq3bVB" />
+            
+    <link rel="Stylesheet" type="text/css" href="/app_themes/q4/signup.css" />
+    <style type="text/css">
+        #newcontent-container
+        {
+            background-image: none;
+        }
+        #newcontent-footer
+        {
+            top: 600px;
+        }
+        #product-body
+        {
+            height: 400px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function setLocalOffset() {
+            var date = new Date();
+            var offset = -date.getTimezoneOffset();
+
+            document.getElementById("ctl00_Main_utcOffset").value = offset;
+        }
+        function getKeyCode(e) {
+            if (e.keyCode == 13) {
+                document.getElementById('ctl00_Main_Login1_hlnkLogin1').focus();
+            }
+            if (e.which == 13) {
+                document.getElementById('ctl00_Main_Login1_hlnkLogin1').focus();
+            }
+
+
+        }
+    </script>
+
+    <input type="hidden" name="ctl00$Main$utcOffset" id="ctl00_Main_utcOffset" />
+
+    <div id="product-box">
+        <h1 class="product-header" id="top-header">
+            Bella Sara Log On
+        </h1>
+        <img alt="" id="headerimg" src="images/product-header.png" />
+        <div id="product-bg">
+            <table id="product-body" width="100%" style="height: 450px" border="0">
+                <tr>
+                    <td>
+                        <table id="WelcomeTitle" border="0" style="width: 100%">
+                            <tr>
+                                <td align="center">
+                                    <div id="login-redirect-error">
+                                        <span id="ctl00_Main_redirectError">You must log in to visit this page!</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div id="signin-header" style="text-align: center">
+                                        Welcome Back
+                                    </div>
+                                    <div id="signinerror-header" style="text-align: center">
+                                        
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <div id="signin-body-text">
+                                        We missed you
+                                        
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table id="ctl00_Main_Login1" title="Log In" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td>
+                                            <table id="LoginTextArea" border="0" cellpadding="3px" cellspacing="5px" align="center">
+                                                <tr>
+                                                    <td align="right">
+                                                        Bella Sara Username:
+                                                    </td>
+                                                    <td>
+                                                        <input name="ctl00$Main$Login1$UserName" type="text" id="ctl00_Main_Login1_UserName" class="signin-input" onkeydown="getKeyCode(event)" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right">
+                                                        Password:
+                                                    </td>
+                                                    <td>
+                                                        <input name="ctl00$Main$Login1$Password" type="password" id="ctl00_Main_Login1_Password" class="signin-input" onkeydown="getKeyCode(event)" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" colspan="2">
+                                                        <div id="login-error">
+                                                            
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <br />
+                                            <br />
+                                            <table border="0" cellpadding="0" cellspacing="0">
+                                                <tr valign="middle">
+                                                    <td width="300" align="right">
+                                                        <div class="forgotButtonAlign">
+                                                            <input type="image" name="ctl00$Main$Login1$ibtnForgot" id="ctl00_Main_Login1_ibtnForgot" onmouseover="this.src='/images/signup-button.jpg'" onmouseout="this.src='/images/signup-button.png'" src="/images/signup-button.png" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$Login1$ibtnForgot&quot;, &quot;&quot;, false, &quot;&quot;, &quot;forgot.aspx&quot;, false, false))" border="0" />
+                                                            <div class="forgot">
+                                                                <a id="ctl00_Main_Login1_hlinkForgot" class="joinLink" onmouseover="document.getElementById('ctl00_Main_Login1_ibtnForgot').src='/images/signup-button.jpg'" onmouseout="document.getElementById('ctl00_Main_Login1_ibtnForgot').src='/images/signup-button.png'" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$Login1$hlinkForgot&quot;, &quot;&quot;, false, &quot;&quot;, &quot;forgot.aspx&quot;, false, true))">Forgot your password?</a>
+                                                                <a href="forgot.aspx" style="text-decoration: none" class="signinerror-link">
+                                                            </div>
+                                                    </td>
+                                                    <td width="200" align="center">
+                                                        <div id="ctl00_Main_Login1_LoginButtonAlign" class="loginButtonAlign" class="loginButtonAlign">
+			
+                                                            <input type="image" name="ctl00$Main$Login1$hlnkLogin1" id="ctl00_Main_Login1_hlnkLogin1" onmouseover="this.src='/images/signup-button.jpg'" onmouseout="this.src='/images/signup-button.png'" src="/images/signup-button.png" onclick="setLocalOffset();" border="0" />
+                                                            <div id="ctl00_Main_Login1_LoginAlign" class="logon" class="logon">
+				
+                                                                <a onclick="setLocalOffset();" id="ctl00_Main_Login1_locLogOnButton" class="logonLink" onmouseover="document.getElementById('ctl00_Main_Login1_hlnkLogin1').src='/images/signup-button.jpg'" href="javascript:__doPostBack('ctl00$Main$Login1$locLogOnButton','')">Log On</a>
+                                                            
+			</div>
+                                                        
+		</div>
+                                                    </td>
+                                                    <td width="300" align="left">
+                                                        <div class="joinButtonAlign">
+                                                            <input type="image" name="ctl00$Main$Login1$ibtnSignUp" id="ctl00_Main_Login1_ibtnSignUp" onmouseover="this.src='/images/signup-button.jpg'" onmouseout="this.src='/images/signup-button.png'" src="/images/signup-button.png" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$Login1$ibtnSignUp&quot;, &quot;&quot;, false, &quot;&quot;, &quot;signup.aspx&quot;, false, false))" border="0" />
+                                                            <div class="newuser">
+                                                                <a id="ctl00_Main_Login1_hlinkJoin" class="joinLink" onmouseover="document.getElementById('ctl00_Main_Login1_ibtnSignUp').src='/images/signup-button.jpg'" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$Login1$hlinkJoin&quot;, &quot;&quot;, false, &quot;&quot;, &quot;signup.aspx&quot;, false, true))" style="display:inline-block;">Join<br/> Now!</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+	</tr>
+</table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <table border="0">
+                <tr>
+                    <td>
+                        <img src="/images/product-bottom.png" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+            </form>
+        </div>
+        
+        <div id="Q4Template-footer">
+            
+<div id="global-footer-legal">
+    <div id="global-footer-lowernav">
+    <a class="global-lowernav-link" target="_blank" onClick="javascript:urchinTracker ('/external/pressroom');" href="http://pressroom.bellasara.com">Pressroom</a> | 
+    <a href="http://bellasara.com/legal.html" class="global-lowernav-link">
+                Terms of Service</a>
+    | <a href="http://bellasara.com/legal.html#privacy" class="global-lowernav-link global-lowernav-link-big">
+        Privacy</a> |    <a href="http://bellasara.com/profile.aspx" class="global-lowernav-link">
+        Profile</a>
+    <!-- | <a href="http://bellasara.com/login.html" class="global-lowernav-link">
+    Play Now</a> -->
+    </div>
+    <div class="global-footer-text">
+        &copy; 2011 Hidden City Entertainment, Inc.
+        All Rights Reserved.
+    </div>
+</div>
+<div id="global-footer-timer">
+    
+</div>
+
+        </div>
+     </div>
+                       
+
+</body>
+<!-- render png correctly in IE -->
+<!--[if lt IE 7.]>
+        <script defer type="text/javascript" src="/pngfix.js"></script>
+        <![endif]-->
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-5510715-2");
+        pageTracker._trackPageview();
+    } catch (err) { }</script>
+
+</html>

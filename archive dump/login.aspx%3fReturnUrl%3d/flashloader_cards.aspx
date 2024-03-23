@@ -1,0 +1,251 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate,max-age=-1" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta name="Description" content="Bella Sara is a Collectable Card game with an E-Game element." /><meta name="Keywords" content="collectable card game, ccg, tcg, trading card game, horses, fantasy horses, equines" /><title>
+	Welcome to the World of Bella Sara
+</title>
+
+    <script type="text/javascript" src="Utility/menu.js"></script>
+
+    <script src="Utility/loadFlash.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="App_Themes/new/reset.css" /><link rel="stylesheet" type="text/css" href="App_Themes/new/global-EN.css" /><link rel="stylesheet" type="text/css" href="App_Themes/new/dropdown-EN.css" /><link href="App_Themes/new/dropdown-EN.css" type="text/css" rel="stylesheet" /><link href="App_Themes/new/global-EN.css" type="text/css" rel="stylesheet" /><link href="App_Themes/new/reset.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <div id="interior2c-container">
+        <div id="global-banner">
+            <a href="index.html">
+                <img src="images/global-banner.jpg" alt="" border="0" /></a>
+        </div>
+        
+<div id="global-thumb">
+    <img src="images/notlogged_thumb.jpg" alt="" />
+</div>
+<div id="global-welcometext">
+    <p>
+        <a href="login.aspx">
+            Log In</a></p>
+</div>
+
+        
+<div id="global-activationbox">
+    <form method="get" action="activate.html">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <input class="global-activationinput" type="text" name="cardCode" value="activate card code"
+                        onfocus="if (this.value == 'activate card code') { this.value = ''; } return true;"
+                        onblur="if (this.value == '') { this.value = 'activate card code'; } return true;"
+                        id="nav-activate-box" />
+                </td>
+                <td>
+                    <input type="image" src="images/global-go_grn.png" id="nav-activate-go" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+        <form name="aspnetForm" method="post" action="login.aspx?ReturnUrl=%2fflashloader_cards.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwODA2NjAwNzcPZBYCZg9kFgpmD2QWAgIHDxUCD1V0aWxpdHkvbWVudS5qcxRVdGlsaXR5L2xvYWRGbGFzaC5qc2QCAQ9kFgICBQ8WAh4EVGV4dAUGTG9nIEluZAIDD2QWBgIBD2QWAgIJD2QWAmYPZBYEAgMPDxYCHwAFCVVzZXIgTmFtZRYEHgdvbmZvY3VzBUBpZiAodGhpcy52YWx1ZSA9PSAnVXNlciBOYW1lJykgeyB0aGlzLnZhbHVlID0gJyc7IH0gcmV0dXJuIHRydWU7HgZvbmJsdXIFQGlmICh0aGlzLnZhbHVlID09ICcnKSB7IHRoaXMudmFsdWUgPSAnVXNlciBOYW1lJzsgfSByZXR1cm4gdHJ1ZTtkAgUPD2QWBh8BBT9pZiAodGhpcy52YWx1ZSA9PSAncGFzc3dvcmQnKSB7IHRoaXMudmFsdWUgPSAnJzsgfSByZXR1cm4gdHJ1ZTsfAgU/aWYgKHRoaXMudmFsdWUgPT0gJycpIHsgdGhpcy52YWx1ZSA9ICdwYXNzd29yZCc7IH0gcmV0dXJuIHRydWU7HgV2YWx1ZQUIcGFzc3dvcmRkAgMPZBYOZg8WAh8ABQZMb2cgSW5kAgEPFgIfAAUHU2lnbiBVcGQCAg8WAh8ABRBBYm91dCBCZWxsYSBTYXJhZAIDDxYCHwAFB1BhcmVudHNkAgQPFgIfAAUFR2FtZXNkAgUPFgIfAAUDRkFRZAIGDxYCHwAFBEhlbHBkAgkPZBYCZg8QDxYGHg5EYXRhVmFsdWVGaWVsZAUEQ29kZR4NRGF0YVRleHRGaWVsZAULRGlzcGxheU5hbWUeC18hRGF0YUJvdW5kZ2QQFQwFRGFuc2sVRGV1dHNjaCAoZGllIFNjaHdlaXopB0VuZ2xpc2gJRnJhbsOnYWlzFEZyYW7Dp2FpcyAoQmVsZ2lxdWUpEkZyYW7Dp2FpcyAoU3Vpc3NlKQhJdGFsaWFubxNJdGFsaWFubyAoU3ZpenplcmEpCk5lZGVybGFuZHMUTmVkZXJsYW5kcyAoQmVsZ2nDqykPTm9yc2sgKGJva23DpWwpB1N2ZW5za2EVDAVkYS1ESwVkZS1DSAVlbi1VUwVmci1GUgVmci1CRQVmci1DSAVpdC1JVAVpdC1DSAVubC1OTAVubC1CRQVuYi1OTwVzdi1TRRQrAwxnZ2dnZ2dnZ2dnZ2cWAQICZAIED2QWDGYPFgIfAAXMASZjb3B5OyAyMDA3IEhpZGRlbiBDaXR5IEdhbWVzLCBMTEMuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuIEFsbCB0cmFkZW1hcmtzIGFuZCANCgkgICAgICAgICAgICAgICAgICAgIGNoYXJhY3RlciBuYW1lcyBhbmQgdGhlaXIgZGlzdGluY3RpdmUgbGlrZW5lc3NlcyBhcmUgcHJvcGVydGllcyBvZiBjb25jZXB0Y2FyZCwgaW4gRGVubWFyayBhbmQgZWxzZXdoZXJlLmQCAQ8WAh8ABQdQcm9maWxlZAICDxYCHwAFA0ZBUWQCAw8WAh8ABQdQYXJlbnRzZAIEDxYCHwAFBUxlZ2FsZAIFDxYCHwAFBEhlbHBkAgUPZBYwZg8WAh8ABRBBYm91dCBCZWxsYSBTYXJhZAIBDxYCHwAFA0ZBUWQCAg8WAh8ABQRIZWxwZAIDDxYCHwAFB1BhcmVudHNkAgQPFgIfAAUFQ2FyZHNkAgUPFgIfAAUUWW91ciBDYXJkIENvbGxlY3Rpb25kAgYPFgIfAAUKQ2FyZCBHYW1lc2QCBw8WAh8ABQ9DYXJkIENvbGxlY3RpbmdkAggPFgIfAAUHU3RhYmxlc2QCCQ8WAh8ABQ5DaG9vc2UgYSBIb3JzZWQCCg8WAh8ABQ1BY3RpdmUgU3RhYmxlZAILDxYCHwAFBVdvcmxkZAIMDxYCHwAFCVdvcmxkIE1hcGQCDQ8WAh8ABQhBc2sgU2FyYWQCDg8WAh8ABQVHYW1lc2QCDw8WAh8ABQxDbG91ZCBKdW1wZXJkAhAPFgIfAAURTGFuY2UgUmlkaW5nIEdhbWVkAhEPFgIfAAUSQmVsbGEncyBCZWF1dHkgQm94ZAISDxYCHwAFDUNvbG9yaW5nIEJvb2tkAhMPFgIfAAUOSmlnc2F3IFB1enpsZXNkAhQPFgIfAAUSRGVza3RvcCBXYWxscGFwZXJzZAIVDxYCHwAFGFlpbiAmIFlhbmcncyBNZW1vcnkgR2FtZWQCFg8WAh8ABQxCZWxsbydzIFF1aXpkAhcPFgIfAAUWU2FudG8ncyBLbm93bGVkZ2UgUXVpemQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgoFE2N0bDAwJEZsYWdzMSRpbWdfdXMFE2N0bDAwJEZsYWdzMSRpbWdfaXQFE2N0bDAwJEZsYWdzMSRpbWdfZnIFE2N0bDAwJEZsYWdzMSRpbWdfdWsFE2N0bDAwJEZsYWdzMSRpbWdfbmwFE2N0bDAwJEZsYWdzMSRpbWdfZGsFE2N0bDAwJEZsYWdzMSRpbWdfbm8FE2N0bDAwJEZsYWdzMSRpbWdfc2UFE2N0bDAwJEZsYWdzMSRpbWdfYmUFE2N0bDAwJEZsYWdzMSRpbWdfY2h+MUOYXufdr6koSuNi+WufOzv8vA==" />
+
+            
+<style type="text/css">
+    body {
+        background-repeat: repeat-x;
+        background-position: top left;
+        color:#ffffff;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:12px;
+        }
+
+</style>
+        <div id="interior2c-title">
+            Log In
+        </div>
+
+	    <div id="interior2c-main">
+            <div id="login-text1">
+                Already a Bella Sara member?
+            </div>
+            <div id="login-text2">
+                Not a member? Sign up for your<br>FREE membership now and<br>receive a free virtual horse.<br>
+                <a href="register.html" class="home-signin-new">
+                NEW MEMBER SIGN UP
+                </a>
+            </div>
+
+            <div id="generic-login-box">
+                <div id="generic-login">
+                    <table id="ctl00_Main_Login1" title="Log In" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td>
+                            <div>
+                                <span class="home-signin-welcome">
+                                    Welcome!
+                                </span>
+                                <div id="home-login">
+                                    <input name="ctl00$Main$Login1$UserName" type="text" value="User Name" id="ctl00_Main_Login1_UserName" title="User Name" onfocus="if (this.value == 'User Name') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'User Name'; } return true;" />
+                                    <input name="ctl00$Main$Login1$Password" type="password" id="ctl00_Main_Login1_Password" title="Password" onfocus="if (this.value == 'password') { this.value = ''; } return true;" onblur="if (this.value == '') { this.value = 'password'; } return true;" value="password" />
+                                    <br />
+                                    <input type="submit" name="ctl00$Main$Login1$hlnkLogin" value="Sign In" id="ctl00_Main_Login1_hlnkLogin" class="home-signin-signin loginButton" />
+                                </div>
+                            </div>
+                            <div id="login-error">
+                                
+                            </div>
+                        </td>
+	</tr>
+</table>
+                    <a href="forgot.aspx" id="forgot">
+                        forgot your password?
+                    </a>
+                </div>
+            </div>
+        </div>
+
+            
+
+<div id="interior2c-leftnav">
+    <a href="login.html" class="interior2c-leftnav-link">Log In</a><br />
+    <a href="register.html" class="interior2c-leftnav-link">Sign Up</a><br />
+    <br />
+    <a href="about.html" class="interior2c-leftnav-link">About Bella Sara</a><br />
+    <a href="parents.html" class="interior2c-leftnav-link">Parents</a><br />
+    <a href="gameslist.html" class="interior2c-leftnav-link">Games</a><br />
+    <a href="faq.html" class="interior2c-leftnav-link">FAQ</a><br />
+    <a href="help.html" class="interior2c-leftnav-link">Help</a>
+</div>
+            <div id="interior2c-flags">
+                Select a flag below if you're one of our friends from around the world.
+                
+<div id="flagIcons" style="text-align:center;">
+    <div id="ctl00_Flags1_flagPanel">
+	
+    <input type="image" name="ctl00$Flags1$img_us" id="ctl00_Flags1_img_us" src="/images/flag-us-small.gif" alt="United States" border="0" /><input type="image" name="ctl00$Flags1$img_it" id="ctl00_Flags1_img_it" src="/images/flag-it-small.gif" alt="Italia" border="0" /><input type="image" name="ctl00$Flags1$img_fr" id="ctl00_Flags1_img_fr" src="/images/flag-fr-small.gif" alt="France" border="0" /><input type="image" name="ctl00$Flags1$img_uk" id="ctl00_Flags1_img_uk" src="/images/flag-uk-small.gif" alt="United Kingdom" border="0" /><input type="image" name="ctl00$Flags1$img_nl" id="ctl00_Flags1_img_nl" src="/images/flag-nl-small.gif" alt="Nederland" border="0" /><input type="image" name="ctl00$Flags1$img_dk" id="ctl00_Flags1_img_dk" src="/images/flag-dk-small.gif" alt="Danmark" border="0" /><input type="image" name="ctl00$Flags1$img_no" id="ctl00_Flags1_img_no" src="/images/flag-no-small.gif" alt="Noreg" border="0" /><input type="image" name="ctl00$Flags1$img_se" id="ctl00_Flags1_img_se" src="/images/flag-se-small.gif" alt="Sverige" border="0" /><input type="image" name="ctl00$Flags1$img_be" id="ctl00_Flags1_img_be" src="/images/flag-be-small.gif" alt="België" border="0" /><input type="image" name="ctl00$Flags1$img_ch" id="ctl00_Flags1_img_ch" src="/images/flag-ch-small.gif" alt="Svizzera" border="0" />
+</div>
+</div>
+
+                <select name="ctl00$Languages1$ddlLanguages" id="ctl00_Languages1_ddlLanguages">
+	<option value="da-DK">Dansk</option>
+	<option value="de-CH">Deutsch (die Schweiz)</option>
+	<option selected="selected" value="en-US">English</option>
+	<option value="fr-FR">Fran&#231;ais</option>
+	<option value="fr-BE">Fran&#231;ais (Belgique)</option>
+	<option value="fr-CH">Fran&#231;ais (Suisse)</option>
+	<option value="it-IT">Italiano</option>
+	<option value="it-CH">Italiano (Svizzera)</option>
+	<option value="nl-NL">Nederlands</option>
+	<option value="nl-BE">Nederlands (Belgi&#235;)</option>
+	<option value="nb-NO">Norsk (bokm&#229;l)</option>
+	<option value="sv-SE">Svenska</option>
+
+</select>
+
+                <br />
+            </div>
+        
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWGgKP9vLEDgLM3/+cBQLJ1+aWBwLxvciVAwLL46eMBAKcn5HLAgLmzPmgDgLzmbniAgLE1aahAQLzmfXhAgLfvsS2CwLRou7iBQLRoqriBQLYsMPMCALgwozeAQLnwoDnCgK5w9TjDALTwLBhAqDD4JQDArXD/PMKAubPvMYBAprPxPEKAqHNuLYOAqjNyIIDAqbNkLgOAqXOjKEOeaZQwkIMXcdceATHLKMmZ/9/NjM=" /></form>
+        <div id="global-footer">
+            
+<div id="global-footer-legal">
+    <div style="margin: 2px; float: left;">
+        <a href="http://www.hiddencitygames.com/" target="_blank">
+            <img src="images/logo-hcg.jpg" alt="Hidden City Games" align="left" />
+        </a>
+    </div>
+    <div style="margin: 2px; float: left;">
+        <a href="http://www.concept-card.com/" target="_blank">
+            <img src="images/logo-cc.gif" alt="ConceptCard" align="left" />
+        </a>
+    </div>
+    <div class="global-footer-text">
+        &copy; 2007 Hidden City Games, LLC. All Rights Reserved. All trademarks and 
+	                    character names and their distinctive likenesses are properties of conceptcard, in Denmark and elsewhere.
+    </div>
+</div>
+<div id="global-footer-lowernav">
+    <a href="profile.aspx" class="global-lowernav-link">
+        Profile</a> | <a href="faq.html" class="global-lowernav-link">
+                FAQ</a>
+    | <a href="parents.html" class="global-lowernav-link">
+        Parents</a> | <a href="legal.html" class="global-lowernav-link">
+                Legal</a>
+    | <a href="help.html" class="global-lowernav-link">
+        Help</a>
+    <br />
+    <br />
+</div>
+
+        </div>
+        
+
+<div id="global-topnav">
+    <a href="about.html" class="global-topnav-link">About Bella Sara</a> |
+    <a href="faq.html" class="global-topnav-link">FAQ</a> |
+    <a href="help.html" class="global-topnav-link">Help</a> |
+    <a href="parents.html" class="global-topnav-link">Parents</a>
+</div>
+
+<div id="global-navicons">
+    <a href="cards.html"><img src="images/global-nav-cards.png" class="global-navicon-image" alt="" /></a>
+    <a href="stables.html"><img src="images/global-nav-stables.png" class="global-navicon-image" alt="" /></a>
+    <a href="world.html"><img src="images/global-nav-world.png" class="global-navicon-image" alt="" /></a>
+    <a href="gameslist.html"><img src="images/global-nav-games.png" class="global-navicon-image" alt="" /></a>
+</div>
+
+<div id="global-navcontainer">
+    <ul id="global-nav">
+
+        <li><a href="#" class="global-navparent">Cards</a>
+            <ul>
+                <li><a href="cards.html">Your Card Collection</a></li>
+                <li><a href="gamerules.html">Card Games</a></li>
+                <li><a href="collecting.html">Card Collecting</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#" class="global-navparent">Stables</a>
+
+            <ul>
+                <li><a href="stables.html">Choose a Horse</a></li>
+                <li><a href="stall.html">Active Stable</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#" class="global-navparent">World</a>
+            <ul>
+                <li><a href="world.html">World Map</a></li>
+                <li><a href="asksara.html">Ask Sara</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="global-navparent">Games</a>
+            <ul>
+                <li><a href="cloudjumper.html">Cloud Jumper</a></li>
+                <li><a href="lanceriding.html">Lance Riding Game</a></li>
+                <li><a href="beautybox_load.html">Bella's Beauty Box</a></li>
+                <li><a href="coloring.html">Coloring Book</a></li>				
+                <li><a href="puzzles.html">Jigsaw Puzzles</a></li>
+                <li><a href="wallpapers.html">Desktop Wallpapers</a></li>
+                <li><a href="memorygame.html">Yin & Yang's Memory Game</a></li>
+                <li><a href="quizgame.html">Bello's Quiz</a></li>
+                <li><a href="knowledge.html">Santo's Knowledge Quiz</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>	
+    </div>
+</body>
+<!-- render png correctly in IE -->
+<!--[if lt IE 7.]>
+        <script defer type="text/javascript" src="pngfix.js"></script>
+        <![endif]-->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+    _uacct = "UA-851782-5";
+    urchinTracker();
+</script>
+
+</html>
