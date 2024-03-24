@@ -1,0 +1,39 @@
+---
+- hosts: web
+  remote_user: ubuntu
+  tasks:
+    - name: update and upgrade apt packages
+      become: true
+      apt:
+        upgrade: true
+        update_cache: true
+    - name: ensure nginx is present
+      become: true
+      apt:
+        name: nginx
+        update_cache: true
+    - name: start nginx
+      service:
+          name: nginx
+          state: started
+      become: yes
+    - name: copy the nginx config file
+      copy:
+        src: ./site.cfg
+        dest: /etc/nginx/conf.d/default.conf
+      become: yes
+    - name: restart nginx
+      service:
+        name: nginx
+        state: restarted
+      become: yes
+    # - name: copy the content of the web site. Using git may also be an option
+    #   copy:
+    #     src: ../site/
+    #     dest: /var/www/html
+    #   become: yes
+    - name: restart nginx
+      service:
+        name: nginx
+        state: restarted
+      become: yes
