@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color:#000000;
+	margin:0;
+	padding:0;
+	
+	font-size:12px;
+	line-height:16px;
+	letter-spacing:0em;
+	background-color:#fff;
+}
+
+/*======== Header ========*/
+#head_logo {
+	margin:0 auto;
+	padding:5px 0;
+	text-align:center;
+}
+h1 {
+	margin:0;
+	padding:0;
+	text-indent:-9999px;
+}
+
+/*======== Worldwide ========*/
+
+a#Worldwide_btn {
+   float:right;
+   display: block;
+   width: 117px;
+   height: 31px;
+   margin:-7px 20px auto auto;
+   text-indent: -9000px;
+   background:url(../images/menu_worldwide.png)
+}
+
+a#Worldwide_btn:hover {
+   background-position: bottom right;
+}
+
+/*======== content ========*/
+#index {
+	width:960px;
+	height:575px;
+	margin:0 auto;
+	position:relative;
+	z-index:1;
+}
+#content-menu {
+	width:960px;
+	margin:0 auto;
+	position:relative;
+	z-index:2;
+}
+#index #menu,
+#content-menu #menu {
+	position:absolute;
+	text-align:center;
+	margin:0 auto;
+	width:960px;
+	height:45px;
+	background:url(../images/menu_bg.png) no-repeat center top;
+	z-index:3;
+}
+#index object {
+	position:absolute;
+	top:5px;
+	left:0;
+	z-index:1;
+}
+#index #banner {
+	position:absolute;
+	text-align:center;
+	top:540px;
+	margin:0 auto;
+	width:960px;
+	z-index:3;
+}
+#content {
+	width:923px;
+	margin: 0 auto;
+	padding: 0;
+	text-align:center;
+	z-index:1;
+}
+#content #top {
+	width: 923px;
+	height: 45px;
+	background:url(../images/top_content_bg.png) center top;
+	z-index:1;
+}
+#content #main {
+	text-align:center;
+	width: 923px;
+	height: auto;
+	background:url(../images/middle_bg.png) repeat-y center top;
+	z-index:1;
+}
+#content #bottom {
+	width: 923px;
+	height: 45px;
+	background:url(../images/bottom_bg.png) no-repeat center top;
+	z-index:1;
+}
+
+/*-- Title --*/
+#title_world {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_world.gif) no-repeat center top;
+}
+#title_story {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_story.gif) no-repeat center top;
+}
+#title_activity {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_activity.gif) no-repeat center top;
+}
+#title_download{
+	width: 770px;
+	height: 72px;
+	margin:0 auto;
+	background:url(../images/title_download.gif) no-repeat center top;
+}
+#title_coloring {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_coloring.gif) no-repeat center top;
+}
+#title_wallpaper {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_wallpaper.gif) no-repeat center top;
+}
+#title_shoplist {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_shop.gif) no-repeat center top;
+}
+#title_worldwide {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_worldwide.gif) no-repeat center top;
+}
+
+#title_about {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_about.gif) no-repeat center top;
+}
+
+#title_policy {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_policy.gif) no-repeat center top;
+}
+
+#title_contact {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_contact.gif) no-repeat center top;
+}
+#title_video {
+	width:770px;
+	height:72px;
+	margin:0 auto;
+	background:url(../images/title_video.gif) no-repeat center top;
+}
+
+/* ===========カタログダウンロード============ */
+
+#catalog_dl{
+	display: block;
+	float: right;
+	width: 256px;/*635*/
+	height: 48px;
+	margin: 0;
+	padding: 0;
+	}
+#catalog_dl li{
+	float: left;
+	display: inline;
+	height: 48px;
+}
+
+a.catalog_dl{
+	width: 226px;
+	height: 48px;
+	background-image: url("../images/catalog_dl.png");
+	text-indent: -1000px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: block;
+	}
+a.catalog_dl:hover{
+	background-position: 0px -48px;
+	}

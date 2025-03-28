@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE pdconfig [
+	<!ELEMENT	numVariants		(#PCDATA)>
+	<!ELEMENT	colorChoices	(#PCDATA)>
+	<!ELEMENT	ponyPart		(numVariants,colorChoices)>
+	<!ATTLIST	ponyPart
+		id	CDATA	#REQUIRED
+	>
+	<!ELEMENT	screen			(ponyPart*)>
+	<!ATTLIST	screen
+		id	CDATA	#REQUIRED
+	>
+	<!ELEMENT	pdconfig		(screen+)>
+]>
+<pdconfig>
+	<screen id="activity">
+		<ponyPart id="hat">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="mane">
+			<numVariants>10</numVariants>
+			<colorChoices>0</colorChoices>
+		</ponyPart>
+		<ponyPart id="tail">
+			<numVariants>10</numVariants>
+			<colorChoices>0</colorChoices>
+		</ponyPart>
+		<ponyPart id="dressFitted">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="dressMedium">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="dressBig">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="belt">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="vest">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="sleeves">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="shoesFront">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="shoesRear">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="neckwearFitted">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="neckwearBig">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="wings">
+			<numVariants>6</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+		<ponyPart id="earrings">
+			<numVariants>10</numVariants>
+			<colorChoices>2</colorChoices>
+		</ponyPart>
+	</screen>
+</pdconfig>

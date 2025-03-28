@@ -1,0 +1,124 @@
+/***** GENERAL *****/
+
+#titre a:link, a:visited, a:hover, a:active  {
+	color: #C91434;
+	text-decoration: none;
+}
+#titre a:hover {
+	color: #ee284b;
+	text-decoration: none;
+}
+
+#titre a {
+	color: #C91434;
+	font-size: .8em; 
+	font-weight: bold;
+	line-height: 16px;
+	padding: 8px 15px 0px 5px;
+}
+img {
+	border: 0;
+}
+
+
+/***** SHADOWS *****/
+.bg-mini {	
+	background: transparent url(./img/bg-mini.png) 0 0 no-repeat;
+	height: 78px;
+	width:74px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+}
+.bg-big {	
+	background: transparent url(./img/bg-big.gif) 0 0 no-repeat;
+	height: 270px;
+	width:350px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+}
+
+/***** GRID *****/
+ol {
+	height: 1%;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	overflow: visible;
+	padding: 0px 0 20px 0;
+}
+ol li {
+	border: 0px solid #cecdcd;
+	display: inline;
+	float: left;
+	height: 78px;
+	margin: 0px 0px 14px 18px;
+	position: relative;
+	width: 74px;
+	z-index: 1;
+	
+	-webkit-box-shadow: rgba(0, 0, 0, .1) 0 0px 0px;
+	-moz-box-shadow: rgba(0, 0, 0, .1) 0 0px 0px;	
+}
+
+ol li div {
+	bottom: 0;
+	clear: both;
+	display: none;
+	left: 0;
+	padding: 0px 0px 0px 0px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 5;
+}
+ol li:hover img {
+	display: block;
+}
+
+ol li:hover div {
+	background: transparent url(./img/jeux-de-mario-2.png) top left no-repeat;
+	height: 78px;
+	width:74px;
+	top:0px;
+	left:0px;
+	display: block;
+}
+
+ol li div a {
+	display: block;
+	position: relative;
+	z-index: 4;
+}
+ol li div p, ol li div dl {
+	padding: 0 0 7px 0;
+	position: relative;
+	z-index: 4;
+}
+ol li div p a {
+	display: inline;
+}
+
+#zoneactive {
+	position: absolute;
+	height: 78px;
+	width: 74px;
+	padding-top: 0px;
+	top: 0px;
+	left: 0px;
+	z-index: 5;
+}
+
+
+/* stickers */
+.ruban {
+	background: transparent url(./img/ruban.gif) top left no-repeat;
+	border: 0;
+	display: block !important;
+	height: 75px !important;
+	position: absolute;
+	left: -5px;
+	top: -10px;
+	width: 75px !important;	
+	z-index: 3; 
+}

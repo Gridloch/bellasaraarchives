@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE programtext [
+
+	<!ELEMENT text			(#PCDATA)>
+	<!ATTLIST text
+		lang	(en_US|sp)	"en_US"
+	>
+
+	<!ELEMENT block			(text+)>
+	<!ATTLIST block
+		id	CDATA	#REQUIRED
+		x	CDATA	"default"
+		y	CDATA	"default"
+	>
+
+	<!ELEMENT screen		(block+)>
+	<!ATTLIST screen
+		id	CDATA	#REQUIRED
+	>
+
+	<!ELEMENT programtext	(screen+)>
+]>
+<programtext>
+	<screen id="splashScreen">
+		<block id="gameTitle">
+			<text lang="en_US">Bridal Boutique</text>
+		</block>
+		<block id="legalese">
+			<text lang="en_US">©2012 Hasbro.</text>
+		</block>
+		<block id="instructionsHeader">
+			<text lang="en_US">how to play</text>	<!-- all lowercase for Generation B -->
+		</block>
+		<block id="step1">
+			<text lang="en_US">Help Rarity create high fashion for everypony!</text>
+		</block>
+		<block id="step2">
+			<text lang="en_US">Choose items for your dress. Clicking on an item will add it to your design. Try every category!</text>
+		</block>
+		<block id="step3">
+			<text lang="en_US">Print your creation!</text>
+		</block>
+	</screen>
+<!-- 
+MY LITTLE PONY: FRIENDSHIP IS MAGIC and all related characters are trademarks of Hasbro. © 2010. All Rights Reserved. HUB and HUB LOGO ™ and © 2010 Hub Television Networks, LLC. All Rights Reserved.
+ -->
+</programtext>

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------ BG ------*/
+html {
+	background:#9FC600;
+}
+/*------ BODY ------*/
+body{
+	background:url(../images/e_bg01.jpg) repeat center top;
+}
+#head_logo {
+	width:923px;
+	height:72px;
+	background:url(../images/e_logo.gif) no-repeat center;
+}
+/*------ Footer ------*/
+#footer {
+	background:url(../images/e_bg02.png) repeat-x left top;
+	background-color:#9FC600;
+	margin-top:10px;
+	padding-top:50px;
+}
+#footer-top {
+	background:url(../images/e_bg02.png) repeat-x center 50%;
+	background-color:#9FC600;
+	margin-top:0;
+	padding-top:100px;
+}
+
+
+
+/*=============== Catalog ===============*/
+#content_catalog ul#navigation li a.menu_home {
+	background-image: url("../catalog/images/e_home.gif");
+	background-position:top left;
+	height:91px;
+	width:204px;
+	margin:0;
+}
+#content_catalog ul#navigation li a.menu_home:hover {
+	background-position: top right;
+}
+#content_catalog ul#navigation li .menu_category {
+	background-image: url("../catalog/images/e_categories.gif");
+	height: 29px;
+	width:204px;
+}
+#content_catalog #menu-wraplogo {
+	width: 220px;
+	height: 81px;
+	background: url(../catalog/images/e_bg_l1.gif) no-repeat top;
+	margin:0 auto;/*padding-left:60px;*/
+	}
+#content_catalog #menu-wraplogo a#logo {
+	float:left;
+	width: 195px;
+	height: 80px;
+	margin: 0px 0px 0px 10px;
+	background:url(../catalog/images/e_logo.png) no-repeat;
+	text-indent:-9999px;
+}

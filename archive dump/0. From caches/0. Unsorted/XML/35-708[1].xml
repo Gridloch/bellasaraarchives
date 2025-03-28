@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="640" height="480">
+	<ads>
+		<ad name="google" width="640" height="480" >
+			<node contentId="FighterGame3"/>
+			<node adType="fullscreen"/>
+			<node descriptionUrl="http://media2.example.com/videos/78262.html"/>
+			<node channels="4944956302{$}yx35"/>
+			<node width="640" height="480"/>
+			<node publisherId="ca-games-pub-9344058689860767"/>
+		</ad>
+		<ad name="cmps" width="300" height="250">
+			<node subpoolid="35"/>
+			<node poolid="13381"/>
+		</ad>
+	</ads>
+	<time>
+		<node url="7k7k.com" first="7" twice="5" showType="2"/>
+		<node url="" first="12" twice="10" showType="2"/>
+	</time>
+</data>

@@ -1,0 +1,166 @@
+.size{
+    height: 250px;
+    width: 300px;
+}
+
+#container_dc {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;    
+    left: 0px;
+    position: absolute;
+    top: 0px;    
+}
+
+#container_dc #bg-exit {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: rgba(0,0,0,0);
+    cursor: pointer;
+    position: absolute;
+}
+
+#container_dc #panno {
+    display: block;
+    position: absolute;
+    background-image: url(panorama.jpg);
+    opacity: 0;
+    background-repeat: repeat-x;
+}
+
+
+#container_dc .screen {
+    display: block;
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    visibility: hidden;
+    width: 100%;
+}
+
+#container_dc #logo {
+    background: url(img_logo_google.png);
+    bottom: 4px;
+    height: 26px;
+    position: absolute;
+    right: 10px;
+    width: 72px;
+    z-index: 10;
+}
+
+#container_dc #screen_1 {
+    line-height: 250px;
+}
+
+#container_dc #screen_1 span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+    position: relative;
+    top: -5px;
+    vertical-align: middle;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+#container_dc #screen_2 {
+    line-height: 272px;
+}
+
+#container_dc #screen_2 #btn_cta {
+    -webkit-border-radius: 3px 3px;
+    -moz-border-radius: 3px / 3px;
+    border-radius: 3px / 3px;
+    border: 1px solid #FFFFFF;
+    display: inline-block;
+    font-size: 15.3px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    top: -13px;
+    vertical-align: middle;
+    width: 230px;
+}
+
+#container_dc #screen_2 #btn_cta img {
+    padding: 0 0 10px 0;
+}
+
+#container_dc #screen_2 #btn_cta span {
+    position: relative;
+}
+
+#container_dc #screen_2 .btn_cta_out {
+    background: rgba(35,31,32,0.3);
+}
+
+#container_dc #screen_2 .btn_cta_over {
+    background: rgba(255,255,255,0.3);
+}
+
+#container_dc #screen_2 #btn_replay {
+    background: url(img_replay.png) bottom left no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 23px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 24px;
+    z-index: 1;
+}
+
+#arrows{ 
+    position: absolute;
+}
+#arrows #left{ 
+    background-image: url(arrowL.png);
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    top: 0px;
+    bottom: 0px;
+    left: 5px;
+}
+#arrows #top{ 
+    background-image: url(arrowT.png);
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    right: 0px;
+    left: 0px;
+}
+#arrows #bottom{ 
+    background-image: url(arrowB.png);
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    right: 0px;
+    bottom: 5px;
+    left: 0px;
+}
+#arrows #right{ 
+    background-image: url(arrowR.png);
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    top: 0px;
+    bottom: 0px;
+    right: 5px;
+}
+

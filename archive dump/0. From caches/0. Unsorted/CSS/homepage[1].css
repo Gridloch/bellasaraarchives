@@ -1,0 +1,286 @@
+﻿tagline_banner{
+	font-family:Arial;
+	font-size:11pt;
+	color:#FFFFFF;	
+	leading:0pt;
+	font-style:italic;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+playnow_btn{
+	font-family:Lourdes;
+	font-size:20pt;
+	color:#FFFFFF;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+topnav_item_label{
+	font-family:Arial;
+	font-size:13pt;
+	color:#FFFFFF;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+mainnav_item_label{
+	font-family:Arial;
+	font-size:13pt;
+	color:#FFFFFF;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+sidebox_text_1{
+	font-family:Arial;
+	font-size:16pt;
+	color:#FFFFFF;	
+	font-weight:bold;
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:left;	
+}
+sidebox_pill_btn{
+	font-family:Arial;
+	font-size:16pt;
+	color:#ffffff;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+popup_header{
+	font-family:Arial;
+	font-size:16pt;
+	color:#996600;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+popup_section_header{
+	font-family:Arial;
+	font-size:15pt;
+	color:#FFCC00;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+popup_section_body{
+	font-family:Arial;
+	font-size:16pt;
+	color:#FFFFFF;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+popup_btn{
+	font-family:Lourdes;
+	font-size:28pt;
+	color:#FFFFFF;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+popup_password_btn{
+	font-family:Arial;
+	font-size:12pt;
+	color:#ffffff;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+games_landingpage_box_header{
+	font-family:Arial;
+	font-size:18pt;
+	color:#ffffff;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+games_landingpage_featured_header{
+	font-family:Arial;
+	font-size:18pt;
+	color:#ffffff;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+games_landingpage_featured_name{
+	font-family:Arial;
+	font-size:18pt;
+	color:#ffffff;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+games_landingpage_featured_awards{
+	font-family:Arial;
+	font-size:8pt;
+	color:#673A68;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+games_landingpage_featured_horseshoes{
+	font-family:Arial;
+	font-size:8pt;
+	color:#673A68;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+games_landingpage_featured_button{
+	font-family:Arial;
+	font-size:17pt;
+	color:#FFFFFF;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+games_landingpage_activities_header{
+	font-family:Arial;
+	font-size:16pt;
+	color:#ffffff;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+games_landingpage_activities_tagline{
+	font-family:Arial;
+	font-size:14pt;
+	color:#ffffff;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+games_landingpage_activities_button{
+	font-family:Arial;
+	font-size:17pt;
+	color:#ffffff;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+games_landingpage_sara_text{
+	font-family:Arial;
+	font-size:14pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+horses_landingpage_default_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+horses_landingpage_foal_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+horses_landingpage_emma_text{
+	font-family:Arial;
+	font-size:14pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+horses_landingpage_bella_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+horses_landingpage_nike_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+horses_landingpage_thunder_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+horses_landingpage_jewel_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+horses_landingpage_fiona_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+world_landingpage_default_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+world_landingpage_cottage_text{
+	font-family:Arial;
+	font-size:14pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+world_landingpage_magicalFriend1_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+world_landingpage_magicalFriend2_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+world_landingpage_magicalFriend3_text{
+	font-family:Arial;
+	font-size:16pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+world_landingpage_horseshoe_text{
+	font-family:Arial;
+	font-size:14pt;
+	color:#521E59;	
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}

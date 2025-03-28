@@ -1,0 +1,163 @@
+﻿@font-face {
+    font-family: "Segoe UI Web Light";
+    font-style: normal;
+    font-weight: 100;
+    src: local("Segoe UI Light"), local("Segoe UI"), local("Helvetica Neue");
+    unicode-range: U+0000-00FF;
+}
+@font-face {
+    font-family: "Segoe UI Web Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI"), local("Helvetica Neue");
+    unicode-range: U+0000-00FF;
+}
+
+@font-face {
+    font-family: "Segoe UI Web Semibold";
+    font-style: normal;
+    font-weight: bold;
+    src: local("Segoe UI Semibold"), local("Segoe UI Bold"), local("Segoe UI"), local("Helvetica Neue");
+    unicode-range: U+0000-00FF;
+}
+
+body 
+{
+    width:475px;
+    height:490px;
+    font-family:"Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    border:none;
+    color:#fff;
+}
+img {border:none;}
+div.mboxDefault {visibility:hidden;}
+
+a, a:hover, a:visited
+{
+    
+    border: 1px #fff;
+    background-color:#fff;
+    text-decoration:none;
+}
+
+a:hover {
+    opacity:0.76;
+    filter:alpha(opacity=76);
+}
+
+a:active
+ {
+    opacity:1;
+    filter:alpha(opacity=100);
+    background-color:black;
+    color:white;
+}
+
+
+.standard h1
+{
+    font-family:"Segoe UI Web Light";
+    font-weight:100;
+    font-size:31px;
+    line-height:29px;
+    margin: 0px 0px 0px 0px;
+    padding:0; 
+}
+
+.standard.small h1
+{
+    font-size:26px;    
+}
+
+.standard.smallest h1
+{
+    font-size:18px;
+    line-height:20px;
+}
+
+.standard h1.nosubheading
+{
+   padding:10px 0px 28px 0px;
+}
+
+.standard p
+{
+    font-family:"Segoe UI Web Regular";
+    font-weight:100;
+    font-size:14px;
+    line-height:16px;
+    margin:12px 0px 18px 0px;
+    padding:0; 
+}
+
+.standard.small p
+ {
+    font-size:12px;
+    margin: 10px 0px 16px 0px;
+}
+
+.standard a
+{
+    display: inline-block;
+    font-family:"Segoe UI Web Regular";
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 10px;
+    padding: 6px 7px;
+	visibility: hidden;
+}
+
+ div.mboxDefault.throttle {visibility:visible;}
+       
+div#offer
+{
+    width:475px;
+    height:490px;
+    overflow:hidden;
+}
+div#offer img
+{
+    height:340px;
+    width:475px;
+    border:none;
+    display:block;
+}
+div#offer div#text
+{
+    height:150px;
+    width:413px;
+    padding:15px 31px 25px 31px;
+}
+
+/*Brands*/
+.skydrive {background-color:#094ab2;}
+.skydrive a, .skydrive a:hover, .skydrive a:visited {color:#094ab2;}
+
+.hotmail {background-color:#2672ec;}
+.hotmail a, .hotmail a:hover, .hotmail a:visited {color:#2672ec;}
+
+.newmail {background-color:#0072C6;}
+.newmail a, .newmail a:hover, .newmail a:visited {color:#0072C6;}
+
+.outlook {background-color:#0072C6;}
+.outlook a, .outlook a:hover, .outlook a:visited {color:#0072C6;}
+
+
+.account {background-color:#2672ec;}
+.account a, .account a:hover, .account a:visited {color:#2672ec;visibility:hidden;}
+
+
+.skydrive a:active,
+.hotmail a:active,
+.newmail a:active,
+.outlook a:active,
+.account a:active {
+    opacity:1;
+    filter:alpha(opacity=100);
+    background-color:black;
+    color:white;
+}
+

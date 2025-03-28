@@ -1,0 +1,735 @@
+<clickncolor-config>
+	<runControl>
+		<!-- printOutput legal values: fullPage|foldedCard default is fullPage -->
+		<!-- EXAMPLE
+		<printOutput>foldedCard</printOutput>
+		-->
+	</runControl>
+	<screens>
+	
+		<splash>
+			<background src="assetsuitcase/splash_background.swf" />
+			<button x="720" y="565" action="showScreen" actionData="tutorial">
+				<up>assetsuitcase/interface/splash_tutorial_up.swf</up>
+				<over>assetsuitcase/interface/splash_tutorial_over.swf</over>
+				<down>assetsuitcase/interface/splash_tutorial_down.swf</down>
+				<selectedUp></selectedUp>
+				<selectedOver></selectedOver>
+				<selectedDown></selectedDown>
+				<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+				<rollOverSoundDelay>5</rollOverSoundDelay>
+				<clickSound>assetsuitcase/click.mp3</clickSound>
+			</button>
+		</splash>
+		
+		<tutorial src="assetsuitcase/tutorial.swf">
+			<video src="assetsuitcase/tutorial.flv" />
+		</tutorial>
+
+		<activity>
+			<background src="assetsuitcase/activity_bg.swf" />
+			<confirmationDialog x="145" y="147" width="720" height="502" src="assetsuitcase/Trash_Confirm.swf" />
+
+<!--			<sharing>
+				<background ssssrc="assetsuitcase/share_bg.png" bgColor="ffaacc" width="865" height="700" />
+				<tabber>
+				</tabber>
+			</sharing> -->
+
+			<greetingCard>
+				<carousel x="235" y="215" motion="vertical" scrollStep="300">
+					<collection y="39" width="402" height="292" gap="8" buttonClass="com.kid360.hasbro.clickncolor.buttons.MessageCarouselButton">
+<!--
+						<message>Happy Holidays, Everypony!</message>
+						<message>Hoof a Happy Holiday!</message>
+						<message>Your holiday just got 20% cooler!</message>
+						<message>Celebrate the holidays, pony style!</message>
+						<message>'Tis the season to be pony!</message>
+-->
+						<message>Juste pour toi !</message>
+						<message>Tu es vraiment super !</message>
+						<message>J’adore être ton amie !</message>
+						<message>Tu es la meilleure des amies !</message>
+						<message>C’est une chance de t’avoir comme amie !</message>
+					</collection>
+				</carousel>
+				<cardBlurb>http://www.hasbro.com/mylittlepony/fr_FR/</cardBlurb>
+			</greetingCard>
+
+			<button x="168" y="653" width="33" height="45" action="clear">
+				<up>assetsuitcase/interface/Trash_Up.swf</up>
+				<over>assetsuitcase/interface/Trash_Over.swf</over>
+				<down>assetsuitcase/interface/Trash_Down.swf</down>
+				<selectedUp></selectedUp>
+				<selectedOver></selectedOver>
+				<selectedDown></selectedDown>
+				<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+				<rollOverSoundDelay>5</rollOverSoundDelay>
+				<clickSound>assetsuitcase/click.mp3</clickSound>
+			</button>
+
+			<!--
+			<button x="0" y="640" action="surf" actionData="http://www.hubworld.com/tv-schedule/">
+				<up>assetsuitcase/interface/Hub_Callout.png</up>
+				<over></over>
+				<down></down>
+				<selectedUp></selectedUp>
+				<selectedOver></selectedOver>
+				<selectedDown></selectedDown>
+				<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+				<rollOverSoundDelay>5</rollOverSoundDelay>
+				<clickSound>assetsuitcase/click.mp3</clickSound>
+			</button>
+			-->
+
+			<button x="824" y="6" action="tutor">
+				<up>assetsuitcase/interface/Help_Up.swf</up>
+				<over>assetsuitcase/interface/Help_Over.swf</over>
+				<down>assetsuitcase/interface/Help_Down.swf</down>
+				<selectedUp></selectedUp>
+				<selectedOver></selectedOver>
+				<selectedDown></selectedDown>
+				<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+				<rollOverSoundDelay>5</rollOverSoundDelay>
+				<clickSound>assetsuitcase/click.mp3</clickSound>
+			</button>
+
+			<button x="210" y="650" action="erase">
+				<up>assetsuitcase/interface/Erase_Up.swf</up>
+				<over>assetsuitcase/interface/Erase_Over.swf</over>
+				<down>assetsuitcase/interface/Erase_Down.swf</down>
+				<selectedUp></selectedUp>
+				<selectedOver></selectedOver>
+				<selectedDown></selectedDown>
+				<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+				<rollOverSoundDelay>5</rollOverSoundDelay>
+				<clickSound>assetsuitcase/click.mp3</clickSound>
+			</button>
+
+			<button x="803" y="650" width="50" height="45" action="print">
+				<up>assetsuitcase/interface/Print_Up.swf</up>
+				<over>assetsuitcase/interface/Print_Over.swf</over>
+				<down>assetsuitcase/interface/Print_Down.swf</down>
+				<selectedUp></selectedUp>
+				<selectedOver></selectedOver>
+				<selectedDown></selectedDown>
+				<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+				<rollOverSoundDelay></rollOverSoundDelay>
+				<clickSound>assetsuitcase/click.mp3</clickSound>
+			</button>
+			
+			<button x="740" y="650" action="greetingcard">
+				<up>assetsuitcase/interface/Print_Card_Up.swf</up>
+				<over>assetsuitcase/interface/Print_Card_Over.swf</over>
+				<down>assetsuitcase/interface/Print_Card_Down.swf</down>
+				<selectedUp></selectedUp>
+				<selectedOver></selectedOver>
+				<selectedDown></selectedDown>
+				<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+				<rollOverSoundDelay></rollOverSoundDelay>
+				<clickSound>assetsuitcase/click.mp3</clickSound>
+			</button>
+
+<!--
+	Filters:
+		Single row, x is -3 and 67 to evenly space two buttons.
+		Double row, x is 32, y is 150 and 220.
+-->
+			<button x="32" y="150" action="filter" keyword="valentine" eventCode="Valentine" default="yes">
+				<up>assetsuitcase/interface/filterbuttons/valentine_up.swf</up>
+				<over>assetsuitcase/interface/filterbuttons/valentine_over.swf</over>
+				<down>assetsuitcase/interface/filterbuttons/valentine_down.swf</down>
+				<selectedUp>assetsuitcase/interface/filterbuttons/valentine_up_sel.swf</selectedUp>
+				<selectedOver>assetsuitcase/interface/filterbuttons/valentine_over_sel.swf</selectedOver>
+				<selectedDown>assetsuitcase/interface/filterbuttons/valentine_down_sel.swf</selectedDown>
+			</button>
+<!--
+			<button x="67" y="220" action="filter" keyword="winter" eventCode="Winter">
+				<up>assetsuitcase/interface/filterbuttons/winter_up.swf</up>
+				<over>assetsuitcase/interface/filterbuttons/winter_over.swf</over>
+				<down>assetsuitcase/interface/filterbuttons/winter_down.swf</down>
+				<selectedUp>assetsuitcase/interface/filterbuttons/winter_up_sel.swf</selectedUp>
+				<selectedOver>assetsuitcase/interface/filterbuttons/winter_over_sel.swf</selectedOver>
+				<selectedDown>assetsuitcase/interface/filterbuttons/winter_down_sel.swf</selectedDown>
+			</button>
+-->
+			<button x="32" y="225" action="filter" keyword="anytime" eventCode="Anytime">
+				<up>assetsuitcase/interface/filterbuttons/anytime_up.swf</up>
+				<over>assetsuitcase/interface/filterbuttons/anytime_over.swf</over>
+				<down>assetsuitcase/interface/filterbuttons/anytime_down.swf</down>
+				<selectedUp>assetsuitcase/interface/filterbuttons/anytime_up_sel.swf</selectedUp>
+				<selectedOver>assetsuitcase/interface/filterbuttons/anytime_over_sel.swf</selectedOver>
+				<selectedDown>assetsuitcase/interface/filterbuttons/anytime_down_sel.swf</selectedDown>
+			</button>
+
+			<workspace x="145" y="147" width="720" height="502" />
+			
+			<printCopyright>MY LITTLE PONY and all related characters are trademarks of Hasbro and are used with permission. © 2012 Hasbro. All Rights Reserved.</printCopyright>
+			
+			<categories>
+				<category>
+					<categoryButton x="-2" y="300">
+						<up>assetsuitcase/categories/MLP_Cat_Bkgd_up.swf</up>
+						<over>assetsuitcase/categories/MLP_Cat_Bkgd_over.swf</over>
+						<down>assetsuitcase/categories/MLP_Cat_Bkgd_down.swf</down>
+						<selectedUp>assetsuitcase/categories/MLP_Cat_Bkgd_selectedUp.swf</selectedUp>
+						<selectedOver>assetsuitcase/categories/MLP_Cat_Bkgd_selectedOver.swf</selectedOver>
+						<selectedDown>assetsuitcase/categories/MLP_Cat_Bkgd_selectedDown.swf</selectedDown>
+						<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+						<rollOverSoundDelay>5</rollOverSoundDelay>
+						<clickSound>assetsuitcase/click.mp3</clickSound>
+					</categoryButton>
+					<carousel x="153" y="17" motion="horizontal" scrollStep="616">
+						<button x="0" y="40" action="pageUp">
+							<up>assetsuitcase/interface/Arrow_L_Up.swf</up>
+							<over>assetsuitcase/interface/Arrow_L_Over.swf</over>
+							<down>assetsuitcase/interface/Arrow_L_Down.swf</down>
+						</button>
+						<button x="648" y="40" action="pageDown">
+							<up>assetsuitcase/interface/Arrow_R_Up.swf</up>
+							<over>assetsuitcase/interface/Arrow_R_Over.swf</over>
+							<down>assetsuitcase/interface/Arrow_R_Down.swf</down>
+						</button>
+						<itemSkin width="125" height="125">
+							<up>assetsuitcase/interface/TopNavBkgd_Up.swf</up>
+							<over>assetsuitcase/interface/TopNavBkgd_Over.swf</over>
+							<down>assetsuitcase/interface/TopNavBkgd_Down.swf</down>
+							<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+							<mask>assetsuitcase/interface/TopNavBkgd_Mask.swf</mask>
+							<rollOverSoundDelay>5</rollOverSoundDelay>
+							<clickSound>assetsuitcase/click.mp3</clickSound>
+						</itemSkin>
+						<collection x="47" width="608" height="140" gap="29" buttonClass="com.kid360.hasbro.clickncolor.buttons.AssetCarouselButton">
+							<item src="assetsuitcase/backgrounds/MLP_BG_MusicStage.swf" isBackground="true">
+								<keywords>anytime</keywords>
+								<!-- Example of multiple keywords
+								<keywords>anytime, winter</keywords> -->
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BG_Cafeteria.swf" isBackground="true">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BG_OutdoorParty.swf" isBackground="true">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BG_Castle.swf" isBackground="true">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BG_Library.swf" isBackground="true">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BG_Hall.swf" isBackground="true">
+								<keywords>anytime</keywords>
+							</item>
+<!--
+							<item src="assetsuitcase/backgrounds/MLP_BGW_ExtTownHallWinter.swf" isBackground="true">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BGW_LakeWinter.swf" isBackground="true">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BGW_CanterlotStreets.swf" isBackground="true">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BGW_CanterlotTowerBackstage.swf" isBackground="true">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BGW_ExtCanterlotTower.swf" isBackground="true">
+								<keywords>winter</keywords>
+							</item>
+-->
+							<item src="assetsuitcase/backgrounds/MLP_BGV_HeartMail.swf" isBackground="true">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BGV_HeartFiligree.swf" isBackground="true">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BGV_Hearts3.swf" isBackground="true">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BGV_Hearts4.swf" isBackground="true">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BGV_Hearts1.swf" isBackground="true">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/backgrounds/MLP_BGV_Hearts2.swf" isBackground="true">
+								<keywords>valentine</keywords>
+							</item>
+						</collection>
+					</carousel>
+				</category>
+				
+				<category>
+					<categoryButton x="-2" y="417">
+						<up>assetsuitcase/categories/MLP_Cat_Char_up.swf</up>
+						<over>assetsuitcase/categories/MLP_Cat_Char_over.swf</over>
+						<down>assetsuitcase/categories/MLP_Cat_Char_down.swf</down>
+						<selectedUp>assetsuitcase/categories/MLP_Cat_Char_selectedUp.swf</selectedUp>
+						<selectedOver>assetsuitcase/categories/MLP_Cat_Char_selectedOver.swf</selectedOver>
+						<selectedDown>assetsuitcase/categories/MLP_Cat_Char_selectedDown.swf</selectedDown>
+						<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+						<rollOverSoundDelay>5</rollOverSoundDelay>
+						<clickSound>assetsuitcase/click.mp3</clickSound>
+					</categoryButton>
+					<carousel x="153" y="17" motion="horizontal" scrollStep="616">
+						<button x="0" y="40" action="pageUp">
+							<up>assetsuitcase/interface/Arrow_L_Up.swf</up>
+							<over>assetsuitcase/interface/Arrow_L_Over.swf</over>
+							<down>assetsuitcase/interface/Arrow_L_Down.swf</down>
+						</button>
+						<button x="648" y="40" action="pageDown">
+							<up>assetsuitcase/interface/Arrow_R_Up.swf</up>
+							<over>assetsuitcase/interface/Arrow_R_Over.swf</over>
+							<down>assetsuitcase/interface/Arrow_R_Down.swf</down>
+						</button>
+						<itemSkin width="125" height="125">
+							<up>assetsuitcase/interface/TopNav_Up.swf</up>
+							<over>assetsuitcase/interface/TopNav_Over.swf</over>
+							<down>assetsuitcase/interface/TopNav_Down.swf</down>
+							<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+							<mask>assetsuitcase/interface/TopNav_MaskOverlap.swf</mask>
+							<rollOverSoundDelay>5</rollOverSoundDelay>
+							<clickSound>assetsuitcase/click.mp3</clickSound>
+						</itemSkin>
+						<collection x="47" width="608" height="140" gap="29" buttonClass="com.kid360.hasbro.clickncolor.buttons.AssetCarouselButton">
+							<item src="assetsuitcase/characters/MLP_Char_TS_01.swf" scale="uniform" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_AJ_02.swf" scale="uniform" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_RD_03.swf" scale="uniform" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_RA_01.swf" scale="uniform" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_FS_03.swf" scale="uniform" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_PP_01.swf" scale="uniform" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_SP_01.swf" scale="uniform" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_LU_01.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_CE_01.swf" scale="uniform" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_TS_04.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_AJ_01.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_RD_02.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_RA_02.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_FS_01.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_PP_02.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_SP_02.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_CE_02.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_TS_02.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_AJ_03.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_RD_01.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_RA_03.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_FS_02.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_PP_03.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_Char_SP_03.swf" scale="uniform" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+<!--
+							<item src="assetsuitcase/characters/MLP_CharW_TS_01.swf" scale="uniform" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharW_RD.swf" scale="uniform" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharW_RA.swf" scale="uniform" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharW_FS.swf" scale="uniform" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharW_AJ.swf" scale="uniform" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharW_PP.swf" scale="uniform" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharW_SP.swf" scale="uniform" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharW_TS_02.swf" scale="uniform" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharW_DH_definitely_canon.swf" scale="uniform" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+-->
+							<item src="assetsuitcase/characters/MLP_CharV_AppleBloom.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharV_SweetieBelle.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharV_Scootaloo.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharV_Cheerilee.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharV_BM.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharV_FSFancy.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharV_PPFancy.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharV_RAFancy.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharV_Stallion.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/characters/MLP_CharV_WhomeverThisIs.swf" scale="uniform" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+						</collection>
+					</carousel>
+				</category>
+				
+				<category>
+					<categoryButton x="-2" y="525">
+						<up>assetsuitcase/categories/MLP_Cat_Prop_up.swf</up>
+						<over>assetsuitcase/categories/MLP_Cat_Prop_over.swf</over>
+						<down>assetsuitcase/categories/MLP_Cat_Prop_down.swf</down>
+						<selectedUp>assetsuitcase/categories/MLP_Cat_Prop_selectedUp.swf</selectedUp>
+						<selectedOver>assetsuitcase/categories/MLP_Cat_Prop_selectedOver.swf</selectedOver>
+						<selectedDown>assetsuitcase/categories/MLP_Cat_Prop_selectedDown.swf</selectedDown>
+						<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+						<rollOverSoundDelay>5</rollOverSoundDelay>
+						<clickSound>assetsuitcase/click.mp3</clickSound>
+					</categoryButton>
+					<carousel x="153" y="17" motion="horizontal" scrollStep="616">
+						<button x="0" y="40" action="pageUp">
+							<up>assetsuitcase/interface/Arrow_L_Up.swf</up>
+							<over>assetsuitcase/interface/Arrow_L_Over.swf</over>
+							<down>assetsuitcase/interface/Arrow_L_Down.swf</down>
+						</button>
+						<button x="648" y="40" action="pageDown">
+							<up>assetsuitcase/interface/Arrow_R_Up.swf</up>
+							<over>assetsuitcase/interface/Arrow_R_Over.swf</over>
+							<down>assetsuitcase/interface/Arrow_R_Down.swf</down>
+						</button>
+						<itemSkin width="125" height="125">
+							<up>assetsuitcase/interface/TopNav_Up.swf</up>
+							<over>assetsuitcase/interface/TopNav_Over.swf</over>
+							<down>assetsuitcase/interface/TopNav_Down.swf</down>
+							<rollOverSound>assetsuitcase/over.mp3</rollOverSound>
+							<mask>assetsuitcase/interface/TopNav_MaskOverlap.swf</mask>
+							<rollOverSoundDelay>5</rollOverSoundDelay>
+							<clickSound>assetsuitcase/click.mp3</clickSound>
+						</itemSkin>
+						<collection x="47" width="608" height="140" gap="29" buttonClass="com.kid360.hasbro.clickncolor.buttons.AssetCarouselButton">
+<!--
+							<item src="assetsuitcase/props/MLP_PropW_snowball.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_snowballPile.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_snowPony.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_snowCoverWagon.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_PropW_presents1.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_presents2.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_presents3.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_fireplace.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_PropW_garlandBox1.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_garlandBox2.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_gingerbreadHouse.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_candyCaneJar.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_PropW_giantCandyCane.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_garland1.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_garland2.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_garland3.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_PropW_xmasTree.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_bell1.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_bell2.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_bell3.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+-->
+							<item src="assetsuitcase/props/MLP_PropV_PaperHeart.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_Heart.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_IceSculpture.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_Mailbox.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_PropV_ValCard01.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_ValCard02.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_ValCard03.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_FlowerCart.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+	
+							<item src="assetsuitcase/props/MLP_PropV_Lily.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_Rose.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+<!--
+							<item src="assetsuitcase/props/MLP_PropV_Vase1.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+-->
+							<item src="assetsuitcase/props/MLP_PropV_Bouquet1.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_Bouquet2.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_PropV_Box.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_Box2.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropV_Box2Open.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_AppleCupcake.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+
+<!--
+							<item src="assetsuitcase/props/MLP_PropW_star.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_wreath1.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_PropW_wreath2.swf" scale="free" rotate="yes">
+								<keywords>winter</keywords>
+							</item>
+-->
+							<item src="assetsuitcase/props/MLP_Prop_Carriage.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Muffins.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_RecordPlayer.swf" scale="free" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_PropV_Camera.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_Prop_Treats.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Piano.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Book.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Stove.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_RubberChicken.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Kettle.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Telescope.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Guitar.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_CherryPie.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_LargeCake.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Fridge.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Lantern.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Megaphone.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_GoldStaff.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_SewingMachine.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_LemonBowl.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Bowl.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Pie.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Cup.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_LayeredCake.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Fruit.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_PinkCake.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Apple.swf" menuScale="1.0" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_CaramelApple.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_AppleCupcake.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Pudding.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Tart.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Danish.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Table.swf" scale="free" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Light.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_PinkTable.swf" scale="free" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Mixer.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_PinkSundae.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_PropV_BalloonTank.swf" scale="free" rotate="yes">
+								<keywords>valentine</keywords>
+							</item>
+
+							<item src="assetsuitcase/props/MLP_Prop_HeartBalloon.swf" scale="free" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_YellowBalloon.swf" scale="free" rotate="yes">
+								<keywords>anytime, valentine</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_Milkshake.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+							<item src="assetsuitcase/props/MLP_Prop_IceCreamBowl.swf" scale="free" rotate="yes">
+								<keywords>anytime</keywords>
+							</item>
+						</collection>
+					</carousel>
+				</category>
+			</categories>
+		</activity>
+	
+	</screens>
+	
+</clickncolor-config>

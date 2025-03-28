@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Aldrich';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/aldrich/v4/CbV6adQ0a77a6HkPxPvYiA.eot);
+  src: local('Aldrich'), url(http://themes.googleusercontent.com/static/fonts/aldrich/v4/CbV6adQ0a77a6HkPxPvYiA.eot) format('embedded-opentype'), url(http://themes.googleusercontent.com/static/fonts/aldrich/v4/Y0zWA9-hxl3_xvcxN-VXfA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/russoone/v2/RO6e96EC9m6OLO0tr7J3z_Y6323mHUZFJMgTvxaG2iE.eot);
+  src: local('Russo One'), local('RussoOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/russoone/v2/RO6e96EC9m6OLO0tr7J3z_Y6323mHUZFJMgTvxaG2iE.eot) format('embedded-opentype'), url(http://themes.googleusercontent.com/static/fonts/russoone/v2/RO6e96EC9m6OLO0tr7J3zz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}

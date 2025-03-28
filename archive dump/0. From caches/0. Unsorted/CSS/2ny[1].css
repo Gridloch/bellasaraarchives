@@ -1,0 +1,161 @@
+#percent {
+	MARGIN-LEFT: auto;
+	WIDTH: 640px;
+	MARGIN-RIGHT: auto;
+	height: 12px;
+}
+.loading_bar {
+	FLOAT: left; WIDTH: 500px
+}
+.flash {
+	MARGIN: 0px auto; TEXT-ALIGN: center
+}
+#flashgame {
+	DISPLAY: none
+}
+.flashbutton {
+	MARGIN: 0px auto; WIDTH: 598px
+}
+#flashbutton1 {
+	PADDING-LEFT: 50px; MARGIN: 0px auto; WIDTH: 650px; HEIGHT: 35px; TEXT-ALIGN: center
+}
+.flashbutton LI {
+	FLOAT: left; LINE-HEIGHT: 27px; MARGIN-RIGHT: 6px; HEIGHT: 27px
+}
+.all A {
+	DISPLAY: block; PADDING-LEFT: 28px
+}
+.center A {
+	DISPLAY: block; PADDING-LEFT: 28px
+}
+.small A {
+	DISPLAY: block; PADDING-LEFT: 28px
+}
+.stow A {
+	DISPLAY: block; PADDING-LEFT: 28px
+}
+.down A {
+	DISPLAY: block; PADDING-LEFT: 28px
+}
+.again A {
+	DISPLAY: block; PADDING-LEFT: 28px
+}
+.qq A {
+	DISPLAY: block; PADDING-LEFT: 28px
+}
+.send A {
+	DISPLAY: block; PADDING-LEFT: 28px
+}
+.all A {
+	BACKGROUND: url(neibg.gif) no-repeat left top; WIDTH: 33px
+}
+.center A {
+	BACKGROUND: url(neibg.gif) no-repeat -62px top; WIDTH: 33px
+}
+.small A {
+	BACKGROUND: url(neibg.gif) no-repeat -124px top; WIDTH: 33px
+}
+.stow A {
+	BACKGROUND: url(neibg.gif) no-repeat -186px top; WIDTH: 33px
+}
+.down A {
+	BACKGROUND: url(neibg.gif) no-repeat -248px top; WIDTH: 33px
+}
+.qq A {
+	BACKGROUND: url(neibg.gif) no-repeat left -28px; WIDTH: 69px
+}
+.send A {
+	BACKGROUND: url(neibg.gif) no-repeat -98px -28px; WIDTH: 58px
+}
+.again A {
+	BACKGROUND: url(neibg.gif) no-repeat -185px -28px; WIDTH: 33px; COLOR: #d60000
+}
+.flasharea_border {
+	MARGIN: auto;
+	BACKGROUND-COLOR: #000000;
+	border: 1px solid #000000;
+}
+#flashgame_play_before {
+	MARGIN-LEFT: auto; OVERFLOW: hidden; MARGIN-RIGHT: auto; PADDING-TOP: 0px; BACKGROUND-COLOR: #000000
+}
+.viewbox .newdigg {
+	CLEAR: both; PADDING-LEFT: 8px; MARGIN: 8px auto; OVERFLOW: hidden; WIDTH: 406px; HEIGHT: 51px
+}
+.viewbox .diggbox {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; OVERFLOW: hidden; WIDTH: 195px; CURSOR: pointer; COLOR: #ffffff; MARGIN-RIGHT: 8px; FONT-FAMILY: "Times New Roman", Times, serif; LETTER-SPACING: 2px; HEIGHT: 51px
+}
+.viewbox .diggbox .digg_act {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; MARGIN-LEFT: 50px; OVERFLOW: hidden; TEXT-INDENT: 32px; LINE-HEIGHT: 31px; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 29px
+}
+.viewbox .diggbox .digg_num {
+	FLOAT: left; TEXT-INDENT: 5px; LINE-HEIGHT: 29px
+}
+.viewbox .diggbox .digg_percent {
+	CLEAR: both; MARGIN-LEFT: 55px; OVERFLOW: hidden; WIDTH: 120px
+}
+.viewbox .diggbox .digg_percent .digg_percent_bar {
+	BORDER-RIGHT: #ccc 1px solid; MARGIN-TOP: 3px; BACKGROUND: #e8e8e8; FLOAT: left; OVERFLOW: hidden; WIDTH: 43px; HEIGHT: 7px
+}
+.viewbox .diggbox .digg_percent .digg_percent_num {
+	PADDING-LEFT: 5px; FONT-SIZE: 12px; FLOAT: left
+}
+.viewbox .diggbox .digg_percent .digg_percent_bar SPAN {
+	DISPLAY: block; BACKGROUND: #000; OVERFLOW: hidden; HEIGHT: 5px
+}
+.viewbox .newdigg .digg_good {
+	BACKGROUND: url(/img/newdigg-bg.jpg) no-repeat left top
+}
+.viewbox .newdigg .digg_bad {
+	BACKGROUND: url(/img/newdigg-bg.jpg) no-repeat right top
+}
+.viewbox .newdigg .digg_good .digg_act {
+	COLOR: #fff
+}
+.viewbox .newdigg .digg_good .digg_num {
+	COLOR: #fff
+}
+.viewbox .newdigg .digg_bad .digg_act {
+	FONT-WEIGHT: bold; COLOR: #fff
+}
+.viewbox .newdigg .digg_bad .digg_num {
+	COLOR: #fff
+}
+.viewbox .newdigg .digg_good .digg_percent .digg_percent_bar SPAN {
+	BORDER-RIGHT: #e37f24 1px solid; BORDER-TOP: #e37f24 1px solid; BACKGROUND: #ffc535; BORDER-LEFT: #e37f24 1px solid; BORDER-BOTTOM: #e37f24 1px solid
+}
+.viewbox .newdigg .digg_bad .digg_percent .digg_percent_bar SPAN {
+	BORDER-RIGHT: #689acc 1px solid; BORDER-TOP: #689acc 1px solid; BACKGROUND: #94c0e4; BORDER-LEFT: #689acc 1px solid; BORDER-BOTTOM: #689acc 1px solid
+}
+#ctr1 {
+	FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr2 {
+	BACKGROUND-POSITION: 0px -32px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr3 {
+	BACKGROUND-POSITION: 0px -64px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr4 {
+	BACKGROUND-POSITION: 0px -96px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr5 {
+	BACKGROUND-POSITION: 0px -128px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr6 {
+	BACKGROUND-POSITION: 0px -160px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr7 {
+	BACKGROUND-POSITION: 0px -192px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr8 {
+	BACKGROUND-POSITION: 0px -224px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr9 {
+	BACKGROUND-POSITION: 0px -256px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr10 {
+	BACKGROUND-POSITION: 0px -288px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+#ctr11 {
+	BACKGROUND-POSITION: 0px -320px; FLOAT: left; BACKGROUND-IMAGE: url(widget28_32x320.png); WIDTH: 32px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}

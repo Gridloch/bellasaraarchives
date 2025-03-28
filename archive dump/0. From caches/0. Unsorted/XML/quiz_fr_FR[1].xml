@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  	Most nodes can be edited in multiple ways with different attributes creating different effects. 	For example the background node can be controlled by hexadecimal color values, an image file, or 	turned off entirely to expose html elements beneath the flash piece.  Here is a full list of attributes 	for the background node:  		<background x="0" y="0" bgcolor="0xCCCCCC" image="images/ata/assets/background.jpg" visible="false" />  	If all these attributes are present, some will override the others.  In the sample above, nothing 	will show up, because the visible is set to false.  If the visible attribute were removed or set to 	true, then the image file would be used.  If the image attribute were removed or left empty the bgcolor 	would be applied.  	This provides the most flexibilty in editing these elements, and these rules will apply to all elements - 	The visible attribute will always override the image attribute, which always overrides the manual color 	attributes.  	Here are some more samples and expected results:  		Basic color attributes - image and visible attributes can be removed to keep the file cleaner 		<background x="0" y="0" bgcolor="0xCCCCCC" />  		Basic color attributes - with other values left empty, should have same results as the cleaner version above. 		<background x="0" y="0" bgcolor="0xCCCCCC" image="" visible="" />  		Basic image load 		<background x="0" y="0" image="images/ata/assets/background.jpg" />  		Hide the background 		<background x="0" y="0" visible="false" />  		Image overrides the color values, so this would display the image background 		<background x="0" y="0" bgcolor="0xCCCCCC" image="images/ata/assets/background.jpg" />  	The generic handoff version of this xml file will probably have a lot of empty attributes that you can delete 	if you like.  They are there as a reminder of what the options are if you are changing things from a sample version. 	Feel free to leave them though if you are not sure what to do with them.  Also, all the valid options and attributes 	should be documented in the Action Toy Arena documents in /source/docs folder of the handoff files.  -->
+
+
+
+<!--  Specify arena type here.  Current options are horizontal or carousel -->
+<quiz type="">
+
+	<!-- MAIN BACKGROUND OPTIONS --> <!-- The bottom layer background. -->
+	<background x="0" y="0" bgcolor="0xffffff" image="images/quiz/assets/background.png" visible="true"/>
+	<!-- END MAIN BACKGROUND OPTIONS -->
+
+	<!-- BOTTOM BUTTON BAR OPTIONS -->
+	<button_bar x="0" y="479" bgcolor="0x555555" image="" visible="false"/>
+	<!-- END BOTTOM BUTTON BAR OPTIONS -->
+
+	<!-- TITLE BAR OPTIONS -->
+	<title_bar x="0" y="0" bgcolor="0x555555" image="images/quiz/assets/frame.png" visible="true" depth="500"/>
+	<!-- END TITLE BAR OPTIONS -->
+	<title_text x="432" y="44" width="575"><![CDATA[<callout></callout>]]></title_text>
+	<!-- ANIMATION LOADER OPTIONS (no image option here) -->
+	<animation_loader visible="true" x="280" y="410" outline_color="0x000000" loading_bar_color="0x555555"/>
+	<!-- END ANIMATION LOADER OPTIONS -->
+
+	<!-- PRELOADER THAT APPEARS ON PLATFORMS (no image option here) -->
+	<preloader bgcolor="0x666666" outline_color="0x888888" visible=""/>
+	<!-- END PRELOADER THAT APPEARS ON PLATFORMS -->
+
+
+	<!-- SOUND OPTIONS -->
+
+	<!-- END SOUND OPTIONS -->
+
+
+
+	<!-- TEXT DOCUMENTATION SAMPLE --> <!--   		We tried to build the text functionality to make it as flexible as possible, but the majority of these attributes 		should be avoided in favor of using css formatting.  This will allow you to group together similar items, like button 		text or rollover colors, into css elements that can be changed in one location, and applied to multiple elements.  		Here is what I would expect for most text entries: 		<sample_text x="0" y="0" width="150" height="30"><![CDATA[<css_element>TEST</css_element>]]></sample_text>  		This example uses the xml attributes to position the textfield x,y coordinates, and draw the necessary height and width. 		Also note the use of the CDATA tag, so the css formatting will not break the sml parser.  Then we use a css element to  		actually format the text.  We can use css properties to set font family, size, color, alignment, etc.  		The sample above would create a one line text field, useful for buttons and tight areas.  If you want a multiline wrapping 		textfield you'll need to add 2 attributes that are identical to the actionscript attributes wordWrap and multiline: 		<sample_text x="0" y="0" width="150" height="30" wordWrap="true" multiline="true"><![CDATA[<css_element>TEST</css_element>]]></sample_text>  		In keeping with the theme of flexibility and options, if you really wanted to avoid the css file, you can pass in 		a useCSS="false" attribute and manually specify a lot of the built in actionscript textfield properties.  This is 		not as well tested, but might come in handy for certain situations: 		(NOT RECOMMENDED) 		<sample_text x="0" y="0" width="150" height="30" useCSS="false" align="center" multiline="false"  			autoSize="none" font="Sans Serif" size="16" textColor="0xFFFFFF" visible="true"  			background="false" backgroundColor="0xFFFFFF" selectable="true" condenseWhite="true"  			bold="false" italic="false" underline="false">TEST</sample_text>  	-->
+
+	<!-- HELP WINDOW OPTIONS --> <!-- set the main bg as a color value -->
+	<help_window x="25" y="100" bgcolor="0x1F1F1F" outline_color="0x000000" image="images/quiz/assets/detailsbg.jpg">
+
+		<!-- HELP WINDOW CLOSE BUTTON OPTIONS --> <!-- x and y relative to window origin -->
+		<close_button x="600" y="4" bgcolor="0x666666" outline_color="0x000000" rollover_bgcolor="0xEC1B23" rollover_outline_color="0x000000" image="" rollover_image="" rollover_sound="generic_rollover" click_sound="generic_click"/>
+		<!-- END HELP WINDOW CLOSE BUTTON OPTIONS -->
+		
+		<!-- HELP WINDOW TITLE -->
+		<title x="18" y="14" width="575"><![CDATA[<window_title>AIDE</window_title>]]></title>
+		<!-- END HELP WINDOW TITLE -->
+
+		<!-- HELP WINDOW TEXT (No scroll bar necessary, make sure help content fits window size through css styles and content edits) -->
+		<help_text x="18" y="50" width="570" multiline="true" wordWrap="true"><![CDATA[<description>
+		</description>]]></help_text>
+		<!-- END HELP WINDOW TEXT -->
+
+	</help_window>
+	<!-- END HELP WINDOW OPTIONS -->
+	
+	<text_seperator x="25" y="114" width="630" bgcolor="0xFFFFFF" visible="false"></text_seperator>
+	<!-- QUESTION CONTAINER OPTIONS -->
+	<question_container x="25" y="92" width="630">
+		<!-- x and y values are relative to the button object top left registration, not the stage --> <!-- control text width and wrapping with textfield variables like wordWrap and autoSize, see docs for more info -->
+			
+		<question_title x="0" y="0" width="630" height="30" visible=""></question_title>
+		<question_text x="0" y="26" multiline="true" wordWrap="true" width="630" height="72" visible=""></question_text>
+		
+		<text_seperator x="0" y="22" width="630" bgcolor="0xFFFFFF" visible="false"></text_seperator>
+		
+		<answer_box x="0" y="118" bgcolor="0x1F1F1F" outline_color="0x000000" image="" visible=""></answer_box>
+		
+		<answer_list x="9" y="5" visible=""></answer_list>
+	</question_container>
+	<!-- END QUESTION CONTAINER OPTIONS -->
+		
+	<!-- PREVIOUS QUESTION BUTTON OPTIONS --> <!-- set the title bar bg as a color value -->
+	<previous_question_button x="269" y="351" bgcolor="0x363636" outline_color="0x000000" rollover_bgcolor="0x555555" rollover_outline_color="0x363636" image="images/quiz/assets/buttonprev.png" rollover_image="images/quiz/assets/buttonprev_over.png" rollover_sound="generic_rollover" click_sound="generic_click">
+		<!-- text on the button --> <!-- x and y values are relative to the button object top left registration, not the stage --> <!-- control text width and wrapping with textfield variables like wordWrap and autoSize, see docs for more info -->
+		
+		<button_text x="-55" y="11" width="140" height="30"><![CDATA[<button_prev_back>Retour</button_prev_back>]]></button_text>		
+		<rollover_text x="-55" y="11" width="140" height="30"><![CDATA[<button_rollover>Retour</button_rollover>]]></rollover_text>
+		
+		<!-- click_action defines the behavior of the app on click -->
+		<click_action type="reverse_screen"></click_action>
+		
+	</previous_question_button>
+	<!-- END PREVIOUS QUESTION BUTTON OPTIONS -->
+
+
+	<!-- NEXT QUESTION BUTTON OPTIONS --> <!-- set the title bar bg as a color value -->
+	<next_question_button x="366" y="351" bgcolor="0x363636" outline_color="0x000000" rollover_bgcolor="0x555555" rollover_outline_color="0x363636" image="images/quiz/assets/buttonnext.png" rollover_image="images/quiz/assets/buttonnext_over.png" rollover_sound="generic_rollover" click_sound="generic_click">
+		<!-- text on the button --> <!-- x and y values are relative to the button object top left registration, not the stage --> <!-- control text width and wrapping with textfield variables like wordWrap and autoSize, see docs for more info -->
+		
+		<button_text x="55" y="11" width="140" height="30"><![CDATA[<button_prev_back>Suivant</button_prev_back>]]></button_text>		
+		<rollover_text x="55" y="11" width="140" height="30"><![CDATA[<button_rollover>Suivant</button_rollover>]]></rollover_text>
+		
+		<!-- click_action defines the behavior of the app on click -->
+		<click_action type="advance_screen"></click_action>
+		
+	</next_question_button>
+	<!-- END NEXT QUESTION BUTTON OPTIONS -->
+
+	<!-- AUDIO BUTTON OPTIONS --> <!-- set the title bar bg as a color value -->
+	<audio_button visible="false" x="651" y="57" bgcolor="0x555555" outline_color="0x000000" rollover_bgcolor="0x363636" rollover_outline_color="0x555555" icon_color="0x000000" icon_rollover_color="0xFFFFFF" image="" rollover_image="" off_image="" off_rollover_image="" rollover_sound="generic_rollover" click_sound="generic_click"/>
+	<!-- END AUDIO BUTTON OPTIONS -->
+
+	<!-- HELP BUTTON OPTIONS --> <!-- set the title bar bg as a color value -->
+	<help_button visible="false" x="623" y="57" bgcolor="0x555555" outline_color="0x000000" rollover_bgcolor="0x363636" rollover_outline_color="0x555555" icon_color="0x000000" icon_rollover_color="0xFFFFFF" image="" rollover_image="" rollover_sound="generic_rollover" click_sound="generic_click"/>
+	<!-- END HELP BUTTON OPTIONS -->
+		
+	<!-- ANSWER BUTTON OPTIONS -->
+	<answer_button x="0" y="0" scale="0.75" bgcolor="0x555555" outline_color="0x000000" rollover_bgcolor="0x363636" rollover_outline_color="0x555555" icon_color="0x000000" icon_rollover_color="0xFFFFFF" image="" rollover_image="" rollover_sound="generic_rollover" click_sound="generic_click" image_x="0" image_y="0">
+		<radio_button x="16" y="14" selected_dot_color="0x00BB00" unselected_dot_color="0x999999" bgcolor="0x555555" outline_color="0x000000" rollover_bgcolor="0x363636" rollover_outline_color="0x555555" icon_color="0x000000" icon_rollover_color="0xFFFFFF" image="" rollover_image=""></radio_button>
+		<answer_txt x="-75" y="40" width="150" wordWrap="true" align="center" multiline="true" valign="top"></answer_txt>
+		<rollover_txt x="-75" y="40" width="150" wordWrap="true" align="center" multiline="true" valign="top" color="0xEC1B23"></rollover_txt>
+		<click_action type="advance_screen"></click_action>
+	</answer_button>
+	<!-- END ANSWER BUTTON OPTIONS -->
+		
+	<!-- GENERIC BUTTON OPTIONS -->
+	<generic_button x="480" y="566" bgcolor="0x363600" outline_color="0x000000" rollover_bgcolor="0x555500" rollover_outline_color="0x363636" image="" rollover_image="" rollover_sound="generic_rollover" click_sound="generic_click">
+		<button_text x="0" y="7.75" width="160" height="30"><![CDATA[<button>Générique</button>]]></button_text>		
+		<rollover_text x="0" y="7.75" width="160" height="30"><![CDATA[<button_rollover>Générique</button_rollover>]]></rollover_text>
+	</generic_button>
+	<!-- END GENERIC BUTTON OPTIONS -->
+	
+	<!-- BEGIN BUTTON OPTIONS -->
+	<begin_button bgcolor="0x363600" outline_color="0x000000" rollover_bgcolor="0x555500" rollover_outline_color="0x363636" image="images/quiz/assets/begin.png" rollover_image="images/quiz/assets/begin_over.png" rollover_sound="generic_rollover" click_sound="generic_click">
+		<button_text x="10" y="30" width="160" height="30"><![CDATA[<button>Générique</button>]]></button_text>		
+		<rollover_text x="10" y="30" width="160" height="30"><![CDATA[<button_rollover>Générique</button_rollover>]]></rollover_text>
+	</begin_button>
+	<!-- END BEGIN BUTTON OPTIONS -->
+	
+	<!-- BEGIN QUESTION BUTTON OPTIONS -->
+	<question_button x="200" y="200" bgcolor="0x363600" outline_color="0x000000" rollover_bgcolor="0x555500" rollover_outline_color="0x363636" image="images/quiz/assets/57.png" rollover_image="images/quiz/assets/57.png" rollover_sound="generic_rollover" click_sound="generic_click">
+		<button_text x="10" y="30" width="160" height="30"><![CDATA[<button>Générique</button>]]></button_text>		
+		<rollover_text x="10" y="30" width="160" height="30"><![CDATA[<button_rollover>Générique</button_rollover>]]></rollover_text>
+	</question_button>
+	<!-- END QUESTION BUTTON OPTIONS -->
+	
+	<!-- LEGAL LINE, IF YOU WANT IT IN FLASH -->
+	<legal_text x="268" y="510" width="665" height="60" wordWrap="true" multiline="true" textColor="0x777777"><![CDATA[<legal>Hasbro 2010 - Tous droits réservés</legal>]]></legal_text>	
+	<!-- END LEGAL LINE -->
+
+	<!-- ADDED BY AARON, NEEDS COMMENTS AND TO BE COPIED INTO THE OTHER TWO EXAMPLE XML FILES -->
+	<video_player x="37" y="205" bgcolor="0x000000" outline_color="0x363636">
+		<pause_button x="108" y="65" bgcolor="0x363636" outline_color="0x000000" rollover_bgcolor="0x555555" rollover_outline_color="0x363636" image="" rollover_image="" rollover_sound="generic_rollover" click_sound="generic_click"></pause_button>
+		<play_button x="108" y="65" bgcolor="0x363636" outline_color="0x000000" rollover_bgcolor="0x555555" rollover_outline_color="0x363636" image="" rollover_image="" rollover_sound="generic_rollover" click_sound="generic_click"></play_button>
+	</video_player>
+	
+	<section id="section_0" show_title="false">
+		<screens>
+			<screen id="1" type="intro" image="images/quiz/assets/welcome.png" img_x="-9" img_y="31" tween_in="right" tween_out="left">
+				<intro_text x="222" y="193" width="274" height="154" leading="-10"><![CDATA[<title2>trouve quel poney 
+te ressemble !</title2>]]></intro_text>		
+				<intro_text x="220" y="190" width="274" leading="-10" height="154" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<title>trouve quel poney 
+te ressemble !</title>]]></intro_text>		
+
+				<text_seperator x="295" y="114" width="0" visible="false"></text_seperator>
+				
+				<button type="begin_button" id="start" x="263" y="361" depth="3">
+					<button_text width="170" height="40" x="10" y="17"><![CDATA[<button>commence le test</button>]]></button_text>		
+					<rollover_text width="170" height="40" x="10" y="17"><![CDATA[<button_rollover>commence le test</button_rollover>]]></rollover_text>
+					<click_action type="change_section" section_id="section_1" reset_parameters="true"></click_action>
+				</button>
+			</screen>
+		</screens>
+	</section>
+	<section id="section_1" show_title="true">
+		<screens>
+			<!-- Standard question screen, contains next and previous -->
+			<screen id="1" type="question" image="images/quiz/assets/questionbackground4.png" tween_in="right" tween_out="left" x="0" y="5" question_id="1">
+				<text_field x="40" y="200" width="600" wordWrap="true" id="1"><![CDATA[<instructions></instructions>]]></text_field>
+				<question_container question_type="image" x="260" y="115">
+					<!-- Have to add text seperator node to change it's visibility -->
+					<text_seperator visible="false"></text_seperator>
+					<text x="-60" y="-58" width="300" height="600" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question_header>question
+<numbers>1 sur 8</numbers></question_header>]]></text>
+					<question_title x="-58" y="-55" width="300" height="600" leading="-15"></question_title>
+
+
+					<text x="-415" y="52" width="1000" glow_color="0x99258e" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question>quand tu passes du temps avec tes amies tu aimes : </question>]]></text>
+					<question_text x="-415" y="52" shadow_color="0xb40079" shadow_distance="3" shadow_angle="60" shadow_blur="7" shadow_quality="1" shadow_strength="1.5" width="1000" height="400" leading="-15"></question_text>
+					<answer_button x="8" y="175" id="1" image="images/quiz/assets/icons/playdressup.png" rollover_image="images/quiz/assets/icons/playdressup.png"></answer_button>
+					<answer_button x="168" y="175" id="2" image="images/quiz/assets/icons/playgames.png" rollover_image="images/quiz/assets/icons/playgames.png"></answer_button>
+					<answer_button x="8" y="295" id="3" image="images/quiz/assets/icons/playoutside.png" rollover_image="images/quiz/assets/icons/playoutside.png"></answer_button>
+					<answer_button x="168" y="295" id="4" image="images/quiz/assets/icons/tellstories.png" rollover_image="images/quiz/assets/icons/tellstories.png"></answer_button>
+				</question_container>
+				<!--  <button type="question_button" id="question1" image="images/quiz/assets/icons/57.png" x="200" y="200"></button> 				<button type="previous_question_button" id="prev"> 					<click_action type="change_section" section_id="section_0" reset_parameters="true"></click_action> 				</button> 				<button type="next_question_button" id="next"></button> -->
+				<branch answer_id="1" behavior="advance_screen"></branch>
+				<branch answer_id="2" behavior="advance_screen"></branch>
+				<branch answer_id="3" behavior="advance_screen"></branch>
+				<branch answer_id="4" behavior="advance_screen"></branch>
+
+			</screen>
+			
+			<screen id="2" type="question" image="images/quiz/assets/questionbackground4.png" x="0" y="5" tween_in="right" tween_out="left" question_id="2">
+				<text_field x="40" y="150" width="600" wordWrap="true" id="1"><![CDATA[<instructions></instructions>]]></text_field>
+				<question_container question_type="image" x="260" y="115">
+					<text_seperator visible="false"></text_seperator>
+					<text x="-60" y="-58" width="300" height="600" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question_header>question
+<numbers>2 sur 8</numbers></question_header>]]></text>
+					<question_title x="-58" y="-55" width="300" height="600" leading="-15"></question_title>
+					<text x="-415" y="52" width="1000" glow_color="0x99258e" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question>tu fais un dessin. que dessines-tu dans le ciel ? 
+</question>]]></text>
+					<question_text x="-415" y="52" shadow_color="0xb40079" shadow_distance="3" shadow_angle="60" shadow_blur="7" shadow_quality="1" shadow_strength="1.5" width="1000" height="400" leading="-15"></question_text>
+					<answer_button x="8" y="175" id="1" image="images/quiz/assets/icons/rainbows.png" rollover_image="images/quiz/assets/icons/rainbows.png"></answer_button>
+					<answer_button x="168" y="175" id="2" image="images/quiz/assets/icons/stars.png" rollover_image="images/quiz/assets/icons/stars.png"></answer_button>
+					<answer_button x="8" y="295" id="3" image="images/quiz/assets/icons/butterflies.png" rollover_image="images/quiz/assets/icons/butterflies.png"></answer_button>
+					<answer_button x="168" y="295" id="4" image="images/quiz/assets/icons/balloons.png" rollover_image="images/quiz/assets/icons/balloons.png"></answer_button>
+				</question_container>
+				<!--  <button type="previous_question_button" id="prev"></button> 				<button type="next_question_button" id="next"></button>-->
+			</screen>
+			
+			<screen id="3" type="question" image="images/quiz/assets/questionbackground5.png" tween_in="right" tween_out="left" x="0" y="5" question_id="3">
+				<text_field x="40" y="150" width="600" wordWrap="true" id="1"><![CDATA[<instructions></instructions>]]></text_field>
+				<question_container question_type="image" x="260" y="115">
+					<text_seperator visible="false"></text_seperator>
+					<text x="-60" y="-58" width="300" height="600" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question_header>question
+<numbers>3 sur 8</numbers></question_header>]]></text>
+					<question_title x="-58" y="-55" width="300" height="600" leading="-15"></question_title>
+					<text x="-415" y="52" width="1000" glow_color="0x99258e" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question>si tu choisis un vêtement, quelle couleur 
+préfèrerais-tu porter ? 
+</question>]]></text>
+					<question_text x="-415" y="52" shadow_color="0xb40079" shadow_distance="3" shadow_angle="60" shadow_blur="7" shadow_quality="1" shadow_strength="1.5" width="1000" height="400" leading="-15"></question_text>
+					<answer_button x="-72" y="175" id="1" image="images/quiz/assets/icons/pink.png" rollover_image="images/quiz/assets/icons/pink.png"></answer_button>
+					<answer_button x="88" y="175" id="2" image="images/quiz/assets/icons/blue.png" rollover_image="images/quiz/assets/icons/blue.png"></answer_button>
+					<answer_button x="248" y="175" id="3" image="images/quiz/assets/icons/purple.png" rollover_image="images/quiz/assets/icons/purple.png"></answer_button>
+					<answer_button x="8" y="295" id="4" image="images/quiz/assets/icons/red.png" rollover_image="images/quiz/assets/icons/red.png"></answer_button>
+					<answer_button x="168" y="295" id="5" image="images/quiz/assets/icons/yellow.png" rollover_image="images/quiz/assets/icons/yellow.png"></answer_button>
+						</question_container>
+				<!--<button type="previous_question_button" id="prev"></button> 				<button type="next_question_button" id="next"></button>-->
+			</screen>
+			
+			<screen id="4" type="question" image="images/quiz/assets/questionbackground4.png" tween_in="right" tween_out="left" x="0" y="5" question_id="4">
+				<text_field x="40" y="150" width="600" wordWrap="true" id="1"><![CDATA[<instructions></instructions>]]></text_field>
+				<question_container question_type="image" x="260" y="115">
+					<text_seperator visible="false"></text_seperator>
+					<text x="-60" y="-58" width="300" height="600" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question_header>question
+<numbers>4 sur 8</numbers></question_header>]]></text>
+					<question_title x="-58" y="-55" width="300" height="600" leading="-15"></question_title>
+					<text x="-415" y="52" width="1000" glow_color="0x99258e" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question>quel mot te décrit le mieux ?</question>]]></text>
+					<question_text x="-415" y="52" shadow_color="0xb40079" shadow_distance="3" shadow_angle="60" shadow_blur="7" shadow_quality="1" shadow_strength="1.5" width="1000" height="400" leading="-15"></question_text>
+					<answer_button x="8" y="175" id="1" image="images/quiz/assets/icons/silly.png" rollover_image="images/quiz/assets/icons/silly.png"></answer_button>
+					<answer_button x="168" y="175" id="2" image="images/quiz/assets/icons/quiet.png" rollover_image="images/quiz/assets/icons/quiet.png"></answer_button>
+					<answer_button x="8" y="295" id="3" image="images/quiz/assets/icons/adventurous.png" rollover_image="images/quiz/assets/icons/adventurous.png"></answer_button>
+					<answer_button x="168" y="295" id="4" image="images/quiz/assets/icons/responsible.png" rollover_image="images/quiz/assets/icons/responsible.png"></answer_button>
+
+						</question_container>
+				<!--<button type="previous_question_button" id="prev"></button> 				<button type="next_question_button" id="next"></button>-->
+			</screen>
+						
+					<screen id="5" type="question" image="images/quiz/assets/questionbackground3small.png" tween_in="right" tween_out="left" x="0" y="5" question_id="5">
+				<text_field x="40" y="150" width="600" wordWrap="true" id="1"><![CDATA[<instructions></instructions>]]></text_field>
+				<question_container question_type="image" x="260" y="115">
+					<text_seperator visible="false"></text_seperator>
+					<text x="-60" y="-58" width="300" height="600" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question_header>question
+<numbers>5 sur 8</numbers></question_header>]]></text>
+					<question_title x="-58" y="-55" width="300" height="600" leading="-15"></question_title>
+					<text x="-415" y="52" width="1000" glow_color="0x99258e" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question>Quel cadeau aimerais-tu recevoir pour 
+ton anniversaire ?</question>]]></text>
+					<question_text x="-415" y="52" shadow_color="0xb40079" shadow_distance="3" shadow_angle="60" shadow_blur="7" shadow_quality="1" shadow_strength="1.5" width="1000" height="400" leading="-15"></question_text>
+					<answer_button x="-72" y="175" id="1" image="images/quiz/assets/icons/adress.png" rollover_image="images/quiz/assets/icons/adress.png"></answer_button>
+					<answer_button x="88" y="175" id="2" image="images/quiz/assets/icons/acowgirlhat.png" rollover_image="images/quiz/assets/icons/acowgirlhat.png"></answer_button>
+					<answer_button x="248" y="175" id="3" image="images/quiz/assets/icons/asillyjokebook.png" rollover_image="images/quiz/assets/icons/asillyjokebook.png"></answer_button>
+				</question_container>
+				<!--<button type="previous_question_button" id="prev"></button> 				<button type="next_question_button" id="next"></button>-->
+			</screen>
+			
+			<screen id="6" type="question" image="images/quiz/assets/questionbackground3.png" tween_in="right" tween_out="left" x="0" y="5" question_id="6">
+				<text_field x="40" y="150" width="600" wordWrap="true" id="1"><![CDATA[<instructions></instructions>]]></text_field>
+				<question_container question_type="image" x="260" y="115">
+					<text_seperator visible="false"></text_seperator>
+					<text x="-60" y="-58" width="300" height="600" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question_header>question
+<numbers>6 sur 8</numbers></question_header>]]></text>
+					<question_title x="-58" y="-55" width="300" height="600" leading="-15"></question_title>
+					<text x="-415" y="52" width="1000" glow_color="0x99258e" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question>tes vêtements préférés sont :</question>]]></text>
+					<question_text x="-415" y="52" shadow_color="0xb40079" shadow_distance="3" shadow_angle="60" shadow_blur="7" shadow_quality="1" shadow_strength="1.5" width="1000" height="400" leading="-15"></question_text>
+					<answer_button x="-72" y="175" id="1" image="images/quiz/assets/icons/sparklyandcolorful.png" rollover_image="images/quiz/assets/icons/sparklyandcolorful.png"></answer_button>
+					<answer_button x="88" y="175" id="2" image="images/quiz/assets/icons/comfortable.png" rollover_image="images/quiz/assets/icons/comfortable.png"></answer_button>
+					<answer_button x="248" y="175" id="3" image="images/quiz/assets/icons/playclothes.png" rollover_image="images/quiz/assets/icons/playclothes.png"></answer_button>
+				</question_container>
+				<!--<button type="previous_question_button" id="prev"></button> 				<button type="next_question_button" id="next"></button>-->
+			</screen>
+			<screen id="7" type="question" image="images/quiz/assets/questionbackground4.png" tween_in="right" tween_out="left" x="0" y="5" question_id="7">
+				<text_field x="40" y="150" width="600" wordWrap="true" id="1"><![CDATA[<instructions></instructions>]]></text_field>
+				<question_container question_type="image" x="260" y="115">
+					<text_seperator visible="false"></text_seperator>
+					<text x="-60" y="-58" width="300" height="600" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question_header>question
+<numbers>7 sur 8</numbers></question_header>]]></text>
+					<question_title x="-58" y="-55" width="300" height="600" leading="-15"></question_title>
+					<text x="-415" y="52" width="1000" glow_color="0x99258e" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question>quand tu seras grande, tu aimerais être :</question>]]></text>
+					<question_text x="-415" y="52" shadow_color="0xb40079" shadow_distance="3" shadow_angle="60" shadow_blur="7" shadow_quality="1" shadow_strength="1.5" width="1000" height="400" leading="-15"></question_text>
+					<answer_button x="8" y="175" id="1" image="images/quiz/assets/icons/clothingdesigner.png" rollover_image="images/quiz/assets/icons/clothingdesigner.png"></answer_button>
+					<answer_button x="168" y="175" id="2" image="images/quiz/assets/icons/comedian.png" rollover_image="images/quiz/assets/icons/comedian.png"></answer_button>
+					<answer_button x="8" y="295" id="3" image="images/quiz/assets/icons/farmer.png" rollover_image="images/quiz/assets/icons/farmer.png"></answer_button>
+					<answer_button x="168" y="295" id="4" image="images/quiz/assets/icons/athlete.png" rollover_image="images/quiz/assets/icons/athlete.png"></answer_button>
+				</question_container>
+				<!--<button type="previous_question_button" id="prev"></button> 				<button type="generic_button" id="results" x="350" y="352" image="images/quiz/assets/results.png" rollover_image="images/quiz/assets/results_over.png"> 					<button_text width="160" height="30" x="20" y="10"><![CDATA[<button>Results</button>]]></button_text>		 					<rollover_text width="160" height="30" x="20" y="10"><![CDATA[<button_rollover>Results</button_rollover>]]></rollover_text> 					<click_action type="advance_screen"></click_action> 				</button>-->
+			</screen>
+			<screen id="8" type="question" image="images/quiz/assets/questionbackground3.png" tween_in="right" tween_out="left" x="0" y="5" question_id="8">
+				<text_field x="40" y="150" width="600" wordWrap="true" id="1"><![CDATA[<instructions></instructions>]]></text_field>
+				<question_container question_type="image" x="260" y="115">
+					<text_seperator visible="false"></text_seperator>
+					<text x="-60" y="-58" width="300" height="600" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question_header>question
+<numbers>8 sur 8</numbers></question_header>]]></text>
+					<question_title x="-58" y="-55" width="300" height="600" leading="-15"></question_title>
+					<text x="-415" y="52" width="1000" glow_color="0x99258e" glow_strength="15" glow_quality="3" glow_blur="1.5" leading="-15"><![CDATA[<question>ta façon préférée de jouer avec tes amies my little 
+pony c'est de : </question>]]>
+</text>
+					<question_text x="-415" y="52" shadow_color="0xb40079" shadow_distance="3" shadow_angle="60" shadow_blur="7" shadow_quality="1" shadow_strength="1.5" width="1000" height="400" leading="-15"></question_text>
+					<answer_button x="-72" y="175" id="1" image="images/quiz/assets/icons/givelotsofhugs.png" rollover_image="images/quiz/assets/icons/givelotsofhugs.png"></answer_button>
+					<answer_button x="88" y="175" id="2" image="images/quiz/assets/icons/brushhair.png" rollover_image="images/quiz/assets/icons/brushhair.png"></answer_button>
+					<answer_button x="248" y="175" id="3" image="images/quiz/assets/icons/readstories.png" rollover_image="images/quiz/assets/icons/readstories.png"></answer_button>
+				</question_container>
+				<!--<button type="previous_question_button" id="prev"></button> 				<button type="generic_button" id="results" x="350" y="352" image="images/quiz/assets/results.png" rollover_image="images/quiz/assets/results_over.png"> 					<button_text width="160" height="30" x="20" y="10"><![CDATA[<button>Results</button>]]></button_text>		 					<rollover_text width="160" height="30" x="20" y="10"><![CDATA[<button_rollover>Results</button_rollover>]]></rollover_text> 					<click_action type="advance_screen"></click_action> 				</button>-->
+			</screen>
+			<screen id="9" type="results" subtype="image" results_id="1">
+				<result id="1" image="images/quiz/assets/ponies/twilight.png" img_x="65" img_y="220" tween_in="right" tween_out="left">				
+										
+					<img id="2" x="235" y="27" image="images/quiz/assets/results_screen.png"></img>
+					<text x="225" y="65" width="250" height="100" leading="-15" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_title>tu es comme :</result_title>]]></text>
+					<page_title x="227" y="68" width="250" height="100" leading="-15"><![CDATA[<result_title_color>tu es comme :</result_title_color> 
+]]></page_title>
+
+					<text x="398" y="168" width="500" height="90" wordWrap="true" id="1"><![CDATA[<result_product_color>twilight sparkle</result_product_color>]]></text>
+					<text_field x="396" y="165" width="500" height="90" wordWrap="true" id="1" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_product>twilight sparkle</result_product>]]></text_field>
+					
+					<body_text x="395" y="220" width="250" height="150" wordWrap="true" leading="5"><![CDATA[<promo>Elle essaie de trouver la réponse à chaque question ! </promo>]]>Qu'elle étudie un livre ou qu'elle passe du temps avec des amies, elle apprend toujours quelque chose de nouveau !</body_text>
+
+					
+					<button type="generic_button" id="2" x="401" y="422" image="images/quiz/assets/results.png" rollover_image="images/quiz/assets/results_over.png" depth="200">
+						<button_text width="300" height="30" x="40" y="17"><![CDATA[<button_product>télécharge son poster</button_product>]]></button_text>		
+						<rollover_text width="300" height="30" x="40" y="17"><![CDATA[<button_product_rollover>télécharge son poster</button_product_rollover>]]></rollover_text>
+						<click_action type="link"><![CDATA[pdfs/Twilight_Sparkle.pdf]]></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					
+					<button type="generic_button" id="4" x="94" y="457" image="images/quiz/assets/retake_quiz_button.png" rollover_image="images/quiz/assets/retake_quiz_button_over.png">
+						<button_text width="200" height="30" x="25" y="17"><![CDATA[<button_product>recommence le test</button_product>]]></button_text>		
+						<rollover_text width="200" height="30" x="25" y="17"><![CDATA[<button_product_rollover>recommence le test</button_product_rollover>]]></rollover_text>
+						<click_action type="change_section" section_id="section_0" reset_parameters="true"></click_action>
+					</button>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+				</result>
+				
+				<result id="2" image="images/quiz/assets/ponies/pinkie.png" img_x="65" img_y="220" tween_in="right" tween_out="left">		
+				
+					<img id="2" x="235" y="27" image="images/quiz/assets/results_screen.png"></img>
+					
+					<text x="225" y="65" width="250" height="100" leading="-15" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_title>tu es comme :</result_title>]]></text>
+					<page_title x="227" y="68" width="250" height="100" leading="-15"><![CDATA[<result_title_color>tu es comme :</result_title_color> 
+]]></page_title>
+					<text x="398" y="168" width="500" height="90" wordWrap="true" id="2"><![CDATA[<result_product_color>pinkie pie</result_product_color>]]></text>
+					<text_field x="396" y="165" width="500" height="90" wordWrap="true" id="2" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_product>pinkie pie</result_product>]]></text_field>
+					
+					<body_text x="395" y="220" width="250" height="150" wordWrap="true" leading="5"><![CDATA[<promo>Elle fait rire ses amies poneys toute la journée ! Gaie et souriante, elle voit toujours le bon côté des choses.</promo>]]></body_text>
+					
+									<button type="generic_button" id="2" x="401" y="422" image="images/quiz/assets/results.png" rollover_image="images/quiz/assets/results_over.png" depth="200">
+						<button_text width="300" height="30" x="40" y="17"><![CDATA[<button_product>télécharge son poster</button_product>]]></button_text>		
+						<rollover_text width="300" height="30" x="40" y="17"><![CDATA[<button_product_rollover>télécharge son poster</button_product_rollover>]]></rollover_text>
+						<click_action type="link"><![CDATA[pdfs/Pinkie_Pie.pdf]]></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					
+					<button type="generic_button" id="4" x="94" y="457" image="images/quiz/assets/retake_quiz_button.png" rollover_image="images/quiz/assets/retake_quiz_button_over.png">
+						<button_text width="200" height="30" x="25" y="17"><![CDATA[<button_product>recommence le test</button_product>]]></button_text>		
+						<rollover_text width="200" height="30" x="25" y="17"><![CDATA[<button_product_rollover>recommence le test</button_product_rollover>]]></rollover_text>
+						<click_action type="change_section" section_id="section_0" reset_parameters="true"></click_action>
+					</button>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+
+				</result>
+				
+				<result id="3" image="images/quiz/assets/ponies/applejack.png" img_x="65" img_y="220" tween_in="right" tween_out="left">				
+										
+					<img id="2" x="235" y="27" image="images/quiz/assets/results_screen.png"></img>
+					
+					<text x="225" y="65" width="250" height="100" leading="-15" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_title>tu es comme :</result_title>]]></text>
+					<page_title x="227" y="68" width="250" height="100" leading="-15"><![CDATA[<result_title_color>tu es comme :</result_title_color> 
+]]></page_title>
+					<text x="398" y="168" width="500" height="90" wordWrap="true" id="3"><![CDATA[<result_product_color>applejack</result_product_color>]]></text>
+					<text_field x="396" y="165" width="500" height="90" wordWrap="true" id="3" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_product>applejack</result_product>]]></text_field>
+					<body_text x="395" y="220" width="250" height="150" wordWrap="true" leading="5"><![CDATA[<promo>Elle est honnête, amicale et très douce ! </promo>]]>Elle adore être dans la nature et ses amies peuvent compter sur elle.</body_text>
+					
+										<button type="generic_button" id="2" x="401" y="422" image="images/quiz/assets/results.png" rollover_image="images/quiz/assets/results_over.png" depth="200">
+						<button_text width="300" height="30" x="40" y="17"><![CDATA[<button_product>télécharge son poster</button_product>]]></button_text>		
+						<rollover_text width="300" height="30" x="40" y="17"><![CDATA[<button_product_rollover>télécharge son poster</button_product_rollover>]]></rollover_text>
+						<click_action type="link"><![CDATA[pdfs/Applejack.pdf]]></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					
+					<button type="generic_button" id="4" x="94" y="457" image="images/quiz/assets/retake_quiz_button.png" rollover_image="images/quiz/assets/retake_quiz_button_over.png">
+						<button_text width="200" height="30" x="25" y="17"><![CDATA[<button_product>recommence le test</button_product>]]></button_text>		
+						<rollover_text width="200" height="30" x="25" y="17"><![CDATA[<button_product_rollover>recommence le test</button_product_rollover>]]></rollover_text>
+						<click_action type="change_section" section_id="section_0" reset_parameters="true"></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+				</result>
+				<result id="4" image="images/quiz/assets/ponies/rarity.png" img_x="65" img_y="220" tween_in="right" tween_out="left">				
+										
+					<img id="2" x="235" y="27" image="images/quiz/assets/results_screen.png"></img>
+					
+					<text x="225" y="65" width="250" height="100" leading="-15" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_title>tu es comme :</result_title>
+]]></text>
+					<page_title x="227" y="68" width="250" height="100" leading="-15"><![CDATA[<result_title_color>tu es comme :</result_title_color> 
+]]></page_title>
+					<text x="398" y="168" width="500" height="90" wordWrap="true" id="4"><![CDATA[<result_product_color>rarity</result_product_color>]]></text>
+					<text_field x="396" y="165" width="500" height="90" wordWrap="true" id="4" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_product>rarity</result_product>]]></text_field>
+					<body_text x="395" y="220" width="250" height="150" wordWrap="true" leading="5"><![CDATA[<promo>Elle sait comment ajouter de l'éclat à n'importe quel vêtement ! </promo>]]>Elle adore donner des conseils à ses amies sur les dernières tendances à la mode et les coiffures pour poneys.</body_text>
+					
+									<button type="generic_button" id="2" x="401" y="422" image="images/quiz/assets/results.png" rollover_image="images/quiz/assets/results_over.png" depth="200">
+						<button_text width="300" height="30" x="40" y="17"><![CDATA[<button_product>télécharge son poster</button_product>]]></button_text>		
+						<rollover_text width="300" height="30" x="40" y="17"><![CDATA[<button_product_rollover>télécharge son poster</button_product_rollover>]]></rollover_text>
+						<click_action type="link"><![CDATA[pdfs/Rarity.pdf]]></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					
+					<button type="generic_button" id="4" x="94" y="457" image="images/quiz/assets/retake_quiz_button.png" rollover_image="images/quiz/assets/retake_quiz_button_over.png">
+						<button_text width="200" height="30" x="25" y="17"><![CDATA[<button_product>recommence le test</button_product>]]></button_text>		
+						<rollover_text width="200" height="30" x="25" y="17"><![CDATA[<button_product_rollover>recommence le test</button_product_rollover>]]></rollover_text>
+						<click_action type="change_section" section_id="section_0" reset_parameters="true"></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+				</result>
+				<result id="5" image="images/quiz/assets/ponies/rainbow.png" img_x="65" img_y="220" tween_in="right" tween_out="left">				
+										
+					<img id="2" x="235" y="27" image="images/quiz/assets/results_screen.png"></img>
+					
+					<text x="225" y="65" width="250" height="100" leading="-15" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_title>tu es comme :</result_title> 
+]]></text>
+					<page_title x="227" y="68" width="250" height="100" leading="-15"><![CDATA[<result_title_color>tu es comme :</result_title_color> 
+]]></page_title>
+					<text x="398" y="168" width="500" height="90" wordWrap="true" id="5"><![CDATA[<result_product_color>rainbow dash</result_product_color>]]></text>
+					<text_field x="396" y="165" width="500" height="90" wordWrap="true" id="5" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_product>rainbow dash</result_product>]]></text_field>
+					<body_text x="395" y="220" width="250" height="150" wordWrap="true" leading="5"><![CDATA[<promo>Elle aime voler aussi vite qu'elle peut ! </promo>]]>Elle est toujours prête à jouer, partir à l'aventure ou aider l'une de ses amies !</body_text>
+					
+										<button type="generic_button" id="2" x="401" y="422" image="images/quiz/assets/results.png" rollover_image="images/quiz/assets/results_over.png" depth="200">
+						<button_text width="300" height="30" x="40" y="17"><![CDATA[<button_product>télécharge son poster</button_product>]]></button_text>		
+						<rollover_text width="300" height="30" x="40" y="17"><![CDATA[<button_product_rollover>télécharge son poster</button_product_rollover>]]></rollover_text>
+						<click_action type="link"><![CDATA[pdfs/Rainbow_Dash.pdf]]></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					
+					<button type="generic_button" id="4" x="94" y="457" image="images/quiz/assets/retake_quiz_button.png" rollover_image="images/quiz/assets/retake_quiz_button_over.png">
+						<button_text width="200" height="30" x="25" y="17"><![CDATA[<button_product>recommence le test</button_product>]]></button_text>		
+						<rollover_text width="200" height="30" x="25" y="17"><![CDATA[<button_product_rollover>recommence le test</button_product_rollover>]]></rollover_text>
+						<click_action type="change_section" section_id="section_0" reset_parameters="true"></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+				</result>
+				
+				<result id="6" image="images/quiz/assets/ponies/fluttershy.png" img_x="65" img_y="220" tween_in="right" tween_out="left">				
+										
+					<img id="2" x="235" y="27" image="images/quiz/assets/results_screen.png"></img>
+					
+					<text x="225" y="65" width="250" height="100" leading="-15" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_title>tu es comme :</result_title>
+]]></text>
+					<page_title x="227" y="68" width="250" height="100" leading="-15"><![CDATA[<result_title_color>tu es comme :</result_title_color> 
+]]></page_title>
+					<text x="398" y="168" width="500" height="90" wordWrap="true" id="6"><![CDATA[<result_product_color>fluttershy</result_product_color>]]></text>
+					<text_field x="396" y="165" width="500" height="90" wordWrap="true" id="6" glow_color="0xb40079" glow_strength="15" glow_quality="3" glow_blur="1.5"><![CDATA[<result_product>fluttershy</result_product>]]></text_field>
+					<body_text x="395" y="220" width="250" height="150" wordWrap="true" leading="5"><![CDATA[<promo>C'est un poney doux et gentil avec un grand coeur. </promo>]]>Elle aime s'occuper des autres, en particulier de ses petits amis animaux !</body_text>
+										<button type="generic_button" id="2" x="401" y="422" image="images/quiz/assets/results.png" rollover_image="images/quiz/assets/results_over.png" depth="200">
+						<button_text width="300" height="30" x="40" y="17"><![CDATA[<button_product>télécharge son poster</button_product>]]></button_text>		
+						<rollover_text width="300" height="30" x="40" y="17"><![CDATA[<button_product_rollover>télécharge son poster</button_product_rollover>]]></rollover_text>
+						<click_action type="link"><![CDATA[pdfs/Fluttershy.pdf]]></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					
+					<button type="generic_button" id="4" x="94" y="457" image="images/quiz/assets/retake_quiz_button.png" rollover_image="images/quiz/assets/retake_quiz_button_over.png">
+						<button_text width="200" height="30" x="25" y="17"><![CDATA[<button_product>recommence le test</button_product>]]></button_text>		
+						<rollover_text width="200" height="30" x="25" y="17"><![CDATA[<button_product_rollover>recommence le test</button_product_rollover>]]></rollover_text>
+						<click_action type="change_section" section_id="section_0" reset_parameters="true"></click_action>
+					</button>
+
+					<text_seperator x="295" y="114" width="372" visible="false" depth="2"></text_seperator>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+					<button type="generic_button" id="3" x="550" y="357" width="200" height="80" image="images/quiz/assets/spacer.png" rollover_image="images/quiz/assets/spacer.png" depth="6">
+						<button_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all></button_see_all>]]></button_text>		
+						<rollover_text width="100" height="20" x="10" y="25"><![CDATA[<button_see_all_over></button_see_all_over>]]></rollover_text>
+						<!-- no url for this button, opens details window in flash -->
+						<click_action type="open_help"></click_action>
+					</button>
+				</result>
+			</screen>
+		</screens>
+	</section>
+</quiz>

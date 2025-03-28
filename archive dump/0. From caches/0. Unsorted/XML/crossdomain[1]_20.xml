@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cross-domain-policy>
+  <allow-access-from domain="208.210.197.204" />
+  <allow-access-from domain="*.monopoly.com" />
+  <allow-access-from domain="*.gameoflife.com" />
+  <allow-access-from domain="*.hasbro.com" />
+  <allow-access-from domain="dev01.vendaria.com" />  
+  <allow-access-from domain="seg01.vendaria.com" />  
+  <allow-access-from domain="74.205.89.245" />
+  <allow-access-from domain="*.kunoichi.com" />
+  <allow-access-from domain="*.monopolycitystreets.com"/>
+  <allow-access-from domain="*.brightcove.com"/>
+  <site-control permitted-cross-domain-policies="all"/>
+</cross-domain-policy>

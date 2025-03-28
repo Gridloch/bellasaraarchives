@@ -1,0 +1,109 @@
+/* Vignettes accueil */
+#vignettes {
+float:left;
+height:264px;
+width: 355px;
+padding-top:15px;
+}
+/* Vignettes accueil */
+#vignettes-x2
+{
+float:left;
+height:264px;
+width:344px;
+}
+
+/* version petite un */
+.vignette-petite-un, .vignette-petite-deux {
+float:left;
+margin-right:9px;
+margin-bottom:3px;
+width:163px;
+height:130px;
+}
+
+.vignette-petite-un dl , .vignette-petite-deux dl  {
+font-size: 11px;
+color:#0099cc;
+background: transparent url('../images/charte/vignettes/vignette-x1-v1-titre.png') no-repeat;
+width:151px;
+height:34px;
+padding-left:11px;
+padding-top:6px;
+overflow:hidden;
+}
+
+.vignette-petite-un dl  dt, .vignette-petite-deux dl  dt, .vignette-grande-un dl  dt {
+font-weight: bold;
+text-transform: capitalize;
+}
+.vignette-petite-un dl  dd, .vignette-petite-deux dl  dd {}
+.vignette-petite-un a, .vignette-petite-deux a {
+background: transparent url('../images/charte/vignettes/vignette-x1-v1-body.png') no-repeat;
+background-position: 2px 0px;
+display:block;
+width:154px;
+height:88px;
+padding-left:9px;
+}
+
+/* version petite deux */
+.vignette-petite-deux dl {
+background: transparent url('../images/charte/vignettes/vignette-x1-v2-titre.png') no-repeat;
+width:151px;
+height:34px;
+padding-left:11px;
+padding-top:6px;
+}
+.vignette-petite-deux a {
+background: transparent url('../images/charte/vignettes/vignette-x1-v2-body.png') no-repeat;
+background-position: 0px 0px;
+width:143px;
+height:88px;
+padding-left:9px;
+}
+
+/* grande vignette : ludo nature par exemple */
+.vignette-grande-un {
+float: left;
+font-size: 11px;
+color: #0099CC;
+padding-top: 1px;
+width:360px;
+}
+	.vignette-grande-un  .title	{
+	background: transparent url('../images/charte/vignettes/vignette-x2-title.png') no-repeat;
+	width:352px;
+	height: 36px;
+	padding-left:11px;
+	}
+	.vignette-grande-un  .content
+	{
+	background: transparent url('../images/charte/vignettes/vignette-x2-body.png') no-repeat;	
+	width: 337px;
+	height: 88px;
+	padding-left: 9px;
+	}
+	.vignette-grande-un h3
+	{
+		font-weight: bolder;
+		height: 14px;
+		//font-size: 12px;
+	}
+
+/** vignettes themes **/
+#vignettes-themes  {
+background: transparent url('../images/charte/vignettes/ludo-themes.png') no-repeat;
+/*width:345px;*/
+height:249px;
+width:335px;
+float:left;
+font-size: 11px;
+color:#0099cc;
+padding-top:29px;
+padding-left:10px;
+}
+
+#vignettes-themes  h3 {font-size: 11px;}
+#vignettes-themes  em { display:block;padding-bottom:4px;font-style : normal;}
+#vignettes-themes img { display:block;padding-bottom:5px;}

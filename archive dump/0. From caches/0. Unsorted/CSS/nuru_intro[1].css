@@ -1,0 +1,20 @@
+positive_message{
+	font-family:StempelGaramond;
+	font-size:28pt;
+	color:#FFFF66;	
+	leading:0pt;
+	font-weight:bold;
+	font-style:italic;
+	letter-spacing:3pt;
+	text-align:center;	
+}
+video_title{
+	font-family:StempelGaramond;
+	font-size:42pt;
+	color:#660066;	
+	leading:0pt;
+	font-weight:bold;
+	font-style:italic;
+	letter-spacing:0pt;
+	text-align:center;	
+}

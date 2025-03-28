@@ -1,0 +1,107 @@
+.RuleHThick { border-color: #666 !important; opacity: 0.8; }
+
+.Vis95 {
+    filter:alpha(opacity=95);
+    -moz-opacity:0.95;
+    -khtml-opacity: 0.95;
+    opacity: 0.95;
+}
+
+.HomePromoContent .Vis85,
+.HomePromoContent .Vis8,
+.HomePromoContent .Vis7 { height:1000px; width:1000px; background-color: #111; }
+
+.LayoutGrid { min-height: 1180px; padding-left: 14px !important; }
+.LayoutContent { height: auto; *height: 90%; _height: 1150px !important; }
+
+.HomePromoContent {
+    margin-top: -37px;
+	margin-bottom: 0px;
+	height: 400px;
+}
+
+.HomePromoContentMain { padding-top: 37px; }
+
+.HomePromoSubContent { z-index: 2; }
+
+.HomePromoContentMain .LayoutGrid-1-2 { width: 10px !important; }
+
+.HomePromoContentMain .LayoutGrid-3-4 {
+	z-index: 3;
+	top: 40px;
+	width: 350px; 
+	margin-left: 0; 
+	float: left !important;
+}
+
+.LayoutBigCellLeft { padding-left: 10px !important; }
+
+.CPodLayout .LayoutBigCellLeft { padding-left: 10px !important; }
+
+.TextH1Home h1 {
+    font-size: 22px !important;
+    line-height: 22px;
+	font-weight: 100 !important;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+
+.TextH1Home h2 {
+    font-size: 46px !important;
+    line-height: 46px;
+	font-weight: 100 !important;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+
+.TextH1Home p {
+    font-size: 22px !important;
+    line-height: 25px;
+	font-weight: 100 !important;
+	color: #FFF;
+}
+
+
+.RuleHThick {
+    border-top: 4px solid #FFF !important;
+}
+
+.SiteHeaderCart, a.SiteHeaderCart, a.SiteHeaderCart:link, a.SiteHeaderCart:visited, a.SiteHeaderCart:active, .SiteHeaderCart a, .SiteHeaderCart a:link, .SiteHeaderCart a:visited {
+    background: url("/include/style/default/SiteHeader/cart_dark.png") no-repeat scroll 0 4px transparent;
+    padding-left: 16px;
+}
+a.SiteHeaderCart:hover, a.SiteHeaderCart:visited:hover, .SiteHeaderCart a:hover, .SiteHeaderCart a:visited:hover {
+    background: url("/include/style/default/SiteHeader/cart_dark_hover.png") no-repeat scroll 0 4px transparent;
+    padding-left: 16px;
+}
+.SiteHeaderUserItem, a.SiteHeaderUserItem, a.SiteHeaderUserItem:link, a.SiteHeaderUserItem:visited, a.SiteHeaderUserItem:active, .SiteHeaderUserItem a, .SiteHeaderUserItem a:link, .SiteHeaderUserItem a:visited {
+    color: #FFF;
+}
+a.SiteHeaderUserItem:hover, a.SiteHeaderUserItem:visited:hover, .SiteHeaderUserItem a:hover, .SiteHeaderUserItem a:visited:hover {
+    color: #99C6FD;
+}
+
+@media screen and (max-width: 800px) {
+	html { background: #FFF none !important; }
+	.LayoutGrid { padding: 0 10px !important; }
+	.TextH1Home h1 { font-size: 20px !important; line-height: 20px; }
+	.TextH1Home h2 { font-size: 44px !important; line-height: 44px; }
+	.TextH1Home p { font-size: 18px !important; line-height: 20px; }
+	#homepageEduSolutionsSection { margin-top: 150px; }
+}
+
+@media screen and (max-width: 480px) {
+	.LayoutGrid { padding: 0 !important; }
+	.HomePromoContentMain .LayoutGrid-1-2,
+	.HomePromoContentMain .LayoutGrid-3-4 { width: auto !important}
+	.TextH1Home { font-size: 40px;}
+	.Vis95 { opacity: .85}
+	#MCBoxShot{ display: block; left: 0 !important;}	
+	#MCBoxShot a { width: auto; overflow: hidden;}
+	#MCBoxShot a img { position: relative; left: -350px;}
+	.TextH1Home h1 { font-size: 18px !important; line-height: 18px; }
+	.TextH1Home h2 { font-size: 38px !important; line-height: 38px; }
+	.TextH1Home p { font-size: 14px !important; line-height: 16px; padding-right: 10px; }
+	
+	#homepageEduSolutionsSection { margin-top: 160px; }
+}

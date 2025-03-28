@@ -1,0 +1,60 @@
+<content>
+	<board columns="7" rows="7" />
+	<!-- !WARNING! A dropSpeed value under 0.1 can create inconsistencies in game behavior! -->
+	<tile slideDeadzone="20" types="5" dropSpeed="0.2" destructionDelay="20" />
+	<score tile="10" heartFill="250" />
+	<shine delay="4000" speed="6" offset="0.03" />
+	<hint delay="7500" length="7000" />
+	<logo url="images/ImageRewardLogo.png" />
+	<rewards>
+		<reward1 url="images/Reward1.png" />
+		<reward2 url="images/Reward2.png" />
+		<reward3 url="images/Reward3.png" />
+		<reward4 url="images/Reward4.png" />
+		<reward5 url="images/Reward5.png" />
+		<rewardFull url="images/RewardFull.png" />
+		<rewardPrint url="images/RewardPrint.jpg" />
+	</rewards>
+	<levels>
+		<level1>
+			<scoreLimit>300</scoreLimit>
+<!-- 			<scoreLimit>10</scoreLimit> -->
+			<maxTileTypes>4</maxTileTypes>
+			<darknessDelay>10000</darknessDelay>
+			<darknessSpeed>0.05</darknessSpeed>
+			<hints>true</hints>
+		</level1>
+		<level2>
+			<scoreLimit>1500</scoreLimit>
+<!-- 			<scoreLimit>10</scoreLimit> -->
+			<maxTileTypes>4</maxTileTypes>
+			<darknessDelay>8000</darknessDelay>
+			<darknessSpeed>0.07</darknessSpeed>
+			<hints>true</hints>
+		</level2>
+		<level3>
+			<scoreLimit>1700</scoreLimit>
+<!-- 			<scoreLimit>10</scoreLimit> -->
+			<maxTileTypes>5</maxTileTypes>
+			<darknessDelay>6000</darknessDelay>
+			<darknessSpeed>0.08</darknessSpeed>
+			<hints>true</hints>
+		</level3>
+		<level4>
+			<scoreLimit>1900</scoreLimit>
+<!-- 			<scoreLimit>10</scoreLimit> -->
+			<maxTileTypes>5</maxTileTypes>
+			<darknessDelay>4000</darknessDelay>
+			<darknessSpeed>0.09</darknessSpeed>
+			<hints>true</hints>
+		</level4>
+		<level5>
+			<scoreLimit>2200</scoreLimit>
+<!-- 			<scoreLimit>10</scoreLimit> -->
+			<maxTileTypes>5</maxTileTypes>
+			<darknessDelay>2000</darknessDelay>
+			<darknessSpeed>0.1</darknessSpeed>
+			<hints>false</hints>
+		</level5>
+	</levels>
+</content>

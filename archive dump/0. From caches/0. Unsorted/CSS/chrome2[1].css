@@ -1,0 +1,106 @@
+#chromebar {
+	background: url(../images/chrome2/chrome-bg.png) no-repeat;
+	height: 75px;
+	margin: 0 auto -3px;
+	position: relative;
+	width: 996px;
+	z-index: 2;
+}
+
+.chromeContainer {
+	margin: 0 auto;
+	position: relative;
+	width: 950px;
+}
+
+.chromeContainer ol {
+	list-style: none;
+	overflow: hidden;
+}
+
+.chromeContainer ol li {
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.chromeContainer ol li a {
+	float: left;
+	position: relative;
+}
+
+.chromeContainer ol li a img {
+	left: 0;
+	position: relative;
+	top: 0;
+}
+
+*:first-child+html .chromeContainer ol li a:hover img {
+	background: transparent;
+}
+
+.chromeContainer ol li#chrome-item-disney a img {
+	top: 0 !important;
+}                                          
+
+#chrome-item-home {
+	left: -9px;
+	position: absolute;
+	top: 6px;
+}
+
+
+.module-chrome ol.tier1 {
+	margin-left: 133px;
+	padding-top: 7px;
+	height: 27px;
+}
+.module-chrome ol.tier1 li a {
+	height: 27px;
+	overflow: hidden !important;
+}
+.module-chrome ol.tier1 li a img,
+.module-chrome ol.tier1 li a:visited img {
+	top: 0;
+}
+
+.module-chrome ol.tier1 li a:hover img,
+.module-chrome ol.tier1 li.active a img
+{
+	top: -28px;
+}
+.module-chrome ol li.disabled a img {
+	top: 0 !important;
+}
+.module-chrome ol.tier2 {
+	margin-left: 171px;
+	margin-top: -8px;
+	height: 45px;
+}
+.module-chrome ol.tier2 li a {
+	height: 45px;
+	overflow: hidden;
+
+}
+.module-chrome ol.tier2 li a img,
+.module-chrome ol.tier2 li a:visited img {
+	top: 0;
+}
+.module-chrome ol.tier2 li a:hover img,
+.module-chrome ol.tier2 li.active a img
+{
+	top: -61px;
+}
+
+
+/* specific positions */
+
+.module-chrome ol.tier2 li#chrome-item-games {
+	margin-right: 54px;
+}
+.module-chrome ol.tier2 li#chrome-item-videos {
+	margin-right: 42px;
+}
+.module-chrome ol.tier2 li#chrome-item-create {
+	margin-right: 48px;
+}

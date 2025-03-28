@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*	LAYOUT CSS
+	Portal Page Layout
+	$Revision: #1 $
+*/
+
+#layoutLogic,
+#content-marquee,
+#marquee-body,
+#content-layout,
+#content-wrapper,
+#content-body { position: relative; }
+
+#content-wrapper { height: auto;  _zoom: 1;}
+
+/*--- CONTENT HEADER ---*/
+
+#content-header { 
+	position: relative;
+	margin: 0;
+	z-index: 5;
+}
+
+#content-header h1 {
+	position: relative;
+	top: 0;
+	left: 0;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: normal;
+	color: #FFFFFF;
+	padding: 28px 24px 16px 16px;
+	margin: 0;
+	
+}
+
+/*--- CONTENT BODY ---*/
+#content-body {
+	position: relative;
+	padding-left: 16px;
+	padding-bottom: 20px;
+}
+
+/*--- CONTENT POCKET ---*/
+#content-pocket,
+#content-pocket-2 {
+	position: relative;
+	background: #ededed;
+	border-left: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	padding: 17px 12px 20px 11px;
+	float: right;
+	right: 8px;
+}
+
+hr {
+	clear: both;
+	background: #cbcbcb;
+	color: #cbcbcb;
+	border: none;
+	height: 1px;
+	margin: 0 0 1.35em 0;
+	_margin: 0 0 1em 0;
+	*margin: 0 0 1em 0;
+	padding: 0;
+	width: auto;
+	_width: 100%;
+	*width: 100%;
+}
+
+#marquee-body {
+	_zoom: 100%; /* IE6 intermittently clips the bg color */
+}
+
+/* images in marquee */
+
+#marquee-body img {
+	_display: block;
+}
+
+#marquee-body * img {
+	_display: inline;
+}
+
+#marquee-body>img {
+	display: block; /* fix IE 7, OK to share */
+}

@@ -1,0 +1,65 @@
+﻿
+#mask
+{
+    position: absolute;
+    z-index: 9000;
+    display: none;
+}
+
+#feedbackPopUp .window
+{
+    position: absolute;
+    display: none;
+    z-index: 9999;
+}
+
+.ui-dialog
+{
+    position: fixed;
+    color: #666666;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    padding: 15px 30px 0px 30px;
+    width: 650px;
+    top: 24% !important;
+}
+
+.ui-dialog-titlebar
+{
+    display:none;
+}
+
+.ui-widget-overlay
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    haslayout: -1;
+    background-color: #222222;
+    filter: Alpha(Opacity=50);
+    opacity: .5;
+}
+
+.ui-dialog-titlebar-close
+{
+    display: none;
+}
+
+#ui-dialog-title-feedbackContentDiv
+{
+    display: none;
+}
+
+#feedbackContentDiv
+{
+    overflow: hidden;
+}
+
+#feedbackCloseButton
+{
+    position: absolute;
+    top: -35px;
+    cursor: pointer;
+}

@@ -1,0 +1,123 @@
+.feat {
+   width: 140px;
+   height: 100px;
+   margin: 2px;
+   float: left;
+   border: 5px solid #FFABE7;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 1px #e6e6e6;
+   -moz-box-shadow: 1px 1px 1px #e6e6e6;
+   box-shadow: 1px 1px 1px #e6e6e6;
+   cursor: default;
+}
+.feat .game-feat,.feat .content {
+   width: 140px;
+   height: 100px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.feat img {
+   display: block;
+   position: relative;
+}
+.feat h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 12px;
+   background: rgba(0, 0, 0, 0.8);
+}
+.feat p {
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 5px 5px 5px 5px;
+   text-align: center;
+}
+.feat a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #b1e3f9;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 8px #d7eff9;
+   -moz-box-shadow: 0 0 8px #d7eff9;
+   box-shadow: 0 0 8px #d7eff9;
+}
+.feat a.info: hover {
+   -webkit-box-shadow: 0 0 5px #fbd5e4;
+   -moz-box-shadow: 0 0 5px #fbd5e4;
+   box-shadow: 0 0 5px #fbd5e4;
+}
+.CPlay {
+   width: 160px;
+   height: 120px;
+   margin-left: 3px;
+   margin-right: 12px;
+   margin-top: 15px;
+   margin-bottom: 5px;
+   float: left;
+   border: 7px solid #FFABE7;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+ vertical-align:top;
+}
+.CPlay .mask,.CPlay .content {
+   width: 160px;
+   height: 120px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.CPlay img {
+   display: block;
+   position: relative;
+}
+.CPlay h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 11px;
+   padding: 5px;
+   background: rgba(177, 227, 249, 0.7);
+   margin: 5px 0 0 0;
+}
+.CPlay p {
+   font-family: Georgia, serif;
+   font-size: 10px;
+   position: relative;
+   color: #fff;
+   padding: 20px 15px 15px;
+   text-align: center;
+}
+.CPlay a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: rgba(243, 160, 29, 0.9);
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 2px 3px #f19b57;
+   -moz-box-shadow: 1px 2px 3px #f19b57;
+   box-shadow: 1px 2px 3px #f19b57;
+}
+.CPlay a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+
+   box-shadow: 0 0 5px #000;
+
+}

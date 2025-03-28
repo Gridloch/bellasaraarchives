@@ -1,0 +1,41 @@
+
+        /* This CSS resource incorporates links to font software which is
+        the valuable licensed property of Monotype Imaging and/or
+        its suppliers and its use is covered under the terms of the
+        Web Font Software License and Services Agreement agreed to between you
+        and Monotype Imaging. Except as specifically permitted by the license,
+        you may not redistribute, copy, convert, modify or reverse engineer
+        this font software. Please contact Monotype Imaging for any questions
+        regarding Web Fonts:  http://www.fontslive.com/ */
+
+        @font-face {
+        font-family: "Segoe UI";
+        src: url("http://cdn-resources.windowsphone.com/Resources/Fonts/Apollo/SegoeUI-webfonts-WestEuropean/Segoe-UI/3ca1af51-981a-4e1c-b9c6-a66d0a5fe3c0-2.eot");
+        font-style: normal;
+        font-weight: normal;
+        }
+        @font-face {
+        font-family: "Segoe UI Light";
+        src: url("http://cdn-resources.windowsphone.com/Resources/Fonts/Apollo/SegoeUI-webfonts-WestEuropean/Segoe-UI-Light/45a13f65-5199-4a22-821e-9b7d7795518e-2.eot");
+        font-style: normal;
+        font-weight: normal;
+        }
+        @font-face {
+        font-family: "Segoe UI Bold";
+        src: url("http://cdn-resources.windowsphone.com/Resources/Fonts/Apollo/SegoeUI-webfonts-WestEuropean/Segoe-UI-Bold/f5dd91f1-2016-48f8-a46c-e3418a52c859-2.eot");
+        font-style: normal;
+        font-weight: normal;
+        }
+        @font-face {
+        font-family: "Segoe UI Semibold";
+        src: url("http://cdn-resources.windowsphone.com/Resources/Fonts/Apollo/SegoeUI-webfonts-WestEuropean/Segoe-UI-Semibold/afae52c9-5d08-4193-8984-bb4346fd493c-2.eot");
+        font-style: normal;
+        font-weight: normal;
+        }
+        @font-face {
+        font-family: "Segoe UI Semilight";
+        src: url("http://cdn-resources.windowsphone.com/Resources/Fonts/Apollo/SegoeUI-webfonts-WestEuropean/Segoe-UI-SemiLight/58e25a2b-5ed7-47bc-abc4-2f5c14b43227-2.eot");
+        font-style: normal;
+        font-weight: normal;
+        }
+      

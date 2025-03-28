@@ -1,0 +1,526 @@
+﻿<LOCALIZABLE>
+  <TEXTS unicode="true">
+
+    <!--Horse name text -->
+    <TEXT id="txtHorseName" text="HORSENAME" size="15"></TEXT>
+
+    <!--Rollover text -->
+    <TEXT id="txtRollOverPitchFork" text="Il faut de la paille fraîche ! Utilise la fourche pour la prendre et la répandre au sol." size="13"></TEXT>
+    <TEXT id="txtRollOverShovel" text="Débarrasse-toi de la paille usée ! Utilise la pelle." size="16"></TEXT>
+    <TEXT id="txtShovelHilite2" text="Utilise la fourche pour donner de la paille fraîche à ton cheval." size="15"></TEXT>
+    <TEXT id="txtPitchForkHilite2" text="Utilise d'abord la pelle pour retirer la paille sale." size="12"></TEXT>
+    <TEXT id="txtOatsRollOver" text="Mets de l'avoine dans l'auge placée devant ton cheval." size="16"></TEXT>
+
+    <!--Help text -->
+    <TEXT id="txtHelpTrophyRoom" text="Clique pour visiter la salle des trophées." size="11"></TEXT>
+    <TEXT id="txtHelpWater" text="Clique pour remplir l'abreuvoir de ton cheval." size="12"></TEXT>
+    <TEXT id="txtHelpStats" text="Surveille bien les statistiques de ton cheval!" size="13"></TEXT>
+    <TEXT id="txtHelpPitchFork" text="Clique pour sélectionner. Clique à nouveau pour rassembler la paille du grenier à foin. Clique encore pour la répandre sur le sol. Répète l'opération jusqu'à ce que le sol soit recouvert. " size="12"></TEXT>
+    <TEXT id="txtHelpInspiration" text="Clique pour recevoir l'inspiration." size="9"></TEXT>
+    <TEXT id="txtHelpShovel" text="Clique pour sélectionner. Clique à nouveau pour retirer la paille sale. Retire-la toute pour laisser la place à la paille fraîche." size="12"></TEXT>
+    <TEXT id="txtHelpApple" text="Clique pour choisir une pomme. Porte-la à la bouche de ton cheval et clique pour lui donner cette friandise." size="11"></TEXT>
+    <TEXT id="txtHelpOats" text="Clique pour prendre de l'avoine. Clique dans l'auge placée devant lui pour le nourrir." size="12"></TEXT>
+    <TEXT id="txtHelpWorld" text="Clique pour aller à Bella Sara World." size="13"></TEXT>
+    <TEXT id="txtHelpHoofPick" text="Clique pour choisir le grattoir à sabots. Clique à nouveau pour gratter la boue de chaque sabot." size="10"></TEXT>
+    <TEXT id="txtHelpBrush" text="Clique pour choisir une brosse. Clique à nouveau pour doucement épousseter ton cheval." size="11"></TEXT>
+    <TEXT id="txtHelpLuck" text="Clique pour avoir de la chance!" size="10"></TEXT>
+
+    <!--Messages text-->
+    <TEXT id="txtFullHorse" text="HORSENAME est repu." size="16"></TEXT>
+    <TEXT id="txtCleanHorse" text="HORSENAME est propre." size="16"></TEXT>
+    <TEXT id="txtCleanStable" text="L'écurie est propre." size="16"></TEXT>
+    <TEXT id="txtFrontHooves" text="Les sabots avants sont propres." size="16"></TEXT>
+    <TEXT id="txtRearHooves" text="Les sabots arrières sont propres." size="15"></TEXT>
+    <TEXT id="txtNoMoreHay" text="Bien joué ! Il y a assez de foin frais." size="16"></TEXT>
+    <TEXT id="txtBrushClean" text="HORSENAME a été bien brossé." size="16"></TEXT>
+
+    <!--Links text -->
+    <TEXT id="txtToWorld" text="Vers Bella Sara World" size="16"></TEXT>
+    <TEXT id="txtToTrophyRoom" text="Clique pour visiter la salle des trophées." size="14"></TEXT>
+
+    <!--Stats text -->
+    <TEXT id="txtStatHunger" text="FAIM" size="13"></TEXT>
+    <TEXT id="txtStatClean" text="PROPRETÉ" size="13"></TEXT>
+    <TEXT id="txtStatHappy" text="BONHEUR" size="12"></TEXT>
+
+		<!--Inspiration text -->
+    <TEXT id="txtInspiration01" text="Découvre de nouvelles façons de retrouver tes amis." size="45"/>
+		<TEXT id="txtInspiration02" text="Angel arrive. Fais-lui de la place et laisse les cieux te venir en aide." size="30"/>
+		<TEXT id="txtInspiration03" text="Grâce à moi, tu trouveras en toi fierté et courage." size="45"/>
+		<TEXT id="txtInspiration04" text="Le bonheur est une décision. Il suffit de décider d'être heureux." size="30"/>
+		<TEXT id="txtInspiration05" text="Amène un de tes amis et jouons ensemble." size="45"/>
+		<TEXT id="txtInspiration06" text="Pense positivement chaque jour! Ressens la sérénité que t’apporte la joie et l’énergie qu’elle suscite." size="30"/>
+		<TEXT id="txtInspiration07" text="Crois en toi et la vie n’aura pas de secret pour toi." size="45"/>
+		<TEXT id="txtInspiration08" text="La vie est un cadeau. Sache le recevoir et l’apprécier à sa juste valeur." size="30"/>
+		<TEXT id="txtInspiration09" text="Poursuis tes rêves et ressens pleinement le bonheur que cela t’apporte." size="30"/>
+		<TEXT id="txtInspiration10" text="Fais ton possible pour faire de cet endroit un lieu magnifique." size="45"/>
+		<TEXT id="txtInspiration11" text="Tout le bonheur du monde vient des pensées heureuses." size="45"/>
+		<TEXT id="txtInspiration12" text="Apprends à diriger. Demande les conseils de quelqu'un de sage." size="30"/>
+		<TEXT id="txtInspiration13" text="Tout ce que tu as perdu te reviendra tôt ou tard." size="45"/>
+		<TEXT id="txtInspiration14" text="Prends le temps d’écouter tes amis." size="45"/>
+		<TEXT id="txtInspiration15" text="Détache-toi de la douleur et du chagrin. Tu verras le chemin et tout ira bien." size="30"/>
+		<TEXT id="txtInspiration16" text="Ressens la joie dans tout ce que tu vois, tout ce que tu entends et tout ce que tu perçois." size="30"/>
+		<TEXT id="txtInspiration17" text="Au-delà du pouvoir et de l'énergie, cherche la paix." size="45"/>
+		<TEXT id="txtInspiration18" text="Crois-en toi et aie foi en ce que tu fais." size="45"/>
+		<TEXT id="txtInspiration19" text="Contemple le monde depuis le ciel, comme un aigle." size="45"/>
+		<TEXT id="txtInspiration20" text="En ce moment même, mille opportunités s'offrent à toi !" size="45"/>
+		<TEXT id="txtInspiration21" text="Apprécie ce que tu as. Ce que tu n'as pas, tu n'en as pas besoin." size="30"/>
+		<TEXT id="txtInspiration22" text="Sois le héros de ta propre histoire." size="45"/>
+		<TEXT id="txtInspiration23" text="Je cours plus vite que le vent. Suis-moi et nous découvrirons ensemble un endroit magique." size="30"/>
+		<TEXT id="txtInspiration24" text="Je te donnerai toute mon énergie et ma magie. Alors tu n'auras plus rien à craindre." size="30"/>
+		<TEXT id="txtInspiration25" text="Ferme les yeux et écoute le monde autour de toi." size="45"/>
+		<TEXT id="txtInspiration26" text="Avoir des amis, n'est-ce pas extraordinaire" size="45"/>
+    <TEXT id="txtInspiration27" text="Ta beauté vient de l'intérieur." size="60"/>
+    <TEXT id="txtInspiration28" text="Si tu veux vraiment quelque chose, tu finiras par l’obtenir." size="45"/>
+		<TEXT id="txtInspiration29" text="Je te protégerai." size="60"/>
+		<TEXT id="txtInspiration30" text="N’aie pas peur de demander de l’aide." size="45"/>
+		<TEXT id="txtInspiration31" text="Crée quelque chose de beau et tu ressentiras la paix." size="45"/>
+		<TEXT id="txtInspiration32" text="Recherche le but de ta vie." size="60"/>
+		<TEXT id="txtInspiration33" text="Grâce à moi, tu ne manqueras jamais de rien." size="45"/>
+		<TEXT id="txtInspiration34" text="C’est toi qui crées ta propre réalité." size="45"/>
+		<TEXT id="txtInspiration35" text="C’est l’heure de la joie et des jeux. La joie peut faire des miracles." size="35"/>
+		<TEXT id="txtInspiration36" text="Je t’aiderai à répandre la paix et l’unité à travers le monde." size="45"/>
+		<TEXT id="txtInspiration37" text="La véritable force vient de l’intérieur." size="45"/>
+		<TEXT id="txtInspiration38" text="Progresse en direction de ton but. La voie est libre." size="45"/>
+		<TEXT id="txtInspiration39" text="Sois patiente. Attends le bon moment pour agir." size="45"/>
+		<TEXT id="txtInspiration40" text="Ta vie est un rayon de soleil." size="45"/>
+		<TEXT id="txtInspiration41" text="Écoute mon hennissement et ressens notre joie." size="45"/>
+		<TEXT id="txtInspiration42" text="Cours avec moi et tu ressentiras la force et le pouvoir qui t’habitent." size="45"/>
+		<TEXT id="txtInspiration43" text="Sois toujours franche et brave." size="45"/>
+		<TEXT id="txtInspiration44" text="Un monde merveilleux et fascinant n’attend que toi." size="45"/>
+		<TEXT id="txtInspiration45" text="Il est sage d'accepter ses propres limites." size="45"/>
+		<TEXT id="txtInspiration46" text="C'est un instant magique! Fais un vœu." size="45"/>
+		<TEXT id="txtInspiration47" text="Ris du plus profond du cœur et sois submergée par la joie." size="45"/>
+		<TEXT id="txtInspiration48" text="Sois ouverte et fais ce qui est nécessaire." size="45"/>
+		<TEXT id="txtInspiration49" text="Reste avec moi et tu seras en sécurité, protégée par les cieux." size="45"/>
+		<TEXT id="txtInspiration50" text="Tu as le pouvoir de Misty, maintenant: tout ce que tu touches se changera en or." size="30"/>
+		<TEXT id="txtInspiration51" text="Fais confiance à la lune et aux étoiles et tes rêves se réaliseront." size="45"/>
+		<TEXT id="txtInspiration52" text="Trouve un endroit calme où tu pourras puiser une énergie nouvelle." size="45"/>
+		<TEXT id="txtInspiration53" text="Vois les choses de façon positive et ton bonheur ira croissant." size="45"/>
+		<TEXT id="txtInspiration54" text="Tu peux te joindre à nous si tu le désires." size="45"/>
+		<TEXT id="txtInspiration55" text="Sois attentive à chaque instant." size="45"/>
+		<TEXT id="txtInspiration56" text="Fais des projets et implique toi entièrement." size="45"/>
+		<TEXT id="txtInspiration56" text="Fais des projets et implique-toi entièrement." size="45"/>
+		<TEXT id="txtInspiration57" text="Ceux qui ne pensent ni à gagner ni à perdre ont l'esprit en paix." size="30"/>
+		<TEXT id="txtInspiration58" text="Tout ce que tu fais, fais-le dans la joie. J’aime voir l’éclat du bonheur dans tes yeux." size="30"/>
+		<TEXT id="txtInspiration59" text="Tes rêves se réaliseront. Je suis là pour t'aider à y croire." size="45"/>
+		<TEXT id="txtInspiration60" text="Aie foi en tes pensées positives, et rien ne te sera impossible." size="45"/>
+		<TEXT id="txtInspiration61" text="Je suis l'âme de l'enfant qui vit en toi. Ressens la joie : le monde est un endroit magique." size="30"/>
+		<TEXT id="txtInspiration62" text="Cours avec moi et ressens l’énergie qui te parcourt." size="45"/>
+		<TEXT id="txtInspiration63" text="Prête attention à tes rêves, car ce qu’ils te disent est important." size="30"/>
+		<TEXT id="txtInspiration64" text="Il y a tant d'opportunités magiques tout autour de toi!" size="45"/>
+		<TEXT id="txtInspiration65" text="Rejoins-moi et nous serons heureux ensemble." size="45"/>
+		<TEXT id="txtInspiration66" text="Écoute ce que te disent tes sens et ton intuition." size="45"/>
+		<TEXT id="txtInspiration67" text="Tente ta chance et écoute ce que te dit ton cœur." size="45"/>
+		<TEXT id="txtInspiration68" text="N'aspire qu'à des choses extraordinaires." size="30"/>
+		<TEXT id="txtInspiration70" text="La bonté et la générosité sont les sources de l’énergie de l’amour." size="30"/>
+		<TEXT id="txtInspiration71" text="Ta puissance est bien plus grande que tu ne l’imagines. Cette énergie est bonne et saine pour toi." size="30"/>
+		<TEXT id="txtInspiration72" text="Essaie de comprendre le passé. Rattache-toi aux choses positives et vas de l'avant de toi-même." size="30"/>
+		<TEXT id="txtInspiration73" text="Crois en toi. Tu as beaucoup de valeur." size="45"/>
+		<TEXT id="txtInspiration74" text="Profite du jour présent." size="60"/>
+		<TEXT id="txtInspiration75" text="Joue avec moi et ta vie deviendra une aventure." size="45"/>
+		<TEXT id="txtInspiration76" text="L’important, ce n’est pas ce que tu fais, mais qui tu es." size="45"/>
+    <TEXT id="txtInspiration77" text="Aie foi en ta vision et elle deviendra réalité." size="55"/>
+    <TEXT id="txtInspiration78" text="Éloigne-toi des conflits et va là où tu te sens en sécurité." size="45"/>
+		<TEXT id="txtInspiration81" text="Sois résolue et énergique dans ce que tu fais." size="45"/>
+		<TEXT id="txtInspiration82" text="Le monde tout entier est à tes pieds." size="45"/>
+		<TEXT id="txtInspiration83" text="Je te donne le courage. Libère-toi de tes peurs." size="45"/>
+		<TEXT id="txtInspiration84" text="Le paradis est un état d'esprit." size="30"/>
+		<TEXT id="txtInspiration85" text="Suis-moi sous les flots et contemple ces splendeurs." size="45"/>
+		<TEXT id="txtInspiration85" text="Suis-moi sous les flots et profite du calme et des splendeurs de cet endroit." size="30"/>
+		<TEXT id="txtInspiration86" text="J’apprécie beaucoup ta compagnie. Amusons-nous ensemble." size="45"/>
+		<TEXT id="txtInspiration87" text="Je suis le présent que la mer te fait. Viens apprendre tous mes tours." size="45"/>
+		<TEXT id="txtInspiration88" text="Retire-toi et puise de nouvelles forces pour poursuivre ta route." size="45"/>
+		<TEXT id="txtInspiration89" text="Passe du temps avec moi et ton désir le plus cher se réalisera." size="45"/>
+		<TEXT id="txtInspiration90" text="Tu as toujours le choix." size="45"/>
+		<TEXT id="txtInspiration91" text="N'aie pas peur de montrer qui tu es." size="45"/>
+		<TEXT id="txtInspiration92" text="Là où il y a de l'amour, il y a toujours des miracles." size="45"/>
+		<TEXT id="txtInspiration93" text="Rassemble ton courage, car il est tout au fond de toi." size="45"/>
+		<TEXT id="txtInspiration94" text="Partage tes émotions positives et elles te reviendront au centuple." size="45"/>
+		<TEXT id="txtInspiration95" text="La vie est magique. Accueille-la à bras ouverts." size="45"/>
+		<TEXT id="txtInspiration96" text="Accueille à bras ouverts tout ce qui est bon." size="45"/>
+		<TEXT id="txtInspiration97" text="L'espoir est une forme de magie qui te permet de rester pleine d'énergie." size="45"/>
+		<TEXT id="txtInspiration98" text="Ressens la beauté qui t'habite et laisse-la s'épanouir." size="45"/>
+		<TEXT id="txtInspiration99" text="Réalise tes rêves au jour le jour. Quand &quot;aujourd'hui&quot; est passé, il ne reviendra plus." size="30"/>
+		<TEXT id="txtInspiration100" text="Crois-moi, la vie est pleine de bonnes choses." size="45"/>
+		<TEXT id="txtInspiration101" text="Partage ton savoir avec autrui, et tu n'en seras que plus forte." size="45"/>
+		<TEXT id="txtInspiration102" text="Sois telle que tu veux que les autres te perçoivent." size="45"/>
+		<TEXT id="txtInspiration103" text="Un cœur généreux sait donner et recevoir l'amour." size="45"/>
+		<TEXT id="txtInspiration104" text="N'aie pas peur de t'accrocher à tes rêves." size="45"/>
+		<TEXT id="txtInspiration105" text="Que la vie te soit douce et agréable." size="45"/>
+		<TEXT id="txtInspiration106" text="Sois honnête et fais tout avec amour." size="45"/>
+		<TEXT id="txtInspiration106a" text="Sois honnête et fais tout avec amour." size="45"/>
+		<TEXT id="txtInspiration106b" text="Sois honnête et fais tout avec amour." size="45"/>
+		<TEXT id="txtInspiration107" text="L'amour que tu donnes à autrui est le plus beau des cadeaux." size="45"/>
+		<TEXT id="txtInspiration108" text="Sache voir le rayon de soleil qui perce les ténèbres: c'est lui qui te montrera la voie." size="30"/>
+		<TEXT id="txtInspiration109" text="Tu es unique. Laisse les autres se rendre compte de ce qui te rend spéciale." size="45"/>
+		<TEXT id="txtInspiration110" text="Apprends à faire confiance à ceux qui se soucient de ton bien-être." size="45"/>
+		<TEXT id="txtInspiration111" text="Que ton amitié reflète toute la beauté de la vie elle-même." size="45"/>
+		<TEXT id="txtInspiration112" text="Faisons la fête! Viens danser avec moi!" size="45"/>
+		<TEXT id="txtInspiration113" text="La vie est pleine de surprises. Profites-en!" size="45"/>
+		<TEXT id="txtInspiration114" text="La conviction te donne le courage d'avancer et de tenter ta chance." size="45"/>
+		<TEXT id="txtInspiration115" text="Ouvre les yeux et écoute bien: la magie est tout autour de toi." size="45"/>
+		<TEXT id="txtInspiration116" text="La beauté et le mystère ne vont jamais l'un sans l'autre." size="45"/>
+		<TEXT id="txtInspiration117" text="Écoute la musique de mon cœur." size="45"/>
+		<TEXT id="txtInspiration118" text="Aie confiance en la vie et en tout ce qu'elle a à t'offrir." size="45"/>
+		<TEXT id="txtInspiration119" text="Dream soaring dreams and wake ready to fly." size="45"/>
+		<TEXT id="txtInspiration120" text="Sois le genre de personne dont le monde a besoin." size="45"/>
+		<TEXT id="txtInspiration121" text="Connais-toi toi-même et tu connaîtras les autres." size="45"/>
+		<TEXT id="txtInspiration122" text="Un esprit vif vient à bout de tous les problèmes." size="45"/>
+		<TEXT id="txtInspiration123" text="La persévérance est la plus puissante des magies." size="45"/>
+		<TEXT id="txtInspiration124" text="Show your stregnth and pace with dignity" size="45"/>
+		<TEXT id="txtInspiration125" text="Express yourself freely. If you need help, ask for it." size="45"/>
+		<TEXT id="txtInspiration126" text="Make peace with yourself and your friends" size="45"/>
+		<TEXT id="txtInspiration127" text="I am out looking for adventure. Come and join me." size="45"/>
+		<TEXT id="txtInspiration128" text="Make time to relax, be silent and enjoy the peace and quiet" size="45"/>
+		<TEXT id="txtInspiration129" text="Believe in what you do and be successful" size="45"/>
+		<TEXT id="txtInspiration130" text="Dont run for desires that are impossible to fulfill" size="45"/>
+		<TEXT id="txtInspiration131" text="Follow your heart's desire." size="45"/>
+		<TEXT id="txtInspiration132" text="Come let us play and have some fun and joy" size="45"/>
+		<TEXT id="txtInspiration133" text="I make it easy for you to find yourself" size="45"/>
+		<TEXT id="txtInspiration134" text="Remember to express what you feel and need" size="45"/>
+		<TEXT id="txtInspiration135" text="Where anger is there is love. Where sorrow is there is joy." size="45"/>
+		<TEXT id="txtInspiration136" text="Trust me. I am here to help you to become a loving and good friend." size="45"/>
+		<TEXT id="txtInspiration137" text="Do something you like and enjoy it" size="45"/>
+		<TEXT id="txtInspiration138" text="With joint effort we can make changes" size="45"/>
+		<TEXT id="txtInspiration139" text="Let your inner strength break free." size="45"/>
+		<TEXT id="txtInspiration140" text="Every day is a gift appreciate it" size="45"/>
+		<TEXT id="txtInspiration141" text="Do something with joy and you will feel contented" size="45"/>
+		<TEXT id="txtInspiration142" text="Allow others to give you loving care" size="45"/>
+		<TEXT id="txtInspiration143" text="Let your dreams show you the way" size="45"/>
+		<TEXT id="txtInspiration144" text="Find the fun in what people find funny in you" size="45"/>
+		<TEXT id="txtInspiration145" text="Be good to someone. Make it a way of being." size="45"/>
+		<TEXT id="txtInspiration146" text="Feel the freedom and the silence around you" size="45"/>
+		<TEXT id="txtInspiration147" text="Believe in the goodness between you and other people" size="45"/>
+		<TEXT id="txtInspiration147a" text="Believe in the goodness between you and other people" size="45"/>
+		<TEXT id="txtInspiration147b" text="Believe in the goodness between you and other people" size="45"/>
+		<TEXT id="txtInspiration148" text="Be generous and give away with love" size="45"/>
+		<TEXT id="txtInspiration149" text="Do something you didnt know you could. Take the chances that come." size="45"/>
+		<TEXT id="txtInspiration150" text="Be open, flexible and quick" size="45"/>
+		<TEXT id="txtInspiration151" text="Be aware of all the beauty around you" size="45"/>
+		<TEXT id="txtInspiration152" text="The sun is shining on you and me. Let us play with the music." size="45"/>
+		<TEXT id="txtInspiration153" text="Let us try different adventures together as a way to grow and learn." size="45"/>
+		<TEXT id="txtInspiration154" text="I am your friend, both when your en your joy and your sadness" size="45"/>
+		<TEXT id="txtInspiration155" text="Let me tell you a fairytale. Listen and use your imagination." size="45"/>
+		<TEXT id="txtInspiration156" text="Dont be afraid to show your feelings" size="45"/>
+		<TEXT id="txtInspiration157" text="You can only appreciate happiness if you have felt sadness" size="45"/>
+		<TEXT id="txtInspiration158" text="You can feel the truth in your heart" size="45"/>
+		<TEXT id="txtInspiration159" text="Give others opportunities to help you" size="45"/>
+		<TEXT id="txtInspiration160" text="Know that you deserve to receive goodness in all ways." size="45"/>
+		<TEXT id="txtInspiration161" text="Look to the heaven for the shooting stars. Now make a wish." size="45"/>
+		<TEXT id="txtInspiration162" text="To find the way just follow me" size="45"/>
+		<TEXT id="txtInspiration163" text="Take advice from the people you trust." size="45"/>
+		<TEXT id="txtInspiration164" text="Follow your intuition, it is always true" size="45"/>
+		<TEXT id="txtInspiration165" text="Be yourself, be free, allow others the same freedom" size="45"/>
+		<TEXT id="txtInspiration166" text="Fly with me to the stars and we will be surrounded by light" size="45"/>
+		<TEXT id="txtInspiration167" text="Follow me and I will show you the way" size="45"/>
+		<TEXT id="txtInspiration168" text="Notice the pleasure when you make a friend happy" size="45"/>
+		<TEXT id="txtInspiration169" text="By focusing on your inner strength you can spread light and warmth." size="45"/>
+		<TEXT id="txtInspiration170" text="Express yourself clearly and cheerfully." size="45"/>
+		<TEXT id="txtInspiration171" text="If your talk and thoughts are positive you will become happy." size="45"/>
+		<TEXT id="txtInspiration172" text="Share what you have with others. It will give you happiness and harmony." size="30"/>
+		<TEXT id="txtInspiration173" text="Sit down, feel the peace. We will enjoy a wonderful time together." size="45"/>
+		<TEXT id="txtInspiration174" text="Share your wisdom with others. It will give you strength." size="45"/>
+		<TEXT id="txtInspiration175" text="Help me to make peace on earth" size="45"/>
+		<TEXT id="txtInspiration176" text="Feel the nature around you and I will give you the power of nature" size="45"/>
+		<TEXT id="txtInspiration177" text="Crois en toi, et réalise tous tes projets." size="45"/>
+		<TEXT id="txtInspiration178" text="I am so happy being your friend" size="45"/>
+		<TEXT id="txtInspiration179" text="Close your eyes and follow me to the universe." size="45"/>
+		<TEXT id="txtInspiration180" text="Are your curious? Let us discover the world together." size="45"/>
+		<TEXT id="txtInspiration181" text="I appreciate your honesty with me and yourself" size="45"/>
+		<TEXT id="txtInspiration182" text="The world is beautiful. Live in that beauty." size="45"/>
+		<TEXT id="txtInspiration183" text="Let your wisdom and knowledge grow" size="45"/>
+		<TEXT id="txtInspiration184" text="Don't be sad. I am here taking care of you" size="45"/>
+		<TEXT id="txtInspiration185" text="Come out and live in the great world." size="45"/>
+		<TEXT id="txtInspiration186" text="You will get new exciting opportunities. Catch Them!" size="45"/>
+		<TEXT id="txtInspiration187" text="Expect something good to happen" size="45"/>
+		<TEXT id="txtInspiration188" text="Retreat from conflicts and go to where you feel welcome." size="45"/>
+		<TEXT id="txtInspiration189" text="Be focused on whats really important." size="45"/>
+		<TEXT id="txtInspiration190" text="Heaven is working above us. So have some fun even if you don't see results now." size="30"/>
+		<TEXT id="txtInspiration191" text="I can help you to be aware of your friends" size="45"/>
+		<TEXT id="txtInspiration192" text="You can borrow my guardian angel" size="45"/>
+		<TEXT id="txtInspiration193" text="Listen to the music of nature" size="45"/>
+		<TEXT id="txtInspiration194" text="Believe it and it will work" size="45"/>
+		<TEXT id="txtInspiration195" text="Concentrate on what you want and leave what you dont" size="45"/>
+		<TEXT id="txtInspiration196" text="You have an inner strength. Find it and use it." size="45"/>
+		<TEXT id="txtInspiration197" text="Gather energy and courage to go your own way" size="45"/>
+		<TEXT id="txtInspiration198" text="Let us join and start your adventure" size="45"/>
+		<TEXT id="txtInspiration199" text="Go back and find out what is most important for you." size="45"/>
+		<TEXT id="txtInspiration200" text="Feel the joy in what you see, hear and sense" size="45"/>
+		<TEXT id="txtInspiration201" text="Learn to be in contact with the peace inside yourself" size="45"/>
+		<TEXT id="txtInspiration201a" text="Learn to be in contact with the peace inside yourself" size="45"/>
+		<TEXT id="txtInspiration201b" text="Learn to be in contact with the peace inside yourself" size="45"/>
+		<TEXT id="txtInspiration202" text="A wonderful and exciting world awaits you world awaits you" size="45"/>
+		<TEXT id="txtInspiration203" text="Let us share our thoughts and we will heal them together" size="45"/>
+		<TEXT id="txtInspiration204" text="You are a wise child give yourself time to work and study" size="45"/>
+		<TEXT id="txtInspiration205" text="Now is the perfect moment to embrace your hearts desire" size="45"/>
+		<TEXT id="txtInspiration206" text="Friendship is important. It helps us to be joyfull together." size="45"/>
+		<TEXT id="txtInspiration206a" text="Friendship is important. It helps us to be joyfull together." size="45"/>
+		<TEXT id="txtInspiration206b" text="Friendship is important. It helps us to be joyfull together." size="45"/>
+		<TEXT id="txtInspiration207" text="Your inner light shines when you are true to yourself" size="45"/>
+		<TEXT id="txtInspiration208" text="Let me follow you to the land of dreams" size="45"/>
+		<TEXT id="txtInspiration209" text="Every moment is precious use it" size="45"/>
+		<TEXT id="txtInspiration210" text="Open your mind What you give you recieive" size="45"/>
+		<TEXT id="txtInspiration211" text="Some people dont understand you. The ones who do are wise." size="45"/>
+		<TEXT id="txtInspiration212" text="Aie le courage d'apprendre de tes faiblesses et deviens plus forte." size="45"/>
+		<TEXT id="txtInspiration213" text="Sers-toi de ton amour pour répandre la paix dans le monde." size="45"/>
+		<TEXT id="txtInspiration214" text="N'aie pas peur de lâcher prise un instant. Tu verras les choses différemment." size="45"/>
+		<TEXT id="txtInspiration215" text="Cherche la beauté à l'endroit où on l'attendrait le moins." size="45"/>
+		<TEXT id="txtInspiration216" text="C'est petit à petit que les rêves se réalisent." size="45"/>
+		<TEXT id="txtInspiration217" text="Sois toi-même, sois libre et permets à autrui de l'être tout autant." size="45"/>
+		<TEXT id="txtInspiration218" text="L'énergie de la nature t'entoure en permanence." size="45"/>
+		<TEXT id="txtInspiration220" text="L'important dans la vie, ce n'est pas la colère. C'est la paix." size="45"/>
+		<TEXT id="txtInspiration221" text="Quand tu nourris ton âme, tout se met à croître et pousser autour de toi." size="45"/>
+		<TEXT id="txtInspiration222" text="Laisse venir tes idées : elles sont là pour que tu en fasses bon usage." size="45"/>
+		<TEXT id="txtInspiration223" text="Aie le courage de suivre ton cœur, car il est libre." size="45"/>
+		<TEXT id="txtInspiration224" text="Aie foi en tout l'amour dont tu es entourée." size="45"/>
+		<TEXT id="txtInspiration225" text="Prends soin de toi et d'autrui et tu connaîtras le bonheur." size="45"/>
+		<TEXT id="txtInspiration226" text="Prends soin de la nature. Il faut que ce monde reste un bel endroit où vivre." size="45"/>
+		<TEXT id="txtInspiration227" text="Explique aux autres ce qui est important pour toi." size="45"/>
+		<TEXT id="txtInspiration228" text="Chaque instant est une occasion de rendre les choses meilleures." size="45"/>
+		<TEXT id="txtInspiration229" text="Merci d'être honnête avec moi et avec toi-même." size="45"/>
+		<TEXT id="txtInspiration230" text="Tout devient plus facile quand tu te concentres sur ce que tu fais." size="45"/>
+		<TEXT id="txtInspiration232" text="Ouvre-toi comme une fleur et montre ta beauté intérieure." size="45"/>
+		<TEXT id="txtInspiration233" text="Le monde est un endroit magique. Profites-en." size="45"/>
+		<TEXT id="txtInspiration234" text="Déploie tes ailes et sois libre!" size="45"/>
+		<TEXT id="txtInspiration235" text="Tu es parfaite telle que tu es!" size="45"/>
+		<TEXT id="txtInspiration236" text="Il n'y a que toi qui puisses diriger ta propre vie." size="45"/>
+		<TEXT id="txtInspiration237" text="Quand tu partages, tout le monde est heureux." size="45"/>
+		<TEXT id="txtInspiration238" text="Suis l'arc-en-ciel et crois au bonheur." size="45"/>
+		<TEXT id="txtInspiration239" text="Fais de ton mieux!" size="45"/>
+		<TEXT id="txtInspiration240" text="Sers-toi de ta vie pour créer, être heureuse et faire la fête." size="45"/>
+		<TEXT id="txtInspiration242" text="Sois prête à pardonner." size="45"/>
+		<TEXT id="txtInspiration243" text="Quelque chose de bien est sur le point de se produire!" size="45"/>
+		<TEXT id="txtInspiration244" text="Puise ce qui est bien dans le passé et sers-t’en pour bâtir ton avenir." size="45"/>
+		<TEXT id="txtInspiration245" text="Aie le courage de croire en toi." size="45"/>
+		<TEXT id="txtInspiration246" text="En étant gentille et généreuse, tu fais naître l'amour dans le monde qui t'entoure." size="45"/>
+		<TEXT id="txtInspiration247" text="Ouvre ton cœur. Laisse sa beauté éclairer le monde." size="45"/>
+		<TEXT id="txtInspiration248" text="Concentre ton énergie sur un but particulier et tu seras plus forte." size="45"/>
+		<TEXT id="txtInspiration249" text="Tu ne peux pas perdre ton plus grand trésor. La foi ouvre toutes les portes." size="45"/>
+		<TEXT id="txtInspiration250" text="La musique et la danse nous donnent de l'énergie." size="45"/>
+		<TEXT id="txtInspiration252" text="Attends-toi toujours à ce qu'il y a de meilleur." size="45"/>
+		<TEXT id="txtInspiration253" text="Sois fière de qui tu es, car tu es exceptionnelle." size="45"/>
+		<TEXT id="txtInspiration254" text="Les pouvoirs de l'univers sont là, tout autour de toi et à l'intérieur de toi. Laisse-les te guider." size="30"/>
+		<TEXT id="txtInspiration255" text="Répands ton amour afin que tous en profitent." size="45"/>
+		<TEXT id="txtInspiration256" text="Nous avons tous des dons uniques que nous pouvons partager en travaillant tous ensemble." size="45"/>
+		<TEXT id="txtInspiration257" text="Relève un défi et tu apprendras la force et le courage." size="45"/>
+		<TEXT id="txtInspiration258" text="Cherche la vérité à l'endroit le plus inattendu." size="45"/>
+		<TEXT id="txtInspiration259" text="Ton cœur est assez grand pour te permettre de réaliser tes rêves les plus fous." size="30"/>
+		<TEXT id="txtInspiration260" text="Chaque jour, tu choisis qui tu deviendras." size="45"/>
+		<TEXT id="txtInspiration262" text="Pense positivement chaque jour! Ressens la sérénité que t’apporte la joie et l’énergie qu’elle suscite." size="30"/>
+		<TEXT id="txtInspiration263" text="Sois l'héroïne de ta propre histoire." size="45"/>
+		<TEXT id="txtInspiration264" text="Grâce à moi, tu ne manqueras jamais de rien." size="45"/>
+		<TEXT id="txtInspiration265" text="Have the courage to trust yourself." size="45"/>
+		<TEXT id="txtInspiration266" text="Do the best you can!" size="45"/>
+		<TEXT id="txtInspiration267" text="Find love by making someone else's day brighter." size="45"/>
+		<TEXT id="txtInspiration268" text="Find joy by sharing fun times with good friends." size="45"/>
+		<TEXT id="txtInspiration269" text="Find peace by remembering all the good things you have done." size="45"/>
+		<TEXT id="txtInspiration270" text="Apprends à te respecter toi-même, et les autres respecteront ta force intérieure." size="30"/>
+		<TEXT id="txtInspiration271" text="Danse pour rester en harmonie avec ton corps et ton énergie." size="45"/>
+		<TEXT id="txtInspiration272" text="Tes actes d'aujourd'hui sont les fondations de ton avenir." size="45"/>
+		<TEXT id="txtInspiration273" text="Laisse tes rêves te donner l'inspiration et te guider vers la réponse." size="45"/>
+		<TEXT id="txtInspiration274" text="Apprécie le temps que tu passes avec les autres. Sers-t'en pour tisser ta toile de plaisir." size="30"/>
+		<TEXT id="txtInspiration275" text="En disant toujours la vérité, tu montres que tu es responsable." size="45"/>
+		<TEXT id="txtInspiration276" text="Pense positivement chaque jour! Ressens la sérénité que t’apporte la joie et l’énergie qu’elle suscite." size="30"/>
+		<TEXT id="txtInspiration277" text="Prends ton courage à deux mains et bondis! Ta coordination est parfaite!" size="45"/>
+		<TEXT id="txtInspiration278" text="Apprends à voir la beauté, que ce soit dans l'ombre ou dans la lumière. " size="45"/>
+		<TEXT id="txtInspiration279" text="Accueille à bras ouverts ceux qui veulent devenir tes amis dévoués." size="45"/>
+		<TEXT id="txtInspiration280" text="Détends-toi et chevauche la vague de rire qui répand la joie dans le monde." size="45"/>
+		<TEXT id="txtInspiration281" text="Aie un regard positif sur ce que tu fais et amuse-toi." size="45"/>
+		<TEXT id="txtInspiration282" text="L'harmonie naît d'un esprit paisible, d'un cœur ouvert et d'une nature indulgente." size="30"/>
+		<TEXT id="txtInspiration283" text="Sois le héros de ta propre histoire." size="45"/>
+		<TEXT id="txtInspiration284" text="Tu auras toujours une seconde chance!" size="45"/>
+		<TEXT id="txtInspiration285" text="Tu peux encourager les autres à apprendre et à grandir." size="45"/>
+		<TEXT id="txtInspiration286" text="Trouve ta propre voix et laisse ton chant exprimer tes sentiments!" size="45"/>
+		<TEXT id="txtInspiration287" text="Grâce à moi, tu ne manqueras jamais de rien." size="45"/>
+		<TEXT id="txtInspiration288" text="Patience! Tu obtiendras ce dont tu as besoin au moment où cela te sera le plus utile." size="30"/>
+		<TEXT id="txtInspiration289" text="Quand ton cœur est ouvert et plein d'amour, tu peux apprécier toute la joie de la vie." size="30"/>
+		<TEXT id="txtInspiration290" text="Partage les richesses de la vie avec tous les gens et toutes les créatures de la terre." size="30"/>
+		<TEXT id="txtInspiration291" text="Ne force pas les autres à changer. Accepte chacun tel qu'il est." size="45"/>
+		<TEXT id="txtInspiration292" text="Imaginer une chose, c'est le premier pas vers son accomplissement." size="45"/>
+		<TEXT id="txtInspiration293" text="Celui qui reste silencieux peut écouter et apprendre." size="45"/>
+		<TEXT id="txtInspiration294" text="N'abandonne pas! Continue à travailler pour obtenir ce que tu veux." size="45"/>
+		<TEXT id="txtInspiration295" text="Tu as le droit de changer ta manière de penser et d'agir, et même tes envies." size="45"/>
+		<TEXT id="txtInspiration296" text="Le vrai pouvoir, c'est de partager ta sagesse avec autrui." size="45"/>
+		<TEXT id="txtInspiration297" text="Tu es toujours libre de changer d'avis." size="45"/>
+		<TEXT id="txtInspiration298" text="Tes sentiments et tes choix t'appartiennent, à toi et à toi seule." size="45"/>
+		<TEXT id="txtInspiration299" text="Abaisse ta garde un instant et ouvre-toi aux merveilles de ce monde." size="45"/>
+		<TEXT id="txtInspiration300" text="Dans tout ce que tu fais, accorde de l'importance aux détails." size="45"/>
+		<TEXT id="txtInspiration301" text="Le joueur authentique, c'est celui qui laisse tout le monde gagner." size="45"/>
+		<TEXT id="txtInspiration302" text="Rassemble ton énergie et garde-la pour le moment où tu en auras besoin." size="45"/>
+		<TEXT id="txtInspiration303" text="Viens sentir les lys, fais le plein de soleil, danse sous la pluie, et profite de la vie !" size="30"/>
+		<TEXT id="txtInspiration304" text="Il faut travailler en équipe pour arriver à réaliser ses rêves." size="45"/>
+		<TEXT id="txtInspiration305" text="La vérité est riche en enseignements." size="45"/>
+		<TEXT id="txtInspiration306" text="Si tu vois quelqu'un qui est dans le besoin, offre-lui discrètement ton aide." size="45"/>
+		<TEXT id="txtInspiration307" text="Donne sans remords ni regrets. " size="45"/>
+		<TEXT id="txtInspiration308" text="Je te donne le courage. Libère-toi de tes peurs." size="45"/>
+		<TEXT id="txtInspiration309" text="Prends ton temps pour atteindre ton but." size="45"/>
+		<TEXT id="txtInspiration310" text="Amuse-toi! Joue! Ta vie se déploie comme un bourgeon qui fleurit!" size="45"/>
+		<TEXT id="txtInspiration311" text="Cherche toujours à apprendre, où que tu sois." size="45"/>
+		<TEXT id="txtInspiration312" text="Respire profondément et sens toutes tes peurs s'évanouir." size="45"/>
+		<TEXT id="txtInspiration313" text="Marche à ton rythme afin de tirer le meilleur parti de ton endurance et de ton énergie." size="30"/>
+		<TEXT id="txtInspiration314" text="Cherche la force à l'intérieur de toi: c'est là que la magie s'éveille." size="45"/>
+		<TEXT id="txtInspiration315" text="Laisse le temps à ton imagination: elle finira par t'amener à la solution. " size="45"/>
+		<TEXT id="txtInspiration316" text="N'aie pas peur de voler au loin et d'explorer, mais n'oublie pas le chemin de ta maison." size="30"/>
+		<TEXT id="txtInspiration317" text="Tu as assez de force et de caractère pour affronter n'importe quel défi." size="45"/>
+		<TEXT id="txtInspiration318" text="Chaque jour apporte de nouvelles opportunités. Apprends à les saisir." size="45"/>
+		<TEXT id="txtInspiration319" text="Tu peux arriver au sommet des plus hautes montagnes si tu choisis soigneusement ton chemin." size="30"/>
+		<TEXT id="txtInspiration320" text="Everyone does better when we take care of each other." size="45"/>
+		<TEXT id="txtInspiration321" text="La force est bien plus utile quand on l'emploie avec douceur." size="45"/>
+		<TEXT id="txtInspiration322" text="Prépare-toi bien afin de pouvoir réagir rapidement quand l'heure viendra." size="45"/>
+		<TEXT id="txtInspiration323" text="Tout est plus amusant quand on le fait à deux!" size="45"/>
+		<TEXT id="txtInspiration324" text="Plus il te faut de temps pour atteindre ton but, plus il est agréable d'y parvenir." size="45"/>
+		<TEXT id="txtInspiration325" text="Lâche-toi! Bouge! Sens-tu cette liberté?" size="45"/>
+		<TEXT id="txtInspiration326" text="Ton cœur plein de gaieté illumine la journée de tous ceux qui t'entourent." size="45"/>
+		<TEXT id="txtInspiration327" text="Dans chaque instant, trouve quelque chose qui puisse te faire rire." size="45"/>
+		<TEXT id="txtInspiration328" text="Un souvenir joyeux peut t'apporter la joie dans l'instant présent." size="45"/>
+		<TEXT id="txtInspiration329" text="Parle avec gentillesse et douceur quand tu parles de toi." size="45"/>
+		<TEXT id="txtInspiration330" text="Sache que l'on t'aime pour ce que tu es vraiment." size="45"/>
+		<TEXT id="txtInspiration331" text="Ne fais que ce que tu crois juste." size="60"/>
+		<TEXT id="txtInspiration332" text="Ferme les yeux et imagine ton rêve le plus fou." size="45"/>
+		<TEXT id="txtInspiration333" text="Quand tu fais une erreur, tires-en des leçons et pardonne-toi à toi-même." size="30"/>
+		<TEXT id="txtInspiration334" text="Allons-y et profitons de la balade!" size="60"/>
+		<TEXT id="txtInspiration335" text="Passe du temps avec un(e) ami(e). Faites quelque chose qui vous plaît à tou(te)s les deux." size="45"/>
+		<TEXT id="txtInspiration336" text="Le moment présent est une occasion d'apprendre et de grandir." size="45"/>
+		<TEXT id="txtInspiration337" text="Parfois, écouter plus et parler moins rend les choses meilleures." size="45"/>
+		<TEXT id="txtInspiration338" text="Trouve quelque chose à faire qui te rende joyeuse." size="45"/>
+		<TEXT id="txtInspiration339" text="Tu n'as pas besoin d'être parfaite. Fais de ton mieux et tout ira bien." size="30"/>
+		<TEXT id="txtInspiration340" text="Quand tu as de la peine, écoute ce que ta peine a à te dire. " size="30"/>
+		<TEXT id="txtInspiration341" text="Aie confiance en tes sentiments. Ils te diront quoi faire." size="45"/>
+		<TEXT id="txtInspiration342" text="Toi seule sais ce qui est bon pour toi." size="60"/>
+		<TEXT id="txtInspiration343" text="Ouvre ton cœur à toutes sortes de rêves fabuleux!" size="45"/>
+		<TEXT id="txtInspiration344" text="Quand tu es heureuse, tu aides tes amis à l'être aussi." size="45"/>
+		<TEXT id="txtInspiration345" text="Quand quelqu'un fait quelque chose de gentil pour toi, apprécie-le à sa juste valeur!" size="45"/>
+		<TEXT id="txtInspiration346" text="Il ne tient qu'à toi de faire de cet instant un souvenir éternel." size="45"/>
+		<TEXT id="txtInspiration347" text="Laisse les autres faire leurs propres choix." size="45"/>
+		<TEXT id="txtInspiration348" text="L'aide dont tu as besoin est toujours à portée de la main. Tu n'as qu'à demander." size="45"/>
+		<TEXT id="txtInspiration349" text="Accepte le passé et va de l'avant, vers de nouvelles expériences merveilleuses." size="45"/>
+		<TEXT id="txtInspiration350" text="Ressens la magie au fond de ton cœur et sers-t'en pour avoir de l'énergie." size="45"/>
+		<TEXT id="txtInspiration351" text="Sois douce avec toi et avec autrui." size="60"/>
+		<TEXT id="txtInspiration352" text="Exprime tes sentiments. Sois ouverte et honnête." size="45"/>
+		<TEXT id="txtInspiration353" text="Le monde est plein de liberté et d'amour qu'il t'appartient de trouver." size="45"/>
+		<TEXT id="txtInspiration354" text="Tu es un trésor. Trouve la beauté qui se cache à l'intérieur." size="45"/>
+		<TEXT id="txtInspiration355" text="Conserve les leçons que tu as apprises bien en sécurité au fond de ton cœur." size="30"/>
+		<TEXT id="txtInspiration356" text="Que chacun de tes pas soit empreint de magie!" size="60"/>
+		<TEXT id="txtInspiration357" text="Apprends à connaître tes qualités et elles ne feront que croître." size="60"/>
+		<TEXT id="txtInspiration358" text="Le vrai bonheur vient de l'intérieur." size="60"/>
+		<TEXT id="txtInspiration359" text="Quoi qu'il arrive, choisis toujours la voie de la paix." size="45"/>
+		<TEXT id="txtInspiration360" text="Des pensées joyeuses te donnent l'énergie et la foi." size="45"/>
+		<TEXT id="txtInspiration361" text="La curiosité est une qualité: elle t'amènera à apprendre de nouvelles choses." size="45"/>
+		<TEXT id="txtInspiration362" text="Tu peux changer ta manière d'agir en restant malgré tout toi-même." size="45"/>
+		<TEXT id="txtInspiration363" text="Pose sur toi un regard plein de douceur et d'amour." size="60"/>
+		<TEXT id="txtInspiration364" text="Ouvre toujours ton cœur.  Il est toujours bon de donner et de recevoir de l'amour." size="45"/>
+		<TEXT id="txtInspiration365" text="C'est à toi qu'appartient le pouvoir d'oublier la colère et de te réconcilier." size="45"/>
+		<TEXT id="txtInspiration366" text="Finir ce que tu as commencé te donne de l'énergie." size="45"/>
+		<TEXT id="txtInspiration367" text="Quand tu essaies quelque chose de nouveau, tu apprends et tu grandis." size="45"/>
+		<TEXT id="txtInspiration368" text="Pense positivement chaque jour! Ressens la sérénité que t’apporte la joie et l’énergie qu’elle suscite." size="30"/>
+		<TEXT id="txtInspiration369" text="Tu peux choisir ce moment pour changer." size="45"/>
+		<TEXT id="txtInspiration370" text="Le pouvoir de l'amour peut t'aider à faire ce que tu dois faire." size="45"/>
+		<TEXT id="txtInspiration371" text="Tu vis dans un monde de merveilleuse abondance, crois-moi!" size="45"/>
+		<TEXT id="txtInspiration372" text="On ne devient intelligent qu'en posant des questions." size="45"/>
+		<TEXT id="txtInspiration373" text="Oser essayer est déjà un succès en soi." size="60"/>
+		<TEXT id="txtInspiration374" text="Que l'espoir élève tes pensées." size="60"/>
+		<TEXT id="txtInspiration375" text="Commence la journée avec une pensée heureuse." size="60"/>
+		<TEXT id="txtInspiration376" text="Aie foi en ceci : le monde est plein d'amour pour toi." size="45"/>
+		<TEXT id="txtInspiration377" text="Apprends-en plus au sujet de ta famille : tu te sentiras plus proche d'elle." size="30"/>
+		<TEXT id="txtInspiration378" text="Sois l'héroïne de ta propre histoire." size="60"/>
+		<TEXT id="txtInspiration379" text="Dis la vérité, mais dis-la avec amour." size="60"/>
+		<TEXT id="txtInspiration380" text="Quand tu fais un souhait, ne demande que ce que tu veux vraiment." size="60"/>
+		<TEXT id="txtInspiration381" text="Prends bien soin de toi. Sois heureuse et en pleine forme." size="45"/>
+		<TEXT id="txtInspiration382" text="Grâce à moi, tu ne manqueras jamais de rien." size="45"/>
+		<TEXT id="txtInspiration383" text="Tu es dans ce monde pour le rendre meilleur." size="60"/>
+		<TEXT id="txtInspiration384" text="Le changement fait partie de l'existence. Apprends à l'apprécier." size="45"/>
+		<TEXT id="txtInspiration385" text="Le moment le plus important de ta vie, c'est le moment présent." size="45"/>
+		<TEXT id="txtInspiration386" text="Le vrai amour ne pose pas de conditions." size="60"/>
+		<TEXT id="txtInspiration387" text="Être joyeux, rire, voilà ce qui porte chance!" size="45"/>
+		<TEXT id="txtInspiration388" text="Cherche de l'aide et tu en trouveras tout autour de toi." size="45"/>
+		<TEXT id="txtInspiration389" text="Te débarrasser de la colère et des reproches te donne plus de pouvoir et d'énergie." size="30"/>
+		<TEXT id="txtInspiration390" text="Cet instant est unique. Profites-en bien!" size="60"/>
+		<TEXT id="txtInspiration391" text="Laisse la vie t'emmener vers des lieux fascinants." size="45"/>
+		<TEXT id="txtInspiration392" text="Quand on est enjoué, on se sent fort et plein de santé." size="45"/>
+		<TEXT id="txtInspiration393" text="Que chaque jour soit une nouvelle aventure!" size="60"/>
+		<TEXT id="txtInspiration394" text="C'est en apprenant que tu développes ton sens de l'émerveillement." size="60"/>
+		<TEXT id="txtInspiration395" text="Recherche la joie! Elle est tout autour de toi." size="45"/>
+		<TEXT id="txtInspiration396" text="Aie confiance en toi: le choix que tu feras sera le bon." size="45"/>
+		<TEXT id="txtInspiration397" text="Tu sais déjà quoi faire. Agis, n'hésite pas!" size="45"/>
+		<TEXT id="txtInspiration398" text="Imagine ton désir le plus cher. Aie confiance et il se réalisera." size="45"/>
+		<TEXT id="txtInspiration399" text="Je te donne le courage. Libère-toi de tes peurs." size="45"/>
+		<TEXT id="txtInspiration400" text="Passe du temps avec tes vrais amis, ceux qui te comprennent." size="45"/>
+		<TEXT id="txtInspiration401" text="Partage tes sentiments de manière positive. Tu te sentiras libre et heureuse." size="30"/>
+		<TEXT id="txtInspiration402" text="Tu n'es pas obligée d'atteindre ton but aujourd'hui. Contente-toi de faire un pas dans sa direction." size="30"/>
+		<TEXT id="txtInspiration403" text="Choisis toujours la voie qui te permet de donner le meilleur de toi-même." size="30"/>
+		<TEXT id="txtInspiration404" text="Tu peux y arriver! Fais de tes rêves une réalité!" size="45"/>
+		<TEXT id="txtInspiration405" text="Suscite les événements heureux en recherchant la joie à chaque instant." size="45"/>
+		<TEXT id="txtInspiration407" text="Les choses changent, c'est normal. Accepte le futur avec enthousiasme." size="45"/>
+		<TEXT id="txtInspiration413" text="Chaque nouvelle journée débute avec un premier pas." size = "45"/>
+    <TEXT id="txtInspiration499" text="Écoute ceux qui t'encouragent et encourage ceux qui écoutent." size="45"/>
+    <TEXT id="txtInspiration500" text="Ton cœur et mon cœur ne font qu'un. Notre amitié est éternelle." size="45"/>
+    <TEXT id="txtInspiration501" text="Tu es entourée de gens attentionnés et pleins d'amour." size="45"/>
+    <TEXT id="txtInspiration529" text="Pense positivement chaque jour! Ressens la sérénité que t’apporte la joie et l’énergie qu’elle suscite." size="45"/>
+    <TEXT id="txtInspiration527" text="La vie est un cadeau. Sache le recevoir et l'apprécier à sa juste valeur." size="45"/>
+    <TEXT id="txtInspiration502" text="Le véritable amour consiste à prendre soin de quelqu'un d'autre comme tu prends soin de toi." size="45"/>
+    <TEXT id="txtInspiration503" text="Toute amitié commence avec un sourire et un mot gentil." size="45"/>
+    <TEXT id="txtInspiration530" text="Laisse tes idées s'épanouir librement. Elles sont faites pour être utilisées." size="45"/>
+    <TEXT id="txtInspiration531" text="Aie confiance en moi: je suis là pour t'aider à devenir une amie aimante et agréable." size="45"/>
+    <TEXT id="txtInspiration504" text="Ta gentillesse te rend aussi belle qu'un jardin rempli de fleurs." size="45"/>
+    <TEXT id="txtInspiration532" text="Je te remercie d'être honnête avec moi et avec toi-même." size="45"/>
+    <TEXT id="txtInspiration533" text="Sois l'héroïne de ta propre histoire." size="45"/>
+    <TEXT id="txtInspiration534" text="Je te protégerai." size="45"/>
+    <TEXT id="txtInspiration508" text="Apprends à connaître le passé. Il t'aidera à voir le futur." size="45"/>
+    <TEXT id="txtInspiration536" text="Avec moi, tu ne manqueras jamais de rien." size="45"/>
+    <TEXT id="txtInspiration537" text="Je t'aiderai à répandre la paix et l'unité dans le monde." size="45"/>
+    <TEXT id="txtInspiration511" text="Le meilleur chemin d'un endroit à un autre n'est pas toujours une ligne droit." size="45"/>
+    <TEXT id="txtInspiration515" text="Sois patiente comme un arbre. Tu grandiras merveilleusement à ton propre rythme." size="45"/>
+    <TEXT id="txtInspiration540" text="Cherche de l'aide et tu en trouveras tout autour de toi." size="45"/>
+    <TEXT id="txtInspiration543" text="Chéris les cadeaux que te donne ta famille." size="45"/>
+    <TEXT id="txtInspiration518" text="N'aie pas peur de pleurer. Les larmes ont le pouvoir de guérir les cœurs brisés." size="45"/>
+    <TEXT id="txtInspiration520" text="Le monde est plein de liberté et d'amour qu'il t'appartient de trouver." size="45"/>
+    <TEXT id="txtInspiration521" text="Je défends le passé pour protéger le futur." size="45"/>
+    <TEXT id="txtInspiration544" text="Le monde est plein de liberté et d'amour qu'il t'appartient de trouver." size="45"/>
+    <TEXT id="txtInspiration523" text="Se voir soi-même tel qu'on est est le premier pas vers la sagesse." size="45"/>
+    <TEXT id="txtInspiration546" text="Ce n'est pas ce que tu fais qui est important, mais qui tu es." size="45"/>
+    <TEXT id="txtInspiration547" text="Je te donne le courage. Libère-toi de tes peurs." size="45"/>
+    <TEXT id="txtInspiration549" text="Fête chaque nouveau jour et fais-en le début de quelque chose de merveilleux." size="45"/>
+    <TEXT id="txtInspiration550" text="L'amour transforme le plus simple des cadeaux en un trésor éternel." size="45"/>
+    <TEXT id="txtInspiration522" text="Je serai ton porte-bonheur. Tente ta chance, essaie quelque chose de nouveau!" size="45"/>
+
+    <TEXT id="txtInspiration557" text="Lis un bon livre, et qu'il te donne l'inspiration pour écrire une histoire de ton cru." size="50"></TEXT>
+    <TEXT id="txtInspiration558" text="Pense positivement chaque jour ! Ressens la sérénité que t’apporte la joie et l’énergie qu’elle suscite." size="50"></TEXT>
+    <TEXT id="txtInspiration561" text="Développe tes capacités de meneuse, et demande conseil à quelqu'un de sage." size="60"></TEXT>
+    <TEXT id="txtInspiration605" text="Les vrais amis se disent toujours la vérité." size="60"></TEXT>
+    <TEXT id="txtInspiration566" text="La vie nous émerveille de bien des façons. Ouvre les yeux sur chacune d'entre elles." size="50"></TEXT>
+    <TEXT id="txtInspiration567" text="Le moment présent est une occasion d'apprendre et de grandir." size="60"></TEXT>
+    <TEXT id="txtInspiration570" text="Commence ton histoire par un rêve qui t'inspire." size="60"></TEXT>
+    <TEXT id="txtInspiration571" text="Laisse ton imagination t'emmener en des lieux fabuleux." size="60"></TEXT>
+    <TEXT id="txtInspiration572" text="Sois l'héroïne de ta propre histoire." size="60"></TEXT>
+    <TEXT id="txtInspiration579" text="Grâce à moi, tu ne manqueras jamais de rien." size="60"></TEXT>
+    <TEXT id="txtInspiration581" text="Quand tu es heureuse, tu aides tes amis à l'être aussi." size="50"></TEXT>
+    <TEXT id="txtInspiration584" text="Regarde le ciel pour voir les étoiles filantes, et ensuite, fais un vœu." size="45"></TEXT>
+    <TEXT id="txtInspiration587" text="Salue le soleil levant. Laisse-le éveiller ton esprit et tes sens." size="45"></TEXT>
+    <TEXT id="txtInspiration588" text="L'aide dont tu as besoin est toujours à portée de la main. Tu n'as qu'à demander." size="45"></TEXT>
+    <TEXT id="txtInspiration591" text="Aie confiance: fais ce qui est juste, même si cela te semble incroyablement difficile." size="45"></TEXT>
+    <TEXT id="txtInspiration592" text="Trouve un endroit paisible où tu pourras réfléchir et rêver en paix." size="45"></TEXT>
+    <TEXT id="txtInspiration593" text="Une seule pensée créative peut susciter un véritable ouragan de bonnes idées." size="45"></TEXT>
+    <TEXT id="txtInspiration594" text="Imagine ton désir le plus cher. Aie confiance et il se réalisera." size="45"></TEXT>
+    <TEXT id="txtInspiration595" text="Aie le courage d'aller là où t'emmènent tes rêves." size="60"></TEXT>
+    <TEXT id="txtInspiration597" text="Il faut beaucoup de courage pour aimer de tout son cœur. " size="60"></TEXT>
+    <TEXT id="txtInspiration598" text="Deviens une personne que tu pourras respecter." size="60"></TEXT>
+    <TEXT id="txtInspiration599" text="Je te donne le courage. Libère-toi de tes peurs." size="60"></TEXT>
+    <TEXT id="txtInspiration602" text="Ose devenir la meilleure personne possible." size="60"></TEXT>
+    <TEXT id="txtInspiration606" text="Continue à avancer. Tu finiras par atteindre ta destination." size="50"></TEXT>
+
+    <TEXT id="txtInspiration607" text="Open your mind to new ideas, but don’t give up your ideals." size="45"></TEXT>
+    <TEXT id="txtInspiration608" text="Give yourself time to rest. You can do more later." size="45"></TEXT>
+    
+    <!--Sunflower Promo Horse Aster-->
+    <TEXT id="txtInspiration609" text="Montre ta passion : elle illuminera tout ce que tu fais." size="45"></TEXT>
+
+    <!--Sunflowers Promo Cards--> 
+    <TEXT id="txtInspiration610" text="Recherche des amis qui te font te sentir bien." size="45"></TEXT>
+
+    <!--Summer Camp Promo Horses (Westro and Eastrin-->
+    <TEXT id="txtInspiration617" text="Ton imagination contient un univers infini où tu peux t'ébattre en toute liberté." size="45"></TEXT>
+    <TEXT id="txtInspiration618" text="Ton courage te donnera la liberté." size="60"></TEXT>
+
+  </TEXTS>
+</LOCALIZABLE>

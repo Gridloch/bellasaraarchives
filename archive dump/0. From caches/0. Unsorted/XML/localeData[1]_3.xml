@@ -1,0 +1,33 @@
+<localization>
+	<locale lang="cs_CZ" FTMDir="logo_cs_CZ.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="da_DK" FTMDir="logo_da_DK.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="de_CH" FTMDir="logo_de_CH.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="de_DE" FTMDir="logo_de_DE.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="el_GR" FTMDir="logo_el_GR.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="en_AU" FTMDir="logo_en_AU.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="en_CA" FTMDir="logo_en_CA.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="en_GB" FTMDir="logo_en_GB.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="en_MY" FTMDir="logo_en_MY.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="en_NZ" FTMDir="logo_en_NZ.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="en_SG" FTMDir="logo_en_SG.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="en_US" FTMDir="logo_en_US.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="es_ES" FTMDir="logo_es_ES.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="es_LAM" FTMDir="logo_es_LAM.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="es_MX" FTMDir="logo_es_MX.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="fi_FI" FTMDir="logo_fi_FI.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="fr_BE" FTMDir="logo_fr_BE.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="fr_CA" FTMDir="logo_fr_CA.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="fr_FR" FTMDir="logo_fr_FR.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="hu_HU" FTMDir="logo_hu_HU.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="it_IT" FTMDir="logo_it_IT.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="nl_BE" FTMDir="logo_nl_BE.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="nl_NL" FTMDir="logo_nl_NL.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="no_NO" FTMDir="logo_no_NO.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="pl_PL" FTMDir="logo_pl_PL.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="pt_BR" FTMDir="logo_pt_BR.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="pt_PT" FTMDir="logo_pt_PT.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="ru_RU" FTMDir="logo_ru_RU.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="sk_SK" FTMDir="logo_sk_SK.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="sv_SE" FTMDir="logo_sv_SE.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+	<locale lang="tr_TR" FTMDir="logo_tr_TR.png" FIMX="397" FIMY="198" legalText="© 2011 Hasbro" legalTextX="10" legalTextY="391" legalFontSize="11"/>
+</localization>

@@ -1,0 +1,137 @@
+.Vis95 {
+    filter:alpha(opacity=95);
+    -moz-opacity:0.95;
+    -khtml-opacity: 0.95;
+    opacity: 0.95;
+}
+
+.HomePromoContent .Vis85,
+.HomePromoContent .Vis8,
+.HomePromoContent .Vis7 { height:1000px; width:1000px; background-color: #111; }
+
+.LayoutGrid { min-height: 1180px; padding-left: 14px !important; }
+.LayoutContent { height: auto; *height: 90%; _height: 1150px !important; }
+
+.HomePromoContent {
+    margin-top: -37px;
+	margin-bottom: 0px;
+}
+
+.HomePromoContentMain { height: 400px; }
+
+.HomePromoContentMain .ThreeColumn-1-2 { z-index: 3; top: 295px; width: 400px !important;}
+.HomePromoContentMain .ThreeColumn-3 { width: 10px !important; }
+
+.HomePromoSubContent { z-index: 2; }
+
+.LayoutBigCellLeft { padding-left: 5px !important; }
+
+.CPodLayout .LayoutBigCellLeft { padding-left: 20px !important; }
+
+
+.TextH1Home h1 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 100;
+	margin-bottom: 12px;
+	color: #FFF;
+}
+
+.TextH1Home h2,
+.TextH1Home h3 {
+    font-size: 41px;
+    line-height: 41px;
+    font-weight: 100;
+	margin-bottom: 6px;
+	color: #FFF;
+}
+
+.TextH1Home h3 {
+	margin-bottom: 12px;
+}
+
+.TextH1Home .TextCost {
+	font-size: 28px;
+	vertical-align: top;
+	line-height: 34px;
+	position: relative;
+	display: inline;
+}
+
+.TextH1Home .TextCostMain {
+	font-size: 41px;
+	vertical-align: top;
+	line-height: 41px;
+	position: relative;
+	display: inline;
+}
+
+.TextH1Home p {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 100;
+	color: #FFF;
+}
+
+.TextH1Home p.subnote {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 100;
+	color: #FFF;
+	padding-bottom: 15px;
+}
+
+.CPodLayout .CPodButton {
+	max-width: 100px !important;
+}
+
+.LayoutGutterRight {
+    margin-right: 18px !important;
+}
+
+.HomePromoContentMain a { color: #99C6FD !important; }
+
+.SiteHeaderCart, a.SiteHeaderCart, a.SiteHeaderCart:link, a.SiteHeaderCart:visited, a.SiteHeaderCart:active, .SiteHeaderCart a, .SiteHeaderCart a:link, .SiteHeaderCart a:visited {
+    background: url("/include/style/default/SiteHeader/cart_dark.png") no-repeat scroll 0 4px transparent;
+    padding-left: 16px;
+}
+a.SiteHeaderCart:hover, a.SiteHeaderCart:visited:hover, .SiteHeaderCart a:hover, .SiteHeaderCart a:visited:hover {
+    background: url("/include/style/default/SiteHeader/cart_dark_hover.png") no-repeat scroll 0 4px transparent;
+    padding-left: 16px;
+}
+.SiteHeaderUserItem, a.SiteHeaderUserItem, a.SiteHeaderUserItem:link, a.SiteHeaderUserItem:visited, a.SiteHeaderUserItem:active, .SiteHeaderUserItem a, .SiteHeaderUserItem a:link, .SiteHeaderUserItem a:visited {
+    color: #FFF;
+}
+a.SiteHeaderUserItem:hover, a.SiteHeaderUserItem:visited:hover, .SiteHeaderUserItem a:hover, .SiteHeaderUserItem a:visited:hover {
+    color: #99C6FD;
+}
+
+@media screen and (max-width: 800px) {
+	html { background: #FFF none !important; }
+	.LayoutGrid { padding: 0 10px !important; }
+	.TextH1Home h1 { font-size: 20px !important; line-height: 20px; }
+	.TextH1Home h2 { font-size: 40px !important; line-height: 40px; }
+	.TextH1Home h3 { font-size: 40px !important; line-height: 40px; }
+	.TextH1Home p { font-size: 16px !important; line-height: 16px; }
+	.TextH1Home p.subnote { font-size: 14px !important; line-height: 14px; }
+	.TextH1Home .TextCost { font-size: 26px; line-height: 30px; }
+	.TextH1Home .TextCostMain { font-size: 40px; line-height: 40px; }
+	.HomePromoContent { margin-top: 123px; }
+}
+
+@media screen and (max-width: 480px) {
+	.LayoutGrid { padding: 0 !important; }
+	.HomePromoContentMain .ThreeColumn-1-2 { width: auto !important}
+	.Vis95 { opacity: .85}
+	#MCBoxShot{ display: block; left: 0 !important;}	
+	#MCBoxShot a { width: auto; overflow: hidden;}
+	#MCBoxShot a img { position: relative; left: -326px; }	
+	.NewsReelPanel { margin-top: 90px; }
+	.TextH1Home h1 { font-size: 16px !important; line-height: 16px; }
+	.TextH1Home h2 { font-size: 30px !important; line-height: 30px; }
+	.TextH1Home h3 { font-size: 30px !important; line-height: 30px; }
+	.TextH1Home p { font-size: 14px !important; line-height: 14px; }
+	.TextH1Home p.subnote { font-size: 12px !important; line-height: 12px; }
+	.TextH1Home .TextCost { font-size: 20px; line-height: 24px; }
+	.TextH1Home .TextCostMain { font-size: 30px; line-height: 30px; }
+}

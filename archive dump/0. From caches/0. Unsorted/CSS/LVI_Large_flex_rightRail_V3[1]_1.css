@@ -1,0 +1,44 @@
+.flxrtmrr .clearfix:after{content:".";display:block;line-height:0;height:0;clear:both;visibility:hidden}
+.flxrtmrr .itemshl{font:18px trebuchet,trebuchet MS;overflow:hidden;border-bottom:1px solid #999999;padding-bottom:3px;color:#333333;margin-bottom:0;}
+.flxrtmrr .itemsimg{width:90px;height:90px;overflow:hidden;display:table-cell;background-color:#fff;text-align:center;vertical-align:middle}
+.flxrtmrr .imars{padding-left:0;padding-top:15px}
+.flxrtmrr .rvtimeorange{font:arial;font-size:11px;color:#cc6600;text-align:left;font-weight:bold}
+.flxrtmrr .rvpris{font-weight:bold;vertical-align:top;font-size:x-small}
+.flxrtmrr .rvpris sup{font-weight:normal}
+.flxrtmrr .rvtime{font:arial;color:#333333;width:140px;text-align:left;font-size:11px;padding-top:2px}
+.flxrtmrr .rvtimered{color:red;padding-top:2px;width:140px;text-align:left;font:11px arial}
+.flxrtmrr .rvbids{font:10px verdana;color:#333;white-space:nowrap;text-align:left;font-weight:normal}
+.flxrtmrr .rvbuy{font:normal 10px verdana;color:#333;white-space:nowrap;width:140px;height:15px;text-align:left;padding:0}
+.flxrtmrr .rvbuyBO{color:#666666}
+.flxrtmrr .align .irow{width:140px;margin:0 auto}
+.flxrtmrr{color:#000}
+.flxrtmrr .align{font:normal 13px arial,sans-serif}
+.flxrtmrr .irow .itemsimg{height:140px;width:140px}
+.flxrtmrr .detail{width:145px;padding:0}
+.flxrtmrr a:hover{text-decoration:underline;border-color:#666}
+.flxrtmrr .itemhl{font:bold 17px "Trebuchet MS";overflow:hidden}
+.flxrtmrr .itemimg{width:80px;height:80px;overflow:hidden;display:table-cell;background-color:#fff;text-align:center;vertical-align:middle}
+.flxrtmrr .imar{padding-left:50px;padding-top:15px}
+.flxrtmrr .it4{color:#000;width:205px}
+.flxrtmrr .it4 .align{font:normal 13px arial,sans-serif;padding:10px}
+.flxrtmrr .irow .itemimg{height:80px;width:80px}
+.flxrtmrr .itm-wm{font:normal 13px verdana;color:#333;padding-top:7px;padding-bottom:5px;}
+.flxrtmrr .itm-wm a{font-size:x-small}
+.flxrtmrr .items,.flxrtmrr .item{color:#333}
+.flxrtmrr .items a,.flxrtmrr .item a{text-decoration:none;cursor:pointer;color:#002398;outline:none}
+.flxrtmrr .items a:visited,.flxrtmrr .item a:visited{color:#1162B7}
+.flxrtmrr .items img,.item img{border:0}
+.items ul,.item ul{list-style:none}
+.flxrtmrr .items div,p,.flxrtmrr .item div,p{margin:0}
+.flxrtmrr .itemsimg div,.flxrtmrr .itemimg div{display:table-cell;width:90px;height:90px}
+.flxrtmrr .itemsimg div,.itemsimg img,.itemsimg b,.flxrtmrr .itemimg div,.itemimg img,.itemimg b{vertical-align:middle;text-align:center}
+.flxrtmrr .itemsimg b,.flxrtmrr .itemimg b{height:100%;width:0}
+.flxrtmrr .itemscents,.flxrtmrr .itemcents{font:bold 11px arial;vertical-align:top;overflow:hidden}
+.flxrtmrr .itemsfs,.flxrtmrr .itemfs{font:10px verdana;color:#333;overflow:hidden;padding-top:2px}
+.flxrtmrr .itemsfse,.flxrtmrr .itemfse{font:arial;color:#333;overflow:hidden}
+.flxrtmrr .itemsbin,.flxrtmrr .itembin{font:11px verdana;color:#333}
+.flxrtmrr .itemsbinn,.flxrtmrr .itembinn{font:10px verdana;color:#333;padding-top:8px}
+.flxrtmrr .itemstime,.flxrtmrr .itemtime{font:bold 11px arial;color:#C60}
+.flxrtmrr .itemstitle,.flxrtmrr .itemtitle{overflow:hidden;text-align:left;padding-top:11px;height:32px;}
+.flxrtmrr .itemstlink,.flxrtmrr .itemtlink{font:13px arial;color:#002398;text-decoration:none;cursor:pointer;word-wrap:break-word;overflow:hidden}
+.flxrtmrr .itemsdollars,.flxrtmrr .itemdollars{vertial-align:top;overflow:hidden;padding-top:10px;width:140px;font-family:Arial,Verdana,sans-serif;font-size:small;color:#000000;font-weight:bold}

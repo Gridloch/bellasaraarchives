@@ -1,0 +1,68 @@
+/* Global CSS Browser reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+* html ul li a {
+	height:1em;
+}
+body {
+	line-height:1;
+}
+legend {
+	display:none;
+}
+ol, ul {
+	list-style:none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+/*---------------------------------------NETWORK GLOBAL ELEMENTS--------------------------------*/
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:70%;
+	text-align:center;
+}
+legend {
+	display:none;
+}
+br {
+	clear:both;
+}
+a {
+	color:#fff;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+/* Positioning */
+
+div.spacer {
+	clear:both;
+	height:1px;
+	width:100%;
+	margin-bottom:-1px;
+	overflow:hidden;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+.clear_right {
+	clear:right;
+}
+.clear_left {
+	clear:left;
+}

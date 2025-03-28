@@ -1,0 +1,67 @@
+/*{"created":"2010-12-09T18:07:58Z","mac":"1:cfe0b66c3fe76347ae1f6fccb277f91901b94d92fb79f352f9975ef1547f6457","k":"0.7.20","version":"1344172"}*/
+/*
+ * The fonts and font delivery service used on this website are provided via
+ * Typekit, and are subject to the End User License Agreement entered into by
+ * the website owner. All other parties are explicitly restricted from using,
+ * in any manner, the Services, Licensed Fonts, or Licensed Content. Details
+ * about using Typekit, the EULA, and information about the fonts are listed
+ * below.
+ *
+ * @allow http://*.adobe.com
+ * @allow http://*.adobe.com:4502
+ * @allow http://*.adobe.com:4503
+ * @allow http://*.macromedia.com
+ * @allow http://*.macromedia.com:8080
+ * @allow http://127.0.0.1
+ * @allow http://adobe.com
+ * @allow http://localhost
+ * @allow http://macromedia.com
+ * @allow http://www.127.0.0.1
+ * @allow http://www.adobe.com
+ * @allow https://*.adobe.com
+ * @allow https://*.adobe.com:4502
+ * @allow https://*.adobe.com:4503
+ * @allow https://*.macromedia.com
+ * @allow https://*.macromedia.com:8080
+ * @allow https://127.0.0.1
+ * @allow https://adobe.com
+ * @allow https://localhost
+ * @allow https://macromedia.com
+ * @allow https://www.127.0.0.1
+ * @allow https://www.adobe.com
+ *
+ * @name Myriad Pro
+ * @vendorname Adobe
+ * @vendorurl http://www.adobe.com/type/
+ * @licenseurl http://typekit.com/fonts/8e02145c28/eula
+ *
+ * (c) 2010 Small Batch Inc.
+ */
+
+@font-face {
+font-family:"myriad-pro-1";
+src:url("/k/sdp6zwe-g-2517609-6849.woff?3bb2a6e53c9684ffdc9a98f6135b2a62e9fd3f37bbbb30d58844c72ca54eee1674e6d7d0642d87ae69298317c8948cb0fcfb63c647dca0104a4244a3f4ef2893a09510b24155e6ee7bc22d0dd662116a81411d63f68d56763366900c294418728cc2fa56007a86dbd1abde62b3e37de5fec56f55811e2a6b481f1c0ccd4a20da7fa38735cfef4183cf8ac5e3dbb3de007d473ad2ab6ceae6658b598bf095767497dbc6e7788f242284b422a73a528a5f174572db76707f7eb0b824ac900d5d255689dd3a3612844e7b0e86e82ec20bcdbd");
+font-style:normal;
+font-weight:300;
+}
+@font-face {
+font-family:"myriad-pro-1";
+src:url("/k/sdp6zwe-g-2517609-6851.woff?3bb2a6e53c9684ffdc9a98f6135b2a62e9fd3f37bbbb30d58844c72ca54eee1674e6d7d0642d87ae69298317c8948cb0fcfb63c647dca0104a4244a3f4ef2893a09510b24155e6ee7bc22d0dd662116a81411d63f68d56763366900c294418728cc2fa56007a86dbd1abde62b3e37de5fec56f55811e2a6b481f1c0ccd4a20da7fa38735cfef4183cf8ac5e3dbb3de007d473ad2ab6ceae6658b598bf095767497dbc6e7788f242284b422a73a528a5f174572db76707f7eb0b824ac900d5d255689dd3a3612844e7b0e86e82ec20bcdbd");
+font-style:normal;
+font-weight:400;
+}
+@font-face {
+font-family:"myriad-pro-1";
+src:url("/k/sdp6zwe-g-2517609-6848.woff?3bb2a6e53c9684ffdc9a98f6135b2a62e9fd3f37bbbb30d58844c72ca54eee1674e6d7d0642d87ae69298317c8948cb0fcfb63c647dca0104a4244a3f4ef2893a09510b24155e6ee7bc22d0dd662116a81411d63f68d56763366900c294418728cc2fa56007a86dbd1abde62b3e37de5fec56f55811e2a6b481f1c0ccd4a20da7fa38735cfef4183cf8ac5e3dbb3de007d473ad2ab6ceae6658b598bf095767497dbc6e7788f242284b422a73a528a5f174572db76707f7eb0b824ac900d5d255689dd3a3612844e7b0e86e82ec20bcdbd");
+font-style:italic;
+font-weight:400;
+}
+@font-face {
+font-family:"myriad-pro-1";
+src:url("/k/sdp6zwe-g-2517609-6852.woff?3bb2a6e53c9684ffdc9a98f6135b2a62e9fd3f37bbbb30d58844c72ca54eee1674e6d7d0642d87ae69298317c8948cb0fcfb63c647dca0104a4244a3f4ef2893a09510b24155e6ee7bc22d0dd662116a81411d63f68d56763366900c294418728cc2fa56007a86dbd1abde62b3e37de5fec56f55811e2a6b481f1c0ccd4a20da7fa38735cfef4183cf8ac5e3dbb3de007d473ad2ab6ceae6658b598bf095767497dbc6e7788f242284b422a73a528a5f174572db76707f7eb0b824ac900d5d255689dd3a3612844e7b0e86e82ec20bcdbd");
+font-style:normal;
+font-weight:600;
+}
+.Text{
+font-family:"myriad-pro-1","myriad-pro-2","Helvetica","Arial",sans-serif;
+}

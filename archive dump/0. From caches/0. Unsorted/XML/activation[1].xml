@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activation>
+  <!-- ============================================================================================================ -->
+  <codebox>
+    <header1 x="0" y="-20">Entre ton code.</header1>
+    <header2 x="0" y="-20">Entre un autre code.</header2>
+    <footer_blank x="0" y="40">Tape un nouveau code d'activation dans la case située ci-dessus.</footer_blank>
+    <footer_partial x="0" y="40">Continue à entrer le code d'activation complet tel qu'il est écrit.</footer_partial>
+    <footer_done x="0" y="40">Clique sur le bouton quand tu es prête à activer ce code.</footer_done>
+  </codebox>
+  <!-- ============================================================================================================ -->
+  <startscreen>
+    <header x="57" y="44">Active tes codes Bella Sara !</header>
+    <card_ani>
+      <card src="FR/images/cards/gold.png" scale="0.65" />
+      <card src="FR/images/cards/card1.png" scale="0.85" />
+      <card src="FR/images/cards/card2.png" scale="0.85" />
+    </card_ani>
+    <hints>
+      <header>Conseils utiles</header>
+      <hint width="270">Active les codes secrets que tu trouves sur les produits Bella Sara pour débloquer des aventures premium dans les Aventures Bella Sara.</hint>
+      <hint width="270">Activer des codes te donne aussi des fers à cheval.</hint>
+      <hint width="270">Tu peux échanger des fers à cheval contre des objets au Bazar et dans les boutiques des Aventures Bella Sara.</hint>
+    </hints>
+  </startscreen>
+  <!-- ============================================================================================================ -->
+  <successscreen>
+    <!-- ........................................................................................................ -->
+    <cardbox>
+      <tooltip>
+        <horsecard>Rends-toi</horsecard>
+        <horseshoecard>Rends-toi au Bazar</horseshoecard>
+        <energycard>Rends-toi à la Galerie</energycard>
+      </tooltip>
+      <horseshoes>Fers à cheval</horseshoes>
+    </cardbox>
+    <!-- ........................................................................................................ -->
+    <horsecard>
+      <success x="60" y="50" width="355">
+        <header>Réussi !</header>
+        <horse>Tu viens de te faire un nouvel ami, HORSENAME, un cheval magique du Nord du Septentrion.</horse>
+        <horses>Tu viens de te faire de nouveaux amis, HORSENAME, des chevaux magiques du Nord du Septentrion.</horses>
+        <horseshoes>Et en plus, tu as gagné QUANTITY fers à cheval !</horseshoes>
+      </success>
+      <award x="60" y="170" width="355">
+        <header>Récompense !</header>
+        <medal>Tu as gagné une médaille pour avoir terminé chacune de ces collections : </medal>
+      </award>
+      <progress x="60" y="290" width="355">
+        <header>Progression !</header>
+        <medal>HORSENAME t'a aidé à compléter les collections suivantes :</medal>
+      </progress>
+    </horsecard>
+    <!-- ........................................................................................................ -->
+    <energycard>
+      <success x="60" y="50" width="355">
+        <header>Réussi !</header>
+        <objecthorseshoes>Tu viens de recevoir un objet très spécial : OBJECTNAME ! Tu le retrouveras dans "Mes Objets". Essaie de t'en servir dans ta maisonnette ! Et en plus, tu as gagné QUANTITY fers à cheval !</objecthorseshoes>
+        <objectonly>Tu viens de recevoir un objet très spécial : OBJECTNAME ! Tu le retrouveras dans "Mes Objets". Essaie de t'en servir dans ta maisonnette !</objectonly>
+      </success>
+    </energycard>
+    <!-- ........................................................................................................ -->
+    <horseshoecard>
+      <success x="60" y="50" width="355">
+        <header>Réussi !</header>
+        <body>Tu as gagné QUANTITY fers à cheval ! Rends-toi au Bazar et dans d'autres lieux du Nord du Septentrion pour les échanger contre d'autres objets ou privilèges.</body>
+      </success>
+    </horseshoecard>
+    <!-- ........................................................................................................ -->
+  </successscreen>
+  <!-- ============================================================================================================ -->
+  <ticketscreen>
+    <!-- ........................................................................................................ -->
+    <settings>
+      <minRevealDurationMsec>1100</minRevealDurationMsec>
+      <maxRevealDurationMsec>1500</maxRevealDurationMsec>
+    </settings>
+    <!-- ........................................................................................................ -->
+    <ticket_anim>
+      <Gold src="FR/images/cards/gold.png" />
+      <Silver src="FR/images/cards/silver.png" />
+      <Bronze src="FR/images/cards/bronze.png" />
+    </ticket_anim>
+    <!-- ........................................................................................................ -->
+    <cardbox>
+      <button>
+        <horsecard>Rends visite à un cheval</horsecard>
+        <horseshoecard>Visite le Bazar</horseshoecard>
+        <energycard>Mes Objets</energycard>
+      </button>
+      <description>
+        <horse1>Tu es devenue l'amie de HORSE, un cheval magique du Nord du Septentrion.</horse1>
+        <gift1>Tu peux utiliser l'objet GIFT dans ta Maisonnette. Tu le trouveras dans Mes Objets.</gift1>
+        <horseshoes1>Rends-toi au Bazar pour trouver des objets à acheter avec tes fers à cheval.</horseshoes1>
+      </description>
+      <horseshoes>QUANTITY Fers à cheval</horseshoes>
+    </cardbox>
+    <!-- ........................................................................................................ -->
+    <textblocks>
+      <unlock x="60" y="30" width="355">
+        <header>Réussi !</header>
+        <body>Tu as trouvé un ticket Bella Sara en METAL !  Ce ticket te donne :</body>
+        <gold>Or</gold>
+        <silver>Argent</silver>
+        <bronze>Cuivre</bronze>
+      </unlock>
+      <finish>
+        <header>Félicitations !</header>
+        <body1 width="280">
+        </body1>
+        <body2 width="280">Passe la souris sur les chevaux Bella Sara et les Trésors que tu as obtenus pour en savoir plus à leur sujet.</body2>
+      </finish>
+    </textblocks>
+    <!-- ........................................................................................................ -->
+    <prizebox>
+      <thumbnails>
+        <horse src="horses/CARDTYPEID/images/CARDTYPEID.png" />
+        <gift src="horses/CARDTYPEID/images/CARDTYPEID.png" />
+        <horseshoe src="images/Cards/horseshoes.png" />
+        <OBSOLETE_thumbnail src="media/horses/CARDTYPEID.swf" />
+      </thumbnails>
+      <horses>Chevaux Bella Sara</horses>
+      <gifts>Trésors</gifts>
+      <horseshoes>QUANTITY Fers à cheval</horseshoes>
+    </prizebox>
+    <!-- ........................................................................................................ -->
+  </ticketscreen>
+  <bsaTicketscreen>
+    <!-- ........................................................................................................ -->
+    <settings>
+      <minRevealDurationMsec>1100</minRevealDurationMsec>
+      <maxRevealDurationMsec>1500</maxRevealDurationMsec>
+    </settings>
+    <!-- ........................................................................................................ -->
+    <ticket_anim>
+      <Gold src="EN/images/cards/gold.png" />
+      <Silver src="EN/images/cards/silver.png" />
+      <Bronze src="EN/images/cards/bronze.png" />
+    </ticket_anim>
+    <!-- ........................................................................................................ -->
+    <cardbox>
+      <button>
+        <horsecard>Jouer maintenant</horsecard>
+        <energycard>Jouer maintenant</energycard>
+      </button>
+      <description>
+        <horse1>a besoin de toi dans les Aventures Bella Sara. Trouve HORSE et va vivre avec lui l'Aventure "AVENTURE".</horse1>
+        <gift1>Tu es devenue l'amie de HORSE, un cheval magique du Nord du Septentrion.</gift1>
+        <horseshoes1>Va dans Aventures Bella Sara pour découvrir ce que tu peux acheter avec. </horseshoes1>
+      </description>
+      <horseshoes>QUANTITY fers à cheval</horseshoes>
+    </cardbox>
+    <!-- ........................................................................................................ -->
+    <textblocks>
+      <unlock x="60" y="30" width="355">
+        <header>Réussi !</header>
+        <body>Tu as débloqué un ticket METAL Bella Sara ! Génial ! Voyons un peu quels chevaux tu vas rencontrer et quels cadeaux il contient.</body>
+        <gold>Or</gold>
+        <silver>Argent</silver>
+        <bronze>Cuivre</bronze>
+      </unlock>
+      <finish>
+        <header>Félicitations !</header>
+        <body1 width="280">C'était fantastique.</body1>
+        <body2 width="280">Passe ta souris sur les chevaux et les Trésors Bella Sara que tu as débloqués pour en savoir plus à leur sujet. </body2>
+      </finish>
+    </textblocks>
+    <!-- ........................................................................................................ -->
+    <prizebox>
+      <thumbnails>
+        <horse src="flash/Adventures/Art/activation/npcs/FILENAME" />
+        <gift src="flash/Adventures/Art/activation/items/gift_fpo.png" />
+        <horseshoe src="images/Cards/horseshoes.png" />
+        <OBSOLETE_thumbnail src="flash/Adventures/Art/activation/npcs/CARDTYPEID" />
+      </thumbnails>
+      <horses>Aventures Bella Sara</horses>
+      <gifts>Un cadeau pour toi</gifts>
+      <horseshoes>QUANTITY fers à cheval</horseshoes>
+    </prizebox>
+    <!-- ........................................................................................................ -->
+  </bsaTicketscreen>
+  <!-- ============================================================================================================ -->
+  <danishscreen>
+    <!-- ........................................................................................................ -->
+    <cardbox>
+      <tooltip>
+        <horsecard>Rends-toi</horsecard>
+        <horseshoecard>Rends-toi au Bazar</horseshoecard>
+        <energycard>Rends-toi à la Galerie</energycard>
+      </tooltip>
+      <horseshoes>Fers à cheval</horseshoes>
+    </cardbox>
+    <!-- ........................................................................................................ -->
+    <textblocks>
+      <unlock x="60" y="50" width="355">
+        <header>Succès !</header>
+        <body>Tu as débloqué HORSENAME en activant ta carte Bella. Dès que tu es prête, tu peux finir d'activer HORSENAME en entrant une carte eGame "Félicitations".</body>
+      </unlock>
+    </textblocks>
+    <!-- ........................................................................................................ -->
+    <egamecard src="../../images/activation-congratulationscard.jpg">
+      <caption>Cherche une carte similaire.</caption>
+    </egamecard>
+    <!-- ........................................................................................................ -->
+  </danishscreen>
+  <!-- ============================================================================================================ -->
+  <errorscreen>
+    <!-- ........................................................................................................ -->
+    <otherused>
+      <errorimage src="../../EN/images/activation_error.png" />
+      <hints>
+        <header>Conseils utiles</header>
+        <hint width="270">Active tes codes Bella Sara pour obtenir de splendides chevaux, des objets et même des fers à cheval. </hint>
+        <hint width="270">Tu peux échanger les fers à cheval contre des objets au Bazar.</hint>
+        <hint width="270">Tu ne peux utiliser chaque code qu'une fois.</hint>
+        <hint width="270">Tape le code soigneusement. Il ne faut pas faire d'erreur. </hint>
+      </hints>
+      <textblocks>
+        <error x="60" y="50" width="355">
+          <header>Oups ! Il y a une erreur.</header>
+          <body>Quelqu'un d'autre a déjà activé ce code CARDCODE.</body>
+        </error>
+      </textblocks>
+    </otherused>
+    <!-- ........................................................................................................ -->
+    <userused>
+      <errorimage src="../../EN/images/activation_error.png" />
+      <hints>
+        <header>Conseils utiles</header>
+        <hint width="270">Active tes codes Bella Sara pour obtenir de splendides chevaux, des objets et même des fers à cheval. </hint>
+        <hint width="270">Tu peux échanger les fers à cheval contre des objets au Bazar.</hint>
+        <hint width="270">Tu ne peux utiliser chaque code qu'une fois.</hint>
+        <hint width="270">Tape le code soigneusement. Il ne faut pas faire d'erreur. </hint>
+      </hints>
+      <textblocks>
+        <error x="60" y="50" width="355">
+          <header>Oups ! Tu as déjà entré celui-là.</header>
+          <body>Tu as déjà activé ce code CARDCODE ! On ne peut utiliser les codes qu'une fois.</body>
+        </error>
+      </textblocks>
+    </userused>
+    <!-- ........................................................................................................ -->
+    <badcode>
+      <errorimage src="../../EN/images/activation_error.png" />
+      <hints>
+        <header>Conseils utiles</header>
+        <hint width="270">Active tes codes Bella Sara pour obtenir de splendides chevaux, des objets et même des fers à cheval. </hint>
+        <hint width="270">Tu peux échanger les fers à cheval contre des objets au Bazar.</hint>
+        <hint width="270">Tu ne peux utiliser chaque code qu'une fois.</hint>
+        <hint width="270">Tape le code soigneusement. Il ne faut pas faire d'erreur. </hint>
+      </hints>
+      <textblocks>
+        <error x="60" y="50" width="355">
+          <header>Oups ! Il y a une erreur.</header>
+          <body>Il y a un problème avec ton code d'activation. Es-tu sûre de l'avoir bien écrit ? Essaie encore.</body>
+        </error>
+      </textblocks>
+    </badcode>
+    <!-- ........................................................................................................ -->
+    <expiredcode>
+      <errorimage src="../../EN/images/activation_error.png" />
+      <hints>
+        <header>Conseils utiles</header>
+        <hint width="270">Active tes codes Bella Sara pour obtenir de splendides chevaux, des objets et même des fers à cheval. </hint>
+        <hint width="270">Tu peux échanger les fers à cheval contre des objets au Bazar.</hint>
+        <hint width="270">Tu ne peux utiliser chaque code qu'une fois.</hint>
+        <hint width="270">Tape le code soigneusement. Il ne faut pas faire d'erreur. </hint>
+      </hints>
+      <textblocks>
+        <error x="60" y="50" width="355">
+          <header>Désolé ! Ce code a expiré.</header>
+          <body>Le code que tu as entré n'est plus valide. Il est déjà fini ! Essaie un code différent.</body>
+        </error>
+      </textblocks>
+    </expiredcode>
+    <!-- ........................................................................................................ -->
+    <exceededcode>
+      <errorimage src="../../EN/images/activation_error.png" />
+      <hints>
+        <header>Conseils utiles</header>
+        <hint width="270">Active tes codes Bella Sara pour obtenir de splendides chevaux, des objets et même des fers à cheval. </hint>
+        <hint width="270">Tu peux échanger les fers à cheval contre des objets au Bazar.</hint>
+        <hint width="270">Tu ne peux utiliser chaque code qu'une fois.</hint>
+        <hint width="270">Tape le code soigneusement. Il ne faut pas faire d'erreur. </hint>
+      </hints>
+      <textblocks>
+        <error x="60" y="50" width="355">
+          <header>Désolé ! Il n'y en a plus.</header>
+          <body>Le code que tu as entré a été utilisé de trop nombreuses fois. Il ne reste plus rien ! Essaie un code différent.</body>
+        </error>
+      </textblocks>
+    </exceededcode>
+    <!-- ........................................................................................................ -->
+    <dependantcard>
+      <textblocks>
+        <error x="60" y="50" width="355">
+          <header>Presque ! Il te faut une autre carte.</header>
+          <body>Pour pouvoir activer cette carte, tu dois d'abord activer la carte CARDNAME. Fais-le en premier. Tape ensuite à nouveau ce code.</body>
+        </error>
+        <cardlabel>Tu dois activer cette carte d'abord !</cardlabel>
+      </textblocks>
+    </dependantcard>
+    <!-- ........................................................................................................ -->
+    <bellacard>
+      <errorimage src="../../EN/images/activation_error.png" />
+      <hints>
+        <header>Conseils utiles</header>
+        <hint width="270">Active tes codes Bella Sara pour obtenir de splendides chevaux, des objets et même des fers à cheval. </hint>
+        <hint width="270">Tu peux échanger les fers à cheval contre des objets au Bazar.</hint>
+        <hint width="270">Tu ne peux utiliser chaque code qu'une fois.</hint>
+        <hint width="270">Tape le code soigneusement. Il ne faut pas faire d'erreur. </hint>
+      </hints>
+      <textblocks>
+        <error x="60" y="50" width="355">
+          <header>Presque ! Il te faut une autre carte.</header>
+          <body>Pour activer un code eGame, tu dois d'abord activer une carte Bella. Fais-le d'abord, puis essaie à nouveau ce code.</body>
+        </error>
+        <cardlabel>Tu dois activer cette carte d'abord !</cardlabel>
+      </textblocks>
+    </bellacard>
+    <!-- ........................................................................................................ -->
+  </errorscreen>
+  <!-- ============================================================================================================ -->
+</activation>

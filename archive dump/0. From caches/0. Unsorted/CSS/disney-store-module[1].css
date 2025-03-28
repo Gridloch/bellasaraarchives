@@ -1,0 +1,400 @@
+.w-disney-store * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.w-disney-store {
+  background: #FFF;
+  background: -moz-linear-gradient(top,  #e9ecee 0%, #ffffff 140px, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9ecee), color-stop(140px, #ffffff), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #e9ecee 0%,#ffffff 140px,#ffffff 100%);
+  background: -o-linear-gradient(top,  #e9ecee 0%,#ffffff 140px,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #e9ecee 0%,#ffffff 140px,#ffffff 100%);
+  background: linear-gradient(to bottom,  #e9ecee 0%,#ffffff 140px,#ffffff 100%);
+  border: 1px solid #d5d9dd;
+  font: normal 1em/1 Helvetica, Arial, sans-serif;
+  margin: 1em 0 45px;
+  padding: 1em;
+  position: relative;
+}
+.w-disney-store:before,
+.w-disney-store:after
+{
+  content: "";
+  display: table;
+}
+.w-disney-store:after {
+  clear: both;
+}
+*+html .w-disney-store {
+  min-height: 1%;
+}
+
+
+
+.w-disney-store .ad-slug {
+  color: #959698;
+  font-size: .75em;
+  text-transform: uppercase;
+}
+
+
+
+.w-disney-store .store-logo {
+  margin: .3em 0;
+}
+
+
+
+.w-disney-store .ajax_progress_indicator {
+  background: #777;
+  background: rgba(0,0,0, .7);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.w-disney-store .ajax_progress_indicator:before {
+  background: #000;
+  color: #FFF;
+  content: "Loading";
+  font-weight: bold;
+  letter-spacing: .5em;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+}
+.w-disney-store .ajax_progress_indicator.active {
+  display: block;
+}
+
+.w-disney-store .btn-visit-disney-store {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding-top: 12px;
+  white-space: nowrap;
+}
+
+.w-disney-store .products {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  .w-disney-store .products:before,
+  .w-disney-store .products:after
+  {
+    content: "";
+    display: table;
+  }
+  .w-disney-store .products:after {
+    clear: both;
+  }
+  *+html .w-disney-store .products {
+    min-height: 1%;
+  }
+
+.w-disney-store .product {
+  float: left;
+  margin: 2em 0 0;
+  width: 16.667%;
+}
+
+.w-disney-store .product a {
+  background: #FFF;
+  border: 3px solid transparent;
+  display: block;
+  padding: .5em;
+  position: relative;
+  text-decoration: none;
+}
+.w-disney-store .product a:before,
+.w-disney-store .product a:after
+{
+  content: "";
+  display: table;
+}
+.w-disney-store .product a:after {
+  clear: both;
+}
+*+html .w-disney-store .product a {
+  min-height: 1%;
+}
+
+.w-disney-store .aspect-preserver {
+  overflow: hidden;
+  margin: auto;
+  padding: 0 0 100%;
+  position: relative;
+  width: 100%;
+}
+.w-disney-store .product-image {
+  display: block;
+  -ms-interpolation-mode: bicubic;
+  position: absolute;
+}
+
+.w-disney-store .product-title {
+  color: #666;
+  font: normal 1em/1.25 Helvetica, Arial, sans-serif;
+  margin: 1em 0 0;
+  height: 3.75em;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.w-disney-store .product a:hover {
+  box-shadow: 0 0 5px #999;
+  border-color: orange;
+  z-index: 2;
+}
+.w-disney-store .product a:hover .product-title {
+  text-decoration: underline;
+}
+
+
+
+.w-disney-store .star-rating {
+  background: url("../img/stars.gif") no-repeat 0 0;
+  height: 10px;
+  margin-top: .5em;
+  width: 60px;
+}
+.w-disney-store .rating05 {
+  background-position: 50% -10px;
+}
+.w-disney-store .rating1 {
+  background-position: 50% -20px;
+}
+.w-disney-store .rating15 {
+  background-position: 50% -30px;
+}
+.w-disney-store .rating2 {
+  background-position: 50% -40px;
+}
+.w-disney-store .rating25 {
+  background-position: 50% -50px;
+}
+.w-disney-store .rating3 {
+  background-position: 50% -60px;
+}
+.w-disney-store .rating35 {
+  background-position: 50% -70px;
+}
+.w-disney-store .rating4 {
+  background-position: 50% -80px;
+}
+.w-disney-store .rating45 {
+  background-position: 50% -90px;
+}
+.w-disney-store .rating5 {
+  background-position: 50% -100px;
+}
+
+
+
+@media only screen and (min-width: 800px) {/* 3 columns layout, 6 products in max 2 rows */
+  .w-disney-store {
+    width: 100%;
+  }
+  .w-disney-store .product {
+    width: 16.667%;
+  }
+  .w-disney-store .nth-6-1st {
+    margin-left: 0;
+  }
+  .w-disney-store .nth-1,
+  .w-disney-store .nth-2,
+  .w-disney-store .nth-3,
+  .w-disney-store .nth-4,
+  .w-disney-store .nth-5,
+  .w-disney-store .nth-6
+  {
+    XXmargin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 800px) {/* 2 columns layout, 4 products in max 3 rows */
+  .w-disney-store {
+    font-size: .875em;
+    width: 100%;
+  }
+  .w-disney-store .product {
+    width: 25%;
+  }
+  .w-disney-store .nth-4-1st {
+    margin-left: 0;
+  }
+  .w-disney-store .nth-1,
+  .w-disney-store .nth-2,
+  .w-disney-store .nth-3,
+  .w-disney-store .nth-4
+  {
+    XXmargin-top: 0;
+  }
+}
+
+
+
+@media only screen and (min-width: 1020px), (min-width: 480px) and (max-width: 800px) {/* 2 columns layout, 4 products in max 3 rows */
+  .grid-8 .w-disney-store {
+    width: 100%;
+  }
+  .grid-8 .w-disney-store .product {
+    width: 25%;
+  }
+  .grid-8 .w-disney-store .nth-4-1st {
+    margin-left: 0;
+  }
+  .grid-8 .w-disney-store .nth-1,
+  .grid-8 .w-disney-store .nth-2,
+  .grid-8 .w-disney-store .nth-3,
+  .grid-8 .w-disney-store .nth-4
+  {
+    XXmargin-top: 0;
+  }
+  .grid-8 .w-disney-store .nth-5,
+  .grid-8 .w-disney-store .nth-6
+  {
+    XXmargin-top: 2em;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1020px) {/* 3 columns layout, 6 products in max 2 rows */
+  .grid-8 .w-disney-store {
+    width: 100%;
+  }
+  .grid-8 .w-disney-store .product {
+    width: 16.667%;
+  }
+  .grid-8 .w-disney-store .nth-6-1st {
+    margin-left: 0;
+  }
+  .grid-8 .w-disney-store .nth-1,
+  .grid-8 .w-disney-store .nth-2,
+  .grid-8 .w-disney-store .nth-3,
+  .grid-8 .w-disney-store .nth-4,
+  .grid-8 .w-disney-store .nth-5,
+  .grid-8 .w-disney-store .nth-6
+  {
+    XXmargin-top: 0;
+  }
+}
+
+
+
+@media only screen and (min-width: 1020px) {/* 1 column layout, 1 products in max 12 rows, horizontal arrangement */
+  .grid-4 .w-disney-store {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+  }
+  .grid-4 .w-disney-store .btn-visit-disney-store {
+    clear: both;
+    position: relative;
+    right: inherit;
+    top: inherit;
+  }
+  .grid-4 .w-disney-store .products {
+    margin-bottom: 2em;
+  }
+  .grid-4 .w-disney-store .product {
+    margin: 2em 0 0;
+    width: 100%;
+  }
+  .grid-4 .w-disney-store .product a {
+    height: 8em;
+  }
+  .grid-4 .w-disney-store .aspect-preserver {
+    float: left;
+    padding-bottom: 6em;
+    width: 6em;
+  }
+  .grid-4 .w-disney-store .product-title {
+    height: 5em;
+    text-align: left;
+  }
+  .grid-4 .w-disney-store .product-description {
+    float: right;
+    width: 50%;
+  }
+  .grid-4 .w-disney-store .product-title {
+    margin-top: 0;
+  }
+  .grid-4 .w-disney-store .star-rating {
+    float: left;
+  }
+}
+
+
+
+@media only screen and (max-width: 480px) {/* 1 column layout, 1 products in max 12 rows, horizontal arrangement */
+  .w-disney-store {
+    max-width: 100%;
+    width: 100%;
+  }
+  .w-disney-store .btn-visit-disney-store {
+    clear: both;
+    display: block;
+    margin: 1em auto 0;
+    position: relative;
+    right: inherit;
+    text-align: center;
+    top: inherit;
+  }
+  .w-disney-store .product {
+    margin: 0;
+    width: 100%;
+  }
+  .w-disney-store .product {
+    margin-top: 2em;
+    width: 100%;
+  }
+  .w-disney-store .product:first-child {
+    margin-top: 0;
+  }
+  .w-disney-store .product a {
+    height: 8em;
+  }
+  .w-disney-store .aspect-preserver {
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 7em;
+    width: 7em;
+  }
+  .w-disney-store .product-title {
+    height: 5em;
+    margin-top: 0;
+  }
+  .w-disney-store .star-rating {
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  .w-disney-store .product {
+    height: auto;
+  }
+  .w-disney-store .product a {
+    height: auto;
+  }
+  .w-disney-store .aspect-preserver {
+    float: none;
+    margin: auto;
+  }
+  .w-disney-store .product-title {
+    height: 2.5em;
+    margin-top: 1em;
+  }
+  .w-disney-store .star-rating {
+    float: left;
+  }
+}

@@ -1,0 +1,20 @@
+/* 
+    Document   : kaltura
+    Created on : 12-Mar-2013, 16:59:18
+    Author     : kyleb2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.kaltura-video{
+    border-style:solid;
+    border-color:red;
+    border-width:0px;
+}
+
+.kaltura-video.active {
+    border-style:solid;
+    border-color:red;
+    border-width:2px;
+}
+

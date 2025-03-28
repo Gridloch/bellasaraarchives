@@ -1,0 +1,11 @@
+﻿div.section_oly-aml span.button a, 
+div.section_oly-aml span.button-disabled span, 
+div.section_oly-aml span.button-hidden span,
+div.section_oly-aml span.button a:visited 
+{ 
+	color: #666666;
+	border: 1px solid #666666;
+}
+
+div.section_oly-aml span.button a:hover,
+div.section_oly-aml span.button a:focus { color: #333333; }

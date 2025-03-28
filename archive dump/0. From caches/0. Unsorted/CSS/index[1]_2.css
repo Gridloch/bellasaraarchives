@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-- Banner--*/
+#banner {
+/*margin:10px auto;
+	width:960px;
+	height:106px;
+	padding:0;
+	z-index:5;*/
+	margin-top: -60px;
+}
+ul#bn {
+	list-style:none;
+	width:840px;
+	margin:0 auto;
+	float:left
+}
+ul#bn li {
+	list-style:none;
+	float:left;
+	padding:0;
+}
+ul#bn a {
+	display:block;
+	text-indent:-1000px;
+	overflow:hidden;
+}
+a#bn_story {
+	background-image:url(../images/bnr/bn_story.png);
+	width:210px;
+	height:106px;
+}
+a#bn_world {
+	background-image:url(../images/bnr/bn_world.png);
+	width:210px;
+	height:106px;
+}
+a#bn_catalog {
+	background-image:url(../images/bnr/bn_catalog.png);
+	width:210px;
+	height:106px;
+}
+a#bn_shoplist {
+	background-image:url(../images/bnr/bn_shoplist.png);
+	width:210px;
+	height:106px;
+}
+a#bn_video {
+	background-image:url(../images/bnr/bn_video.png);
+	width:210px;
+	height:106px;
+}
+a:hover#bn_video,
+a:hover#bn_world,
+a:hover#bn_catalog,
+a:hover#bn_shoplist,
+a:hover#bn_story {
+	background-position:0px -106px;
+}
+
+
+/*-- Banner--*/
+#banner2 {
+	width: 466px;
+	height:332px;
+	float:left;
+	background-image:url(../images/bnr/bg.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding:5px;
+	padding-top:0px;
+
+}
+ul#bn2 {
+	list-style:none;
+	width: 440px;
+	margin:10px auto;
+	margin-top:20px;
+
+}
+
+ul#bn2 li {
+	list-style:none;
+	float:left;
+	padding:2px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+ul#bn2 a {
+	display:block;
+	text-indent:-1000px;
+	overflow:hidden;
+}
+a#bn2_story {
+	background-image:url(../images/bnr/bn_story.png);
+	width:210px;
+	height:106px;
+}
+a#bn2_world {
+	background-image:url(../images/bnr/bn_world.png);
+	width:210px;
+	height:106px;
+}
+a#bn2_catalog {
+	background-image:url(../images/bnr/bn_catalog.png);
+	width:210px;
+	height:106px;
+}
+a#bn2_shoplist {
+	background-image:url(../images/bnr/bn_shoplist.png);
+	width:210px;
+	height:106px;
+}
+a#bn2_video {
+	background-image:url(../images/bnr/bn_video.png);
+	width:210px;
+	height:106px;
+}
+a:hover#bn2_world,
+a:hover#bn2_catalog,
+a:hover#bn2_shoplist,
+a:hover#bn2_video,
+a:hover#bn2_story {
+	background-position:0px -106px;
+}
+
+
+/*-- FB--*/
+#news_fb {
+	width: 930px;
+	margin: 0px auto;
+}
+
+
+#news_fb2 {
+	width:450px;
+	background-color: #FFFFF4;
+	float:right;
+	margin-top:8px;
+}
+
+

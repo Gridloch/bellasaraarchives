@@ -1,0 +1,135 @@
+<?xml encoding="utf-8"?>
+<house>
+	<H1 id="教会">
+		<SW>1</SW>
+		<URL></URL>
+	</H1>
+	<H2 id="灯りのおうち">
+		<SW>1</SW>
+		<URL></URL>
+	</H2>
+	<H3 id="森のキッチン">
+		<SW>1</SW>
+		<URL></URL>
+	</H3>
+	<H4 id="幼稚園">
+		<SW>1</SW>
+		<URL></URL>
+	</H4>
+	<H5 id="赤ちゃん広場">
+		<SW>1</SW>
+		<URL></URL>
+	</H5>
+	<H6 id="学校">
+		<SW>1</SW>
+		<URL></URL>
+	</H6>
+	<H7 id="診療所">
+		<SW>1</SW>
+		<URL></URL>
+	</H7>
+	<H8 id="パン屋さん">
+		<SW>1</SW>
+		<URL></URL>
+	</H8>
+	<H9 id="青空広場">
+		<SW>1</SW>
+		<URL></URL>
+	</H9>
+	<H10 id="写真屋">
+		<SW>1</SW>
+		<URL></URL>
+	</H10>
+	<H11 id="美容院">
+		<SW>1</SW>
+		<URL></URL>
+	</H11>
+	<H12 id="おうち">
+		<SW>0</SW>
+		<URL></URL>
+	</H12>
+	<H13 id="ペンション">
+		<SW>0</SW>
+		<URL></URL>
+	</H13>
+	<H14 id="森の洋服屋さん">
+		<SW>1</SW>
+		<URL></URL>
+	</H14>
+	<H15 id="赤ちゃんゆうえんち">
+		<SW>1</SW>
+		<URL></URL>
+	</H15>
+	<H16 id="きいちご林のかわいいお家">
+		<SW>1</SW>
+		<URL></URL>
+	</H16>
+	<H17 id="緑の丘のすてきなお家">
+		<SW>1</SW>
+		<URL></URL>
+	</H17>
+	<H18 id="赤い屋根の大きなお家">
+		<SW>1</SW>
+		<URL></URL>
+	</H18>
+	<H19 id="森のマーケット">
+		<SW>1</SW>
+		<URL></URL>
+	</H19>
+	<H20 id="森のキッチン２">
+		<SW>1</SW>
+		<URL></URL>
+	</H20>
+	<H21 id="きらめくふん水の大きなお家">
+		<SW>1</SW>
+		<URL></URL>
+	</H21>
+	<H22 id="森のおしゃれなケーキ屋さん">
+		<SW>1</SW>
+		<URL></URL>
+	</H22>
+	<H23 id="村役場">
+		<SW>1</SW>
+		<URL></URL>
+	</H23>
+	<H24 id="水車ごや">
+		<SW>1</SW>
+		<URL></URL>
+	</H24>
+	<H25 id="森の小さなお家">
+		<SW>1</SW>
+		<URL></URL>
+	</H25>
+	<H26 id="風の丘のお家">
+		<SW>0</SW>
+		<URL></URL>
+	</H26>
+	<H27 id="森のパン屋さん">
+		<SW>1</SW>
+		<URL></URL>
+	</H27>
+	<H28 id="赤い屋根のお家">
+		<SW>0</SW>
+		<URL></URL>
+	</H28>
+	<H29 id="グランドホテル">
+		<SW>1</SW>
+		<URL></URL>
+	</H29>
+	<H30 id="ツリーハウス">
+		<SW>1</SW>
+		<URL></URL>
+	</H30>
+	<H31 id="3階建てのおしゃれなお家">
+		<SW>0</SW>
+		<URL></URL>
+	</H31>
+	<H32 id="森のハンバーガー屋さん">
+		<SW>0</SW>
+		<URL></URL>
+	</H32>
+	<I4 id="おでかけファミリーカー">
+		<SW>0</SW>
+		<URL></URL>
+	</I4>
+</house>

@@ -1,0 +1,52 @@
+#global-navcontainer {
+	position: absolute;
+	top: 100px;
+	left: 230px;
+}
+
+#global-nav .global-navparent {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #54037A;	
+}
+
+#global-nav, #global-nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#global-nav a {
+	display: block;
+	width: 106px;
+	font-size: 11px;
+	font-weight: Normal;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #FFFFCC;	
+}
+
+#global-nav li {
+	float: left;
+	width: 106px;
+}
+
+#global-nav li ul {
+	position: absolute;
+	width: 106px;
+	left: -999em;
+	background: #52557F;
+}
+
+#global-nav li:hover ul {
+	left: auto;
+}
+
+#global-nav li:hover ul, #global-nav li.sfhover ul {
+	left: auto;
+}
+
+#global-nav li:hover, #global-nav li.sfhover {
+	background: #A987B1;
+}

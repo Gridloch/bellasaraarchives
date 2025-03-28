@@ -1,0 +1,404 @@
+.stiv {
+display: block !important;
+    overflow: hidden;
+    padding-bottom: 8px;    
+}
+
+.stiv h2 {
+color:#333;
+font-family:"Trebuchet MS",Verdana,sans-serif;
+font-size:18px;
+padding-left:10px;
+margin:0;
+}
+
+.stiv .content {
+width:100%;
+margin:0;
+padding:0;
+}
+
+.stiv table {
+border-collapse:collapse;
+width:100%;
+margin:0;
+padding:0;
+}
+
+.stiv .leftArrow {
+float:left;
+width:16px;
+height:140px;
+text-align:center;
+padding:0;
+}
+
+.stiv .arrow {
+width:20px;
+height:30px;
+display:block;
+margin-top:63px;
+}
+
+.stiv .noarrow {
+background:none;
+}
+
+.stiv .leftArrow .inactive,.stiv .ileftArrow .inactive {
+background:url(http://pics.ebaystatic.com/aw/pics/cmp/ds2/sprArrows.png) no-repeat 0 -246px;
+}
+
+.stiv .leftArrow .clickable,.stiv .ileftArrow .clickable {
+background:url(http://pics.ebaystatic.com/aw/pics/cmp/ds2/sprArrows.png) no-repeat 0 -276px;
+}
+
+.stiv .leftArrow .hover,.stiv .ileftArrow .hover {
+background:url(http://pics.ebaystatic.com/aw/pics/cmp/ds2/sprArrows.png) no-repeat 0 -307px;
+}
+
+.stiv .rightArrow {
+float:left;
+width:20px;
+height:140px;
+text-align:center;
+padding:0 0 0 3px;
+}
+
+.stiv .rightArrow .inactive,.stiv .irightArrow .inactive {
+background:url(http://pics.ebaystatic.com/aw/pics/cmp/ds2/sprArrows.png) no-repeat 0 -336px;
+}
+
+.stiv .rightArrow .clickable,.stiv .irightArrow .clickable {
+background:url(http://pics.ebaystatic.com/aw/pics/cmp/ds2/sprArrows.png) no-repeat 0 -366px;
+}
+
+.stiv .rightArrow .hover,.stiv .irightArrow .hover {
+background:url(http://pics.ebaystatic.com/aw/pics/cmp/ds2/sprArrows.png) no-repeat 0 -397px;
+}
+
+.stiv .viewport {
+width:100%;
+float:left;
+overflow:hidden;
+position:relative;
+margin:7px 0 0;
+}
+
+.stiv .item {
+padding-left:10px;
+overflow:hidden;
+width:140px;
+}
+
+.stiv .last {
+margin-right:0;
+}
+
+.stiv img {
+border:0;
+margin:0;
+padding:0;
+}
+
+.stiv p {
+overflow:hidden;
+font-family:arial;
+font-size:small;
+font-weight:400;
+color:#002398;
+text-align:left;
+margin:2px 0 0;
+padding:0;
+}
+
+.stiv p.title {
+margin-top:5px;
+font-size:small;
+line-height:120%;
+height:3.61em;
+overflow:hidden;
+}
+
+.stiv a.title {
+font-family:Arial,Verdana,sans-serif;
+font-size:small;
+color:#002398;
+text-decoration:none;
+}
+
+.stiv a.title:visited {
+color:#909;
+}
+
+.stiv .price {
+font-family:Arial,Verdana,sans-serif;
+font-size:14px;
+color:#000;
+font-weight:700;
+margin:7px 0 0;
+}
+
+.stiv .dec {
+font-family:Arial,Verdana,sans-serif;
+font-size:x-small;
+font-weight:700;
+vertical-align:top;
+}
+
+.stiv .u60 {
+font-family:arial;
+font-weight:700;
+font-size:11px;
+color:#c60;
+}
+
+.stiv p.itmcar-tim {
+font:normal 11px arial;
+color:#333;
+height:12px;
+}
+
+.stiv .itmcar-tim .bids {
+font:normal 10px verdana;
+color:#333;
+float:left;
+}
+
+.stiv .itmcar-tim .bid {
+font:normal 10px verdana;
+color:#333;
+float:none;
+}
+
+.stiv div.link {
+height:20px;
+text-align:left;
+font-family:Verdana,sans-serif;
+font-size:x-small;
+color:#999;
+margin:8px 0 8px;
+}
+
+.stiv div.link a {
+font-family:Verdana,sans-serif;
+font-size:x-small;
+color:#002398;
+text-decoration:none;
+}
+
+.stiv .separator {
+color:#999;
+}
+
+.stiv .spacer {
+clear:both;
+margin:0;
+padding:0;
+}
+
+.stiv p {
+margin:0;
+}
+
+.stiv .pchdng {
+font:normal 18px trebuchet,trebuchet MS;
+color:#333;
+border-bottom:1px solid #999;
+margin:0;
+padding:0 0 3px;
+}
+
+.stiv .outerDiv {
+position:relative;
+width:900px;
+overflow:hidden;
+float:left;
+}
+
+.stiv .innerDiv {
+margin-top:15px;
+overflow:hidden;
+position:relative;
+}
+
+.stiv .con {
+text-decoration:none;
+color:#002398;
+}
+
+.stiv .contDiv {
+vertical-align:top;
+padding-left:15px;
+float:left;
+width:165px;
+}
+
+.stiv .itmCnt,.stiv .itmCnt a,.stiv .rirc {
+text-decoration:none;
+color:#002398;
+font-family:arial;
+font-size:12px;
+}
+
+.stiv .itmFrm {
+color:#666;
+font-family:arial;
+font-size:12px;
+}
+
+.stiv .rira {
+height:20px;
+width:140px;
+background-repeat:no-repeat;
+border:none;
+background-attachment:scroll;
+background-color:transparent;
+}
+
+.stiv .item .imgdesc {
+color:#002398;
+font:12px arial;
+text-decoration:none;
+cursor:pointer;
+display:block;
+}
+
+.stiv .item .imgdesc .rvi i,.stiv .item .imgdesc .rvi img {
+border:0;
+text-align:center;
+vertical-align:middle;
+}
+
+.stiv .item .imgdesc .rvi i {
+height:100%;
+width:0;
+}
+
+.stiv .item .imgdesc .rvi {
+display:table-cell;
+text-decoration:none;
+text-align:center;
+vertical-align:middle;
+}
+
+.stiv .item .imgdesc .rvimgdes {
+ height: 32px;
+    line-height: 16px;
+    margin-top: 6px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.stiv .imgndes {
+text-decoration:none;
+text-align:center;
+vertical-align:middle;
+}
+
+.stiv .remtable {
+position:absolute;
+top:0;
+display:none;
+}
+
+.stiv .remtablem {
+position:absolute;
+top:0;
+}
+
+
+
+.stiv .ileftArrow {
+  float: left;
+    padding: 0 1px 0 0;
+    text-align: center;
+    width: 8px;
+}
+
+.stiv .irightArrow {
+ padding: 0 0 0 2px;
+    text-align: center;
+    width: 10px;
+}
+
+.stiv .fback {
+text-align:right;
+padding-top:7px;
+padding-right:10px;
+display:block;
+}
+
+.stiv .sovr {
+text-decoration:none;
+padding-left:5px;
+font:normal 10px verdana;
+color:#999;
+}
+
+.stiv .sobrk {
+font:normal 10px verdana;
+color:#999;
+}
+
+.stiv .fback a {
+font:normal 10px verdana;
+color:#002398;
+text-decoration:none;
+}
+
+.stiv .fback a:visited {
+color:#731077;
+}
+
+.stiv .item .msprice,.stiv .item .saprice {
+font:normal 12px arial;
+color:#666;
+}
+
+.stiv .item .saprice {
+color:#448600;
+}
+
+.stiv .item .imgdesc .rvi140 {
+height:140px;
+width:140px;
+}
+
+.stiv .item .imgdesc .rvi80 {
+height:80px;
+width:80px;
+}
+
+.stiv .item .imgdesc .rvi96 {
+height:96px;
+width:96px;
+}
+
+.stiv .item140 {
+width:145px;
+}
+
+.stiv .imgdescstr140 {
+width:143px;
+}
+
+.stiv td,.tdra,.tdla {
+vertical-align:top;
+}
+
+.stiv a.title:hover,.stiv div.link a:hover,.itmCnt a:hover,.item a:hover p.rvimgdes,.contDiv a:hover p.riimgdes,.fback a:hover {
+text-decoration:underline;
+}
+
+.stiv p.type,.stiv .pcnt {
+font:normal 10px verdana;
+color:#333;
+}
+
+.stiv .item80,.stiv .item96 {
+width:120px;
+}
+
+.stiv .itemList,.stiv .viewport .pr {
+position:relative;
+}

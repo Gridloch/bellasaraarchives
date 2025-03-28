@@ -1,0 +1,31 @@
+.content-play-browse .pagetitle, .content-adp .pagetitle {
+    left: 275px;
+	background: url("../../images/sprite_pagetitles_fr_FR.png") no-repeat scroll 0 -3px transparent !important;
+	top:165px;
+	height:65px;
+}
+.content-play-browse.printables .pagetitle {
+    left: 155px;
+	background: url("../../images/sprite_pagetitles_fr_FR.png") no-repeat scroll 0 -60px transparent !important;
+	top:160px;
+	height:80px;
+}
+.content-shop-browse .pagetitle, .content-pdp .pagetitle {
+    left: 250px;
+	background: url("../../images/sprite_pagetitles_fr_FR.png") no-repeat scroll 0 -130px transparent !important;
+	top:165px;
+	height:65px;
+}
+.content-adp #asset_links li.adp_btn_games a {
+    background-position: 0 -440px;
+}
+.content-adp #asset_links a {
+	background-position: 0 -397px;
+}
+
+.content-search .pagetitle {
+    background: url("../images/sprite_pagetitles_fr_FR.png") no-repeat scroll 0 -192px transparent !important;
+    left: 342px;
+    top: 170px;
+    width: 380px;
+}

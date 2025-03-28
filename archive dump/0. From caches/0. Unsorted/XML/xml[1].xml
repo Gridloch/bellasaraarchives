@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VAST version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd">
+  <Ad id="279555632">
+  <InLine>
+        <AdSystem version="2.0">DART_DFA</AdSystem>
+    <AdTitle>In-Stream Video</AdTitle>
+    <Description></Description>
+    <Survey></Survey>
+    <Impression id="DART"><![CDATA[http://ad-emea.doubleclick.net/imp;v7;x;279555632;0-0;0;106481931;0/0;57198601/57087793/1;;~cs=o%3ford=4424007]]></Impression>
+
+    <Creatives>
+    <Creative sequence="1" AdID="">
+      <Linear>
+      <Duration>00:00:22</Duration>
+      <TrackingEvents>
+        <Tracking event="start"><![CDATA[http://ad-emea.doubleclick.net/activity;src=2943882;met=1;v=1;pid=106481931;aid=279555632;ko=0;cid=57198601;rid=57087793;rv=1;timestamp=4424007;eid1=11;ecn1=1;etm1=0;]]></Tracking>
+        <Tracking event="midpoint"><![CDATA[http://ad-emea.doubleclick.net/activity;src=2943882;met=1;v=1;pid=106481931;aid=279555632;ko=0;cid=57198601;rid=57087793;rv=1;timestamp=4424007;eid1=18;ecn1=1;etm1=0;]]></Tracking>
+        <Tracking event="firstQuartile"><![CDATA[http://ad-emea.doubleclick.net/activity;src=2943882;met=1;v=1;pid=106481931;aid=279555632;ko=0;cid=57198601;rid=57087793;rv=1;timestamp=4424007;eid1=26;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[http://ad-emea.doubleclick.net/activity;src=2943882;met=1;v=1;pid=106481931;aid=279555632;ko=0;cid=57198601;rid=57087793;rv=1;timestamp=4424007;eid1=27;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="complete"><![CDATA[http://ad-emea.doubleclick.net/activity;src=2943882;met=1;v=1;pid=106481931;aid=279555632;ko=0;cid=57198601;rid=57087793;rv=1;timestamp=4424007;eid1=13;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="mute"><![CDATA[http://ad-emea.doubleclick.net/activity;src=2943882;met=1;v=1;pid=106481931;aid=279555632;ko=0;cid=57198601;rid=57087793;rv=1;timestamp=4424007;eid1=16;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="pause"><![CDATA[http://ad-emea.doubleclick.net/activity;src=2943882;met=1;v=1;pid=106481931;aid=279555632;ko=0;cid=57198601;rid=57087793;rv=1;timestamp=4424007;eid1=15;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[http://ad-emea.doubleclick.net/activity;src=2943882;met=1;v=1;pid=106481931;aid=279555632;ko=0;cid=57198601;rid=57087793;rv=1;timestamp=4424007;eid1=19;ecn1=1;etm1=0;]]></Tracking>
+            </TrackingEvents>
+            <AdParameters></AdParameters>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://www.eucerin.fr/leclubeucerin/fr/public/programmes/peau/id/2-fevrier-le-programme-peau-pour-lutter-contre-les-rides]]></ClickThrough>
+              <ClickTracking id="DART"><![CDATA[http://ad-emea.doubleclick.net/click%3Bh%3Dv8/3efa/3/0/%2a/p%3B279555632%3B0-0%3B0%3B106481931%3B255-0/0%3B57198601/57087793/1%3B%3B%7Esscs%3D%3fhttp://s0.2mdn.net/dot.gif]]></ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/x-flv" bitrate="1070" width="640" height="360"><![CDATA[http://gcdn.2mdn.net/MotifFiles/html/2943882/EUCERIN_HYALURON_FILLER_22s_139211773003974.flv]]></MediaFile>
+              <MediaFile id="2" delivery="streaming" type="video/x-flv" bitrate="1070" width="640" height="360"><![CDATA[rtmp://rmcdn.f.2mdn.net/ondemand/MotifFiles/html/2943882/EUCERIN_HYALURON_FILLER_22s_139211773003974.flv]]></MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+
+        <Creative sequence="1" AdID="">
+          <CompanionAds>
+          </CompanionAds>
+        </Creative>
+
+      </Creatives>
+
+      <Extensions>
+        <Extension type="DART">
+          <AdServingData>
+            <DeliveryData>
+              <GeoData><![CDATA[ct=FR&st=&ac=1&zp=&bw=0&dma=0&city=4984]]></GeoData>
+            </DeliveryData>
+          </AdServingData>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+</VAST>

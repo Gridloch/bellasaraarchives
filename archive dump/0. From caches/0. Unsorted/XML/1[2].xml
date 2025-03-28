@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<data>
+		<menu>
+			<item id="2198">
+				<title><![CDATA[A. Lonchampt-Delehaye © CMN Paris]]></title>
+				<picto src="http://www.monuments-nationaux.fr/thumb2/cache/80968cc80c5b084d01d609c1531f6234" />
+				<img src="http://www.monuments-nationaux.fr/thumb2/cache/149cbf5d3ef43a8e035310ca84f55e8d" />
+			</item>
+			
+			<item id="2199">
+				<title><![CDATA[B. Boyer © CMN Paris]]></title>
+				<picto src="http://www.monuments-nationaux.fr/thumb2/cache/4a39986e3151764db3526c4c8d8cfe7e" />
+				<img src="http://www.monuments-nationaux.fr/thumb2/cache/7ba9cbbe3da1322c1828c84f76a7f4c2" />
+			</item>
+			
+			<item id="2200">
+				<title><![CDATA[J.Feuillie © CMN Paris]]></title>
+				<picto src="http://www.monuments-nationaux.fr/thumb2/cache/ebc9c60c37bf5a45a6506b3f685a2d6e" />
+				<img src="http://www.monuments-nationaux.fr/thumb2/cache/a8384ce2e690e956a5771e14c098712f" />
+			</item>
+			</menu>
+		<trads>
+		<selectMedia><![CDATA[Sélectionnez un média]]></selectMedia>
+	</trads>
+	</data>

@@ -1,0 +1,208 @@
+<xml encoding="UTF-8">
+	<Dir_Name>
+		<M1 id="jan">M4_win</M1>
+		<M2 id="Feb">M4_win</M2>
+		<M3 id="Mar">M1_spr</M3>
+		<M4 id="Apr">M1_spr</M4>
+		<M5 id="May">M1_spr</M5>
+		<M6 id="Jun">M2_sum</M6>
+		<M7 id="Jul">M2_sum</M7>
+		<M8 id="Aug">M2_sum</M8>
+		<M9 id="Sep">M2_sum</M9>
+		<M10 id="Oct">M3_aut</M10>
+		<M11 id="Nov">M3_aut</M11>
+		<M12 id="Dec">M4_win</M12>
+	</Dir_Name>
+	<Falls id="落ちもの雪雨など">
+		<Rain id="未設定の場合_春_">
+			<Probability id="確率％">50</Probability>
+		</Rain>
+		<Sakura id="春M1_spr">
+			<Probability id="桜確率％">100</Probability>
+		</Sakura>
+		<RainySeason id="梅雨 夏M2_sum">
+			<In id="梅雨入り">6/20</In>
+			<Out id="梅明け雨">7/20</Out>
+			<Probability id="降水確率％">80</Probability>
+		</RainySeason>
+		<Summer id="夏M2_sum">
+			<Probability id="降水確率％">10</Probability>
+		</Summer>
+		<Leaf id="秋 M3_aut">
+			<Probability id="落ち葉確率％">100</Probability>
+		</Leaf>
+		<Snow id="冬 M4_win">
+			<Probability id="確率％">80</Probability>
+		</Snow>
+	</Falls>
+	<Event>	
+		<spr id="春">
+			<Cerry id="桜">
+				<date id="開花日">4/10</date>
+			</Cerry>
+		</spr>
+		<sum id="夏">
+			<FireWorks id="花火">
+				<date id="期間">7/15-8/15</date>
+				<time id="時間">19:00-22:00</time>
+			</FireWorks>
+		</sum>
+		<aut id="秋">
+			<Haloween id="ハロウイン">
+				<date id="期間">10/31</date>
+				<time id="時間">17:00-23:00</time>
+			</Haloween>
+		</aut>
+		<win id="冬">
+			<XmasTree id="クリスマスツリー表示">
+				<date id="期間">11/20-12/25</date>
+			</XmasTree>
+		</win>
+	</Event>
+	<Timezone>
+		<M1 id="jan">
+			<sunrise>
+				<J0>6:50</J0>
+				<J1>6:51</J1>
+				<J2>6:48</J2>
+			</sunrise>
+			<sunset>
+				<J0>16:38</J0>
+				<J1>16:46</J1>
+				<J2>16:55</J2>
+			</sunset>
+		</M1>
+		<M2 id="Feb">
+			<sunrise>
+				<J0>6:42</J0>
+				<J1>6:34</J1>
+				<J2>6:23</J2>
+			</sunrise>
+			<sunset>
+				<J0>17:08</J0>
+				<J1>17:17</J1>
+				<J2>17:27</J2>
+			</sunset>
+		</M2>
+		<M3 id="Mar">
+			<sunrise>
+				<J0>6:11</J0>
+				<J1>5:59</J1>
+				<J2>5:45</J2>
+			</sunrise>
+			<sunset>
+				<J0>17:37</J0>
+				<J1>17:45</J1>
+				<J2>17:53</J2>
+			</sunset>
+		</M3>
+		<M4 id="Apr">
+			<sunrise>
+				<J0>5:27</J0>
+				<J1>5:15</J1>
+				<J2>5:02</J2>
+			</sunrise>
+			<sunset>
+				<J0>18:03</J0>
+				<J1>18:10</J1>
+				<J2>18:19</J2>
+			</sunset>
+		</M4>
+		<M5 id="May">
+			<sunrise>
+				<J0>4:49</J0>
+				<J1>4:40</J1>
+				<J2>4:32</J2>
+			</sunrise>
+			<sunset>
+				<J0>18:28</J0>
+				<J1>18:35</J1>
+				<J2>18:43</J2>
+			</sunset>
+		</M5>
+		<M6 id="Jun">
+			<sunrise>
+				<J0>4:26</J0>
+				<J1>4:24</J1>
+				<J2>4:25</J2>
+			</sunrise>
+			<sunset>
+				<J0>18:52</J0>
+				<J1>18:57</J1>
+				<J2>19:00</J2>
+			</sunset>
+		</M6>
+		<M7 id="Jul">
+			<sunrise>
+				<J0>4:28</J0>
+				<J1>4:33</J1>
+				<J2>4:40</J2>
+			</sunrise>
+			<sunset>
+				<J0>19:00</J0>
+				<J1>18:59</J1>
+				<J2>18:55</J2>
+			</sunset>
+		</M7>
+		<M8 id="Aug">
+			<sunrise>
+				<J0>4:49</J0>
+				<J1>4:56</J1>
+				<J2>5:03</J2>
+			</sunrise>
+			<sunset>
+				<J0>18:46</J0>
+				<J1>18:37</J1>
+				<J2>18:25</J2>
+			</sunset>
+		</M8>
+		<M9 id="Sep">
+			<sunrise>
+				<J0>5:13</J0>
+				<J1>5:19</J1>
+				<J2>5:27</J2>
+			</sunrise>
+			<sunset>
+				<J0>18:09</J0>
+				<J1>17:56</J1>
+				<J2>17:41</J2>
+			</sunset>
+		</M9>
+		<M10 id="Oct">
+			<sunrise>
+				<J0>5:36</J0>
+				<J1>5:43</J1>
+				<J2>5:51</J2>
+			</sunrise>
+			<sunset>
+				<J0>17:25</J0>
+				<J1>17:13</J1>
+				<J2>17:00</J2>
+			</sunset>
+		</M10>
+		<M11 id="Nov">
+			<sunrise>
+				<J0>6:03</J0>
+				<J1>6:11</J1>
+				<J2>6:21</J2>
+			</sunrise>
+			<sunset>
+				<J0>16:46</J0>
+				<J1>16:38</J1>
+				<J2>16:32</J2>
+			</sunset>
+		</M11>
+		<M12 id="Dec">
+			<sunrise>
+				<J0>6:32</J0>
+				<J1>6:39</J1>
+				<J2>6:46</J2>
+			</sunrise>
+			<sunset>
+				<J0>16:28</J0>
+				<J1>16:28</J1>
+				<J2>16:31</J2>
+			</sunset>
+		</M12>
+	</Timezone>
+</xml>

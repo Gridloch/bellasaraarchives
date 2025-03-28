@@ -1,0 +1,257 @@
+body
+{
+	background-color: #FFF;
+	font-family: Tahoma,Verdana,Arial,'sans serif';
+	font-size: 10pt;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+#content
+{
+	margin: 0 auto;
+	width: 760px;
+}
+#promobar
+{
+	background-image: url('../img/topbar/topV2-18001ee3489f4d3862fc8c0d4d95672e.gif');
+	background-repeat: no-repeat;
+	height: 97px;
+	position: relative;
+}
+#promobar.nologo
+{
+	background-image: url('../img/topbar/top_nologo-c6a2aa712a6379f0812a84fd10d9a38a.gif');
+}
+#banner1
+{
+	background-color: transparent;
+	float: left;
+	height: 86px;
+	margin-left: 6px;
+	margin-top: 6px;
+	width: 223px;
+}
+#banner2, #banner3, #banner4
+{
+	float: left;
+	height: 56px;
+	margin-left: 6px;
+	margin-top: 6px;
+	width: 169px;
+}
+#sponsorPaySpecialOfferBannerSpot
+{
+	float: left;
+	height: 60px;
+	margin-left: 6px;
+	margin-top: 4px;
+	width: 519px;
+}
+#notification
+{
+	bottom: 10px;
+	color: black;
+	font-size: 12px;
+	left: 240px;
+	position: absolute;
+	text-align: left;
+	width: 510px;
+}
+#sponsorPaySpecialOfferIframe
+{
+	border: 0;
+	height: 60px;
+	margin: 0 0 0 25px;
+	padding: 0;
+	width: 468px;
+}
+#promo/*, #videoad*/
+{
+	margin-top:5px;
+	margin-bottom: 10px;
+}
+#buttons > td
+{
+    text-align: center;
+    font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.button
+{
+	background-image: url('../img/topbar/bottom_notext-90bf733d35ae6f21d85cd87791415af3.gif');
+	background-position: -5px 0;
+	background-repeat: no-repeat;
+	border-right: solid 1px #165e82;
+	color: #165e82;
+	display: block;
+	font-family: Arial;
+	font-weight: bold;
+	height: 19px;
+	padding-top: 6px;
+	text-align: center;
+	text-decoration: none;
+}
+.button.special
+{
+	background-image: url('../img/topbar/bottombar_notextNEWorange1-13424c0e2c67ac49bc050f8fd50cf1d7.gif');
+}
+.button:hover
+{
+	background-position: -5px -25px;
+}
+.button.first
+{
+	background-position: 0 0;
+}
+.button.first:hover
+{
+	background-position: 0 -25px;
+}
+.button.last
+{
+	background-position: right top;
+	border-right: none;
+}
+.button.last:hover
+{
+	background-position: right -25px;
+}
+td
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#sponsorpay_video
+{
+	display: none;
+}
+#container
+{
+	margin: 10px 0;
+	position: relative;
+}
+#container-loading, #container-error, #container-preloader, #container-warning
+{
+	background: url('../img/loading-45a5e4a0490241cbce10bb4d1bf3c1eb.gif') center 100px no-repeat;
+	text-align: center;
+	padding: 200px 0;
+}
+#container-preloader
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 760px;
+	z-index: -1;
+}
+#container-warning
+{
+	color: orange;
+}
+#container-error
+{
+	background-image: url('../img/plinga-b088e3eaaae0c48f5f8932cbc88fbd67.png');
+	color: red;
+}
+#useridtext
+{
+	text-align: center;
+}
+div#fancybox-wrap
+{
+	top: 100px !important;
+}
+#contact
+{
+    width: 188px;
+    height: 40px;
+    background: url('../img/btn-contact-e179a4ce729485bc78b272aff93008c2.png');
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#like
+{
+	height: 35px;
+	display:none;
+}
+#lsbanner
+{
+	display: none;
+	margin-bottom: 5px;
+}
+#applifier_bar
+{
+	height: 520px;
+	margin-left: -130px;
+	overflow: hidden;
+	position: absolute;
+	width: 120px;
+	display: none;
+}
+#trialpay {
+	height: 100px;
+	margin-left: -120px;
+	margin-top: 520px;
+	position: absolute;
+	width: 100px;
+	display: none;
+}
+#footer-container
+{
+	width : 760px;
+	height : 261px;
+	margin : 0 auto;
+}
+.embed_image
+{
+	float : left;
+	width : 90px;
+}
+.embed_message
+{
+	float : left;
+	padding-left : 10px;
+	cursor : pointer;
+}
+.group_profile_footer
+{
+	text-align : center;
+}
+#nobleprofile-picture
+{
+	height : 35px;
+	margin : 10px 0;
+}
+.canvas_footer
+{
+	padding : 5px 0 10px;
+	text-align : center;
+}
+.maintenance 
+{
+	width: 760px;
+	height: 600px;
+	background-color: #F4F4F4;
+}
+.maintenance > .maintenance_box
+{
+	width: 398px;
+	border: 1px solid #C1D4E5;
+	border-top-width: 14px;
+	border-bottom-width: 14px;
+	padding: 200px 0;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #FFF;
+	position: relative;
+	top: 50px;
+}

@@ -1,0 +1,128 @@
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+    position: relative;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+   /* width: 75px;
+    height: 75px;
+}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+    height: 25px;
+    background-color: red;
+    -moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(prev-vertical.png) no-repeat scroll 0 0;
+	cursor:pointer;
+	height:32px;
+	left:43px;
+	position:absolute;
+	top:5px;
+	width:32px;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+    height: 25px;
+    background-color: red;
+    -moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(prev-vertical.png) no-repeat scroll 0 0;
+	cursor:pointer;
+	height:32px;
+	left:43px;
+	position:absolute;
+	top:5px;
+	width:32px;
+}
+
+
+
+/**
+ *  Vertical Buttons
+ */ 
+.jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-next-vertical:hover {
+    background-position: 0 -32px;
+}
+
+.jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-next-disabled-vertical,
+.jcarousel-next-disabled-vertical:hover,
+.jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-vertical.png) no-repeat 0 0;
+}
+
+.jcarousel-prev-vertical:hover {
+    background-position: 0 -32px;
+}
+
+.jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-prev-disabled-vertical,
+.jcarousel-prev-disabled-vertical:hover,
+.jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}

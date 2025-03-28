@@ -1,0 +1,231 @@
+﻿html {
+    background: url('/images/background_2X.jpg') no-repeat top center fixed #071724;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    width: 1027px;
+    background-color: black;
+    position: relative;
+}
+
+#corner-tl, #corner-tr, #corner-bl, #corner-br {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+}
+
+#corner-tl {
+    top: -19px;
+    left: -19px;
+}
+
+#corner-tr {
+    top: -19px;
+    right: -19px;
+}
+
+#corner-bl {
+    bottom: -19px;
+    left: -19px;
+}
+
+#corner-br {
+    bottom: -19px;
+    right: -19px;
+}
+
+#frame-l, #frame-r {
+    bottom: 0px;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 19px;
+}
+
+#frame-l {
+    left: -19px;
+}
+
+#frame-r {
+    right: -19px;
+}
+
+#frame-t, #frame-b {
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 19px;
+    width: 100%;
+}
+
+#frame-t {
+    top: -19px;
+}
+
+#frame-b {
+    bottom: -19px;
+}
+
+#top {
+    position: relative;
+}
+
+
+
+
+#buttonIPAD {
+    position: absolute;
+    bottom: 115px;
+    left: 115px;
+}
+
+#buttonIPHONE {
+    position: absolute;
+    bottom: 114px;
+    left: 276px;
+    margin-top: 0px;
+}
+
+#buttonAndroid {
+    position: absolute;
+    bottom: 114px;
+    right: 432px;
+}
+
+#buttonWIN {
+    position: absolute;
+    bottom: 114px;
+    right: 271px;
+}
+
+#buttonBlackberry {
+    position: absolute;
+    bottom: 114px;
+    right: 111px;
+}
+
+
+#labelIPad {
+    position: absolute;
+    bottom: 95px;
+    left: 135px;
+}
+
+#labelIPhone {
+    position: absolute;
+    bottom: 95px;
+    left: 319px;
+}
+
+#labelAndroid {
+    position: absolute;
+    bottom: 95px;
+    left: 476px;
+}
+
+#labelWin {
+    position: absolute;
+    bottom: 95px;
+    left: 624px;
+    margin-top: 5px;
+}
+
+#labelBlackberry {
+    position: absolute;
+    bottom: 91px;
+    left: 782px;
+    margin-top: 5px;
+}
+
+
+#abuttonWIN {
+    z-index: 2;
+    display: block;
+    width: 159px;
+    height: 158px;
+    background: url('/images/buttons3.png') no-repeat top left;
+}
+
+#abuttonWIN:hover {
+    background: url('/images/buttons3.png') no-repeat -159px 0px;
+}
+
+#abuttonIPAD {
+    z-index: 2;
+    display: block;
+    width: 159px;
+    height: 158px;
+    background: url('/images/buttons1.png') no-repeat top left;
+}
+
+#abuttonIPAD:hover {
+    background: url('/images/buttons1.png') no-repeat -159px 0px;
+}
+
+#abuttonIPHONE {
+    z-index: 2;
+    display: block;
+    width: 159px;
+    height: 158px;
+    background: url('/images/buttons2.png') no-repeat top left;
+}
+
+#abuttonIPHONE:hover {
+    background: url('/images/buttons2.png') no-repeat -159px 0px;
+}
+
+
+#abuttonAndroid {
+    z-index: 2;
+    display: block;
+    width: 159px;
+    height: 158px;
+    background: url('/images/buttons7.png') no-repeat top left;
+}
+
+#abuttonAndroid:hover {
+    background: url('/images/buttons7.png') no-repeat -159px 0px;
+}
+
+#abuttonBlackberry {
+    z-index: 2;
+    display: block;
+    width: 159px;
+    height: 158px;
+    background: url('/images/buttons8.png') no-repeat top left;
+}
+
+#abuttonBlackberry:hover {
+    background: url('/images/buttons8.png') no-repeat -159px 0px;
+}
+
+img {
+    border: none;
+}
+
+#imgFullVersion {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    bottom: 35px;
+    left: 385px;
+}
+
+#video {
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    padding-bottom: 100px;
+}

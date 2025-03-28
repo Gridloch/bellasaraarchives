@@ -1,0 +1,106 @@
+#tabs {
+    padding-left: 10px;
+    float: left;
+    width: 990px;
+    /*    font-size:*/
+    font-weight: bold;
+/*    font-size: 32px;*/
+    line-height: normal;
+    border-bottom: 1px solid #9325aa;
+    /*    margin-bottom: 1em; *//*margin between menu and rest of page*/
+    overflow: hidden;
+    position: absolute; 
+    bottom: 0;
+}
+
+#tabs a:visited, #tabs a:link, #tabs a.hover {
+   font-size: 14px; 
+}
+
+#tabs ul {
+    margin:0;
+    padding:10px 10px 0 0px;
+    list-style:none;
+
+}
+
+#tabs li {
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+#tabs a {
+    float:left;
+    background:url("../../images/header/left.png") no-repeat left top;
+    margin:0;
+    padding:0 0 0 6px;
+    text-decoration:none;
+}
+
+#tabs a span {
+    float:left;
+    display:block;
+    background:url("../../images/header/right.png") no-repeat right top;
+    padding:6px 15px 4px 6px;
+    margin-right:2px;
+    color:#FFF;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+}
+
+#tabs a:hover {
+    background-position:0% -42px;
+}
+
+#tabs a:hover span {
+    background-position:100% -42px;
+}
+
+
+
+#header div.login {
+    position: absolute;
+    top: 10px;
+    left: 770px;
+    text-align: right;    
+}
+
+#header div.login p {
+    padding: 0;
+    margin: 0;
+}
+
+#header div.membre_info {
+    position: absolute;
+    top: 10px;
+    left: 670px;
+    text-align: right;
+    width: 320px;    
+/*    opacity : 0.8;
+    filter : alpha(opacity=80);  */
+/*    border: 1px solid #3C7AB4;*/
+/*    background: #6EAFD0 url(../../images/block/background.gif) left;*/
+}
+
+#header div.membre_info div.login_avatar {
+    float: right;
+    width: 106px;
+}
+
+#header div.membre_info div.login_avatar img {
+    margin: 5px;
+}
+
+#header div.membre_info div.login_info {
+    float: right;
+}
+
+#header div.membre_info div.login_info, #header div.membre_info div.login_info a, #form-login p a {
+    color: white;
+}

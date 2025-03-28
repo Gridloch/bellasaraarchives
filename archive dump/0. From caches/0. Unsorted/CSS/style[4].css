@@ -1,0 +1,72 @@
+/**
+* Feuille de Style de la rubrique Pub
+* 
+* MagicCorporation WebSystem v6.0
+* Gestionnaire de Contenu pour site Internet
+* 
+* @package      MC6
+* @subpackage   index
+* @author       Jean-Christophe Taisne <amonra@magiccorporation.com>
+* @link         http://mc6.magiccorporation.com 
+* @copyright    2000-2009 MagicCorporation
+* @version      6.0 $Id: style.css 1898 2012-11-04 18:17:52Z amonra $
+*/
+
+.block_pub_468x60 {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+.pub_boutique .block_content {
+    height: 220px;
+    padding: 0;
+    text-align: center;
+/*    background: none;*/
+}
+
+.pub_boutique .block_content .produit {
+    float: left;
+    width: 195px;
+    padding-top: 5px;     
+    padding-bottom: 5px;
+}
+
+.pub_boutique .block_content .produit:hover {
+    background-color: white;    
+}
+
+.pub_boutique .block_content .produit .image {
+    height: 145px;
+    width: 160px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-left: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.pub_boutique .block_content .produit .image img {
+    max-height: 130px;    
+    max-width: 150px;    
+}
+
+.pub_boutique .block_content .produit .nom {
+    text-align: center;
+    height: 30px;
+}
+
+.pub_boutique .block_content .produit .nom a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pub_boutique .block_content .produit .prix {
+    color: green;
+    font-size: 18px;
+/*    font-weight: bold;*/
+    text-align: center;
+}

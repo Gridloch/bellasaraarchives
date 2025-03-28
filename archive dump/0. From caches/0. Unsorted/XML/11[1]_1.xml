@@ -1,0 +1,8 @@
+HTTP/1.0 200 OK
+Expires: Mon, 26 Jul 1990 05:00:00 GMT
+Content-Type: application/json
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Server: TornadoServer/0.1
+
+{"alertar": {"alerts": []}}

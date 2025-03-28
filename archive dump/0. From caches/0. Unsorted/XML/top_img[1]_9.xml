@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+	<video>
+		<path>movie/sfcm@2_avidemux.mp4</path>
+	</video>
+	<img>
+		<path>img/03.jpg</path>
+		<path>img/04.jpg</path>
+		<path>img/06.jpg</path>
+		<path>img/07.jpg</path>
+		<path>img/08.jpg</path>
+		<path>img/09.jpg</path>
+		<path>img/11.jpg</path>
+		<path>img/all.jpg</path>
+	</img>
+</xml>

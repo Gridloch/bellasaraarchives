@@ -1,0 +1,24 @@
+.Mirror .LayoutPulloutItem,
+.Mirror .BachPlayer .LayoutHItem,
+.Mirror .CPodDownloadCell .LayoutPullout div:first-child,
+.Mirror .CPodDownloadCell .LayoutPullout .Mnemonics-20
+{
+    float: right !important;
+}
+
+.Mirror .CPodDownloadCell .Mnemonics-20,
+.Mirror .CPodDownloadCell img
+{
+    filter: none;
+}
+
+.Mirror .CPodDownloadCell .LayoutPullout .Mnemonics-20
+{
+    padding-right: 30px;
+}
+
+.Mirror button.BachButton
+{
+    filter: FlipH !important;
+    -ms-filter: "FlipH" !important;
+}

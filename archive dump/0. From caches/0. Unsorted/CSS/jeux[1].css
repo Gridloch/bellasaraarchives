@@ -1,0 +1,174 @@
+/* LES JEUX */
+#contenu .top {
+display:block;
+width:291px;
+/*height:342px;*/
+margin-bottom: 20px;
+}
+
+/* ENTETE */
+.top .entete {
+display:block;
+width:264px;
+height:33px;
+background: transparent url('../images/charte/jeux/top-entete.png') top left no-repeat;
+padding-left:27px;
+}
+
+/* LIGNE */
+.top .ligne {
+margin-left:16px;
+display:block;
+width:272px;
+padding-left:1px;
+padding-top:6px;
+/*background: #FFF url('../images/charte/jeux/top-degrader.gif') repeat-x;*/
+background-color: #FFFFFF;
+border-left:1px solid #d8d8d8;
+border-right:1px solid #fff;
+height:57px;
+}
+
+#colonneGauche{
+	float: left;
+	padding-left: 80px;
+	width: 350px;
+	height: auto;
+}
+
+#colonneDroite{
+	float: left;
+	width : 300px;
+}
+
+.is_authenticated{
+	padding-top: 15px;
+}
+
+#mes-jeux-favoris{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* DETAILS */
+.top .ligne .bulle{
+display:block;
+width:19px;
+height:25px;
+padding-left:9px;
+padding-top:4px;
+color:#FFF;
+font-weight:bold;
+float:left;
+position:relative;
+font-size:13px;
+left:-18px;
+}
+
+.top .ligne .bulle.rouge{
+background: transparent url('../images/charte/jeux/bulle-rouge.png') top left no-repeat;
+}
+
+.top .ligne .bulle.verte{
+background: transparent url('../images/charte/jeux/bulle-verte.png') top left no-repeat;
+}
+
+.top .ligne .avatar, .top .ligne .illustration{
+display:block;
+float:left;
+width:68px;
+height:41px;
+padding-right:15px;
+margin-left:-12px;
+}
+
+.top .ligne .avatar img, .top .ligne .illustration img{
+border:1px solid #e5e5e5;
+border-right:0;
+border-bottom:0;
+height:45px;
+}
+
+.top .ligne .pseudo, .top .ligne .libelle{
+/*list-style-image:url(../images/charte/atelier/puce.png);
+list-style-position:inside;*/
+font-weight:bold;
+font-size:12px;
+background: url("../images/charte/atelier/puce.png") no-repeat scroll 100px 2px transparent;
+list-style: none outside none;
+}
+.libelle li{
+	padding-left: 114px;
+}
+.top .ligne .pseudo.vert, .top .ligne .libelle.vert,
+.top .ligne a{
+color: #43bf90;
+text-decoration: none;
+}
+
+.top .ligne .libelle.rouge, .top .ligne .pseudo.rouge{
+color: #e64415;
+}
+
+/** NOTE **/
+.top .ligne .note{
+list-style-type:none;
+float:left;
+padding-left:14px;
+}
+.top .ligne .note li{
+float:left;
+}
+
+.top .ligne .score{
+color: #0099cc;
+font-size:12px;
+font-weight:bold;
+padding-left:19px;
+}
+
+.top .last {
+background: none;
+background-color: #FFF;
+}
+
+/* PIED */
+.top .pied {
+display:block;
+width:291px;
+height:37px;
+background: transparent url('../images/charte/jeux/top-pied.png') top left no-repeat;
+}
+
+/**
+ * Iframe
+ */
+ 
+iframe{
+border:0;
+height: 1150px;
+background: none;
+background-color: transparent;
+allowTransparency: true; 
+}
+
+#popin_overlay {
+	display:none;
+	background-color: #000;
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+}
+
+#popin {
+width: 711px;
+}
+
+#popin_iframe {
+display:none;
+position:absolute;
+width:711px;
+z-index:3;
+height: 100%;
+}

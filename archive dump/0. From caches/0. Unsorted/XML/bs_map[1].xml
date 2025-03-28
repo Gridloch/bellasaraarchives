@@ -1,0 +1,151 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<bs_map>
+	<!-- ======================================================================================================================================================= -->
+	<bg_music src="../audio/map.mp3" />
+	<!-- ======================================================================================================================================================= -->
+	<help>
+		<balloon _x="520" _y="90">
+			<arrow _x="160" _y="40" _width="20" _height="100" _rotation="110" />
+			<arrow _x="6" _y="60" _width="10" _height="40" _rotation="200" />
+			<label _x="0" _y="0" _width="150" selectable="0"><![CDATA[<p class="help_balloon">Clique pour visiter les lieux du monde de BELLA SARA.</p>]]></label>			
+		</balloon>
+
+		<balloon _x="680" _y="370">
+			<arrow _x="150" _y="35" _width="20" _height="60" _rotation="140" />
+			<label _x="0" _y="0" _width="150" selectable="0"><![CDATA[<p class="help_balloon">ACTIVER/DÉSACTIVER la musique.</p>]]></label>			
+		</balloon>		
+	</help>	
+	<!-- ======================================================================================================================================================= -->
+	<locations>
+		<!-- ---------------------------------------------------------------------------------------------- -->
+		<location _x="0" _y="0">
+			<scroll floatUp="0">
+				<label selectable='0' wordWrap="false"><![CDATA[<p class="location_label">Arbre du Monde</p>]]></label>	
+			</scroll>
+      <menu itemSpacing="0" _x="75" _y="-120" floatDown="-10">
+        <item link="/artstudio.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Studio des Artistes</p>]]></label>
+        </item>
+        <item link="/beautybox_load.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Salon de beauté Bella</p>]]></label>
+        </item>  
+        <item link="/Bellapedia.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Bellapedia</p>]]></label>
+        </item>
+        <item link="/flashloader.aspx?flash=quizgame&ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Quiz de Bello</p>]]></label>
+        </item>
+        <item link="/flashloader.aspx?flash=anatomygame&ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Test de connaissances de Santo</p>]]></label>
+        </item>
+        <item link="/flashloader.aspx?flash=memorygame&ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Jeu de Yin & Yang</p>]]></label>
+        </item>
+			</menu>
+		</location>
+		<!-- ---------------------------------------------------------------------------------------------- -->
+		<location _x="0" _y="0">
+			<scroll floatUp="0">
+				<label selectable='0' wordWrap="false"><![CDATA[<p class="location_label">Piste</p>]]></label>	
+			</scroll>
+      <menu itemSpacing="0" _x="35" _y="-80" floatRight="10">
+        <item link="/citrustacked.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Citrustacked</p>]]></label>
+        </item>
+        <item link="/trailblazer.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Trailblazer</p>]]></label>
+        </item>
+				<item link="/jumpinggame.aspx?ref=worldnav&lcid=fr">
+					<label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Le Jeu des Sauts Extraordinaires</p>]]></label>	
+				</item>
+				<item link="/lanceriding.aspx?ref=worldnav&lcid=fr">
+					<label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Jeu de lance</p>]]></label>	
+				</item>
+			</menu>
+
+		</location>		
+		<!-- ---------------------------------------------------------------------------------------------- -->
+		<location _x="0" _y="0">
+			<scroll floatUp="0">
+				<label selectable='0' wordWrap="false"><![CDATA[<p class="location_label">Château</p>]]></label>	
+			</scroll>
+      <menu itemSpacing="0" _x="-215" _y="-60" floatRight="-10">
+        <!--<item link="/cloudjumper.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Cavalier des nuages</p>]]></label>
+        </item>-->
+        <item link="/dreamrider.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Dream Rider</p>]]></label>
+        </item>
+        <item link="/fireworks.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Festival de Feux d'Artifice </p>]]></label>
+        </item>
+        <item link="/bubblewand.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Jeu des bulles magiques</p>]]></label>
+        </item>		
+			</menu>
+		</location>
+		<!-- ---------------------------------------------------------------------------------------------- -->
+		<location _x="0" _y="0">
+			<scroll floatUp="0">
+				<label selectable='0' wordWrap="false"><![CDATA[<p class="location_label">Ville</p>]]></label>	
+			</scroll>
+      <menu itemSpacing="0" _x="40" _y="-30" floatRight="10">
+        <item link="/magicmatch.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Boîtes Magiques</p>]]></label>
+        </item>
+        <item link="/treasureshunt.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Chasse au Trésor</p>]]></label>
+        </item>
+        <item link="/wheelofwonder.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">La roue des merveilles</p>]]></label>
+        </item>
+			</menu>
+		</location>
+		<!-- ---------------------------------------------------------------------------------------------- -->		
+		<location _x="0" _y="0">
+			<scroll floatUp="0">
+				<label selectable='0' wordWrap="false"><![CDATA[<p class="location_label">Ranch</p>]]></label>	
+			</scroll>
+      <menu itemSpacing="0" _x="30" _y="-40" floatDown="10">
+        <item link="/cottageentry.aspx?ref=worldnav&lcid=fr">
+					<label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Mon cottage</p>]]></label>	
+				</item>
+        <item link="/myhorsestall.aspx?ref=worldnav&lcid=fr">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">My Horse</p>]]></label>
+        </item>
+        <item link="/flashloader_stablechooser.aspx?ref=worldnav&lcid=fr">
+					<label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Écurie</p>]]></label>	
+				</item>
+				<item link="/AwardsAlbum.aspx?ref=worldnav&lcid=fr">
+					<label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Salle des Trophées</p>]]></label>	
+				</item>
+			</menu>
+		</location>
+		<!-- ---------------------------------------------------------------------------------------------- -->	
+		<location _x="0" _y="0">
+			<scroll floatUp="0">
+				<label selectable='0' wordWrap="false"><![CDATA[<p class="location_label">Bazar</p>]]></label>	
+			</scroll>
+
+      <menu itemSpacing="0" _x="40" _y="-35" floatRight="10">
+        <item link="/bazaar.aspx?ref=worldnav&lcid=fr">
+					<label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Entrée</p>]]></label>
+				</item>
+			</menu>
+		</location>
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <location _x="0" _y="0">
+      <scroll floatUp="0">
+        <label selectable='0' wordWrap="false"><![CDATA[<p class="location_label">Bella Sara Adventures</p>]]></label>
+      </scroll>
+      <menu itemSpacing="0" _y="-40" _x="80" floatRight="10">
+        <item link="Adventures_Launch.aspx?ref=worldnav&amp;lcid=en">
+          <label selectable='0' wordWrap="false"><![CDATA[<p class="location_item_label">Bella Sara Adventures</p>]]></label>
+        </item>
+      </menu>
+    </location>
+    <!-- ---------------------------------------------------------------------------------------------- -->
+  </locations>
+  <!-- ======================================================================================================================================================= -->
+  <!-- ======================================================================================================================================================= -->
+</bs_map>

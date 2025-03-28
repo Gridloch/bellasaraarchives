@@ -1,0 +1,488 @@
+/*	ICON
+	$Id: //depot/projects/dylan/releases/rc_14_2/ubi/template/identity/adobe/screen/icon.css#1 $
+	@author btapley
+*/
+
+/* http://www.macedition.com/cb/ie5macbugs/substringbug.html \*//*/ @media hide { /**/
+
+.link-list .icon,
+.icon {
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-position-y: top;
+}
+
+/*\*//*/pcie/**/*\5 .icon {
+	height: 1em;
+}
+
+a.icon,
+span.icon,
+li.icon { 
+	_zoom: 100%; /*---Icons tend to disappear when negative margin is invovled. This fix has the unfortunate consequence of creating a 'pullout' appearence in some elements---*/
+}
+
+a.icon:not([className~=icon]),
+span.icon:not([className~=icon]) {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+li.icon,
+p.icon { /*--- adding definitions on these elements for completeness and backwards compatibility -- unsafe to continue using ---*/ 
+	background-position: left top; }
+	
+.icon-20 { 
+	padding: 0 0 0 24px !important; 
+	min-height: 20px; 
+	_height: 20px;
+	display: block;
+}
+
+li > span.icon-20,
+li > a.icon-20 { 
+	line-height: 1.6em;
+}
+
+.icon-36 { 
+	padding: 0 0 0 40px !important; 	
+	display: block;
+	background-position: left top;
+	min-height: 36px; 
+	_height: 36px;
+}
+
+li > span.icon-36,
+li > a.icon-36 { 
+	line-height: 1.6em;
+}
+
+button.icon-replace {	
+	-moz-outline: none;
+	padding: 0;
+	border-style: none;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*	ICON REPLACE
+	@author bapley
+*/
+.icon-replace {
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline; /*--- really old? ---*/
+	display: inline-block; /*--- modern ---*/
+	display: -moz-inline-box; /*--- mozilla ---*/
+	_display: inline; /*--- IE doesnt support inline-block for natural block elements like <li> ---*/
+	zoom: 100%; /*--- turn on IE Layout Mode ---*/
+	width: 24px; /*--- set a default ---*/
+	padding: 0 !important; /*--- padding changes width in some browsers ---*/
+	overflow: hidden; /*--- make a viewport ---*/
+	white-space: nowrap; /*--- make text one long string ---*/
+	text-align: left; /*--- align text to one edge of our viewport ---*/
+	word-spacing: -2ex; /*--- collapse text, To-do: can words be spaced wider than 2 'X's ? ---*/
+	letter-spacing: -2ex; /*--- collapse text, To-do: are there any letters wider than 2 'X's ? ---*/
+	min-height: 16px; /*--- in case we inherit some funky line-height, make sure our window is tall enough to fit our icon ---*/
+	_height: 16px; /*--- min-height for IE below 7 ---*/
+	color: transparent !important; /*--- insurance ---*/
+	font-size /*\**/: 0\9; /*--- and a hack for IE 8 standards mode ---*/
+	/*--- oh well, Nothing ever works right in IE ---*/
+	_font: 1px/0 monospace; 
+	_word-spacing: -2px;
+	_letter-spacing: -2px;
+}
+
+button.icon-replace,
+th.icon-replace,
+td.icon-replace {
+	_color: #FFF;
+}
+
+button[className~=icon-replace],
+th[className~=icon-replace],
+td[className~=icon-replace] {
+	color: #FFF;
+}
+
+[className~=icon-replace] {
+	font: 1px/0 monospace !important;
+	word-spacing: -2px;
+	letter-spacing: -2px;
+}
+
+a.icon-replace {
+	vertical-align: bottom;
+}
+
+th.icon-replace,
+td.icon-replace {
+	display: table-cell;
+	background-position: center center;
+	width: auto;
+}
+
+@media screen and (-op-browser) {
+	a.icon-replace,
+	span.icon-replace {
+		text-indent: 100%;	
+	}
+	
+	th.icon-replace,
+	td.icon-replace {
+		letter-spacing: normal; /*--- Opera explodes tables if no text is visible ---*/
+	}
+	
+	th.icon-replace:before,
+	td.icon-replace:before {
+		content:"\0020"; /*--- Put in a whitespace 'node' ---*/
+		margin-left: -100%;  /*--- bye bye text ---*/
+	}
+}
+
+/*	ZERO
+	@author jsutton
+*/
+.zero
+{
+	position: relative;
+	line-height: 0px;
+	font-size: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*	ICONLIST
+*/
+#iconlist-downloads p {
+	padding-left: 20px;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+#iconlist-downloads h3 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#iconlist-downloads .icon-22 {
+	display: block !important;
+	min-height: 23px;
+	padding: 10px 0 4px 42px !important;
+	font-size: 0.917em;
+	margin: -2px -12px 6px 0;
+	margin-left: -8px;
+	_padding-bottom: 6px;
+	position: relative;
+	left: -12px;
+	background-position: 12px center;	
+}
+
+#iconlist-downloads .icon-22:hover { background-color: #CBCBCB; }
+
+.iconlist-reader { 
+	background-image: url(icon/CPod-Reader-dark.png); 
+}
+
+.iconlist-flashplayer { 
+	background-image: url(icon/CPod-FlashPlayer-dark.png); 
+}
+
+.iconlist-air { 
+	background-image: url(icon/CPod-Air-dark.png); 
+}
+
+.iconlist-shockwaveplayer { 
+	background-image: url(icon/CPod-Shockwave-dark.png); 
+}
+
+
+/*	IMAGES
+*/
+
+/*--- actions ---*/
+.add { background-image: url(icon/add.gif) }
+
+.alert { background-image: url(icon/alert.gif) }
+
+.blog { background-image: url(icon/blog.gif) }
+
+.buy { background-image: url(icon/buy.gif) }
+
+.call { background-image: url(icon/call.gif) }
+
+.checkout { background-image: url(icon/secure.gif) }
+
+.contact { background-image: url(icon/email.gif) }
+
+.delete { background-image: url(icon/delete.gif) }
+
+.download { background-image: url(icon/downloadFile.gif) }
+
+.edit { background-image: url(icon/edit.gif) }
+
+.email { background-image: url(icon/email.gif) }
+
+.enroll { background-image: url(icon/enroll.gif) }
+
+.facebook { background-image: url(icon/facebook.png) }
+
+.flickr { background-image: url(icon/flickr.gif) }
+
+.help { background-image: url(icon/help.gif) }
+
+.info { background-image: url(icon/info.gif) }
+
+.launch { background-image: url(icon/launch.gif) }
+
+.listen { background-image: url(icon/listen.gif) }
+
+.locked { background-image: url(icon/secure.gif) }
+
+.nav-up { background-image: url(icon/ascend.gif) }
+
+.play { background-image: url(icon/play.gif) }
+
+.print { background-image: url(icon/print.gif) }
+
+.search { background-image: url(icon/search.gif) }
+
+.subtract { background-image: url(icon/subtract.gif) }
+
+.timesaver { background-image: url(icon/timesaver.gif) }
+
+.try { background-image: url(icon/try.gif) }
+
+.twitter { background-image: url(icon/twitter.png) }
+
+.upgrade { background-image: url(icon/upgrade.gif) }
+
+/*--- files ---*/
+.breeze-file { background-image: url(icon/breeze.gif) }
+
+.captivate-file { background-image: url(icon/captivate.gif) }
+
+.connect-file { background-image: url(icon/launch.gif) }
+
+.pdf-file { background-image: url(icon/pdf.gif) }
+
+.quicktime-file { background-image: url(icon/quicktime.gif) }
+
+.rss-file { background-image: url(icon/rss.gif) }
+
+.shockwave-file { background-image: url(icon/shockwave.gif) }
+
+.swf-file { background-image: url(icon/flash.gif) }
+
+/*--- mnemonics ---*/
+.mnemonic-acrobatconnect { background-image: url(/images/shared/product_mnemonics/20x20/acrobat_connect_20x20.jpg) }
+
+.mnemonic-acrobat { background-image: url(/images/shared/product_mnemonics/20x20/acrobat_20x20.png) }
+
+.mnemonic-acrobatcapture { background-image: url(/images/shared/product_mnemonics/20x20/acrobat_capture_20x20.jpg) }
+
+.mnemonic-acrobatcom { background-image: url(/images/shared/product_mnemonics/20x20/acrobatcom_20x20.png) }
+
+.mnemonic-adc { background-image: url(/images/shared/product_mnemonics/20x20/developer_connection_20x20.gif) }
+
+.mnemonic-adobestory { background-image: url(/images/shared/product_mnemonics/20x20/adobe_story_20x20.png) }
+
+.mnemonic-aftereffects { background-image: url(/images/shared/product_mnemonics/20x20/after_effects_20x20.png) }
+
+.mnemonic-air { background-image: url(/images/shared/product_mnemonics/20x20/air_20x20.png) }
+
+.mnemonic-amp { background-image: url(/images/shared/product_mnemonics/20x20/amp_20x20.jpg) }
+
+.mnemonic-audition { background-image: url(/images/shared/product_mnemonics/20x20/audition_20x20.jpg) }
+
+.mnemonic-authorware { background-image: url(/images/shared/product_mnemonics/20x20/authorware_20x20.jpg) }
+
+.mnemonic-bridge { background-image: url(/images/shared/product_mnemonics/20x20/bridge_20x20.png) }
+
+.mnemonic-browserlab { background-image: url(/images/shared/product_mnemonics/20x20/browserlab_20x20.png) }
+
+.mnemonic-captivate { background-image: url(/images/shared/product_mnemonics/20x20/captivate_20x20.png) }
+
+.mnemonic-central { background-image: url(/images/shared/product_mnemonics/20x20/central_20x20.jpg) }
+
+.mnemonic-coldfusion { background-image: url(/images/shared/product_mnemonics/20x20/coldfusion_20x20.png) }
+
+.mnemonic-contentserver { background-image: url(/images/shared/product_mnemonics/20x20/content_server_20x20.jpg) }
+
+.mnemonic-contribute { background-image: url(/images/shared/product_mnemonics/20x20/contribute_20x20.png) }
+
+.mnemonic-creativesuite { background-image: url(/images/shared/product_mnemonics/20x20/creativesuite_20x20.jpg) }
+
+.mnemonic-csreview { background-image: url(/images/shared/product_mnemonics/20x20/csreview_20x20.png) }
+
+.mnemonic-designpremium { background-image: url(/images/shared/product_mnemonics/20x20/design_premium_20x20.png) }
+
+.mnemonic-designstandard { background-image: url(/images/shared/product_mnemonics/20x20/design_standard_20x20.png) }
+
+.mnemonic-devicecentral { background-image: url(/images/shared/product_mnemonics/20x20/device_central_20x20.png) }
+
+.mnemonic-digitaleditions { background-image: url(/images/shared/product_mnemonics/20x20/digitaleditions_20x20.jpg) }
+
+.mnemonic-director { background-image: url(/images/shared/product_mnemonics/20x20/director_20x20.jpg) }
+
+.mnemonic-distillerserver { background-image: url(/images/shared/product_mnemonics/20x20/distiller_20x20.jpg) }
+
+.mnemonic-dreamweaver { background-image: url(/images/shared/product_mnemonics/20x20/dreamweaver_20x20.png) }
+
+.mnemonic-encore { background-image: url(/images/shared/product_mnemonics/20x20/encore_20x20.png) }
+
+.mnemonic-extensionmanager { background-image: url(/images/shared/product_mnemonics/20x20/extension_manager_20x20.jpg) }
+
+.mnemonic-fireworks { background-image: url(/images/shared/product_mnemonics/20x20/fireworks_20x20.png) }
+
+.mnemonic-flash { background-image: url(/images/shared/product_mnemonics/20x20/flash_20x20.png) }
+
+.mnemonic-flashbuilder { background-image: url(/images/shared/product_mnemonics/20x20/flash_builder_20x20.png) }
+
+.mnemonic-flashcatalyst { background-image: url(/images/shared/product_mnemonics/20x20/flash_catalyst_20x20.png) }
+
+.mnemonic-flashlite { background-image: url(/images/shared/product_mnemonics/20x20/flash_lite_20x20.jpg) }
+
+.mnemonic-flashmediaencoder { background-image: url(/images/shared/product_mnemonics/20x20/media_encoder_20x20.jpg) }
+
+.mnemonic-flashmedialive { background-image: url(/images/shared/product_mnemonics/20x20/flash_media_live_20x20.png) }
+
+.mnemonic-flashmediaserver { background-image: url(/images/shared/product_mnemonics/20x20/flashmediaserver_20x20.jpg) }
+
+.mnemonic-flashpaper { background-image: url(/images/shared/product_mnemonics/20x20/flashpaper_20x20.jpg) }
+
+.mnemonic-flashplayer { background-image: url(/images/shared/product_mnemonics/20x20/flash_player_20x20.png) }
+
+.mnemonic-flex { background-image: url(/images/shared/product_mnemonics/20x20/flex_20x20.png) }
+
+.mnemonic-fontfolio { background-image: url(/images/shared/product_mnemonics/20x20/fontfolio_20x20.jpg) }
+
+.mnemonic-framemaker { background-image: url(/images/shared/product_mnemonics/20x20/framemaker_20x20.jpg) }
+
+.mnemonic-freehand { background-image: url(/images/shared/product_mnemonics/20x20/freehand_20x20.jpg) }
+
+.mnemonic-golive { background-image: url(/images/shared/product_mnemonics/20x20/golive_20x20.jpg) }
+
+.mnemonic-homesite { background-image: url(/images/shared/product_mnemonics/20x20/homesite_20x20.jpg) }
+
+.mnemonic-illustrator { background-image: url(/images/shared/product_mnemonics/20x20/illustrator_20x20.png) }
+
+.mnemonic-incopy { background-image: url(/images/shared/product_mnemonics/20x20/incopy_20x20.png) }
+
+.mnemonic-indesign { background-image: url(/images/shared/product_mnemonics/20x20/indesign_20x20.png) }
+
+.mnemonic-indesignserver { background-image: url(/images/shared/product_mnemonics/20x20/indesign_server_20x20.png) }
+
+.mnemonic-jrun { background-image: url(/images/shared/product_mnemonics/20x20/jrun_20x20.jpg) }
+
+.mnemonic-licensemanager { background-image: url(/images/shared/product_mnemonics/20x20/licensemanager_20x20.jpg) }
+
+.mnemonic-lightroom { background-image: url(/images/shared/product_mnemonics/20x20/lightroom_20x20.png) }
+
+.mnemonic-livecycle { background-image: url(/images/shared/product_mnemonics/20x20/livecycle_20x20.jpg) }
+
+.mnemonic-mastercollection { background-image: url(/images/shared/product_mnemonics/20x20/master_collection_20x20.png) }
+
+.mnemonic-onlocation { background-image: url(/images/shared/product_mnemonics/20x20/onlocation_20x20.png) }
+
+.mnemonic-pagemaker { background-image: url(/images/shared/product_mnemonics/20x20/pagemaker_20x20.jpg) }
+
+.mnemonic-photoshop { background-image: url(/images/shared/product_mnemonics/20x20/photoshop_20x20.png) }
+
+.mnemonic-photoshopelements { background-image: url(/images/shared/product_mnemonics/20x20/photoshop_elements_20x20.jpg) }
+
+.mnemonic-photoshopexpress { background-image: url(/images/shared/product_mnemonics/20x20/photoshop_express_20x20.jpg) }
+
+.mnemonic-postscript { background-image: url(/images/shared/product_mnemonics/20x20/postscript_20x20.jpg) }
+
+.mnemonic-premiere { background-image: url(/images/shared/product_mnemonics/20x20/premiere_pro_20x20.png) }
+
+.mnemonic-premiereelements { background-image: url(/images/shared/product_mnemonics/20x20/premiere_elements_20x20.jpg) }
+
+.mnemonic-premiereexpress { background-image: url(/images/shared/product_mnemonics/20x20/premiere_express_20x20.jpg) }
+
+.mnemonic-presenter { background-image: url(/images/shared/product_mnemonics/20x20/presenter_20x20.jpg) }
+
+.mnemonic-productionstudio { background-image: url(/images/shared/product_mnemonics/20x20/productionstudio_20x20.jpg) }
+
+.mnemonic-productionpremium { background-image: url(/images/shared/product_mnemonics/20x20/production_premium_20x20.png) }
+
+.mnemonic-reader { background-image: url(/images/shared/product_mnemonics/20x20/acrobat_reader_20x20.jpg) }
+
+.mnemonic-robohelp { background-image: url(/images/shared/product_mnemonics/20x20/robohelp_20x20.jpg) }
+
+.mnemonic-roboinfo { background-image: url(/images/shared/product_mnemonics/20x20/roboinfo_20x20.jpg) }
+
+.mnemonic-scene7 { background-image: url(/images/shared/product_mnemonics/20x20/scene7_20x20.jpg) }
+
+.mnemonic-shockwaveplayer { background-image: url(/images/shared/product_mnemonics/20x20/shockwave_player_20x20.png) }
+
+.mnemonic-sitecatalyst { background-image: url(/images/shared/product_mnemonics/20x20/sitecatalyst_netaverages_20x20.png) }
+
+.mnemonic-soundbooth { background-image: url(/images/shared/product_mnemonics/20x20/soundbooth_20x20.png) }
+
+.mnemonic-stockphotos { background-image: url(/images/shared/product_mnemonics/20x20/stockphoto_20x20.jpg) }
+
+.mnemonic-techcommsuite { background-image: url(/images/shared/product_mnemonics/20x20/techcommsuite_20x20.jpg) }
+
+.mnemonic-ultra { background-image: url(/images/shared/product_mnemonics/20x20/ultra_20x20.jpg) }
+
+.mnemonic-versioncue { background-image: url(/images/shared/product_mnemonics/20x20/version_cue_20x20.jpg) }
+
+.mnemonic-visualcommunicator { background-image: url(/images/shared/product_mnemonics/20x20/visual_communicator_20x20.jpg) }
+
+.mnemonic-webpremium { background-image: url(/images/shared/product_mnemonics/20x20/web_premium_20x20.png) }
+
+.mnemonic-webstandard { background-image: url(/images/shared/product_mnemonics/20x20/web_standard_20x20.jpg) }
+
+/*--- chat states ---*/
+.chat-available { background-image: url(icon/chat_available.png) }
+
+.chat-unavailable { background-image: url(icon/chat_unavailable.png) }
+
+.chat-busy { background-image: url(icon/chat_busy.png) }
+
+/*--- store promos ---*/
+.store-sale { background-image: url(/images/store/icons/sale_36.gif) }
+
+.store-rebate { background-image: url(/images/store/icons/mail_rebate_36.gif) }
+
+.store-shipping { background-image: url(/images/store/icons/shipping_36.gif) }
+
+.store-gift { background-image: url(/images/store/icons/gift_36.gif) }
+
+.store-starburst { background-image: url(/images/store/icons/star_34x34.gif) }
+
+.store-giftbox { background-image: url(/images/store/icons/gift_34x34.gif) }
+
+/* --- CLOSER LOOK / VIDEO-PLAY ---*/
+.closer-look,
+.video-play { position: relative; display: inline-block; _padding-top: 8px;  }
+
+.closer-look a span,
+.video-play a span {
+	position: absolute;
+	top: -5px;
+	_top: 0;
+	right: -5px;
+	_right: -2px;
+	height: 25px;
+	width: 25px;
+}
+
+.closer-look a span {
+	background: transparent url(/ubi/template/identity/adobe/screen/icon/modal.png) 0 0 no-repeat;
+	_background-image: url(/ubi/template/identity/adobe/screen/icon/modal.gif);	
+}
+
+.video-play span {
+	background: transparent url(/ubi/template/identity/adobe/screen/icon/video_play.png) 0 0 no-repeat;
+	_background-image: url(/ubi/template/identity/adobe/screen/icon/video_play.gif);
+}
+
+.closer-look a:hover span,
+.video-play a:hover span { background-position: -25px 0; }
+
+/*\*//*/}/**/

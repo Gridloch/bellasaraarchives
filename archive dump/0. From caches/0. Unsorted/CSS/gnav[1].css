@@ -1,0 +1,885 @@
+/*	GLOBAL NAV
+	$Id: //depot/projects/dylan/releases/rc_14_2/ubi/template/identity/adobe/screen/gnav.css#1 $
+*/
+
+/* Desktop version of global nav */
+
+.SiteHeader * {
+    z-index: inherit;  /* Make sure IE drops the header in front of other elements */
+}
+
+.SiteHeader {
+    position: relative;
+    margin: 0 0 11px;
+    line-height: 1.17em;
+    min-width: 935px;
+    color: #333;
+    zoom: 1;
+    z-index: 999;
+    text-rendering: auto;
+}
+
+.SiteHeader hr {
+	border: none;
+	border-top: 1px solid #D9D9D9;
+    margin: 10px 12px;
+    *margin: 0 12px;
+	*width: 100%;
+	height: 1px;
+}
+
+.SiteHeaderHome,
+.SiteHeaderInfo,
+.SiteHeaderSearchButton {
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.SiteHeaderHome {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 64px;
+    width: 39px;
+    display: block;
+    background: #F00 url(SiteHeader/logo.png) no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	.SiteHeaderHome {
+		background-image: url(SiteHeader/logo-2x.png);
+		background-size: 39px 64px;
+	}
+}
+
+.SiteHeaderBar {
+    padding-left: 39px;
+    line-height: 39px;
+    background: #424242 none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#505050), to(#343434));
+    background: -moz-linear-gradient(top, #505050, #343434);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF505050, endColorstr=#FF343434);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF505050, endColorstr=#FF343434)";
+    background: -ms-linear-gradient(top, #505050, #343434);
+    background: -o-linear-gradient(top, #505050, #343434);
+}
+
+.SiteHeaderBarItemHover,
+.SiteHeaderBarItem:hover {
+    border-left: 1px solid #515151;
+    background: #535252 none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#737272), to(#555454));
+    background: -moz-linear-gradient(top, #737272, #555454);
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF6a6a6a, endColorstr=#FF414141);
+     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF6a6a6a, endColorstr=#FF414141)"; */
+    background: -ms-linear-gradient(top, #737272, #555454);
+    background: -o-linear-gradient(top, #737272, #555454);
+}
+
+.SiteHeaderBarItemActive,
+.SiteHeaderBarItem:active {
+    margin-left: 0;
+    margin-right: 0;
+    border-left: 1px solid #343434;
+    background: #343434 none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2d2d2d), to(#343434));
+    background: -moz-linear-gradient(top, #2d2d2d, #343434);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF2d2d2d, endColorstr=#FF343434);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF2d2d2d, endColorstr=#FF343434)";
+    background: -ms-linear-gradient(top, #2d2d2d, #343434);
+    background: -o-linear-gradient(top, #2d2d2d, #343434);
+}
+
+.SiteHeaderBarItemHover,
+.SiteHeaderBarItem:hover,
+.SiteHeaderBarItemFocus,
+.SiteHeaderBarItem:focus,
+.SiteHeaderBarItem.SiteHeaderBarItemFocus:active {
+    position: relative;
+    border-left: 1px solid #515151;
+    background: #535252 none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#737272), to(#555454));
+    background: -moz-linear-gradient(top, #737272, #555454);
+    background: -ms-linear-gradient(top, #737272, #555454);
+    background: -o-linear-gradient(top, #737272, #555454);
+}
+
+.SiteHeaderBar,
+.SiteHeaderUser {
+    _height: 1em;
+    zoom: 1;
+}
+
+.SiteHeaderBar:after,
+.SiteHeaderUser:after {
+    clear: both;
+    content: "\0020";
+    height: 0;
+    display: block;
+}
+
+.SiteHeaderBarItem {
+    position: relative;
+    float: left;
+    border-left: 1px solid #4C4C4C;
+    border-right: 1px solid #000;
+    margin: 0;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.SiteHeaderBarLink {
+    padding: 1px 14px 0;
+}
+
+.SiteHeaderBarItemFocus {
+    z-index: 1002;
+}
+
+.SiteHeaderBarItemFirst {
+    border-left: 1px solid #414141;
+}
+
+.SiteHeaderBarItemLast {
+    background: none;
+    border-right: 0;
+    padding: 1px 0 0 0;
+    width: 1px;
+}
+
+.SiteHeaderBarLink,
+a.SiteHeaderBarLink,
+a.SiteHeaderBarLink:link,
+a.SiteHeaderBarLink:visited,
+a.SiteHeaderBarLink:visited:hover,
+a.SiteHeaderBarLink:hover,
+a.SiteHeaderBarLink:active,
+a.SiteHeaderBarLink:visited:focus,
+a.SiteHeaderBarLink:focus {
+    color: #DDD !important;  /* !important needed for IE 6 */
+    text-decoration: none;
+    text-shadow:  0 -1px 0 #151515;
+    -moz-text-shadow: 0 -1px 0 #151515;
+    position: relative;
+    display: block;
+}
+
+a.SiteHeaderBarLink:visited:hover,
+a.SiteHeaderBarLink:hover,
+a.SiteHeaderBarLink:visited:focus
+a.SiteHeaderBarLink:focus {
+    color: #FFF !important;  /* !important needed for IE 6 */
+    z-index: 1002;
+}
+
+.SiteHeaderBarItemLastHover,
+.SiteHeaderBarItemLast:hover,
+.SiteHeaderBarItemLast:focus,
+.SiteHeaderBarItemLast:active {
+    background: none;
+    border-left: 1px solid #595959;
+}
+
+.SiteHeaderUser {
+    padding-top: 4px;
+    padding-right: 4px;
+    font-size: 1em;
+    z-index: 0;
+}
+
+.SiteHeaderUserItem {
+    position: relative;
+    float: right;
+    margin-left: 10px;
+    line-height: 1.67em;
+}
+
+.SiteHeaderUserItem,
+a.SiteHeaderUserItem,
+a.SiteHeaderUserItem:link,
+a.SiteHeaderUserItem:visited,
+a.SiteHeaderUserItem:active,
+.SiteHeaderUserItem a,
+.SiteHeaderUserItem a:link,
+.SiteHeaderUserItem a:visited {
+    text-decoration: none;
+    z-index: inherit;
+}
+
+a.SiteHeaderUserItem:visited:hover,
+a.SiteHeaderUserItem:hover,
+.SiteHeaderUserItem a:visited:hover,
+.SiteHeaderUserItem a:hover,
+a.SiteHeaderUserItem:focus,
+a.SiteHeaderUserItem:visited:focus,
+.SiteHeaderUserItem a:focus,
+.SiteHeaderUserItem a:visited:focus {
+    z-index: 102;
+}
+
+.SiteHeaderCart {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0 4px;
+    background-color: transparent;
+    padding-left: 16px;
+}
+
+.SiteHeaderCart,
+.SiteHeaderCart:link,
+.SiteHeaderCart:visited,
+.SiteHeaderCart:active {
+    background-image: url(SiteHeader/cart_light.png);
+}
+
+.SiteHeaderCart:visited:hover,
+.SiteHeaderCart:hover {
+    background-image: url(SiteHeader/cart_light_hover.png);
+}
+
+.SiteHeaderUserItem,
+a.SiteHeaderUserItem,
+a.SiteHeaderUserItem:link,
+a.SiteHeaderUserItem:visited,
+a.SiteHeaderUserItem:active,
+.SiteHeaderUserItem a,
+.SiteHeaderUserItem a:link,
+.SiteHeaderUserItem a:visited {
+    color: #333;
+}
+
+a.SiteHeaderUserItem:hover,
+a.SiteHeaderUserItem:visited:hover,
+.SiteHeaderUserItem a:hover,
+.SiteHeaderUserItem a:visited:hover {
+    color: #069;
+}
+
+.SiteHeaderCartInvert .SiteHeaderCart:link,
+.SiteHeaderCartInvert .SiteHeaderCart:visited,
+.SiteHeaderCartInvert .SiteHeaderCart:hover,
+.SiteHeaderCartInvert .SiteHeaderCart:visited:hover {
+    background-image: url(SiteHeader/cart_dark.png);
+}
+
+.SiteHeaderUserItemInvert .SiteHeaderUserItem {
+    text-shadow: 0 1px 3px #000;
+}
+
+.SiteHeaderUserItemInvert .SiteHeaderUserItem:link,
+.SiteHeaderUserItemInvert .SiteHeaderUserItem:visited,
+.SiteHeaderUserItemInvert .SiteHeaderUserItem:hover,
+.SiteHeaderUserItemInvert .SiteHeaderUserItem:visited:hover {
+    color: #FFF;
+}
+
+.SiteHeaderArrow {
+    background-color: transparent;
+    background-position: right 6px;
+    background-repeat: no-repeat;
+    padding-right: 14px;
+}
+
+.SiteHeaderArrow,
+.SiteHeaderArrow:link,
+.SiteHeaderArrow:visited {
+    background-image: url(SiteHeader/arrow_light.png);
+}
+
+.SiteHeaderArrow:hover,
+.SiteHeaderArrow:visited:hover {
+    background-image: url(SiteHeader/arrow_light_hover.png);
+}
+
+.SiteHeaderArrowInvert .SiteHeaderArrow,
+.SiteHeaderArrowInvert .SiteHeaderArrow:link,
+.SiteHeaderArrowInvert .SiteHeaderArrow:visited {
+    background-image: url(SiteHeader/arrow_dark.png);
+}
+
+.SiteHeaderArrowInvert .SiteHeaderArrow:hover,
+.SiteHeaderArrowInvert .SiteHeaderArrow:visited:hover {
+    background-image: url(SiteHeader/arrow_dark_hover.png);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .SiteHeaderArrow {
+        background-position: right 5px;
+    }
+}
+
+.SiteHeaderInfo {
+    background: transparent url(SiteHeader/info.png) left center no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    margin-top: 2px;
+    cursor: pointer;
+    -moz-border-radius: 7px;
+    -moz-outline-radius: 14px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+	line-height: 1.5em;
+}
+
+.SiteHeaderCartInfo {
+    width: 14px;
+    height: 14px;
+    line-height: 1.17em;
+    background: transparent url(SiteHeader/red_dot.png) left center no-repeat;
+    display: block;
+    float: right;
+	margin-left: 4px;
+	margin-top: 4px;
+	text-align: center;
+	color: #FFF;
+	_padding-top: 0;	
+	cursor: pointer;
+}
+
+.ThreeDigitQuantity {
+	font-size: 8px;
+}
+
+.SiteHeaderSearchButton {
+    width: 15px;
+    background: transparent url(SiteHeader/icon_search_mobile.png) no-repeat 50% 50%;
+}
+
+.SiteHeaderSearch {
+    float: right;
+    width: 265px;
+    height: 40px;
+}
+
+#search-submit {
+    display: none;
+}
+
+#search-input {
+    background: #F5F5F5 url(SiteHeader/search_input_icon.png) no-repeat left 50%;
+    border: 1px #000 solid;
+    padding-left: 26px;
+    width: 231px;
+    height: 20px;
+    color: #333;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin-top: 8px;
+    *margin-top: -4px;
+    _margin-top: 5px;
+}
+
+.SearchInputLabel {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden; /* Prevent any content overflow */
+    padding: 0;
+    position: absolute; /* Remove from the flow of the document */
+    width: 1px;
+}
+
+.SiteHeaderDropPanel {
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+    color: #FFF;
+    margin-top: 0;
+    margin-left: -1px;
+    padding: 0;
+    line-height: normal;
+    display: block;
+    _display: none;
+    background: #535252 none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#555454), to(#201F1F));
+    background: -moz-linear-gradient(top, #555454, #201F1F);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF555454, endColorstr=#FF201F1F);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF555454, endColorstr=#FF201F1F)";
+    background: -ms-linear-gradient(top, #555454, #201F1F);
+    background: -o-linear-gradient(top, #555454, #201F1F);
+    cursor: default;
+	box-shadow: 0 4px 6px -2px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 4px 6px -2px -moz-rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 4px 6px -2px rgba(0,0,0,.5);
+    *filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=180, Strength=4);
+}
+
+.SiteHeaderPopPanel {
+    position: absolute;
+    border-top: 1px solid #d8d8d8;
+    background-color: #FFF;
+    z-index: 100;
+    top: 100%;
+    right: 0;
+    color: #333;
+    margin: 0 1px;
+    padding: 6px 0;
+}
+
+.SiteHeaderPopPanelShadow {
+    position: absolute;
+    border: 1px solid;
+    border-top: 0;
+    border-color: #FFF #B0B0B0 #737373;
+    box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 4px 10px -moz-rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=180, Strength=4);
+    top: 100%;
+    right: 0;
+    z-index: 99;
+}
+
+.CartHeaderPopPanel {    
+    border-top: 1px solid #D8D8D8;
+    background-color: #FFF;    
+    color: #333;
+    overflow: hidden;
+}
+
+.CartHeaderPopPanelShadow {
+    position: absolute;
+    border: 1px solid;
+    border-top: 0;
+    border-color: #FFF #B0B0B0 #737373;
+    box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 4px 10px -moz-rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=180, Strength=4);
+    filter: none\9;
+    top: 100%;
+    right: 0;
+    z-index: 99999 !important;
+}
+
+#WelcomePanel {
+    _width: 180px;
+}
+
+#modalContent .CartHeaderPopPanelShadow {
+	border-bottom: 0;
+}
+
+.width-250 {
+    width: 250px;
+}
+
+.width-450 {
+    width: 450px;
+}
+
+.width-485 {
+	width: 485px;
+}
+
+.HoverCartBoxShot {
+	width: 50px;
+	position: relative;
+	clear: left;
+	float: left;
+	left: -60px;
+	margin-right: -60px;
+}
+
+.SiteHeaderPopPanel div.SiteHeaderPanelRow {
+    padding: 5px 12px;
+    position: relative;
+}
+
+.SiteHeaderPopPanel div.SiteHeaderPanelRow a.SiteHeaderPanelHeader {
+    position: relative;
+    display: block;
+    overflow: visible;
+    width: auto;
+    height: 100%;
+    padding: 5px 12px;
+}
+
+.SiteHeaderPopPanel span.SiteHeaderPanelHeader {
+	color: #333;
+}
+
+.SiteHeaderPopPanel div.SiteHeaderPanelLink {
+    padding: 0;
+}
+
+div.SiteHeaderPanelLink a,
+div.SiteHeaderPanelLink a:link,
+div.SiteHeaderPanelLink a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+div.SiteHeaderPanelLinkHover,
+div.SiteHeaderPanelLinkHover a,
+div.SiteHeaderPanelLink a:hover,
+div.SiteHeaderPanelLink a:focus {
+    background-color: #069;
+    color: #FFF !important;  /* !important needed for IE 6 */
+}
+
+div.SiteHeaderPanelLink a:active {
+    color: #333;
+}
+
+.SiteHeaderDropdown-Single {
+    width: 240px;
+    _height: 1em;
+    *zoom: 100%;
+    padding: 23px 0 25px 0;
+}
+
+.SiteHeaderDropdown-Double {
+    width: 358px;
+    _height: 1em;
+    *zoom: 100%;
+    padding: 23px 0 25px 0;
+}
+
+.SiteHeaderDropdown-Full {
+    width: 901px;
+    _height: 1em;
+    *zoom: 100%;
+    padding: 23px 0 11px 0;
+}
+
+.SiteHeaderDropdown-Full .SiteHeaderColumnSingle {
+    width: 173px;
+    float: left;
+}
+
+.SiteHeaderDropdown-Full .SiteHeaderColumnDouble {
+    width: 273px;
+    float: left;
+}
+
+.SiteHeaderDropdown-Full .SiteHeaderColumnDouble .SiteHeaderColumn-1 {
+    width: 109px;
+    float: left;
+    clear: left;
+}
+
+.SiteHeaderDropdown-Full .SiteHeaderColumnDouble .SiteHeaderColumn-2 {
+    width: 109px;
+    padding-left: 22px;
+    float: left;
+}
+
+.SiteHeaderDropdown-Double .SiteHeaderColumn-1 {
+    width: 152px;
+    float: left;
+}
+
+.SiteHeaderDropdown-Double .SiteHeaderColumn-2 {
+    width: 152px;
+    padding-left: 22px;
+    float: left;
+}
+
+.SiteHeaderShadowLeft {
+    border-left: solid 1px #252525;
+}
+
+.SiteHeaderRow {
+    padding: 0 18px 0 14px;
+}
+
+.SiteHeaderPanelHeader {
+    display: block;
+    font-weight: bold;
+    color: #EBEAEA;
+    font-size: 1.4em;
+    margin-bottom: 6px;
+    padding-top: 0.4em;
+    padding-bottom: 0;
+	line-height: 1.1em;
+}
+
+.SiteHeaderPanelHeader:first-child {
+    padding-top: 0;
+}
+
+.SiteHeaderPanelRow .SiteHeaderPanelHeader {
+    font-size: 1em;
+}
+
+.SiteHeaderPanelHeaderSmall {
+    display: block;
+    font-weight: bold;
+    color: #F1F1F1;
+    font-size: 0.92em;
+    line-height: 1.2em;
+    margin-bottom: 4px;
+    padding-bottom: 0;
+}
+
+.SiteHeaderDropPanel ul {
+    display: block;
+    margin: 0 0 1.6em 0;
+    padding-left: 0;
+}
+
+.SiteHeaderDropPanel ul.SiteHeaderPanelLinkNoBottom {
+    margin-bottom: 0;
+}
+
+.SiteHeaderDropPanel ul.SiteHeaderRightLink {
+    text-align: right;
+    margin: 1em 0 0 0;
+}
+
+.SiteHeaderDropPanel ul li {
+    line-height: 1em;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+li.SiteHeaderPanelLink a,
+li.SiteHeaderPanelLink a:link,
+li.SiteHeaderPanelLink a:visited,
+li.SiteHeaderPanelLink a:active {
+    -ms-filter: "";  /* Reset the filter property for IE8 */
+    display: inline-block;
+    font-size: 0.92em;
+	line-height: 1.2em;
+    text-decoration: none;
+    color: #9CE;
+	font-weight: bold;
+}
+
+li.SiteHeaderPanelLinkHover a,
+li.SiteHeaderPanelLink:hover,
+li.SiteHeaderPanelLink a:hover,
+li.SiteHeaderPanelLink a:focus {
+    color: #ebeaea !important;  /* !important needed for IE 6 */
+    text-decoration: underline;
+}
+
+.SiteHeaderPanelLink a span.SiteHeaderIconNewWindow {
+    background: transparent url(SiteHeader/new_window_icon_blue.png) left 0px no-repeat;
+    width: 13px;
+    height: 8px;
+    text-indent: 100%;  
+    overflow: hidden;
+    display: inline-block;
+	*height: 11px;
+}
+
+.SiteHeaderPanelLink a:hover span.SiteHeaderIconNewWindow,
+.SiteHeaderPanelLink a:focus span.SiteHeaderIconNewWindow {
+    background: transparent url(SiteHeader/new_window_icon_grey.png) left 0px no-repeat;
+    width: 13px;
+    height: 8px;
+    text-indent: 100%;   
+    overflow: hidden;
+    display: inline-block;
+	*height: 11px;
+}
+
+.SiteHeaderIconNewWindowNoWrap {
+	white-space: nowrap;
+}
+
+.SiteHeaderDropdownLink .SiteHeaderDropPanel,
+.SiteHeaderDropdownLink .SiteHeaderDropPanelHidden,
+.SiteHeaderDropdownLink:hover .SiteHeaderDropPanel.SiteHeaderDropPanelHidden,
+.SiteHeaderBarItemHover .SiteHeaderDropPanel.SiteHeaderDropPanelHidden,
+.SiteHeaderBarItemFocus .SiteHeaderDropPanel.SiteHeaderDropPanelHidden {
+    display: block;
+    _display: none;
+    height: 1px;
+    overflow: hidden;
+    top: -9999em;
+    z-index: 1000;
+}
+
+.SiteHeaderDropdownLink:hover .SiteHeaderDropPanel,
+.SiteHeaderBarItemHover .SiteHeaderDropPanel,
+.SiteHeaderBarItemFocus .SiteHeaderDropPanel {
+    _display: block;
+    height: auto;
+    overflow: visible;
+    top: 100%;
+    z-index: 1001;
+}
+
+.SiteHeaderPanelLinkDescription {
+    display: block;
+    font-weight: normal;
+}
+
+.SiteHeaderBar .SiteHeaderBarTooltip {
+    position: absolute;
+    z-index: 1002;
+    margin-top: -10px;
+    left: 55%;
+    font-family: "Segoe UI", tooltip, Tahoma, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 0.917em;
+    line-height: 1.2em;
+    border: 1px solid #d9d9d9;
+    border: 1px solid rgba(0,0,0,0.3);
+    color: InfoText;
+    text-align: left;
+    width: auto;
+    white-space: nowrap;
+    box-shadow: 0 4px 10px #535353;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 4px 10px -moz-rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.SiteHeaderBar .SiteHeaderBarTooltip span {
+    display: block;
+    padding: 3px 5px 4px;
+    background-color: InfoBackground;
+}
+
+.SiteHeaderBar.os-windows .SiteHeaderBarTooltip {
+    border: 1px solid #767676;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 1em;
+    color: #575757;
+    box-shadow: 2px 2px 3px #535353;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 4px 10px -moz-rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    *overflow: visible;
+    *border: 1px solid InfoText;
+    *font-family: tooltip, Tahoma, Verdana, sans-serif;
+    *font-size: 0.917em;
+    *color: InfoText;
+    *filter: progid:DXImageTransform.Microsoft.shadow(color='#999999', Direction=180, Strength=4);
+}
+
+.SiteHeaderBar.os-windows .SiteHeaderBarTooltip span {
+    background-color: #E3E4EF;
+    background: -moz-linear-gradient(top, #FFFFFF, #E3E4EF);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFFFFF),color-stop(1, #E3E4EF));
+    background: -webkit-linear-gradient(#FFFFFF, #E3E4EF);
+    background: linear-gradient(top, #FFFFFF, #E3E4EF);
+    filter: progid:DXImageTransform.Microsoft.gradient(StartColorStr='#FFFFFF', EndColorStr='#E3E4EF');
+    *padding: 1px 3px;
+    *background-color: InfoBackground;
+}
+
+/*	GLOBAL NAV OVERRIDES (adobe)
+	$Id: //depot/projects/dylan/releases/rc_14_2/ubi/template/identity/adobe/screen/gnav_override.css#1 $
+*/
+
+.SiteHeader {
+	margin: 0 10px;
+	width: 990px;
+}
+
+.SiteHeaderBar li {
+	float: none;
+}
+
+.SiteHeaderBarItemLast {
+    border-right: 0;
+	width: 1px;
+    background: none;
+}
+
+.SiteHeaderUserItem,
+a.SiteHeaderUserItem,
+a.SiteHeaderUserItem:link,
+a.SiteHeaderUserItem:visited,
+a.SiteHeaderUserItem:active,
+.SiteHeaderUserItem a,
+.SiteHeaderUserItem a:link,
+.SiteHeaderUserItem a:visited {
+    color: #333;
+}
+
+a.SiteHeaderUserItem:visited:hover,
+a.SiteHeaderUserItem:hover,
+.SiteHeaderUserItem a:visited:hover,
+.SiteHeaderUserItem a:hover,
+a.SiteHeaderUserItem:focus,
+a.SiteHeaderUserItem:visited:focus,
+.SiteHeaderUserItem a:focus,
+.SiteHeaderUserItem a:visited:focus {
+	color: #069;
+    text-decoration: none;
+    z-index: 102;
+}
+
+a.SiteHeaderCart,
+a.SiteHeaderCart:link,
+a.SiteHeaderCart:visited,
+a.SiteHeaderCart:active {
+    background: transparent url(SiteHeader/cart_light.png) 0 4px no-repeat;
+    padding-left: 16px;
+}
+
+a.SiteHeaderCart:visited:hover,
+a.SiteHeaderCart:visited:focus,
+a.SiteHeaderCart:hover,
+a.SiteHeaderCart:focus {
+    background: transparent url(SiteHeader/cart_light_hover.png) 0 4px no-repeat;
+    padding-left: 16px;
+}
+
+.SiteHeaderDropdown-Full {
+    width: 951px;
+}
+
+.SiteHeaderDropdown-Full .SiteHeaderColumnSingle {
+    width: 184px;
+}
+
+.SiteHeaderDropdown-Full .SiteHeaderColumnDouble {
+    width: 289px;
+}
+
+.SiteHeaderDropdown-Full .SiteHeaderColumnDouble .SiteHeaderColumn-1,
+.SiteHeaderDropdown-Full .SiteHeaderColumnDouble .SiteHeaderColumn-2 {
+    width: 117px;
+}
+
+.SiteHeaderPanelHeader {
+    font-size: 1.35em;
+}
+
+.SiteHeaderPanelHeaderSmall {
+    line-height: 1.3em;
+}
+
+.SiteHeaderPanelHeader {
+    padding-top: 0.3em;
+}
+
+.SiteHeaderDropdown-Single,
+.SiteHeaderDropdown-Double {
+    padding: 23px 0 24px 0;
+}
+
+.SiteHeaderDropPanel ul {
+    margin: 0 0 1.25em 0;
+}
+
+.SiteHeaderDropPanel ul li {
+    margin-bottom: 0;
+}
+
+li.SiteHeaderPanelLink a,
+li.SiteHeaderPanelLink a:link,
+li.SiteHeaderPanelLink a:visited,
+li.SiteHeaderPanelLink a:active {
+    line-height: 1.3em;
+}
+
+#cartQuantity,
+#SiteHeaderMobile {
+	display: none;
+}

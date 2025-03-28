@@ -1,0 +1,56 @@
+#fond_404 {
+	background-image: url(../images/charte/404/fond_404.jpg);
+	background-repeat: repeat-x;
+}
+#fond_404 #oups {
+	background-image: url(../images/charte/404/oups.jpg);
+	background-repeat: no-repeat;
+	height: 468px;
+	background-position: center;
+}
+
+#header-404 {
+height: 242px;
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+width:980px;
+}
+
+#container-header-404 {
+height: 242px;
+}
+
+/**
+ * Iframe
+ */
+
+iframe{
+border:0;
+
+background: none;
+background-color: transparent;
+allowTransparency: true; 
+
+}
+
+#popin_overlay {
+	display:none;
+	background-color: #000;
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+}
+
+#popin {
+
+}
+
+#popin_iframe {
+display:none;
+position:absolute;
+
+z-index:3;
+height: 100%;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+				<data>
+					<maps><map title="Plan de visite" copyright="©Jean-Sylvain Rovery" src="http://www.monuments-nationaux.fr/thumb2/cache/9e0b79dbbb57ad6a30a677e3b157ed3f" ><items> <item id="1" x="122" y="240" type="1">
+					<title><![CDATA[Les chapiteaux du chœur ]]></title>
+					<legend><![CDATA[Les chapiteaux du chœur du XII° siècle, conservés en situation, forment un ensemble admirable et surprenant; ils sont l’œuvre d’un ou de plusieurs sculpteur(s) maîtrisant un vaste répertoire de motifs bibliques, fantastiques et végétaux. ]]></legend>
+					
+					  <img src="" /> 
+					  <sound src="" /> 
+					  </item>
+					 <item id="2" x="108" y="190" type="1">
+					<title><![CDATA[Le chevet ]]></title>
+					<legend><![CDATA[Le chevet permet de percevoir l’harmonieuse simplicité de ce chef-d’œuvre de l’art roman du XII° siècle.]]></legend>
+					
+					  <img src="" /> 
+					  <sound src="" /> 
+					  </item>
+					 <item id="3" x="189" y="216" type="1">
+					<title><![CDATA[La tour-clocher]]></title>
+					<legend><![CDATA[La tour-clocher, du XIIIe siècle offre un impressionnant point de vue sur le paysage de l’Entre-deux-Mers, l’un des plus ancien vignobles bordelais. ]]></legend>
+					
+					  <img src="" /> 
+					  <sound src="" /> 
+					  </item>
+					 <item id="4" x="473" y="212" type="1">
+					<title><![CDATA[Le musée lapidaire]]></title>
+					<legend><![CDATA[Le musée lapidaire inscrit dans l’ancienne chapelle du collège présente une belle sélection de pièces sculptées et d’anciens pavements de l’abbaye. ]]></legend>
+					
+					  <img src="" /> 
+					  <sound src="" /> 
+					  </item>
+					 <item id="1" x="428" y="255" type="2">
+					<title><![CDATA[Accueil - Billetterie
+Boutique-Librairie]]></title>
+					<legend><![CDATA[]]></legend>
+					
+					  <img src="" /> 
+					  <sound src="" /> 
+					  </item>
+					 <item id="2" x="497" y="180" type="2">
+					<title><![CDATA[Toilettes]]></title>
+					<legend><![CDATA[]]></legend>
+					
+					  <img src="" /> 
+					  <sound src="" /> 
+					  </item>
+					</items>
+		</map>
+			</maps>
+			<trads>
+			  <audioGuide>m_audioguide</audioGuide> 	  <type1>Visite</type1> 	  <type2>Services</type2> 
+			  </trads>
+		</data>

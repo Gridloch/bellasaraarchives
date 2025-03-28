@@ -1,0 +1,338 @@
+body {
+	background: #FFF url(/homepage/backgrounds/bkg_home_raiponce.jpg) 50% 0 no-repeat;
+}
+
+body #main-bnr {
+	height: 100px;
+	margin: 10px auto 0;
+	width:728px;
+}
+
+
+
+body #content {
+	background: url(../images/main-content-bg.png) repeat-y 50% 0;
+	position: relative;
+}
+
+
+
+body.layout-homepage #moduleslot7,
+body.layout-category-pages-1 #moduleslot5,
+body.layout-category-pages-3 #moduleslot3
+{
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+}
+
+
+
+body div#disney-common-footer {/*override footer2.css*/
+	background: url(../images/main-content-bg.png) repeat-y 50% 0;
+	border: 0;
+	height: 585px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -575px;
+	width: 996px;
+}
+body div#disney-common-footer .wrapper {
+	background: #F1F1F1;
+	height: 575px;
+	width: 970px;
+}
+body div#main {/*override footer2.css*/
+	padding-bottom: 575px !important;
+}
+body #disney-common-footer .module {
+	margin-bottom: 0;
+}
+body #disney-common-footer div.complete .footerfeatured {/*override footer2.css*/
+	width: 970px;
+}
+#footerlogo {
+	margin: 0 10px;
+}
+html body #disney-common-footer .footerrow1 {
+	height: 310px;
+}
+html body #disney-common-footer ul.vertical-menu {
+	width: 135px;
+}
+html body #disney-common-footer ul.vertical-menu.col7 {
+	width: 70px;
+}
+/*
+html body #disney-common-footer .footerrow2 {
+	display: none;
+}
+*/
+
+
+
+body .adContainer div {
+	overflow: visible;
+}
+body .adTypebutton.aboveSlug {
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+}
+body div.aboveSlug {
+	background-image: url(../images/ad/ad-slug-bg.gif);
+}
+body div.aboveSlug div.adbanner,
+body div.aboveSlug div.admpu,
+body div.belowSlug div.adbanner,
+body div.belowSlug div.admpu
+{
+	background-image: url(../images/ad/fr-ad-slug-horizontal.png);
+}
+body div.rightSlug div.adbanner,
+body div.rightSlug div.admpu
+{
+	background-image: url(../images/ad/fr-ad-slug-vertical-right.png);
+}
+body div.leftSlug div.adbanner,
+body div.leftSlug div.admpu
+{
+	background-image: url(../images/ad/fr-ad-slug-vertical-left.png);
+}
+body div.aboveSlug div.adskyscraper {
+	background-image: url(../images/ad/fr-ad-slug-horizontal.png);
+}
+
+
+
+/*Temporary fix while we roll out the updated carousel.css*/
+body .homepageCarousel .next a {
+	background-position: -20px 0px;
+	left: auto !important;
+	right: 0 !important;
+}
+body .homepageCarousel {
+	background: url(../images/carousel/FR_carousel-full.png) 50% 0 no-repeat;
+	overflow: hidden;
+	padding-bottom: 8px;
+	padding-top: 17px;
+}
+body .homepageCarousel h3 {
+	bottom: 0;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -99999em;
+	position: absolute;
+	text-indent: -99999em;
+	text-transform: uppercase;
+	width: 100%;
+}
+body .moduleslot .homepageCarousel .previous a,
+body .moduleslot .homepageCarousel .next a
+{
+	background: url(../images/carousel/carousel-button-prev.png) no-repeat;
+	height: 77px;
+	left: -7px;
+	outline: none !important;
+	width: 73px;
+	top: 16px;
+	z-index: 50;
+}
+body .moduleslot .homepageCarousel .next a {
+	background: url(../images/carousel/carousel-button-next.png) no-repeat;
+	left: auto;
+	right: 0;
+	width: 67px;
+}
+
+
+body div.module-videoPlayer {
+	height: 410px;
+}
+
+
+body.layout-homepage .promo-hero-2 {
+	top: 210px;
+}
+body.layout-homepage .module-hero .buttons a {
+	letter-spacing: 0;
+	text-indent: 0;
+}
+body .module-hero .promoList,
+body .module-hero .promoList li
+{
+	height: 430px !important;
+	width: 970px !important;
+}
+
+
+body .promo-150x150 .promoListWrapper {
+	background: url(/res/images/bg-170x170.png) 50% 100% no-repeat;
+}
+
+
+
+.module-videoPlayer object#dvpm {
+	height: 410px !important;
+}
+
+
+
+/* Table of Objects module */
+.g6 .tableOfObjects ul {
+	padding: 10px 10px 5px;
+	width: 330px;
+}
+.g6 .tableOfObjects ul li {
+	height: 120px;
+	margin: 0 5.25px;
+	width: 72px;
+}
+.g6 .module-tableOfObjects ul li h4 {
+	text-transform: none;
+}
+.g6 .tableOfObjects ul li div.bgImg {
+	width: 100%;
+}
+.g6 .tableOfObjects ul li div.bgImg img {
+	box-shadow: 2px 2px 2px #999;
+	margin: 0 auto;
+	-moz-box-shadow: 2px 2px 2px #999;
+	-webkit-box-shadow: 2px 2px 2px #999;
+}
+
+
+
+body div.tab div.module-listOfObjects h3.title {
+	display: none;
+}
+
+
+
+.module h3.title {
+	background: url(/res/images/title-g3-1line-bg.png) 50% 0 no-repeat;
+	box-shadow: 0 1px 2px #777;
+	color: #FFF;
+	height: auto !important;
+	line-height: 16px;
+	margin-bottom: 6px;
+	-moz-box-shadow: 0 1px 2px #777;
+	padding-bottom: 4px;
+	position: relative;
+	-webkit-box-shadow: 0 1px 2px #777;
+	z-index: 3;
+}
+* html .module h3.title {
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#777777', Direction=180, Strength=3);
+	zoom: 1;
+}
+*:first-child+html .module h3.title {
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#777777', Direction=180, Strength=3);
+	zoom: 1;
+}
+.g3 .module h3.title {
+	background-image: url(/res/images/title-g3-1line-bg.png);
+}
+.g6 .module h3.title {
+	background-image: url(/res/images/title-g6-1line-bg.png);
+}
+.g7 .module h3.title {
+	background-image: url(/res/images/title-g7-1line-bg.png);
+}
+.g3 .module h3.title.multilines-2 {
+	background-image: url(/res/images/title-g3-2lines-bg.png);
+	line-height: 1.2;
+	padding-bottom: 4px;
+	padding-top: 3px;
+}
+
+
+
+body .columnedImages .wrapper,
+body .columnedImages.layout-1 .wrapper,
+body .columnedImages.layout-2 .wrapper,
+body .columnedImages.layout-3 .wrapper,
+body .columnedImages.layout-4 .wrapper,
+body .columnedImages.layout-5 .wrapper,
+body .columnedImages.layout-6 .wrapper,
+body .columnedImages.layout-7 .wrapper,
+body .columnedImages.layout-8 .wrapper
+{
+	background: url(/res/images/g3-gradient-gray-bg.png) 50% 100% no-repeat;
+	border: 0;
+	padding: 10px;
+}
+body .columnedImages.layout-1 .wrapper li,
+body .columnedImages.layout-2 .wrapper li,
+body .columnedImages.layout-3 .wrapper li,
+body .columnedImages.layout-4 .wrapper li,
+body .columnedImages.layout-5 .wrapper li,
+body .columnedImages.layout-6 .wrapper li,
+body .columnedImages.layout-7 .wrapper li,
+body .columnedImages.layout-8 .wrapper li
+{
+	height: auto;
+}
+.columnedImages h3.title {
+	margin-bottom: 0;
+}
+
+
+
+body #chromebar {
+	margin: 0 auto -4px;
+}
+body .module-chrome ol.tier1,
+body .module-chrome ol.tier2
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+body .module-chrome ol.tier1 {
+	padding-top: 4px;
+	z-index: 2;
+}
+body #chrome-item-home {
+	z-index: 3;
+}
+body .chromeContainer ol li {
+	float: none;
+	display: inline;
+}
+body .chromeContainer ol li a {
+	float: none !important;
+	height: auto !important;
+	margin: 0 -2px;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative !important;
+}
+body .chromeContainer ol.tier2 li a {
+	padding-left: 0;
+	padding-right: 0;
+}
+body .chromeContainer ol li a:active img,
+body .chromeContainer ol li a:hover img
+{
+	bottom: 0;
+	top: auto;
+}
+/* /res/css/chrome2.css overrides */
+body .module-chrome ol.tier2 li#chrome-item-videos   {
+	margin-right: 0;
+}
+
+
+
+body #wrapper #content .homepageCarousel {
+	background: url(/res/images/carousel/FR_carousel-full-v2.png) 50% 0 no-repeat;
+	overflow: hidden;
+	padding-bottom: 7px;
+	padding-top: 18px;
+}
+
+
+body .scInner .scInnerRight .title.multilines-2 {
+	background: url(/res/images/simplecompetitionsubhead-h40px.png) 50% 0 no-repeat;
+}

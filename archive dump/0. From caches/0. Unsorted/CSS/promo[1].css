@@ -1,0 +1,523 @@
+.module-promo{
+	position: relative;
+}
+
+.module-promo h4,
+.module-promo h5{
+	display: none;
+}
+
+.promoListWrapper{
+	background: #000;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.promoList{
+	color: #FFF;
+	height: 150px;
+	overflow: hidden;
+	width: 150px;
+	z-index: 100;
+}
+.promoList ul {
+	list-style: none;
+	height: 150px;
+	overflow: hidden;
+	padding: 0;
+	width: 150px;
+}
+
+.promoList ul li{}
+
+.promoList ul li a{
+	display: inline;
+	float: left;
+	text-decoration: none;
+}
+.promoList ul li a:hover {
+	text-decoration: underline;
+}
+
+.promoList ul li a img{
+	border: 0;
+}
+
+.module-promo .buttons {
+	bottom: 10px;
+	left: 13px;
+	position: absolute;
+	width: 144px;
+	z-index: 200;
+}
+.module-promo .buttons .previous,
+.module-promo .buttons .previousImg{
+	float: left;
+}
+.module-promo .buttons .next,
+.module-promo .buttons .nextImg{
+	float: right;
+}
+.promo-410x243 .buttons {
+	bottom: 10px;
+	width: 383px;
+}
+
+.module-promo .buttons .previous a.prev,
+.module-promo .buttons .next a.next,
+.module-promo .buttons .previousImg a.prev,
+.module-promo .buttons .nextImg a.next{
+	display: block;
+	height: 21px;
+	overflow: hidden;
+}
+.module-promo .buttons .previousImg a.prev,
+.module-promo .buttons .nextImg a.next{
+	line-height: 100px;
+	width: 21px;
+}
+
+.module-promo .buttons a.buttonLaunch{
+	display: none;
+}
+
+/* Explore promo */
+.promo-150x150 {
+}
+
+
+/* Explore promo middle sized */
+.promo-150x260 {
+}
+.promo-150x260 .promoList {
+	height: 260px;
+	width: auto;
+}
+.promo-150x260 .promoList ul {
+	height: 260px;
+	width: auto;
+}
+.promo-150x260 .buttons {
+	bottom: 10px;/*padding-bottom of .promoListWrapper*/
+	top: auto;
+}
+.promo-150x150 .buttons .previous a.prev,
+.promo-150x150 .buttons .next a.next,
+.promo-150x150 .buttons .previousImg a.prev,
+.promo-150x150 .buttons .nextImg a.next,
+.promo-150x260 .buttons .previous a.prev,
+.promo-150x260 .buttons .next a.next,
+.promo-150x260 .buttons .previousImg a.prev,
+.promo-150x260 .buttons .nextImg a.next
+{
+	background: url("../images/hero/hero-button-next.png");
+	display: block;
+	height: 22px;
+	overflow: hidden;
+	text-indent: -99999em;
+	width: 22px;
+}
+.promo-150x150 .buttons .previous a.prev,
+.promo-150x150 .buttons .previousImg a.prev,
+.promo-150x260 .buttons .previous a.prev,
+.promo-150x260 .buttons .previousImg a.prev
+{
+	background-image: url("../images/hero/hero-button-previous.png");
+}
+
+
+/* Yet another promo 410×243 */
+.promo-410x243 {
+}
+.promo-410x243 h3.title{
+	position: relative;
+	z-index: 1000;
+}
+.promo-410x243 .promoListWrapper {
+	padding: 0;
+	position: relative;
+	top: -6px;
+	z-index: 800;
+}
+.promo-410x243 .promoList,
+.promo-410x243 .promoList ul{
+	height: 243px;
+	width: auto;
+}
+
+
+/* Main promo 590x410, 590x310 */
+.promo-590x410 {
+}
+
+.promo-590x410 .promoListWrapper,
+.promo-590x310 .promoListWrapper {
+	padding: 0;
+	width: 590px;
+}
+
+.promo-590x410 h5,
+.promo-590x310 h5{
+	color: #FFF;
+	display: block;
+	height: 45px;
+	left: 0px;
+	line-height: 50px;
+	font-size: 12px;
+	overflow: hidden;
+	padding: 0px 25px 0px 160px;
+	position: relative;
+	top: -48px;
+	width: 405px;
+}
+.promo-590x310 h5{
+	padding: 0px 130px 0px 160px;
+}
+* html .promo-590x410 h5,
+* html .promo-590x310 h5{
+	width: 590px;
+}
+
+.promo-590x410 .promoList,
+.promo-590x310 .promoList{
+	height: 410px;
+	position: relative;
+	width: auto;
+	z-index: 300;
+}
+.promo-590x310 .promoList{
+	height: 310px;
+}
+
+.promo-590x410 .promoList ul,
+.promo-590x310 .promoList ul{
+	height: 410px;
+	width: auto;
+}
+.promo-590x310 .promoList ul{
+	height: 310px;
+}
+
+.promo-590x410 .promoList ul li,
+.promo-590x310 .promoList ul li{
+	position: relative;
+}
+
+.promo-590x410 .buttons,
+.promo-590x310 .buttons
+{
+	background: url(../images/hero/hero-bottom-bg.png) 50% 100% no-repeat;
+	bottom: 0;
+	display: block;
+	left: 0;
+	height: 16px;
+	padding: 23px 15px 20px;
+	position: absolute;
+	top: auto;
+	width: 560px;
+	z-index: 200;
+}
+.promo-590x310 .buttons{
+	top: 265px;
+}
+.promo-590x410 .buttons,
+.promo-590x310 .buttons
+{
+	background: url(../images/hero/hero-bottom-bg.png) 50% 100% no-repeat;
+	height: 16px;
+	padding: 23px 15px 20px;
+}
+
+.promo-590x410 .buttons p.buttonsdesc,
+.promo-590x310 .buttons p.buttonsdesc {
+	color: #FFF;
+	display: inline;
+	font-weight: bold;
+	height: 21px;
+    padding-left: 16px;
+	padding-top: 1px;
+	position: relative;
+	text-decoration: none;
+}
+.promo-590x410 .buttons a,
+.promo-590x310 .buttons a
+{
+	background: url(../images/promo/bg-button-item-main-promo.png) no-repeat;
+	color: #FFF;
+	float: left;
+	font-weight: bold;
+	height: 21px;
+	margin: 6px 10px 0 0;
+	padding-top: 1px;
+	text-align: center;
+	text-decoration: none;
+	width: 21px;
+}
+.promo-590x410 .buttons a:hover,
+.promo-590x310 .buttons a:hover,
+body.pl09 .promo-590x310 .buttons a.buttonLaunch:hover,
+body.pl11 .promo-590x310 .buttons a.buttonLaunch:hover{
+	background-position: 0px -25px;
+}
+
+body.pl09 .promo-590x310 .buttons a.buttonLaunch,
+body.pl11 .promo-590x310 .buttons a.buttonLaunch{
+	background: url(../images/promo/button-launch-bg.png) no-repeat;
+	display: block;
+	height: 21px;
+	left: 485px;
+	overflow: hidden;
+	position: absolute;
+	top: 15px;
+	width: 80px;
+}
+
+
+.promo-150x150 ul li {
+	height: 150px !important;
+}
+.promo-150x260 ul li {
+	height: 260px !important;
+}
+.promo-410x243 ul li {
+	height: 243px !important;
+}
+.promo-590x310 ul li {
+	height: 310px !important;
+}
+.promo-590x410 ul li {
+	height: 410px !important;
+}
+
+
+
+
+.promo-590x310 .buttons a.has-thumbnail,
+.promo-590x410 .buttons a.has-thumbnail
+{
+	border: 1px solid #999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	height: 32px;
+	margin: -1px 10px 0 0;
+	overflow: hidden;
+	padding: 0;
+	width: 42px;
+}
+.promo-590x310 .buttons a.has-thumbnail:hover,
+.promo-590x410 .buttons a.has-thumbnail:hover
+{
+	border-color: #dcdbda;
+}
+.promo-590x310 .buttons .previous a,
+.promo-590x410 .buttons .previous a
+{
+	background: url(../images/hero/hero-button-previous.png) no-repeat;
+	height: 22px;
+	margin: 5px 10px 0 0;
+	text-indent: -9999em;
+	width: 22px;
+}
+.promo-590x310 .buttons .next a,
+.promo-590x410 .buttons .next a
+{
+	background: url(../images/hero/hero-button-next.png) no-repeat;
+	height: 22px;
+	margin: 5px 0 0;
+	text-indent: -9999em;
+	width: 22px;
+}
+body .promo-590x310 .buttons .next,
+body .promo-590x410 .buttons .next,
+body .promo-590x310 .buttons .nextImg,
+body .promo-590x410 .buttons .nextImg
+{
+	float: left;
+	margin-right: 10px;
+}
+.promo-590x310 .buttons .buttondescWrapper,
+.promo-590x410 .buttons .buttondescWrapper
+{
+	height: 32px;
+	margin-left: 15px;
+}
+.promo-590x310 .buttons .buttonsdesc,
+.promo-590x410 .buttons .buttonsdesc
+{
+	color: #FFF;
+	font-weight: bold;
+	line-height: 1.2;
+	-moz-text-shadow: 1px 1px 1px #000;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-text-shadow: 1px 1px 1px #000;
+}
+
+/* FR promo 350 x 130 px */
+.promo-350x130 {
+}
+
+.promo-350x130 .promoListWrapper {
+	padding: 0;
+	width: 350px;
+}
+
+.promo-350x130 h5{
+	color: #FFF;
+	display: block;
+	height: 45px;
+	left: 0px;
+	line-height: 50px;
+	font-size: 12px;
+	overflow: hidden;
+	padding: 0px 25px 0px 160px;
+	position: relative;
+	top: -48px;
+	width: 175px;
+}
+.promo-350x130 h5{
+	padding: 0px 130px 0px 160px;
+}
+* html .promo-350x130 h5{
+	width: 350px;
+}
+
+.promo-350x130 .promoList{
+	height: 130px;
+	position: relative;
+	width: auto;
+	z-index: 300;
+}
+.promo-350x130 .promoList{
+	height: 130px;
+}
+
+.promo-350x130 .promoList ul{
+	height: 130px;
+	width: auto;
+}
+
+.promo-350x130 .promoList ul li{
+	position: relative;
+}
+
+.promo-350x130 .buttons
+{
+	background: url(../images/promo/bg-buttons-main-promo.png) 50% 100% no-repeat;
+	bottom: 0;
+	left: 0;
+	height: 30px;
+	padding: 15px 15px 0 25px;
+	position: absolute;
+	top: auto;
+	width: 320px;
+	z-index: 200;
+}
+.promo-350x130 .buttons
+{
+	background: url(../images/hero/hero-bottom-bg.png) 50% 100% no-repeat;
+	height: 16px;
+	padding: 23px 15px 20px;
+}
+
+.promo-350x130 .buttons p.buttonsdesc {
+	color: #FFF;
+	display: inline;
+	font-weight: bold;
+	height: 21px;
+    padding-left: 16px;
+	padding-top: 1px;
+	position: relative;
+	text-decoration: none;
+}
+.promo-350x130 .buttons a
+{
+	background: url(../images/promo/bg-button-item-main-promo.png) no-repeat;
+	color: #FFF;
+	float: left;
+	font-weight: bold;
+	height: 21px;
+	margin: 6px 10px 0 0;
+	padding-top: 1px;
+	text-align: center;
+	text-decoration: none;
+	width: 21px;
+}
+.promo-350x130 .buttons a:hover,
+body.pl09 .promo-350x130 .buttons a.buttonLaunch:hover,
+body.pl11 .promo-350x130 .buttons a.buttonLaunch:hover{
+	background-position: 0px -25px;
+}
+
+body.pl09 .promo-350x130 .buttons a.buttonLaunch,
+body.pl11 .promo-350x130 .buttons a.buttonLaunch{
+	background: url(../images/promo/button-launch-bg.png) no-repeat;
+	display: block;
+	height: 21px;
+	left: 245px;
+	overflow: hidden;
+	position: absolute;
+	top: 15px;
+	width: 80px;
+}
+
+.promo-350x130 ul li {
+	height: 130px !important;
+}
+
+
+
+
+.promo-350x130 .buttons a.has-thumbnail
+{
+	border: 1px solid #999;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+	height: 32px;
+	margin: -1px 10px 0 0;
+	overflow: hidden;
+	padding: 0;
+	width: 42px;
+}
+.promo-350x130 .buttons a.has-thumbnail:hover
+{
+	border-color: #dcdbda;
+}
+.promo-350x130 .buttons .previous a
+{
+	background: url(../images/hero/hero-button-previous.png) no-repeat;
+	height: 22px;
+	margin: 5px 10px 0 0;
+	text-indent: -9999em;
+	width: 22px;
+}
+.promo-350x130 .buttons .next a
+{
+	background: url(../images/hero/hero-button-next.png) no-repeat;
+	height: 22px;
+	margin: 5px 0 0;
+	text-indent: -9999em;
+	width: 22px;
+}
+
+body .promo-350x130 .buttons .next,
+body .promo-350x130 .buttons .nextImg
+{
+	float: left;
+	margin-right: 10px;
+}
+.promo-350x130 .buttons .buttondescWrapper
+{
+	height: 32px;
+	margin-left: 15px;
+}
+.promo-350x130 .buttons .buttonsdesc
+{
+	color: #FFF;
+	font-weight: bold;
+	line-height: 1.2;
+	-moz-text-shadow: 1px 1px 1px #000;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-text-shadow: 1px 1px 1px #000;
+}

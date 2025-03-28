@@ -1,0 +1,126 @@
+/* fixes */
+
+body #wrapper #main #main-bnr {
+	height: auto;
+	width: auto; 
+}
+
+.adContainer {
+	text-align: center;
+}
+
+.adContainer div.adbanner,
+.adContainer div.adbutton,
+.adContainer div.admpu,
+.adContainer div.adskyscraper,
+.adContainer div.adsquare
+{
+	display: table;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.layout- #page-content .adContainer div.admpu {
+	width: auto;
+}
+
+* html .adContainer div.adbanner,
+* html .adContainer div.adbutton,
+* html .adContainer div.admpu,
+* html .layout- #page-content .adContainer div.admpu,
+* html .adContainer div.adskyscraper,
+* html .adContainer div.adsquare
+{
+      display: block;
+      width: expression((function(o){var w=5,n=o.children,i=n.length;while(i--)if(/OBJECT|DIV|IMG|A/i.test(n[i].tagName)&&w<n[i].offsetWidth)w=n[i].offsetWidth;return w+"px"})(this));
+}
+*:first-child+html .adContainer div.adbanner,
+*:first-child+html .adContainer div.adbutton,
+*:first-child+html .adContainer div.admpu,
+*:first-child+html .layout- #page-content .adContainer div.admpu,
+*:first-child+html .adContainer div.adskyscraper,
+*:first-child+html .adContainer div.adsquare
+{
+      display: block;
+      width: expression((function(o){var w=5,n=o.children,i=n.length;while(i--)if(/OBJECT|DIV|IMG|A/i.test(n[i].tagName)&&w<n[i].offsetWidth)w=n[i].offsetWidth;return w+"px"})(this));
+}
+
+.adContainer iframe,
+.adContainer img,
+.adContainer a img,
+.adContainer object
+{
+	display: block;
+}
+
+.aboveSlug {
+	background: url(../images/ad/ad-slug-bg.gif) top repeat-x;
+}
+#main-bnr .aboveSlug {
+	display: inline;
+}
+
+.aboveSlug div.adbanner,
+.belowSlug div.adbanner,
+.aboveSlug div.adbutton,
+.belowSlug div.adbutton,
+.aboveSlug div.admpu,
+.belowSlug div.admpu,
+.aboveSlug div.adskyscraper,
+.belowSlug div.adskyscraper,
+.aboveSlug div.adsquare,
+.belowSlug div.adsquare
+{
+	background: #000 url(../images/ad/ad-slug-horizontal.png) center top no-repeat;
+	padding-top: 17px;
+}
+.belowSlug div.adbanner,
+.belowSlug div.adbutton,
+.belowSlug div.admpu,
+.belowSlug div.adskyscraper,
+.belowSlug div.adsquare
+{
+	background-position: bottom center;
+	padding: 0 0 17px 0;
+}
+
+.rightSlug div.adbanner,
+.rightSlug div.adbutton,
+.rightSlug div.admpu,
+.rightSlug div.adskyscraper,
+.rightSlug div.adsquare
+{
+	background: url(../images/ad/ad-slug-vertical-right.png) right top no-repeat;
+	padding-right: 18px;
+}
+
+.leftSlug div.adbanner,
+.leftSlug div.adbutton,
+.leftSlug div.admpu,
+.leftSlug div.adskyscraper,
+.leftSlug div.adsquare
+{
+	background: url(../images/ad/ad-slug-vertical-left.png) left bottom no-repeat;
+	padding-left: 18px;
+}
+
+.adbanner,
+.adbutton,
+.admpu,
+.adskyscraper,
+.adsquare
+{}
+.aboveSlug div.adskyscraper {
+	background: #000 url(../images/ad/ad-slug-horizontal.png) 10px top no-repeat;
+}
+
+.moduleslot.last .adTypempu {
+	margin-bottom: 0;
+}
+
+.module.adTypebutton.aboveSlug,
+.module.adTypeskyscraper.aboveSlug {
+	margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+

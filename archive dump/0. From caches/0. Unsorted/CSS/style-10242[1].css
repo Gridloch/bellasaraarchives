@@ -1,0 +1,135 @@
+/* --- COULEURS ------------------------------------------------------------- */
+
+/* Général */
+#wrapper {
+	background: #f1f1f1;
+}
+
+body {
+	color: #32333a;
+}
+a {
+	color: #ee284b;
+}
+a:hover, a:focus {
+	color: #ee284b;
+	text-decoration:underline;
+}
+
+/* Logo */
+#logo {
+}
+
+#logo a {
+}
+#logo a:hover, #logo a:focus {
+}
+
+/* Contenu principal */
+#contenu {
+	color: #32333a;
+	background: #f1f1f1;
+}
+#contenu a {
+	color: #ee284b;
+}
+#contenu a:hover, #contenu a:focus {
+	color: #FFFFFF;
+}
+
+
+
+/* --- POSITIONNEMENT -------------------------------------------------------- */
+
+/* Page */
+body {
+	padding: 0px 0px;
+}
+
+#wrapper {
+	width: 100%;
+	display: table;
+	
+}
+
+#global {
+	width: 938px;
+	height: 564px;
+	margin: 0 auto; 
+	overflow: hidden; 
+}
+
+
+/* Contenu */
+#contenu {
+	margin-left: 0px;
+	padding: 0px 0px;
+	margin-top: 0px;
+}
+/* Container0 = galeriegauche + logo + galeriedroite ---------------------------*/
+#container0{
+	margin-left: 0px;
+	padding: 0px 0px;
+	margin-top: 18px;
+	height:280px;
+	width:920px;
+	background: c2c;
+}
+/* Galeriegauche --- x6 minis vignettes calées à gauche */
+#galeriegauche {
+	float: left;
+	margin-left: 0px;
+	padding: 0px 0px;
+	margin-top: 0px;
+	height:280px;
+	width:276px;
+	background: 026990;
+}
+#galeriegauche > :first-child {
+	margin-top: 0px;
+}
+#galeriegauche p, #galeriegauche li {
+	line-height: 1.5;
+}
+/* Logo centre */
+#logo{
+	float: left;
+	margin-left: 18px;
+	padding: 0px 0px;
+	margin-top: 0px;
+	height:262px;
+	width:350px;
+	background: url(./img/logo.gif) 0 0 no-repeat;
+}
+/* Galeriedroite --- x6 minis vignettes calées à droite */
+#galeriedroite {
+	float: right;
+	margin-left: 0px;
+	padding: 0px 0px;
+	margin-top: 0px;
+	height:280px;
+	width:276px;
+	background: ff473c;
+}
+#galeriedroite > :first-child {
+	margin-top: 0px;
+}
+#galeriedroite p, #galeriedroite li {
+	line-height: 1.5;
+}
+/* Galeriebas --- minis vignettes x fois */
+#galeriebas {
+	margin-left: 0px;
+	padding: 0px 0px;
+	margin-top: 0px;
+	height:340px;
+}
+#galeriebas > :first-child {
+	margin-top: 0px;
+}
+#galeriebas p, #galeriebas li {
+	line-height: 1.5;
+}
+
+/* -------------------------------------------------------------- */
+
