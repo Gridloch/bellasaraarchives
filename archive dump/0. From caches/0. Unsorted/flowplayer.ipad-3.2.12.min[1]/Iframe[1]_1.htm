@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Name of this game</title>
+<style>
+body {
+        background: #DDD;
+        color: #FFF;
+        font: bold 14px/1.5 sans-serif;
+        margin: 0;
+        overflow: hidden;
+        padding: 0
+}
+noscript p {
+        background: #F33;
+        margin: 0 0 20px;
+        padding: 10px;
+        text-align: center;
+}
+#gameContainer a {
+        color: #FFF;
+        display: block;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+        text-decoration: none;
+}
+#gameContainer p {
+        background: #F33;
+        margin: 20px 0;
+        padding: 10px;
+        text-align: center;
+}
+#gameContainer,
+#gameContainer img {
+        display: block;
+        margin: auto;
+}
+#newwindowbutton {
+ display: none;
+}
+#newwindowbutton a {
+ background-color: #000000;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#171717));
+ background-image: -webkit-linear-gradient(top, #000000, #171717);
+ background-image:    -moz-linear-gradient(top, #000000, #171717);
+ background-image:      -o-linear-gradient(top, #000000, #171717);
+ background-image:         linear-gradient(to bottom, #000000, #171717);
+ border: 1px solid black;
+ -webkit-border-radius: 50px;
+ border-radius: 70px;
+ box-shadow: 0 0 10px 0 #222;
+ background-clip: padding-box;
+ color: #5ee7ff;
+ display: block;
+ font-size: 0px;
+ left: 50%;
+ margin-left: -71px;
+ margin-top: -71px;
+ padding: 40px 35px 40px 45px;
+ position: absolute;
+ text-decoration: none;
+ -webkit-transition: all 0.5s ease-out; 
+ -moz-transition: all 0.5s ease-out; 
+ -o-transition: all 0.5s ease-out; 
+ transition: all 0.5s ease-out; 
+ top: 50%;
+ width: 60px;
+}
+#newwindowbutton a:hover {
+ border: 1px solid #5ee7ff;
+}
+#newwindowbutton a:before {
+ border-bottom: 30px solid transparent;
+ border-left: 60px solid #5ee7ff;
+ border-top: 30px solid transparent;
+ content: "";
+ display: inline-block;
+ height: 0px;
+ position: relative;
+}
+
+</style>
+
+
+
+
+
+
+
+        <script src="/CatalogueApplication/resources/iframe/swfobject.js"></script>
+
+
+
+
+<script src="/CatalogueApplication/resources/iframe/jquery-1.7.2.min.js"></script>
+<script src="/CatalogueApplication/resources/iframe/jquery.strobemediaplayback.min.js"></script>
+<script src="/CatalogueApplication/resources/iframe/jquery.strobemediaplaybackchrome.min.js"></script>
+<script src="/CatalogueApplication/resources/iframe/portalPlayer.min.js"></script>
+
+
+<script>
+	var gameJsonJSData = {"result":{"CasualGameDetail":[{"DisplayName":"Jeu des différences","ItemId":"101281","ShortDescription":"Jeu des différences","LongDescription":"<p>&#160;Aide les frères et sœurs de Charlie à trouver les différences sur les photos de famille.&#160;</p>","MetaKeywords":"disney, jeux en ligne, jeu en ligne, jeux disney, jeu disney, jeux bonne chance charlie, jeu bonne chance charlie, bonne chance charlie, jeu action, jeu aventure, puzzle","Height":"500","Width":"750","LocalisedAssetUrl":"","LocalisedAltText":"","CanLike":"n","CanSendToAFriend":"n","Category":[{"Id":"502","Name":"Activity","InternalName":""}],"LocalizedProperty.Property.Code":"glc","LocalizedProperty.Property.Name":"Good Luck Charlie","GameType":"API 2.2","AssetPath":"http://catalogue.disneyinternational.com/res/images/catalogueAssets/FR-FR/CasualGame/1340372868044_475222_fr-FR.zip/draft/","AssetUrl":"/games/glc_spl_puz_spotthedifference/glc_spl_puz_spotthedifference.swf","KeyArt":"http://catalogue.disneyinternational.com/res/images/catalogueAssets/FR-FR/CasualGame/draft/1340372867929_470963_pro_gam_Good-Luck-Charlie_Spot-the-Difference_300x169.jpg","AltKeyArt":"http://catalogue.disneyinternational.com/res/images/catalogueAssets/FR-FR/CasualGame/draft/1340372868033_701752_pro_gam_Good-Luck-Charlie_Spot-the-Difference_300x169.jpg","LocalizedProperty.Name":"Bonne chance Charlie","BusinessUnit":[],"Segment":[{"Id":"1","Name":"Preschool"}],"HighScores":"n","Status":"D","Country.Code":"FR-FR","ItemType.Code":"CA","Scale":"exactfit","Wmode":"window"}]}};
+	props = gameJsonJSData.result.CasualGameDetail[0] ? gameJsonJSData.result.CasualGameDetail[0] : null;
+	var gameType = new RegExp(props.GameType, "i");
+</script>
+
+</head>
+<body>
+<noscript>
+	<p>Please enable JavaScript in your browser.</p>
+</noscript>
+
+<!-- video player container(s) - do not modify -->
+<div id="videoContainer"></div>
+
+<div id="gameContainer">
+        <a target="_blank" href="http://www.disney.co.uk/redirect/?redirectURL=www.adobe.com/go/getflashplayer">
+                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player">
+                <p>You need to install Adobe Flash player to play this game.</p>
+                Please refresh the page after the installation.
+        </a>
+</div>
+<script src="/CatalogueApplication/resources/iframe/game-launcher.js"></script>
+
+
+
+
+<script>
+
+
+			var videoContainerSelector 	= "div#videoContainer"; // needs to match the div id in the body below
+			var gameContainerSelector 	= "div#gameContainer"; // needs to match the div id in the body below
+
+			var configJson = "/CatalogueApplication/resources/iframe/local/fr-FR/config.json";
+			
+			$(function(){ // document ready..
+
+				try {
+					//create the player and start configuring it....
+					$.xdVideo = $.xdVideo || new XDVideo();
+					$($.xdVideo).bind("adComplete", function(evt){
+						this.removeVideoAndShowGame();							
+						Disney.launchGame({"result":{"CasualGameDetail":[{"DisplayName":"Jeu des différences","ItemId":"101281","ShortDescription":"Jeu des différences","LongDescription":"<p>&#160;Aide les frères et sœurs de Charlie à trouver les différences sur les photos de famille.&#160;</p>","MetaKeywords":"disney, jeux en ligne, jeu en ligne, jeux disney, jeu disney, jeux bonne chance charlie, jeu bonne chance charlie, bonne chance charlie, jeu action, jeu aventure, puzzle","Height":"500","Width":"750","LocalisedAssetUrl":"","LocalisedAltText":"","CanLike":"n","CanSendToAFriend":"n","Category":[{"Id":"502","Name":"Activity","InternalName":""}],"LocalizedProperty.Property.Code":"glc","LocalizedProperty.Property.Name":"Good Luck Charlie","GameType":"API 2.2","AssetPath":"http://catalogue.disneyinternational.com/res/images/catalogueAssets/FR-FR/CasualGame/1340372868044_475222_fr-FR.zip/draft/","AssetUrl":"/games/glc_spl_puz_spotthedifference/glc_spl_puz_spotthedifference.swf","KeyArt":"http://catalogue.disneyinternational.com/res/images/catalogueAssets/FR-FR/CasualGame/draft/1340372867929_470963_pro_gam_Good-Luck-Charlie_Spot-the-Difference_300x169.jpg","AltKeyArt":"http://catalogue.disneyinternational.com/res/images/catalogueAssets/FR-FR/CasualGame/draft/1340372868033_701752_pro_gam_Good-Luck-Charlie_Spot-the-Difference_300x169.jpg","LocalizedProperty.Name":"Bonne chance Charlie","BusinessUnit":[],"Segment":[{"Id":"1","Name":"Preschool"}],"HighScores":"n","Status":"D","Country.Code":"FR-FR","ItemType.Code":"CA","Scale":"exactfit","Wmode":"window"}]}});
+					});
+					$.xdVideo.init(videoContainerSelector, gameContainerSelector, configJson);
+				} catch(err){
+					throw new Error("Unsupported Flash version. Please upgrade Adobe Flash Player.");
+				}
+			});
+</script>
+
+
+</body>
+</html>

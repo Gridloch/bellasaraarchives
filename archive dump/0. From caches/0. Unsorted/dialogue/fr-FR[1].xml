@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc site="BLID" apiKey="3a5d5889bfbf4cd1ba4d79060c7a7919" locale="es-ES">
+<!-- Game.html -->
+<element id="gui.base.0001" englishCopy="Your browser doesn't support canvas. Please download IE9+ on">
+	<text><![CDATA[Ton explorateur ne supporte pas le canvas (HTML). Télécharge Internet Explorer 9 ou une version ultérieure]]></text>
+</element>
+<element id="gui.base.0002" englishCopy="Close">
+	<text><![CDATA[Fermer]]></text>
+</element>
+<element id="gui.base.0003" englishCopy="Paused">
+	<text><![CDATA[En pause]]></text>
+</element>
+<element id="gui.base.0004" englishCopy="Resume Game">
+	<text><![CDATA[Retourner au jeu]]></text>
+</element>
+<element id="gui.base.0005" englishCopy="Restart">
+	<text><![CDATA[Recommencer]]></text>
+</element>
+<element id="gui.base.0006" englishCopy="Help">
+	<text><![CDATA[Aide]]></text>
+</element>
+<element id="gui.base.0007" englishCopy="Return to Locations">
+	<text><![CDATA[Retourner aux endroits]]></text>
+</element>
+<!-- m_main_menu.html -->
+<element id="gui.elements.0001" englishCopy="Help the spellbinding students of Ever After High™ write their stories by finding hidden secrets in and around the school.">
+	<text><![CDATA[Aide les élèves enchanteurs d'Ever After High à écrire leur histoire en recherchant des secrets cachés dans l'école et aux alentours.]]></text>
+</element>
+<element id="gui.elements.0002" englishCopy="PLAY">
+	<text><![CDATA[JOUER]]></text>
+</element>
+<element id="gui.elements.0003" englishCopy="Log-in">
+	<text><![CDATA[S'identifier]]></text>
+</element>
+<element id="gui.elements.0004" englishCopy="To store your progress you need to log in.">
+	<text><![CDATA[Pour sauvegarder ta progression, tu dois t'identifier.]]></text>
+</element>
+<element id="gui.elements.0005" englishCopy="Play as a Guest">
+	<text><![CDATA[Jouer en tant qu'invité]]></text>
+</element>
+<!-- m_quest.html -->
+<element id="gui.elements.0006" englishCopy="Choose Your Chapter">
+	<text><![CDATA[Choisis ton chapitre]]></text>
+</element>
+<element id="gui.elements.0007" englishCopy="Cloaked in Mystery">
+	<text><![CDATA[Enveloppée de mystère]]></text>
+</element>
+<element id="gui.elements.0008" englishCopy="Natural Beauty">
+	<text><![CDATA[Beauté naturelle]]></text>
+</element>
+<element id="gui.elements.0009" englishCopy="Unlocking Secrets">
+	<text><![CDATA[Secrets dévoilés]]></text>
+</element>
+<element id="gui.elements.0010" englishCopy="A Magical Read">
+	<text><![CDATA[Une lecture magique]]></text>
+</element>
+<element id="gui.elements.0011" englishCopy="Page Ripper!">
+	<text><![CDATA[Merveilleux !]]></text>
+</element>
+<!-- m_quest_end_story.html -->
+<element id="gui.story.0001" englishCopy="Time to Spellebrate!">
+	<text><![CDATA[Il faut fêter ça !]]></text>
+</element>
+<element id="gui.story.0002" englishCopy="That was almost a major fairy-fail!  But now that Apple’s key is back in one piece, 
+				she can continue writing in her diary, knowing her spellbinding thoughts will remain just hers.">
+	<text><![CDATA[Cela a failli être un total désenchantement !  Mais à présent que la clé d'Apple est de nouveau en un seul morceau, elle peut reprendre l'écriture de son journal sans que les autres puissent le lire.]]></text>
+</element>
+<element id="gui.elements.0012" englishCopy="CONTINUE">
+	<text><![CDATA[CONTINUER]]></text>
+</element>
+<!-- m_quest_end_story_2.html -->
+<element id="gui.story.0003" englishCopy="Hexcellent job finding the hidden secrets!">
+	<text><![CDATA[Bravo, tu as trouvé les secrets cachés !]]></text>
+</element>
+<element id="gui.story.0004" englishCopy="With Good Magic for Evil Queens, Volumes 1-3, to spell it out for her, 
+				Raven can finally learn to cast spells without disastrous side effects…she hopes!">
+	<text><![CDATA[Grâce au Bon Usage de la Magie pour Méchantes Reines, Volumes 1-3, Raven peut finalement apprendre à lancer des sorts sans qu'il n'y ait de conséquences désastreuses... c'est ce qu'elle espère !]]></text>
+</element>
+<!-- m_quest_end_story_3.html -->
+<element id="gui.story.0005" englishCopy="Spellbinding Job!">
+	<text><![CDATA[Bien joué !]]></text>
+</element>
+<element id="gui.story.0006" englishCopy="Thronework is done, DJ N-Chant is in the house, and it’s time to blow the roof off Ever After High.">
+	<text><![CDATA[Les devoirs sont faits, DJ N-Chant est dans le château, c'est l'heure de faire vibrer les murs d'Ever After High !]]></text>
+</element>
+<!-- m_quest_location.html -->
+<element id="gui.elements.0013" englishCopy="Choose Your Location">
+	<text><![CDATA[Choisis l'endroit]]></text>
+</element>
+<element id="gui.elements.0014" englishCopy="Best Score:">
+	<text><![CDATA[Meilleur score :]]></text>
+</element>
+<element id="gui.elements.0015" englishCopy=">Kingdom Management Classroom">
+	<text><![CDATA[Salle de classe de Gestion de Royaume]]></text>
+</element>
+<element id="gui.elements.0016" englishCopy="The Enchanted Forest">
+	<text><![CDATA[La Forêt Enchantée]]></text>
+</element>
+<element id="gui.elements.0017" englishCopy="Castleteria">
+	<text><![CDATA[Cafétéria]]></text>
+</element>
+<!-- m_quest_location_2.html -->
+<element id="gui.elements.0018" englishCopy="Village of Book End">
+	<text><![CDATA[Village de Book End]]></text>
+</element>
+<element id="gui.elements.0019" englishCopy="Library">
+	<text><![CDATA[Bibliothèque]]></text>
+</element>
+<element id="gui.elements.0020" englishCopy="Vault of Lost Tales">
+	<text><![CDATA[Bibliothèque secrète]]></text>
+</element>
+<!-- m_quest_location_3.html -->
+<element id="gui.elements.0021" englishCopy="Science &amp; Sorcery Classroom">
+	<text><![CDATA[Salle de classe de Science et Sortilèges]]></text>
+</element>
+<!-- m_quest_story.html -->
+<element id="gui.story.0009" englishCopy="When Raven Queen™ tries to cast a spell to help her roommate Apple White™ find her missing diary key,
+				she accidentally shatters the key into three pieces that magically scatter in and around Ever After High.  Without the key, 
+				Apple’s secret thoughts about how to unlock her destiny are an open book for anyone to read. To keep her diary pages 
+				under lock and key, Apple sets out to find the missing key pieces.">
+	<text><![CDATA[Lorsque Raven Queen essaie de jeter un sort pour retrouver la clé du journal de sa camarade de chambre Apple White, elle brise accidentellement la clé en trois morceaux qui se sont dispersés dans Ever After High et aux alentours.  Sans la clé, les pensées secrètes d'Apple sont dévoilées à tout le monde. Pour maintenir les pages de son journal sous clé, Apple se met à la recherche des morceaux manquants.]]></text>
+</element>
+<!-- m_quest_story_2.html -->
+<element id="gui.story.0010" englishCopy="Raven Queen doesn’t like casting spells, but she’s starting to realize that if she had better control of her magic, 
+				she might be singing a different tune.  Then she’d be able to cast spells for anything she wanted. Maybe she’d even be able 
+				to use her magic for good. When Baba Yaga tells her about a trilogy of hextbooks called Good Magic for Evil Queens, 
+				she becomes hocus-focused on finding them.">
+	<text><![CDATA[Raven Queen n'aime pas jeter des sorts mais elle se rend compte que si elle avait une meilleure maîtrise de sa magie, elle pourrait changer d'avis sur le sujet.  Elle pourrait alors lancer des sorts pour tout ce qu'elle souhaite. Peut-être qu'elle pourrait même utiliser sa magie pour faire le bien. Lorsque Baba Yaga lui parle d'une trilogie de manuels scolaires appelés Du Bon Usage de la Magie pour Méchantes Reines, elle est devenue déterminée à les trouver.]]></text>
+</element>
+<!-- m_quest_story_3.html -->
+<element id="gui.story.0011" englishCopy="Maddie and Briar are joining forces to host a royally wicked pre-Legacy Day party.  
+				To make sure it’s a page-ripper, the girls are trying to book DJ N-Chant to spin muse-ic for the bash. 
+				There’s a lot to do before this epic spellebration can begin.">
+	<text><![CDATA[Maddie et Briar unissent leurs forces pour organiser un bal royalement génial avant le Jour de l'Héritage .  
+				Afin qu'il soit féeriquement merveilleux, les filles essaient d'engager le DJ N-Chant pour passer de la musique lors de la fête. 
+				Il y a beaucoup à faire avant de démarrer cette fête épique.]]></text>
+</element>
+<!-- m_tally_screen.html -->
+<element id="gui.elements.0026" englishCopy="Congratulations!!!">
+	<text><![CDATA[Félicitations !]]></text>
+</element>
+<element id="gui.elements.0027" englishCopy="Score">
+	<text><![CDATA[Score]]></text>
+</element>
+<!-- game.castleteria.json -->
+<element id="location.castleteria.0001" englishCopy="The final key piece is flying away toward Ever After High!">
+	<text><![CDATA[Le dernier morceau de clé s'envole vers Ever After High !]]></text>
+</element>
+<element id="location.castleteria.0002" englishCopy="Looks like it's heading for the Castleteria. And it's lunchtime!  Let's grab a bite while we search for the last missing piece.">
+	<text><![CDATA[On dirait qu'il se dirige vers la Cafétéria. Et c'est l'heure du déjeuner !  Allons manger quelque chose pendant que nous cherchons le dernier morceau manquant.]]></text>
+</element>
+<element id="location.castleteria.0003" englishCopy="I'm in the mood for a juicy, delish apple.">
+	<text><![CDATA[J'ai envie d'une bonne pomme bien juteuse.]]></text>
+</element>
+<element id="location.castleteria.0004" englishCopy="I could so go for a princess pea-butter sandwich.">
+	<text><![CDATA[Je prendrais bien un sandwich au beurre de petits pois.]]></text>
+</element>
+<!-- game.wishing_well.json -->
+<element id="location.wishing_well.0001" englishCopy="The magical trail seems to be continuing from the Kingdom Management classroom into the Enchanted Forest.">
+	<text><![CDATA[La piste magique semble partir de la salle de classe de Gestion de Royaume vers la Forêt Enchantée.]]></text>
+</element>
+<element id="location.wishing_well.0002" englishCopy="Apple!  I heard about the missing diary key disaster.  I'm here to help you hex out the Enchanted Forest for clues!">
+	<text><![CDATA[Apple  J'ai appris ce qui est arrivé à la clé du journal.  Je suis là pour t'aider à rechercher les indices dans la Forêt Enchantée !]]></text>
+</element>
+<element id="location.wishing_well.0003" englishCopy="Really? That's so charming of you!">
+	<text><![CDATA[Vraiment ? C'est tellement charmant de ta part !]]></text>
+</element>
+<element id="location.wishing_well.0004" englishCopy="Well, what are Best Friends Forever After for?">
+	<text><![CDATA[N'est-ce pas à ça que servent les meilleures amies pour la vie ?]]></text>
+</element>
+<!-- game.vault.json -->
+<element id="location.vault.0001" englishCopy="We have to go find Giles Grimm in the Vault of Lost Tales if we want the third book!">
+	<text><![CDATA[Nous devons trouver Giles Grimm dans la Bibliothèque secrète pour avoir le troisième livre !]]></text>
+</element>
+<element id="location.vault.0002" englishCopy="I'm glad I have you to translate, since Giles can only speak Riddlish!">
+	<text><![CDATA[Je suis contente que tu sois là pour traduire, puisque Giles peut seulement parler en Charadien !]]></text>
+</element>
+<element id="location.vault.0003" englishCopy="Settle no tea with no a then mismatch, goggle no oggle with a hole with no latch...">
+	<text><![CDATA[Pas de fumée sans feu ni d'omelettes sans casser d’œufs... ça signifie « Allons-y ! »]]></text>
+</element>
+<element id="location.vault.0004" englishCopy="That means - Let's go!">
+	<text><![CDATA[Cela signifie - Allons-y!]]></text>
+</element>
+<element id="location.vault.0005" englishCopy="Um...  I'll leave the talking to you!">
+	<text><![CDATA[Hum...  Je te laisse faire la conversation !]]></text>
+</element>
+<!-- game.plaza.json -->
+<element id="location.plaza.0001" englishCopy="I checked out the first book in the Good Magic for Evil Queens trilogy from the Library for you.">
+	<text><![CDATA[J'ai pris pour toi le premier volume Du Bon Usage de la Magie pour Méchantes Reines à la Bibliothèque.]]></text>
+</element>
+<element id="location.plaza.0002" englishCopy="Thanks, Maddie!  You're a wicked awesome Best Friend Forever After!">
+	<text><![CDATA[Merci Maddie !  Tu es la plus géniale des meilleurs amies pour la vie !]]></text>
+</element>
+<element id="location.plaza.0003" englishCopy="Want to go back to the Library with me and see if the other two are there?">
+	<text><![CDATA[Tu veux retourner à la Bibliothèque avec moi et voir si les deux autres volumes y sont ?]]></text>
+</element>
+<element id="location.plaza.0004" englishCopy="Oops!  There's my alarm. I almost forgot! Teatime!">
+	<text><![CDATA[Oups !  C'est mon alarme. J'avais presque oublié ! C'est l'heure du thé !]]></text>
+</element>
+<element id="location.plaza.0005" englishCopy="Okay, I'll meet you in the Library later!">
+	<text><![CDATA[Ok, on se retrouve à la Bibliothèque plus tard !]]></text>
+</element>
+<!-- game.plaza_b.json -->
+<element id="location.plaza.0006" englishCopy="I need a set of Imperial Gold turntables!  It's the only type that DJ N-Chant will mix on.">
+	<text><![CDATA[J'ai besoin de platines en Or Impérial !  C'est le seul modèle sur lequel DJ N-Chant peut mixer.]]></text>
+</element>
+<element id="location.plaza.0007" englishCopy="I'll help you, Briar. We can find all sorts of wonderlicious things in the Village of Book End.">
+	<text><![CDATA[Je vais t'aider, Briar. On peut trouver toutes sortes de choses merveilleuses dans le Village de Book End.]]></text>
+</element>
+<element id="location.plaza.0008" englishCopy="Let's pick up some hexcellent party supplies, too!">
+	<text><![CDATA[Allons aussi prendre d'excellentes décorations pour la fête !]]></text>
+</element>
+<element id="location.plaza.0009" englishCopy="Tea-rrific!  Let's go!">
+	<text><![CDATA[Thé-rrible !  Allons-y !]]></text>
+</element>
+<!-- game.library.json -->
+<element id="location.library.0001" englishCopy="Looks like Little Bo Peep lost her sheep again - in the Library!">
+	<text><![CDATA[Autant chercher une aiguille dans une botte de foin !]]></text>
+</element>
+<element id="location.library.0002" englishCopy="I've got to find the other two volumes of Good Magic for Evil Queens.">
+	<text><![CDATA[Je dois retrouver les deux autres volumes Du Bon Usage de la Magie pour Méchantes Reines.]]></text>
+</element>
+<element id="location.library.0003" englishCopy="Where are the other books? Sounds like a riddle waiting to be un-riddled!">
+	<text><![CDATA[Où sont les autres livres ? Cela m'a tout l'air d'une charade à résoudre !]]></text>
+</element>
+<element id="location.library.0004" englishCopy="One has already been checked out by Giles Grimm, and it's fairy, fairy overdue!">
+	<text><![CDATA[Un des livres a déjà été emprunté par Giles Grimm et il a vraiment dépassé la date de retour !]]></text>
+</element>
+<!-- game.library_b.json -->
+<element id="location.library.0005" englishCopy="Okay, the Imperial Gold turntables are set up and ready, and the spellbinding decorations look charming.">
+	<text><![CDATA[OK, les platines en Or Impérial sont fin prêtes et les décorations semblent féeriques.]]></text>
+</element>
+<element id="location.library.0006" englishCopy="All we need now is a royally retro record to get the party started.">
+	<text><![CDATA[Ce que nous avons besoin à présent c'est une musique royalement rétro pour donner le coup d'envoi de la fête !]]></text>
+</element>
+<element id="location.library.0007" englishCopy="The Library is sure to have some hexcellent beats for us to find!">
+	<text><![CDATA[Je suis sûre qu'il y a des morceaux de musique géniaux à la Bibliothèque.]]></text>
+</element>
+<element id="location.library.0008" englishCopy="Let's make like the white rabbit and hop to it before it's too late!">
+	<text><![CDATA[Faisons comme le lapin blanc et allons-y en sautillant avant qu'il ne soit trop tard !]]></text>
+</element>
+<!-- game.classroom.json -->
+<element id="location.classroom.0001" englishCopy="I'm sorry I broke your key, Apple.  Major fairy-fail!">
+	<text><![CDATA[Je suis désolée d'avoir cassé ta clé, Apple.  Total désenchantement !]]></text>
+</element>
+<element id="location.classroom.0002" englishCopy="Oh, Raven, it's spellbinding to see you finally taking your role as Evil Queen seriously!">
+	<text><![CDATA[Oh, Raven, c'est tellement merveilleux que tu prennes finalement ton rôle de Méchante Reine au sérieux !]]></text>
+</element>
+<element id="location.classroom.0003" englishCopy="There seems to be a magical trail leading from my diary.">
+	<text><![CDATA[On dirait qu'il y a une piste magique qui part de mon journal.]]></text>
+</element>
+<element id="location.classroom.0004" englishCopy="But you know I don't want to be the Evil Qu... Sigh! Nevermind.  If you follow the trail, it should lead to your key pieces.">
+	<text><![CDATA[Mais tu sais bien que je n'ai pas envie d'être la Méchante Rei... Soupir... Laisse tomber.  Si tu suis la piste, elle te mènera aux morceaux de ta clé.]]></text>
+</element>
+<element id="location.classroom.0005" englishCopy="Hexcellent! I might as well collect items I need for school while I'm here.">
+	<text><![CDATA[Excellent ! Tant que j'y suis, je ferais bien de ramasser les objets dont j'ai besoin pour l'école.]]></text>
+</element>
+<element id="location.classroom.0006" englishCopy="So what hextbooks do I need?  Check out my Mirror Blog to see my class schedule.">
+	<text><![CDATA[Alors, de quels manuels ai-je besoin ?  Regarde mon Mirror Blog pour connaître mon emploi du temps.]]></text>
+</element>
+<!-- game.classroom_b.json -->
+<element id="location.classroom.0007" englishCopy="Too bad class doesn't stop when you have a page-ripping party to plan!">
+	<text><![CDATA[Dommage que les cours ne soient pas annulés lorsqu'il y a une fête fantastique à organiser !]]></text>
+</element>
+<element id="location.classroom.0008" englishCopy="We've got to get to Science &amp; Sorcery class!">
+	<text><![CDATA[Nous devons aller au cours de Science et Sortilèges !]]></text>
+</element>
+<element id="location.classroom.0009" englishCopy="I finished my thronework last night.">
+	<text><![CDATA[J'ai terminé mon devoir hier.]]></text>
+</element>
+<element id="location.classroom.0010" englishCopy="Oh my grimm! Did I leave my thronework in my other hat?">
+	<text><![CDATA[Oh mince ! Est-ce que j'aurais laissé mon devoir dans mon autre chapeau ?]]></text>
+</element>
+<!-- Text from images -->
+<element id="gui.elements.0030" englishCopy="Finding Forever After">
+	<text><![CDATA[À la recherche d'une Fin Heureuse]]></text>
+</element>
+<element id="gui.elements.0031" englishCopy="Help Menu">
+	<text><![CDATA[Menu Aide]]></text>
+</element>
+<element id="gui.elements.0032" englishCopy="Toggle Sound ON/OFF">
+	<text><![CDATA[Activer/ désactiver le son.]]></text>
+</element>
+<element id="gui.elements.0033" englishCopy="Press this button to pause the game">
+	<text><![CDATA[Appuie sur ce bouton pour mettre le jeu en pause]]></text>
+</element>
+<element id="gui.elements.0034" englishCopy="This charming dragonfly will help you find hidden secrets when you get stuck">
+	<text><![CDATA[Cette charmante libellule t'aidera à trouver les secrets cachés si tu es bloquée.]]></text>
+</element>
+<element id="gui.elements.0035" englishCopy="This item bar features the hidden secrets that you must find in each location">
+	<text><![CDATA[Cette barre d'objets indique les secrets cachés que tu dois trouver dans chaque endroit.]]></text>
+</element>
+<element id="gui.elements.0036" englishCopy="This is your score for the location. The faster you find the hidden secrets, the higher your score gets">
+	<text><![CDATA[Ceci est ton score pour cet endroit. Plus vite tu trouves les secrets cachés, plus ton score est élevé.]]></text>
+</element>
+<element id="gui.elements.0037" englishCopy="This hourglass tracks the amount of time you have to find the hidden secrets.">
+	<text><![CDATA[Ce sablier t’indique le temps qu’il te reste pour trouver les secrets cachés.]]></text>
+</element>
+<element id="gui.elements.0038" englishCopy="Move your mouse around the location to reveal hidden secrets. Click on objects that match the shape of the hidden secret in your items bar.">
+	<text><![CDATA[Déplace ta souris dans l'endroit pour révéler les secrets cachés. Clique sur les objets qui ont la même forme que les secrets cachés de ta barre d'objets.]]></text>
+</element>
+<element id="gui.elements.0039" englishCopy="COMING SOON!">
+	<text><![CDATA[BIENTÔT DISPONIBLE !]]></text>
+</element>
+<element id="gui.elements.0040" englishCopy="Loading...">
+	<text><![CDATA[Chargement...]]></text>
+</element>
+<element id="gui.elements.0042" englishCopy="art/ui/pause.png">
+	<text><![CDATA[art/ui/pause_fr.png]]></text>
+</element>
+<element id="gui.elements.0043" englishCopy="art/html_generic/help_screen.png">
+	<text><![CDATA[art/html_generic/help_screen_fr.png]]></text>
+</element>
+<element id="gui.story.0012" englishCopy="Spelltacular! You have found the first rare hidden secret of this chapter.  There are two more to find.">
+	<text><![CDATA[Spectaculaire ! Tu as trouvé le premier secret caché de ce chapitre. Encore deux autres à trouver.]]></text>
+</element>
+<element id="gui.story.0013" englishCopy="Happily ever awesome! You have found all the rare hidden secrets of this chapter!">
+	<text><![CDATA[Fantastique ! Tu as trouvé le deuxième secret caché de ce chapitre !]]></text>
+</element>
+<element id="gui.elements.0044" englishCopy="You must play previous chapters first to unlock this one">
+	<text><![CDATA[Tu dois d'abord jouer aux chapitres précédents avant de pouvoir débloquer celui-ci.]]></text>
+</element>
+<element id="gui.elements.0045" englishCopy="Chapter locked">
+	<text><![CDATA[Chapitre bloqué]]></text>
+</element>
+<element id="gui.elements.0046" englishCopy="Coming Soon">
+	<text><![CDATA[Bientôt en ligne]]></text>
+</element>
+<element id="gui.elements.0047" englishCopy="This chapter will be available soon!">
+	<text><![CDATA[Chapitre bientôt disponible !]]></text>
+</element>
+<element id="gui.elements.0048" englishCopy="Location locked">
+	<text><![CDATA[Endroit bloqué]]></text>
+</element>
+<element id="gui.elements.0049" englishCopy="You must play previous locations first to unlock this location">
+	<text><![CDATA[Tu dois d'abord visiter les autres endroits avant de pourvoir débloquer celui-ci.]]></text>
+</element>
+<element id="gui.story.0014" englishCopy="Hexcellent! You have found the second rare hidden secret of this chapter.  There is one more to find.">
+	<text><![CDATA[Excellent ! Tu as trouvé le deuxième secret caché de ce chapitre.  Il y en a encore un autre à trouver.]]></text>
+</element>
+<element id="mm_logo" englishCopy="art/html_main_menu/main_screen_logo.png">
+	<text><![CDATA[art/html_main_menu/main_screen_logo_fr.png]]></text>
+</element>
+
+<!-- PHASE 2 TEXTS -->
+
+<!-- New Tally Screen texts -->
+<element id="gui.tally.0001" englishCopy="Spelltacular! You found all the hidden secrets but time ran out. Play again to find them faster!">
+	<text><![CDATA[Spectaculaire ! Tu as découvert tous les secrets cachés et le secret spécial avant que le temps ne s'écoule ! ]]></text>
+</element>
+<element id="gui.tally.0002" englishCopy="Hexcellent! You found all the hidden secrets before time ran out. Play again to find the rare hidden secret.">
+	<text><![CDATA[Spectaculaire ! Tu as découvert tous les secrets mais le temps est écoulé. Rejoue pour découvrir le secret spécial. ]]></text>
+</element>
+<element id="gui.tally.0003" englishCopy="Wicked awesome job! You found all the hidden secrets and the rare hidden secret before time ran out! Play again to earn more charms!">
+	<text><![CDATA[Rejoue ! Découvre tous les secrets cachés avant que le temps s'écoule pour gagner plus de pendentifs en or. ]]></text>
+</element>
+
+<!-- Loading Tips -->
+<element id="loading_p_tip_01"  englishCopy="NEED HELP? Click this charming dragonfly to help you find hidden secrets when you get stuck.">
+	<text><![CDATA[BESOIN D'AIDE ? Clique sur cette libellule qui t'aidera à trouver les secrets lorsque tu es bloquée ?]]></text>
+</element>
+<element id="loading_p_tip_02"  englishCopy="Click on marked objects to reveal secret places!">
+	<text><![CDATA[Clique sur les objets marqués pour découvrir des endroits secrets !]]></text>
+</element>
+<element id="loading_p_tip_03"  englishCopy="This hourglass tracks the amount of time you have to find the hidden secrets.">
+	<text><![CDATA[Ce sablier t’indique le temps qu’il te reste pour trouver les secrets cachés.]]></text>
+</element>
+<element id="loading_p_tip_04"  englishCopy="The bottom bar features the hidden secrets that you must find.">
+	<text><![CDATA[La barre ci-dessous montre les secrets cachés que tu dois trouver.]]></text>
+</element>
+
+<!-- Finish Quest Stories -->
+<element id="gui.end_story.title.0004" 	englishCopy="Wicked Awesome Job!">
+	<text><![CDATA[Super travail ! ]]></text>
+</element>
+<element id="gui.end_story.text.0004" 	englishCopy="Now Cerise Hood TM can wash her signature hooded cloak without worrying it will lose its magical powers. Some day soon, she hopes to howl from the Legacy Day podium that she's proud of her heritage.  But for now, she needs to protect her family and keep her story a secret.">
+	<text><![CDATA[Maintenant Cerise peut nettoyer sa cape rouge sans se soucier de perdre ses propriétés magiques. Elle espère bientôt pouvoir crier, de l'estrade du Jour de l'Héritage, qu'elle est fière de son héritage.  Mais pour le moment, elle doit protéger sa famille et garder son histoire secrète.]]></text>
+</element>
+<element id="gui.end_story.title.0005" 	englishCopy="Spellbinding Job!">
+	<text><![CDATA[Excellent travail ! ]]></text>
+</element>
+<element id="gui.end_story.text.0005" 	englishCopy="Ashlynn Ella TM has everything she needs for Legacy Day, as well as her pick of spellbinding shoes!  Now if only she could decide which charming pair to wear!">
+	<text><![CDATA[Ashlynn a tout ce qu'il lui faut pour le Jour de l'Héritage, y compris sa collection de spectaculaires chaussures !  Maintenant, si elle pouvait décider quelle paire porter !]]></text>
+</element>
+
+<!-- Location Names -->
+<element id="gui.quest04.loc01" 	englishCopy="Forest Road">
+	<text><![CDATA[Chemin de la Forêt Enchantée]]></text>
+</element>
+<element id="gui.quest04.loc02" 	englishCopy="Muse-ic Room">
+	<text><![CDATA[Salle de Muse-ique]]></text>
+</element>
+<element id="gui.quest04.loc03" 	englishCopy="Study Lounge">
+	<text><![CDATA[Salon d'Étude Rebels]]></text>
+</element>
+
+<element id="gui.quest05.loc01" 	englishCopy="Forest Road">
+	<text><![CDATA[Chemin de la Forêt Enchantée]]></text>
+</element>
+<element id="gui.quest05.loc02" 	englishCopy="Shoe Store">
+	<text><![CDATA[La Pantoufle de Verre]]></text>
+</element>
+<element id="gui.quest05.loc03" 	englishCopy="Legacy Day Plaza">
+	<text><![CDATA[Esplanade du Jour de l'Héritage]]></text>
+</element>
+
+<!-- Location stories -->
+<element id="gui.story.title.0004" 	englishCopy="Cloaked in Mystery">
+	<text><![CDATA[Enveloppée de mystère]]></text>
+</element>
+<element id="gui.story.text.0004" 	englishCopy="Cerise Hood TM wears her fave magic red cloak every day, not just to maintain a low profile but because it allows her to travel inside of and through shadows. To keep it looking spellbinding, she needs to get the cloak cleaned (even a fairytale with a secret wants to look fairest). However, she needs to make sure she doesn't washing away the cloak's magical qualities in the process. She must gather an assortment of ingredients for a spelltacular cleaning potion.">
+	<text><![CDATA[Cerise Hood™ porte sa cape rouge magique tous les jours, pas seulement pour faire profil bas mais aussi parce qu'elle lui permet de se fondre dans l'obscurité. Pour la garder impeccable, Cerise doit la faire nettoyer (même une légende de conte de fées cachant un secret veut rester enchanteresse). Mais elle doit s'assurer de ne pas enlever les propriétés magiques de la cape durant le nettoyage. Elle doit rassembler un assortiment d'ingrédients magiques pour concocter une spectaculaire potion nettoyante. ]]></text>
+</element>
+<element id="gui.story.title.0005" 	englishCopy="Natural Beauty">
+	<text><![CDATA[Beauté naturelle]]></text>
+</element>
+<element id="gui.story.text.0005" 	englishCopy="Legacy Day isn't exactly getting off on the right slipper for Ashlynn Ella TM. Before she can start getting fairest for the big ceremony, she's got to sign for a shipment of shoes at The Glass Slipper Shoe Store, and they’re fairy, fairy late.">
+	<text><![CDATA[Le Jour de l'Héritage ne part pas de la bonne pantoufle pour Ashlynn Ella™. Avant de pouvoir se préparer pour la cérémonie, elle doit signer le bon de livraison de chaussures à la Pantoufle de Verre et les oies postales sont très, très en retard. ]]></text>
+</element>
+
+<!-- In game texts -->
+
+<!-- game.forest_road.json -->
+<element id="location.forest_road.0001"	englishCopy="I really need to freshen up my magic red cloak." >
+	<text><![CDATA[J'ai vraiment besoin de donner un coup de frais à ma cape rouge.  ]]></text>
+</element>
+<element id="location.forest_road.0002"	englishCopy="With a little help from my Chemythstry book and some herbs from the Enchanted Forest Road, I'm going to make a cleaning potion that won't wash the magic from my spellbinding cloak." >
+	<text><![CDATA[Avec l'aide de mon manuel d'Alchimie et quelques herbes de la Forêt Enchantée, je vais concocter la potion nettoyante qui n'enlèvera pas les propriétés magiques de ma merveilleuse cape.  ]]></text>
+</element>
+<element id="location.forest_road.0003"	englishCopy="Time to start gathering the ingredients. I also need to find a magical bottle to store my concotion." >
+	<text><![CDATA[Il est temps de réunir les ingrédients. Je dois aussi trouver une bouteille magique pour contenir ma potion. ]]></text>
+</element>
+
+<!-- game.music_room.json -->
+			
+<element id="location.music_room.0001"	englishCopy="Before I mix my spelltacular potion, I've got to run like the wind over to the Muse-ic Classroom. I promised Raven Queen I'd help her with her thronework." >
+	<text><![CDATA[Avant de mélanger ma potion magique, il me faut courir aussi vite que le vent jusqu'à la salle de Muse-ique. J'ai promis à Raven Queen de l'aider avec son devoir. ]]></text>
+</element>
+<element id="location.music_room.0002"	englishCopy="Professor Piper will huff and puff if I turn in my thronework late again. I've got to find a magical assortment of instruments to complete my assignment.  Can you help me, Cerise?" >
+	<text><![CDATA[Professeur Hamelin va être de mauvaise humeur si je lui rends encore mon devoir en retard. Je dois trouver un assortiment magique d'instruments pour finir mon devoir.  Peux-tu m'aider Cerise ? ]]></text>
+</element>
+<element id="location.music_room.0003"	englishCopy="Sure, Raven.  And maybe there's a dropper somewhere in here for my potion, too." >
+	<text><![CDATA[Bien sûr Raven.  Et il y aura peut-être un récipient ici pour ma potion. ]]></text>
+</element>
+			
+<!-- game.stydy_loung.json -->
+<element id="location.study_lounge.0001"	englishCopy="I'll just flip my hood if I can't find the last few ingredients I need for my cleaning potion. I'm running over to the Rebel Study Lounge to see if I can find them there." >
+	<text><![CDATA[Ce serait à en perdre ma capuche si je ne trouvais pas les derniers ingrédients pour ma potion. Je vais aller au Salon d'Étude Rebels voir si je peux les trouver là-bas. ]]></text>
+</element>
+<element id="location.study_lounge.0002"	englishCopy="No one should be up this late studying, but if they are, I'll just use my cloak to hide in the shadows while I gather what I need." >
+	<text><![CDATA[Personne ne devrait encore être debout à étudier, mais si tel est le cas, j'utiliserais ma cape pour me fondre dans l'obscurité et réunir ce qu'il me faut. ]]></text>
+</element>
+		
+<!-- game.forest_road_b.json -->
+<element id="location.forest_road_b.0001"	englishCopy="Time to hocus focus and find my shoe delivery.  Maybe the postal geese went off course and they wound up in the Enchanted Forest!" >
+	<text><![CDATA[Il est temps de se concentrer et de trouver la livraison.  Les oies postales ont peut-être perdu le cap et se trouvent dans la Forêt Enchantée ! ]]></text>
+</element>
+<element id="location.forest_road_b.0002"	englishCopy="Don't worry, pumpkin! If we work together, we'll find the delivery in no time." >
+	<text><![CDATA[Ne t'inquiète pas ma citrouille ! Si on travaille ensemble, on trouvera la livraison en un rien de temps. ]]></text>
+</element>
+<element id="location.forest_road_b.0003"	englishCopy="My hero! I also seem to have misplaced my Legacy Day jewelry.  Total fairy-fail! The last time I remember seeing it, I was in the Enchanted Forest, so maybe it's there, too." >
+	<text><![CDATA[Mon héros ! Il semble que j'ai égaré mon coffret à bijoux.  Total désenchantement ! La dernière fois que je l'ai vu, j'étais dans la Forêt Enchantée, il s'y trouve peut-être.  ]]></text>
+</element>
+	
+<!-- game.show_store.json -->
+<element id="location.shoe_store.0001"	englishCopy="I've got all the missing shoes now, thanks to (sigh!) Hunter.  I just need to set the store up before I can start getting fairest." >
+	<text><![CDATA[J'ai enfin toutes les chaussures, grâce à (soupir) Hunter.  Il faut encore que j'installe le magasin avant de pouvoir me préparer. ]]></text>
+</element>
+<element id="location.shoe_store.0002"	englishCopy="Customer coming through." >
+	<text><![CDATA[Des clients arrivent.]]></text>
+</element>
+<element id="location.shoe_store.0003" 	englishCopy="Sorry, Briar. We're closed right now. I'm just getting the store ready." >
+	<text><![CDATA[Désolée Briar. On va fermer. Je ne fais que préparer la boutique. ]]></text>
+</element>
+<element id="location.shoe_store.0004"	englishCopy="I know, silly. I came to help you so you won't be late for Legacy Day.  I know what happens when you're even a minute late. POOF! Your outfit gets royally downgraded." >
+	<text><![CDATA[Je sais, dommage. Je suis venue t'aider pour que tu ne sois pas en retard pour le Jour de l'Héritage.  Je sais ce qui arrive lorsque tu as ne serait-ce qu'une minute de retard. "POUF !"]]></text>
+</element>
+<element id="location.shoe_store.0005"	englishCopy="You're wicked awesome!" >
+	<text><![CDATA[Tu es vraiment merveilleuse !]]></text>
+</element>
+
+<!-- game.legacy_plaza.json -->
+<element id="location.legacy_plaza.0001" 	englishCopy="I made it to the Legacy Day ceremony without a minute to spare.  But I'm still missing my last piece of jewelry." >
+	<text><![CDATA[Je suis arrivée à la Cérémonie du Jour de l'Héritage pile à l'heure.  Mais il me manque toujours la dernière pièce de mes bijoux. ]]></text>
+</element>
+  <element id="location.legacy_plaza.0002" englishCopy="It’s got to be here at the Plaza.  Good thing I’m here to save the day! I will help you find it." >
+    <text><![CDATA[Elle est forcément ici, sur l'Esplanade.  Heureusement que je suis là pour éviter la catastrophe. Je t'aiderai à la trouver. ]]></text>
+  </element>
+  <element id="location.legacy_plaza.0003" englishCopy="Thank you, Hunter. You’re my Prince Charming." >
+    <text><![CDATA[Merci Hunter. Tu es mon Prince Charmant. ]]></text>
+  </element>
+</doc>

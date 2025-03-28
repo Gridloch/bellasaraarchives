@@ -1,0 +1,63 @@
+﻿<root>
+    <config>
+        <libSubFolder><![CDATA[image_bibliotheque/]]></libSubFolder>
+        <saveBitmapScript><![CDATA[index.php/creation/save]]></saveBitmapScript>
+        <libelleVignette>vignette</libelleVignette>
+    </config>
+    <ateliers>
+        <atelier id="1">
+            <url_splash_screen><![CDATA[flash/ateliers/a_dessin/atelier_dessin.jpg]]></url_splash_screen>
+            <url_swf_app><![CDATA[flash/ateliers/a_dessin/atelier_dessin_app.swf]]></url_swf_app>
+            <url_swf_lib><![CDATA[flash/ateliers/a_dessin/atelier_dessin_lib.swf]]></url_swf_lib>
+            <config>
+                <text1><![CDATA[Sélectionne tes outils de créations]]></text1>
+                <text2><![CDATA[Dessine]]></text2>
+                <text3><![CDATA[Valide ton dessin et partage-le avec tes amis]]></text3>
+            </config>
+        </atelier>
+        <atelier id="2">
+            <url_splash_screen><![CDATA[flash/ateliers/a_fonddecran/atelier_fonddecran.jpg]]></url_splash_screen>
+            <url_swf_app><![CDATA[flash/ateliers/a_fonddecran/atelier_fonddecran_app.swf]]></url_swf_app>
+            <url_swf_lib><![CDATA[flash/ateliers/a_fonddecran/atelier_fonddecran_lib.swf]]></url_swf_lib>
+            <config>
+                <text1><![CDATA[Sélectionne tes outils de créations]]></text1>
+                <text2><![CDATA[Dessine, écris, insère les éléments depuis les bibliothèques]]></text2>
+                <text3><![CDATA[Valide et créer ton fond d'écran personnalisé]]></text3>
+            </config>
+        </atelier>
+        <atelier id="3">
+            <url_splash_screen><![CDATA[flash/ateliers/a_deformation/atelier_deformation.jpg]]></url_splash_screen>
+            <url_swf_app><![CDATA[flash/ateliers/a_deformation/atelier_deformation_app.swf]]></url_swf_app>
+            <url_swf_lib><![CDATA[flash/ateliers/a_deformation/atelier_deformation_lib.swf]]></url_swf_lib>
+            <config>
+                <text1><![CDATA[Insère ton image via ta webcam ou tes créations]]></text1>
+                <text2><![CDATA[Déforme-la avec les outils de déformations de l'atelier]]></text2>
+                <text3><![CDATA[Envoie ton image à tes amis]]></text3>
+            </config>
+        </atelier>
+        <atelier id="4">
+            <url_splash_screen><![CDATA[flash/ateliers/a_coloriage/atelier_coloriage.jpg]]></url_splash_screen>
+            <url_swf_app><![CDATA[flash/ateliers/a_coloriage/atelier_coloriage_app.swf]]></url_swf_app>
+            <url_swf_lib><![CDATA[flash/ateliers/a_coloriage/atelier_coloriage_lib.swf]]></url_swf_lib>
+            <config>
+                <evenementLibName>BibliothequeSousRubrique</evenementLibName>
+                <herosLibName>BibliothequeLibre</herosLibName>
+                <text1>Text1</text1>
+                <text2>Text2</text2>
+                <text3>Text3</text3>
+            </config>
+        </atelier>
+        <atelier id="5">
+            <url_splash_screen><![CDATA[flash/ateliers/a_ecard/atelier_ecard.jpg]]></url_splash_screen>
+            <url_swf_app><![CDATA[flash/ateliers/a_ecard/atelier_ecard_app.swf]]></url_swf_app>
+            <url_swf_lib><![CDATA[flash/ateliers/a_ecard/atelier_ecard_lib.swf]]></url_swf_lib>
+            <config>
+                <evenementLibName>BibliothequeSousRubrique</evenementLibName>
+                <herosLibName>BibliothequeLibre</herosLibName>
+                <text1>Text1</text1>
+                <text2>Text2</text2>
+                <text3>Text3</text3>
+            </config>
+        </atelier>
+    </ateliers>
+</root>

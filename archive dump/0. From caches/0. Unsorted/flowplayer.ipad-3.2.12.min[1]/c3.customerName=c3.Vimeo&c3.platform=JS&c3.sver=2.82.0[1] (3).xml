@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<livePassConfig ccsWallTimeSec="3965439" serviceConfigVersion="348443" >
+    <common>
+        <gateways>
+            <gateway protocolVersion="0" loadState="available">https://gwa.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gwb.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gwc.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gwd.lphbs.com</gateway>
+        </gateways>
+        <disableMonStats value="true"/>
+        <heartbeatInterval msecs="20000"/>
+        <heartbeatIntervalLightMs value="-1"/>
+        <heartbeatIntervalPauseMs value="-1"/>
+        <internalEventEnabled value="true"/>
+        <internalEventTokenBucketDepth value="35"/>
+        <joinHbDelayMs value="2000"/>
+        <jsModulePath value="https://livepassdl.conviva.com/ver/2.82.0.19066/LivePassModuleMain.js"/>
+        <modulePath>https://livepassdl.conviva.com/ver/2.82.0.19066/LivePassModuleMain.swf</modulePath>
+        <selectResourceIntervalMs value="40000"/>
+        <silverModulePath>https://livepassdl.conviva.com/ver/2.82.0.19066/LivePassModuleMain.dll</silverModulePath>
+        <traceOnSwitchDurationThresholdSec value="60"/>
+    </common>
+    <alternative name="id" affinity="10000">
+    </alternative>
+</livePassConfig>

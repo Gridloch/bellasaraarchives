@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configar>
+	<component name="UGContent">
+		<property name="isService" value="1"/>
+		<property name="maxImageWidth" value="640"/>
+		<property name="maxImageHeight" value="480"/>
+		<property name="maxPreviewWidth" value="320"/>
+		<property name="maxPreviewHeight" value="240"/>
+		<property name="maxDataSize" value="64"/>
+	</component>
+	<component name="Configurator">
+		<property name="debug" value="0"/>
+		<property name="logLevel" value="2"/>
+		<property name="portalGroup" value="2"/>
+		<property name="excludedSites" value="locked.dev.spilgames.com"/>
+		<property name="allowedDomains" value=".oyunskor.com,.zibbo.com,developer.stg.spilgames.com,gamedev.dev.spilgames.com,.girlsgogames.co.id,.oyunoyna.com,.permainan.co.id,.girlsgogames.com.tr,.permainan.co.id,.girlsgogames.com.tr,hyves-modules.nl,.facebook.com,.hyves.nl,.spillgroup.org,spilgames.eu,.spilgames.com,.a10.com,.agame.com,.girlsgogames.com,.games.co.uk,.mygames.co.uk,.girlsgogames.co.uk,.spel.nl,.spelletjes.nl,.girlsgogames.nl,.jetztspielen.de,.spielen.com,.girlsgogames.de,.jeux.fr,.jeu.fr,.girlsgogames.fr,.juegos.com,.juegos.com.ar,.juegos.mx,.zapjuegos.com,.juegosdechicas.com,.juegosdechicas.com.ar,.juegosdechicas.mx,.gioco.it,.giocaregratis.it,.girlsgogames.it,.gry.pl,.minigry.pl,.girlsgogames.pl,.spela.se,.spel.eu,.spel.se,.girlsgogames.se,.ojogos.pt,.ourgames.ru,.flashgames.ru,.girlsgogames.ru,.oyunlar123.com,.asoyun.com,.girlsgogamestr.com,.gamesgames.com,.agame.com,.girlsgogames.com,.juegos.com,.zapjuegos.com,.juegosdechicas.com,.ojogos.com.br,.clickjogos.com,.girlsgogames.com.br,.game.com.cn,.xiaoyouxi.com,.egames.jp,.game.co.in,.girlsgogames.in,.games.co.id,.laro.com.ph,.game.com.my,.onrpg.com,.zlonggames.com,.zlonggamestest.com,.zapapa.com,.zapapa.nl,.hyves.nl,.studivz.de,.studivz.net,.nasza-klaska.pl,.nk.pl,.giochi.it,.publishers.spilgames.com,.game.com.cn,.prv.a10.com,prv.a10.com,.gameplayer.io"/>
+		<property name="allowedConnectionDomains" value="developer.stg.spilgames.com,gamedev.dev.spilgames.com,.developer.spilgames.com.developer.richard.dev.mobidev.spillgroup.org,.hyves-modules.nl,.facebook.com,.hyves.nl,.agame.com,.zlonggames.com,.spilgames.com,.spilgames.eu,.publishers.spilgames.com"/>
+		<property name="servicePackURL" value="http://www8.agame.com/sdk/spilapi/flash/1_3_1_74/ServicePack.swf"/>
+		<property name="gameName" value="The Dark Monk"/>
+		<property name="serviceEnvironment" value="1"/>
+		<property name="apiLocation" value="http://www8.agame.com/sdk/spilapi/flash/1_3_1_74/ServicesConnection.swf"/>
+		<property name="chineseAvailable" value="0"/>
+		<property name="configarId" value="ed6375ea45c4523710921289cfe73010"/>
+		<property name="spilGameIds" value="152883"/>
+	</component>
+	<component name="Awards">
+		<property name="isService" value="1"/>
+		<property name="locale" value=""/>
+		<property name="iconData" value="0"/>
+		<property name="pageSize" value="0"/>
+		<property name="pageNumber" value="1"/>
+	</component>
+	<component name="BrandSystem">
+		<property name="url" value="http://www8.agame.com/sdk/spilapi/flash/1_3_1_74/BrandSystem.swf"/>
+		<property name="brandType" value="1"/>
+		<property name="brandFontsSrc" value="http://www8.agame.com/sdk/spilapi/localization/BrandLocalization.swf"/>
+		<property name="brandBarPermission" value="0"/>
+		<property name="gameLocalizationSrc" value=""/>
+		<property name="showBrandingBarLanguageSelect" value="true"/>
+		<property name="portalLinkEnabled" value="true"/>
+		<property name="copyrightLink" value="http://www.gameportal.net"/>
+		<property name="copyrightLinkEnabled" value="true"/>
+		<property name="portalLink" value="http://www.agame.com"/>
+		<property name="showBrandBarFromBottom" value="false"/>
+		<property name="reach" value="0"/>
+	</component>
+	<component name="Score">
+		<property name="isService" value="1"/>
+		<property name="order" value="0"/>
+		<property name="pageSize" value="1"/>
+		<property name="pageNumber" value="1"/>
+		<property name="isZapapa" value="false"/>
+	</component>
+	<component name="Data">
+		<property name="isService" value="1"/>
+		<property name="serviceEnvironment" value="1"/>
+	</component>
+	<component name="Avatar">
+		<property name="isService" value="1"/>
+		<property name="serviceEnvironment" value="1"/>
+	</component>
+	<component name="Friend">
+		<property name="isService" value="1"/>
+		<property name="serviceEnvironment" value="1"/>
+	</component>
+</configar>

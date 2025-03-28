@@ -1,0 +1,13 @@
+<script>
+function extractIt(s)
+{
+	return s.replace(/[^.0-9]/g, '');
+}
+
+var strDomain = "shared.live.com";
+if (location.protocol=="https:")
+	strDomain = "secure.shared.live.com";
+	
+document.write("<script src=\"" + location.protocol  + "//" + strDomain + "/xmlproxy.js?" + escape(extractIt(document.location.search.substring(1))) + "\"></" + "script>");
+
+</script>	

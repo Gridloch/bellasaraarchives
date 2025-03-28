@@ -1,0 +1,571 @@
+/*	COMMON CSS
+	Shared Themes CSS
+	$Id: //depot/projects/dylan/releases/rc_14_2/ubi/template/identity/adobe/screen/common.css#1 $
+*/
+
+/*--- BASE
+---*/
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body { 
+	font: 75%/1 Arial, Helvetica, sans-serif;
+	color: #333;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+div[id="layoutLogic"] {
+	clear: both;
+	min-height: 1em;
+}
+
+body div,
+body form {	_height: 1em;/*--- IE sub7 ---*/ }
+
+body * div { _height: auto;/*--- IE sub7 ---*/ }
+
+img { border: 0; }
+
+object {
+	position: relative; /*--- IE 6 clips an object when inside a container with negative margins ---*/
+}
+
+/*	FLASH PIXEL
+*/
+#flash-pixel { display: none; }
+
+/*---REPLACEMENT---*/
+
+.replace-text {
+	text-indent: -1000%;
+/*\*/
+	overflow: hidden;
+/**/
+	display: block;
+}
+
+.camel-case { word-spacing: -.5ex; }
+
+/*---PARAGRAPHS---*/
+p {
+	font-size: 1.083em;
+	line-height: 1.462;
+	margin-top: 0;
+	padding-bottom: 1px;
+	margin-bottom: 1.2em;
+}
+
+h4 img,
+p img {	vertical-align: middle; }
+
+/*---HEADERS---*/
+
+h1,
+h2 { font-weight: normal; }
+
+h3,
+h4,
+h5 { line-height: 1.31; }
+
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	font-size: 1.667em;
+	line-height: 1.2em;
+}
+
+h3 { 
+	font-size: 0.917em;
+	line-height: 1.455;
+	text-transform: uppercase;
+}
+
+h4 { 
+	font-size: 1.083em;
+	color: #111;
+} 
+
+h5 { font-size: 1em; }
+
+h4,
+h5 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*--- TEXT ALIGNMENT ---*/
+.txtleft { text-align: left; }
+
+.txtright { text-align: right; }
+
+.txtcenter { text-align: center; }
+
+/*	ANCHORS
+*/
+a { 
+	color: #069;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #246;
+	text-decoration: underline;
+}
+
+a.off,
+a:visited { color: #627282; }
+
+a.on,
+a:hover,
+a:visited:hover { color: #069; }
+
+
+a.noHover:hover,
+.noHover a:hover { text-decoration: none; }
+
+a .mask-a,
+a:hover .mask-a { color: #888888; }
+
+.user,
+.user a, 
+.author { color: #F60; }
+
+.editable a {
+	background-color: #def;
+	padding: 2px;
+	margin-right: 3px;
+}
+
+a.search-term, 
+a.search-term:visited,
+a.search-term:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.unlink,
+.unlink:link,
+.unlink:visited,
+.unlink:hover,
+.unlink:visited:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/*	NAV UP
+*/
+.nav-up {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 25px;
+	background: transparent url(icon/ascend.gif) no-repeat top right;
+}
+
+.nav-up a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	height: 16px;
+	width: 16px;
+	overflow: hidden;
+	text-indent: 16px;
+}
+
+.formBlock .nav-up a { text-indent: -1000px; }
+
+/*	BORDER
+*/
+.border { border: 1px solid; }
+
+img.border { border-color: #999999; }
+
+img.frame {
+	border-color: #424242;
+	outline-color: #CCC;
+}
+
+/*	PHRASE ELEMENTS
+*/
+code,
+kbd,
+pre,
+samp { /*\*/ font-family: "Courier New", Courier, monospace;/*/
+	font-family: Courier, monospace;
+/**/ }
+
+/*--- for Opera ---*/
+html>body code,
+html>body pre,
+html>body samp,
+html>body kbd {
+	font-size: 12px;
+	font-weight: inherit;
+}
+
+/*--- Panther Safari 1.1 and MacIE5 makes Courier New illegible ---*/
+code:empty,
+kbd:empty,
+pre:empty,
+samp:empty { font-family: Courier, monospace; }
+
+abbr,
+address,
+acronym,
+cite {
+	font-style: normal;
+	border-bottom-style: hidden;
+}
+
+acronym { font-size: 0.917em; }
+
+code,
+pre { color: #000; }
+
+pre { line-height: 1.333; }
+
+code { background-color: #E6F0FA; }
+
+del { color: #000; }
+
+blockquote { margin: 0 0 1.5em; }
+
+blockquote,
+address { line-height: 1.33; }
+
+blockquote.pullquote {
+	color: #333333;
+	border-top: 1px solid #ccc;
+	padding: 1.25em 0;
+}
+
+blockquote.pullquote span.author { color:#333; }
+
+blockquote.pullquote p {	
+	margin-bottom: 0.5em; 
+	font-size: 1.4em;
+}
+
+blockquote.pullquote .caption { font-size: 11px; }
+
+.indent { margin-left: 12.5%; }
+
+blockquote.indent { margin-bottom: 1.5em; }
+
+address { width: auto; }
+
+abbr { cursor: help; }
+
+sup { _margin-top: -.35em; }
+
+*:first-child+html sup { display: inline-block; }
+
+/*	CUSTOM PHRASE ELEMENTS
+*/
+
+.new {
+	color: #aa2222;
+	font-weight: bold;
+	font-size: .917em;
+	display: inline-block;
+	display: -moz-inline-box;
+	_display: inline;
+	_height: 1em;
+	position: relative;
+	top: -.5ex;
+}
+
+.caption {
+	color: #888;
+	margin-top: 0.8em;
+	font-size: 0.917em;
+	line-height: 1.3;
+}
+
+p.caption { margin-top: 0.5em; }
+
+.required { color: #CC0001; }
+
+.achtung,
+a.achtung:hover,
+a.achtung:visited { color: #aa2222; }
+
+
+.call-action,
+.rating { font-weight: bold; }
+
+.suggestion { font-weight: normal; }
+
+.msg-promo,
+.promoHeader { font-size: 1.58em; }
+
+.byline {	font-size: 0.917em; }
+
+.footnote,
+.note,
+.suggestion,
+.stamp-fileinfo,
+span.article-date,
+.stamp-date { color: #888; }
+
+.stamp-download { color: #6c6c6c; }
+
+.tag { border-bottom: 1px solid #ddd; }
+
+.strikeout { text-decoration: line-through; }
+
+.intro {
+	font-size: 16px;
+}
+
+.intro h2 {
+	font-size: 140%;
+	margin-bottom: .5ex;
+}
+
+
+/*	POINTER
+	require /ubi/template/identity/lib/style-nurse.htc
+	require "/lib/com.adobe/remedy/evaluateCss.util.js"
+*/
+
+.link-more:after { /* CSS-2 syntax for IE 8 */
+ content: ' \203a';
+}
+
+.link-more::after {
+ content: ' \203a';
+}
+
+.link-back:before {  /* CSS-2 syntax for IE 8 */
+ content: '\2039';
+ margin-right: 0.5ex;
+}
+
+.link-back::before {
+ content: '\2039';
+ margin-right: 0.5ex;
+}
+
+.link-more {
+	nurse: "$addTextToNode[ ›,after]";
+	behavior: url(/ubi/template/identity/lib/style-nurse.htc);
+}
+
+.link-back {
+	nurse: "$addTextToNode[‹ ,before]"; 
+	behavior: url(/ubi/template/identity/lib/style-nurse.htc);
+}
+
+/*	SWF ALTERNATIVE
+*/
+.static-messaging {
+	border: 1px solid #D3D3D3;
+	background: #f5f7f7;
+	padding: 5px 5px 10px;
+	margin: 0 auto 1em;
+	min-height: 1em;
+	_height: 1em;
+	text-align: center;
+}
+
+.static-messaging.p1 {		/*--- within a pod that is ---*/
+	border: none;
+	background-color: transparent;
+	padding: 0;
+	text-align: left;	
+}
+
+.p1.static-messaging .pod-body * { margin-bottom: 0; }
+.p1.static-messaging .pod-body .icon { padding-left: 26px; }
+
+/* CALLOUT BUTTON
+*/
+.download-button,
+button.callout-button,
+input.callout-button, 
+a.callout-button,
+button.callout-prominent,
+input.callout-prominent, 
+a.callout-prominent
+{ 
+	border: 1px solid;
+	border-color: #cf8700 #cc8503 #c78407 #ca8405;
+	font-weight: normal;
+	background-color: #FFB11A;
+	_background-color: #FFE066;
+	background-position: top left;
+	background-repeat: repeat-x;
+}
+
+button.callout-button,
+input.callout-button, 
+a.callout-button { 	background-image: url(form/calloutbutton_bg.png); }
+
+button.callout-prominent,
+input.callout-prominent, 
+a.callout-prominent { _background-color: #FFAA00; background-image: url(form/calloutbutton_prominent_bg.png); }
+
+a.callout-prominent { 
+	padding: .35em 6.5ex !important; 
+	*padding: 0.2em 8ex 0.25em !important;
+	_padding: .225em 8ex !important; 
+}
+
+input.callout-prominent {
+	padding: .25em 6.5ex !important; 
+	*padding: 0.2em 8ex 0.15em !important;
+	_padding: .3em 6.5ex .15em !important;
+}
+
+button.callout-prominent {
+	padding: .25em 6.5ex !important; 
+	*padding: 0.15em 8ex !important;
+	_padding: .15em 8ex .25em !important; 
+}
+
+
+
+
+/* DOWNLOAD BUTTON
+*/
+
+.download-button {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #ffc800 url(form/downloadbutton_bg.png) bottom left no-repeat;
+	_width/**/:1px;
+	_white-space: nowrap;
+	overflow: visible; /* fix button width for IE 5.5 to 7 */
+	cursor: pointer;
+	_cursor: hand;
+	vertical-align: middle;
+	zoom: 1;
+}
+.download-button-disabled { 
+    background: #838383 url(form/downloadbutton_disabled_bg.png) bottom left no-repeat !important;
+	border: 1px solid #838383;
+}
+
+.download-button-disabled, .download-button-disabled:hover, .download-button-disabled:visited, .download-button-disabled:visited:hover{
+color:#FFFFFF !important;
+}
+
+a.download-button {
+	padding: 7px 18px 8px 32px;
+	*padding: 8px 18px 7px 32px;
+	_padding: 7px 18px 8px 32px;
+	text-decoration: none !important;
+}
+
+button.download-button {
+	padding: 8px 18px 8px 32px;
+	*padding: 9px 18px 9px 32px;
+	_padding: 9px 18px 8px 32px;
+}
+
+p button.download-button {
+	padding: 5px 18px 7px 32px;
+	*padding: 6px 18px 5px 32px;
+	_padding: 6px 18px 5px 32px;
+}
+
+p input.download-button {
+	padding: 5px 18px 7px 32px;
+	*padding: 8px 18px 6px 32px;
+	_padding: 7px 18px 7px 32px;
+}
+
+.download-button,
+.download-button:hover, 
+.download-button:visited, 
+.download-button:visited:hover { color: #202020 }
+
+
+/* PRODUCTS/DOWNLOADS CLASSES
+*/
+#adobe-media-player-tip,
+#shockwave-player-tip { 
+	position: relative; 
+	top: 0.5em;
+	font-size: 0.917em;
+}
+
+#content-pocket .adobemediaplayer,
+#content-pocket .shockwave {
+	margin-top: -5px !important;
+	padding: 0 0 0 24px !important; 
+	min-height: 20px; 
+	_height: 20px;
+	display: block;
+} 
+
+#content-pocket .adobemediaplayer { background-image: url(icon/adobe_media_player_20x20.png); } 
+#content-pocket .shockwave { background-image: url(icon/shockwave_player_20x20.png); } 
+
+.licenseAgreement {
+	padding: 0.5em;
+	margin: 1em 0;
+	border: 1px solid;
+	border-color: #999 #abb1af #dadcdb #dadcdb;
+	height: 16em;
+	width: auto;
+	overflow: auto;
+}
+
+.stamp-fileinfo-fontsize{
+font-size:0.6em
+}
+.step-seperator{
+border-top:1px solid #B9B7B7;
+font-weight:bold;
+line-height:1.2em;
+margin-bottom:0;
+font-size:1.2em;
+line-height:1.455;
+color:#000000;
+margin-top:1.2em;
+}
+.step-title {
+background-color:#FFFFFF;	
+color:#878787;
+left:0;
+padding-right:0.4em;
+position:relative;
+top:-0.6em;
+}
+.prominant-box {
+background:#FFFFCC url(/downloadcenter/images/features/prominent-yellowbg.png) repeat-x scroll 0 0;
+border:1px solid #C7C7C7;
+height:auto;
+margin:0 0 1em;
+padding:1em;
+position:relative;
+width:auto;
+}
+.prominant-box-maxheight300 {
+background:#FFFFCC url(/downloadcenter/images/features/prominent-yellowbg_1X300.png) repeat-x scroll 0 0;
+border:1px solid #C7C7C7;
+height:auto;
+margin:0 0 1em;
+padding:1em;
+position:relative;
+width:auto;
+}
+
+.step-numbering {
+	font-size: 32px;
+	line-height: 1;
+	color: #333;
+}

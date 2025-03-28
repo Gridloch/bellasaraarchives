@@ -1,0 +1,2512 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie7"><![endif]-->
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html><!--<![endif]-->
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+        <meta charset="utf8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta property="portal:site:id" content="11"/>
+<meta property="portal:channel:id" content="1"/>
+<meta property="sg:type" content="portal"/>
+<meta name="description" content="jeux My Wonderful Farm gratuits pour tout le monde ! - Est-ce que semer des graines, arroser des plantes et récolter peut-être amusant ? Quelle question !"/>
+<meta name="keywords" content="My Wonderful Farm, jeux My Wonderful Farm en ligne, jeux My Wonderful Farm gratuits, jeux gratuits, jeux %1$s gratuits en ligne, jeu My Wonderful Farm, My Wonderful Farm gratuit"/>
+<meta property="portal:page:type" content="GP"/>
+<meta property="game:developer" content="Spil Games"/>
+<meta property="game:id" content="576742227280280882"/>
+<meta property="game:tags" content="Girls, Run a Farm"/>
+<meta name="twitter:card" content="summary"/>
+<meta property="og:type" content="game"/>
+<meta property="og:title" content="My Wonderful Farm"/>
+<meta property="og:image" content="http://static1.spilcdn.com/fa/200X120/3/8/146738/20091028032120_My-Wonderful-Farm.jpg"/>
+<meta property="og:image:width" content="200"/>
+<meta property="og:image:height" content="120"/>
+<meta property="og:description" content="Est-ce que semer des graines, arroser des plantes et récolter peut-être amusant ? Quelle question !"/>
+<meta property="game:type" content="flash"/>
+<meta property="og:site_name" content="jeux.fr"/>
+
+        <title>My Wonderful Farm - Jouez gratuitement à des jeux en ligne sur Jeux.fr</title>
+        
+        <link rel="canonical" href="/jeu/my-wonderful-farm">
+        
+        
+        
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        
+
+        
+        <script>
+            var SpilGames = function(a){return function(){a.push(arguments);return a}}(SpilGames||[]);
+        </script>
+        
+
+        
+
+        
+            <script>
+    (function (w, d) {
+        'use strict';
+        var hostKey = d.location.host.replace('www.', '').replace(new RegExp(/\./g), '-'),
+            errorKey,
+            accessAllowed = true,
+
+            getToken = function () {
+                var nameEQ = "token=",
+                    ca = d.cookie.split(';'),
+                    i = 0,
+                    c;
+
+                for (i; i < ca.length; i += 1) {
+                    c = ca[i];
+                    while (c.charAt(0) === ' ') { c = c.substring(1, c.length); }
+                    if (c.indexOf(nameEQ) === 0) { return unescape(c.substring(nameEQ.length, c.length)); }
+                }
+
+                return null;
+            },
+
+            getXhr = function () {
+                return function(s,a){for(a=[a="Msxml2.XMLHTTP",a+".3.0",a+".6.0"];;)try{s=a.pop();return new(s?ActiveXObject:XMLHttpRequest)(s)}catch(e){}}();
+            },
+
+            countError = function (logKey) {
+                var xhr = getXhr();
+
+                xhr.open('GET', '/gc/pb/?data[' + logKey + ']=1c', true);
+                xhr.send();
+            },
+
+            logKeys = function (data) {
+                if (!!w.JSON && !!JSON.parse) {
+                    var key,
+                        keyCount = w.localStorage.length,
+                        keyString = '',
+                        xhr = XMLHttpRequest ? new XMLHttpRequest() : getXhr(),
+                        corsReady,
+                        postData,
+                        endPoint = '//logs.spilgames.com/track/event/portal/';
+
+                    if ("withCredentials" in xhr) {
+                        xhr.open('POST', endPoint, true);
+                        corsReady = true;
+                    } else if (typeof XDomainRequest != 'undefined') {
+                        // < IE10...
+                        xhr = new XDomainRequest();
+                        xhr.open('POST', endPoint);
+                        corsReady = true;
+                    }
+
+                    if (corsReady) {
+
+                        for (key in w.localStorage) {
+                            if (w.localStorage.hasOwnProperty(key)) {
+                                keyString += key + ', ';
+                            }
+                        }
+
+                        postData = JSON.stringify({
+                            auth: {
+                                token: getToken() || 'noToken'
+                            },
+                            eventList: [{
+                                category: 'page',
+                                action: 'BugInspection',
+                                label: 'LocalStorage',
+                                properties: {
+                                    keyCount: keyCount,
+                                    keys: keyString.substring(0, keyString.length - 2),
+                                }
+                            }]
+                        });
+
+                        xhr.onprogress = xhr.ontimeout = xhr.onerror = xhr.onload = function () {};
+                        w.setTimeout(function () {
+                            xhr.send(postData);
+                        }, 0);
+                    }
+                }
+            },
+            keyPrefix = 'prod.syseng.performance.bugImpactInspector.' + hostKey + '.localStorage',
+            keyMap = {
+                accessDenied: keyPrefix + '.accessDenied',
+                unknown: keyPrefix + '.unknownException',
+                quotaExceeded: keyPrefix + '.quotaExceeded'
+            };
+
+        try {
+            w.localStorage;
+        } catch (error) {
+            accessAllowed = false;
+            if (error && error.code && 18 === parseInt(error.code, 10)) {
+                countError(keyMap.accessDenied);
+            }
+        }
+
+        if (accessAllowed && w.localStorage && w.localStorage.setItem) {
+            try {
+                w.localStorage.setItem('triggerException', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam est et tortor tempor ornare. Mauris aliquam aliquam odio, non lobortis mi malesuada ut. In nec tellus eu tellus euismod euismod. Curabitur cursus tortor sit amet nulla dapibus, quis venenatis tellus dignissim. Etiam rhoncus augue at semper convallis. Praesent condimentum mollis varius. Etiam vulputate cras amet.');
+                w.localStorage.removeItem('triggerException');
+            } catch (error) {
+                if (error && error.code) {
+                    switch (parseInt(error.code, 10)) {
+                    
+                    case 22:
+                        logKeys();
+                        errorKey = keyMap.quotaExceeded;
+                        break;
+
+                    case 1014: 
+                        if ('NS_ERROR_DOM_QUOTA_REACHED' === error.name) {
+                            logKeys();
+                            errorKey = keyMap.quotaExceeded;
+                        } else {
+                            errorKey = keyMap.unknown;
+                        }
+                        break;
+
+                    case 18:
+                        errorKey = keyMap.accessDenied;
+                        break;
+
+                    default:
+                        errorKey = keyMap.unknown;
+                    }
+
+                    countError(errorKey);
+                } else {
+                    if (error && error.number && -2147024882 === error.number) {
+                        
+                        logKeys();
+                        countError(keyMap.quotaExceeded);
+                    } else {
+                        countError(keyMap.unknown);
+                    }
+                }
+            }
+        }
+    }(window, window.document));
+</script>
+        
+
+        
+
+        <!--[if lt IE 9]><script>
+        //<![CDATA[
+        (function(a,b){function k(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function l(){var a=r.elements;return typeof a=="string"?a.split(" "):a}function m(a){var b=i[a[g]];return b||(b={},h++,a[g]=h,i[h]=b),b}function n(a,c,f){c||(c=b);if(j)return c.createElement(a);f=f||m(c);var g;return f.cache[a]?g=f.cache[a].cloneNode():e.test(a)?g=(f.cache[a]=f.createElem(a)).cloneNode():g=f.createElem(a),g.canHaveChildren&&!d.test(a)?f.frag.appendChild(g):g}function o(a,c){a||(a=b);if(j)return a.createDocumentFragment();c=c||m(a);var d=c.frag.cloneNode(),e=0,f=l(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function p(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(a){return r.shivMethods?n(a):b.createElem(a)},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+l().join().replace(/\w+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c("'+a+'")'})+");return n}")(r,b.frag)}function q(a){a||(a=b);var c=m(a);return r.shivCSS&&!f&&!c.hasCSS&&(c.hasCSS=!!k(a,"article,aside,figcaption,figure,footer,header,hgroup,nav,section{display:block}mark{background:#FF0;color:#000}")),j||p(a,c),a}var c=a.html5||{},d=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,e=/^<|^(?:a|b|button|code|div|fieldset|form|h1|h2|h3|h4|h5|h6|i|iframe|img|input|label|li|link|ol|option|p|param|q|script|select|span|strong|style|table|tbody|td|textarea|tfoot|th|thead|tr|ul)$/i,f,g="_html5shiv",h=0,i={},j;(function(){var a=b.createElement("a");a.innerHTML="<xyz></xyz>",f="hidden"in a,j=a.childNodes.length==1||function(){try{b.createElement("a")}catch(a){return!0}var c=b.createDocumentFragment();return typeof c.cloneNode=="undefined"||typeof c.createDocumentFragment=="undefined"||typeof c.createElement=="undefined"}()})();var r={elements:c.elements||"abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output progress section summary time video",shivCSS:c.shivCSS!==!1,supportsUnknownElements:j,shivMethods:c.shivMethods!==!1,type:"default",shivDocument:q,createElement:n,createDocumentFragment:o};a.html5=r,q(b)})(this,document)
+        //]]>
+        </script><![endif]-->
+
+        <link rel="stylesheet" type="text/css" href="/wdg/css_aggregator-3.7.4/css/family/theme.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/page_game-4.6.16/css/family/wdg_page_game.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/header-2.7.8/css/family/wdg_header.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/header_logo-1.9.1/css/family/wdg_header_logo.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/search_bar-2.6.6/css/family/wdg_search_bar.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/menu-1.15.4/css/family/wdg_menu.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/user_status-3.4.0/css/family/wdg_user_status.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/favourites_header-0.3.3/css/family/wdg_favourites_header.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/recently_played_header-1.1.2/css/family/wdg_recently_played_header.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/game_promotion_overlay-0.2.1/css/wdg_game_promotion_overlay.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/footer_container-2.8.3/css/family/wdg_footer_container.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/popup_register-2.13.6/css/family/wdg_popup_register.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/popup_register_feedback-0.3.1/css/family/wdg_popup_register_feedback.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/popup_login-3.6.1/css/family/wdg_popup_login.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/popup_oauth-0.11.3/css/wdg_popup_oauth.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/footer-2.5.6/css/family/wdg_footer.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/footertags-1.3.15/css/family/wdg_footertags.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/footer_blurb-2.2.3/css/family/wdg_footer_blurb.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/breadcrumb-1.11.5/css/teens/wdg_breadcrumb.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/rate-1.1.5/css/family/wdg_rate.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/game_info-2.6.2/css/family/wdg_game_info.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/game_comments-2.14.2/css/family/wdg_game_comments.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/recommended_games-3.4.4/css/family/wdg_recommended_games.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/game_side_panel-2.0.2/css/family/wdg_game_side_panel.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/game-5.19.4/css/wdg_game.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/game-5.19.4/css/family/wdg_game.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/game-5.19.4/css/family/wdg_game_ads.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/game-5.19.4/css/family/wdg_game_midroll.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/zoom_bar-1.3.0/css/family/wdg_zoom_bar.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/ad-1.0.5/css/wdg_ad.css"/>
+<link rel="stylesheet" type="text/css" href="/wdg/add_to_favorites-1.2.6/css/family/wdg_add_to_favorites.css"/>
+
+        <!--[if lt IE 9]>
+	<script type="text/javascript" src="/wdg/js_aggregator-5.7.4/js/es5-shim/es5-shim.min.js"></script>
+	<script type="text/javascript" src="/wdg/js_aggregator-5.7.4/js/es5-shim/es5-sham.min.js"></script>
+<![endif]-->
+<script>
+    
+    
+    var spilgames_api = {
+            channelid: '1',
+            siteid: '11',
+            apibase: 'http://static1.spilcdn.com/sa/3.4.25/1/11/js/'
+        };
+    
+    (function (document) {
+        
+        SpilGames(['SWP'], function (SWP) {
+            SWP.set('systemEvents', ['system.account.register.request','system.ad.midroll.start','system.ad.midroll.heartbeat','system.ad.midroll.finish','system.ad.preroll.heartbeat','system.ad.preroll.finish','system.ad.preroll.start','system.auth.login.remember','system.auth.login.request','system.auth.logout.request','system.avatar.update.current','system.popup.register.open','system.popup.register.feedback','system.popup.login.open','system.popup.oauth.open','system.popup.oauth.close','system.popup.closed','system.login.finished','system.rate.application.update','system.rate.creation.update','system.registration.finished','system.game.area.increase','system.game.area.decrease','system.game.sidepanel.show','system.game.update.highscore','system.game.update.achievement','system.game.update.gallery','system.game.update.highscore.failed','system.game.update.achievement.failed','system.game.update.gallery.failed','system.game.zoom.show','system.game.zoom.in','system.game.zoom.out','system.notification.update.amount','system.user.search.request','system.user.search.header','system.user.search.gopage','system.popup.friend_invite.open','system.popup.social_invite.open','system.popup.profile_creations.open','system.gi.portal.feedback','system.gi.error','system.gi.update','system.gi.warning','system.gi.userdata.failure','system.gi.userdata.ready','system.gi.game.show','system.gi.game.hide','system.features.detect','system.menu.toggle']);
+            SWP.set('eventConfig', {"widget.js_aggregator":{"listen":["system.auth.login.remember","system.auth.login.request","system.auth.logout.request","system.login.finished","system.registration.finished"],"emit":[]},"widget.add_to_favorites":{"listen":[],"emit":["system.popup.login.open","system.popup.register.open"]},"widget.ad":{"listen":["system.gi.update"],"emit":["system.ad.preroll.heartbeat","system.ad.preroll.finish","system.ad.preroll.start","system.ad.midroll.start","system.ad.midroll.heartbeat","system.ad.midroll.finish"]},"widget.zoom_bar":{"listen":["system.game.zoom.show"],"emit":["system.game.zoom.in","system.game.zoom.out"]},"widget.feature_collector":{"listen":["system.gi.portal.feedback","system.features.detect"],"emit":[]},"widget.game":{"listen":["system.game.zoom.in","system.game.zoom.out","system.ad.preroll.heartbeat","system.ad.preroll.start","system.ad.preroll.finish","system.popup.social_invite.open","system.popup.closed","system.gi.portal.feedback","system.gi.error","system.gi.update","system.gi.warning","system.gi.userdata.failure","system.gi.game.show","system.gi.game.hide","system.gi.userdata.ready","system.ad.midroll.heartbeat","system.ad.midroll.start","system.ad.midroll.finish","system.login.finished","system.registration.finished"],"emit":["system.game.zoom.show","system.game.area.increase","system.game.area.decrease","system.game.sidepanel.show","system.game.update.highscore","system.game.update.achievement","system.game.update.gallery","system.game.update.highscore.failed","system.game.update.achievement.failed","system.game.update.gallery.failed","system.popup.social_invite.open","system.popup.login.open","system.popup.register.open","system.gi.portal.feedback","system.gi.error","system.gi.update","system.gi.warning","system.gi.userdata.failure","system.gi.userdata.ready","system.ad.preroll.finish","system.ad.preroll.heartbeat","system.ad.midroll.heartbeat","system.ad.midroll.finish","system.gi.game.show","system.gi.game.hide"]},"widget.game_side_panel":{"listen":["system.game.sidepanel.show","system.game.update.highscore","system.game.update.achievement","system.game.update.gallery","system.game.update.highscore.failed","system.game.update.achievement.failed","system.game.update.gallery.failed","system.gi.game.show","system.gi.game.hide"],"emit":["system.popup.login.open","system.popup.register.open"]},"widget.payment_inclusions":{"listen":["system.payment.screen.open"],"emit":[]},"widget.recommended_games":{"listen":[],"emit":[]},"widget.game_comments":{"listen":[],"emit":["system.popup.register.open","system.popup.login.open"]},"widget.rate":{"listen":["system.rate.creation.update"],"emit":[]},"widget.footer_blurb":{"listen":[],"emit":[]},"widget.footer":{"listen":[],"emit":[]},"widget.popup_oauth":{"listen":["system.popup.oauth.open","system.popup.oauth.close"],"emit":["system.popup.oauth.open","system.popup.oauth.close","system.login.finished","system.popup.register.open","system.popup.register.feedback","system.registration.finished"]},"widget.popup_login":{"listen":["system.popup.login.open"],"emit":["system.popup.login.open","system.popup.oauth.open","system.auth.login.remember","system.auth.login.request","system.popup.register.open","system.popup.closed","system.gi.game.show","system.gi.game.hide"]},"widget.popup_register_feedback":{"listen":["system.popup.register.feedback"],"emit":["system.registration.finished"]},"widget.popup_register":{"listen":["system.account.register.request","system.popup.register.open"],"emit":["system.popup.oauth.open","system.account.register.request","system.popup.login.open","system.popup.register.feedback","system.gi.game.show","system.gi.game.hide","system.popup.closed"]},"widget.user_status":{"listen":["system.avatar.update.current","system.notification.update.amount"],"emit":["system.auth.login.request","system.auth.logout.request","system.popup.register.open","system.popup.login.open"]},"widget.search_bar":{"emit":["system.user.search.request"]},"widget.header":{"listen":["system.menu.toggle"],"emit":["system.menu.toggle"]},"widget.ads_banner":{"listen":["system.gi.update"],"emit":["system.ad.preroll.heartbeat","system.ad.preroll.finish","system.ad.preroll.start","system.ad.midroll.start","system.ad.midroll.heartbeat","system.ad.midroll.finish"]},"widget.page_game":{"listen":["system.game.area.increase","system.game.area.decrease","system.popup.social_invite.open"],"emit":["system.popup.social_invite.open"]}});
+            
+        });
+
+        
+        SpilGamesBootstrap = [[function () {
+            var jslib = this,
+                prefix = 'spilgames.set@spilgames';
+
+            jslib(prefix + '.module.import.namespaces', {});
+            jslib(prefix + '.module.portal.channelid', 1);
+            jslib(prefix + '.module.portal.siteid', 11);
+            jslib(prefix + '.module.spapi.backend', 'https://api.spilgames.com/');
+            jslib(prefix + '.portal.user.authenticated', 'false');
+            jslib(prefix + '.module.tracker.endpoint', 'http://logs.spilgames.com/lg/pb/1/ut/');
+            jslib(prefix + '.module.tracker.environment', 'live');
+
+        }]];
+
+        //  Used to async append a script to the head
+        var loadScript = function (src, callback) {
+            var s, r;
+
+            r = false;
+            s = document.createElement('script');
+            s.src = src;
+            s.async = true;
+            s.onload = s.onreadystatechange = function() {
+                if (!r && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+                    r = true;
+                    callback();
+                }
+            };
+            document.getElementsByTagName('head')[0].appendChild(s);
+        };
+
+        
+        SpilGames(['JSLib', 'Import'], function(JSLib, Import) {
+            JSLib.set('cookie.page.link', '');
+            var includes = [
+                '/wdg/js_aggregator-5.7.4/js/module/swp/DataValidator.js',
+'/wdg/js_aggregator-5.7.4/js/module/swp/gi.SWP.js',
+'/wdg/js_aggregator-5.7.4/js/module/swp/History.js',
+'/wdg/js_aggregator-5.7.4/js/module/swp/Social.js',
+'/wdg/js_aggregator-5.7.4/js/module/swp/SWP.js',
+'/wdg/js_aggregator-5.7.4/js/module/swp/SWPEvent.js',
+'/wdg/js_aggregator-5.7.4/js/module/swp/SWPUtils.js',
+'/wdg/js_aggregator-5.7.4/js/module/swp/System.js',
+'/wdg/js_aggregator-5.7.4/js/module/swp/Validators.js',
+'/wdg/js_aggregator-5.7.4/js/module/swp/Widget.js',
+'/wdg/js_aggregator-5.7.4/js/module/site/SPAPI.js',
+'/wdg/js_aggregator-5.7.4/js/module/site/Portal.js',
+'/wdg/js_aggregator-5.7.4/js/module/site/Game.js',
+'/wdg/js_aggregator-5.7.4/js/module/site/RemoteEvent.js',
+'/wdg/js_aggregator-5.7.4/js/module/ui/Placeholder.js',
+'/wdg/js_aggregator-5.7.4/js/module/codec/LightSWFObject.js',
+'/wdg/js_aggregator-5.7.4/js/module/dom/FeatureDetector.js',
+'/wdg/js_aggregator-5.7.4/js/module/dom/DOMSelect.js',
+'/wdg/js_aggregator-5.7.4/js/module/dom/DOMEvent.js',
+'/wdg/js_aggregator-5.7.4/js/module/codec/UTF8.js',
+'/wdg/js_aggregator-5.7.4/js/module/codec/JSON.js',
+'/wdg/js_aggregator-5.7.4/js/module/codec/Pack.js',
+'/wdg/js_aggregator-5.7.4/js/module/codec/Base64.js',
+'/wdg/js_aggregator-5.7.4/js/module/codec/Base64Url.js',
+'/wdg/js_aggregator-5.7.4/js/module/tracking/Tracker.js',
+'/wdg/js_aggregator-5.7.4/js/module/tracking/TrackerData.js',
+'/wdg/js_aggregator-5.7.4/js/module/tracking/EventTracker.js',
+'/wdg/js_aggregator-5.7.4/js/module/tracking/PageTracker.js',
+'/wdg/js_aggregator-5.7.4/js/module/tracking/Segmentation.js',
+'/wdg/js_aggregator-5.7.4/js/module/tracking/RefTag.js',
+'/wdg/js_aggregator-5.7.4/js/module/storage/LocalStorage.js',
+'/wdg/js_aggregator-5.7.4/js/module/storage/Cookie.js',
+'/wdg/js_aggregator-5.7.4/js/module/storage/Cache.js',
+'/wdg/js_aggregator-5.7.4/js/module/storage/Memory.js',
+'/wdg/js_aggregator-5.7.4/js/module/network/Net.js',
+'/wdg/js_aggregator-5.7.4/js/module/site/FormValidation.js',
+'/wdg/js_aggregator-5.7.4/js/module/site/Tooltip.js',
+'/wdg/js_aggregator-5.7.4/js/module/site/StopWatch.js',
+'/wdg/page_game-4.6.16/js/init.js',
+'/wdg/search_bar-2.6.6/js/init.js',
+'/wdg/user_status-3.4.0/js/init.js',
+'/wdg/recently_played_header-1.1.2/js/init.js',
+'/wdg/game_promotion_overlay-0.2.1/js/init.js',
+'/wdg/browser_capabilities_notification-0.1.3/js/init.js',
+'/wdg/popup_register-2.13.6/js/init.js',
+'/wdg/popup_register-2.13.6/js/module/PopupRegister.js',
+'/wdg/popup_register_feedback-0.3.1/js/modules/PopupRegisterFeedbackHelper.js',
+'/wdg/popup_register_feedback-0.3.1/js/modules/PopupRegisterFeedback.js',
+'/wdg/popup_register_feedback-0.3.1/js/init.js',
+'/wdg/popup_login-3.6.1/js/init.js',
+'/wdg/popup_oauth-0.11.3/js/init.js',
+'/wdg/popup_oauth-0.11.3/js/register.js',
+'/wdg/footer-2.5.6/js/init.js',
+'/wdg/footer-2.5.6/js/modules/SpilgamesZendesk.js',
+'/wdg/footer_blurb-2.2.3/js/init.js',
+'/wdg/rate-1.1.5/js/modules/RateApplication.js',
+'/wdg/rate-1.1.5/js/modules/RateCreation.js',
+'/wdg/rate-1.1.5/js/family/init.js',
+'/wdg/game_comments-2.14.2/js/modules/Emoticons.js',
+'/wdg/game_comments-2.14.2/js/modules/GameComments.js',
+'/wdg/game_comments-2.14.2/js/modules/TimeAgo.js',
+'/wdg/game_comments-2.14.2/js/init.js',
+'/wdg/recommended_games-3.4.4/js/init.js',
+'/wdg/payment_inclusions-2.2.3/js/module/payment/Shop.js',
+'/wdg/payment_inclusions-2.2.3/js/init.js',
+'/wdg/game_side_panel-2.0.2/js/init.js',
+'/wdg/game-5.19.4/js/components/gameplayer/dist/gameplayer.min.js',
+'/wdg/game-5.19.4/js/modules/SpapiIntegration.js',
+'/wdg/game-5.19.4/js/modules/GameEvents.js',
+'/wdg/game-5.19.4/js/init.js',
+'/wdg/feature_collector-0.1.4/js/init.js',
+'/wdg/zoom_bar-1.3.0/js/modules/BigScreen.js',
+'/wdg/zoom_bar-1.3.0/js/modules/Zoom.js',
+'/wdg/zoom_bar-1.3.0/js/init.js',
+'/wdg/ad-1.0.5/js/init.js',
+'/wdg/add_to_favorites-1.2.6/js/modules/Favorites.js',
+'/wdg/add_to_favorites-1.2.6/js/init.js',
+'/wdg/facebook_likebox-1.0.3/js/modules/beLazy.js',
+'/wdg/facebook_likebox-1.0.3/js/init.js'
+            ];
+            Import.file(includes, function() { JSLib.publish('spilgames.loaded'); });
+        });
+
+        
+        var scripts = [
+                
+                spilgames_api.apibase + 'spilgames.head.js',
+                
+                '/wdg/js_aggregator-5.7.4/js/core.js'
+                
+                , '/wdg/js_aggregator-5.7.4/js/UserStateControler.js'
+                
+            ],
+            loadCount = 0,
+            nrOfScripts = scripts.length,
+            i;
+
+        for (i = 0; i < nrOfScripts; i += 1) {
+            loadScript(scripts[i], function () {
+                ++loadCount;
+                if (loadCount === nrOfScripts) {
+                    SpilGames().init();
+                    
+                    SpilGames.Head.loadApi(); //old api for game developers
+                    
+                }
+            });
+        }
+    }(window.document));
+</script>
+
+
+        
+
+
+<!-- BEGIN Krux Control Tag for ".jeux.fr" -->
+<!-- Source: /controltag?confid=IJX_OPrC&site=.jeux.fr&edit=1 -->
+<script class="kxct" data-id="IJX_OPrC" data-timing="async" data-version="1.9" type="text/javascript">
+    window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+    (function(){
+         var k=document.createElement('script');k.type='text/javascript';k.async=true;
+         var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+         k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+         (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=IJX_OPrC";
+         var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+     }());
+</script>
+<!-- END Krux Controltag -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var _gaq=_gaq||[];
+var _gaTrackers=[];
+
+(function(w) {
+
+    var track_interval = 1000 * 60 * 5;
+
+    w.spilTracker = function(name,ua,domain) {
+        if (name !== "") {
+            name = name + ".";
+        }
+
+        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+
+        _gaTrackers.push(name);
+        _gaq.push (
+            [name+'_setAccount',ua],
+            [name+'_setAllowAnchor',true],
+            [name+'_setAllowLinker',true],
+            [name+'_setDomainName',domain],
+            [name+'_setAllowHash',false],
+            [name+'_setCustomVar', 3, 'widgetPlatform', 'true', 2],
+            [name+'_require', 'inpage_linkid', pluginUrl]
+        );
+
+        _gaq.push([name+'_trackPageview']);
+    }
+
+    w.spilEvent = function(category,action,label,value,opt_noninteraction) {
+        var totalTrackers = _gaTrackers.length;
+        for(var i=totalTrackers;i--;) {
+            _gaq.push([_gaTrackers[i]+'_trackEvent',category,action,label,value,opt_noninteraction]);
+        }
+    }
+
+    w.sendPageviewToAllTrackers = function() {
+        var domain = '.jeux.fr';
+        spilTracker('', 'UA-1553526-1', domain);
+        spilTracker('aggregated', 'UA-8223336-1', domain);
+    }
+
+    w.spilTrackInterval = function() {
+        spilEvent('time_on_page','5_minutes_interval');
+    }
+
+    w.startSpilIntervalTracker = function() {
+        window.setInterval(spilTrackInterval, track_interval);
+    }
+
+})(window);
+
+sendPageviewToAllTrackers();
+startSpilIntervalTracker();
+
+(function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+
+
+    </head>
+    <body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="takeover-wrapper">
+        <link rel="dns-prefetch" href="//adserver.adtech.de"/>
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com"/>
+<link rel="dns-prefetch" href="//ad4.liverail.com"/>
+<link rel="dns-prefetch" href="//t4.liverail.com"/>
+<link rel="dns-prefetch" href="//vox-static.liverail.com"/>
+<link rel="dns-prefetch" href="//cdn-static.liverail.com"/>
+<link rel="subresource" href="http://static1.spilcdn.com/vda/vendor/flowplayer/flowplayer-3.2.13.min.js">
+<link rel="subresource" href="http://static1.spilcdn.com/vda/vendor/flowplayer/flowplayer.commercial-3.2.18.swf">
+<link rel="subresource" href="http://static1.spilcdn.com/vda/vendor/flowplayer/flowplayer.rtmp-3.2.13.swf">
+<link rel="subresource" href="http://static1.spilcdn.com/vda/vendor/flowplayer/ova.swf">
+
+
+<script>
+	(function () {
+        window.AdPortal = window.AdPortal || {};
+        AdPortal.countryCode = 'FR';
+        AdPortal.deviceType = 'unknown';
+        window.AdFront = [];
+        AdPortal.AdSolution = (function (d, n, w) {
+            'use strict';
+            var isScriptLoaded = false,
+                observers = [],
+
+                onScriptLoaded = function () {
+                    isScriptLoaded = true;
+                    var observerCount = observers.length,
+                        i = 0;
+
+                    for (i; i < observerCount; i += 1) {
+                        observers[i].call();
+                    }
+                    observers = null;
+                },
+
+
+                loadScript = function (countryCode) {
+                    var scriptElement, firstScript = d.getElementsByTagName('script')[0],
+                        supportsAsyncAttr, calledBack, domId = 'vda',
+                        scriptElement = d.createElement('script'),
+                        adProviderTest = w.location.href.match(/(adProviderTest=[0-9a-zA-Z]*)/);
+
+                    if (d.getElementById(domId)) {
+                        return;
+                    }
+
+                    scriptElement.id = domId;
+                    scriptElement.src = '//static1.spilcdn.com/vda/pb/1/1/11?locale=fr-FR&country=FR&pagetype=games' + (adProviderTest && adProviderTest.length > 1 ? "&" + adProviderTest[1] : '');
+                    supportsAsyncAttr = scriptElement.async === true || "MozAppearance" in d.documentElement.style || w.opera;
+                    scriptElement.onreadystatechange = scriptElement.onload = function () {
+                        var state = scriptElement.readyState;
+                        if (!calledBack && (!state || (supportsAsyncAttr ? /complete/ : /loaded|complete/).test(state))) {
+                            calledBack = true;
+                            onScriptLoaded.call();
+                        }
+                    };
+                    firstScript.parentNode.insertBefore(scriptElement, firstScript);
+                };
+
+
+            loadScript.call(this);
+
+            return {
+                ready: function (observer) {
+                    if (!isScriptLoaded) {
+                        observers.push(observer);
+                    } else {
+                        observer.call();
+                    }
+                }
+            };
+        }(window.document, window.navigator, window));
+	}())
+</script>
+
+<script>
+SpilGames(['JSLib'], function(JSLib){
+    JSLib.set('portal.game_info',{
+        activity_img: "",
+        description: "Est-ce que semer des graines, arroser des plantes et récolter peut-être amusant ? Quelle question !",
+        id: 576742227280280882,
+        nicename: "",
+        title: "My Wonderful Farm"
+    });
+})
+</script>
+
+<div id="game_wrapper">
+
+    <header id="wdg_header" class="wdg_header">
+    <article class="wdg_header_logo unit">
+    <a href="/" target="">
+        <img src="/wdg/header_logo-1.9.1/img/11.png" alt="Jouez en ligne aux jeux gratuits sur Jeux.fr">
+    </a>
+    <h1>
+      Jouez en ligne aux jeux gratuits sur Jeux.fr
+    </h1>
+</article>
+    
+        <div class="mascot unit">
+            
+                <img src="/wdg/header-2.7.8/images/family/drago.png" width="88" height="77">
+            
+        </div>
+    
+    <article id="wdg_user_status" class="wdg-user-status">
+    <script>
+    SpilGames(['JSLib'], function(JSLib){
+        JSLib.set('wdg_user_status.is_user_logged_in', false);
+    })
+    </script>
+ 
+	<div class="guest-user-status">
+	    <a id="join-button-nav" class="link">ADH&Egrave;RE GRATUITEMENT</a>
+	    <span>ou</span>
+	    <a id="login-button-nav" class="btn small green">Se connecter</a>
+	</div>
+ 
+</article>
+    <article id="wdg_favourites_header" class="wdg_favourites_header dropdown-container">
+    <div class="dropdown-actify activity-icon">
+        <div class="secondary-button-bg" id="favorites-counter">
+            
+        </div>
+    </div>
+    <div class="dropdown-box">
+        
+            <h3 class="dropdown-fallback">Des favoris ? Tu n'en as encore aucun.</h3>
+            <p class="dropdown-fallback">Clique sur le bouton &#9829; sur la page d'un jeu pour l'ajouter &agrave; tes favoris.</p>
+        
+    </div>
+</article>
+    <article id="wdg_recently_played_header" class="wdg_recently_played_header dropdown-container is-empty">
+    <div class="dropdown-actify activity-icon">
+        <span class="unit-counter"></span>
+    </div>
+    <div class="dropdown-box">
+        <p class="dropdown-title activity-icon">Derniers jeux jou&eacute;s</p>
+        <ul>
+            <li class="dropdown-unit button-slider is-hidden">
+                <a href="/jeu/">
+                    <img data-src="http://static2.spilcdn.com/fa">
+                    <div class="dropdown-nutgraph info">
+                        <p class="title"></p>
+                        <p class="description"></p>
+                    </div>
+                    <div class="dropdown-button">Jouez maintenant</div>
+                </a>
+            </li>
+        </ul>
+        <p class="dropdown-fallback">Retrouve rapidement les derniers jeux auxquels tu as jou&eacute;: les 6 jeux les plus r&eacute;cents s'affichent dans cette liste.</p>
+    </div>
+</article>
+    <article class="wdg_search_bar">
+    <form id="search-form" method="get" action="/chercher/" class="searchbar" target="">
+        <input type="hidden" name="from" value="wdg_page_game">
+        <input type="text" id="search-term" name="searchTerm" placeholder="Recherche jeux..." title="Recherche jeux..." autocomplete="off">
+        <ul id="search-suggestions" class="search-suggestions contrast-list"></ul>
+        <input class="btn small" type="submit" value="Rechercher">
+    </form>
+</article>
+    <nav id="wdg_menu" class="wdg_menu menu-horizontal">
+    <ul>
+        
+            <li class="">
+                <a href="/" class="sprite-white reduce-size">ACCUEIL</a>
+                
+            </li>
+        
+            <li class=" moremenu">
+                <a href="/jeux/action" class="sprite-white reduce-size">ACTION</a>
+                
+                <ul class="more-list">
+                    
+                        <li><a href="/jeux/action/strategie" class="ellipsis sprite-white">Stratégie</a></li>
+                    
+                        <li><a href="/jeux/action/bomberman" class="ellipsis sprite-white">Bomberman</a></li>
+                    
+                        <li><a href="/jeux/action/tirer--lancer" class="ellipsis sprite-white">Tirer & Lancer</a></li>
+                    
+                        <li><a href="/jeux/action/guerre" class="ellipsis sprite-white">Guerre</a></li>
+                    
+                        <li><a href="/jeux/action/jeux-de-zombie" class="ellipsis sprite-white">Jeux de zombie</a></li>
+                    
+                        <li><a href="/jeux/action/worms" class="ellipsis sprite-white">Worms</a></li>
+                    
+                        <li><a href="/jeux/action/courir--tirer" class="ellipsis sprite-white">Courir & Tirer</a></li>
+                    
+                        <li><a href="/jeux/action/voler--tirer" class="ellipsis sprite-white">Voler & Tirer</a></li>
+                    
+                        <li><a href="/jeux/action/defense" class="ellipsis sprite-white">Défense </a></li>
+                    
+                        <li><a href="/jeux/action/destruction" class="ellipsis sprite-white">Destruction </a></li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li class=" moremenu">
+                <a href="/jeux/aventure" class="sprite-white reduce-size">AVENTURE</a>
+                
+                <ul class="more-list">
+                    
+                        <li><a href="/jeux/aventure/puzzle--courir" class="ellipsis sprite-white">Puzzle & Courir</a></li>
+                    
+                        <li><a href="/jeux/aventure/jeux-rpgs" class="ellipsis sprite-white">RPGs</a></li>
+                    
+                        <li><a href="/jeux/aventure/pointer--cliquer" class="ellipsis sprite-white">Pointer & Cliquer</a></li>
+                    
+                        <li><a href="/jeux/aventure/sauter--tirer" class="ellipsis sprite-white">Sauter & Tirer</a></li>
+                    
+                        <li><a href="/jeux/aventure/collecter--courir" class="ellipsis sprite-white">Collecter & Courir</a></li>
+                    
+                        <li><a href="/jeux/aventure/evasion" class="ellipsis sprite-white">Évasion</a></li>
+                    
+                        <li><a href="/jeux/aventure/collecter--voler" class="ellipsis sprite-white">Collecter & Voler</a></li>
+                    
+                        <li><a href="/jeux/aventure/scooby-doo" class="ellipsis sprite-white">Jeux de Scooby-Doo</a></li>
+                    
+                        <li><a href="/jeux/aventure/eviter--courir" class="ellipsis sprite-white">Éviter & Courir</a></li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li class=" moremenu">
+                <a href="/jeux/course" class="sprite-white reduce-size">COURSE</a>
+                
+                <ul class="more-list">
+                    
+                        <li><a href="/jeux/course/course-en-ville" class="ellipsis sprite-white">Course en ville</a></li>
+                    
+                        <li><a href="/jeux/course/course-en-montee" class="ellipsis sprite-white">Course en montée</a></li>
+                    
+                        <li><a href="/jeux/course/jeux-uphill-rush" class="ellipsis sprite-white">Jeux Uphill Rush</a></li>
+                    
+                        <li><a href="/jeux/course/jeux-de-monster-truck" class="ellipsis sprite-white">Jeux de Monster Truck</a></li>
+                    
+                        <li><a href="/jeux/course/course-de-circuits" class="ellipsis sprite-white">Course de circuits</a></li>
+                    
+                        <li><a href="/jeux/course/course-de-chevaux" class="ellipsis sprite-white">Course de chevaux</a></li>
+                    
+                        <li><a href="/jeux/course/conduite-et-cascades" class="ellipsis sprite-white">Conduite et cascades</a></li>
+                    
+                        <li><a href="/jeux/course/rallye" class="ellipsis sprite-white">Rallye</a></li>
+                    
+                        <li><a href="/jeux/course/course-en-moto" class="ellipsis sprite-white">Course en moto</a></li>
+                    
+                        <li><a href="/jeux/course/course-en-ligne" class="ellipsis sprite-white">Course en ligne</a></li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li class=" moremenu">
+                <a href="/jeux/filles" class="sprite-white reduce-size">FILLES</a>
+                
+                <ul class="more-list">
+                    
+                        <li><a href="/jeux/filles/beaute" class="ellipsis sprite-white">Beauté</a></li>
+                    
+                        <li><a href="/jeux/filles/quiz" class="ellipsis sprite-white">Quiz</a></li>
+                    
+                        <li><a href="/jeux/filles/decoration" class="ellipsis sprite-white">Décoration</a></li>
+                    
+                        <li><a href="/jeux/filles/jeux-de-cuisine-de-sara" class="ellipsis sprite-white">École de cuisine de Sara</a></li>
+                    
+                        <li><a href="/jeux/Cuisine/Cuisine" class="ellipsis sprite-white">Cuisine</a></li>
+                    
+                        <li><a href="/jeux/filles/gestion-de-temps" class="ellipsis sprite-white">Gestion de temps</a></li>
+                    
+                        <li><a href="/jeux/filles/gerer-une-ferme" class="ellipsis sprite-white">Gérer une Ferme</a></li>
+                    
+                        <li><a href="/jeux/filles/maquillage" class="ellipsis sprite-white">Maquillage</a></li>
+                    
+                        <li><a href="/jeux/filles/jeux-davatar" class="ellipsis sprite-white">Jeux d'avatar</a></li>
+                    
+                        <li><a href="/jeux/filles/garder-enfants-et-animaux" class="ellipsis sprite-white">Garder enfants et animaux</a></li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li class=" moremenu">
+                <a href="/jeux/jeux-de-societe" class="sprite-white reduce-size">JEUX DE SOCIÉTÉ</a>
+                
+                <ul class="more-list">
+                    
+                        <li><a href="/jeux/jeux-de-casino" class="ellipsis sprite-white">Jeux de casino</a></li>
+                    
+                        <li><a href="/jeux/jeux-de-societe/jeux-de-societe" class="ellipsis sprite-white">Jeux de Société</a></li>
+                    
+                        <li><a href="/jeux/jeux-de-societe/solitaire" class="ellipsis sprite-white">Solitaire</a></li>
+                    
+                        <li><a href="/jeux/jeux-de-societe/poker" class="ellipsis sprite-white">Poker</a></li>
+                    
+                        <li><a href="/jeux/jeux-de-societe/jeux-de-cartes" class="ellipsis sprite-white">Jeux de Cartes</a></li>
+                    
+                        <li><a href="/jeux/jeux-de-societe/bingo" class="ellipsis sprite-white">Bingo</a></li>
+                    
+                        <li><a href="/jeux/jeux-de-societe/dames" class="ellipsis sprite-white">Dames</a></li>
+                    
+                        <li><a href="/jeux/jeux-de-societe/tic-tac-toe" class="ellipsis sprite-white">Tic Tac Toe</a></li>
+                    
+                        <li><a href="/jeux/jeux-de-societe/roulette" class="ellipsis sprite-white">Roulette</a></li>
+                    
+                        <li><a href="/jeux/jeux-de-societe/jeux-de-freecell" class="ellipsis sprite-white">Jeux de Freecell</a></li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li class=" moremenu">
+                <a href="/jeux/multijoueurs" class="sprite-white reduce-size">MULTIJOUEURS</a>
+                
+                <ul class="more-list">
+                    
+                        <li><a href="/jeux/multijoueurs/jeux-sociaux" class="ellipsis sprite-white">Jeux Sociaux </a></li>
+                    
+                        <li><a href="/jeux/multijoueurs/jeux-dadresse-multijoueurs" class="ellipsis sprite-white">Jeux d'adresse multijoueurs</a></li>
+                    
+                        <li><a href="/jeux/multijoueurs/jeux-qplay" class="ellipsis sprite-white">Jeux Qplay </a></li>
+                    
+                        <li><a href="/jeux/multijoueurs/jeux-de-societe-multijoueurs" class="ellipsis sprite-white">Jeux de société multijoueurs</a></li>
+                    
+                        <li><a href="/jeux/multijoueurs/puzzles-multijoueurs" class="ellipsis sprite-white">Puzzles Multijoueurs</a></li>
+                    
+                        <li><a href="/jeux/multijoueurs/mmo" class="ellipsis sprite-white">MMO</a></li>
+                    
+                        <li><a href="/jeux/multijoueurs/sport-multijoueurs" class="ellipsis sprite-white">Sport Multijoueurs</a></li>
+                    
+                        <li><a href="/jeux/multijoueurs/action-multijoueur" class="ellipsis sprite-white">Action multijoueur</a></li>
+                    
+                        <li><a href="/jeux/multijoueurs/mondes-de-jeux" class="ellipsis sprite-white">Mondes de jeux</a></li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li class=" moremenu">
+                <a href="/jeux/puzzles" class="sprite-white reduce-size">PUZZLES</a>
+                
+                <ul class="more-list">
+                    
+                        <li><a href="/jeux/puzzles/mahjong" class="ellipsis sprite-white">Mahjong</a></li>
+                    
+                        <li><a href="/jeux/puzzles/series-de-3" class="ellipsis sprite-white">Séries de 3</a></li>
+                    
+                        <li><a href="/jeux/puzzles/3-in-a-row" class="ellipsis sprite-white">3-in-a-row</a></li>
+                    
+                        <li><a href="/jeux/puzzles/objets-caches" class="ellipsis sprite-white">Objets cachés</a></li>
+                    
+                        <li><a href="/jeux/puzzles/halloween" class="ellipsis sprite-white">Halloween</a></li>
+                    
+                        <li><a href="/jeux/puzzles/mots" class="ellipsis sprite-white">Mots</a></li>
+                    
+                        <li><a href="/jeux/puzzles/blocs-a-classer" class="ellipsis sprite-white">Blocs à classer</a></li>
+                    
+                        <li><a href="/jeux/puzzles/passage" class="ellipsis sprite-white">Passage</a></li>
+                    
+                        <li><a href="/jeux/puzzles/sudoku" class="ellipsis sprite-white">Sudoku</a></li>
+                    
+                        <li><a href="/jeux/puzzles/puzzle" class="ellipsis sprite-white">Puzzle</a></li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li class=" moremenu">
+                <a href="/jeux/reflexion" class="sprite-white reduce-size">RÉFLEXION</a>
+                
+                <ul class="more-list">
+                    
+                        <li><a href="/jeux/reflexion/viser--tirer" class="ellipsis sprite-white">Viser & Tirer</a></li>
+                    
+                        <li><a href="/jeux/reflexion/bubble-shooter" class="ellipsis sprite-white">Bubble Shooter</a></li>
+                    
+                        <li><a href="/jeux/reflexion/breakout" class="ellipsis sprite-white">Breakout</a></li>
+                    
+                        <li><a href="/jeux/reflexion/physique" class="ellipsis sprite-white">Physique</a></li>
+                    
+                        <li><a href="/jeux/reflexion/saint-valentin" class="ellipsis sprite-white">Saint-Valentin</a></li>
+                    
+                        <li><a href="/jeux/reflexion/sauter" class="ellipsis sprite-white">Sauter</a></li>
+                    
+                        <li><a href="/jeux/reflexion/pacman" class="ellipsis sprite-white">Pacman</a></li>
+                    
+                        <li><a href="/jeux/reflexion/chirurgie" class="ellipsis sprite-white">Chirurgie</a></li>
+                    
+                        <li><a href="/jeux/reflexion/eviter" class="ellipsis sprite-white">Éviter</a></li>
+                    
+                        <li><a href="/jeux/reflexion/parking" class="ellipsis sprite-white">Parking</a></li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li class=" moremenu">
+                <a href="#" class="sprite-white reduce-size">PLUS</a>
+                
+                <ul class="more-list">
+                    
+                        <li><a href="/jeux/nouveautes" class="ellipsis sprite-white">Nouveaux jeux</a></li>
+                    
+                        <li><a href="/jeux/populaires" class="ellipsis sprite-white">Jeux populaires</a></li>
+                    
+                        <li><a href="/jeux/mois-du-cheval" class="ellipsis sprite-white">Jeux pour le Mois du cheval</a></li>
+                    
+                        <li><a href="/jeux/series-de-3" class="ellipsis sprite-white">Séries de 3</a></li>
+                    
+                        <li><a href="/jeux/bubble-shooter" class="ellipsis sprite-white">Bubble Shooter</a></li>
+                    
+                        <li><a href="/jeux/jeux-sociaux" class="ellipsis sprite-white">Jeux Sociaux </a></li>
+                    
+                        <li><a href="/jeux/jeux-sur-telephone-et-tablette/jeux-sur-tablette-et-mobile" class="ellipsis sprite-white">Jeux sur tablette et mobile</a></li>
+                    
+                        <li><a href="/jeux/garder-enfants-et-animaux" class="ellipsis sprite-white">Garder enfants et animaux</a></li>
+                    
+                        <li><a href="/jeux/amour" class="ellipsis sprite-white">Amour</a></li>
+                    
+                        <li><a href="/jeux/habillage" class="ellipsis sprite-white">Habillage</a></li>
+                    
+                        <li><a href="/jeux/jeux-pour-enfants" class="ellipsis sprite-white">Jeux pour enfants</a></li>
+                    
+                        <li><a href="/jeux/coiffure" class="ellipsis sprite-white">Coiffure</a></li>
+                    
+                        <li><a href="/jeux/objets-caches" class="ellipsis sprite-white">Objets cachés</a></li>
+                    
+                        <li><a href="/jeux/mahjong" class="ellipsis sprite-white">Mahjong</a></li>
+                    
+                        <li><a href="/jeux/mmo" class="ellipsis sprite-white">MMO</a></li>
+                    
+                        <li><a href="/jeux/quiz" class="ellipsis sprite-white">Quiz</a></li>
+                    
+                        <li><a href="/jeux/gestion-de-temps" class="ellipsis sprite-white">Gestion de temps</a></li>
+                    
+                        <li><a href="/jeux/mots" class="ellipsis sprite-white">Mots</a></li>
+                    
+                        <li><a href="http://telechargement.jeux.fr" class="ellipsis sprite-white" target="_blank">Telechargement Jeux</a></li>
+                    
+                </ul>
+                
+            </li>
+        
+    </ul>
+</nav>
+
+</header>
+
+    <article id="wdg_game_promotion_customstyle" class="wdg_game_promotion_customstyle">
+    
+</article>
+
+    <article id="wdg_game_promotion_overlay" class="wdg_game_promotion_overlay">
+    
+</article>
+    <div id="game_background" class="clearfix">
+        <input id="gsp-width" type="hidden" value="226">
+        <input id="gsp-height" type="hidden" value="525">
+        <div id="sgAdLbGp728x90" style="display: block;">
+            <script>AdFront.push('sgAdLbGp728x90');</script>
+        </div>
+        <section class="game-wrapper subContent">
+
+            
+
+            <div class="mainContent">
+                <h1 class="box-title">My Wonderful Farm</h1>
+
+                <article id="wdg_breadcrumb" class="wdg_breadcrumb clearfix">
+	<ul class="breadcrumb">
+
+        
+		    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url">Accueil</a></li>
+        
+
+        
+            
+                
+                <li class="" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/jeux/filles" itemprop="url"><span itemprop="title">Jeux de Filles</span></a></li>
+                
+            
+                
+                <li class="" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/jeux/filles/gerer-une-ferme" itemprop="url"><span itemprop="title">Jeux Gérer une Ferme</span></a></li>
+                
+            
+                
+                <li class="active" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">My Wonderful Farm</span></li>
+                
+            
+        
+
+	</ul>
+</article>
+                <div class="box clear clearfix" id="game-area">
+                    <article id="wdg_add_to_favorites" class="wdg_add_to_favorites ui-tooltip-wrapper">
+	
+	<input type="hidden" id="atf-current-game" value="576742227280280882">
+	<div id="atf-default" class="atf-default atf-state">
+		<a href="#" class="btn-atf">
+			<div class="sprite-secondary">&nbsp;</div>
+	    </a>
+        <div class="ui-tooltip">Ajouter aux favoris</div>
+	</div>
+	<div id="atf-success" class="atf-state atf-added">
+		<div class="ui-tooltip">Ce jeu fait maintenant partie de tes favoris !</div>
+        <div class="sprite-secondary">&nbsp;</div>
+	</div>
+	<div id="atf-login" class="atf-state">
+        <div class="ui-tooltip">
+            <a href="#" id="atf-login-btn">Connecte-toi</a>
+            <span>ou</span>
+            <a href="#" id="atf-join-now">Inscris-toi</a>
+            <span>pour ajouter ce jeu &agrave; tes favoris.</span>
+        </div>
+        <div class="sprite-secondary">&nbsp;</div>
+	</div>
+	<div id="atf-error" class="atf-state">
+		<div class="ui-tooltip">Une erreur est survenue. R&eacute;essaie plus tard.</div>
+        <div class="sprite-secondary">&nbsp;</div>
+	</div>
+	
+</article>
+                    <div id="social-share" class="social-share">
+                        <span class="ui-tooltip-wrapper">
+                            <a class="social-share-btn facebook" href="#" target="_blank">Facebook</a>
+                            <div class="ui-tooltip">Partagez sur Facebook!</div>
+                        </span>
+                        <span class="ui-tooltip-wrapper">
+                            <a class="social-share-btn google" href="#" target="_blank">Google+</a>
+                            <div class="ui-tooltip">Partagez sur Google+!</div>
+                        </span>
+                        <span class="ui-tooltip-wrapper">
+                            <a class="social-share-btn twitter" href="#" target="_blank">Twitter</a>
+                            <div class="ui-tooltip">Partagez sur Twitter!</div>
+                        </span>
+                    </div>
+                    <article id="wdg_zoom_bar" class="wdg_zoom_bar is-hidden">
+    <a href="#" id="zoom-out" class="zoom-controls "><span class="zoomout"></span></a>
+    <a href="#" id="zoom-in" class="zoom-controls "><span class="zoomin"></span></a>
+    <a href="#" id="zoom-fullscreen" class="zoom-controls "><span class="fullscreen"></span></a>
+</article>
+                    <article id="wdg_rate" class="wdg_rate">
+   <h4 id="rate_application" class="is-hidden">&Eacute;valuer ce jeu!</h4>
+   <h4 id="rate_creation" class="is-hidden">&Eacute;valuer cette cr&eacute;ation!</h4>
+   <h4 id="user_rating" class="is-hidden">&Eacute;valuation d'utilisateur</h4>
+   <div id="item_rate">
+        
+        <div itemprop="aggregateRating" itemscope="itemscope" itemtype="http://schema.org/AggregateRating">
+            <meta itemprop="ratingValue" content="4.5">
+            <meta itemprop="ratingCount" content="2967">
+        </div>
+        
+        <form id="rate_form" method="get" action="">
+            <input type="hidden" name="type" value="application">
+            <input type="hidden" name="uid" value="288512682495271118">
+            
+            <input type="hidden" name="application_id" value="576742227280280882">
+            <input type="hidden" name="rating" value="9">
+            
+            <ul>
+                <li class="star" id="rate_2">
+                    <span class="star-msg is-hidden">Il est nul!</span>
+                </li>
+                <li class="star" id="rate_4">
+                    <span class="star-msg is-hidden">Je n'en suis pas fan.</span>
+                </li>
+                <li class="star" id="rate_6">
+                    <span class="star-msg is-hidden">Pas mal.</span>
+                </li>
+                <li class="star" id="rate_8">
+                    <span class="star-msg is-hidden">J'aime bien.</span>
+                </li>
+                <li class="star" id="rate_10">
+                    <span class="star-msg is-hidden">J'aime bien.</span>
+                </li>
+            </ul>
+    </form>
+    </div>
+    <p></p>
+    <p id="vote_confirmed" class="rate-info-msg is-hidden">Merci!</p>
+    <p id="vote_error" class="rate-info-msg is-hidden">Quelque chose n'a pas march&eacute; comme il faut. Essaye &agrave; nouveau plus tard</p>
+</article>
+
+                    <div id="sgAdPaGp150x36">
+                        <script>AdFront.push('sgAdPaGp150x36');</script>
+                    </div>
+
+                    <div id="wdg_game_side_panel" class="wdg_game_side_panel unit">
+    <ul class="gsp-tabs">
+
+        
+
+        
+
+        
+        <li class="gsp-tab gsp-tab--recommended">
+            <div class="gsp-notification">!</div>
+            <section>
+                <h2 class="gsp-tab__title">Suggestions</h2>
+                <div class="gsp-tab__content">
+                    <ul>
+                        
+                        <li class="media">
+                            <a href="bubble-shooter">
+                                <img class="media-thumb" src="http://static2.spilcdn.com/fa/120X90/3/8/11638/20090206133153_bubble-shooter.gif" alt="">
+                                <span class="media-title">Bubble Shooter</span>
+                            </a>
+                            <div class="tooltip">Rassemble et élimine rapidement les ballons de même couleur !</div>
+                        </li>
+                        
+                        <li class="media">
+                            <a href="super-ferme">
+                                <img class="media-thumb" src="http://static2.spilcdn.com/fa/cimg/thumbnails/120X90/9/8/150798/20140326101412_Super-Ferme.gif" alt="">
+                                <span class="media-title">Super Ferme</span>
+                            </a>
+                            <div class="tooltip">Prends-toi pour le seigneur des vaches et vis tes propres aventures laitières !</div>
+                        </li>
+                        
+                        <li class="media">
+                            <a href="galaxy-life">
+                                <img class="media-thumb" src="http://static2.spilcdn.com/fa/cimg/thumbnails/120X90/9/3/152793/20140113100212_Galaxy-Life.jpg" alt="">
+                                <span class="media-title">Galaxy Life</span>
+                            </a>
+                            <div class="tooltip">Mets sur pied une colonie spéciale dans l'espace où science-fiction rime avec mignon !</div>
+                        </li>
+                        
+                        <li class="media">
+                            <a href="mahjongcon">
+                                <img class="media-thumb" src="http://static2.spilcdn.com/fa/120X90/7/7/12677/00000000000000_mahjongcon.gif" alt="">
+                                <span class="media-title">MahJongCon</span>
+                            </a>
+                            <div class="tooltip">Cliquez sur des couples de carreaux identiques pour les enlever!</div>
+                        </li>
+                        
+                        <li class="media">
+                            <a href="super-royaume">
+                                <img class="media-thumb" src="http://static2.spilcdn.com/fa/cimg/thumbnails/120X90/4/3/153943/20140228094004_Super-Royaume.jpg" alt="">
+                                <span class="media-title">Super Royaume</span>
+                            </a>
+                            <div class="tooltip">Il était une fois, dans un royaume lointain... Mais attends, cette fois, c'est maintenant !</div>
+                        </li>
+                        
+                        <li class="media">
+                            <a href="kyodai-papillon">
+                                <img class="media-thumb" src="http://static2.spilcdn.com/fa/120X90/9/2/150592/20110601114046_Kyodai-papillon.jpg" alt="">
+                                <span class="media-title">Kyodai papillon</span>
+                            </a>
+                            <div class="tooltip">Papillonne de paire en paire dans ce jeu de correspondances colorées !</div>
+                        </li>
+                        
+                    </ul>
+                    <p class="gsp-options"><a href="/jeux/populaires">Plus de jeux</a></p>
+                </div>
+            </section>
+        </li>
+        
+
+    </ul>
+    <script>
+        SpilGames(['JSLib'], function(JSLib) {
+            JSLib.set('wdg_game_side_panel.app_token', "UwAB_wCPBAEAwZFTYM4ACwEAUza1_QgBAAAAAj0yc2dpZF8wNDAxMDBjMTkxNTM2MGNllhHM_kROoRLcXX7-aYR8ZHdusN-aMCBHttbNhyeT2E08_R4-7es_gw");
+        });
+    </script>
+</div>
+                    <div class="content-flex box-content">
+                        
+                            <article id="wdg_game" class="wdg_game">
+    <div id="game-integration">
+        <div id="backgroundScreen"></div>
+        <div class="gameIntegrationFeedbackScreen activeFeedbackScreen" id="defaultLoadingScreen">
+            <div class="game-accessibility">
+                
+                    <img src="/wdg/game-5.19.4/img/family/11.png">
+                
+                <img src="/wdg/game-5.19.4/img/family/loader.gif" class="feedback-icon">
+
+                <p class="first">
+                Lancement du jeu&#8230;
+      </p>
+            </div>
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="waitingForUserData">
+            <div class="game-accessibility">
+                
+                    <img src="/wdg/game-5.19.4/img/family/11.png">
+                
+                <img src="/wdg/game-5.19.4/img/family/loader.gif" class="feedback-icon">
+
+                <p class="first">
+                Ton jeu va d&eacute;marrer dans quelques secondes !
+      </p>
+            </div>
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="userDataNotResponding">
+            <div class="game-accessibility">
+                
+                    <img src="/wdg/game-5.19.4/img/family/11.png">
+                
+                <img src="/wdg/game-5.19.4/img/family/loader.gif" class="feedback-icon">
+                <p class="first">
+                C'est plus long que d'habitude...
+      </p>
+                <p>
+                Est-ce que tu veux continuer d'attendre ou <a href="?">recharger le jeu</a>?
+      </p>
+            </div>
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="userDataMissing">
+            <div class="game-accessibility">
+                <img src="/wdg/game-5.19.4/img/family/error_icon.png" class="feedback-icon">
+                <p class="first">
+                Oups, une erreur s'est produite. <a href="?">R&eacute;essaie !</a>
+      </p>
+            </div>
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="errorLoadingGame">
+            <div class="game-accessibility">
+                <img src="/wdg/game-5.19.4/img/family/error_icon.png" class="feedback-icon">
+                <p class="first">
+                Oups, une erreur s'est produite lors du chargement de ton jeu. <a href="?">R&eacute;essaie !</a>
+      </p>
+            </div>
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="missingPlugin">
+            <div class="game-accessibility">
+                <img src="/wdg/game-5.19.4/img/family/error_icon.png" class="feedback-icon">
+
+                <p class="first">
+                Il te faut <a href="http://get.adobe.com/flashplayer/" target="_blank">ce plug-in</a> pour jouer &agrave; ce jeu.
+      </p>
+            </div>
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="sgAdOgGp300x250">
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="midrollLoadingScreen">
+            <div class="game-accessibility">
+                
+                    <img src="/wdg/game-5.19.4/img/family/11.png">
+                
+                <img src="/wdg/game-5.19.4/img/family/loader.gif" class="feedback-icon">
+
+                <p class="first">
+             Tu pourras continuer de jouer gratuitement &agrave; ce jeu apr&egrave;s le message de notre partenaire!
+      </p>
+            </div>
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="loadingDomObjectGame">
+            <div class="game-accessibility">
+                
+                    <img src="/wdg/game-5.19.4/img/family/11.png">
+                
+
+                <div id="progress-container" class="progress-container">
+                    <div id="progress-bar" class="progress-bar">
+                        <span id="progress-stripes" class="progress-stripes"></span>
+                    </div>
+                </div>
+                <p class="first">
+                Chargement du jeu...
+      </p>
+                
+            </div>
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="loadingIframeGame">
+            <div class="game-accessibility">
+                
+                    <img src="/wdg/game-5.19.4/img/family/11.png">
+                
+                <img src="/wdg/game-5.19.4/img/family/loader.gif" class="feedback-icon">
+
+                <p class="first">
+                Chargement du jeu...
+      </p>
+            </div>
+        </div>
+        <div class="gameIntegrationFeedbackScreen" id="missingFeature">
+            <div class="game-accessibility">
+                <img src="/wdg/game-5.19.4/img/family/error_icon.png" class="feedback-icon">
+                <p class="first">
+          Ce jeu fait appel &agrave; de nouvelles fonctionnalit&eacute;s de navigation que votre navigateur ne prend pas en charge.<br>
+          Pour un r&eacute;sultat optimal, merci d'utiliser la <a href="//www.google.com/chrome/">derni&egrave;re version de Chrome</a>.
+      </p>
+            </div>
+        </div>
+        <div id="videoPreroll300x250" class="gameIntegrationFeedbackScreen wdg-game-ads-preroll">
+            <script>
+                if(window.AdFront) {
+                    AdFront.push('videoPreroll300x250');
+                }
+            </script>
+        </div>
+
+        <div class="gameIntegrationFeedbackScreen" id="theGame">
+            
+            <div id="gamepreloader"></div>
+            <div id="flashgame"></div>
+            <noscript>
+                <style>
+                    #wdg_game #defaultLoadingScreen { top: -2000px; }
+                    #wdg_game #theGame { top: 0; }
+                </style>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%">
+                    <param name="movie" value="http://www8.agame.com/games/flash/m/my_wonderful_farm/my_wonderful_farm.swf">
+                    <param name="base" value="http://www8.agame.com/games/flash/m/my_wonderful_farm/my_wonderful_farm.swf"> <!-- CHECK THIS VALUE!!!! (NB: if should be 'currentGameRoot') -->
+                    <param name="quality" value="autolow">
+                    <param name="wmode" value="direct">
+                    <param name="bgcolor" value="#ffffff">
+                    <param name="flashvars" value="id=146738&amp;s=11&amp;c=1">
+                    <!--[if !IE]>-->
+                    <object type="application/x-shockwave-flash" data="http://www8.agame.com/games/flash/m/my_wonderful_farm/my_wonderful_farm.swf" width="100%" height="100%">
+                        <!--<![endif]-->
+                        <p>
+               Lancement du jeu...
+      </p>
+                        <!--[if !IE]>-->
+                        <param name="base" value="http://www8.agame.com/games/flash/m/my_wonderful_farm/my_wonderful_farm.swf">
+                        <param name="quality" value="autolow">
+                        <param name="wmode" value="direct">
+                        <param name="bgcolor" value="#ffffff">
+                        <param name="flashvars" value="id=576742227280280882&amp;s=11&amp;c=1">
+                    </object>
+                    <!--<![endif]-->
+                </object>
+            </noscript>
+            
+        </div>
+        <script>
+            //
+            SpilGames(['JSLib', 'SWPEvent'], function(JSLib, SWPEvent) {
+                
+                var gameUrl = 'http://www8.agame.com/games/flash/m/my_wonderful_farm/my_wonderful_farm.swf'.replace('###CACHE_PP###', '');
+                    getRoot = function(url) {
+                        var rgx = /^(.*)\/\w+.swf$/;
+                        return rgx.exec(url);
+                    },
+                    currentGameRoot = getRoot(gameUrl);
+                
+
+                JSLib.set('widget.game.current.version', '5.19.4');
+                JSLib.set('current.game.integration.info', {
+                    game: {
+                        info: {
+                            title: "My Wonderful Farm",
+                            uri: "my-wonderful-farm",
+                            thumbnail: "/120X90/3/8/146738/20091028032114_My-Wonderful-Farm.gif",
+                            description: "Est\u002Dce que semer des graines, arroser des plantes et récolter peut\u002Dêtre amusant ? Quelle question !"
+                        },
+                        type: 'DomObject',
+                        
+                        needs: 'preliminaryAuth',
+                        
+                        achievements: false,
+                        highscores: false,
+                        recommendedGames: true,
+                        gameSidePanel: true,
+                        spapiIntegration: false,
+                        objectSettings: {
+                        
+                            quality: 'autolow',
+                            base: (currentGameRoot && currentGameRoot[1]) ? currentGameRoot[1] + '/' : '',
+                            wmode: 'direct',
+                            
+                                allowFullScreen: false,
+                            
+                            
+                                width: '600px',
+                                height: '450px',
+                            
+                            movie: gameUrl,
+                            domId: 'flashgame',
+                            scale: 'showall',
+                            flashvars: 'id=146738&s=11&c=1' ,
+                            
+                                bgcolor: '#FFFFFF',
+                            
+                            allowScriptAccess: 'always',
+                            scalable: 'false'
+                        
+                        },
+                        
+                        
+                        preloader: {
+                            src: 'http://static1.spilcdn.com/gamepreloader.swf',
+                            domId: 'gamepreloader'
+                        }
+                        
+                    },
+                    hooks: {
+                        // TODO: instead of triggering hooks, send events that other widgets can pick up
+                        //       so not all logic ends up in this widget "ex: SWPEvent.emit('onPrerollFinish')"
+                        onPrerollFinish: function(d) {
+                            var integrationWrapper = document.getElementById('game-integration');
+                            if (integrationWrapper) {
+                                
+                                integrationWrapper.style.height = 'auto'; // this is a hack for preroll
+                                
+                            }
+                        },
+                        onDisplayGame: function(d) {
+                            // Add class "game-loaded" when game is integrated
+                            var wdg_game = document.getElementById('wdg_game');
+                            if (wdg_game) {
+                                wdg_game.className += ' game-loaded';
+                            }
+
+                            
+
+                            
+                                //show the zoombar
+                                SWPEvent.emit('gi.show.zoombar');
+                            
+
+                            
+                            //show the game side panel
+                            SWPEvent.emit('gi.show.panel');
+                            
+
+                            SWPEvent.emit('onDisplayGame');
+                        },
+                        onMidroll: function(d) {
+                            // temporary hack until the ad solution stops inserting this div
+                            var unnecessaryDiv = document.getElementById('sgAdOgOpacityContainer');
+                            if (unnecessaryDiv) {
+                                var parent = unnecessaryDiv.parentNode;
+                                if (parent) {
+                                    parent.removeChild(unnecessaryDiv);
+                                }
+
+                            }
+
+                            SWPEvent.emit('gi.hide.game.midroll');
+                        },
+                        afterMidroll: function(d) {
+                            SWPEvent.emit('gi.show.game.midroll');
+                        }
+                    },
+                    monitoring: {
+                        bucket: 'flash'
+                    },
+                    preroll: {
+                        maxWaitingTime: 30000,
+                        heartbeatTime: 3000
+                    },
+                    midroll: {
+                        maxWaitingTime: 30000,
+                        heartbeatTime: 3000
+                    },
+                    portal: {
+                        
+                        //pass the appToken for all types of games
+                        appToken: 'UwAB_wCPBAEAwZFTYM4ACwEAUza1_QgBAAAAAj0yc2dpZF8wNDAxMDBjMTkxNTM2MGNllhHM_kROoRLcXX7-aYR8ZHdusN-aMCBHttbNhyeT2E08_R4-7es_gw',
+                        variation: 'A',
+                        vsn: '5.19.4',
+                        applicationId: '576742227280280882', //this appid replaces the old contentarid
+                        contentarId: '146738',
+                        siteId: 11,
+                        channelId: 1,
+                        authenticated : false,
+                        username : 'guest'
+                    }
+                });
+
+                JSLib.publish('game.info.loaded');
+            });
+            //
+        </script>
+    </div>
+    
+</article>
+                        
+
+                    </div>
+                </div>
+                <div id="sgAdScGp160x600" style="display: block;">
+                    <script>AdFront.push('sgAdScGp160x600');</script>
+                </div>
+            </div>
+        </section>
+        
+        <section id="wdg_page_game" class="wdg_page_game">
+            <div class="unit aside-left">
+                <a name="how-to-play"></a>
+                <article class="wdg_game_info box">
+	
+	    <h3 class="box-title">My Wonderful Farm</h3>
+	    <div class="box-content">
+	    	<h4 class="">Description</h4>
+            <p>
+                Est-ce que semer des graines, arroser des plantes et récolter peut-être amusant ? Quelle question !
+            </p>
+			
+			<h4 class="">Comment jouer My Wonderful Farm</h4>
+            <p>
+                Clique sur les outils d’agriculture pour les utiliser. Pour gagner de l’argent, achète des graines pour les semer et apporte ta récolte au hangar à l’aide de la brouette.
+            </p>
+			
+			<h4 class="">Cat&eacute;gorie de jeu</h4>
+            <p>
+                
+                    
+                        <a href="/jeux/jeux-de-ferme">Jeux de ferme</a>,
+                    
+                
+                    
+                        <a href="/jeux/jeux-amusants">Jeux amusants </a>,
+                    
+                
+                    
+                        <a href="/jeux/filles">Filles</a>,
+                    
+                
+                    
+                        <a href="/jeux/gerer-une-ferme">Gérer une Ferme</a>
+                    
+                
+            </p>
+	    </div>
+	
+</article>
+                <article id="wdg_game_comments" class="wdg_game_comments box">
+    <div class="wall-image">
+        <h2 class="box-title">990 Commentaires</h2>
+    </div>
+	<div class="box-content">
+		<div class="">
+			<form method="get" action="" id="game-comments-form" class="game-comments-post form">
+			<input type="hidden" name="appid" value="576742227280280882">
+			<input type="hidden" id="emoticon-base-url" value="http://static3.spilcdn.com/fa/img/emoticons">
+			
+				<div class="login-to-post-comments block orange">
+					<p>Tu dois &ecirc;tre connect&eacute; pour publier un commentaire !</p>
+					<a id="comments-join-button-nav" class="comments-join-btn btn">Adh&egrave;re gratuitement</a><br>
+					<span>ou</span>
+					<a id="comments-login-button-nav" class="text-link">Connecte-toi</a>
+				</div>
+			
+			</form>
+		</div>
+
+		<div class="clear">
+			<input type="hidden" id="tot_items" value="990">
+			<input type="hidden" id="items_per_batch" value="5">
+			<ul id="comments-list" class="media-feed comments-list">
+			
+			
+				<li class="media odd-row" id="comment-1021248263" data-username="misstwilightlove">
+					<a class="media-thumb" href="/utilisateur/misstwilightlove" id="hover-img-1021248263">
+						
+							<img src="http://static1.spilcdn.com/fa/gm/pb/2/preview/261605133">
+							<span class="hoverHidden"><img src="http://static1.spilcdn.com/fa/gm/pb/2/rendering/261605133" id="img-1021248263"></span>
+                    	
+                    </a>
+					<div class="media-body">
+						<a class="game-comments-title" href="/utilisateur/misstwilightlove">misstwilightlove</a>
+						<p class="game-comments-content" id="comment-1021248263">c&#039;est gavant au bout de 10 minutes!!</p>
+						<p class="game-comments-time">
+							<span></span>
+							<span>Il y a 5 jours</span> -
+							<a href="#comment-1021248263" class="report-btn link-cta" data-commentid="1021248263">Signaler</a>
+							<span class="reported-txt" data-commentid="1021248263">Utilisateur signale&eacute;</span>
+						</p>
+					</div>
+					<div class="game-comments-options">
+						<a class="friend-request" href="#" data-toadd="misstwilightlove">Ajouter aux amis</a>
+						<span class="friend-request-sent" href="#">Demande d'amiti&eacute; envoy&eacute;e</span>
+						<a class="write-on-wall" href="#"></a>
+					</div>
+				</li>
+			
+				<li class="media " id="comment-1014296156" data-username="Lilicootpipicelove">
+					<a class="media-thumb" href="/utilisateur/Lilicootpipicelove" id="hover-img-1014296156">
+						
+							<img src="http://static1.spilcdn.com/fa/gm/pb/2/preview/263228124">
+							<span class="hoverHidden"><img src="http://static1.spilcdn.com/fa/gm/pb/2/rendering/263228124" id="img-1014296156"></span>
+                    	
+                    </a>
+					<div class="media-body">
+						<a class="game-comments-title" href="/utilisateur/Lilicootpipicelove">Lilicootpipicelove</a>
+						<p class="game-comments-content" id="comment-1014296156">C&#039;est bien le jeu mais ce que j&#039;aime le plus ont fait une fille :-)</p>
+						<p class="game-comments-time">
+							<span></span>
+							<span>Il y a 3 semaines</span> -
+							<a href="#comment-1014296156" class="report-btn link-cta" data-commentid="1014296156">Signaler</a>
+							<span class="reported-txt" data-commentid="1014296156">Utilisateur signale&eacute;</span>
+						</p>
+					</div>
+					<div class="game-comments-options">
+						<a class="friend-request" href="#" data-toadd="Lilicootpipicelove">Ajouter aux amis</a>
+						<span class="friend-request-sent" href="#">Demande d'amiti&eacute; envoy&eacute;e</span>
+						<a class="write-on-wall" href="#"></a>
+					</div>
+				</li>
+			
+				<li class="media odd-row" id="comment-1014270831" data-username="ayochka">
+					<a class="media-thumb" href="/utilisateur/ayochka" id="hover-img-1014270831">
+						
+							<img src="http://static1.spilcdn.com/fa/gm/pb/2/preview/57372882">
+							<span class="hoverHidden"><img src="http://static1.spilcdn.com/fa/gm/pb/2/rendering/57372882" id="img-1014270831"></span>
+                    	
+                    </a>
+					<div class="media-body">
+						<a class="game-comments-title" href="/utilisateur/ayochka">ayochka</a>
+						<p class="game-comments-content" id="comment-1014270831">j&#039;adore se jeu c la 3éme fois que je recommence je m&#039;en lasserai jamais celuila et oriental flirting game aussi je l&#039;aime bien:-)</p>
+						<p class="game-comments-time">
+							<span></span>
+							<span>Il y a 3 semaines</span> -
+							<a href="#comment-1014270831" class="report-btn link-cta" data-commentid="1014270831">Signaler</a>
+							<span class="reported-txt" data-commentid="1014270831">Utilisateur signale&eacute;</span>
+						</p>
+					</div>
+					<div class="game-comments-options">
+						<a class="friend-request" href="#" data-toadd="ayochka">Ajouter aux amis</a>
+						<span class="friend-request-sent" href="#">Demande d'amiti&eacute; envoy&eacute;e</span>
+						<a class="write-on-wall" href="#"></a>
+					</div>
+				</li>
+			
+				<li class="media " id="comment-1014067375" data-username="Lilicootpipicelove">
+					<a class="media-thumb" href="/utilisateur/Lilicootpipicelove" id="hover-img-1014067375">
+						
+							<img src="http://static1.spilcdn.com/fa/gm/pb/2/preview/263228124">
+							<span class="hoverHidden"><img src="http://static1.spilcdn.com/fa/gm/pb/2/rendering/263228124" id="img-1014067375"></span>
+                    	
+                    </a>
+					<div class="media-body">
+						<a class="game-comments-title" href="/utilisateur/Lilicootpipicelove">Lilicootpipicelove</a>
+						<p class="game-comments-content" id="comment-1014067375">J&#039;ai jamais i joué mais au moin je vais essayé peut être que je vais aimé où je sais pas trop 
+Bref sa commence </p>
+						<p class="game-comments-time">
+							<span></span>
+							<span>Il y a 3 semaines</span> -
+							<a href="#comment-1014067375" class="report-btn link-cta" data-commentid="1014067375">Signaler</a>
+							<span class="reported-txt" data-commentid="1014067375">Utilisateur signale&eacute;</span>
+						</p>
+					</div>
+					<div class="game-comments-options">
+						<a class="friend-request" href="#" data-toadd="Lilicootpipicelove">Ajouter aux amis</a>
+						<span class="friend-request-sent" href="#">Demande d'amiti&eacute; envoy&eacute;e</span>
+						<a class="write-on-wall" href="#"></a>
+					</div>
+				</li>
+			
+				<li class="media odd-row" id="comment-1013977039" data-username="Olympia37">
+					<a class="media-thumb" href="/utilisateur/Olympia37" id="hover-img-1013977039">
+						
+							<img src="http://static1.spilcdn.com/fa/gm/pb/2/preview/261470784">
+							<span class="hoverHidden"><img src="http://static1.spilcdn.com/fa/gm/pb/2/rendering/261470784" id="img-1013977039"></span>
+                    	
+                    </a>
+					<div class="media-body">
+						<a class="game-comments-title" href="/utilisateur/Olympia37">Olympia37</a>
+						<p class="game-comments-content" id="comment-1013977039">Tu as raison mozaza4 d&#039;ailleur emeucoque toi aussi tu dit que c&#039;est nul et au fait on ne dit pas c&#039;est nul mais je n&#039;ai pas aimer =( faut tout leur apprendre =(</p>
+						<p class="game-comments-time">
+							<span></span>
+							<span>Il y a 3 semaines</span> -
+							<a href="#comment-1013977039" class="report-btn link-cta" data-commentid="1013977039">Signaler</a>
+							<span class="reported-txt" data-commentid="1013977039">Utilisateur signale&eacute;</span>
+						</p>
+					</div>
+					<div class="game-comments-options">
+						<a class="friend-request" href="#" data-toadd="Olympia37">Ajouter aux amis</a>
+						<span class="friend-request-sent" href="#">Demande d'amiti&eacute; envoy&eacute;e</span>
+						<a class="write-on-wall" href="#"></a>
+					</div>
+				</li>
+			
+			
+			</ul>
+			
+			<ul id="comments-list-sample" style="display:none" class="media-feed comments-list">
+				<li class="media">
+					<a class="media-thumb" href="/utilisateur/##USER##">
+						<img src="">
+						<span class="hoverHidden"><img src=""></span>
+					</a>
+					<div class="media-body">
+						<a class="game-comments-title" href="/utilisateur/##USER##"></a>
+						<p class="game-comments-content"></p>
+						<p class="game-comments-time">
+							<span></span>
+							<span class="game-comments-time-units" data-timestamp=""></span> -
+							<a href="" class="report-btn link-cta">Signaler</a>
+							<span class="reported-txt">Utilisateur signale&eacute;</span>
+						</p>
+					</div>
+					<div class="game-comments-options">
+						<a class="friend-request" href="#">Ajouter aux amis</a>
+						<span class="friend-request-sent" href="#">Demande d'amiti&eacute; envoy&eacute;e</span>
+						<a class="write-on-wall" href="#"></a>
+					</div>
+				</li>
+			</ul>
+
+			<input type="hidden" id="current-user" value="guest">
+			<input type="hidden" id="comments-default-timestamp" value="Il y a un instant">
+            <input type="hidden" id="siteid" value="11">
+		</div>
+	</div>
+
+    
+    <div class="btn-container">
+        <button id="more_comments" class="btn">Plus de commentaires</button>
+    </div>
+    
+
+</article>
+            </div>
+            <div class="unitright aside-right">
+                <article class="wdg_recommended_games box">
+	<h3 class="box-title">JEUX SEMBLABLES</h3>
+	<div class="box-content">
+        
+		<ul class="thumbnail-list">
+            
+			<li class="media game-thumb-extended">
+			
+				<a href="hot-dog-bush" class="media-thumb">
+					<img src="http://static2.spilcdn.com/fa/120X90/3/3/75233/00000000000000_Hot-Dog-Bush.gif" class="game-thumb-img" alt="Hot Dog Bush">
+                    <div class="game-rating">
+                        <div class="rate-bar rated-9"></div>
+                    </div>
+				</a>
+                <div class="media-body">
+					<a href="hot-dog-bush" class="game-title">Hot Dog Bush</a>
+					<div class="game-description">Prépare des hot dogs pour tes clients, gagne de l&#039;argent et marque des...</div>
+                </div>
+			
+			 </li>
+             
+			<li class="media game-thumb-extended">
+			
+				<a href="http://stardoll.girlsgogames.com/games.php?id=4&ref=###USERCODE_GGG###" class="media-thumb" target="_blank">
+					<img src="http://static2.spilcdn.com/fa/120X90/9/7/85397/00000000000000_Stardoll-Fashion-Designer.gif" class="game-thumb-img" alt="Stardoll Fashion Designer">
+                    <div class="game-rating">
+                        <div class="rate-bar rated-9"></div>
+                    </div>
+				</a>
+                <div class="media-body">
+					<a href="http://stardoll.girlsgogames.com/games.php?id=4&ref=###USERCODE_GGG###" class="game-title" target="_blank">Stardoll Fashion Designer</a>
+					<div class="game-description">Dessine les plus belles vêtements avec le créateur de mode de Stardoll...</div>
+                </div>
+			
+			 </li>
+             
+			<li class="media game-thumb-extended">
+			
+				<a href="penguin-diner" class="media-thumb">
+					<img src="http://static2.spilcdn.com/fa/120X90/2/0/87620/00000000000000_Penguin-Diner.gif" class="game-thumb-img" alt="Penguin Diner">
+                    <div class="game-rating">
+                        <div class="rate-bar rated-9"></div>
+                    </div>
+				</a>
+                <div class="media-body">
+					<a href="penguin-diner" class="game-title">Penguin Diner</a>
+					<div class="game-description">Assois tes clients, prends les commandes, sers à manger et encaisse l&#039;...</div>
+                </div>
+			
+			 </li>
+             
+			<li class="media game-thumb-extended">
+			
+				<a href="family-restaurant" class="media-thumb">
+					<img src="http://static2.spilcdn.com/fa/cimg/thumbnails/120X90/5/6/89256/20110615084344_Family-Restaurant.jpg" class="game-thumb-img" alt="Family Restaurant">
+                    <div class="game-rating">
+                        <div class="rate-bar rated-9"></div>
+                    </div>
+				</a>
+                <div class="media-body">
+					<a href="family-restaurant" class="game-title">Family Restaurant</a>
+					<div class="game-description">Apprends et crée de délicieux plats pour que tous tes clients soient c...</div>
+                </div>
+			
+			 </li>
+             
+			<li class="media game-thumb-extended">
+			
+				<a href="my-new-room" class="media-thumb">
+					<img src="http://static2.spilcdn.com/fa/120X90/7/8/94178/00000000000000_My-New-Room.gif" class="game-thumb-img" alt="My New Room">
+                    <div class="game-rating">
+                        <div class="rate-bar rated-9"></div>
+                    </div>
+				</a>
+                <div class="media-body">
+					<a href="my-new-room" class="game-title">My New Room</a>
+					<div class="game-description">Décore cette pièce avec les objets, meubles et couleurs que tu aimes.</div>
+                </div>
+			
+			 </li>
+             
+			<li class="media game-thumb-extended">
+			
+				<a href="http://stardoll.girlsgogames.com/games.php?id=12&ref=###USERCODE_GGG###" class="media-thumb" target="_blank">
+					<img src="http://static2.spilcdn.com/fa/120x90/7/1/99571/Dream Face.gif" class="game-thumb-img" alt="Dream Face">
+                    <div class="game-rating">
+                        <div class="rate-bar rated-9"></div>
+                    </div>
+				</a>
+                <div class="media-body">
+					<a href="http://stardoll.girlsgogames.com/games.php?id=12&ref=###USERCODE_GGG###" class="game-title" target="_blank">Dream Face</a>
+					<div class="game-description">Crée le visage féminin ou masculin de tes rêves dans ce jeu!</div>
+                </div>
+			
+			 </li>
+             
+		</ul>
+        
+	</div>
+</article>
+                <div id="sgAdMrGp300x250" style="display: block; margin-left: auto; margin-right: auto;">
+                    <script>AdFront.push('sgAdMrGp300x250');</script>
+                </div>
+                <div class="fb_likebox">
+                <article id="wdg_facebook_likebox" class="wdg_facebook_likebox">
+<script>
+//<![CDATA[
+SpilGames({waiton:'spilgames.loaded'},['JSLib'], function(JSLib) {
+    JSLib.set('fb.likebox.settings', {facebook_page:'Jeux.france', facebook_locale:'fr_FR', facebook_boxheight:'214', facebook_boxwidth:'520'});
+    JSLib.publish('fb.likebox.loaded');
+});
+//]]>
+</script>
+</article>
+
+                </div>
+            </div>
+        </section>
+        <footer id="wdg_footer_container" class="wdg_footer_container">
+    <section>
+    	<article class="wdg_footer_blurb">
+    <p>Jeux.fr propose la plus grande collection de jeux en ligne gratuits. De nouveaux jeux sont ajout&eacute;s chaque jour!</p>
+</article>
+        <article class="wdg_footertags">
+	<ul class="footertags-main">
+		
+		<li class="footertags-column">
+			<h3 class="footertags-title">Meilleurs jeux</h3>
+			<ul class="footertags-list">
+				
+				<li><a href="/jeu/bob-lescargot-5">Snail Bob 5</a></li>
+				
+				<li><a href="/jeu/uphill-rush-6">Uphill Rush 6</a></li>
+				
+				<li><a href="/jeu/super-ferme">Super Ferme</a></li>
+				
+				<li><a href="/jeu/so-sakura--star-de-cinema">So Sakura: Star de Cinema</a></li>
+				
+				<li><a href="/jeu/Salon-de-toilettage-3-Chiots-et-chatons">Salon de toilettage 3</a></li>
+				
+			</ul>
+		</li>
+		
+		
+		<li class="footertags-column">
+			<h3 class="footertags-title"></h3>
+			<ul class="footertags-list">
+				
+				<li><a href="/jeu/mahjongcon">MahJongCon</a></li>
+				
+				<li><a href="/jeux/aventure">Jeux d'Aventure</a></li>
+				
+				<li><a href="/jeu/Accro-du-shopping--Londres">Accro du shopping</a></li>
+				
+				<li><a href="/jeu/lose-the-heat-3">Lose the Heat 3</a></li>
+				
+				<li><a href="/jeu/bubble-shooter">Bubble Shooter</a></li>
+				
+			</ul>
+		</li>
+		
+		
+		<li class="footertags-column">
+			<h3 class="footertags-title"></h3>
+			<ul class="footertags-list">
+				
+				<li><a href="/jeu/super-royaume">Super Royaume</a></li>
+				
+				<li><a href="/jeu/galaxy-life">Galaxy Life</a></li>
+				
+				<li><a href="jeu/frizzle-fraz">Frizzle Fraz</a></li>
+				
+				<li><a href="/jeu/bomb-it-6">Bomb It 6</a></li>
+				
+				<li><a href="/jeu/ninja-mineur-2">Ninja mineur 2</a></li>
+				
+			</ul>
+		</li>
+		
+		
+		<li class="footertags-column">
+			<h3 class="footertags-title">Autres sites de jeux</h3>
+			<ul class="footertags-list">
+				
+				<li><a href="http://www.jeu.fr">Jeu Gratuit</a></li>
+				
+				<li><a href="http://www.girlsgogames.fr">Jeux de filles</a></li>
+				
+				<li><a href="/jeux/jeux-sur-telephone-et-tablette/jeux-sur-tablette-et-mobile">Jeux sur tablette et mobile</a></li>
+				
+			</ul>
+		</li>
+		
+		
+		<li class="footertags-column">
+			<h3 class="footertags-title">Autres site</h3>
+			<ul class="footertags-list">
+				
+				<li><a href="http://www.forumactif.com/">Forum gratuit</a></li>
+				
+			</ul>
+		</li>
+		
+	</ul>
+</article>
+
+        <article class="wdg_footer">
+    <a href="http://www.spilgames.com" target="_blank" class="footer-logo">
+        <img src="/wdg/footer-2.5.6/img/spillogo_footer_family.png" alt="SpilGames" title="SpilGames logo">
+    </a>
+    <div class="footer-links">
+        <p class="footer-copyright">Droits d'auteur &copy; 2013 SPIL GAMES B.V. Tous droits r&eacute;serv&eacute;s.</p>
+        
+            <ul class="footer-links-list clearfix">
+            
+                <li>
+                    
+                        <a href="/conditions-dutilisation">Conditions d’utilisation</a>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="/politique-de-protection-de-la-vie-privee">Notre politique de p...</a>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="/privacy-policy-kids">Politique de confide...</a>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="/informations-parents">Informations pour le...</a>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="/un-cookie-qu-est-ce-que-c-est">Cookies</a>
+                    
+                </li>
+            
+            </ul>
+        
+            <ul class="footer-links-list clearfix">
+            
+                <li>
+                    
+                        <a href="http://www.spilgames.com/">Qui sommes-nous?</a>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="http://www.spilgames.com/advertisers">Annonceurs et agences</a>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="http://www.spilgames.com/developers">Envoyer un jeu</a>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="http://publishers.spilgames.com/">Obtenir des jeux gratuits</a>
+                    
+                </li>
+            
+                <li>
+                    
+                        <a href="" id="zendesk" target="_blank">Aide & Contact</a>
+                    
+                </li>
+            
+            </ul>
+        
+    </div>
+    
+        <ul class="footer-social-links">
+            
+                <li class="facebook"><a href="https://www.facebook.com/Jeux.france" rel="me" target="_blank">Facebook</a></li>
+            
+                <li class="google"><a href="https://plus.google.com/+jeuxfr" rel="me" target="_blank">Google+</a></li>
+            
+                <li class="twitter"><a href="https://twitter.com/Jeuxfr1" rel="me" target="_blank">Twitter</a></li>
+            
+        </ul>
+    
+    <input type="hidden" id="wdg_footer_zendesk_application_id" name="wdg_footer_zendesk_application_id" value="576742227280280882">
+    <input type="hidden" id="wdg_footer_zendesk_application_title" name="wdg_footer_zendesk_application_title" value="My Wonderful Farm">
+    <input type="hidden" id="wdg_footer_zendesk_user_id" name="wdg_footer_zendesk_user_id" value="288512682495271118">
+    <input type="hidden" id="wdg_footer_zendesk_username" name="wdg_footer_zendesk_username" value="guest">
+    <input type="hidden" id="wdg_footer_zendesk_locale" name="wdg_footer_zendesk_locale" value="fr-FR">
+</article>
+    </section>
+</footer>
+
+
+<article id="wdg_popup_register" class="wdg_popup_register popup-wrapper skin-green hidden" data-coppa-enabled="false">
+    <div class="popup-box-wrapper">
+        <div class="popup-box-side-content">
+            <img src="/wdg/popup_register-2.13.6/img/family/registration-graphic.png" width="200" height="161" alt="Inscris-toi&nbsp;!">
+            <ul class="list-starred">
+         <li>Connecte-toi et joue avec des amis</li>
+         <li>&Eacute;tablis des meilleurs scores et gagne des prix</li>
+         <li>Sauvegarder ta progression</li>
+      </ul>
+        </div>
+        <div class="popup popup-box popup-user-status">
+            <h2 class="popup-box-title">Inscris-toi&nbsp;!</h2>
+            <a class="round-icon popup-close sprite-green" id="popup-register-close"></a>
+            <div class="popup-box-content form">
+
+                <div class="toggleItem social-auth item-active">
+                    <div id="popup-register-social-title" class="social-connect-title">Utilise ton r&eacute;seau social</div>
+                    <div id="popup-register-social" class="social-connect-box">
+                        <a href="#" id="popup-register-facebook" title="Facebook" class="user-auth-btn facebook-btn">Facebook</a>
+                        <a href="#" id="popup-register-google" title="Google+" class="user-auth-btn google-btn">Google</a>
+                    </div>
+                    <div class="alternate">ou inscrivez-vous ci-dessous avec votre adresse e-mail</div>
+                    <a href="#" class="trigger-auth-type user-auth-btn email-btn">Inscription avec Email</a>
+                </div>
+
+                <div class="toggleItem email-auth">
+                    <a href="#" class="trigger-auth-type">Utilise ton r&eacute;seau social</a>
+                    <div class="hinted-container">
+                        <div class="tip help" rel="username">Quel nom veux-tu utiliser sur le site ?</div>
+                        <div class="tip error" title="username-short">Ton pseudo doit comporter au moins 3 caract&egrave;res.</div>
+                        <div class="tip error" title="username-profane">Impossible d'utiliser cela. Choisis quelque chose d'autre.</div>
+                        <div class="tip error" title="username-wrong">Tu ne peux utiliser que des lettres, des chiffres, des tirets et des tirets bas dans ton pseudo.</div>
+                        <div class="tip error" title="username-taken">Ce pseudo est d&eacute;j&agrave; utilis&eacute;. En revanche, ceux-ci sont disponibles&nbsp;: <div class="alternative-usernames"></div>
+      </div>
+                        <input type="text" maxlength="20" class="hinted" id="popup-register-username" placeholder="Pseudo" tabindex="1">
+                        <div class="tip-sign" title="username"></div>
+                    </div>
+
+                    <div class="hinted-container">
+                        <div class="extradata" id="popup-register-email-extradata" base-text="Voulais-tu dire " list-separator=" ou "></div>
+                        <div class="tip help" rel="email">Cette information est priv&eacute;e !</div>
+                        <div class="tip error" title="email-format">Ce n'est pas une adresse e-mail valide. R&eacute;essaie.</div>
+                        <div class="tip error" title="email-taken">Nous connaissons d&eacute;j&agrave; cette adresse e-mail... Tu es d&eacute;j&agrave; membre&nbsp;? <br>
+         <a id="popup-register-email-taken-login" href="#login">Connecte-toi</a> ou demande un <a href="/mot-de-passe">nouveau mot de passe</a>.</div>
+                        <input type="email" class="hinted" id="popup-register-email" placeholder="Ton adresse e-mail" tabindex="2">
+                        <div class="tip-sign" title="email"></div>
+                    </div>
+
+                    <div class="hinted-container">
+                        <div class="tip help" rel="password">Choisis un mot de passe s&ucirc;r, comportant au moins 6 caract&egrave;res !</div>
+                        <div class="tip error" title="password-short">Tu dois choisir un mot de passe contenant au moins 6 caract&egrave;res.</div>
+                        <input type="password" maxlength="20" class="hinted" id="popup-register-password" placeholder="Mot de passe" tabindex="3">
+                        <div class="tip-sign" title="password"></div>
+                    </div>
+
+                    <legend class="coppa-element">Date de naissance</legend>
+                    <div class="hinted-container coppa-element" id="popup-register-dob">
+                        <div class="tip input">Quelle est ta date de naissance&nbsp;?</div>
+                        <div class="tip error" title="dob-wrong">Le format de la date de naissance est incorrect. R&eacute;essaie.</div>
+                        <div class="tip error coppa-element" title="dob-coppa-underage">Sorry, but we can&#8217;t make an account for you.</div>
+                        <select class="hinted" id="popup-register-dob-month" tabindex="4">
+                            <option value="-1">Mois</option>
+                            <option value="1">Janvier</option>
+                            <option value="2">F&eacute;vrier</option>
+                            <option value="3">Mars</option>
+                            <option value="4">Avril</option>
+                            <option value="5">Mai</option>
+                            <option value="6">Juin</option>
+                            <option value="7">Juillet</option>
+                            <option value="8">Ao&ucirc;t</option>
+                            <option value="9">Septembre</option>
+                            <option value="10">Octobre</option>
+                            <option value="11">Novembre</option>
+                            <option value="12">D&eacute;cembre</option>
+                        </select>
+
+                        <select id="popup-register-dob-day" name="popup-register-dob-day" tabindex="5">
+                            <option value="-1" selected>Jour</option>
+                        </select>
+
+                        <select id="popup-register-dob-year" name="popup-register-dob-year" tabindex="6">
+                            <option value="-1" selected>Ann&eacute;e</option>
+                        </select>
+                    </div>
+
+                    <legend>Sexe</legend>
+                    <div class="hinted-container" id="popup-register-gender">
+                        <input type="radio" name="gender" id="popup-register-gender-boy" value="boy"><label for="register-gender-boy">Gar&ccedil;on</label>
+                        <input type="radio" name="gender" id="popup-register-gender-girl" value="girl"><label for="register-gender-girl">Fille</label>
+                    </div>
+                    <p class="form-small-text hinted-container" id="popup-register-agree-with-terms">
+                        
+                        <label for="popup-register-agree-with-terms-element">J'ai lu et j'accepte la <a href="/politique-de-protection-de-la-vie-privee" target="_blank">Politique de protection de la vie priv&eacute;e</a> et les <a href="/conditions-dutilisation" target="_blank">Conditions d'utilisation</a> de Jeux.fr</label>
+                    </p>
+                    
+
+                    <div class="align-center coppa-element">    
+                        <a href="#" class="btn big green" id="popup-register-button">Jouer&nbsp;! &nbsp;<div class="round-icon sprite-orange"></div>
+      </a>
+                        
+                    </div>
+
+
+                    <div class="hidden">
+                        <input type="hidden" name="popup-register-pagetype" value="">
+                        <input type="hidden" name="popup-register-pageid" value="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="popup-footer">Tu as d&eacute;j&agrave; un compte&nbsp;? <a id="register-alreadyuser" href="#">Connecte-toi ici</a>
+      </div>
+        </div>
+    </div>
+    <div class="popup-fadeOverlay"></div>
+</article>
+<article class="wdg_popup_register_feedback popup-wrapper hidden" data-on-social-game-page="false">
+    
+    <!-- Version needed for trade tracker pixel used in js -->
+    <input type="hidden" name="wdg_popup_register_feedback_version" id="wdg_popup_register_feedback_version" value="0.3.1">
+
+    <input type="hidden" name="wdg_prf_campaignid" id="wdg_prf_campaignid" value="">
+
+    <input type="hidden" name="wdg_prf_productid" id="wdg_prf_productid" value="">
+
+    <input type="hidden" name="wdg_prf_conversiontype" id="wdg_prf_conversiontype" value="">
+
+    <article class="skin-primary hidden" id="registration-social">
+        <div class="popup popup-box">
+            <h2 class="popup-box-title">Termin&eacute;</h2>
+            <a class=" popup-close popup-register-feedback-close" href="#">Fermer</a>
+            <div class="popup-box-content">
+                <h3 class="popup-content-headline">F&eacute;licitations [username] !</h3>
+                <p>Tu es d&eacute;sormais officiellement membre de <strong>Jeux.fr&nbsp;!</strong></p>
+                <p>Tu as d&eacute;sormais acc&egrave;s &agrave; toutes nos fonctionnalit&eacute;s !</p>
+                <p>Bienvenue dans l'univers du jeu !</p>
+                <div class="align-center">
+                    <a class="btn  big popup-register-feedback-cta" href="?">Joue maintenant</a>
+                </div>
+            </div>
+            <div class="popup-footer">
+                
+            </div>
+        </div>
+    </article>
+
+    <article class="skin-primary hidden" id="registration-regular">
+        <div class="popup popup-box">
+            <h2 class="popup-box-title">Termin&eacute;</h2>
+            <a class=" popup-close popup-register-feedback-close" href="#">Fermer</a>
+            <div class="popup-box-content">
+                <h3 class="popup-content-headline">F&eacute;licitations [username] !</h3>
+                <p>Tu es d&eacute;sormais officiellement membre de <strong>Jeux.fr&nbsp;!</strong></p>
+                <p>Tu as d&eacute;sormais acc&egrave;s &agrave; toutes nos fonctionnalit&eacute;s !</p>
+                <p>Bienvenue dans l'univers du jeu !</p>
+                <p class="emphasized">Pour commencer, cr&eacute;ons un avatar !</p>
+                <div class="align-center">
+                    <a class="btn  big btn-pick-avatar" href="/createur-davatar">Cr&eacute;er un avatar</a>
+                </div>
+            </div>
+            <div class="popup-footer">ou <a href="/avatars">Choisir un avatar</a></div>
+        </div>
+    </article>
+
+    <article class="skin-primary hidden" id="link-social">
+        <div class="popup popup-box">
+            <h2 class="popup-box-title">Compte associ&eacute;</h2>
+            <a class=" popup-close popup-register-feedback-close" href="#">Fermer</a>
+            <div class="popup-box-content">
+                <h3 class="popup-content-headline">Ton compte est associ&eacute; !</h3>
+                <p>Tu peux d&eacute;sormais te connecter &agrave; l'aide de ton compte de r&eacute;seau social sur Jeux.fr.</p>
+                <div class="align-center">
+                    <a class="btn  big popup-register-feedback-cta" href="?">Joue maintenant</a>
+                </div>
+            </div>
+            <div class="popup-footer">
+                
+            </div>
+        </div>
+    </article>
+
+    <article class="skin-primary hidden" id="link-regular">
+        <div class="popup popup-box">
+            <h2 class="popup-box-title">Compte associ&eacute;</h2>
+            <a class=" popup-close popup-register-feedback-close" href="#">Fermer</a>
+            <div class="popup-box-content">
+                <h3 class="popup-content-headline">Ton compte est associ&eacute; !</h3>
+                <p>Tu peux d&eacute;sormais te connecter &agrave; l'aide de ton compte de r&eacute;seau social sur Jeux.fr.</p>
+                <div class="align-center">
+                    <a class="btn  big popup-register-feedback-close" href="#">Fermer</a>
+                </div>
+            </div>
+            <div class="popup-footer">
+                
+            </div>
+        </div>
+    </article>
+
+    <article class="skin-primary hidden" id="link-regular-without-avatar">
+        <div class="popup popup-box">
+            <h2 class="popup-box-title">Compte associ&eacute;</h2>
+            <a class=" popup-close popup-register-feedback-close" href="#">Fermer</a>
+            <div class="popup-box-content">
+                <h3 class="popup-content-headline">Ton compte est associ&eacute; !</h3>
+                <p>Tu peux d&eacute;sormais te connecter &agrave; l'aide de ton compte de r&eacute;seau social sur Jeux.fr.</p>
+                <div class="align-center">
+                    <a class="btn  big btn-pick-avatar" href="/createur-davatar">Cr&eacute;er un avatar</a>
+                </div>
+            </div>
+            <div class="popup-footer">ou&nbsp;<a href="#" class="popup-register-feedback-close">Fermer la fen&ecirc;tre</a></div>
+        </div>
+    </article>
+
+    <div class="popup-fadeOverlay"></div>
+
+</article>
+<article id="wdg_popup_login" class="wdg_popup_login popup-wrapper skin-secondary  hidden">
+    <script type="text/javascript">//
+    SpilGames(['JSLib'], function(jslib){
+        jslib.set('wdg_popup_login.requires_auth', '')
+    })
+    //</script>
+	<div class="popup popup-box popup-user-status">
+		<h2 class="popup-box-title">Connexion</h2>
+		<a class="round-icon popup-close sprite-orange" id="popup-login-close"></a>
+			<div class="popup-box-content form">
+				<div id="popup-login-social-title" class="social-connect-title">Utilise ton r&eacute;seau social</div>
+				<div id="popup-login-social" class="social-connect-box">
+                    
+                        <a href="#" id="popup-login-facebook" title="Facebook" class="user-auth-btn facebook-btn">Connecte-toi Facebook</a>
+                    
+                    
+					<a href="#" id="popup-login-google" title="Google+" class="user-auth-btn google-btn">Connecte-toi Google</a>
+                    
+				</div>
+                
+				<div id="popup-login-divider" class="line-divider">
+					<span class="bubble">ou</span>
+				</div>
+                <form id="popup-login-form">
+               	<div class="inline-error" id="popup-login-error-generic">La connexion a &eacute;chou&eacute;. R&eacute;essaie.</div>
+			    <input id="popup-login-username" type="text" name="username" class="form" placeholder="Adresse e-mail/Pseudo">
+			    <input id="popup-login-password" type="password" name="password" class="form" placeholder="Mot de passe">
+			    <p class="form-small-text text-right">
+			    	<a href="/mot-de-passe">Pseudo ou mot de passe oubli&eacute; ?</a>
+			    </p>
+			    <input id="popup-login-remember" type="checkbox" checked="true" name="remember" class="form" placeholder="Se souvenir de moi">
+                 <span>Maintenir ma connexion sur cet ordinateur.</span>
+			    <div class="align-center">
+			    	<a href="#" class="btn big" id="popup-login-button">Connecte-toi &nbsp;<div class="round-icon sprite-blue"></div>
+      </a>
+			    </div>
+               </form>
+                    
+			</div>
+            <div id="popup-login-register" class="popup-footer">Pas encore membre ? <a href="#">Inscris-toi</a> gratuitement&nbsp;!</div>
+	</div>
+    <div class="popup-fadeOverlay"></div>
+</article>
+<article id="popup_oauth">
+<div id="popup-oauth-error" class="popup-oauth popup-wrapper hidden skin-orange">
+	<div id="popup-oauth-error-message-generic" class="popup popup-box clearfix">
+		<h2 class="popup-box-title">Probl&egrave;mes de connexion</h2>
+		<a class="popup-close sprite-secondary close-action round-icon" id="popup-oauth-error-generic-close">Close</a>
+		<div class="popup-box-content">
+            <h3 class="popup-content-headline">Oups !</h3>
+			<p class="bold">Nous rencontrons des probl&egrave;mes de connexion. :( D&eacute;sol&eacute; ! R&eacute;essaie.</p>
+            <div class="align-center"> 
+                <a class="btn " id="popup-oauth-error-message-generic-btn-tryagain">R&eacute;essayer <div class="round-icon sprite-orange"></div> </a>
+                <a class="btn  close-action" id="popup-oauth-error-message-generic-btn-close">Fermer <div class="round-icon sprite-orange"></div> </a>
+            </div>
+		</div>
+    </div>
+    <div id="popup-oauth-error-message-cannotLink" class="popup popup-box clearfix">
+        <h2 class="popup-box-title">Relier tes comptes</h2>
+        <a class="close-action round-icon popup-close sprite-secondary" id="popup-oauth-error-cannotLink-close">Close</a>
+        <div class="popup-box-content">
+            <h3 class="popup-content-headline">Salut <span id="popup-oauth-error-message-cannotLink-username"></span>! On se conna&icirc;t?</h3>
+            <p class="bold">Nous rencontrons des difficult&eacute;s pour relier ton compte Jeux.fr &agrave; celui compte <span id="popup-oauth-error-message-cannotLink-provider"></span> .
+       </p>
+            <div class="align-center">
+                <a class="btn  close-action">Fermer <div class="round-icon sprite-orange"></div> </a>
+            </div>
+
+        </div>
+	</div>
+    <div class="popup-fadeOverlay"></div>
+</div>
+
+<div id="popup-oauth-register-error-generic" class="popup-oauth popup-wrapper hidden skin-orange">
+    <div class="popup popup-box clearfix">
+        <h2 class="popup-box-title">Probl&egrave;mes de compte.</h2>
+        <a class="round-icon popup-close sprite-secondary" id="popup-oauth-register-error-generic-close">Close</a>
+        <div class="popup-box-content">
+
+            <h3 class="popup-content-headline">Oups !</h3>
+            <p>Une erreur s'est produite lors de la cr&eacute;ation de ton nouveau compte. R&eacute;essaie!</p>
+
+        </div>
+    </div>
+    <div class="popup-fadeOverlay"></div>
+</div>
+
+<div id="popup-oauth-register" class="popup-oauth-register popup-wrapper hidden skin-green">
+    <div class="popup popup-box popup-user-status clearfix">
+    	<h2 class="popup-box-title">C'est presque fini...</h2>
+    	<a class="round-icon popup-close sprite-primary" id="popup-oauth-register-close">Close</a>
+    	<div class="popup-box-content form">
+            <h3 class="popup-content-headline" id="popup-oauth-register-header-info">Il nous faut plus d'informations !</h3>
+            <p id="popup-oauth-register-header-link" class="bold">Salut <span id="popup-oauth-register-header-link-username"></span>! On se conna&icirc;t?<br>
+        Si tu as d&eacute;j&agrave; un compte Jeux.fr, nous pouvons le relier &agrave; ton compte<span id="popup-oauth-register-header-link-provider"></span> !
+      </p>
+    		<div class="hinted-container" id="popup-oauth-register-username-container">
+                <input type="text" maxlength="20" class="hinted" id="popup-oauth-register-username" placeholder="Nom d'utilisateur" tabindex="1">
+                <div class="tip">Choisis un nom d'utilisateur pour notre site ! Pour prot&eacute;ger ta confidentialit&eacute;, n'utilise pas ton v&eacute;ritable nom.</div>
+                <div class="tip error" data-errortype="username-short">Ton nom d'utilisateur doit comporter au moins 3 caract&egrave;res.</div>
+                <div class="tip error" data-errortype="username-profane">Tu ne peux pas utiliser ce nom d'utilisateur. Choisis-en un autre !</div>
+                <div class="tip error" data-errortype="username-wrong">Ton nom d'utilisateur ne peut contenir que des lettres, des chiffres, des tirets et des tirets bas.</div>
+                <div class="tip error" data-errortype="username-taken">Ce nom d'utilisateur est d&eacute;j&agrave; utilis&eacute;. Mais ceux-ci sont disponibles :<div class="alternative-usernames"></div>
+      </div>
+                <div class="tip-sign" data-signeditem="username"></div>
+            </div>
+
+            <div class="hinted-container" id="popup-oauth-register-email-container">
+        		<input type="email" class="hinted" id="popup-oauth-register-email" placeholder="Ton adresse e-mail" tabindex="2">
+                <div class="tip">Nous ne la divulguerons pas !</div>
+                <div class="tip error" data-errortype="email-format">Cette adresse e-mail n'est pas valide. R&eacute;essaie.</div>
+                <div class="tip error" data-errortype="email-taken">Cette adresse e-mail nous dit quelque chose ! Saisis ton mot de passe et nous relierons tes comptes.</div>
+                <div class="tip-sign" data-signeditem="email"></div>
+            </div>
+
+            <div class="hinted-container" id="popup-oauth-register-password-container">
+    		    <input type="password" maxlength="20" class="hinted" id="popup-oauth-register-password" placeholder="Mot de passe" tabindex="3">
+                <div class="tip">Saisis ton mot de passe Jeux.fr afin que nous puissions relier tes comptes.</div>
+                <div class="tip error" data-errortype="password-invalid">Le mot de passe est incorrect. V&eacute;rifie tes informations et r&eacute;essaie.</div>
+                <div class="tip-sign" data-signeditem="password"></div>
+            </div>
+
+            <div id="popup-oauth-register-dob-container">
+            <legend>Date de naissance</legend>
+            <div class="hinted-container clearfix" id="popup-oauth-register-dob">
+                <select class="hinted" id="popup-oauth-register-dob-month" tabindex="4">
+                    <option value="-1">Mois</option>
+                    <option value="1">Janvier</option>
+                    <option value="2">F&eacute;vrier</option>
+                    <option value="3">Mars</option>
+                    <option value="4">Avril</option>
+                    <option value="5">Mai</option>
+                    <option value="6">Juin</option>
+                    <option value="7">Juillet</option>
+                    <option value="8">Ao&ucirc;t</option>
+                    <option value="9">Septembre</option>
+                    <option value="10">Octobre</option>
+                    <option value="11">Novembre</option>
+                    <option value="12">D&eacute;cembre</option>
+                </select>
+
+                <select id="popup-oauth-register-dob-day" name="popup-oauth-register-dob-day" tabindex="5">
+                    <option value="-1" selected>Jour</option>
+                </select>
+
+                <select id="popup-oauth-register-dob-year" name="popup-oauth-register-dob-year" tabindex="6">
+                    <option value="-1" selected>Ann&eacute;e</option>
+                </select>
+
+                <div class="tip">Quelle est ta date de naissance ?</div>
+                <div class="tip error" data-errortype="dob-wrong">Cette date de naissance n'est pas valide. R&eacute;essaie.</div>
+            </div>
+            </div>
+
+            <div id="popup-oauth-register-gender-container" class="gender-container">
+        		<legend>Sexe</legend>
+                <div class="hinted-container" id="popup-oauth-register-gender">
+                    <input type="radio" name="gender" id="popup-oauth-register-gender-boy" value="boy">
+                    <label for="popup-oauth-register-gender-boy">Homme</label>
+                    <input type="radio" name="gender" id="popup-oauth-register-gender-girl" value="girl">
+                    <label for="popup-oauth-register-gender-girl">Femme</label>
+                </div>
+            </div>
+            
+            <p class="form-small-text">J'ai lu et j'accepte la <a href="/politique-de-protection-de-la-vie-privee">Charte de confidentialit&eacute;</a> et les <a href="/conditions-dutilisation">Conditions d'utilisation.</a></p>
+            
+
+            <div class="align-center"> 
+                <a href="#" class="btn " id="popup-oauth-register-button">Joue maintenant <div class="round-icon sprite-orange"></div> </a></div>
+        </div>    
+    </div>
+    <div class="popup-fadeOverlay"></div>
+</div>
+    <script>
+        //
+        SpilGames(['JSLib'], function(JSLib) {
+            JSLib.set('wdg_popup_oauth.use_avatar_picker', 'true');
+        });
+        //
+    </script>
+</article>
+
+
+
+<!-- Google Code for Remarketing Tag -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1034720660;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<div style="display:none">
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+</div>
+<noscript>
+<div style="display:none;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1034720660/?value=0&guid=ON&script=0"/>
+</div>
+</noscript>
+
+
+
+        <script src="https://payments.spilgames.com/static/javascript/spil/payment.portal.js" async></script>
+<script src="https://payments.spilgames.com/static/javascript/spil/payment.client.js" async></script>
+<script>
+    SpilGames(['JSLib'], function(jslib) {
+        jslib.set('payments.current.user', 'guest');
+        jslib.publish('payments.ready');
+    });
+</script>
+
+        
+        
+        
+<script>
+SpilGames(['JSLib', 'Portal'], function (JSLib, Portal) {
+    'use strict';
+    
+    Portal
+        .set('portalversion',   'widgets-family')
+        .set('pagetype',        'game')
+        .set('pagetypedetail',  'index')
+        .set('pageid',          '576742227280280882' || null)
+
+        
+
+        
+    ;
+
+    // Initiate SET page tracker
+    JSLib('tracker.page.track');
+    // Initiate SET event tracker
+    JSLib('tracker.event.init');
+
+});
+</script>
+
+
+    </div>
+</div>
+
+<div id="sgAdStGp" style="display: block;">
+    <script>AdFront.push( 'sgAdStGp' );</script>
+</div>
+
+
+        
+        <script>
+        //
+        (function(a,c){var d=function(){var b=c.createElement("script");b.type="text/javascript";b.async="async";b.src="//"+("https:"===a.location.protocol?"s3.amazonaws.com/cdx-radar/":"radar.cedexis.com/")+"01-10281-radar10.min.js";c.body.appendChild(b)};a.addEventListener?a.addEventListener("load",d,!1):a.attachEvent&&a.attachEvent("onload",d)})(window,document);
+        //
+        </script>
+        
+        
+        <script>
+        //
+            var _comscore = _comscore || [];
+            _comscore.push({ c1: "2", c2: "6035689" });
+            SpilGames(['JSLib'], function(JSLib) {
+                 JSLib.subscribe('spilgames.loaded', function() {
+                    var js, fjs = document.getElementsByTagName('script')[0];
+                    if (document.getElementById('comscore')) return;
+                    js = document.createElement('script'); js.id = 'comscore';
+                    js.src = '//b.scorecardresearch.com/beacon.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                });
+            });
+        //
+        </script>
+        <noscript>
+            <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035689&amp;cv=2.0&amp;cj=1">
+        </noscript>
+        
+        
+        <script>
+        //
+         (function(){var e=window,g=window.document,l={o:{path:"http://static.ams1.spil.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"},l:{path:"http://static.level3.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"},ce:{path:"http://static.cedexis.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"},os:{path:"http://static-route.cedexis.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"},hw:{path:"http://static.highwinds.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"},o2:{path:"http://static.ams1.spil.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"},l2:{path:"http://static.level3.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"},ce2:{path:"http://static.cedexis.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"},os2:{path:"http://static-route.cedexis.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"},hw2:{path:"http://static.highwinds.cdnperf.spilcloud.com/v1/rumsynthetictests/image-0.png"}},m=0,n=0,p=!1; function q(){var b=(new Date).getTime();e.performance&&(e.performance.now?b=e.performance.now():e.performance.webkitNow&&(b=e.performance.webkitNow()));return b} function s(b,f){n+=1;l[f].a=b;l[f].timing=q()-l[f].b;if(m===n&&!p){var a=new Image,h="",d,j=1;for(d in l)l.hasOwnProperty(d)&&(h+=d+","+(l[d].a?1:0)+(m!==j?"|":""),j+=1);d="";var c,j=1;for(c in l)l.hasOwnProperty(c)&&(d+=c+","+Math.round(l[c].timing)+(m!==j?"|":""),j+=1);a.src="/lg/pb/1/cdn?p="+d+"&a="+h+"&buster="+q();a=new Date;a.setTime(a.getTime()+3E5);g.cookie="_cdnsTested= ; expires="+a.toGMTString()+"; path=/"}} function t(){var b;a:{b=g.cookie.split(";");var f,a;for(f=0;f<b.length;f+=1){for(a=b[f];" "===a.charAt(0);)a=a.substring(1,a.length);if(0===a.indexOf("_cdnsTested=")){b=unescape(a.substring(12,a.length));break a}}b=null}if(null===b){var h,d;b=function(){s.call(this,!0,this.title)};f=function(){s.call(this,!1,this.title)};a=l;var j={},c,k=[];for(c in a)a.hasOwnProperty(c)&&k.push(c);c=k;for(var r,v,k=c.length-1;0<k;k-=1)r=Math.floor(Math.random()*(k+1)),v=c[k],c[k]=c[r],c[r]=v;for(d in c)c.hasOwnProperty(d)&& (j[c[d]]=a[c[d]]);l=j;for(h in l)l.hasOwnProperty(h)&&(m+=1);for(h in l)l.hasOwnProperty(h)&&(d=l[h],a=new Image,a.title=h,a.src=d.path+"",d.b=q(),a.complete?(a.d=!0,s.call(a,!0,a.title)):(a.onload=b,a.onerror=f),d.f=a)}}var u,w;e.addEventListener?w=function(b,f,a){a.addEventListener(b,f,!1)}:e.attachEvent&&(w=function(b,f,a){a.attachEvent("on"+b,f)});u=w;function x(){p=!0}u("load",function(){e.setTimeout(t,3E4)},e);u("beforeunload",x,e);u("unload",x,e);})();
+        //
+        </script>
+        
+    </body>
+</html>

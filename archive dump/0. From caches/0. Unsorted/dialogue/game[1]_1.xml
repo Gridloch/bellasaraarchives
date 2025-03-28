@@ -1,0 +1,56 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<root>
+
+	<!-- button text goes here -->
+  <gameTitle><FONT SIZE="36">Cavalier des nuages</FONT></gameTitle>
+  <help_btn><FONT SIZE="15">Aide</FONT></help_btn>
+	<pause_btn><FONT SIZE="15">Pause</FONT></pause_btn>
+	<start_btn><FONT SIZE="10">Commencer partie</FONT></start_btn>
+
+	<turbobtn><FONT SIZE="10">Play Turbo</FONT></turbobtn>
+
+	<pauseheading><FONT SIZE="24">Le jeu est en pause</FONT></pauseheading>
+	<pause2><FONT SIZE="15">Ferme cette fenêtre pour reprendre la partie</FONT></pause2>
+  <!--<resume_btn><FONT SIZE="12">Resume</FONT></resume_btn> -->
+
+	<how_to_play_btn><FONT SIZE="10">Comment jouer</FONT></how_to_play_btn>
+
+	<play_again_btn><FONT SIZE="15">Rejouer</FONT></play_again_btn>
+
+	<!-- intro text goes here -->
+	<intro><FONT SIZE="15">Intro From XML!</FONT></intro>
+
+	<!-- how to play title goes here -->
+	<how_to_play_title><FONT SIZE="24">Comment jouer</FONT></how_to_play_title>
+
+	<!-- how to play text goes here -->
+	<intro_how_to>
+    <FONT SIZE="12">
+      <p>Aide Pegasus à collectionner les fleurs spéciales en parcourant le ciel.</p>
+      <p>Appuie sur la barre d'espace ou clique avec la souris pour lui faire battre des ailes.</p>
+      <p>Rassemble autant de fleurs que possible avant d'arriver au château au crépuscule.</p>
+    </FONT></intro_how_to>
+
+  <how_to_play2>
+    <FONT SIZE="15">
+      <p>Aide Pegasus à collectionner les fleurs spéciales en parcourant le ciel.</p>
+      <p>Appuie sur la barre d'espace ou clique avec la souris pour lui faire battre des ailes.</p>
+      <p>Rassemble autant de fleurs que possible avant d'arriver au château au crépuscule.</p>
+    </FONT>
+  </how_to_play2>
+
+  <good_luck><FONT SIZE="15">Bonne chance !</FONT></good_luck>
+
+	<!-- win message -->
+	<win><FONT SIZE="36">Félicitations</FONT></win>
+  <won_horseshoes><FONT SIZE="24">Tu as gagné</FONT></won_horseshoes>
+	<win2><FONT SIZE="18">Bien joué ! Veux-tu rejouer et ramasser encore plus de fleurs ?</FONT></win2>
+	
+	<!-- control panel score text goes here -->
+	<current_score><FONT SIZE="15">Score:</FONT></current_score>
+  <your_score><FONT SIZE="24">Ton score:</FONT></your_score>
+
+  <great_flying><FONT SIZE="24">Beau parcours !</FONT></great_flying>
+  <end_journey><FONT SIZE="16">C'est la fin du voyage. Il n'y a plus de fleurs à ramasser.</FONT></end_journey>
+
+</root>

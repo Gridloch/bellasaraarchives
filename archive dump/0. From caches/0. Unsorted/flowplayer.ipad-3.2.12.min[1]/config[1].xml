@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<environments>
+		<environment root="file:///Users/ochalifoux/Documents/Projets/Hasbro/MyLittlePony_CrystalEmpire/ShinningHeart/deploy/debug/medias/" debug="true" />
+		<environment root="http://198.101.249.17/hasbro/mylittlepony/medias/" debug="false" />
+	</environments>
+
+	<languages default="en-US">
+		<!-- ENGLISH -->
+        <language lang="en-US">
+            <!--<file key="common" src="assets/xml/localization/en_US/common.xml" />-->
+            <fonts>
+                <font type="Titan One" className="TitanOne" filePath="swf/font/TitanOne.swf" />
+            </fonts>
+        </language>
+    </languages>
+	
+	<views>
+		<view key="IntroScreen" swfURL="swf/skins/IntroScreenView.swf" namespace="com.bkom.shinningheart.views.IntroScreenView" skin="com.bkom.shinningheart.skins.IntroScreenSkin" preloadData="false">
+		</view>
+		<view key="Game" swfURL="swf/skins/GameView.swf" namespace="com.bkom.shinningheart.views.GameView" skin="com.bkom.shinningheart.skins.GameSkin" preloadData="true">
+			<dataURL>xml/game_config.xml</dataURL>
+		</view>
+	</views>
+	<prompts>
+		<prompt key="Tutorial" swfURL="swf/skins/GameView.swf" namespace="com.bkom.shinningheart.views.TutorialPopupView" skin="com.bkom.shinningheart.skins.TutorialPopupSkin">
+		</prompt>
+		<prompt key="LevelEnd" swfURL="swf/skins/GameView.swf" namespace="com.bkom.shinningheart.views.LevelEndView" skin="com.bkom.shinningheart.skins.LevelEndSkin">
+		</prompt>
+	</prompts>
+</config>

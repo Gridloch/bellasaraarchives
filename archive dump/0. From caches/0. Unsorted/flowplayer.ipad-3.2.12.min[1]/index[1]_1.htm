@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="Disney Minigame Collection" />
+<meta name="Keywords" content="Disney, games, minigame, collection" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+
+<title>Disney Minigame Collection</title>
+
+<link rel="icon" href="i/favicon.gif" type="image/x-icon" />
+<link rel="shortcut icon" href="i/favicon.gif" type="image/x-icon" />
+<link rel="bookmark icon" href="i/favicon.gif" type="image/x-icon" />
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<!--
+<style type="text/css">
+#lowerrightadv {
+	background:transparent url(i/lowerright_adv_bg.gif) no-repeat scroll 0 0;
+	display:block;
+	width:431px;
+	left:353px;
+	position:absolute;
+	top:30px;
+	height:285px;
+	z-index:110;
+}
+
+#lowerrightadv img {
+	display:block;
+	position:absolute;
+	left:11px;
+	top:22px;
+}
+#toplist, .ad_foot_bttm {display:none !important;}
+</style>
+-->
+ <!--[if lt IE 7]>
+<link rel="stylesheet" href="css/style_ie6bugfix.css" type="text/css" />
+<![endif]-->
+
+<script src="http://media.disneyinternational.com/EMEA/fr-FR/js/dcom/swfobject.js" type="text/javascript"></script>
+<script src="js/changegame.js" type="text/javascript"></script>
+<script type="text/javascript">
+	/* gamefinder texts */
+	var translations = ['Retour','Plus grande','Retour','Petits','Liste des jeux','Jouer !','Nouveau!','http://www.disney.fr/DisneyOnline/games','plus']
+</script>
+<script src="js/jquery-1.4.2.js" type="text/javascript"></script>
+<script src="js/UnityObject.js" type="text/javascript"></script>
+<!--
+<script language="javascript" type="text/javascript" src="http://registration.disney.co.uk/commonfiles/iur.js"></script>
+-->
+
+<script type="text/javascript" src="//analytics.disneyinternational.com/ads/dimgAdMaster.js"></script>
+</head>
+<body class="default home"><div id=bgmiddle>
+
+    <!-- layered games -->
+    <div class="popLayer" id="popLayer">	
+        <div class="content" id="popLayerBox">	
+            <div class="head" id="popLayerHead">
+                <a href="#" onclick="document.getElementById('popLayer').style.display = 'none'; document.getElementById('popLayerContent').innerHTML = ''; return false;"></a>
+            </div>
+            <div id="popLayerContent" class="popLayerContent">
+                chargement..
+            </div>
+        </div>
+    </div>
+    <!-- /layered games -->        
+
+    <!-- help layer -->
+    <div id="helpLayer" class="helpLayer">
+        <div id="help" class="help">
+            chargement..
+        </div>
+    </div>
+    <!-- /help layer -->    
+
+<!-- container -->
+<div class="container">
+
+    <div class="ad_top">
+        <div class="adbg"></div>
+        <div class="advert">
+    
+	<!-- BEGIN BANNER CODE 728x90 -->
+		<div id="div-728x90"></div> <script type="text/javascript"> dimgAd.display("728x90"); </script>
+	<!-- END BANNER CODE -->
+        </div>
+    </div>
+
+    <div class="ad_right">
+        <div class="adbg"></div>
+        <div class="advert">
+    
+	<!-- BEGIN BANNER CODE 120x600 -->
+		<div id="div-120x600"></div> <script type="text/javascript"> dimgAd.display("120x600"); </script>
+	<!-- END BANNER CODE -->
+        </div>
+    </div>
+
+<!--main-->
+
+    <div class="main" id="main">
+    
+        <a href="http://www.disney.fr/DisneyOnline/games/" title="Disney Minigames Collection" class="home" accesskey="H"><span>Disney</span></a>
+            
+        <div id="synergybar" class="synergybar">
+
+		<script type="text/javascript">
+        	barwidth = "750";
+        	pagecolour = '291B6C';
+        </script>	
+        <script type="text/javascript" src="http://navbar.disneyinternational.com/fr/03/navbar.js"></script>        
+
+        </div>
+	
+		<div class="bg" id="bg"></div>
+		<div class="bg_mddl" id="bg_mddl"></div>
+		<div class="bg_bttm" id="bg_bottom"></div>
+		<div id="promobox" class="swf"></div>
+
+		<script type="text/javascript">
+            // <![CDATA[
+        
+            var pb = new SWFObject("swf/disneygames_promobox.swf", "swf_promobox", "795", "258", "8", "#FFFFFF");
+            pb.addParam("scale", "noscale");
+            pb.addParam("wmode", "transparent");
+            pb.write("promobox");
+            
+        checkBookmark()
+
+            // ]]>
+        </script>
+        
+    <div id="sponsor" class="sponsor"></div>
+
+    <script type="text/javascript">
+		// <![CDATA[
+		var sp = new SWFObject("swf/sponsor.swf", "swf_sponsor", "160", "70", "8", "#FFFFFF");
+		sp.addParam("scale", "noscale");
+		sp.addParam("wmode", "transparent");
+		sp.addVariable("sponsorTxt","sponsored by:")
+		//sp.write("sponsor");
+		// ]]>
+    </script>	
+
+	</div>
+
+	<!-- thumb swf height is depend on: style="height:450px; and "480" in SWFObject , so if thumb contain mor lines of thumbs need to update this value !  -->
+    <div class="thumb" id="thumb" style="height: 560px;" >
+    
+        <div id="thumb_swf" class="swf"></div>
+    
+        <script type="text/javascript">
+            // <![CDATA[
+
+				var gf = new SWFObject("swf/gamefinder.swf", "swf_thumb", "785", "560", "8", "#FFFFFF");
+				gf.addVariable("infoBtn", translations[2]);		
+				gf.addVariable("switchBtn", translations[3]);		
+
+				gf.addParam("scale", "noscale");
+				gf.addParam("wmode", "transparent");
+				gf.addParam("salign", "tl");
+
+				gf.addVariable("gameList", translations[4]);
+				gf.addVariable("playNow", translations[5]);
+				gf.addVariable("newText", translations[6]);
+				gf.addVariable("home", translations[7]);
+				gf.addVariable("more", translations[8]);
+	            gf.write("thumb_swf");
+				
+            // ]]>
+        </script>     
+    
+    </div>
+<!--/main-->
+
+<!--footer-->
+
+    <div class="foot">
+        <div class="bg"></div>
+        
+        <div class="ad_foot">
+            <div class="adbg"></div>
+            <div class="advert">
+    
+	<!-- BEGIN BANNER CODE 300x250 -->
+		<div id="div-300x250"></div> <script type="text/javascript"> dimgAd.display("300x250"); </script>
+	<!-- END BANNER CODE -->
+            </div>
+        </div>
+	
+	<!-- JUPITER PHASE REDESIGN  -->
+	
+	
+	 <div id=top3banner>		
+		<div id=three15089promo>
+			<!-- MANUALLY CHANGED PROMO -->
+			<div class=promo15089>
+				<a href="http://play.clubpenguin.com/fr/?oast=DOS_CP_CPVW_DFR_GMS_EVRGRN-PUFFLE_BAC_FR_EMEA_150x89&cmp=clp_bac_fr_evrgrn-puffle_dfr_150x89_gms_extl" title="Rejoins-nous et fais-toi plein de nouveaux amis !" >
+				<img src="promo/disney_banner_fr_games_page.jpg" alt="Rejoins-nous et fais-toi plein de nouveaux amis !"></a>
+				</div>
+			<div class=promo15089>
+				<a href="http://www.disney.fr/DisneyOnline/fairies/games/minigames.html" title="Joue à des mini-jeux avec tes fées préférées !">
+				<img src="promo/pro_fairies_fr_150x89.jpg" alt="Joue à des mini-jeux avec tes fées préférées !" ></a>
+				</div>
+			<div class=promo15089>
+				<a href="http://disney.go.com/disneyxd/fr/#/disneyxd/games/" title="Les jeux DisneyXD, c'est du sport, de l'action et de l'extrême !">
+				<img src="promo/pro_xd_playgames_fr_150x89.jpg" alt="Les jeux DisneyXD, c'est du sport, de l'action et de l'extrême !" ></a>
+				</div>
+			
+		</div>
+	 	<div id=topmodul class=swf></div>
+	 </div>
+    
+        <script type="text/javascript">
+            // <![CDATA[		
+				var tgm = new SWFObject("swf/topGames.swf", "swf_top10modul", "273", "277", "8", "#FFFFFF");
+				tgm.addParam("scale", "noscale");
+				tgm.addParam("wmode", "transparent");		
+				tgm.addParam("allowScriptAccess", "sameDomain");			
+				tgm.write("topmodul");				
+            // ]]>
+        </script>     			
+		
+        
+        <div id="footer" class="footer">
+            <!-- start site wide html footer -->
+    		<script type="text/javascript" src="http://navbar.disneyinternational.com/fr/footer.js"></script> 
+            <!-- end site wide html footer -->
+        </div>
+    </div>
+
+<!--/footer-->
+
+<div class="close"></div>
+
+</div>
+<!-- /container -->
+
+
+<!-- use_hbx_media_tag -->
+</div><!-- BEGIN WDIG Web Analytics 1.0 -->
+<script type="text/javascript" src="//analytics.disneyinternational.com/analytics/wdigWebAnalytics.js"></script>
+<script type="text/javascript">
+    cto = new CTO();
+    cto.track();//Required. Do not remove.
+</script> 
+
+<script type="text/javascript">
+    // Support for legacy Hitbox Functions hard-coded into old Flash Files
+    // These functions will now record to both Hitbox and Omniture
+    function _hbflash(p,m,x,d,s,c,f,g){cto.hbflash(p,m,x,d,s,c,f,g);}
+    function _hbPageView(p,m){cto.hbflash(p,m,"n","n","n","n","n","n");}
+    function _hbExitLink(n){cto.hbflash(_pn,_mlc,n,"n","n","n","n","n");}
+    function _hbDownload(n){cto.hbflash(_pn,_mlc,"n",n,"n","n","n","n");}
+    function _hbVisitorSeg(n,p,m){cto.hbflash(p,m,"n","n",n,"n","n","n");}
+    function _hbCampaign(n,p,m){cto.hbflash(p,m,"n","n","n",n,"n","n");}
+    function _hbFunnel(n,p,m){cto.hbflash(p,m,"n","n","n","n",n,"n");}
+    function _hbGoalPage(n,p,m){cto.hbflash(p,m,"n","n","n","n","n",n);}
+</script>
+<!-- END WDIG Web Analytics 1.0 -->
+</body>
+</html>

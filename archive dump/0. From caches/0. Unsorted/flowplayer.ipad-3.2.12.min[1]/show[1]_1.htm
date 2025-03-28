@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>village</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://imgs3.plinga.de.s3.amazonaws.com/general/json2.min.js"></script>
+<script type="text/javascript" src="http://imgs3.plinga.de.s3.amazonaws.com/general/easyXDM.min.js"></script>
+<script type="text/javascript" src="http://imgs3.plinga.de.s3.amazonaws.com/plingaRpc/spielen.com/plingaRpc.js"></script>
+<script type="text/javascript">
+var serverUrl = "http://farm-spil.socialgamenet.com/";
+</script>
+<script src="/js/plinga.js" type="text/javascript"></script>
+<script src="http://farm-spil.socialgamenet.com/fr/static/js/swfobject.js" type="text/javascript"></script>
+
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+
+</head>
+<body>
+<div style="width:760px; height:600px;">
+  <div id="sgn-banner1" style="font-family:arial,sans-serif;width:98%;font-weight:bold;margin:auto;text-align:center;"></div>
+  <div id="content" style="position:relative; height: 600px;">
+    <div style="position:absolute; top: 0px; z-index:1;width: 760px;">
+      <div style="padding-top:20px; text-align:center;"><img src="http://farm-spil.socialgamenet.com/p.png" /></div>
+    </div>
+    <div style="height:600px; position:absolute; top:0px; z-index:10;">
+      	<div id="flashcontent"></div>
+    </div>
+  </div>
+  <div style="clear: both;"></div>
+  <!-- <div id="gameuseridtext" style="padding: 10px 0px 0px 0px;"></div> -->
+</div>
+<script type="text/javascript">
+var langCode = "fr";
+var flashUrl = "http://d1f91iphzv3hib.cloudfront.net/fr/static/swf/preloader.fr.988.swf?version=";
+var game_platform = "spilgames";
+var flashVars = {};
+var feedDefaultTitle = "Jouons à Super Ferme ensemble!";
+var feedDefaultBody = "Rejoins-moi dans Super Ferme. Construisons notre Super Ferme ensemble!";
+	flashVars["lang"] = "fr";
+	flashVars["host"] = "http://d1f91iphzv3hib.cloudfront.net/fr/static/";
+	flashVars["transport"] = "http://farm-spil.socialgamenet.com/";
+	flashVars["uid"] = "spielen.com:sgid_040100c1915360ce";
+	flashVars["mod"] = "netlog";
+	flashVars["showAcceptGiftsButton"] = "1";
+	flashVars["feed_reward_feed_max"] = "6";
+	flashVars["fertilize_to_friend_feed_max"] = "2";
+	flashVars["showBuyCashItemTimeout"] = "86400000";
+	flashVars["plingaKey"] = "1397496471";
+	flashVars["plingaSession"] = "577a1ebdb2e2c50556102f699715e256";
+	flashVars["showActivityBar"] = "0";
+	flashVars["showMessageBar"] = "1";
+	flashVars["showDogHuntingBar"] = "0";
+	flashVars["showLovePointBar"] = "0";
+	flashVars["showXmasBar"] = "0";
+	flashVars["showRankBar"] = "1";
+	flashVars["batch_delay"] = "4000";
+	flashVars["achievementOn"] = "1";
+	flashVars["showGiftBoxBar"] = "0";
+	flashVars["showInviteTaskBar"] = "0";
+	flashVars["showHalloweenBar"] = "0";
+	flashVars["showItalianWeeklyBar"] = "0";
+	flashVars["showDrawGiftBar"] = "0";
+	flashVars["loginSession"] = "23buv8sgy5";
+
+
+function startPlingaFrame()
+{
+	HV.init();
+	HV.loadGame(flashUrl, flashVars);
+}
+
+//HV.init();
+//HV.loadGame(flashUrl, flashVars);
+
+var loadSocialData = function()
+{
+	return {"user": HV.me, "friendIds": HV.friendIds, "friends": HV.friendsData};
+}
+
+$(document).ready(function() {
+	plingaRpc.init(startPlingaFrame);
+        if(langCode == "fr" || langCode == "de" || langCode == "nl" || langCode == "en" || langCode == "es" || langCode == "pt")
+        {
+            jQuery.ajax({
+                dataType: "script",
+                cache: true,
+                url: "//banner-api.socialgamenet.com/loader.php?site="+ game_platform +"_" + langCode + "&wrap=sgn-banner1&callback=onBannerLoaded"
+            });
+        }
+});
+
+HV.showHelpPage = function()
+{
+		window.open(serverUrl+"show/showStore/?lang=" + langCode);
+}
+
+function execFlashCallback(funcname,data)
+{
+    var mainFlash=getFlashMovieObject('flashcontent');
+    var callbackFlash=getFlashMovieObject('callbackflashcontent');
+    if(mainFlash[funcname])
+    {
+        return mainFlash[funcname](data);
+    }
+    else
+    {
+        return callbackFlash.exeFunction(funcname,data);
+    }
+}
+function getFlashMovieObject(movieName)
+{
+
+    if (window.document[movieName])
+    {
+        return window.document[movieName];
+    }
+
+    if (navigator.appName.indexOf("Microsoft Internet")==-1)
+    {
+        if (document.embeds && document.embeds[movieName])
+            return document.embeds[movieName];
+    }
+    else
+    {
+        return document.getElementById(movieName);
+    }
+}
+
+
+</script>
+</body>
+</html>

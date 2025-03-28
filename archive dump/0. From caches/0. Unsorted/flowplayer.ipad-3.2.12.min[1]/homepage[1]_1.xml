@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<homepage>
+	<!-- ============================================================================================================ -->
+	<tagline_banner>Découvre un monde magique plein de chevaux</tagline_banner>
+	<!-- ============================================================================================================ -->
+	<top_nav>
+		<item link="http://www.bellasara.com/about2.aspx">À propos</item>
+		<item link="http://www.bellasara.com/parentguide.aspx">Parents</item>
+		<item link="http://www.bellasara.com/shop.aspx" pane="_self">Produits</item>
+		<item link="http://www.bellasara.com/activities.aspx" ref="HPBUTN5-US-CR43">Visite guidée</item>
+	</top_nav>	
+	<!-- ============================================================================================================ -->
+	<playnow_btn link="http://www.bellasara.com/newuser.aspx" login="true" ref="HPPNBTN-CR43" popup="false">Jouer maintenant</playnow_btn>
+	<!-- ============================================================================================================ -->
+	<main_nav>
+		<item link="http://www.bellasara.com/newuser.aspx" landing="horses">Chevaux magiques</item>
+		<item link="http://www.bellasara.com/newuser.aspx" landing="games">Jeux</item>
+		<item link="http://www.bellasara.com/newuser.aspx" landing="world">Ton monde</item>
+		<item link="http://www.bellasara.com/activate.aspx" login="true" ref="HPCN4-CR43" popup="true">Entre tes codes</item>
+	</main_nav>	
+	<!-- ============================================================================================================ -->
+	<center_window>
+    <content src="/FR/content/14C.swf" link="movie.aspx" ref="CB1" login="false" popup="false" />
+		<content src="http://www.bellasara.com/FR/content/babybella_horses.swf" />
+		<content src="http://www.bellasara.com/FR/content/babybella_games.swf" />
+		<content src="http://www.bellasara.com/FR/content/babybella_world.swf" />
+		<content src="http://www.bellasara.com/FR/content/babybella_cards.swf" />
+	</center_window>
+	<!-- ============================================================================================================ -->
+  <sidebox_left auto="true" min="1" max="3">
+    <content src="/images/HomePageQ408/CB2_EmmasWings.jpg" link="/">
+      <text x="8" y="90" width="200">Les ailes d'Emma: un conte de Bella Sara, est disponible!</text>
+      <btn>Coming Soon</btn>
+    </content>
+   </sidebox_left>
+	<!-- ============================================================================================================ -->
+  <sidebox_right>  
+    <content src="/images/HomePageQ408/CB4_SUM_MagicDoors.jpg" link="hnn_splash.aspx" ref="HOMECBR1-CR100I" login="false" popup="false">
+      <text x="8" y="63" width="200">Gagne des Portes Magiques grâce aux codes secrets des Troupeaux du Nord du Septentrion</text>
+      <btn>More</btn>
+    </content>
+    <content src="/images/HomePageQ408/CB4_MAC_FoalCare.jpg" link="/hnn_splash.aspx" ref="HOMECBR2-CR100I" login="false" popup="false">
+      <text x="8" y="75" width="200">Occupe-toi des poulains Bella Sara : Codes Secrets des Troupeaux du Nord du Septentrion</text>
+      <btn>More</btn>
+    </content>
+    <content src="/images/HomePageQ408//CB4_MAC_Horses.jpg" link="/hnn_splash.aspx" ref="HOMECBR3-CR100I" login="false" popup="false">
+      <text x="8" y="75" width="200">Collectionne les chevaux Bella Sara : Codes Secrets des Troupeaux du Nord du Septentrion</text>
+      <btn>More</btn>
+    </content>
+  </sidebox_right>
+	<!-- ============================================================================================================ -->
+	<centerbox>
+    <content src="/FR/video/BellaSaraMovie_Trailer.flv">
+			<text x="0" y="0" width="200">CENTER BOX</text>
+		</content>		
+	</centerbox>
+	<!-- ============================================================================================================ -->
+	<popup>
+    <header x="0" y="0" width="245">Bienvenue chez Bella Sara!</header>
+		<newuser>
+			<header x="0" y="5" width="200">C'est la première fois que tu viens chez Bella Sara?</header>
+			<body x="18" y="50" width="150">C'est gratuit!</body>
+			<btn x="250" y="40" link="../../signup.aspx?ref=09H">Inscris-toi</btn>
+		</newuser>
+		<login>
+			<header x="18" y="15">Bienvenue</header>			
+			<login_btn x="250" y="65">Connexion</login_btn>
+			<enter_btn x="250" y="65">Entrée</enter_btn>			
+			<password_btn x="95" y="110" link="http://www.bellasara.com/forgot.aspx">Mot de passe oublié?</password_btn>
+		</login>
+	</popup>
+	<!-- ============================================================================================================ -->
+	<audio>
+		<top_nav_ro src="http://www.bellasara.com/Flash/HomePageQ408/audio/Button.Rollover.C5.mp3" />
+		<bs_logo src="http://www.bellasara.com/Flash/HomePageQ408/audio/Bumper.Main.mp3" />
+		<main_nav_pop src="http://www.bellasara.com/Flash/HomePageQ408/audio/Pop.Main.mp3" />
+		<main_nav_ro src="http://www.bellasara.com/Flash/HomePageQ408/audio/Button.Rollover.Sparkle.mp3" />	
+		<arborium_sweep src="http://www.bellasara.com/Flash/HomePageQ408/audio/Arborium.Sweep.mp3" />
+		<arborium_sparkle src="http://www.bellasara.com/Flash/HomePageQ408/audio/Chimes.Down.Main-Mono.mp3" />
+		<playnow_ro src="http://www.bellasara.com/Flash/HomePageQ408/audio/Button.Rollover.Sparkle.mp3" />
+		<playnow_pop src="http://www.bellasara.com/Flash/HomePageQ408/audio/Pop.Main.mp3" />		
+		<center_window_pop src="http://www.bellasara.com/Flash/HomePageQ408/audio/Pop.F4.mp3" />		
+		<box_pop src="http://www.bellasara.com/Flash/HomePageQ408/audio/Pop.Main.mp3" />
+		<arrow_ro src="http://www.bellasara.com/Flash/HomePageQ408/audio/Button.Rollover.F3.mp3" />
+		<box_btn_ro src="http://www.bellasara.com/Flash/HomePageQ408/audio/Button.Rollover.C5.mp3" />		
+	</audio>
+	<!-- ============================================================================================================ -->
+	<!-- ============================================================================================================ -->
+	<games_landing_page>
+		<game_list visibleCount="3">
+			<header x="-100" y="-105" width="200" height="25">Jeux Bella Sara</header>
+			<game src="http://www.bellasara.com/EN/images/homepage/games_icon_jumpinggame.png" link="jumpinggame.aspx" login="true" ref="GPCB21LNK-CR50" popup="true" />
+			<game src="http://www.bellasara.com/EN/images/homepage/games_icon_cloudjumper.png" link="cloudjumper.aspx" login="true" ref="GPCB22LNK-CR50" popup="true" />
+			<game src="http://www.bellasara.com/EN/images/homepage/games_icon_treasureshunt.png" link="treasureshunt.aspx" login="true" ref="GPCB23LNK-CR50" popup="true" />
+      <game src="http://www.bellasara.com/EN/images/homepage/games_icon_citrustacked.jpg" link="citrustacked.aspx" login="true" ref="GPCB24LNK-CR50" popup="true" />
+      <game src="http://www.bellasara.com/EN/images/homepage/games_icon_trailBlazer.jpg" link="trailblazer.aspx" login="true" ref="GPCB25LNK-CR50" popup="true" />
+      <game src="http://www.bellasara.com/EN/images/homepage/games_icon_magicBubbleWand.jpg" link="bubblewand.aspx" login="true" ref="GPCB26LNK-CR50" popup="true" />
+		</game_list>
+		<featured_game>
+			<header x="-100" y="-145" width="200" height="25">Essaie!</header>
+      <game src="http://www.bellasara.com/EN/images/homepage/games_featured_BSA.png" x="-100" y="9" width="200" height="25">Bella Sara Adventures</game>
+      <winAwards visible="true" x="-100" y="88" width="210" height="20">Restore the Magic of North of North</winAwards>
+      <winHorseshoes visible="true" x="4" y="88" width="85" height="20"></winHorseshoes>
+			<play_btn x="-53" y="-10" width="105" height="25" link="javascript:openBSA()" login="true" ref="GPCB1LNK-CR50" popup="true">Jouer</play_btn>
+		</featured_game>
+    <activities>
+      <header x="-120" y="-103" width="200" height="25">Activités</header>
+      <tagline x="-170" y="55" width="300" height="40">Fond d'écran, Puzzles, Pages à colorier imprimables</tagline>
+      <play_btn x="-53" y="-10" width="105" height="25" link="http://www.bellasara.com/activities.aspx" login="false" ref="GPCB4LNK-CR50" popup="false">Jouer</play_btn>
+    </activities>
+    <sara>
+      <text x="50" y="-35" width="355" height="75">Il y a beaucoup de jeux auxquels tu peux jouer. Tu peux gagner des récompenses, des trésors et des fers à cheval pour décorer ta maisonnette. Viens t'amuser avec nous!</text>
+    </sara>
+	</games_landing_page>
+	<!-- ============================================================================================================ -->
+  <horses_landing_page>
+    <default>
+      <text x="50" y="-35" width="355" height="75">Bonjour, je suis Sara, déesse du Nord du Septentrion. Viens avec moi et explore le monde magique des chevaux.</text>
+    </default>
+    <foal>
+      <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/myHorseStall.aspx" login="true" ref="HPLB1LNK-CR1" popup="true">J'aimerais beaucoup que tu aies un cheval rien qu'à toi. Tu pourrais t'occuper de lui et le soigner. Commence dès maintenant !</text>
+    </foal>
+    <emma>
+      <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/activate.aspx" login="true" ref="HPRB1LNK-CR1" popup="true">Voici mon amie Emma. Elle m'aide à prendre soin des chevaux du Nord du Septentrion. Nous avons toutes les deux besoin de ton aide pour découvrir et soigner ces chevaux magiques.</text>
+    </emma>
+    <horses>
+      <nike>
+        <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/flashloader_stablechooser.aspx" login="true" ref="HPRB1LNK-CR1" popup="true">Connais-tu Nike ? Elle est noble et indépendante. Il faut que tu apprennes son histoire et celles des autres chevaux.</text>
+      </nike>
+      <thunder>
+        <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/flashloader_stablechooser.aspx" login="true" ref="HPRB1LNK-CR1" popup="true">Connais-tu Thunder ? Il est courageux et confiant. Il faut que tu apprennes son histoire et celles des autres chevaux.</text>
+      </thunder>
+      <jewel>
+        <text x="50" y="-35" width="355" height="75" link="flashloader_stablechooser.aspx" login="true" ref="HPRB1LNK-CR1" popup="true">Connais-tu Jewel ? Elle est généreuse et rêveuse. Il faut que tu apprennes son histoire et celles des autres chevaux.</text>
+      </jewel>
+      <fiona>
+        <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/flashloader_stablechooser.aspx" login="true" ref="HPRB1LNK-CR1" popup="true">Connais-tu Fiona ? Elle est sage et encourageante. Il faut que tu apprennes son histoire et celles des autres chevaux.</text>
+      </fiona>
+    </horses>
+  </horses_landing_page>
+  <world_landing_page>
+    <default>
+      <text x="50" y="-35" width="355" height="75">Bienvenue dans le monde magique de Bella Sara. Viens créer ton propre univers merveilleux.</text>
+    </default>
+    <cottage>
+      <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/cottageEntry.aspx" login="true" ref="WPCB1LNK-CR1" popup="true">Fais les boutiques et décore ta maisonnette pour la personnaliser. Ajoute des pièces et des espaces extérieurs. Choisis de splendides meubles et décorations magiques.</text>
+    </cottage>
+    <magicalFriend1>
+      <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/bazaar.aspx" login="true" ref="WPCB1LNK-CR1" popup="true">Fais la connaissance de créatures magiques et inclus-les dans ta maisonnette et dans ton monde. Qui rencontreras-tu en premier?</text>
+    </magicalFriend1>
+    <magicalFriend2>
+      <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/bazaar.aspx" login="true" ref="WPCB1LNK-CR1" popup="true">Fais la connaissance de créatures magiques et inclus-les dans ta maisonnette et dans ton monde. Qui rencontreras-tu en premier?</text>
+    </magicalFriend2>
+    <magicalFriend3>
+      <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/bazaar.aspx" login="true" ref="WPCB1LNK-CR1" popup="true">Fais la connaissance de créatures magiques et inclus-les dans ta maisonnette et dans ton monde. Qui rencontreras-tu en premier?</text>
+    </magicalFriend3>
+    <horseshoe>
+      <text x="50" y="-35" width="355" height="75" link="http://www.bellasara.com/bazaar.aspx" login="true" ref="WPCB1LNK-CR1" popup="true">Les fers à cheval te permettent d'acheter des objets au Bazar. Tu peux acheter des meubles, des livres, et même des objets magiques comme tu n'en as jamais vu!</text>
+    </horseshoe>
+  </world_landing_page>
+	<!-- ============================================================================================================ -->		
+</homepage>

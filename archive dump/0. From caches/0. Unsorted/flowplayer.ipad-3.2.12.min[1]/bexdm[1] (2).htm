@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script src="/assets/web_client/lib/utils/messenger.js"></script>
+
+    <script>
+      /*
+       * This is an iframe containing what is needed to handle "external" client side validations.
+       * Used for VISIBLE MEASURES and UNRULY
+       * At the moment only VISIBLE MEASURES is implemented and we don't need any fancy stuff (like
+       * dynamically loaded libraries, caching etc).
+       */
+      (function(window) {
+
+        // n: name of the network
+        // p: parameter(s)
+        var vars = parseUrl();
+        var unrulyIframe;
+
+        window.sourceWin = null;
+
+        // Workaround IE and the vm lib
+        window.swfobject = {};
+
+        Sponsorpay.Messenger.bind("bexdm_query", function(data, win) {
+          sourceWin = win;
+          switch(vars.n) {
+            case "visible measures":
+              return VISIBLE_MEASURES_hasVideo(vars);
+            case "unruly":
+              return UNRULY_hasVideo(vars);
+            default:
+              console.log("Unsupported type for BEXDM: " + vars.n);
+              break;
+          }
+        });
+
+        function postResult(result) {
+          Sponsorpay.Messenger.post("bexdm_result", { target: sourceWin, data: result });
+        }
+
+        window.UNRULY_response = function (available) {
+          postResult(available);
+          document.body.removeChild(unrulyIframe);
+        };
+
+        function UNRULY_hasVideo(vars) {
+          unrulyIframe = document.createElement('iframe');
+          unrulyIframe.src = 'about:blank';
+          document.getElementsByTagName('body')[0].appendChild(unrulyIframe);
+
+          var p = JSON.parse(vars.p);
+
+          // To coop with other document.writes coming from the following script,
+          // we're sticking with it as well within this page.
+          unrulyIframe.contentWindow.document.write( '<scri'+'pt> var unrulyMacros = {"siteRef": "' + p.application_name + '"}</scri'+'pt>');
+          unrulyIframe.contentWindow.document.write( '<scri'+'pt> unrulyMacros.adAvailabilityCallback = function(available) { window.parent.UNRULY_response(available); };</scri'+'pt>');
+          unrulyIframe.contentWindow.document.write( '<scri'+'pt src="//video.unrulymedia.com/carousel_availability_'+p.placement_id+'.js"></scri'+'pt>');
+        }
+
+        function VISIBLE_MEASURES_hasVideo(vars) {
+          var webStorageKey = "visible_measures_ad_info";
+          window.sessionStorage.removeItem(webStorageKey);
+
+          loadJS("//ad.visiblemeasures.com/ads.min.js", function() {
+
+            var options = {
+
+              mobile: 1,  // render an HTML5-capable player for platforms w/o Flash (if 1)
+
+              /*
+                var PLACEMENT_WITH_ADS = 4450;
+                var PLACEMENT_NO_ADS = 123456;
+              */
+              pl: vars.p, // placement id to use
+
+              // Workaround IE and the vm lib
+              div: "videoDiv",
+
+              n: 1,       // # of ads to return
+
+              ssl: window.location.protocol === "https:",
+
+              // function to render ads when we have ads
+              templateFunction: function(ad_info) {
+                window.sessionStorage.setItem(webStorageKey, JSON.stringify(ad_info));
+                postResult(true);
+              },
+
+              noAdsTemplateFunction: function() {
+                postResult(false);
+              }
+            }
+
+            var adtag = new viewablemedia.AdTag();
+            adtag.createAd(options);
+          });
+        }
+
+        // http://stackoverflow.com/a/2880929
+        function parseUrl() {
+          var match,
+              pl     = /\+/g,  // Regex for replacing addition symbol with a space
+              search = /([^&=]+)=?([^&]*)/g,
+              urlParams = {},
+              decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+              query  = window.location.search.substring(1);
+
+          while (match = search.exec(query)) {
+             urlParams[decode(match[1])] = decode(match[2]);
+          }
+
+          return urlParams;
+        }
+
+        function loadJS(url, callback) {
+          var element,
+          element = document.createElement('script');
+          element.src = url;
+          if (typeof callback == "function") {
+            element.onload = function() {
+              callback();
+            };
+          }
+          document.body.appendChild(element);
+        }
+
+      })(this);
+
+    </script>
+  </body>
+</html>

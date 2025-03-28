@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<inworldnav>
+	<!-- ============================================================================================================ -->
+	<top_nav>
+		<item link="about2.aspx">À propos de</item>
+    <item link="parentguide.aspx">Parents</item>
+    <item link="shop.aspx" pane="_self">Produits</item>
+		<item link="help.aspx">Aide</item>
+	</top_nav>	
+	<!-- ============================================================================================================ -->
+	<logo link="index.aspx" />
+	<!-- ============================================================================================================ -->
+	<name_plaque link="profile.aspx" />
+	<!-- ============================================================================================================ -->
+  <main_nav>
+    <item x="190" y="35" link="Adventures_Launch.aspx?ref=headnav&amp;lcid=EN">Bella Sara&#13;Adventures</item>
+    <item x="300" y="26" link="myhorsestall.aspx?ref=headnav&amp;lcid=EN">Cheval</item>
+    <item x="415" y="27" link="flashloader_stablechooser.aspx?ref=headnav&amp;lcid=EN">Chevaux magiques</item>
+    <item x="514" y="28">
+      <subitem x="-38" y="33" link="cottageentry.aspx?ref=headnav&amp;lcid=EN">Mon Cottage</subitem>
+      <subitem x="12" y="50" link="map.aspx?ref=headnav&amp;lcid=EN">Carte du Monde</subitem>
+      <subitem x="62" y="33" link="bazaar.aspx?ref=headnav&amp;lcid=EN">Bazar</subitem>
+    </item>
+    <item x="618" y="30">
+      <subitem x="-38" y="33" link="journal.aspx?ref=headnav&amp;lcid=EN">My Journal</subitem>
+      <subitem x="12" y="50" link="gallery.aspx?ref=headnav&amp;lcid=EN">Mes Objets</subitem>
+      <subitem x="62" y="33" link="AwardsAlbum.aspx?ref=headnav&amp;lcid=EN">Récompenses</subitem>
+    </item>
+    <item x="723" y="27" link="activate.aspx?ref=headnav&amp;lcid=EN">Active tes cartes!</item>
+  </main_nav>
+  	<!-- ============================================================================================================ -->
+	<horseshoe_count x="877" y="51" />
+	<!-- ============================================================================================================ -->
+  <horseshoes_btn visible="false" x="0" y="0"></horseshoes_btn>
+	<logout_btn visible="true" x="877" y="99" link="logout.html">Déconnexion</logout_btn>
+	<!-- ============================================================================================================ -->
+	<audio>
+		<top_nav_ro src="Flash/InWorldNav/audio/Button.Rollover.C5.mp3" />
+		<main_nav_ro src="Flash/InWorldNav/audio/Button.Rollover.Sparkle.mp3" />
+		<main_nav_pop src="Flash/InWorldNav/audio/Pop.F4.mp3" />
+		<sub_nav_ro src="Flash/InWorldNav/audio/Pop.F4.mp3" />
+		<pill_btn_ro src="Flash/InWorldNav/audio/Button.Rollover.C5.mp3" />
+	</audio>
+	<!-- ============================================================================================================ -->
+</inworldnav>
