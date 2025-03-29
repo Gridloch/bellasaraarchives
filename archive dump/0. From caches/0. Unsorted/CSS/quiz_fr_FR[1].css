@@ -1,0 +1,295 @@
+title {
+  font-family: FlexGenerationB;
+  font-size: 43px;
+  color: #ffffff;
+  text-align: center;
+}
+
+title2 {
+  font-family: FlexGenerationB;
+  font-size: 43px;
+  color: #b40079;
+  text-align: center;
+}
+
+question_header {
+  font-family: FlexGenerationB;
+  font-size: 54px;
+  color: #ffffff;
+  text-align: center;
+}
+numbers{
+  font-family: FlexGenerationB;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+}
+numbers_color{
+  font-family: FlexGenerationB;
+  font-size: 36px;
+  color: #b40079;
+  text-align: center;
+}
+question_header_color {
+  font-family: FlexGenerationB;
+  font-size: 54px;
+  color: #b40079;
+  text-align: center;
+} 
+
+question {
+  font-family: FlexGenerationB;
+  font-size: 46px;
+  color: #ffffff;
+  text-align: center;
+}
+
+answer {
+  font-family: FlexGenerationB;
+  font-size: 25px;
+  color: #da2882;
+  text-align: center;
+}
+
+answer_rollover {
+  font-family: FlexGenerationB;
+  font-size: 30px;
+  color: #da2882;
+  text-align: center;
+}
+callout {
+  font-family: FlexGenerationB;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: left;
+}
+button {
+  font-family: FlexGenerationB;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: left;
+}
+button_prev_back {
+  font-family: FlexGenerationB;
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+}
+button_right {
+   text-align: right;
+   color:#000000;
+}
+instructions {
+  font-family: FlexGenerationB;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+}
+button_rollover {
+  font-family: FlexGenerationB;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: left;
+}
+
+button_2 {
+  font-family: FlexGenerationB;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+button_rollover_2 {
+  font-family: FlexGenerationB;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+
+see_more_button {
+  font-family: FlexGenerationB;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+}
+
+see_more_button_rollover {
+  font-family: FlexGenerationB;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+}
+
+window_title {
+  font-family: FlexGenerationB;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+description {
+   font-family: FlexGenerationB;
+  font-size: 14px;
+  color: #000000;
+  text-align: left;
+}
+
+info {
+  font-family: FlexGenerationB;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+category {
+  font-family: FlexGenerationB;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+category_rollover {
+  font-family: FlexGenerationB;
+  font-size: 14px;
+  color: #000000;
+  text-align: left;
+}
+
+sub_category {
+  font-family: FlexGenerationB;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+sub_category_rollover {
+  font-family: FlexGenerationB;
+  font-size: 12px;
+  color: #000000;
+  text-align: left;
+}
+/**last screen**/
+result_title{
+  font-family: FlexGenerationB;
+  font-size: 46px;
+  color: #ffffff;
+  text-align: center;
+}
+result_title_color{
+  font-family: FlexGenerationB;
+  font-size: 46px;
+  color: #b40079;
+  text-align: center;
+}
+result_product {
+  font-family: FlexGenerationB;
+  font-size: 45px;
+  color: #ffffff;
+  text-align: left;
+}
+result_product_color {
+  font-family: FlexGenerationB;
+  font-size: 45px;
+  color: #b40079;
+  text-align: left;
+}
+
+result_product_small_text {
+  font-family: FlexGenerationB;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+promo {
+  font-family:EmbeddedArial;
+  font-size: 15px;
+  color: #92278f;
+  text-align: left;
+}
+
+trademark {
+  font-family: EmbeddedArial;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+  position:absolute;
+  top:-500px;
+}
+trademark_color {
+  font-family: EmbeddedArial;
+  font-size: 20px;
+  color: #b40079;
+  text-align: left;
+  position:absolute;
+  top:-150px;
+}
+coupon_code {
+  font-family: FlexGenerationB;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+}
+
+button_shop {
+  font-family: FlexGenerationB;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: left;
+}
+
+button_shop_over {
+  font-family: FlexGenerationB;
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+}
+
+button_product {
+  font-family: FlexGenerationB;
+  font-size: 27px;
+  color: #ffffff;
+  text-align: left;
+}
+
+button_product_rollover {
+  font-family: FlexGenerationB;
+  font-size: 27px;
+  color: #ffffff;
+  text-align: left;
+}
+
+button_see_all {
+  font-family: FlexGenerationB;
+  font-size: 10px;
+  color: #000000;
+  text-align: left;
+  text-decoration:underline;
+}
+
+button_see_all_over {
+  font-family: EmbeddedArial;
+  font-size: 10px;
+  color: #ff0000;
+  text-align: left;
+  text-decoration:underline;
+}
+/**end last screen**/
+legal {
+  font-family: EmbeddedArial;
+  font-size: 9px;
+  color: #ffffff;
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:active{
+  text-decoration: none;
+}

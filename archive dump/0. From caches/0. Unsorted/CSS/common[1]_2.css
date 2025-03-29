@@ -1,0 +1,20 @@
+/* CSS Document */
+#banner_loader{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+
+.nxt_loaded_common{
+
+}
+
+.box_banner{
+	width:100px;
+	height:100px;
+	background-color:#FFFFFF;
+	color:#000000;
+	position:relative;
+	overflow:hidden;
+}

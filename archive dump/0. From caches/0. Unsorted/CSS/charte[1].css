@@ -1,0 +1,451 @@
+/** 
+ * Mise à zero du padding et margin
+ * & Valeurs par défaut
+ */
+* {
+margin: 0;
+padding: 0;
+font-family: Tahoma, sans-serif;
+}
+
+a img {
+border:0;
+}
+
+img alt {
+	color : #0099CC;
+	font-weight : bold;
+}
+
+.hidden  {
+display:none;
+}
+.rouge{
+	color: red;
+}
+.majuscule{
+	text-transform: capitalize;
+}
+
+body .metanav {
+	height: 33px;
+}
+
+/** 
+ * Containers
+ */
+body {
+background:#3591BF url(../images/charte/bg-header.jpg) no-repeat center 15px;
+}
+
+#container, #container-header, #container-milieu, #container-footer {
+width:100%;
+}
+#container-milieu {
+/*background:#3591BF url(../images/charte/bg-milieu.jpg) top center no-repeat;*/
+}
+#container-footer  {
+/*background:#3591BF url(../images/charte/bg-footer.gif) top center repeat-x;*/
+}
+
+#header, #milieu, #footer {
+margin: 0px;
+margin-left: auto;
+margin-right: auto;
+width:980px;
+}
+
+/** 
+ * Fonts
+ */
+@font-face {
+font-family: "Shermlock";
+src: url(fonts/Shermlock.ttf);
+}
+
+/** 
+ * Header
+ */
+#header, #container-header {
+/*height: 570px;/* 544px*/
+	height: auto;
+  /*overflow:hidden;*/
+}
+
+/* header superieur */
+#identite-menu-haut {
+/*background: transparent url(../images/charte/bg-logo.png) top left no-repeat;*/
+height:260px;
+width: 980px;
+float: left;
+}
+
+#identite {
+height:103px;
+display: block;
+float:left;
+}
+
+	
+#identite #lien-monludo {
+width: 252px; 
+height: 104px;
+display:block;
+float:left;
+/*padding-left: 30px;*/
+text-indent:1900px;
+overflow:hidden;
+/*position: absolute;*/
+}
+
+#identite #lien-monludo img{
+float:left; 
+position: relative; 
+width: 185px; 
+height: 104px;
+padding-left: 30px;
+}
+
+#logo {
+display: block;
+float: left;	
+}
+
+#banniere-publicite {
+width: 473px; 
+/*height: 79px;*/
+/*background: transparent url(../images/charte/flash/publicite.png) no-repeat;*/
+display: block;
+float: right;
+/*padding-left: 37px;*/
+padding-top: 2px;
+padding-right: 1px;
+}
+
+#banniere-publicite  iframe body, #banniere-publicite  iframe {
+height:90px !important;
+}
+
+/* header milieu */
+#menu-haut {
+width:980px;
+height:157px;
+}
+
+#tamagochi-videos {
+height:300px;
+width:979px;
+}
+
+#tamagochi {
+float:left;
+width:250px;
+height:300px;
+}
+
+#videos {
+float:left;
+width:729px;
+}
+
+#interview{
+	margin-top: -13px;
+	_margin-top: -53px;
+}
+
+
+/** 
+ * Contenu
+ */
+#contenu {
+width: 700px;
+float:right;
+}
+
+/* Menu Gauche */
+#menu-gauche {
+width: 250px;
+float:left;
+} 
+
+#news {
+width: 730px;
+float:right;
+height: 260px;
+}
+#news ul{
+overflow: visible;
+}
+
+#concours {
+width: 730px;
+float:right;
+}
+
+
+#bloc-cadeaux{
+height: 310px;	
+}
+
+#vignettes{
+float:right;
+}
+
+#vignettes-themes{
+float:right;
+}
+
+#autres-programmes {
+float:right;
+width:729px;
+height:195px;
+}
+
+
+.clearer, .float-breaker, .floatBreaker {
+clear:both;
+visibility:hidden;
+border: 0px;
+height: 0px;
+}
+
+
+/* Footer */
+#footer
+{	
+	color: white;
+	font-family: Tahoma, Arial;
+	font-size: 10px;
+	width:1000px;
+}
+	#footer a
+	{
+		color: white; /* nécessaire pour safari */
+		text-decoration: none;
+	}
+	#footer a img{
+		height: 25px;
+	}	
+	#footer a:visited
+	{
+		color: white;
+	}
+	
+	#footer ul
+	{
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		list-style-type:none;
+	}
+	
+	#footer ul li
+	{
+		display: inline;
+		margin-right: 3px;
+	}
+	
+	#footer .logo
+	{
+		text-align: center;
+		/*margin-bottom: 20px;		*/
+	}
+		#footer .logo img
+		{
+			margin-top: 16px;
+			margin-bottom: 20px;		
+		}
+		#footer .logo a
+		{
+			font-weight: bold;
+		}
+		
+	#footer .DessinsAnimés 
+	{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	
+	#footer .InfoSite
+	{
+		
+	}
+
+	#footer .Infos
+	{
+		text-align: center;
+		/*height: 223px;*/
+		padding-top: 30px;
+		padding-left: 56px;
+		display: none;
+	}
+		#footer .Infos ul
+		{			
+			display: block;
+			text-align: center;
+		}		
+		#footer .Infos ul li
+		{			
+			display: block;
+			text-align: left;
+		}		
+		#footer .Infos  .LienHeros
+		{
+			float: left;
+			width: 138px;			
+			border-right: #5db29f 1px solid;
+			padding-left: 20px;
+		}
+		#footer .Infos  .TousLesHeros
+		{
+			width: 342px;	
+			text-align: left;			
+		}
+		#footer .Infos  .TousLesHeros ul
+		{
+			float: left;			
+		}		
+			#footer .Infos  .TousLesHeros ul li
+			{
+				display:block;				
+				clear: both;
+			}				
+
+		#footer .Infos  .TousLesHeros	 a
+		{
+			display: block;
+			float: left;
+			
+		}	
+		#footer .Infos  .TousLesHeros .lien-hero
+		{
+			margin-bottom:4px;
+			margin-right: 5px;
+			width:50px;
+			height:21px;
+			overflow:hidden;
+		}
+		#footer .Infos h2
+		{
+			font-size: 0.9em;
+			text-align: left;
+			color: white;
+			margin-bottom: 10px;
+		}		
+		#footer .Infos  .AutresProgrammes
+		{
+			border: none;
+		}
+
+/* Globals */
+object{
+	outline: none;
+}
+
+
+/* Header FTV */
+#header-ftv {
+	background: transparent url(../images/charte/header-ftv_bg.png) repeat-x;
+	width: 100%;
+	min-width: 996px;
+	height: 15px;
+	border-bottom: 1px solid #ccc;
+	margin: 0;
+    padding: 0;
+    font-size: 11px;
+	font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+
+#header-ftv ul {
+	width: 996px;
+	margin: 0px auto;
+}
+
+#header-ftv ul li {
+	display : inline;
+	padding: 0 10px;
+	text-align: center;
+}
+
+#header-ftv ul li a {	
+	text-decoration: none;
+}
+
+#header-ftv .france2 a {
+	color: #F81F0B;
+}
+
+#header-ftv .france3 a {
+	color: #26619D;
+}
+
+#header-ftv .france4 a {
+	color: #863290;
+}
+
+#header-ftv .france5 a {
+	color: #6C9631;
+}
+
+#header-ftv .rfo a {
+	color: #EC7C29;
+}
+
+#header-ftv .francetelevisions a {
+	color: #3A6DAC;
+}
+
+
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+    position: relative;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 75px;
+    height: 42px;
+}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+
+.message_corps{
+	width : 180px;
+}

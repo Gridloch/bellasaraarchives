@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VAST version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd">
+  <Ad id="279302367">
+  <InLine>
+        <AdSystem version="2.0">DART_DFA</AdSystem>
+    <AdTitle>In-Stream Video</AdTitle>
+    <Description></Description>
+    <Survey></Survey>
+    <Impression id="DART"><![CDATA[http://ad-emea.doubleclick.net/imp;v7;x;279302367;0-0;0;106400574;0/0;57074355/56963535/1;;~cs=d%3ford=4283413]]></Impression>
+
+    <Creatives>
+    <Creative sequence="1" AdID="">
+      <Linear>
+      <Duration>00:00:24</Duration>
+      <TrackingEvents>
+        <Tracking event="start"><![CDATA[http://ad-emea.doubleclick.net/activity;src=4158064;met=1;v=1;pid=106400574;aid=279302367;ko=0;cid=57074355;rid=56963535;rv=1;timestamp=4283413;eid1=11;ecn1=1;etm1=0;]]></Tracking>
+        <Tracking event="midpoint"><![CDATA[http://ad-emea.doubleclick.net/activity;src=4158064;met=1;v=1;pid=106400574;aid=279302367;ko=0;cid=57074355;rid=56963535;rv=1;timestamp=4283413;eid1=18;ecn1=1;etm1=0;]]></Tracking>
+        <Tracking event="firstQuartile"><![CDATA[http://ad-emea.doubleclick.net/activity;src=4158064;met=1;v=1;pid=106400574;aid=279302367;ko=0;cid=57074355;rid=56963535;rv=1;timestamp=4283413;eid1=26;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[http://ad-emea.doubleclick.net/activity;src=4158064;met=1;v=1;pid=106400574;aid=279302367;ko=0;cid=57074355;rid=56963535;rv=1;timestamp=4283413;eid1=27;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="complete"><![CDATA[http://ad-emea.doubleclick.net/activity;src=4158064;met=1;v=1;pid=106400574;aid=279302367;ko=0;cid=57074355;rid=56963535;rv=1;timestamp=4283413;eid1=13;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="mute"><![CDATA[http://ad-emea.doubleclick.net/activity;src=4158064;met=1;v=1;pid=106400574;aid=279302367;ko=0;cid=57074355;rid=56963535;rv=1;timestamp=4283413;eid1=16;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="pause"><![CDATA[http://ad-emea.doubleclick.net/activity;src=4158064;met=1;v=1;pid=106400574;aid=279302367;ko=0;cid=57074355;rid=56963535;rv=1;timestamp=4283413;eid1=15;ecn1=1;etm1=0;]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[http://ad-emea.doubleclick.net/activity;src=4158064;met=1;v=1;pid=106400574;aid=279302367;ko=0;cid=57074355;rid=56963535;rv=1;timestamp=4283413;eid1=19;ecn1=1;etm1=0;]]></Tracking>
+            </TrackingEvents>
+            <AdParameters></AdParameters>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://www.bion.fr/nos-solutions/bion3-adultes,2,p2.html]]></ClickThrough>
+              <ClickTracking id="DART"><![CDATA[http://ad-emea.doubleclick.net/click%3Bh%3Dv8/3efa/3/0/%2a/k%3B279302367%3B0-0%3B0%3B106400574%3B255-0/0%3B57074355/56963535/1%3B%3B%7Esscs%3D%3fhttp://s0.2mdn.net/dot.gif]]></ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="1" delivery="progressive" type="video/x-flv" bitrate="1469" width="640" height="480"><![CDATA[http://gcdn.2mdn.net/MotifFiles/html/4158064/Boule_a_neige_24s_msa_640x480_139101110698457.flv]]></MediaFile>
+              <MediaFile id="2" delivery="streaming" type="video/x-flv" bitrate="1469" width="640" height="480"><![CDATA[rtmp://rmcdn.f.2mdn.net/ondemand/MotifFiles/html/4158064/Boule_a_neige_24s_msa_640x480_139101110698457.flv]]></MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+
+        <Creative sequence="1" AdID="">
+          <CompanionAds>
+          </CompanionAds>
+        </Creative>
+
+      </Creatives>
+
+      <Extensions>
+        <Extension type="DART">
+          <AdServingData>
+            <DeliveryData>
+              <GeoData><![CDATA[ct=FR&st=&ac=1&zp=&bw=0&dma=0&city=4984]]></GeoData>
+            </DeliveryData>
+          </AdServingData>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+</VAST>

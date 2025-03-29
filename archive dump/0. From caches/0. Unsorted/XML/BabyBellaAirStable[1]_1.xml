@@ -1,0 +1,72 @@
+<LOCALIZABLE>
+	<TEXTS>
+		<TEXT id="txtHorseName" text="HORSENAME" size="15"/>
+		<TEXT id="txtOilHilite2" text="L'huile à plumes ne doit être appliquée que sur un cheval bien brossé." size="16"/>
+		<TEXT id="txtHelpTrophyRoom" text="Clique pour visiter la salle des trophées." size="14"/>
+		<TEXT id="txtHelpFountain" text="Clique pour remplir le bol d'eau." size="14"/>
+		<TEXT id="txtHelpStats" text="Surveille bien l'état de ton cheval." size="14"/>
+		<TEXT id="txtHelpSpeaker" text="Clique pour apaiser ton cheval." size="14"/>
+		<TEXT id="txtHelpInspiration" text="Clique pour recevoir l'inspiration." size="14"/>
+		<TEXT id="txtHelpWindChime" text="Appelle le vent pour débarrasser les feuilles sales." size="14"/>
+		<TEXT id="txtHelpBottle" text="Clique pour saisir la bouteille. Clique de nouveau près de la bouche du cheval pour la lui donner à boire." size="12"/>
+		<TEXT id="txtHelpBerries" text="Clique pour choisir une poignée de baies. Porte-les à la bouche de ton cheval et clique à nouveau pour lui donner cette friandise." size="14"/>
+		<TEXT id="txtHelpAcorn" text="Clique pour offrir à ton cheval un repas de glands frais." size="14"/>
+		<TEXT id="txtHelpWorld" text="Clique pour aller à Bella Sara World." size="14"/>
+		<TEXT id="txtHelpOil" text="Clique pour ouvrir la bouteille. Clique encore pour appliquer l'huile parfumée sur les ailes de ton cheval." size="14"/>
+		<TEXT id="txtHelpBrush" text="Clique pour choisir une brosse. Clique à nouveau pour doucement lisser les plumes de ton cheval." size="14"/>
+		<TEXT id="txtHelpLuck" text="Clique pour avoir de la chance!" size="14"/>
+		<TEXT id="txtHelpBranch" text="Clique pour éparpiller un lit de feuilles fraîches." size="14"/>
+		<TEXT id="txtFullHorse" text="Ton cheval n'a plus faim ni soif." size="16"/>
+		<TEXT id="txtCleanHorse" text="Ton cheval est rutilant! Félicitations!" size="16"/>
+		<TEXT id="txtNoMoreLeaves" text="Il n'y a plus besoin de feuilles fraîches pour le moment." size="16"/>
+		<TEXT id="txtMusic" text="Ton cheval est apaisé." size="16"/>
+		<TEXT id="txtReadyToBeOiled" text="Parfait! Les ailes de ton cheval sont prêtes à être huilées." size="16"/>
+		<TEXT id="txtToWorld" text="Vers Bella Sara World" size="16"/>
+		<TEXT id="txtStatHunger" text="FAIM" size="14"/>
+		<TEXT id="txtStatClean" text="PROPRETÉ" size="14"/>
+		<TEXT id="txtStatHappy" text="BONHEUR" size="14"/>
+		<TEXT id="txtInspiration01" text="Découvre de nouvelles façons de retrouver tes amis." size="45"/>
+		<TEXT id="txtInspiration419" text="Un vrai héros a besoin d'un cœur plein d'amour." size="45"/>
+		<TEXT id="txtInspiration457" text="Tu as le pouvoir de rendre les choses meilleures." size="45"/>
+		<TEXT id="txtInspiration482" text="Aie confiance en toi: tu choisiras la voie qui t'apportera la joie et l'énergie." size="45"/>
+		<TEXT id="txtInspiration423" text="Chaque jour est une nouvelle chance d'accomplir quelque chose de merveilleux." size="45"/>
+		<TEXT id="txtInspiration424" text="Tu peux accomplir de véritables miracles dans ta vie, il te suffit d'y croire!" size="45"/>
+		<TEXT id="txtInspiration447" text="Quand quelqu'un te dit qu'il est désolé, pardonne-lui." size="45"/>
+		<TEXT id="txtInspiration425" text="Tu peux voler! Ferme les yeux et sers-toi de ton imagination." size="45"/>
+		<TEXT id="txtInspiration460" text="C'est en faisant des choses ensemble avec tes amis que votre amitié grandira." size="45"/>
+		<TEXT id="txtInspiration427" text="Laisse percevoir ta véritable nature à autrui." size="45"/>
+		<TEXT id="txtInspiration479" text="L'espoir est une forme de magie: il t'emmènera en des lieux extraordinaires." size="45"/>
+		<TEXT id="txtInspiration428" text="La vie est pleine d'occasions merveilleuses. Saisis ta chance!" size="45"/>
+		<TEXT id="txtInspiration430" text="Tu es prête à ouvrir tes ailes et à t'envoler." size="45"/>
+		<TEXT id="txtInspiration436" text="Tu as des dons uniques. Exploite au maximum les chances qui s'offrent à toi." size="45"/>
+		<TEXT id="txtInspiration475" text="Communique ta joie et apporte la paix au monde entier." size="45"/>
+		<TEXT id="txtInspiration438" text="Tu as le pouvoir de contrôler tes réactions, quoi qu'il arrive." size="45"/>
+		<TEXT id="txtInspiration439" text="La force recèle sa propre beauté." size="45"/>
+		<TEXT id="txtInspiration494" text="Saisis les occasions de réaliser tes rêves, car elles sont innombrables autour de toi!" size="45"/>
+		<TEXT id="txtInspiration452" text="Regarde le ciel. La nature est une artiste qui nous offre ses œuvres à chaque instant." size="45"/>
+		<TEXT id="txtInspiration454" text="L'espoir est la magie qui transforme les vœux en objectifs." size="45"/>
+		<TEXT id="txtInspiration455" text="Le doux son de ta voix m'apporte le sourire." size="45"/>
+		<TEXT id="txtInspiration456" text="Sache voir toute la beauté intérieure de tes amis." size="45"/>
+		<TEXT id="txtInspiration468" text="Suis ce que te dit ton cœur et tu seras l'artisan de ton propre succès." size="45"/>
+		<TEXT id="txtInspiration490" text="N'aie pas peur: fixe-toi des buts hors du commun." size="45"/>
+		<TEXT id="txtInspiration483" text="Que ton cœur reste ouvert. Laisse l'amour t'entourer et t'imprégner." size="45"/>
+		<TEXT id="txtInspiration464" text="Fais ce que tu as prévu de faire." size="45"/>
+		<TEXT id="txtInspiration437" text="Plus tu apprends, plus tu grandis." size="45"/>
+		<TEXT id="txtInspiration486" text="C'est aujourd'hui le moment idéal pour choisir d'être plus libre et aimante." size="45"/>
+		<TEXT id="txtInspiration445" text="Sois reconnaissante des moments heureux que tu passes avec tes amis." size="45"/>
+		<TEXT id="txtInspiration469" text="Il est plus facile de te débarrasser de ta peur quand tu sais d'où elle vient." size="45"/>
+		<TEXT id="txtInspiration467" text="Prépare une gentille surprise pour quelqu'un." size="45"/>
+		<TEXT id="txtInspiration451" text="Ensemble, nous pouvons escalader les plus hautes montagnes." size="45"/>
+		<TEXT id="txtInspiration471" text="Fais des choses amusantes et qui te font rire." size="45"/>
+		<TEXT id="txtInspiration497" text="Laisse la nature te donner l'énergie nécessaire pour partager ton amour avec autrui." size="45"/>
+		<TEXT id="txtInspiration473" text="Apprendre te permet de faire des choix judicieux et de t'y tenir." size="45"/>
+		<TEXT id="txtInspiration472" text="Ton charme naturel est rafraîchissant." size="45"/>
+    <TEXT id="txtInspiration514" text="Concentre tes pensées sur des choses qui te rendent heureuse." size="45"/>
+
+    <TEXT id="txtInspiration560" text="Tu es pleine de vie et d'énergie. Sers-t-en pour faire quelque chose d'extraordinaire!" size="45"></TEXT>
+    <TEXT id="txtInspiration562" text="Sache reconnaître la beauté intérieure de tes amis." size="55"></TEXT>
+    <TEXT id="txtInspiration568" text="Chaque jour est une nouvelle chance d'accomplir quelque chose de merveilleux." size="45"></TEXT>
+    <TEXT id="txtInspiration575" text="Jouer avec quelque chose de nouveau est une façon amusante de s'instruire." size="45"></TEXT>
+
+  </TEXTS>
+</LOCALIZABLE>

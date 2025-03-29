@@ -1,0 +1,149 @@
+/* base css file for on-page playlist */
+
+.k-playlist-container .k-carousel{
+  float: left;
+}
+.k-playlist-container .k-title {
+	font-size: 14px;
+	display: none;
+}
+.k-playlist-container  .k-description{
+	font-size: 12px;
+	display: none;
+}
+.k-playlist-container .k-scroll{
+	display: block;
+	cursor:pointer;
+	float: left;
+	width: 20px;
+	height:100%;
+	opacity:.7;
+	text-decoration: none;
+}
+.k-playlist-container .k-next{
+	background: no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAMCAQAAAD1lzQWAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfcCR0BGhpKxvJRAAAAhUlEQVQI12NgYJCcL3lekp8BBiTna/7X+y9zASbEpMTPxcDKIKTPfBAixHSkSmoHA4oQw38N3+3G/42hGhkhQtb7f0owMPxm+LCIiYGBgUGq/JsEAwMDg8CdpVOg9hj/N/5vd/ucw38WdC4DixL/DwYGBu47E1INjzD+gdoBk4WC/xrIXADEAzdXKDh+NAAAAABJRU5ErkJggg==);
+	background-position:center; 
+}
+
+.k-playlist-container .k-next:hover{
+	opacity:1;
+	background-color:#eee;
+}
+.k-playlist-container .k-prev{
+	background: no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAMCAQAAAD1lzQWAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfcCR0BFDQIk9IQAAAAj0lEQVQI12NggAJJfsnzkvMZGFhgXOaDQvq/DaACEC4rAyuDED8TgsvAILXjSBWDJL/MBb3/xv+N//tu/6/BwMAgtxDCtXr+X4OBgYGBaekUgTsMDAwM3ySkyhkYGBgY/rOcc7C7bfzf+L/mf8n5WISYGBgY/xgemZDKfYeBgYtBiR/qTogqqD0Iof8aDAwAfkM1Z1BrKhkAAAAASUVORK5CYII=);
+	background-position:center; 
+}
+.k-playlist-container .k-prev:hover{
+	background-color:#eee;
+	opacity:1;
+}
+/* Vertical overrides for k-scroll */ 
+.k-playlist-container.k-vertical .k-scroll{
+	float: none;
+	width: 100%;
+	height: 20px; 
+}
+.k-playlist-container.k-vertical .k-carousel{
+	float: none;
+} 
+.k-playlist-container.k-vertical .k-next {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAICAQAAABn7dZ6AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfcCR0FEyvN0+H+AAAAhklEQVQI12NgYPivYb1Ocj4DFMB4LP81/Pp/eAgwMDA8T2RgQPBYzkt8VGFg4GJgSGBgeNbp1//Mg4GBlYHBgPE/y3mbgtlfVRgY/jJwvfgpwcDwm+Hdxb/2jAwMCCkGBpjw848QC1nOOdjdNv5v/F/vv8wFSX4GBIBIYQhDpA6byi1ECAMAoP045A/DsTkAAAAASUVORK5CYII=');
+	background-position:center;
+}
+.k-playlist-container.k-vertical .k-prev{
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAICAQAAABn7dZ6AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfcCR0FEzqnY8EMAAAAkUlEQVQI12NggAJJfrmFh03/szCgAkl+mQt6/+1un3NAkYIIG/83RpJiZGCQ5Gc+KKTPClXEfWdCquERxj9MCGH2F38ZGBi+qhTMPm/zn4WZ94SIASsDA4PUjj2RTTzMBqwMv4X22RhcZGK48JuBgUFqx6ZCxhvPEz8s+MbAwMB/x/AFAwOD5Hzrdf814A6B8gCavDND8yApewAAAABJRU5ErkJggg==');
+	background-position:center;
+}
+
+
+.k-playlist-container li{
+	position: relative;
+	float:left;
+}
+.k-playlist-container.k-vertical li{
+	width:100%;
+}
+.k-playlist-container.k-vertical .k-clip-desc{
+	margin-left:112px;
+}
+.k-playlist-container li img{
+	
+	max-height: 90px;
+	max-width: 100px;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	/*margin: auto;*/
+}
+
+.k-playlist-container li img {
+	
+	max-height: 90px;
+	max-width: 100px;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	margin: auto;
+}
+
+.k-playlist-container.k-vertical li img{
+	right: auto; 
+}
+
+.k-playlist-container li .k-new:before,
+.k-playlist-container li .k-new:after{
+    position:absolute;
+    content:'new';
+    top:5px;
+    left:5px;
+	margin: 0px 0px 0px 0px;
+	color:#0f0;
+	background-color:#000;
+	border:1px dashed #0f0;
+	font-family:Arial;
+	font-size:8pt;
+}
+
+.k-playlist-container li{
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.k-playlist-container li.k-active{
+	background-color:#ccc;
+}
+
+
+.k-playlist-container li.k-inactive{
+	visibility:hidden;
+	max-width:0px;
+}
+
+.k-playlist-container ul.k-inactive{
+	visibility:hidden;
+	max-width:0px;
+}
+.k-playlist-container div.k-carousel-inactive{
+	visibility:hidden;
+	max-width:0px;
+}
+
+.k-playlist-container.k-horizontal .k-title{
+	display:none;
+	visibility:hidden;
+}
+.k-playlist-container.k-vertical .k-title{
+	display:block;
+}
+.k-playlist-container.k-horizontal .k-clip-desc{
+	visibility:hidden;
+}
+
+.k-playlist-container li .k-description{
+	display:none;
+	visibility:hidden;
+}
+.k-playlist-container.k-vertical li .k-description{
+	display:inline;
+}
+
+
+

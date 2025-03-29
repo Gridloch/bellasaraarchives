@@ -1,0 +1,24 @@
+html body.layout-tv-stunts #moduleslot1 {
+	display: block;
+}
+
+.module-tv-stunts {
+}
+.module-tv-stunts img {
+	display: block;
+	border: 10px solid #000000;
+}
+.module-tv-stunts .wrapper {
+	position: relative;
+	width: 950px;
+}
+.module-tv-stunts .wrapper .skipButton {
+	background: url(../images/tvstunts/skip-button-icon.png) no-repeat 100% 0;
+	height: 18px;
+	overflow: hidden;
+	padding-right: 22px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+

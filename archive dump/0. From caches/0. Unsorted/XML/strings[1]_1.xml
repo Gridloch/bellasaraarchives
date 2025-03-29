@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE programtext [
+
+	<!ELEMENT text			(#CDATA)>
+	<!ATTLIST text
+		lang	(en|sp)	"en_US"
+		x		CDATA	"default"
+		y		CDATA	"default"
+	>
+
+	<!ELEMENT block			(text+)>
+	<!ATTLIST block
+		id	CDATA	#REQUIRED
+		x	CDATA	"default"
+		y	CDATA	"default"
+	>
+
+	<!ELEMENT screen		(block+)>
+	<!ATTLIST screen
+		id	CDATA	#REQUIRED
+	>
+
+	<!ELEMENT programtext	(screen+)>
+]>
+<programtext>
+	<screen id="splash">
+		<block id="legal">
+			<text lang="fr-FR">.</text>
+		</block>
+	</screen>
+</programtext>

@@ -1,0 +1,26 @@
+#container { width: 1230px; }
+#content { width: 1030px; }
+#location { width: 983px; }
+
+body#group #side { width: 200px; }
+body#group #sideBanner { margin-left: 10px; }
+body#group #content { width: 920px; }
+body#group #location { width: 963px; }
+
+.columnA, .columnB { margin-right: 10px; }
+#mainpageColumns { width: 644px; }
+#mainpageThumbnails { width: 346px; padding: 10px 10px 5px 10px; }
+
+.list { width: 207px; }
+.list .listThumbnail img { width: 191px; }
+
+#mainpageThumbnails a.thumbA { margin-right: 10px; }
+#mainpageThumbnails a.smallThumbnail { margin-bottom: 10px; }
+
+#groupSocial { margin-left: 525px; }
+
+#gameBlock { width: 830px; }
+#gameExtra.onSide { clear: none; float: left; width: 168px; margin: 0 0 10px 0; box-shadow: -2px 2px 3px 1px #eee; padding: 10px 10px 2px 10px; }
+#gameExtra.onSide a.smallThumbnail { margin: 0 0 8px 0 }
+
+#footer #featuredGames a.lastFeatured { display: block; }

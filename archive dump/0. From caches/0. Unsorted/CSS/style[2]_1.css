@@ -1,0 +1,67 @@
+/**
+* Feuille de Style du profil
+*
+* MagicCorporation WebSystem v6.0
+* Gestionnaire de Contenu pour site Internet
+* 
+* @package      MC6
+* @subpackage   profil
+* @author       Jean-Christophe Taisne <amonra@magiccorporation.com>
+* @link         http://mc6.magiccorporation.com 
+* @copyright    2000-2009 MagicCorporation
+* @version      6.0 $Id: style.css 1909 2012-12-23 19:07:08Z amonra $
+*/
+
+.block_register {
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.block_register fieldset {
+    border: 0 none;
+    margin-top: 15px;
+    margin: 0;
+    padding: 15px;  
+}
+
+.avatar {
+    float: left;
+    border: 0 none;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;  
+}
+
+a.title_membre {
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.title_membre_small {
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.block_fiche_membre img {
+    max-width: 350px;
+}
+
+.profil_color_level_1 {
+    color: green;   
+}
+
+.profil_color_level_2 {
+    color: red;   
+}
+
+.profil_color_level_3 {
+    color: brown;   
+}
+
+.profil_membre_info p {
+    margin: 0px;
+    padding: 0px;
+}

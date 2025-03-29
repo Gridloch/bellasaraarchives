@@ -1,0 +1,1001 @@
+/*	WCMS STYLES FOR STATIC SITE
+	$Id: //depot/projects/dylan/releases/rc_14_2/ubi/template/identity/adobe/screen/wcms.css#1 $
+	
+	The following CSS is from the WCMS
+*/
+
+
+/* LAYOUT.CSS */
+
+/* Body alignment display */
+
+.LayoutGrid {
+    margin: 0 auto;
+}
+
+/* Header display */
+
+.LayoutHeader {
+    clear: both;
+    position: relative;
+}
+
+.LayoutHeaderPath {
+    position: relative;
+    padding-left: 11px;
+}
+
+.LayoutHeaderCell {
+    padding: 11px 11px 18px 11px;
+	clear: both;
+}
+
+.LayoutHeaderRow {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.LayoutImage {
+    display: block; /* Eliminates extra space around image */
+}
+
+.LayoutImageLeft {
+    float: left;
+    margin-right: 9px;
+}
+
+.LayoutImageRight {
+    float: right;
+    margin-left: 9px;
+    _margin-right: 22px;   /* Changed/added by dgasior for existing site styling */
+}
+
+.LayoutMask {
+    width:0px;
+    height:0px;
+    overflow:hidden;
+    display: block;
+}
+
+/* Clearing floats */
+
+.LayoutBreak {
+    clear: both;
+}
+
+.LayoutGridBreakAfter,
+.LayoutBreakAfter {
+    _height: 1em;
+    *zoom: 100%;
+}
+
+.LayoutGridBreakAfter:after,
+.LayoutBreakAfter:after {
+    clear: both;
+    display: block;
+    height: 0;
+    content: "\0020";
+}
+
+.LayoutGridBreakAfter:after {
+    clear: left;
+}
+
+.LayoutGridBreak {
+    clear: left;
+}
+
+/* Stacking elements */
+
+.LayoutCell,
+.LayoutSmallCell,
+.LayoutBigCell {
+    display: block;
+}
+
+.LayoutCell,
+.LayoutCellVSides,
+.LayoutCellTop {
+    padding-top: 9px;
+}
+
+.LayoutCell,
+.LayoutCellVSides,
+.LayoutCellBottom {
+    padding-bottom: 9px;
+}
+
+.LayoutCell,
+.LayoutCellSides {
+    padding-left: 11px;
+    padding-right: 18px;   /* Changed/added by dgasior for existing site styling */
+}
+
+.LayoutCellLeft {
+    padding-left: 11px;
+}
+
+.LayoutCellRight {
+    padding-right: 11px;
+}
+
+.LayoutRowSmallest,
+.LayoutRow,
+.LayoutSmallRow,
+.LayoutSmallerRow {
+    display: block;
+}
+
+.LayoutRow,
+.LayoutRowTop {
+    margin-top: 3px;   /* Changed/added by dgasior for existing site styling */
+}
+
+.LayoutRow,
+.LayoutRowBottom {
+    margin-bottom: 7px;   /* Changed/added by dgasior for existing site styling */
+}
+
+/*TODO: Remove this. LayoutRow doesn't specify sides, Use LayoutGutter instead */
+.LayoutRowLeft {
+    margin-left: 11px;
+}
+
+.LayoutRowRight {
+    margin-right: 11px;
+}
+
+.LayoutGutter,
+.LayoutGutterLeft {
+    margin-left: 11px;
+}
+
+.LayoutGutter,
+.LayoutGutterRight {
+    margin-right: 11px;
+}
+
+.LayoutSmallCell,
+.LayoutSmallCellVSides,
+.LayoutSmallCellTop {
+    padding-top: 4px;
+}
+
+.LayoutSmallCell,
+.LayoutSmallCellVSides,
+.LayoutSmallCellBottom {
+    padding-bottom: 4px;
+}
+
+.LayoutSmallCell,
+.LayoutSmallCellSides,
+.LayoutSmallCellLeft {
+    padding-left: 5px;
+}
+
+.LayoutSmallCell,
+.LayoutSmallCellSides,
+.LayoutSmallCellRight {
+    padding-right: 5px;
+}
+
+.LayoutSmallGutter,
+.LayoutSmallGutterRight {
+    margin-right: 5px;
+}
+
+.LayoutSmallGutter,
+.LayoutSmallGutterLeft {
+    margin-left: 5px;
+}
+
+.LayoutSmallRow,
+.LayoutSmallRowTop {
+    margin-top: 3px;
+}
+
+.LayoutSmallRow,
+.LayoutSmallRowBottom {
+    margin-bottom: 3px;
+}
+
+.LayoutBigCellTop,
+.LayoutBigCellVSides,
+.LayoutBigCell {
+    padding-top: 15px;
+}
+
+.LayoutBigCellBottom,
+.LayoutBigCellVSides,
+.LayoutBigCell {
+    padding-bottom: 15px;
+}
+
+.LayoutBigCell,
+.LayoutBigCellSides,
+.LayoutBigCellLeft {
+    padding-left: 20px;
+}
+
+.LayoutBigCell,
+.LayoutBigCellSides,
+.LayoutBigCellRight {
+    padding-right: 20px;
+}
+
+.LayoutBigRow,
+.LayoutBigRowVSides,
+.LayoutBigRowBottom {
+    margin-bottom: 20px;
+}
+
+.LayoutBigRow,
+.LayoutBigRowVSides,
+.LayoutBigRowTop {
+    margin-top: 20px;
+}
+
+.LayoutLargeRow,
+.LayoutLargeRowVSides,
+.LayoutLargeRowBottom {
+    margin-bottom: 30px;
+}
+
+.LayoutLargeRow,
+.LayoutLargeRowVSides,
+.LayoutLargeRowTop {
+    margin-top: 30px;
+}
+
+.LayoutFlushLeft {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+/* Horizontal item display */
+
+.LayoutH,
+.LayoutHItems,
+.LayoutHAlignRight {
+    _height: 1em;
+    *zoom: 100%;
+}
+
+.LayoutHItems:after,
+.LayoutH:after,
+.LayoutHAlignRight:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.LayoutHItem {
+    float: left;
+}
+
+.LayoutHItemRight {
+    float: right;
+}
+
+/* Horizontal items alignment */
+
+.LayoutHAlignBottom {
+    vertical-align: bottom;
+}
+
+.LayoutHAlignTop {
+    vertical-align: top;
+}
+
+.LayoutHAlignRight .LayoutHAlignItems {
+    float: right;
+}
+
+.LayoutCenter {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.LayoutRight {
+    display: block;
+    float: right;
+}
+
+/* Display elements */
+.LayoutHidden {
+    display: none;
+}
+
+/* Position items absolutely within a specified container */
+
+.LayoutP {
+    position: relative;
+    z-index: inherit;
+    display: block;
+}
+
+.LayoutPRight,
+.LayoutPLeft,
+.LayoutPTop,
+.LayoutPBottom,
+.LayoutPCenterReg,
+.LayoutPCenter,
+.LayoutPMiddleReg,
+.LayoutPMiddle,
+.LayoutPOutsideBottom,
+.LayoutPOutsideTop,
+.LayoutPOutsideRight,
+.LayoutPOutsideLeft {
+    display: block;
+    position: absolute;
+    visibility: visible;
+    z-index: inherit;
+}
+
+.LayoutPCenterReg,
+.LayoutPMiddleReg {
+    visibility: hidden;
+}
+
+.LayoutPCenterReg {
+    left: 50%;
+}
+
+.LayoutPCenter {
+    right: 50%;
+    width: 100%;
+}
+
+.LayoutPMiddleReg {
+    top: 50%;
+}
+
+.LayoutPMiddle {
+    bottom: 50%;
+    height: 100%;
+}
+
+.LayoutPOutsideBottom {
+    top: 100%;
+}
+
+.LayoutPOutsideTop {
+    bottom: 100%;
+}
+
+.LayoutPOutsideRight {
+    left: 100%;
+}
+
+.LayoutPOutsideLeft {
+    right: 100%;
+}
+
+.LayoutPLeft {
+    left: 0;
+}
+
+.LayoutPRight {
+    right: 0;
+}
+
+.LayoutPTop {
+    top: 0;
+}
+
+.LayoutPBottom {
+    bottom: 0;
+}
+
+.LayoutPMax {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* TEXT.CSS */
+
+.Text {
+    font-family: Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.Text::-moz-selection,
+.Text ::-moz-selection {
+    background: #447099;
+    color: #FFFFFF;
+}
+
+.Text::selection,
+.Text ::selection {
+    background: #447099;
+    color: #FFFFFF;
+}
+
+.TextEm {
+    font-style: italic;
+}
+
+.TextStrong,
+.TextH6,
+.TextH5,
+.TextH4,
+.TextH3,
+.TextH2 {
+    font-weight: 600;
+    font-style: normal;
+}
+
+.TextH6,
+.TextSmaller {
+    font-size: 9px;
+    line-height: 14px;
+}
+
+.TextH5,
+.TextSmall {
+    font-size: 12px;
+    line-height: 16px;
+    /* Don't go below this line-height with Myriad Pro.
+    You will starting getting a different baseline with bold text on floated elements. */
+}
+
+.TextH4,
+.TextMedium {
+    font-size: 14px;
+    line-height: 19px; /* TypeKit x-height adjusted */
+}
+
+.TextH3,
+.TextLarge {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.TextH2,
+.TextLarger {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.TextH1,
+.TextLargest {
+    font-size: 30px;
+    line-height: 33px;
+}
+
+.TextH1,
+.TextLight,
+.TextIntroHeader,
+.TextIntro {
+    font-weight: 300;
+}
+
+.TextTag {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.TextInvert {
+    color: #FFFFFF;
+}
+
+.TextInset {
+    text-shadow:  0 -1px 0 #151515;
+    -moz-text-shadow: 0 -1px 0 #151515;
+}
+
+.TextWeak {
+    color: #999999;
+}
+
+.TextInvertWeak {
+    color: #DDDDDD;
+}
+
+.TextLink {
+	color: #447099;
+}
+
+.TextName {
+    font-weight: 600;
+}
+
+.TextAside {
+    font-size: 12px;
+    line-height: 15px;
+    color: #666666;
+    display: list-item;
+    list-style-position: outside;
+    list-style-type: circle;
+}
+
+.TextLeft {
+    text-align: left;
+}
+
+.TextCenter {
+    text-align: center;
+}
+
+.TextRight {
+    text-align: right;
+}
+
+.TextTop {
+    vertical-align: top;
+}
+
+.TextBottom {
+    vertical-align: bottom;
+    _vertical-align: middle;
+    *vertical-align: middle;
+}
+
+.TextSup,
+.TextSub {
+    height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+}
+
+.TextSup {
+	bottom: 1ex;
+}
+
+.TextSub {
+	top: .5ex;
+}
+
+.TextPostScript {
+	font-style: italic;
+}
+
+.TextIntroHeader {
+	font-size: 26px;
+	line-height: 32px;
+}
+
+.TextIntro {
+	font-size: 21px;
+	line-height: 24px;
+}
+
+.TextMarquee
+{
+	font-size: 56px;
+	line-height: 60px;
+}
+
+.TextPromo {
+	color: #F600;
+}
+
+.TextWarning {
+	color: #F00;
+}
+
+
+/* LINK.CSS */
+
+.Link a,
+.Link a:link,
+.Link a:visited,
+a.Link,
+a.Link:link,
+a.Link:visited
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Link a:hover,
+.Link a:visited:hover,
+a.Link:hover,
+a.Link:visited:hover
+{
+    text-decoration: underline;
+}
+
+a.Link:focus,
+.Link a:focus
+{
+    outline: 1px solid rgba(68, 112, 158, .25);
+    -webkit-box-shadow: 0 0 4px #447099;
+    -moz-box-shadow: 0 0 4px #447099;
+    box-shadow: 0 0 4px #447099;
+}
+
+.LinkWeak a,
+.LinkWeak a:link,
+.LinkWeak a:visited,
+a.LinkWeak,
+a.LinkWeak:link,
+a.LinkWeak:visited
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.LinkWeak a:visited:hover,
+.LinkWeak a:hover,
+a.LinkWeak:hover,
+a.LinkWeak:visited:hover
+{
+	text-decoration: none;
+}
+
+.LinkHide a,
+.LinkHide a:link,
+.LinkHide a:hover,
+.LinkHide a:visited,
+.LinkHide a:visited:hover,
+a.LinkHide,
+a.LinkHide:link,
+a.LinkHide:hover,
+a.LinkHide:visited,
+a.LinkHide:visited:hover {
+    color: #333333;
+    text-decoration: none;
+
+}
+
+.LinkHide a:focus,
+a.LinkHide:focus {
+    outline-style: none;
+    -webkit-box-shadow: 0 0;
+    -moz-box-shadow: 0 0;
+    box-shadow: 0 0;
+
+}
+
+.LinkInvertWeak a,
+.LinkInvertWeak a:link,
+.LinkInvertWeak a:visited,
+a.LinkInvertWeak,
+a.LinkInvertWeak:link,
+a.LinkInvertWeak:visited {
+    color: #9AC8FD;
+    text-decoration: none;
+}
+
+.LinkInvertWeak a:hover,
+.LinkInvertWeak a:visited:hover,
+a.LinkInvertWeak:hover,
+a.LinkInvertWeak:visited:hover {
+    color: #DDDDDD;
+    text-decoration: underline;
+}
+
+.LinkInvert a,
+.LinkInvert a:link,
+.LinkInvert a:visited,
+a.LinkInvert,
+a.LinkInvert:link,
+a.LinkInvert:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.LinkInvert a:hover,
+.LinkInvert a:visited:hover,
+a.LinkInvert:hover,
+a.LinkInvert:visited:hover {
+	color: #DDDDDD;
+    text-decoration: underline;
+}
+
+a .LinkBoxInvert,
+.LinkBoxInvert a,
+.LinkBoxInvert a:link,
+.LinkBoxInvert a:visited,
+a.LinkBoxInvert,
+a.LinkBoxInvert:link,
+a.LinkBoxInvert:visited {
+    color: #FFFFFF;
+    background-color: #447099;
+    text-decoration: none;
+}
+
+a:hover .LinkBoxInvert,
+.LinkBoxInvert a:hover,
+.LinkBoxInvert a:visited:hover,
+a.LinkBoxInvert:hover,
+a.LinkBoxInvert:visited:hover {
+    color: #DDDDDD;
+    background-color: #2C5982;
+    text-decoration: none;
+}
+
+.LinkButtonInvert a,
+.LinkButtonInvert a:link,
+.LinkButtonInvert a:visited,
+.LinkButtonInvert a:hover,
+.LinkButtonInvert a:visited:hover,
+a.LinkButtonInvert,
+a.LinkButtonInvert:link,
+a.LinkButtonInvert:visited,
+a.LinkButtonInvert:hover,
+a.LinkButtonInvert:visited:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.LinkButtonInvert a:hover,
+.LinkButtonInvert a:visited:hover,
+a.LinkButtonInvert:hover,
+a.LinkButtonInvert:visited:hover {
+    color: #DDDDDD;
+}
+
+.LinkSpecial .ProdDivider,
+.LinkSpecial a,
+.LinkSpecial a:link,
+a.LinkSpecial,
+a.LinkSpecial:link
+{
+    color: #99CCEE;
+    text-decoration: none;
+}
+
+.LinkSpecial a:visited,
+a.LinkSpecial:visited
+{
+    color: #84B2E0;
+    text-decoration: none;
+}
+
+.LinkSpecial a:visited:hover,
+.LinkSpecial a:hover,
+a.LinkSpecial:visited:hover,
+a.LinkSpecial:hover
+{
+    color: #dddddd;
+    text-decoration: none;
+}
+
+
+.LinkStrong a,
+a.LinkStrong
+{
+    font-weight: 600;
+}
+
+.LinkPointer:hover
+{
+    cursor: pointer;
+}
+
+a.LinkSneak .LinkSneaker {
+    visibility: hidden;
+}
+
+a.LinkSneak:focus .LinkSneaker,
+a.LinkSneak:hover .LinkSneaker,
+a.LinkSneak:visited:hover .LinkSneaker {
+    visibility: visible;
+}
+
+.LinkDownload a,
+.LinkDownload a:link,
+.LinkDownload a:visited,
+.LinkDownload a:visited:hover,
+.LinkDownload a:hover,
+a.LinkDownload,
+a.LinkDownload:link,
+a.LinkDownload:visited,
+a.LinkDownload:visited:hover
+a.LinkDownload:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	z-index: inherit;
+}
+
+.LinkPromo a,
+.LinkPromo a:link,
+.LinkPromo a:visited,
+.LinkPromo a:visited:hover,
+.LinkPromo a:hover,
+a.LinkPromo,
+a.LinkPromo:link,
+a.LinkPromo:visited,
+a.LinkPromo:visited:hover
+a.LinkPromo:hover
+{
+	color: #FFCC00;
+	text-decoration: none;
+}
+
+.LinkStrong a,
+a.LinkStrong {
+    font-weight: bold;  /* Changed/added by dgasior for existing site styling */
+}
+
+
+/* Grid.cols.-164,164,164,164.gutter.-11.margin.-10.name.-Column.css */
+
+.Column { 
+	_height: 1em;
+	*zoom: 100%;
+	width: 689px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.Column:after {
+	clear: left;
+	content: "\0020";
+	display: block;
+	height: 0;
+}
+
+.Column-1,
+.Column-2,
+.Column-3,
+.Column-4 {
+	width: 164px;
+}
+
+.Column-1-2,
+.Column-2-3,
+.Column-3-4 {
+	width: 339px;
+}
+
+.Column-1-3,
+.Column-2-4 {
+	width: 514px;
+}
+
+.Column-1-4 {
+	width: 689px;
+}
+
+.Column-1,
+.Column-1-2,
+.Column-1-3,
+.Column-1-4,
+.Column-2-3 .Column-2,
+.Column-2-4 .Column-2,
+.Column-2-4 .Column-2-3,
+.Column-3-4 .Column-3 {
+	clear: left; 
+	margin-left: 0;
+}
+
+.Column-1,
+.Column-1-2,
+.Column-1-3,
+.Column-1-4,
+.Column-2,
+.Column-2-3,
+.Column-2-4,
+.Column-3,
+.Column-3-4,
+.Column-4 {
+	float: left;
+}
+
+.Column-2,
+.Column-2-3,
+.Column-2-4,
+.Column-3,
+.Column-3-4,
+.Column-4 {
+	margin-left: 11px;
+}
+
+/* Grid.cols.-169,169,169,169,220.gutter.-11.margin.-10.name.-LayoutGrid */
+
+.LayoutGrid {
+	_height: 1em;
+	*zoom: 100%;
+	width: 940px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.LayoutGrid:after {
+	clear: both;
+	content: "\0020";
+	display: block;
+	height: 0;
+}
+
+.LayoutGrid-1,
+.LayoutGrid-2,
+.LayoutGrid-3,
+.LayoutGrid-4 {
+	width: 169px;
+}
+
+.LayoutGrid-5 {
+	width: 220px;
+}
+
+.LayoutGrid-1-2,
+.LayoutGrid-2-3,
+.LayoutGrid-3-4 {
+	width: 349px;
+}
+
+.LayoutGrid-1-3,
+.LayoutGrid-2-4 {
+	width: 529px;
+}
+
+.LayoutGrid-1-4 { 
+	width: 709px;
+}
+
+.LayoutGrid-1-5 {
+	width: 940px;
+}
+
+.LayoutGrid-2-5 {
+	width: 760px;
+}
+
+.LayoutGrid-3-5 {
+	width: 580px;
+}
+
+.LayoutGrid-4-5 {
+	width: 400px;
+}
+
+.LayoutGrid-1,
+.LayoutGrid-1-2,
+.LayoutGrid-1-3,
+.LayoutGrid-1-4,
+.LayoutGrid-1-5,
+.LayoutGrid-2-3 .LayoutGrid-2,
+.LayoutGrid-2-4 .LayoutGrid-2,
+.LayoutGrid-2-4 .LayoutGrid-2-3,
+.LayoutGrid-2-5 .LayoutGrid-2,
+.LayoutGrid-2-5 .LayoutGrid-2-3,
+.LayoutGrid-2-5 .LayoutGrid-2-4,
+.LayoutGrid-3-4 .LayoutGrid-3,
+.LayoutGrid-3-5 .LayoutGrid-3,
+.LayoutGrid-3-5 .LayoutGrid-3-4,
+.LayoutGrid-4-5 .LayoutGrid-4 {
+	clear: left;
+	margin-left: 0;
+}
+
+.LayoutGrid-1,
+.LayoutGrid-1-2,
+.LayoutGrid-1-3,
+.LayoutGrid-1-4,
+.LayoutGrid-1-5,
+.LayoutGrid-2,
+.LayoutGrid-2-3,
+.LayoutGrid-2-4,
+.LayoutGrid-2-5,
+.LayoutGrid-3,
+.LayoutGrid-3-4,
+.LayoutGrid-3-5,
+.LayoutGrid-4,
+.LayoutGrid-4-5,
+.LayoutGrid-5 {
+	float: left;
+}
+
+.LayoutGrid-2,
+.LayoutGrid-2-3,
+.LayoutGrid-2-4,
+.LayoutGrid-2-5,
+.LayoutGrid-3,
+.LayoutGrid-3-4,
+.LayoutGrid-3-5,
+.LayoutGrid-4,
+.LayoutGrid-4-5,
+.LayoutGrid-5 {
+	margin-left: 11px;
+}

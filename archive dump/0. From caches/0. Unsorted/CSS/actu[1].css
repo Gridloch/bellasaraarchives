@@ -1,0 +1,394 @@
+#bloc-option-actu {
+
+width:254px;
+
+font-family:Tahoma;
+
+margin-left:-9px;
+
+}
+
+
+
+.violet, .violet a, .violet a:visited {
+
+color:#a14ecb;
+
+text-decoration: none;
+
+}
+
+
+
+
+
+/** BLOC OPTION **/
+
+#bloc-option {
+
+width: 224px;
+
+}
+
+
+
+#bloc-option .top {
+
+width: 224px;
+
+height:31px;
+
+background: transparent url('../images/charte/boutique/actu/bloc-option-top.png') bottom left no-repeat;
+
+float:left;
+
+padding-left:20px;
+
+}
+
+
+
+#bloc-option .top #titre-bloc-option-actu {
+
+font-family:Tahoma;
+
+font-size:14px;
+
+font-weight:bold;
+
+}
+
+
+
+
+
+#bloc-option .middle {
+
+width: 224px;
+
+background: transparent url('../images/charte/boutique/actu/bloc-option-middle.png') repeat-y;
+
+float:left;
+
+padding-left:20px;
+
+}
+
+
+
+#bloc-option .middle dl {
+
+padding:0;
+
+margin:0;
+
+font-size:11px;
+
+}
+
+#bloc-option .middle dt {
+
+display:block;
+
+color: #999;
+
+width:70px;
+
+}
+
+#bloc-option .middle dd {
+
+display:block;
+
+width:144px;
+
+padding:0;
+
+margin:0;
+
+}
+
+#bloc-option .middle dt, #bloc-option .middle dd {
+
+border-bottom: 1px solid #ddd;
+
+float:left;
+
+margin-bottom: 6px;
+
+}
+
+#bloc-option .middle dd.departement {
+
+height:26px;
+
+}
+
+
+
+
+
+#bloc-option .prenom {
+
+height:99px;
+
+background: transparent url('../images/charte/boutique/actu/bloc-option-prenom.png') no-repeat;
+
+float:left;
+
+
+
+padding-left: 1px;
+
+padding-right: 1px;
+
+width: 252px;
+
+}
+
+
+
+#bloc-option .prenom  h3{
+
+font-size:13px;
+
+margin:0;
+
+padding:0;
+
+text-align:center;
+
+}
+
+
+
+#bloc-option .prenom  p{
+
+font-size:9px;
+
+padding:0;
+
+padding-top:5px;
+
+margin:0;
+
+text-align:center;
+
+}
+
+
+
+#bloc-option .prenom .multiplier{
+
+width:105px;
+
+height:45px;
+
+color: #fff;
+
+margin: 0px auto;
+
+margin-top: 3px;
+
+font-weight:bold;
+
+text-align:center;
+
+}
+
+
+
+#bloc-option .prenom .multiplier span{
+	text-align:center;
+}
+#bloc-option .prenom .multiplier span a {
+	color: white;
+	display: block;
+	font-size: 13px;
+	padding-top: 9px;
+	text-transform: uppercase;
+}
+
+
+#bloc-option .bottom {
+
+width: 244px;
+
+height:3px;
+
+background: transparent url('../images/charte/boutique/actu/bloc-option-bottom.png') no-repeat;
+
+float:left;
+
+}
+
+
+
+/** BLOC ACTU **/
+
+#bloc-actu {
+
+width:254px;
+
+float:left;
+
+margin-top:-2px;
+
+}
+
+
+
+#bloc-actu .actu {
+
+width: 227px;
+
+background: transparent url('../images/charte/boutique/actu/bloc-actu-middle.png') no-repeat;
+
+height:50px;
+
+float:left;
+
+padding-left:18px;
+
+padding-top:5px;
+padding-bottom:5px;
+
+}
+
+
+
+#bloc-actu .actu .logo{
+
+width:50px;
+
+height:45px;
+
+float:left;
+
+overflow: hidden;
+
+padding-top:2px;
+
+}
+
+
+
+#bloc-actu .actu .texte{
+
+width:131px;
+
+height:45px;
+
+float:left;
+
+font-size:11px;
+
+line-height:11px;
+
+color:#999;
+
+padding-top:4px;
+overflow:hidden;
+
+}
+
+#bloc-actu .actu .texte h3{
+
+font-weight: bold;
+
+padding:0;
+
+margin:0;
+
+font-size:12px;
+
+}
+
+#bloc-actu .actu .texte p{
+
+padding:0;
+
+margin:0;
+
+}
+
+
+
+#bloc-actu .actu .texte p a{
+
+color:#999;
+
+}
+
+
+
+#bloc-actu .actu .contenu{
+
+width:40px;
+
+height:45px;
+
+float:left;
+
+overflow: hidden;
+
+}
+
+#bloc-actu .actu .contenu img{
+
+
+
+}
+
+
+
+#bloc-actu .actu.premiere {
+
+background: transparent url('../images/charte/boutique/actu/bloc-actu-top.png') no-repeat;
+
+height:50px;
+
+padding-top:7px;
+
+}
+
+
+
+#bloc-actu .actu.premiere .logo {
+
+padding-top:7px;
+
+}
+
+
+
+#bloc-actu .actu.premiere .texte {
+
+padding-top: 2px;
+
+}
+
+
+
+#bloc-actu .actu.premiere .contenu {
+
+padding-top:4px;
+
+}
+
+
+
+
+
+#bloc-actu .actu.derniere {
+
+background: transparent url('../images/charte/boutique/actu/bloc-actu-bottom.png') no-repeat;
+
+}
+
+
+
+
+
+
+

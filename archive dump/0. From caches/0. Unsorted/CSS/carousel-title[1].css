@@ -1,0 +1,5 @@
+body #wrapper #content .moduleslot .homepageCarousel {
+	background-image: url("/res/images/carousel/FR_carousel-full-v2.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+}

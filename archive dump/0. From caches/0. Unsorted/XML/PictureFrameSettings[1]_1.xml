@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Category name="PictureFrameSettings" likelihood="100">
+  <Category name="Bella" likelihood="15">
+    <Image fileName="/media/images/06.jpg" />
+  </Category>
+  <Category name="Bello" likelihood="15">
+    <Image fileName="/media/images/07.jpg" />
+  </Category>
+  <Category name="Bellisimo" likelihood="15">
+    <Image fileName="/media/images/08.jpg" />
+  </Category>
+  <Category name="Fiona" likelihood="15">
+    <Image fileName="/media/images/22.jpg" />
+  </Category>
+  <Category name="Jewel" likelihood="15">
+    <Image fileName="/media/images/33.jpg" />
+  </Category>
+  <Category name="Thunder" likelihood="15">
+    <Image fileName="/media/images/470.jpg" />
+  </Category>
+  <Category name="Nike" likelihood="15">
+    <Image fileName="/media/images/245.jpg" />
+  </Category>
+</Category>

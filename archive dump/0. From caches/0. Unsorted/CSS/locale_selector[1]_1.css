@@ -1,0 +1,81 @@
+body {
+    background: url("../images/gateway/bg_wide.jpg")
+	no-repeat scroll center center transparent;
+}
+
+#hsb_content_bg {
+    background:none !important;
+}
+
+#hsb_content {
+	margin-top:120px !important;
+}
+
+#hsb_container {
+    background:none !important;
+	margin: 0 auto; !important;
+	position:relative;
+	text-align:left;
+	width:980px;
+}
+
+#hsb_header {
+    float: left;
+    padding: 0;
+    width: 980px;
+    background: url("../images/gateway/brand_logo.png") no-repeat scroll center transparent !important;
+    height: 190px !important;
+	position:absolute;
+	margin-top:-120px;
+	z-index:2;
+}
+
+#locations-container {
+	padding-top:50px !important;
+	position:relative;
+	background:url(../images/gateway/gateway-translucent-bg.png) !important;
+}	
+#locations-container li a {
+    display: block;
+    text-decoration: none;
+	color:#000000;
+}
+
+
+#locations-container li a:hover {
+	color:#5D1656; !important;
+}
+
+.region{
+	color:#5D1656;
+ }
+
+
+.highlight {
+    background: none repeat scroll 0 0 #5D1656;
+	color:#FFFFFF !important;
+}
+
+.bg-arrow{
+	background:url("../images/gateway/arrow_black.png");
+}
+.bg-arrow-highlight{
+	background:url("../images/gateway/arrow_white.png");
+}
+
+#div1line{
+	height:620px;
+	background-color:#5D1656;
+}
+
+
+#div2line{
+	height:620px;
+	background-color:#5D1656;
+}	
+#bgImage{
+	position:absolute;
+	left:350px;
+	top:20px;
+	 	
+}

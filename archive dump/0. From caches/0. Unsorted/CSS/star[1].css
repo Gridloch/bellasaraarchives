@@ -1,0 +1,85 @@
+/*-------------------------------------------------------------------
+
+	Group: About
+	The following classes are used to create a star rating containter of potientially any length.
+	
+	Usage:
+>	<span class="star-rating st[totalnumber]"><span class="star st[ratednumber] replace-text">Rating = [ratednumber]</span></span>
+	
+	See also:
+	<template/replace-text.css>
+	
+-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------
+
+	Object: .star-rating
+	This is base class to display any number of stars tiled horizontally
+	
+-------------------------------------------------------------------*/
+.star-rating,
+.star-rating .star {
+	background-repeat: repeat-x; /*--- using repeat to work with different rating systems ie. 4-star, 5-star ---*/
+	height: 16px;
+	display: block;
+}
+
+.star-rating { background-image: url(star/starOff.gif); }
+
+/*-------------------------------------------------------------------
+
+	Object: .star
+	This is base class to display highlighted stars within a star-rating container
+	
+-------------------------------------------------------------------*/
+.star { background-image: url(star/star.gif); }
+
+/*-------------------------------------------------------------------
+
+	Object: .st0
+	Display 0 stars
+	
+-------------------------------------------------------------------*/
+.st0 { width: 0; }
+
+/*-------------------------------------------------------------------
+
+	Object: .st1
+	Display 1 star
+	
+-------------------------------------------------------------------*/
+.st1 { width: 19px; }
+
+/*-------------------------------------------------------------------
+
+	Object: .st2
+	Display 2 stars
+	
+-------------------------------------------------------------------*/
+.st2 { width: 38px; }
+
+/*-------------------------------------------------------------------
+
+	Object: .st3
+	Display 3 stars
+	
+-------------------------------------------------------------------*/
+.st3 { width: 57px; }
+
+/*-------------------------------------------------------------------
+
+	Object: .st4
+	Display 4 stars
+	
+-------------------------------------------------------------------*/
+.st4 { width: 76px; }
+
+/*-------------------------------------------------------------------
+
+	Object: .st5
+	Display 5 stars
+	
+-------------------------------------------------------------------*/
+.st5 { width: 95px; }
+
+

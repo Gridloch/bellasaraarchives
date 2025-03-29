@@ -1,0 +1,263 @@
+/* Heros */
+body
+{
+background: none;	
+}
+#contenu{
+	width: 	
+}
+#header {
+height:638px;
+}
+
+#tamagochi-videos {
+height:300px;
+width:980px;
+}
+
+#tamagochi {
+float:left;
+width:250px;
+height:300px;
+}
+
+#news {
+float:left;
+height:390px;
+margin-top: 10px;
+width: 730px;
+}
+
+#videos {
+float:left;
+width:729px;
+}
+
+
+/* modules */
+#fan-de
+{
+	width: 235px;
+	height: 200px;
+	padding-bottom: 23px;
+	padding-top:8px;	
+}
+	#fan-de .title
+	{
+		height: 26px;
+		width: 234px;
+		background: url('../images/charte/hero/fan-de-titre.png') bottom left no-repeat;
+		padding-left: 8px;
+	}	
+		#fan-de .title #titre-fan-de
+		{	position:relative;
+			top:-5px;
+		}
+	
+	#fan-de .content
+	{
+		background: url('../images/charte/hero/fan-de-body.png') no-repeat;
+		width: 238px;
+		height: 182px;
+		padding-top: 3px;
+	}
+		#fan-de .content .nombre-de-fan
+		{
+			margin-left: 20px;		
+			padding-bottom: 12px;
+		}
+		#fan-de .content .bouton
+		{
+			margin-left: 18px;
+			padding-bottom: 10px;
+			_height: 30px! important;
+			_margin-bottom: 10px! important;
+			_padding-bottom: 0px;
+		}
+
+/** Bloc hero **/
+#hero{
+font-size:10px;
+width:720px;
+height:309px;
+background: transparent url('../images/charte/hero/hero-bg-feuille.png') no-repeat;
+float:left;
+/* ie 6 */
+/*_background: transparent url('../images/charte/hero/hero-bg-feuille.gif') no-repeat;*/
+_width: 730px;
+_margin-bottom: 25px;
+}
+	#hero #histoire {
+	background: transparent url('../images/charte/hero/degrader-scroll.png') no-repeat bottom right;	
+	float:left;
+	margin-top:24px;
+	padding-top:6px;
+	padding-left:10px;
+	width:182px;
+	height:233px;
+	overflow-y:scroll;
+	/* ie6 */
+	_background: transparent none;
+	_width: 180px;
+	_margin: 0px;	
+	_margin-top: 25px;
+	_padding: 0px;
+	_padding-left: 8px;	
+	}
+
+	#hero #histoire #titre-histoire {
+	float:left;
+	_float: auto;
+	}
+
+	#hero #histoire strong {
+	float:left;
+	clear:left;
+	padding-left:8px;
+	padding-top:4px;
+	width:161px;
+	}
+
+	#hero #histoire p {
+	padding-top:6px;
+	padding-left:8px;
+	padding-bottom:7px;
+	width:145px;
+	}
+	
+
+	
+#hero .image {
+width:238px;
+height:284px;
+float:left;
+overflow:hidden;
+_margin-right: 10px;
+}
+
+#hero .navigation {
+width:78px;
+height:259px;
+float:left;
+padding:2px;
+padding-left:4px;
+padding-top:21px;
+//margin-top: 25px;
+_padding-left: 1px;
+}
+
+#hero .navigation .top {
+display:block;
+width:75px;
+height:28px;
+background: transparent url('../images/charte/hero/fleche-haut.png') no-repeat;
+}
+
+#hero .navigation .bottom {
+display:block;
+width:71px;
+height:30px;
+background: transparent url('../images/charte/hero/fleche-bas.png') no-repeat;
+}
+
+#vignettes-hero {
+	width:72px;
+	height:192px;
+	padding-left: 1px;
+}
+	#hero .navigation .vignette-hero, #hero .navigation .selected {
+	display:block;
+	padding:0px;
+	border: 3px solid #cccccc;
+	width:67px;
+	height:42px;
+	}
+
+	#hero .navigation .vignette-hero:hover{
+	border: 3px solid #0099cc;
+	}
+
+	#hero .navigation .selected {
+	border: 3px solid #0099cc;
+	}	
+	
+#hero #biographie {
+width:199px;
+height:251px;
+float:left;
+padding:2px;
+padding-left:4px;
+margin-top:36px;
+overflow-y:scroll;
+}
+
+#hero #biographie p{
+padding-top:3px;
+padding-left:7px;
+padding-bottom:6px;
+width:171px;
+}
+
+/* Footer surchargé pour enlever les bordures */
+#footer .Infos  .LienHero
+{
+	border: none;
+}		
+		
+#hero .navigation .vignette-hero.hidden {
+display:none;
+}
+
+.zouzou-hero{
+	font-size: 13px;	 	
+}	
+
+/* IE 6 */
+.jcarousel-skin-tango .jcarousel-next-vertical{
+	_position: absolute;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical {    
+    _background: transparent url(../../images/charte/fleche-haut.gif) no-repeat 0 0;
+}
+.jcarousel-skin-tango .jcarousel-next-vertical {   
+    _background: transparent url(../../images/charte/fleche-bas.gif) no-repeat 0 0;
+}
+
+		
+/**
+ * Iframe
+ */
+ 
+iframe{
+border:0;
+height: 1150px;
+background: none;
+background-color: transparent;
+allowTransparency: true; 
+}
+
+#popin_overlay {
+	display:none;
+	background-color: #000;
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+}
+
+#popin {
+width: 711px;
+}
+
+#popin_iframe {
+display:none;
+position:absolute;
+width:711px;
+z-index:3;
+height: 100%;
+}		
+		
+		
+		
+
+		

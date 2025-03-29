@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VAST version="2.0">
+    <Ad id="Vidible">
+        <InLine>
+            <AdSystem>Vidible</AdSystem>
+            <AdTitle>Vidible VAST 2.0 Video Ad</AdTitle>
+            <Description />
+            <Impression></Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <VideoClicks>
+                            <ClickThrough></ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" width="640" height="360" type="application/x-shockwave-flash" apiFramework="VPAID"><![CDATA[http://cdn.vidible.tv/prod/2014-04/09/52b423cbe4b0e5ffff20b743_v35.swf?bid=5176d880e4b082c657f08a4a&pid=52df8c2de4b00bba35b764fc&adOnly=true&bcid=5176c647e4b09e5e67af5b27]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

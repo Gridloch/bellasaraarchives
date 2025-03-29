@@ -1,0 +1,36 @@
+
+<?xml version="1.0"?>
+<page>
+	<textcontent>
+		<text instancepath="mcPageTitle.mcTitle" autosize="left" multiline="true"><![CDATA[Rencontre les <br/>amies de Clochette<br /><font size="18"> {mediatype}</font>]]></text>
+		<text instancepath="btBack.mcLabel" autosize="left">Précédent</text>
+		<text instancepath="mcInbox" autosize="right">Boîte aux lettres de {fairyname}...</text>
+		<text instancepath="btEmail" autosize="left">Envoie-moi un e-mail</text>
+	</textcontent>
+</page>
+
+
+
+
+
+	<!-- BEGIN WDIG Web Analytics 1.0 -->
+<script type="text/javascript" src="//analytics.disneyinternational.com/analytics/wdigWebAnalytics.js"></script>
+<script type="text/javascript">
+    cto = new CTO();
+    cto.track();//Required. Do not remove.
+</script> 
+
+<script type="text/javascript">
+    // Support for legacy Hitbox Functions hard-coded into old Flash Files
+    // These functions will now record to both Hitbox and Omniture
+    function _hbflash(p,m,x,d,s,c,f,g){cto.hbflash(p,m,x,d,s,c,f,g);}
+    function _hbPageView(p,m){cto.hbflash(p,m,"n","n","n","n","n","n");}
+    function _hbExitLink(n){cto.hbflash(_pn,_mlc,n,"n","n","n","n","n");}
+    function _hbDownload(n){cto.hbflash(_pn,_mlc,"n",n,"n","n","n","n");}
+    function _hbVisitorSeg(n,p,m){cto.hbflash(p,m,"n","n",n,"n","n","n");}
+    function _hbCampaign(n,p,m){cto.hbflash(p,m,"n","n","n",n,"n","n");}
+    function _hbFunnel(n,p,m){cto.hbflash(p,m,"n","n","n","n",n,"n");}
+    function _hbGoalPage(n,p,m){cto.hbflash(p,m,"n","n","n","n","n",n);}
+</script>
+<!-- END WDIG Web Analytics 1.0 -->
+

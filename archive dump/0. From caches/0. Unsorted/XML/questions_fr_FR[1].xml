@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<section id="section_1">
+		<parameters>
+			<parameter id="twilight"></parameter>
+			<parameter id="pinkie"></parameter>
+			<parameter id="applejack"></parameter>
+			<parameter id="rarity"></parameter>
+			<parameter id="rainbow"></parameter>
+			<parameter id="fluttershy"></parameter>
+		</parameters>
+		
+		<questions>
+			<question id="1">
+				<question_title><![CDATA[<question_header_color>question
+<numbers_color>1 sur 8</numbers_color></question_header_color>]]></question_title>
+				<question_txt><![CDATA[<question>quand tu passes du temps avec tes amies tu aimes :</question>]]></question_txt>
+				<answers>
+					<answer id="1" parameter="rarity" parameter_value="1" x="500"><![CDATA[<answer>Te déguiser !</answer>]]></answer>
+					<answer id="2" parameter="rainbow" parameter_value="1"><![CDATA[<answer>Jouer à des jeux !</answer>]]></answer>
+					<answer id="3" parameter="applejack" parameter_value="1"><![CDATA[<answer>T'amuser dehors !</answer>]]></answer>
+					<answer id="4" parameter="twilight" parameter_value="1"><![CDATA[<answer>Raconter des histoires !</answer>]]></answer>
+				</answers>
+			</question>
+			<question id="2">
+				<question_title><![CDATA[<question_header_color>question 
+<numbers_color>2 sur 8</numbers_color></question_header_color>]]></question_title>
+				<question_txt><![CDATA[<question>tu fais un dessin. que dessines-tu dans le ciel ? 
+</question>]]></question_txt>
+				<answers>
+					<answer id="1" parameter="rainbow" parameter_value="1"><![CDATA[<answer>des arcs-en-ciel</answer>]]></answer>
+					<answer id="2" parameter="twilight" parameter_value="1"><![CDATA[<answer>des étoiles</answer>]]></answer>
+					<answer id="3" parameter="fluttershy" parameter_value="1"><![CDATA[<answer>des papillons</answer>]]></answer>
+					<answer id="4" parameter="pinkie" parameter_value="1"><![CDATA[<answer>des ballons</answer>]]></answer>
+				</answers>
+			</question>
+			<question id="3">
+				<question_title><![CDATA[<question_header_color>question 
+<numbers_color>3 sur 8</numbers_color></question_header_color>]]></question_title>
+				<question_txt><![CDATA[<question>si tu choisis un vêtement, quelle couleur 
+préfèrerais-tu porter ? 
+</question>]]></question_txt>
+				<answers>
+					<answer id="1" parameter="pinkie" parameter_value="1"><![CDATA[<answer>Rose</answer>]]></answer>
+					<answer id="2" parameter="rainbow" parameter_value="1"><![CDATA[<answer>Bleu</answer>]]></answer>
+					<answer id="3" parameter="twilight" parameter_value="1"><![CDATA[<answer>Violet</answer>]]></answer>
+					<answer id="4" parameter="applejack" parameter_value="1"><![CDATA[<answer>Rouge</answer>]]></answer>
+					<answer id="5" parameter="fluttershy" parameter_value="1"><![CDATA[<answer>Jaune</answer>]]></answer>
+				</answers>
+			</question>
+			
+			<question id="4">
+				<question_title><![CDATA[<question_header_color>question 
+<numbers_color>4 sur 8</numbers_color></question_header_color>]]></question_title>
+				<question_txt><![CDATA[<question>quel mot te décrit le mieux ?</question>]]></question_txt>
+				<answers>
+					<answer id="1" parameter="pinkie" parameter_value="1"><![CDATA[<answer>Etourdie</answer>]]></answer>
+					<answer id="2" parameter="fluttershy" parameter_value="1"><![CDATA[<answer>Calme</answer>]]></answer>
+					<answer id="3" parameter="rainbow" parameter_value="1"><![CDATA[<answer>Aventurière</answer>]]></answer>
+					<answer id="4" parameter="twilight" parameter_value="1"><![CDATA[<answer>Responsable</answer>]]></answer>
+				</answers>
+			</question>
+			
+				<question id="5">
+				<question_title><![CDATA[<question_header_color>question 
+<numbers_color>5 sur 8</numbers_color></question_header_color>]]></question_title>
+				<question_txt><![CDATA[<question>Quel cadeau aimerais-tu recevoir pour 
+ton anniversaire ?</question>]]></question_txt>
+				<answers>
+					<answer id="1" parameter="rarity" parameter_value="1"><![CDATA[<answer>une robe</answer>]]></answer>
+					<answer id="2" parameter="applejack" parameter_value="1"><![CDATA[<answer>un chapeau de cowgirl</answer>]]></answer>
+					<answer id="3" parameter="pinkie" parameter_value="1"><![CDATA[<answer>un livre de blagues</answer>]]></answer>
+				</answers>
+			</question>
+			
+			<question id="6">
+				<question_title><![CDATA[<question_header_color>question 
+<numbers_color>6 sur 8</numbers_color></question_header_color>]]></question_title>
+				<question_txt><![CDATA[<question>tes vêtements préférés sont :</question>]]></question_txt>
+				<answers>
+					<answer id="1" parameter="rarity" parameter_value="1"><![CDATA[<answer>brillants et colorés, tu adores faire des mélanges et des assortiments</answer>]]></answer>
+					<answer id="2" parameter="applejack" parameter_value="1"><![CDATA[<answer>confortables pour les porter n'importe quand !</answer>]]></answer>
+					<answer id="3" parameter="pinkie" parameter_value="1"><![CDATA[<answer>des vêtements pour jouer et que tu puisses salir !</answer>]]></answer>
+				</answers>
+			</question>
+			
+			<question id="7">
+				<question_title><![CDATA[<question_header_color>question 
+<numbers_color>7 sur 8</numbers_color></question_header_color>]]></question_title>
+				<question_txt><![CDATA[<question>quand tu seras grande, tu aimerais être :</question>]]></question_txt>
+				<answers>
+					<answer id="1" parameter="rarity" parameter_value="0"><![CDATA[<answer>une styliste</answer>]]></answer>
+					<answer id="2" parameter="pinkie" parameter_value="0"><![CDATA[<answer>une comédienne</answer>]]></answer>
+					<answer id="3" parameter="applejack" parameter_value="0"><![CDATA[<answer>une agricultrice</answer>]]></answer>
+					<answer id="4" parameter="rainbow" parameter_value="0"><![CDATA[<answer>une athlète</answer>]]></answer>
+				</answers>
+			</question>
+			<question id="8">
+				<question_title><![CDATA[<question_header_color>question 
+<numbers_color>8 sur 8</numbers_color></question_header_color>]]></question_title>
+				<question_txt><![CDATA[<question>ta façon préférée de jouer avec tes amies my little 
+pony c'est de : </question>]]>
+</question_txt>
+				<answers>
+					<answer id="1" parameter="fluttershy" parameter_value="0"><![CDATA[<answer>leur faire plein de câlins !</answer>]]></answer>
+					<answer id="2" parameter="rarity" parameter_value="0"><![CDATA[<answer>leur brosser les cheveux et les rendre plus belles !</answer>]]></answer>
+					<answer id="3" parameter="twilight" parameter_value="0"><![CDATA[<answer>leur lire des histoires!</answer>]]></answer>
+				</answers>
+			</question>
+		</questions>
+		
+		<results>
+			<result id="1" parameter="twilight" desired_result="highest"></result>
+			<result id="2" parameter="pinkie" desired_result="highest"></result>
+			<result id="3" parameter="applejack" desired_result="highest"></result>
+			<result id="4" parameter="rarity" desired_result="highest"></result>
+			<result id="5" parameter="rainbow" desired_result="highest"></result>
+			<result id="6" parameter="fluttershy" desired_result="highest"></result>
+		</results>
+	</section>
+</data>

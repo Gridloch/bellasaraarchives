@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ageban>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE DES CHAMPIONS]]></competition>
+<nommatch><![CDATA[8E FINALE]]></nommatch>
+<jour><![CDATA[Mardi 18 février]]></jour>
+<dateavenir><![CDATA[Mardi 18/02]]></dateavenir>
+<heure><![CDATA[20h45]]></heure>
+<equipe1>
+<nom><![CDATA[Bayer Leverkusen]]></nom>
+<blason>114.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Paris]]></nom>
+<blason>79.swf</blason>
+</equipe2>
+<cote_1><![CDATA[3,40]]></cote_1>
+<cote_n><![CDATA[3,15]]></cote_n>
+<cote_2><![CDATA[2,05]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE DES CHAMPIONS]]></competition>
+<nommatch><![CDATA[8E FINALE]]></nommatch>
+<jour><![CDATA[Mardi 18 février]]></jour>
+<dateavenir><![CDATA[Mardi 18/02]]></dateavenir>
+<heure><![CDATA[20h45]]></heure>
+<equipe1>
+<nom><![CDATA[Man City]]></nom>
+<blason>122.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Barcelone]]></nom>
+<blason>77.swf</blason>
+</equipe2>
+<cote_1><![CDATA[2,80]]></cote_1>
+<cote_n><![CDATA[3,10]]></cote_n>
+<cote_2><![CDATA[2,35]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Mercredi 19 février]]></jour>
+<dateavenir><![CDATA[Mercredi 19/02]]></dateavenir>
+<heure><![CDATA[02h30]]></heure>
+<equipe1>
+<nom><![CDATA[Dallas]]></nom>
+<blason>34.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Miami ]]></nom>
+<blason>25.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Mercredi 19 février]]></jour>
+<dateavenir><![CDATA[Mercredi 19/02]]></dateavenir>
+<heure><![CDATA[04h30]]></heure>
+<equipe1>
+<nom><![CDATA[Clippers]]></nom>
+<blason>70.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[San Antonio]]></nom>
+<blason>31.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE DES CHAMPIONS]]></competition>
+<nommatch><![CDATA[8E FINALE]]></nommatch>
+<jour><![CDATA[Mercredi 19 février]]></jour>
+<dateavenir><![CDATA[Mercredi 19/02]]></dateavenir>
+<heure><![CDATA[20h45]]></heure>
+<equipe1>
+<nom><![CDATA[Arsenal]]></nom>
+<blason>95.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Bayern Munich]]></nom>
+<blason>99.swf</blason>
+</equipe2>
+<cote_1><![CDATA[4,40]]></cote_1>
+<cote_n><![CDATA[3,50]]></cote_n>
+<cote_2><![CDATA[1,68]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE DES CHAMPIONS]]></competition>
+<nommatch><![CDATA[8E FINALE]]></nommatch>
+<jour><![CDATA[Mercredi 19 février]]></jour>
+<dateavenir><![CDATA[Mercredi 19/02]]></dateavenir>
+<heure><![CDATA[20h45]]></heure>
+<equipe1>
+<nom><![CDATA[AC Milan]]></nom>
+<blason>66.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Atletico Madrid]]></nom>
+<blason>135.swf</blason>
+</equipe2>
+<cote_1><![CDATA[3,30]]></cote_1>
+<cote_n><![CDATA[2,95]]></cote_n>
+<cote_2><![CDATA[2,15]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Jeudi 20 février]]></jour>
+<dateavenir><![CDATA[Jeudi 20/02]]></dateavenir>
+<heure><![CDATA[02h00]]></heure>
+<equipe1>
+<nom><![CDATA[Minnesota]]></nom>
+<blason>89.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Clippers]]></nom>
+<blason>70.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Jeudi 20 février]]></jour>
+<dateavenir><![CDATA[Jeudi 20/02]]></dateavenir>
+<heure><![CDATA[04h00]]></heure>
+<equipe1>
+<nom><![CDATA[Portland]]></nom>
+<blason>29.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[San Antonio]]></nom>
+<blason>31.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[EUROPA LEAGUE]]></competition>
+<nommatch><![CDATA[16E FINALE]]></nommatch>
+<jour><![CDATA[Jeudi 20 février]]></jour>
+<dateavenir><![CDATA[Jeudi 20/02]]></dateavenir>
+<heure><![CDATA[19h00]]></heure>
+<equipe1>
+<nom><![CDATA[Chernomorets]]></nom>
+<blason>404.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Lyon]]></nom>
+<blason>15.swf</blason>
+</equipe2>
+<cote_1><![CDATA[ ]]></cote_1>
+<cote_n><![CDATA[2,90]]></cote_n>
+<cote_2><![CDATA[2,75]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[EUROPA LEAGUE]]></competition>
+<nommatch><![CDATA[16E FINALE]]></nommatch>
+<jour><![CDATA[Jeudi 20 février]]></jour>
+<dateavenir><![CDATA[Jeudi 20/02]]></dateavenir>
+<heure><![CDATA[19h00]]></heure>
+<equipe1>
+<nom><![CDATA[Juventus Turin]]></nom>
+<blason>216.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Trabzonspor]]></nom>
+<blason>126.swf</blason>
+</equipe2>
+<cote_1><![CDATA[1,07]]></cote_1>
+<cote_n><![CDATA[6,00]]></cote_n>
+<cote_2><![CDATA[15,0]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[EUROPA LEAGUE]]></competition>
+<nommatch><![CDATA[16E FINALE]]></nommatch>
+<jour><![CDATA[Jeudi 20 février]]></jour>
+<dateavenir><![CDATA[Jeudi 20/02]]></dateavenir>
+<heure><![CDATA[21h05]]></heure>
+<equipe1>
+<nom><![CDATA[Swansea]]></nom>
+<blason>378.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Naples]]></nom>
+<blason>123.swf</blason>
+</equipe2>
+<cote_1><![CDATA[2,60]]></cote_1>
+<cote_n><![CDATA[3,10]]></cote_n>
+<cote_2><![CDATA[2,35]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Vendredi 21 février]]></jour>
+<dateavenir><![CDATA[Vendredi 21/02]]></dateavenir>
+<heure><![CDATA[02h00]]></heure>
+<equipe1>
+<nom><![CDATA[Oklahoma City]]></nom>
+<blason>35.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Miami ]]></nom>
+<blason>25.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Vendredi 21 février]]></jour>
+<dateavenir><![CDATA[Vendredi 21/02]]></dateavenir>
+<heure><![CDATA[04h30]]></heure>
+<equipe1>
+<nom><![CDATA[Golden State]]></nom>
+<blason>90.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Houston]]></nom>
+<blason>43.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[rugby]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[TOURNOI DES 6 NATIONS]]></competition>
+<nommatch><![CDATA[3E JOURNÉE]]></nommatch>
+<jour><![CDATA[Vendredi 21 février]]></jour>
+<dateavenir><![CDATA[Vendredi 21/02]]></dateavenir>
+<heure><![CDATA[20h00]]></heure>
+<equipe1>
+<nom><![CDATA[Pays de Galles]]></nom>
+<blason>42.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[France]]></nom>
+<blason>35.swf</blason>
+</equipe2>
+<cote_1><![CDATA[1,52]]></cote_1>
+<cote_n><![CDATA[22,0]]></cote_n>
+<cote_2><![CDATA[2,25]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE 1]]></competition>
+<nommatch><![CDATA[26E JOURNÉE]]></nommatch>
+<jour><![CDATA[Vendredi 21 février]]></jour>
+<dateavenir><![CDATA[Vendredi 21/02]]></dateavenir>
+<heure><![CDATA[20h30]]></heure>
+<equipe1>
+<nom><![CDATA[Monaco]]></nom>
+<blason>19.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Reims]]></nom>
+<blason>89.swf</blason>
+</equipe2>
+<cote_1><![CDATA[1,26]]></cote_1>
+<cote_n><![CDATA[4,60]]></cote_n>
+<cote_2><![CDATA[9,00]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Samedi 22 février]]></jour>
+<dateavenir><![CDATA[Samedi 22/02]]></dateavenir>
+<heure><![CDATA[02h00]]></heure>
+<equipe1>
+<nom><![CDATA[Chicago]]></nom>
+<blason>32.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Denver]]></nom>
+<blason>41.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Samedi 22 février]]></jour>
+<dateavenir><![CDATA[Samedi 22/02]]></dateavenir>
+<heure><![CDATA[04h30]]></heure>
+<equipe1>
+<nom><![CDATA[Lakers]]></nom>
+<blason>71.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Boston]]></nom>
+<blason>26.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[rugby]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[TOP 14]]></competition>
+<nommatch><![CDATA[20E JOURNÉE]]></nommatch>
+<jour><![CDATA[Samedi 22 février]]></jour>
+<dateavenir><![CDATA[Samedi 22/02]]></dateavenir>
+<heure><![CDATA[14h30]]></heure>
+<equipe1>
+<nom><![CDATA[Clermont]]></nom>
+<blason>83.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Montpellier]]></nom>
+<blason>87.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[rugby]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[TOURNOI DES 6 NATIONS]]></competition>
+<nommatch><![CDATA[3E JOURNÉE]]></nommatch>
+<jour><![CDATA[Samedi 22 février]]></jour>
+<dateavenir><![CDATA[Samedi 22/02]]></dateavenir>
+<heure><![CDATA[16h00]]></heure>
+<equipe1>
+<nom><![CDATA[Angleterre]]></nom>
+<blason>41.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Irlande]]></nom>
+<blason>39.swf</blason>
+</equipe2>
+<cote_1><![CDATA[1,48]]></cote_1>
+<cote_n><![CDATA[20,0]]></cote_n>
+<cote_2><![CDATA[2,45]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE 1]]></competition>
+<nommatch><![CDATA[26E JOURNÉE]]></nommatch>
+<jour><![CDATA[Samedi 22 février]]></jour>
+<dateavenir><![CDATA[Samedi 22/02]]></dateavenir>
+<heure><![CDATA[17h00]]></heure>
+<equipe1>
+<nom><![CDATA[Marseille]]></nom>
+<blason>18.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Lorient]]></nom>
+<blason>11.swf</blason>
+</equipe2>
+<cote_1><![CDATA[1,66]]></cote_1>
+<cote_n><![CDATA[3,40]]></cote_n>
+<cote_2><![CDATA[4,50]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE 1]]></competition>
+<nommatch><![CDATA[26E JOURNÉE]]></nommatch>
+<jour><![CDATA[Samedi 22 février]]></jour>
+<dateavenir><![CDATA[Samedi 22/02]]></dateavenir>
+<heure><![CDATA[20h00]]></heure>
+<equipe1>
+<nom><![CDATA[Bastia]]></nom>
+<blason>253.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[St-Etienne]]></nom>
+<blason>2.swf</blason>
+</equipe2>
+<cote_1><![CDATA[3,40]]></cote_1>
+<cote_n><![CDATA[2,90]]></cote_n>
+<cote_2><![CDATA[2,00]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[rugby]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[TOP 14]]></competition>
+<nommatch><![CDATA[20E JOURNÉE]]></nommatch>
+<jour><![CDATA[Samedi 22 février]]></jour>
+<dateavenir><![CDATA[Samedi 22/02]]></dateavenir>
+<heure><![CDATA[20h35]]></heure>
+<equipe1>
+<nom><![CDATA[Castres]]></nom>
+<blason>82.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Toulouse]]></nom>
+<blason>81.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Dimanche 23 février]]></jour>
+<dateavenir><![CDATA[Dimanche 23/02]]></dateavenir>
+<heure><![CDATA[01h30]]></heure>
+<equipe1>
+<nom><![CDATA[Atlanta]]></nom>
+<blason>40.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[New York]]></nom>
+<blason>30.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Dimanche 23 février]]></jour>
+<dateavenir><![CDATA[Dimanche 23/02]]></dateavenir>
+<heure><![CDATA[04h30]]></heure>
+<equipe1>
+<nom><![CDATA[Golden State]]></nom>
+<blason>90.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Brooklyn]]></nom>
+<blason>88.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE 1]]></competition>
+<nommatch><![CDATA[26E JOURNÉE]]></nommatch>
+<jour><![CDATA[Dimanche 23 février]]></jour>
+<dateavenir><![CDATA[Dimanche 23/02]]></dateavenir>
+<heure><![CDATA[14h00]]></heure>
+<equipe1>
+<nom><![CDATA[Toulouse]]></nom>
+<blason>6.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Paris]]></nom>
+<blason>79.swf</blason>
+</equipe2>
+<cote_1><![CDATA[6,75]]></cote_1>
+<cote_n><![CDATA[3,90]]></cote_n>
+<cote_2><![CDATA[1,38]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE 1]]></competition>
+<nommatch><![CDATA[26E JOURNÉE]]></nommatch>
+<jour><![CDATA[Dimanche 23 février]]></jour>
+<dateavenir><![CDATA[Dimanche 23/02]]></dateavenir>
+<heure><![CDATA[17h00]]></heure>
+<equipe1>
+<nom><![CDATA[Nantes]]></nom>
+<blason>88.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Rennes]]></nom>
+<blason>12.swf</blason>
+</equipe2>
+<cote_1><![CDATA[2,10]]></cote_1>
+<cote_n><![CDATA[2,90]]></cote_n>
+<cote_2><![CDATA[3,30]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[rugby]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[TOP 14]]></competition>
+<nommatch><![CDATA[20E JOURNÉE]]></nommatch>
+<jour><![CDATA[Dimanche 23 février]]></jour>
+<dateavenir><![CDATA[Dimanche 23/02]]></dateavenir>
+<heure><![CDATA[17h05]]></heure>
+<equipe1>
+<nom><![CDATA[Bayonne]]></nom>
+<blason>92.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Toulon]]></nom>
+<blason>90.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Dimanche 23 février]]></jour>
+<dateavenir><![CDATA[Dimanche 23/02]]></dateavenir>
+<heure><![CDATA[20h00]]></heure>
+<equipe1>
+<nom><![CDATA[Oklahoma City]]></nom>
+<blason>35.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Clippers]]></nom>
+<blason>70.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[foot]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[LIGUE 1]]></competition>
+<nommatch><![CDATA[26E JOURNÉE]]></nommatch>
+<jour><![CDATA[Dimanche 23 février]]></jour>
+<dateavenir><![CDATA[Dimanche 23/02]]></dateavenir>
+<heure><![CDATA[21h00]]></heure>
+<equipe1>
+<nom><![CDATA[Lille]]></nom>
+<blason>13.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Lyon]]></nom>
+<blason>15.swf</blason>
+</equipe2>
+<cote_1><![CDATA[2,00]]></cote_1>
+<cote_n><![CDATA[3,05]]></cote_n>
+<cote_2><![CDATA[3,40]]></cote_2>
+</match>
+<match>
+<sport><![CDATA[basket]]></sport>
+<slogan><![CDATA[]]></slogan>
+<competition><![CDATA[NBA]]></competition>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<jour><![CDATA[Dimanche 23 février]]></jour>
+<dateavenir><![CDATA[Dimanche 23/02]]></dateavenir>
+<heure><![CDATA[21h30]]></heure>
+<equipe1>
+<nom><![CDATA[Miami ]]></nom>
+<blason>25.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Chicago]]></nom>
+<blason>32.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<cote_n><![CDATA[]]></cote_n>
+<cote_2><![CDATA[]]></cote_2>
+</match>
+</ageban>

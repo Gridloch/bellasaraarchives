@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<localizationbundle locale="fr">
+  <messages>
+    <msg desc="Label to the right of the video title indicating who it is by." name="CHANNEL_BYLINE">par <ph name="CHANNEL_NAME"><ex>lexusvehicles</ex>1</ph></msg>
+    <msg desc="Label of close button" name="CLOSE">Fermer</msg>
+    <msg desc="User choice ads: the header text to help users to make choice" name="DEF_AD_BREAKS">Visionner avec des <ph name="BEGIN_FORMAT">1</ph>pauses publicitaires de <ph name="AD_COUNT">2</ph><ph name="END_FORMAT">3</ph></msg>
+    <msg desc="Message shown before we allow users to skip the ad" name="PRE_SKIP_AD">Vous pourrez ignorer cette annonce dans <ph name="X_SECONDS">1</ph>.</msg>
+    <msg desc="Message informing user that an ad will close in a number of seconds." name="CLOSE_IN">La publicité se fermera automatiquement dans <ph name="X_SECONDS">1</ph></msg>
+    <msg desc="Label of recall_advertiserment button" name="RECALL_ADVERTISEMENT">Rappeler la publicité</msg>
+    <msg desc="Label of skip_ad button" name="SKIP_AD">Ignorer cette annonce maintenant <ph name="SUFFIX">1</ph></msg>
+    <msg desc="A warning message to the user that if they don't make any choice in a certain amount of time a default action will be made. The string is the first line of text and the second line contains the time left (i.e. if no choice has been made, your video will play with standard breaks in [new line] 00:30)" name="TIMEOUT_WARN">En l'absence de choix de votre part, votre vidéo sera lue avec des pauses standards dans</msg>
+    <msg desc="User_choice ads: the header text to help user to make choice" name="WATCH_UNINTERRUPTED">Visionner la vidéo <ph name="BEGIN_FORMAT">1</ph>sans interruption<ph name="END_FORMAT">2</ph> après avoir choisi une annonce :</msg>
+    <msg desc="User choice ads: separates ads button from default button (i.e. press ad or press default)" name="OR">ou</msg>
+    <msg desc="Attributes content as an advertisement." name="ADVERTISEMENT">Publicité</msg>
+    <msg desc="Clickable text that indicates that the user can learn more about the advertisement by clicking." name="LEARN_MORE">En savoir plus <ph name="SUFFIX">1</ph></msg>
+    <msg desc="User watches a video to completion. The title of the video will follow on the next line." name="YOU_JUST_WATCHED">Vidéo que vous venez de visionner :</msg>
+    <msg desc="User was shown a video ad and chose not to watch it. The title of the video will follow on the next line." name="YOU_WERE_SHOWN">Vidéo qui vous était présentée :</msg>
+    <msg desc="Clickable text that allows the user to skip the current video advertisement in order to get to their content video." name="SKIP_TO_VIDEO">Passer à la vidéo</msg>
+    <msg desc="Unclickable text that indicates that the user will be able to skip the current video advertisement in order to get to their content video in some duration of time." name="YOU_CAN_SKIP_TO_VIDEO_IN">Vous pourrez passer à la vidéo dans <ph name="X_SECONDS">1</ph></msg>
+    <msg desc="Clickable text that allows the user to skip the current video advertisement." name="SKIP_AD_SIMPLE">Ignorer l'annonce »</msg>
+    <msg desc="Attributes a video to the video uploader's display user name. Display below the video title." name="BY">de <ph name="USER_DISPLAY_NAME">1</ph></msg>
+    <msg desc="Clickable text that takes the user to the advertiser's page." name="VISIT_ADVERTISERS_SITE">Visiter le site de l'annonceur</msg>
+    <msg desc="Clickable text that allows user to the share ad to other users." name="SHARE_TEXT">Partager</msg>
+    <msg desc="Clickable text that allows the user to retrieve a new question within a survey, discarding the current one." name="ANOTHER_QUESTION">Afficher une autre question</msg>
+    <msg desc="Clickable text that allows the user to submit a set of selected answers to a question." name="SUBMIT_ANSWER">Envoyer la réponse</msg>
+    <msg desc="Clickable text that clears answers selected above it when clicked." name="RESET_CHOICES">Aucune des réponses ci-dessus</msg>
+    <msg desc="Short question to the user about whether they would like to see similar ads in the future. Prompted during ad playback." name="SHOW_ME_ADS_LIKE_THIS">Aimeriez-vous voir d'autres annonces de ce type ?</msg>
+    <msg desc="Short positive answer to whether or not a user would like to see similar ads." name="YES">Oui</msg>
+    <msg desc="Short negative answer to whether or not a user would like to see similar ads." name="NO">Non</msg>
+    <msg desc="Short thank you after user responds that they would like to see similar ads." name="THANKS_GLAD_YOU_LIKE_IT">Merci ! Nous sommes heureux de vous présenter des annonces qui vous plaisent.</msg>
+    <msg desc="Short response after a user responds that they would not like to see similar ads." name="SORRY_FEEDBACK_IMPROVES_ADS">Nous sommes désolés. Nous tiendrons compte de votre opinion afin d'améliorer la qualité des annonces diffusées sur YouTube.</msg>
+    <msg desc="User hovers over an icon which then shows them information about how to find more information about their ad settings." name="AD_SETTINGS_INFO">Reportez-vous à la page <ph name="BEGIN_FORMAT">1</ph>Paramètres des annonces<ph name="END_FORMAT">2</ph> de Google pour en savoir plus sur la manière dont les annonces sont ciblées ou pour désactiver la diffusion d'annonces personnalisées.</msg>
+  </messages>
+</localizationbundle>

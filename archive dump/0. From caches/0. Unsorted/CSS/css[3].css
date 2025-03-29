@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://themes.googleusercontent.com/static/fonts/arimo/v6/kJziZB9mN1Zz67hE4Xj10w.eot);
+  src: local('Arimo'), url(https://themes.googleusercontent.com/static/fonts/arimo/v6/kJziZB9mN1Zz67hE4Xj10w.eot) format('embedded-opentype'), url(https://themes.googleusercontent.com/static/fonts/arimo/v6/wZLYhRRxZWGToTRP78bqJQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://themes.googleusercontent.com/static/fonts/arimo/v6/5Pu1hU3bOP0NyOZx3DCeVvesZW2xOQ-xsNqO47m55DA.eot);
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(https://themes.googleusercontent.com/static/fonts/arimo/v6/5Pu1hU3bOP0NyOZx3DCeVvesZW2xOQ-xsNqO47m55DA.eot) format('embedded-opentype'), url(https://themes.googleusercontent.com/static/fonts/arimo/v6/UnXpojilM3XslYxUnWuVe_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://themes.googleusercontent.com/static/fonts/arimo/v6/thDv13z50gThh9VG9EA2iA.eot);
+  src: local('Arimo Italic'), local('Arimo-Italic'), url(https://themes.googleusercontent.com/static/fonts/arimo/v6/thDv13z50gThh9VG9EA2iA.eot) format('embedded-opentype'), url(https://themes.googleusercontent.com/static/fonts/arimo/v6/8ezAIdgyp-Cm5_X7mWzP_g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://themes.googleusercontent.com/static/fonts/arimo/v6/_K7sg-ijHdmkwPzV9FiqaFQlYEbsez9cZjKsNMjLOwM.eot);
+  src: local('Arimo Bold Italic'), local('Arimo-BoldItalic'), url(https://themes.googleusercontent.com/static/fonts/arimo/v6/_K7sg-ijHdmkwPzV9FiqaFQlYEbsez9cZjKsNMjLOwM.eot) format('embedded-opentype'), url(https://themes.googleusercontent.com/static/fonts/arimo/v6/_K7sg-ijHdmkwPzV9FiqaBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Coustard';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://themes.googleusercontent.com/static/fonts/coustard/v4/tHBu-R-Hi9cgTu8jYR-JrPesZW2xOQ-xsNqO47m55DA.eot);
+  src: local('Coustard'), url(https://themes.googleusercontent.com/static/fonts/coustard/v4/tHBu-R-Hi9cgTu8jYR-JrPesZW2xOQ-xsNqO47m55DA.eot) format('embedded-opentype'), url(https://themes.googleusercontent.com/static/fonts/coustard/v4/7Z1TmjHUqIGEzERrLfAhXPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}

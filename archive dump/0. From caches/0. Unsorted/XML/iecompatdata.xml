@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<iecompatlistdescription>
+    <version>1152921505002015170</version>
+    <ttl>1</ttl>
+    <ua id="Chrome 19">Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5</ua>
+    <ua id="FireFox 12">Mozilla/5.0 (Windows NT 6.2; rv:12.0) Gecko/20100101 Firefox/12.0</ua>
+    <ua id="FireFox Token">Mozilla/5.0 ($PLATFORM; Trident/7.0; rv:11.0) like Gecko/20100101 Firefox/12.0</ua>
+    <ua id="IE 10">Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)</ua>
+    <ua id="IE9Win7">Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)</ua>
+    <f12ua category="desktop" name="Internet Explorer 10">Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)</f12ua>
+    <f12ua category="desktop" name="Internet Explorer 9">Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)</f12ua>
+    <f12ua category="desktop" name="Internet Explorer 8">Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)</f12ua>
+    <f12ua category="desktop" name="Internet Explorer 7">Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)</f12ua>
+    <f12ua category="desktop" name="Internet Explorer 6">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)</f12ua>
+    <f12ua category="non-desktop" name="IE10 - Windows Phone 8">Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch)</f12ua>
+    <f12ua category="non-desktop" name="IE9 - Windows Phone 7">Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)</f12ua>
+    <f12ua category="non-desktop" name="IE - Xbox One">Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Xbox; Xbox One)</f12ua>
+    <f12ua category="non-desktop" name="IE - Xbox 360">Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; Xbox)</f12ua>
+    <f12ua category="other" name="Google Chrome">Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36</f12ua>
+    <f12ua category="other" name="Mozilla Firefox">Mozilla/5.0 (Windows NT 6.2; rv:12.0) Gecko/20100101 Firefox/23.0</f12ua>
+    <f12ua category="other" name="Opera">Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 OPR/15.0.1147.153</f12ua>
+    <f12ua category="other" name="Apple Safari (iPad)">Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25</f12ua>
+    <f12ua category="other" name="Bing Bot">Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)</f12ua>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">checkplus.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">easyabc.95599.cn</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">ebank.taipeifubon.com.tw</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">funddj.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">hncb.com.tw</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">ibank.firstbank.com.tw</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">mobile-ok.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">naver.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">nhis.or.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">recruit.1111.com.tw</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">samsungfire.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">siren24.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">tw.gamania.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">yuantafutures.com.tw</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">11st.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">172.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">5156edu.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">9lives.be</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">anycardirect.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">aok.dk</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">aolradio.slacker.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">auction.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">banking.hsb.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">bcweb.microsoft.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">bugs.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">childschool.mest.go.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">cinema.chosun.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">cito.nl</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="10">crmcs.partners.extranet.microsoft.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">cs.com.cn</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">ctrip.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">cu.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="10">directsales.partners.extranet.microsoft.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">epostbank.go.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">epost.go.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">etrade.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">everymove.org</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">explore.ms</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">fsb.or.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">gmarket.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">gsshop.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">hani.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">hi.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">hm.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">hollisterco.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">hyundaicard.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">hyundaiusa.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">ifkgoteborg.se</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">imbc.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">interest.me</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">jiddahbikkers.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">kbs.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">keb.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">keris.signgate.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">kiwoom.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">khan.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">kjbank.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">knbank.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">korail.go.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">kotijakeittio.fi</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">lastpass.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">lh.or.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">lig.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">live.afreeca.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">live.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">lotte.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">mail.126.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">mail.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">marca.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">mbs.microsoft.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">mbs2.microsoft.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">meritzfire.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">microsoftvolunteermanager.org</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">moet.microsoft.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">moneydj.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">msdnopenmat.one.microsoft.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">myangel.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">nate.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">netbank.de</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">nexon.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">nhic.or.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">nprotect.net</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="10">outlook.office365.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="10">partnersales.partners.extranet.microsoft.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">plaync.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">police.go.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">q.115.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">radio1.nl</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">rbs.co.uk</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">regmgmt.partners.extranet.microsoft.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">samsungcard.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">samsunglife.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">scrapbook.channel4.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">secure.donga.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">seoul.go.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">sharebox.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">shinhancard.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">shinhan.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">skype.daesung.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">smartatm.com.tw</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">smartmiraeasset.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">softforum.co.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">store.apple.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">strava.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">taxsave.go.kr</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">tenpay.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">touch.facebook.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">truefriend.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">varostock.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">wooricard.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">xywy.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">y.qq.com</domain>
+    <domain docMode="EmulateIE10" versionVector="10" uaString="IE 10">yesone.go.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7" featureSwitch="requiresActiveX:true">hyundaihmall.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">alipay.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">qq.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">scbank.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">1ting.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">5c-mall.shop.rakuten.tw</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">aktivtraening.dk</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">auction.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">axa.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">bccard.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">buienradar.nl</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">busanbank.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">cjmall.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">cmbchina.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">daum.net</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">dgb.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">dnshop.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">ebsi.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">e-himart.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">ei.go.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">elespectador.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">epost.go.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">ergodaum.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">fsb.or.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">gmarket.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">godele.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">gozoomin.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">hangame.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">hkbank.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">icbc.com.cn</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">iros.go.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">jbbank.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">kdb.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">kfcc.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">korail.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">kr.koreanair.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">livemeeting.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">mail.naver.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">mail1.naver.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">mail2.naver.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">megastudy.net</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">minwon.go.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">netmarble.net</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">nonghyup.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">nps.or.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">pidplus.partners.extranet.microsoft.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">plaync.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">pmang.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">s.sohu.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">samsungcard.com</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">spdb.com.cn</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">standardchartered.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">tworld.co.kr</domain>
+    <domain docMode="EmulateIE7" versionVector="7" uaString="7">zap2it.com</domain>
+    <domain docMode="EmulateIE7">aladin.co.kr</domain>
+    <domain docMode="EmulateIE7">qvc.com</domain>
+    <domain docMode="EmulateIE7">www.winner.co.il</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">kbstar.com</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">pengyou.com</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">youku.com</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">hanabank.co.kr</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">hanabank.com</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">hometax.go.kr</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">immowelt.de</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">lottecard.co.kr</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">mobil.dkv.com</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">tagged.com</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">thomson.co.uk</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">tre.it</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">unigro.be</domain>
+    <domain docMode="EmulateIE8" versionVector="8" uaString="8">uusee.com</domain>
+    <domain docMode="EmulateIE8">12306.cn</domain>
+    <domain docMode="EmulateIE8">21cbh.com</domain>
+    <domain docMode="EmulateIE8">7999.com</domain>
+    <domain docMode="EmulateIE8">a9vg.com</domain>
+    <domain docMode="EmulateIE8">adp.com</domain>
+    <domain docMode="EmulateIE8">aircel.com</domain>
+    <domain docMode="EmulateIE8">allosponsor.com</domain>
+    <domain docMode="EmulateIE8">bandinlunis.com</domain>
+    <domain docMode="EmulateIE8">blackrock.com</domain>
+    <domain docMode="EmulateIE8">blog.okcupid.com</domain>
+    <domain docMode="EmulateIE8">bmo.com</domain>
+    <domain docMode="EmulateIE8">bmwseattle.com</domain>
+    <domain docMode="EmulateIE8">brooksbrothers.com</domain>
+    <domain docMode="EmulateIE8">bupa.co.uk</domain>
+    <domain docMode="EmulateIE8">bursamalaysia.com</domain>
+    <domain docMode="EmulateIE8">cardekho.com</domain>
+    <domain docMode="EmulateIE8">carrefour.fr</domain>
+    <domain docMode="EmulateIE8">concierge.apple.com</domain>
+    <domain docMode="EmulateIE8">credit-agricole.fr</domain>
+    <domain docMode="EmulateIE8">crowdstar.com</domain>
+    <domain docMode="EmulateIE8">djurslandsbank.dk</domain>
+    <domain docMode="EmulateIE8">dongbuhappy.com</domain>
+    <domain docMode="EmulateIE8">ea.indiaresults.com</domain>
+    <domain docMode="EmulateIE8">etrade.co.kr</domain>
+    <domain docMode="EmulateIE8">euronetpolska.pl</domain>
+    <domain docMode="EmulateIE8">family.com.tw</domain>
+    <domain docMode="EmulateIE8">forums.drom.ru</domain>
+    <domain docMode="EmulateIE8">frankfurter-sparkasse.de</domain>
+    <domain docMode="EmulateIE8">garanti.com.tr</domain>
+    <domain docMode="EmulateIE8">gersolutions.com</domain>
+    <domain docMode="EmulateIE8">gulfnews.com</domain>
+    <domain docMode="EmulateIE8">hanaskcard.co.kr</domain>
+    <domain docMode="EmulateIE8">hanaskcard.com</domain>
+    <domain docMode="EmulateIE8">ificandream.com</domain>
+    <domain docMode="EmulateIE8">indiaglitz.com</domain>
+    <domain docMode="EmulateIE8">ipart.cn</domain>
+    <domain docMode="EmulateIE8">janitos.de</domain>
+    <domain docMode="EmulateIE8">jyskenetbank.dk</domain>
+    <domain docMode="EmulateIE8">keb.co.kr</domain>
+    <domain docMode="EmulateIE8">luster-sparebank.no</domain>
+    <domain docMode="EmulateIE8">mfile.co.kr</domain>
+    <domain docMode="EmulateIE8">mk.co.kr</domain>
+    <domain docMode="EmulateIE8">mobifiesta.com</domain>
+    <domain docMode="EmulateIE8">movistar.com.mx</domain>
+    <domain docMode="EmulateIE8">mthai.com</domain>
+    <domain docMode="EmulateIE8">nrsbank.dk</domain>
+    <domain docMode="EmulateIE8">patagonia.com</domain>
+    <domain docMode="EmulateIE8">playpark.net</domain>
+    <domain docMode="EmulateIE8">pnc.com</domain>
+    <domain docMode="EmulateIE8">portalbank.dk</domain>
+    <domain docMode="EmulateIE8">pudelek.pl</domain>
+    <domain docMode="EmulateIE8">rolandgarros.com</domain>
+    <domain docMode="EmulateIE8">sachsen-anhalt.de</domain>
+    <domain docMode="EmulateIE8">safeway.com</domain>
+    <domain docMode="EmulateIE8">sfgate.com</domain>
+    <domain docMode="EmulateIE8">sky.it</domain>
+    <domain docMode="EmulateIE8">societegenerale.com</domain>
+    <domain docMode="EmulateIE8">sparkasse-mol.de</domain>
+    <domain docMode="EmulateIE8">sports.ru</domain>
+    <domain docMode="EmulateIE8">starbucks.com.tw</domain>
+    <domain docMode="EmulateIE8">stsky.com</domain>
+    <domain docMode="EmulateIE8">temple.dinamalar.com</domain>
+    <domain docMode="EmulateIE8">terra.cl</domain>
+    <domain docMode="EmulateIE8">troublemanunlimited.com</domain>
+    <domain docMode="EmulateIE8">uscis.gov</domain>
+    <domain docMode="EmulateIE8">worldpay.com</domain>
+    <domain docMode="EmulateIE8">wsj.com</domain>
+    <domain docMode="EmulateIE8">xx007.cn</domain>
+    <domain docMode="EmulateIE8">yescard.co.kr</domain>
+    <domain docMode="EmulateIE8">yescard.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9" featureSwitch="requiresActiveX:true">citibank.co.kr</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">support.lenovo.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">0101.co.jp</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">10086.cn</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">360buy.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">abercrombie.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">akilli.tv</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">apartments.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">apitech.ru</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">baby.sina.com.cn</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">bankmassad.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">beanfun.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">bestiz.net</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">bigotires.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">bop.com.tw</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">bravotv.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">britishgas.co.uk</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">burlingtoncoatfactory.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">business.rbs.co.uk</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">businessinsider.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">canadiantire.ca</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">carbonmotors.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">care.dlservice.microsoft.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">carsales.com.au</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">cb.com.cn</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">cc.porsche.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">cityu.edu</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">clipboard.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">cnzz.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">copadomundo.ig.com.br</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">connectorride.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">currys.co.uk</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">dan.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">dennys.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">dostor.org</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">drjays.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">easytrip.ie</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">ehr.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">eldan.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">e-lotto.be</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">epaper.worldjournal.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">erc.enwisen.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">extravadance.nrj.fi</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">f2h.nana10.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">feedstitch.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">finance.khoj.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">fnx.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">glamourmagazine.co.uk</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">gortrip.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">gulliver.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">gumtree.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">gunpartscorp.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">hanwhalife.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">hollywood.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">hotfrog.de</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">hurriyetemlak.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">ibk.co.kr</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">ica.se</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">ilbank.gov.tr</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">israelpost.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">isrotel.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">ja.impressholdings.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">k12.fl.us</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">kele8.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">korcham.net</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">kuaiyankanshu.org</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">leaan.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">lev.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">login.globalsuite.net</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">lottecinema.co.kr</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">lotto.be</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">mail.naver.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">mako.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">mapview.naver.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">me2day.net</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">meb.gov.tr</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">melon.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">myxer.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">naspa.de</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">netlog.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">news.piao.com.cn</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">next.co.uk</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">optus.custhelp.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">panerabread.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">payments.kingcounty.gov</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">pg.dacom.net</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">polaris.com.tw</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">polarpersonaltrainer.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">polycom.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">portal.idc.ac.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">privalia.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">quizlet.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">realtor.ca</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">reservations.directwithhotels.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">rubiconproject.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">sahibinden.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">se.naver.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">seattle.gov</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">seret.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">simple.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">skis.com.tw</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">solarmovie.eu</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">sonyericsson-shop.de</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">spiceglobal.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">sportingnews.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">ssoportal.neohrex.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">starwoodhotels.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">state.pa.us</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">store.stevenspass.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">supershuttle.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">tam.com.br</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">tapuz.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">tbs.co.jp</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">tcbbank.com.tw</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">tdg.ch</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">telelistas.net</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">thenewsmarket.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">thueringen.de</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">toolon.co.kr</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">training.partner.microsoft.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">tube.bankoftaipei.com.tw</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">tvguide.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">ubi.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">vanguard.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">vh1.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">vimeo.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">visitkorea.or.kr</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">voyages.cdiscount.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">webstuff.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">wehkamp.nl</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">whatsapp.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">wiki.answers.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">wonga.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">wretch.cc</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">yesplanet.co.il</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">yihaodian.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">zc.91.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">zoll.de</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9">zone.msn.com</domain>
+    <domain docMode="EmulateIE9" versionVector="9" uaString="9L">mediafire.com</domain>
+    <domain docMode="EmulateIE9" uaString="IE9Win7">update.microsoft.com</domain>
+    <domain docMode="EmulateIE9">12999.com</domain>
+    <domain docMode="EmulateIE9">58xs.com</domain>
+    <domain docMode="EmulateIE9">6park.com</domain>
+    <domain docMode="EmulateIE9">abs.ch</domain>
+    <domain docMode="EmulateIE9">amazon.co.uk</domain>
+    <domain docMode="EmulateIE9">amazon.de</domain>
+    <domain docMode="EmulateIE9">applefile.com</domain>
+    <domain docMode="EmulateIE9">avisosdeocasion.com</domain>
+    <domain docMode="EmulateIE9">bbs.hongxiu.com</domain>
+    <domain docMode="EmulateIE9">bhel.com</domain>
+    <domain docMode="EmulateIE9">bol.com</domain>
+    <domain docMode="EmulateIE9">bsnl.co.in</domain>
+    <domain docMode="EmulateIE9">card.gz.gov.cn</domain>
+    <domain docMode="EmulateIE9">casadamusica.com</domain>
+    <domain docMode="EmulateIE9">ceair.com</domain>
+    <domain docMode="EmulateIE9">cei.gov.cn</domain>
+    <domain docMode="EmulateIE9">cfi.cn</domain>
+    <domain docMode="EmulateIE9">checkm8.com</domain>
+    <domain docMode="EmulateIE9">china-airlines.com</domain>
+    <domain docMode="EmulateIE9">cmengines.com</domain>
+    <domain docMode="EmulateIE9">community.compuserve.com</domain>
+    <domain docMode="EmulateIE9">condenaststore.com</domain>
+    <domain docMode="EmulateIE9">credit.kohls.com</domain>
+    <domain docMode="EmulateIE9">cyber.kepco.co.kr</domain>
+    <domain docMode="EmulateIE9">denabank.com</domain>
+    <domain docMode="EmulateIE9">dtiserv.com</domain>
+    <domain docMode="EmulateIE9">e-frontier.co.jp</domain>
+    <domain docMode="EmulateIE9">elo7.com.br</domain>
+    <domain docMode="EmulateIE9">eo.st</domain>
+    <domain docMode="EmulateIE9">eurokidsindia.com</domain>
+    <domain docMode="EmulateIE9">faloo.com</domain>
+    <domain docMode="EmulateIE9">farolatino.com</domain>
+    <domain docMode="EmulateIE9">fdisk.co.kr</domain>
+    <domain docMode="EmulateIE9">fileham.com</domain>
+    <domain docMode="EmulateIE9">foundertech.com</domain>
+    <domain docMode="EmulateIE9">freeware.co.il</domain>
+    <domain docMode="EmulateIE9">fubon-ebroker.com</domain>
+    <domain docMode="EmulateIE9">giro.kr</domain>
+    <domain docMode="EmulateIE9">giro.or.kr</domain>
+    <domain docMode="EmulateIE9">halfclub.shinsegae.com</domain>
+    <domain docMode="EmulateIE9">healthmedi.net</domain>
+    <domain docMode="EmulateIE9">hidisk.com</domain>
+    <domain docMode="EmulateIE9">hnrb.hinews.cn</domain>
+    <domain docMode="EmulateIE9">honda.com</domain>
+    <domain docMode="EmulateIE9">hosting.blueboard.cz</domain>
+    <domain docMode="EmulateIE9">hyundaicard.com</domain>
+    <domain docMode="EmulateIE9">indianpolice.net</domain>
+    <domain docMode="EmulateIE9">interpark.com</domain>
+    <domain docMode="EmulateIE9">intesasanpaolo.com</domain>
+    <domain docMode="EmulateIE9">jeevansathi.com</domain>
+    <domain docMode="EmulateIE9">jian.com</domain>
+    <domain docMode="EmulateIE9">jlchina.cn</domain>
+    <domain docMode="EmulateIE9">kuaiwan.com</domain>
+    <domain docMode="EmulateIE9">liberation.fr</domain>
+    <domain docMode="EmulateIE9">libro.co.kr</domain>
+    <domain docMode="EmulateIE9">lingoware.com</domain>
+    <domain docMode="EmulateIE9">mannheimer.de</domain>
+    <domain docMode="EmulateIE9">mawada.net</domain>
+    <domain docMode="EmulateIE9">mercurynews.com</domain>
+    <domain docMode="EmulateIE9">mlxchange.com</domain>
+    <domain docMode="EmulateIE9">msn.careerbuilder.ch</domain>
+    <domain docMode="EmulateIE9">mutualfundsindia.com</domain>
+    <domain docMode="EmulateIE9">myjobs.classifiedpost.com</domain>
+    <domain docMode="EmulateIE9">myl2.com</domain>
+    <domain docMode="EmulateIE9">myuhc.com</domain>
+    <domain docMode="EmulateIE9">ntvmsnbc.com</domain>
+    <domain docMode="EmulateIE9">nysegov.com</domain>
+    <domain docMode="EmulateIE9">optimum.net</domain>
+    <domain docMode="EmulateIE9">osmania.ac.in</domain>
+    <domain docMode="EmulateIE9">police.gujarat.gov.in</domain>
+    <domain docMode="EmulateIE9">rightmove.co.uk</domain>
+    <domain docMode="EmulateIE9">ruv.de</domain>
+    <domain docMode="EmulateIE9">rzd.ru</domain>
+    <domain docMode="EmulateIE9">safefamilies.net</domain>
+    <domain docMode="EmulateIE9">senac.br</domain>
+    <domain docMode="EmulateIE9">shenzhenair.com</domain>
+    <domain docMode="EmulateIE9">sonara.net</domain>
+    <domain docMode="EmulateIE9">synnex.com.tw</domain>
+    <domain docMode="EmulateIE9">taipower.com.tw</domain>
+    <domain docMode="EmulateIE9">thairath.co.th</domain>
+    <domain docMode="EmulateIE9">theroyalroomseattle.com</domain>
+    <domain docMode="EmulateIE9">tiffany.com</domain>
+    <domain docMode="EmulateIE9">turbocad.com</domain>
+    <domain docMode="EmulateIE9">upsc.gov.in</domain>
+    <domain docMode="EmulateIE9">vb-decompiler.org</domain>
+    <domain docMode="EmulateIE9">watchtv.com</domain>
+    <domain docMode="EmulateIE9">webs.com</domain>
+    <domain docMode="EmulateIE9">wsdot.wa.gov</domain>
+    <domain docMode="EmulateIE9">wvec.com</domain>
+    <domain docMode="EmulateIE9">xunlei.com</domain>
+    <domain docMode="EmulateIE9">yes24.com</domain>
+    <domain docMode="EmulateIE9">ynet.co.il</domain>
+    <domain docMode="EmulateIE9">zenmoney.com</domain>
+    <domain docMode="EmulateIE9">zumm.co.kr</domain>
+    <domain docMode="IE9">onaluf.org</domain>
+    <domain docMode="IE9">state.nj.us
+        <path>/GOV/OEG/NJPatentBank/Search.aspx</path>
+    </domain>
+    <domain featureSwitch="createElementWithMarkup:false">ec.europa.eu</domain>
+    <domain featureSwitch="createElementWithMarkup:false">irc.w3.org</domain>
+    <domain featureSwitch="createElementWithMarkup:false">isic.com.pl</domain>
+    <domain featureSwitch="createElementWithMarkup:false">plirt.ru</domain>
+    <domain uaString="8">press.nokia.com</domain>
+    <domain uaString="9">act.shop.xunlei.com</domain>
+    <domain uaString="9">acurafinancialservices.com</domain>
+    <domain uaString="9">maccabi-health.co.il</domain>
+    <domain uaString="9">mkm.haifanet.org.il</domain>
+    <domain uaString="9">my.clevelandclinic.org</domain>
+    <domain uaString="9">rewards.applegreen.ie</domain>
+    <domain uaString="9">syncmyride.com</domain>
+    <domain uaString="Chrome 19">codeacademy.com</domain>
+    <domain uaString="Chrome 19">ergodirekt.de</domain>
+    <domain uaString="Chrome 19">firsttechfed.com</domain>
+    <domain uaString="Chrome 19">ideamerge.com</domain>
+    <domain uaString="Chrome 19">indiapost.gov.in</domain>
+    <domain uaString="Chrome 19">laredoute.fr</domain>
+    <domain uaString="Chrome 19">video.nhl.com</domain>
+    <domain uaString="Firefox 5">cathaypacific.com</domain>
+    <domain uaString="Firefox Token">academicwork.se</domain>
+    <domain uaString="Firefox Token">allstate.com</domain>
+    <domain uaString="Firefox Token">asos.com</domain>
+    <domain uaString="Firefox Token">bmwusa.com</domain>
+    <domain uaString="Firefox Token">bush.edu</domain>
+    <domain uaString="Firefox Token">c1000.nl</domain>
+    <domain uaString="Firefox Token">cnnturk.com</domain>
+    <domain uaString="Firefox Token">comcast.net</domain>
+    <domain uaString="Firefox Token">delish.com</domain>
+    <domain uaString="Firefox Token">delta.com</domain>
+    <domain uaString="Firefox Token">dish.com</domain>
+    <domain uaString="Firefox Token">d-reizen.nl</domain>
+    <domain uaString="Firefox Token">dstv.com</domain>
+    <domain uaString="Firefox Token">dustin.se</domain>
+    <domain uaString="Firefox Token">gortrip.com</domain>
+    <domain uaString="Firefox Token">hjemmet.dk</domain>
+    <domain uaString="Firefox Token">homeserver.com</domain>
+    <domain uaString="Firefox Token">internet.mail.ru</domain>
+    <domain uaString="Firefox Token">king.com</domain>
+    <domain uaString="Firefox Token">kitco.com</domain>
+    <domain uaString="Firefox Token">krydsbox.dk</domain>
+    <domain uaString="Firefox Token">locator.standardbank.co.za</domain>
+    <domain uaString="Firefox Token">loterienationale.be</domain>
+    <domain uaString="Firefox Token">menovinkit.ts.fi</domain>
+    <domain uaString="Firefox Token">microsoft.com</domain>
+    <domain uaString="Firefox Token">my.unm.edu</domain>
+    <domain uaString="Firefox Token">one.lt</domain>
+    <domain uaString="Firefox Token">pcworld.co.uk</domain>
+    <domain uaString="Firefox Token">radio1.nl</domain>
+    <domain uaString="Firefox Token">rbsdigital.com</domain>
+    <domain uaString="Firefox Token">realtor.ca</domain>
+    <domain uaString="Firefox Token">roblox.com</domain>
+    <domain uaString="Firefox Token">seattle.gov</domain>
+    <domain uaString="Firefox Token">smad.jmu.edu</domain>
+    <domain uaString="Firefox Token">spilop.dk</domain>
+    <domain uaString="Firefox Token">store.sonyentertainmentnetwork.com</domain>
+    <domain uaString="Firefox Token">taylormadegolf.com</domain>
+    <domain uaString="Firefox Token">telive.net</domain>
+    <domain uaString="Firefox Token">thetrainline.com</domain>
+    <domain uaString="Firefox Token">ticket.se</domain>
+    <domain uaString="Firefox Token">wehkamp.nl</domain>
+    <domain uaString="Firefox Token">xinhuanet.com</domain>
+    <domain uaString="Firefox Token">yit.fi</domain>
+    <domain uaString="Firefox Token">verizon.com</domain>
+    <domain uaString="Firefox Token">zillow.com</domain>
+    <domain uaString="IE 10">alaskarailroad.com</domain>
+    <domain uaString="IE 10">blogs.windows.com</domain>
+    <domain uaString="IE 10">carbonite.com</domain>
+    <domain uaString="IE 10">cmiscm.com</domain>
+    <domain uaString="IE 10">concursolutions.com</domain>
+    <domain uaString="IE 10">connect.microsoft.com</domain>
+    <domain uaString="IE 10">einvoice.microsoft.com</domain>
+    <domain uaString="IE 10">fandango.com</domain>
+    <domain uaString="IE 10">ferdinand-motor.no</domain>
+    <domain uaString="IE 10">friendscout24.ch</domain>
+    <domain uaString="IE 10">globaltv.com</domain>
+    <domain uaString="IE 10">hawaiianairlines.com</domain>
+    <domain uaString="IE 10">iask.sina.com.cn</domain>
+    <domain uaString="IE 10">illvid.dk</domain>
+    <domain uaString="IE 10">kaiserpermanente.org</domain>
+    <domain uaString="IE 10">lottery.gov.cn</domain>
+    <domain uaString="IE 10">mlxchange.com</domain>
+    <domain uaString="IE 10">natwest.com</domain>
+    <domain uaString="IE 10">nike.com</domain>
+    <domain uaString="IE 10">pemco.com</domain>
+    <domain uaString="IE 10">perfora.net</domain>
+    <domain uaString="IE 10">play.spotify.com</domain>
+    <domain uaString="IE 10">pmu.fr</domain>
+    <domain uaString="IE 10">portal.microsoftonline.com</domain>
+    <domain uaString="IE 10">poweruprewards.com</domain>
+    <domain uaString="IE 10">qiandai.com</domain>
+    <domain uaString="IE 10">rc-hobbies.com</domain>
+    <domain uaString="IE 10">guide.renren.com</domain>
+    <domain uaString="IE 10">sapo.pt</domain>
+    <domain uaString="IE 10">shine.com</domain>
+    <domain uaString="IE 10">suumo.jp</domain>
+    <domain uaString="IE 10">transfermarkt.at</domain>
+    <domain uaString="IE 10">turbotax.com</domain>
+    <domain uaString="IE 10">tweetdeck.com</domain>
+    <domain uaString="IE 10">velaro.com</domain>
+    <domain uaString="IE 10">windowsblog.at</domain>
+    <domain uaString="IE 10">wonderfulsoft.org</domain>
+    <domain uaString="IE 10">wordpress.com</domain>
+    <domain uaString="IE 10">yellowpages.ae</domain>
+    <domain uaString="IE 10">yigao.com</domain>
+    <domain uaStringAlt="iPad">global.cyworld.com</domain>
+    <domain>118114.cn</domain>
+    <domain>211.103.182.73
+        <path docMode="EmulateIE9" versionVector="9" uaString="9">/BGPC_SEARCH</path>
+    </domain>
+    <domain>2212.net</domain>
+    <domain>234next.com</domain>
+    <domain>24h.com.vn</domain>
+    <domain>2ip.ru
+        <path docMode="EmulateIE8">/isp-reviews</path>
+    </domain>
+    <domain>51766.com
+        <path>/subject/help2008</path>
+    </domain>
+    <domain>51job.com</domain>
+    <domain>750g.com</domain>
+    <domain>91kk.com</domain>
+    <domain>95559.com.cn</domain>
+    <domain>99166.com</domain>
+    <domain>aastocks.com</domain>
+    <domain>ab1.tv</domain>
+    <domain>abchina.com</domain>
+    <domain>abcnews.go.com
+        <path>/video</path>
+        <path>/wn</path>
+    </domain>
+    <domain>abisource.com</domain>
+    <domain>about.zappos.com</domain>
+    <domain>aeroplan.com</domain>
+    <domain>aika.hanbiton.com</domain>
+    <domain>aiting.com</domain>
+    <domain>allianzbanque.fr</domain>
+    <domain>americanexpress.com</domain>
+    <domain>answerbag.com</domain>
+    <domain>answers.com</domain>
+    <domain>apinpai.com</domain>
+    <domain>asb.co.nz</domain>
+    <domain>asus.com</domain>
+    <domain>automotive.com</domain>
+    <domain>autotrader.com</domain>
+    <domain>axisbank.co.in</domain>
+    <domain>babynamesworld.parentsconnect.com</domain>
+    <domain>babytree.com</domain>
+    <domain>baidu.com</domain>
+    <domain>bamf.de</domain>
+    <domain>bancobpi.pt</domain>
+    <domain>banesto.es</domain>
+    <domain>banif.pt</domain>
+    <domain>bankcomm.com</domain>
+    <domain>bankmillennium.pl</domain>
+    <domain>banksinopac.com.tw</domain>
+    <domain>bbs.moneta.co.kr</domain>
+    <domain>benq.com.cn</domain>
+    <domain>bes.pt</domain>
+    <domain>betv.be
+        <path>/v2/fr/home</path>
+    </domain>
+    <domain>bjjtgl.gov.cn</domain>
+    <domain>blancheporte.fr</domain>
+    <domain>blogad.com.tw</domain>
+    <domain>bluedart.com</domain>
+    <domain>bm.scs.gov.cn</domain>
+    <domain>bmi.ir</domain>
+    <domain>bnpparibas.be</domain>
+    <domain>bnpparibas.net</domain>
+    <domain>boc.cn</domain>
+    <domain>boi-bol.com</domain>
+    <domain>boostmobile.com</domain>
+    <domain>bresnansupport.custhelp.com</domain>
+    <domain>bubblestat.com</domain>
+    <domain>bundesbank.de</domain>
+    <domain>buscacep.correios.com.br</domain>
+    <domain>cabal.co.kr</domain>
+    <domain>ca-egypt.com</domain>
+    <domain>calsacenter.com</domain>
+    <domain>caprendizaje.sena.edu.co</domain>
+    <domain>caracoltv.com</domain>
+    <domain>carview.co.jp</domain>
+    <domain>cebbank.com</domain>
+    <domain>cert.vno.co.kr
+        <path>/common</path>
+    </domain>
+    <domain>cgportal.global.standardchartered.com</domain>
+    <domain>chron.com</domain>
+    <domain>cine.ados.fr</domain>
+    <domain>cinesunidos.com</domain>
+    <domain>citibank.co.uk</domain>
+    <domain>citizensbank.com</domain>
+    <domain>classesinternational.com</domain>
+    <domain>cmbc.com.cn</domain>
+    <domain>cnbc.com</domain>
+    <domain>cngold.org</domain>
+    <domain>commercialtrucktrader.com</domain>
+    <domain>comtradcables.com</domain>
+    <domain>correios.com.br</domain>
+    <domain>cox.com</domain>
+    <domain>cri.cn</domain>
+    <domain>cs.unipune.ernet.in</domain>
+    <domain>cyworld.com</domain>
+    <domain>dardarkom.com</domain>
+    <domain>dbv.de</domain>
+    <domain>dcinside.com</domain>
+    <domain>deccanchronicle.com</domain>
+    <domain>dipan.com</domain>
+    <domain>dreamcam.com.br</domain>
+    <domain>drmlicense.one.microsoft.com</domain>
+    <domain>duowan.com</domain>
+    <domain>eastmoney.com</domain>
+    <domain>ebank.hwataibank.com.tw</domain>
+    <domain>ebay.auction.co.kr</domain>
+    <domain>ebs.co.kr</domain>
+    <domain>ebslang.co.kr</domain>
+    <domain>ecampus.phoenix.edu</domain>
+    <domain>economy.okezone.com</domain>
+    <domain>eflow.ie</domain>
+    <domain>eksisozluk.com</domain>
+    <domain>emploi.lepost.fr</domain>
+    <domain>enuri.com</domain>
+    <domain>equipmenttraderonline.com</domain>
+    <domain>ergodirekt.de</domain>
+    <domain>esf.fangqq.com</domain>
+    <domain>eshop.ccb.com</domain>
+    <domain>etkinlik.tr.msn.com</domain>
+    <domain>extranet.sfqc.co.uk</domain>
+    <domain>fibi.co.il</domain>
+    <domain>film.com</domain>
+    <domain>finanzcenter.sparkasse-bremen.de</domain>
+    <domain>flightnetwork.com</domain>
+    <domain>focusnet.co.il</domain>
+    <domain>freenet.de</domain>
+    <domain>friends.tok2.com</domain>
+    <domain>fudbalstat.net</domain>
+    <domain>fx120.net</domain>
+    <domain>g9g.com</domain>
+    <domain>gadu-gadu.pl</domain>
+    <domain>game.com.cn</domain>
+    <domain>gamebase.com.tw</domain>
+    <domain>gamehouse.com</domain>
+    <domain>glamour.com</domain>
+    <domain>go4mumbai.com</domain>
+    <domain>goo.ne.jp</domain>
+    <domain>gougou.com</domain>
+    <domain>greatwall.cn</domain>
+    <domain>gtm.com</domain>
+    <domain>gtsctmsuat.cloudapp.net</domain>
+    <domain>hadran.co.il</domain>
+    <domain>haier.net</domain>
+    <domain>halfclub.com</domain>
+    <domain>haoting.com</domain>
+    <domain>hebnews.cn</domain>
+    <domain>hexun.com</domain>
+    <domain>hi.woniu.com</domain>
+    <domain>hidemyass.com</domain>
+    <domain>hindustanpetroleum.com</domain>
+    <domain>hnair.com</domain>
+    <domain>hotel.mapbar.com</domain>
+    <domain>hp.com</domain>
+    <domain>hrsaccount.com</domain>
+    <domain>ibc168.com</domain>
+    <domain>ibm.com</domain>
+    <domain>icicibank.co.in</domain>
+    <domain>icicibank.com</domain>
+    <domain>ico.ooopic.com</domain>
+    <domain>iddaa.com.tr</domain>
+    <domain>india-forums.com</domain>
+    <domain>indusind.com</domain>
+    <domain>intel.com
+        <path docMode="EmulateIE10" versionVector="10" uaString="IE 10">/p</path>
+    </domain>
+    <domain>intel.sg</domain>
+    <domain>intelsalestraining.com
+        <path>/xeonestimator</path>
+    </domain>
+    <domain>interaktiv.phoenix.de
+        <path>/livestream</path>
+    </domain>
+    <domain>investments.citi.com</domain>
+    <domain>issaquah.wednet.edu</domain>
+    <domain>itsec.gov.cn</domain>
+    <domain>jalaramonline.org</domain>
+    <domain>jerusalem.muni.il</domain>
+    <domain>jma.go.jp</domain>
+    <domain>jobs.bizoo.ro</domain>
+    <domain>joyfile.co.kr</domain>
+    <domain>jp.reuters.com</domain>
+    <domain>juiceadv.com</domain>
+    <domain>k366.com</domain>
+    <domain>kan-naim.co.il</domain>
+    <domain>kavim-t.co.il</domain>
+    <domain>kepco.co.kr</domain>
+    <domain>key.com</domain>
+    <domain>kickasstorrents.com</domain>
+    <domain>kin.naver.com</domain>
+    <domain>kreissparkasse-heinsberg.de</domain>
+    <domain>kugou.com</domain>
+    <domain>kuwo.cn</domain>
+    <domain>kvb.bund.de</domain>
+    <domain>lachainemeteo.com</domain>
+    <domain>learning.microsoft.com</domain>
+    <domain>lequipe.fr</domain>
+    <domain>lingd.net</domain>
+    <domain>locator.standardbank.co.za</domain>
+    <domain>looksmart.com</domain>
+    <domain>macrumors.com</domain>
+    <domain>mail.comcast.net</domain>
+    <domain>maplestory.nexon.com</domain>
+    <domain>mappy.com</domain>
+    <domain>millenniumbcp.pt</domain>
+    <domain>mivzakon.co.il</domain>
+    <domain>mlive.com</domain>
+    <domain>mofile.com</domain>
+    <domain>mondo.rs</domain>
+    <domain>monternet.com</domain>
+    <domain>motorola.com</domain>
+    <domain>mp3music.co.il</domain>
+    <domain>msofbi.travelport.com</domain>
+    <domain>mspoll.valterasurveys.com</domain>
+    <domain>multiply.com</domain>
+    <domain>myswitzerland.com</domain>
+    <domain>nat.gov.tw</domain>
+    <domain>natega.moe.gov.eg</domain>
+    <domain>nationalskillsregistry.com</domain>
+    <domain>naukri.com</domain>
+    <domain>nav.com.cn</domain>
+    <domain>newlook.com</domain>
+    <domain>nmec.org.cn</domain>
+    <domain>nrk.no</domain>
+    <domain>nwmls.com</domain>
+    <domain>ohmynews.com</domain>
+    <domain>orange.pl</domain>
+    <domain>paginasamarillas.com.pe</domain>
+    <domain>partytentcity.com</domain>
+    <domain>pay.neowiz.com</domain>
+    <domain>phoenix.edu</domain>
+    <domain>pic.xdf.cn</domain>
+    <domain>pipi.cn</domain>
+    <domain>play.com</domain>
+    <domain>plaza.fi</domain>
+    <domain>pm2012.printmaster.com</domain>
+    <domain>poliisi.fi</domain>
+    <domain>polla.cl</domain>
+    <domain>portal.infonavit.org.mx</domain>
+    <domain>portalbank.no</domain>
+    <domain>post.gov.tw</domain>
+    <domain>priberam.pt</domain>
+    <domain>pro.01net.com
+        <path>/rub/01net-entreprises/10234/01net-entreprises/videos</path>
+    </domain>
+    <domain>qcv.vom</domain>
+    <domain>qianbao.chinabank.com.cn</domain>
+    <domain>railtime.be</domain>
+    <domain>razor.tv</domain>
+    <domain>rbi.org.in</domain>
+    <domain>realmadrid.com</domain>
+    <domain>relianceglobalcall.com</domain>
+    <domain>rentalcgi.com</domain>
+    <domain>reportingitc.apple.com</domain>
+    <domain>rfgrid.gridcdn.com</domain>
+    <domain>rtvslo.si</domain>
+    <domain>sabb.com</domain>
+    <domain>sakshi.com</domain>
+    <domain>santander.co.uk</domain>
+    <domain>scottrade.com</domain>
+    <domain>services.inquirer.net</domain>
+    <domain>servicetick.com</domain>
+    <domain>servicios.prodigy.msn.com
+        <path>/ninos</path>
+    </domain>
+    <domain>sgk.gov.tr</domain>
+    <domain>sheknows.com</domain>
+    <domain>shopathome.com</domain>
+    <domain>shopperreports.com</domain>
+    <domain>shopping.hp.com</domain>
+    <domain>showroom.ford.com</domain>
+    <domain>siberalem.com</domain>
+    <domain>simfile.uplusbox.co.kr</domain>
+    <domain>sina.com</domain>
+    <domain>skandia-life.co.uk</domain>
+    <domain>skbank.com.tw</domain>
+    <domain>slate.com</domain>
+    <domain>southcn.com</domain>
+    <domain>sparkasse-bottrop.de</domain>
+    <domain>speedbank.co.kr</domain>
+    <domain>spesoft.ourtoolbar.com</domain>
+    <domain>sport-express.ru</domain>
+    <domain>sports.sina.com.cn</domain>
+    <domain>st701.com</domain>
+    <domain>staging.sfqc.co.uk</domain>
+    <domain>station.ru</domain>
+    <domain>stmartinusvvag.de</domain>
+    <domain>superdown.co.kr</domain>
+    <domain>superhry.cz</domain>
+    <domain>symantec.com</domain>
+    <domain>szxx.beijing.gov.cn</domain>
+    <domain>te3p.com</domain>
+    <domain>teennick.com</domain>
+    <domain>thefind.com</domain>
+    <domain>thinkvitamin.com
+        <path>/podcast</path>
+    </domain>
+    <domain>totaljobs.com</domain>
+    <domain>toyota.com</domain>
+    <domain>tradingpost.com.au</domain>
+    <domain>traffic.com</domain>
+    <domain>travelocity.com</domain>
+    <domain>txtbook.com.cn</domain>
+    <domain>u9u8.com</domain>
+    <domain>uaeec.com</domain>
+    <domain>uludagsozluk.com</domain>
+    <domain>urssaf.fr</domain>
+    <domain>us.hsbc.com</domain>
+    <domain>v.163.com
+        <path>/column</path>
+        <path>/video</path>
+    </domain>
+    <domain>vb-mittelhessen.de</domain>
+    <domain>video.jsoftj.com</domain>
+    <domain>video-homevision.de
+        <path>/video</path>
+    </domain>
+    <domain>videos.leparisien.fr</domain>
+    <domain>vodafone.co.uk</domain>
+    <domain>vodafone.com.eg</domain>
+    <domain>volksfuersorge.de</domain>
+    <domain>volkskrant.nl
+        <path>/vk/nl/2704</path>
+        <path>/vk/nl/2712</path>
+        <path>/vk/nl/2716</path>
+        <path>/vk/nl/2726</path>
+        <path>/vk/nl/2728</path>
+        <path>/vk/nl/2730</path>
+        <path>/vk/nl/3304</path>
+    </domain>
+    <domain>voyager.jpl.nasa.gov</domain>
+    <domain>vp.co.kr
+        <path>/popup</path>
+    </domain>
+    <domain>w3.org
+        <path uaString="IE 10">/Bugs</path>
+    </domain>
+    <domain>walmart.ca</domain>
+    <domain>weather.fox.com</domain>
+    <domain>webmail.colombia.com</domain>
+    <domain>webmailhelp.peoplepc.com</domain>
+    <domain>weightwatchers.com</domain>
+    <domain>wk.39.net</domain>
+    <domain>woopie.jp</domain>
+    <domain>www212.americanexpress.com</domain>
+    <domain>xiangshu.com</domain>
+    <domain>xso.nate.com</domain>
+    <domain>xxsy.net</domain>
+    <domain>yes.com</domain>
+    <domain>yescardacs.keb.co.kr</domain>
+    <domain>ymap.ynet.co.il</domain>
+    <domain>ynet.com</domain>
+    <domain>yuanta.com.tw</domain>
+    <domain>zfxxgk.beijing.gov.cn</domain>
+    <gpu vendorId="0x1002" deviceId="0x3150" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3151" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3152" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3154" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3155" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3171" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3175" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3E50" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3E54" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3E70" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x3E74" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4144" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4146" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4147" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4148" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4149" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4150" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4151" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4152" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4153" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4154" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4155" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4164" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4166" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4167" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4168" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4169" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4170" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4171" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4172" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4173" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4174" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4175" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A48" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A49" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A4A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A4B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A4C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A4D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A4E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A4F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A50" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A54" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A68" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A69" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A6A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A6B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A6C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A6D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A6F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A70" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4A74" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B48" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B49" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B4A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B4B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B4C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B68" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B69" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B6A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B6B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4B6C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E44" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E45" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E46" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E47" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E48" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E49" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E4A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E4B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E50" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E51" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E52" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E54" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E56" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E64" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E65" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E66" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E67" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E68" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E69" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E6A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E6B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x4E71" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5460" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5461" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5462" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5464" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5548" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5549" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x554A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x554B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x554C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x554D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x554E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x554F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5550" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5551" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5568" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5569" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x556A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x556B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x556C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x556D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x556E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x556F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5570" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5571" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x564A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x564B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x564F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5652" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5653" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5657" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5673" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5677" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5854" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5874" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5954" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5955" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5974" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5975" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5A41" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5A42" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5A43" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5A61" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5A62" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5A63" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B60" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B61" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B62" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B63" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B64" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B65" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B66" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B70" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B71" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B72" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B73" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B74" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B75" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5B76" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D48" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D49" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D4A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D4C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D4D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D4F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D50" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D52" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D57" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D6C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D6D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D6F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D70" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D72" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5D77" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E48" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E4A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E4B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E4C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E4D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E4F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E68" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E6A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E6B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E6C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E6D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x5E6F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7100" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7101" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7102" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7103" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7104" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7105" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7106" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7108" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7109" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x710A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x710B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x710C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x710E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x710F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7120" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7124" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7125" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7128" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7129" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x712A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x712B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x712C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x712E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x712F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7140" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7141" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7142" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7143" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7145" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7146" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7147" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7149" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x714A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x714B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x714C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x714D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x714E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x714F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7151" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7152" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7153" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x715E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x715F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7160" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7161" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7162" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7163" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7166" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7167" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x716D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x716E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x716F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7171" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7172" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7173" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x717E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x717F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7180" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7181" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7183" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7186" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7187" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7188" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x718A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x718B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x718C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x718D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x718F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7193" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7196" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x719B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x719F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71A0" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71A1" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71A3" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71A7" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71AF" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71B3" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71BB" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71C0" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71C1" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71C2" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71C3" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71C4" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71C5" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71C6" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71C7" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71CD" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71CE" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71D2" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71D4" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71D5" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71D6" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71DA" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71DE" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71E0" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71E1" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71E2" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71E3" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71E6" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71E7" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71ED" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71EE" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71F2" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x71FA" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7210" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7211" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7240" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7243" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7244" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7245" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7246" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7247" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7248" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7249" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x724A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x724B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x724C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x724D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x724E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x724F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7260" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7263" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7264" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7265" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7266" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7267" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7268" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7269" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x726A" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x726B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x726C" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x726D" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x726E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x726F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7280" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7284" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7288" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7289" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x728B" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7290" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7291" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7293" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7297" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x72A0" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x72A8" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x72A9" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x72AB" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x72B0" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x72B1" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x72B3" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x72B7" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x791E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x791F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x793F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7941" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x7942" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x796E" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x796F" startMatchInclusive="0.0.0.0" endMatchExclusive="8.593.101.0000" />
+    <gpu vendorId="0x1002" deviceId="0x9480" startMatchInclusive="8.14.10.697" endMatchExclusive="8.14.10.698" />
+    <gpu vendorId="0x1002" deviceId="0x94C1" startMatchInclusive="8.17.0010.1041" endMatchExclusive="8.17.0010.1042" />
+    <gpu vendorId="0x1002" deviceId="0x9540" startMatchInclusive="8.14.10.685" endMatchExclusive="8.14.10.686" />
+    <gpu vendorId="0x1002" deviceId="0x9552" startMatchInclusive="7.14.1.6063" endMatchExclusive="7.14.1.6064" />
+    <gpu vendorId="0x1002" deviceId="0x9552" startMatchInclusive="8.14.10.685" endMatchExclusive="8.14.10.686" />
+    <gpu vendorId="0x1002" deviceId="0x9591" startMatchInclusive="7.14.1.6063" endMatchExclusive="7.14.1.6064" />
+    <gpu vendorId="0x1002" deviceId="0x9591" startMatchInclusive="8.14.0010.685" endMatchExclusive="8.14.0010.686" />
+    <gpu vendorId="0x1002" deviceId="0x9591" startMatchInclusive="8.14.1.6126" endMatchExclusive="8.14.1.6127" />
+    <gpu vendorId="0x1002" deviceId="0x95C4" startMatchInclusive="7.14.1.6063" endMatchExclusive="7.14.1.6064" />
+    <gpu vendorId="0x1002" deviceId="0x95C4" startMatchInclusive="8.14.10.685" endMatchExclusive="8.14.10.686" />
+    <gpu vendorId="0x1002" deviceId="0x9616" startMatchInclusive="8.14.10.685" endMatchExclusive="8.14.10.686" />
+    <gpu vendorId="0x1002" deviceId="0x9710" startMatchInclusive="8.14.10.685" endMatchExclusive="8.14.10.686" />
+    <gpu vendorId="0x1002" deviceId="0x9712" startMatchInclusive="8.14.10.678" endMatchExclusive="8.14.10.679" />
+    <gpu vendorId="0x102B" deviceId="0x0540" startMatchInclusive="0.0.0.0" endMatchExclusive="8.15.2.0" />
+    <gpu vendorId="0x1039" deviceId="0x6351" startMatchInclusive="7.14.10.0" endMatchExclusive="7.14.10.9999" />
+    <gpu vendorId="0x1039" deviceId="0x6351" startMatchInclusive="8.14.10.5000" endMatchExclusive="8.14.10.6000" />
+    <gpu vendorId="0x10DE" deviceId="0x00CC" />
+    <gpu vendorId="0x10DE" deviceId="0x00FA" />
+    <gpu vendorId="0x10DE" deviceId="0x00FB" />
+    <gpu vendorId="0x10DE" deviceId="0x00FC" />
+    <gpu vendorId="0x10DE" deviceId="0x00FD" />
+    <gpu vendorId="0x10DE" deviceId="0x00FE" />
+    <gpu vendorId="0x10DE" deviceId="0x018A" />
+    <gpu vendorId="0x10DE" deviceId="0x0193" startMatchInclusive="8.15.0011.9038" endMatchExclusive="8.15.0011.9039" />
+    <gpu vendorId="0x10DE" deviceId="0x01D6" startMatchInclusive="7.15.10.9815" endMatchExclusive="7.15.10.9816" />
+    <gpu vendorId="0x10DE" deviceId="0x01D7" startMatchInclusive="7.15.10.9755" endMatchExclusive="7.15.10.9756" />
+    <gpu vendorId="0x10DE" deviceId="0x01D7" startMatchInclusive="7.15.10.9759" endMatchExclusive="7.15.10.9760" />
+    <gpu vendorId="0x10DE" deviceId="0x01D7" startMatchInclusive="7.15.10.9815" endMatchExclusive="7.15.10.9816" />
+    <gpu vendorId="0x10DE" deviceId="0x01D8" startMatchInclusive="7.15.0011.7967" endMatchExclusive="7.15.0011.7968" />
+    <gpu vendorId="0x10DE" deviceId="0x01D8" startMatchInclusive="7.15.10.9755" endMatchExclusive="7.15.10.9756" />
+    <gpu vendorId="0x10DE" deviceId="0x0241" startMatchInclusive="7.15.10.9746" endMatchExclusive="7.15.10.9747" />
+    <gpu vendorId="0x10DE" deviceId="0x0244" startMatchInclusive="7.15.10.9815" endMatchExclusive="7.15.10.9816" />
+    <gpu vendorId="0x10DE" deviceId="0x0247" startMatchInclusive="7.15.10.9815" endMatchExclusive="7.15.10.9816" />
+    <gpu vendorId="0x10DE" deviceId="0x0247" startMatchInclusive="7.15.11.5616" endMatchExclusive="7.15.11.5617" />
+    <gpu vendorId="0x10DE" deviceId="0x02e4" startMatchInclusive="8.17.12.5896" endMatchExclusive="8.17.12.5897" />
+    <gpu vendorId="0x10DE" deviceId="0x0301" />
+    <gpu vendorId="0x10DE" deviceId="0x0302" />
+    <gpu vendorId="0x10DE" deviceId="0x0308" />
+    <gpu vendorId="0x10DE" deviceId="0x0309" />
+    <gpu vendorId="0x10DE" deviceId="0x0311" />
+    <gpu vendorId="0x10DE" deviceId="0x0312" />
+    <gpu vendorId="0x10DE" deviceId="0x0314" />
+    <gpu vendorId="0x10DE" deviceId="0x031C" />
+    <gpu vendorId="0x10DE" deviceId="0x0320" />
+    <gpu vendorId="0x10DE" deviceId="0x0321" />
+    <gpu vendorId="0x10DE" deviceId="0x0322" />
+    <gpu vendorId="0x10DE" deviceId="0x0323" />
+    <gpu vendorId="0x10DE" deviceId="0x0326" />
+    <gpu vendorId="0x10DE" deviceId="0x0327" />
+    <gpu vendorId="0x10DE" deviceId="0x032A" />
+    <gpu vendorId="0x10DE" deviceId="0x032B" />
+    <gpu vendorId="0x10DE" deviceId="0x0330" />
+    <gpu vendorId="0x10DE" deviceId="0x0331" />
+    <gpu vendorId="0x10DE" deviceId="0x0332" />
+    <gpu vendorId="0x10DE" deviceId="0x0333" />
+    <gpu vendorId="0x10DE" deviceId="0x0334" />
+    <gpu vendorId="0x10DE" deviceId="0x0338" />
+    <gpu vendorId="0x10DE" deviceId="0x033F" />
+    <gpu vendorId="0x10DE" deviceId="0x0341" />
+    <gpu vendorId="0x10DE" deviceId="0x0342" />
+    <gpu vendorId="0x10DE" deviceId="0x0343" />
+    <gpu vendorId="0x10DE" deviceId="0x0344" />
+    <gpu vendorId="0x10DE" deviceId="0x034C" />
+    <gpu vendorId="0x10DE" deviceId="0x034E" />
+    <gpu vendorId="0x10DE" deviceId="0x0392" startMatchInclusive="7.15.10.9746" endMatchExclusive="7.15.10.9747" />
+    <gpu vendorId="0x10DE" deviceId="0x0392" startMatchInclusive="8.15.11.8593" endMatchExclusive="8.15.11.8594" />
+    <gpu vendorId="0x10DE" deviceId="0x0392" startMatchInclusive="8.17.12.5896" endMatchExclusive="8.17.12.5897" />
+    <gpu vendorId="0x10DE" deviceId="0x03D0" startMatchInclusive="8.17.11.9666" endMatchExclusive="8.17.11.9667" />
+    <gpu vendorId="0x10DE" deviceId="0x03D0" startMatchInclusive="8.17.11.9739" endMatchExclusive="8.17.11.9740" />
+    <gpu vendorId="0x10DE" deviceId="0x0402" startMatchInclusive="7.15.11.6371" endMatchExclusive="7.15.11.6372" />
+    <gpu vendorId="0x10DE" deviceId="0x0407" startMatchInclusive="7.15.11.5664" endMatchExclusive="7.15.11.5665" />
+    <gpu vendorId="0x10DE" deviceId="0x0423" startMatchInclusive="7.15.0011.6371" endMatchExclusive="7.15.0011.6372" />
+    <gpu vendorId="0x10DE" deviceId="0x0427" startMatchInclusive="7.15.0011.0143" endMatchExclusive="7.15.0011.0144" />
+    <gpu vendorId="0x10DE" deviceId="0x0427" startMatchInclusive="7.15.11.7597" endMatchExclusive="7.15.11.7598" />
+    <gpu vendorId="0x10DE" deviceId="0x06E0" startMatchInclusive="7.15.11.7578" endMatchExclusive="7.15.11.7579" />
+    <gpu vendorId="0x10DE" deviceId="0x06E8" startMatchInclusive="7.15.0011.7939" endMatchExclusive="7.15.0011.7940" />
+    <gpu vendorId="0x10DE" deviceId="0x06E8" startMatchInclusive="7.15.11.7624" endMatchExclusive="7.15.11.7625" />
+    <gpu vendorId="0x10DE" deviceId="0x06E8" startMatchInclusive="8.16.0011.8766" endMatchExclusive="8.16.0011.8767" />
+    <gpu vendorId="0x10DE" deviceId="0x06EB" startMatchInclusive="8.15.0011.8621" endMatchExclusive="8.15.0011.8622" />
+    <gpu vendorId="0x10DE" deviceId="0x06FD" startMatchInclusive="8.16.11.9107" endMatchExclusive="8.16.11.9108" />
+    <gpu vendorId="0x10DE" deviceId="0x07e3" startMatchInclusive="8.17.12.5896" endMatchExclusive="8.17.12.5897" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" startMatchInclusive="8.17.12.6658" endMatchExclusive="8.17.12.6659" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0x036C1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0x041E1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0x04341025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0x04501025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0x10D217C0" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0x10D917C0" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0x396C17AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0x41011558" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0x71101558" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0xC078144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0xC094144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A29" subSysId="0xFD311179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A2B" subSysId="0x005214C0" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A2B" subSysId="0xFD801179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A2D" subSysId="0x209B1B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A35" subSysId="0x10631462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A35" subSysId="0x106D1462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A35" subSysId="0x10751462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A35" subSysId="0x12521043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A35" subSysId="0x12721043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A35" subSysId="0x14F21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A3C" startMatchInclusive="8.16.11.8955" endMatchExclusive="8.16.11.8956" />
+    <gpu vendorId="0x10DE" deviceId="0x0A6C" subSysId="0x21CC17AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A6C" subSysId="0x21D517AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A6C" subSysId="0x21D817AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A6E" subSysId="0x0D58105B" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A6F" subSysId="0x846F1043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A6F" subSysId="0x9001159E" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" startMatchInclusive="8.17.12.5957" endMatchExclusive="8.17.12.5958" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x005214C0" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x00EC1B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x041E1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x047D1028" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x10631462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x10681462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x106D1462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x10701462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x12D21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x13521043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x13621043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x13721043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x14321043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x14C21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x15421043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x15B310CF" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x20651B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x20901B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x396617AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0x396817AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0xC078144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0xC088144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0xC08B144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0xC094144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0xC557144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0xFD311179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0xFD801179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A70" subSysId="0xFF201179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x041C1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x041E1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x04341025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x04501025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x0D58105B" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x10D217C0" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x13321043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x20011BFD" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x20511B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0x41011558" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0xC078144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0xFD311179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A72" subSysId="0xFD801179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A73" subSysId="0x0D58105B" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A73" subSysId="0x0D5E105B" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A73" subSysId="0x205C1B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A74" subSysId="0x12A21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" startMatchInclusive="8.16.11.8787" endMatchExclusive="8.16.11.8788" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0x00EC1B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0x0810152D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0x0822152D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0x0D58105B" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0x395517AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0x396717AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0x40001071" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0x595817AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0xB3011071" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0xC078144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A75" subSysId="0xFD801179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A76" subSysId="0x84461043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A7A" subSysId="0x20911B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A7A" subSysId="0x397D17AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0A7A" subSysId="0xC0A2144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAC" startMatchInclusive="8.17.12.6099" endMatchExclusive="8.17.12.6070" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x04651028" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x08041854" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x0813152D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x12821043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x12B21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x13D21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x14221043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x14621043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x14821043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x14B21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CAF" subSysId="0x15021043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CBC" subSysId="0x14A31028" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0CBC" subSysId="0x14A41028" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DD2" subSysId="0x0854152D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DD3" subSysId="0x046C1028" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DDA" subSysId="0x21D117AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEC" subSysId="0xC0A0144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEC" subSysId="0xC0A5144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEC" subSysId="0xC0AE144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEC" subSysId="0xFC811179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEC" subSysId="0xFD311179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEE" subSysId="0x03711025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEE" subSysId="0x03751025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEE" subSysId="0x037D1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEE" subSysId="0x04231025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEE" subSysId="0x15521043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEE" subSysId="0x15621043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEE" subSysId="0x15821043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DEE" subSysId="0x15A21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x0853152D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x0855152D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x10751462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x10821462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x10E217C0" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x14821043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x15021043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x15121043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x15321043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x15521043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x15821043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x207C1B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x396C17AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x51301558" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF0" subSysId="0x71301558" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" startMatchInclusive="8.17.12.5939" endMatchExclusive="8.17.12.5940" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" startMatchInclusive="8.17.12.5951" endMatchExclusive="8.17.12.5952" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x036C1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x03711025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x03751025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x037D1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x041E1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x04231025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x04341025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x04681028" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x046E1028" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x04881025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x04991025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x049A1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x20031BFD" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF1" subSysId="0x207A1B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF2" subSysId="0x15B21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF3" subSysId="0xC08B144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x03711025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x037D1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x041E1025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x04341025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x04881025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x05011025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x05031025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x05051025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x05071025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x05091025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x05121025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x108D1462" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x10E217C0" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x15E21043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x16421043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0x398117AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0xC0A5144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF4" subSysId="0xFC311179" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF5" subSysId="0x00E61B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF5" subSysId="0x04461028" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF5" subSysId="0x04CA1028" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF5" subSysId="0x209C1B0A" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF5" subSysId="0x397D17AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF5" subSysId="0x397F17AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF5" subSysId="0xC0AE144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF6" subSysId="0x17121043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF7" subSysId="0x397D17AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DF7" subSysId="0x397F17AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x0DFA" subSysId="0x21D117AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x1050" subSysId="0x05011025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x1050" subSysId="0x05031025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x1050" subSysId="0x05071025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x1050" subSysId="0x05091025" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x1050" subSysId="0x17221043" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x1050" subSysId="0x397D17AA" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x10DE" deviceId="0x1050" subSysId="0xC0A0144D" startMatchInclusive="8.16.11.9024" endMatchExclusive="8.17.12.6776" />
+    <gpu vendorId="0x1106" deviceId="0x1122" startMatchInclusive="8.14.0014.0017" endMatchExclusive="8.14.0014.0022" />
+    <gpu vendorId="0x1106" deviceId="0x3371" startMatchInclusive="7.14.0014.0080" endMatchExclusive="7.14.0014.0081" />
+    <gpu vendorId="0x15AD" deviceId="0x0405" startMatchInclusive="7.14.0001.0042" endMatchExclusive="7.14.0001.0043" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.15.0010.1986" endMatchExclusive="8.15.0010.1995" umdFilename="igd10umd32.dll" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.15.0010.1986" endMatchExclusive="8.15.0010.1995" umdFilename="igd10umd64.dll" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.15.0010.2104" endMatchExclusive="8.15.0010.2142" umdFilename="igd10umd32.dll" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.15.0010.2104" endMatchExclusive="8.15.0010.2142" umdFilename="igd10umd64.dll" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.17.11.9621" endMatchExclusive="8.17.11.9622" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.17.12.5721" endMatchExclusive="8.17.12.6673" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.17.12.5912" endMatchExclusive="8.17.12.5913" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.17.12.5939" endMatchExclusive="8.17.12.5940" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.17.12.5970" endMatchExclusive="8.17.12.5971" />
+    <gpu vendorId="0x8086" deviceId="0x0046" startMatchInclusive="8.17.12.6658" endMatchExclusive="8.17.12.6659" />
+    <gpu vendorId="0x8086" deviceId="0x0046" subSysId="0x1436103c" startMatchInclusive="8.14.1.6117" endMatchExclusive="8.14.1.6118" />
+    <gpu vendorId="0x8086" deviceId="0x0046" subSysId="0xc078144d" startMatchInclusive="8.16.11.8988" endMatchExclusive="8.16.11.8989" />
+    <gpu vendorId="0x8086" deviceId="0x2772" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2772" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2772" startMatchInclusive="8.15.0010.1912" endMatchExclusive="8.15.0010.1913" />
+    <gpu vendorId="0x8086" deviceId="0x2772" startMatchInclusive="8.15.0010.1930" endMatchExclusive="8.15.0010.1931" />
+    <gpu vendorId="0x8086" deviceId="0x2776" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2776" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x27A2" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x27A2" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x27A2" startMatchInclusive="8.14.10.1930" endMatchExclusive="8.14.10.1931" />
+    <gpu vendorId="0x8086" deviceId="0x27A6" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x27A6" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x27AE" />
+    <gpu vendorId="0x8086" deviceId="0x2972" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2973" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2982" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2983" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2992" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2993" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x29A2" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x29A3" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x29B2" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x29B3" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x29C2" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x29C2" startMatchInclusive="8.14.0010.1930" endMatchExclusive="8.14.0010.1931" />
+    <gpu vendorId="0x8086" deviceId="0x29C2" startMatchInclusive="8.15.10.1825" endMatchExclusive="8.15.10.1826" />
+    <gpu vendorId="0x8086" deviceId="0x29C3" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x29D2" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x29D3" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2A02" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2A03" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2A12" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2A13" startMatchInclusive="7.14.0010.0" endMatchExclusive="7.14.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" umdFilename="igd10umd32.dll" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" umdFilename="igd10umd64.dll" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="8.15.0010.1808" endMatchExclusive="8.15.0010.1995" umdFilename="igd10umd32.dll" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="8.15.0010.1808" endMatchExclusive="8.15.0010.1995" umdFilename="igd10umd64.dll" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="8.15.0010.2025" endMatchExclusive="8.15.0010.2026" umdFilename="igd10umd32.dll" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="8.15.0010.2025" endMatchExclusive="8.15.0010.2026" umdFilename="igd10umd64.dll" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="8.15.0010.2141" endMatchExclusive="8.15.0010.2142" umdFilename="igd10umd32.dll" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="8.15.0010.2141" endMatchExclusive="8.15.0010.2142" umdFilename="igd10umd64.dll" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="8.15.0010.2202" endMatchExclusive="8.15.0010.2203" umdFilename="igd10umd32.dll" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" startMatchInclusive="8.15.0010.2202" endMatchExclusive="8.15.0010.2203" umdFilename="igd10umd64.dll" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2A42" subSysId="0x142e103c" startMatchInclusive="8.17.11.9745" endMatchExclusive="8.17.11.9746" />
+    <gpu vendorId="0x8086" deviceId="0x2E12" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2E13" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2E22" startMatchInclusive="7.15.0010.0" endMatchExclusive="7.15.0010.2999" />
+    <gpu vendorId="0x8086" deviceId="0x2E22" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2E23" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2E32" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2E33" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2E42" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2E43" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2E92" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x2E93" startMatchInclusive="8.15.10.2202" endMatchExclusive="8.15.10.2203" Os="OS_Vista" />
+    <gpu vendorId="0x8086" deviceId="0x4102" startMatchInclusive="8.14.10.9066" endMatchExclusive="8.14.10.9067" />
+    <gpu vendorId="0x8086" deviceId="0x8108" />
+    <gpu vendorId="0x8086" deviceId="0x8109" />
+    <gpu vendorId="0x8086" deviceId="0xA001" startMatchInclusive="8.14.10.1929" endMatchExclusive="8.14.10.2230" />
+    <gpu vendorId="0x8086" deviceId="0xA002" startMatchInclusive="8.14.10.1929" endMatchExclusive="8.14.10.2230" />
+    <gpu vendorId="0x8086" deviceId="0xA011" startMatchInclusive="8.14.10.1929" endMatchExclusive="8.14.10.2230" />
+    <gpu vendorId="0x8086" deviceId="0xA011" subSysId="0x83ac1043" startMatchInclusive="8.14.10.2230" endMatchExclusive="8.14.10.2231" />
+    <gpu vendorId="0x8086" deviceId="0xA012" startMatchInclusive="8.14.10.1929" endMatchExclusive="8.14.10.2230" />
+    <RequiresActiveX>
+        <domain>11st.co.kr</domain>
+        <domain>1ting.com</domain>
+        <domain>1tv.ru</domain>
+        <domain>23tv.co.il</domain>
+        <domain exclude="true">abcnews.go.com
+            <path>/video</path>
+            <path>/wn</path>
+        </domain>
+        <domain>afreeca.com</domain>
+        <domain>akmall.com</domain>
+        <domain>aladin.co.kr</domain>
+        <domain>alba.co.kr</domain>
+        <domain>albamon.com</domain>
+        <domain>altools.co.kr</domain>
+        <domain>auction.co.kr</domain>
+        <domain>autogestion.personal.com.ar</domain>
+        <domain>axa.co.kr</domain>
+        <domain>bancopopular.es</domain>
+        <domain>bandinlunis.co.kr</domain>
+        <domain>bandinlunis.com</domain>
+        <domain>banking.shinhan.com</domain>
+        <domain>bbva.es</domain>
+        <domain>bccard.com</domain>
+        <domain exclude="true">betv.be
+            <path>/v2/fr/home</path>
+        </domain>
+        <domain>blogs.office.com</domain>
+        <domain>bot.com.tw</domain>
+        <domain>bugs.co.kr</domain>
+        <domain>buienradar.nl</domain>
+        <domain>busanbank.co.kr</domain>
+        <domain>bwin.fr</domain>
+        <domain>cardrotax.or.kr</domain>
+        <domain>career.co.kr</domain>
+        <domain>ccb.com.cn</domain>
+        <domain exclude="true">cert.vno.co.kr
+            <path>/common</path>
+        </domain>
+        <domain>cgv.co.kr</domain>
+        <domain>childschool.mest.go.kr</domain>
+        <domain>citibank.co.kr</domain>
+        <domain>cjmall.com</domain>
+        <domain>cmbchina.com</domain>
+        <domain>coupang.com</domain>
+        <domain>cu.co.kr</domain>
+        <domain>danskebank.dk</domain>
+        <domain>danskespil.dk</domain>
+        <domain>dgb.co.kr</domain>
+        <domain>dnshop.com</domain>
+        <domain>ebs.co.kr</domain>
+        <domain>ebsi.co.kr</domain>
+        <domain>e-himart.co.kr</domain>
+        <domain>ei.go.kr</domain>
+        <domain>elster.de</domain>
+        <domain>emart.com</domain>
+        <domain>enviedeplus.femmes.fr.msn.com</domain>
+        <domain>eplay.etnews.com</domain>
+        <domain>epost.go.kr</domain>
+        <domain>epostbank.co.kr</domain>
+        <domain>epostbank.go.kr</domain>
+        <domain>ergodaum.co.kr</domain>
+        <domain>ergodaumdirect.co.kr</domain>
+        <domain>e-travelmanagement2.amadeus.com</domain>
+        <domain>excard.co.kr</domain>
+        <domain>flyasiana.com</domain>
+        <domain>fsb.or.kr</domain>
+        <domain>fundro.com</domain>
+        <domain>galleria.co.kr</domain>
+        <domain>gameyarou.jp</domain>
+        <domain>giro.kr</domain>
+        <domain>giro.or.kr</domain>
+        <domain>gmarket.co.kr</domain>
+        <domain>gold-eagle.com</domain>
+        <domain>gomtv.com</domain>
+        <domain>gozoomin.com</domain>
+        <domain>groupon.kr</domain>
+        <domain>gsshop.com</domain>
+        <domain>hanabank.co.kr</domain>
+        <domain>hanabank.com</domain>
+        <domain>hanaskcard.co.kr</domain>
+        <domain>hanaskcard.com</domain>
+        <domain>hangame.com</domain>
+        <domain>hi.co.kr</domain>
+        <domain>hkbank.co.kr</domain>
+        <domain>hkjc.com</domain>
+        <domain>homeplus.co.kr</domain>
+        <domain>hometax.go.kr</domain>
+        <domain>hsb.co.kr</domain>
+        <domain>hsbc.co.kr</domain>
+        <domain>hyundaicard.com</domain>
+        <domain>hyundaihmall.com</domain>
+        <domain>ibk.co.kr</domain>
+        <domain>icbc.com.cn</domain>
+        <domain>iehouse.co.kr</domain>
+        <domain>imbc.com</domain>
+        <domain>incometaxindia.gov.in</domain>
+        <domain>incruit.com</domain>
+        <domain exclude="true">intelsalestraining.com
+            <path>/xeonestimator</path>
+        </domain>
+        <domain exclude="true">interaktiv.phoenix.de
+            <path>/livestream</path>
+        </domain>
+        <domain>interpark.com</domain>
+        <domain>i-pin.kisa.or.kr</domain>
+        <domain>iros.go.kr</domain>
+        <domain>itaupersonnalite.com.br</domain>
+        <domain>itauuniclass.com.br</domain>
+        <domain>jbbank.co.kr</domain>
+        <domain>jobkorea.co.kr</domain>
+        <domain>joinsmsn.com</domain>
+        <domain>jyskenetbank.dk</domain>
+        <domain>kbcard.com</domain>
+        <domain>kbs.co.kr</domain>
+        <domain>kbstar.co.kr</domain>
+        <domain>kbstar.com</domain>
+        <domain>kcp.co.kr</domain>
+        <domain>kdb.co.kr</domain>
+        <domain>keb.co.kr</domain>
+        <domain>kfcc.co.kr</domain>
+        <domain>kiwoom.com</domain>
+        <domain>kjbank.com</domain>
+        <domain>knbank.co.kr</domain>
+        <domain>korail.com</domain>
+        <domain>korealife.com</domain>
+        <domain>kpn.com</domain>
+        <domain>kr.koreanair.com</domain>
+        <domain>kultur.gov.tr</domain>
+        <domain>kyobobook.co.kr</domain>
+        <domain>lassurance-maladie-recrute.com</domain>
+        <domain>libro.co.kr</domain>
+        <domain>life.miraeasset.com</domain>
+        <domain>lig.co.kr</domain>
+        <domain>liveradio.fr</domain>
+        <domain>lotte.com</domain>
+        <domain>lottecard.co.kr</domain>
+        <domain>lottecinema.co.kr</domain>
+        <domain>lotteimall.com</domain>
+        <domain>lroc.asu.edu</domain>
+        <domain>maliye.gov.tr</domain>
+        <domain>mall.shinsegae.com</domain>
+        <domain>marvel.com</domain>
+        <domain>mediaset.it</domain>
+        <domain>megabox.co.kr</domain>
+        <domain>megastudy.net</domain>
+        <domain>melon.com</domain>
+        <domain>meritzfire.com</domain>
+        <domain>mgoon.com</domain>
+        <domain>miniclip.com</domain>
+        <domain>ministeriolaluz.com</domain>
+        <domain>minwon.go.kr</domain>
+        <domain>mma.go.kr</domain>
+        <domain>myangel.co.kr</domain>
+        <domain>myanycar.co.kr</domain>
+        <domain>myanycar.com</domain>
+        <domain>myasset.com</domain>
+        <domain>my-health-info.health.msn.com</domain>
+        <domain>nateonweb.nate.com</domain>
+        <domain>netbank.danskebank.dk</domain>
+        <domain>netmarble.net</domain>
+        <domain>nexon.com</domain>
+        <domain>nhic.or.kr</domain>
+        <domain>njoyny.com</domain>
+        <domain>nonghyup.com</domain>
+        <domain>nordea.dk</domain>
+        <domain>nps.or.kr</domain>
+        <domain>nykredit.dk</domain>
+        <domain>olleh.com</domain>
+        <domain>ondisk.co.kr</domain>
+        <domain>pcrevue.sk</domain>
+        <domain>planetradiocity.com</domain>
+        <domain>plaync.co.kr</domain>
+        <domain>plaync.com</domain>
+        <domain>pmang.com</domain>
+        <domain>police.go.kr</domain>
+        <domain>poombuy.com</domain>
+        <domain>pptv.com</domain>
+        <domain exclude="true">pro.01net.com
+            <path>/rub/01net-entreprises/10234/01net-entreprises/videos</path>
+        </domain>
+        <domain>rai.tv</domain>
+        <domain>s.sohu.com</domain>
+        <domain>samsungcard.com</domain>
+        <domain>samsungfire.com</domain>
+        <domain>samsunglife.com</domain>
+        <domain>santandernet.com.br</domain>
+        <domain>sbs.co.kr</domain>
+        <domain>seoul.go.kr</domain>
+        <domain exclude="true">servicios.prodigy.msn.com
+            <path>/ninos</path>
+        </domain>
+        <domain>sharebox.co.kr</domain>
+        <domain>shareholder.com</domain>
+        <domain>shinhancard.com</domain>
+        <domain>shockwave.com</domain>
+        <domain>shop.danawa.com</domain>
+        <domain>showroom.orange.fr</domain>
+        <domain>sky.com</domain>
+        <domain>sky.de</domain>
+        <domain>smartmiraeasset.com</domain>
+        <domain>spdb.com.cn</domain>
+        <domain>standardchartered.co.kr</domain>
+        <domain>taxsave.go.kr</domain>
+        <domain>teleformula.com.mx</domain>
+        <domain exclude="true">thinkvitamin.com
+            <path>/podcast</path>
+        </domain>
+        <domain>thomson.com</domain>
+        <domain>ti.eventshopper.com</domain>
+        <domain>ticketmonster.co.kr</domain>
+        <domain>total.kcomwel.or.kr</domain>
+        <domain>tstore.co.kr</domain>
+        <domain>tvpot.daum.net</domain>
+        <domain>tvthek.orf.at</domain>
+        <domain>tworld.co.kr</domain>
+        <domain>update.nprotect.net</domain>
+        <domain exclude="true">v.163.com
+            <path>/column</path>
+            <path>/video</path>
+        </domain>
+        <domain>v.ifeng.com</domain>
+        <domain>video.foxnews.com</domain>
+        <domain>video.itworldcanada.com</domain>
+        <domain>video.sina.com.cn</domain>
+        <domain>video.watch.impress.co.jp</domain>
+        <domain exclude="true">video-homevision.de
+            <path>/video</path>
+        </domain>
+        <domain>videos.tf1.fr</domain>
+        <domain>villagevoice.com</domain>
+        <domain exclude="true">volkskrant.nl
+            <path>/vk/nl/2704</path>
+            <path>/vk/nl/2712</path>
+            <path>/vk/nl/2716</path>
+            <path>/vk/nl/2726</path>
+            <path>/vk/nl/2728</path>
+            <path>/vk/nl/2730</path>
+            <path>/vk/nl/3304</path>
+        </domain>
+        <domain exclude="true">vp.co.kr
+            <path>/popup</path>
+        </domain>
+        <domain>wedisk.co.kr</domain>
+        <domain>wemakeprice.com</domain>
+        <domain>wizwid.com</domain>
+        <domain>wooribank.com</domain>
+        <domain>wyspagier.pl</domain>
+        <domain>xinhuanet.com</domain>
+        <domain>yeoin.com</domain>
+        <domain>yes24.com</domain>
+        <domain>yescard.co.kr</domain>
+        <domain>yescard.com</domain>
+        <domain>yesone.go.kr</domain>
+        <domain>yoville.com</domain>
+        <domain>zumm.co.kr</domain>
+    </RequiresActiveX>
+    <GDITextMetrics>
+        <domain>adp.com</domain>
+        <domain>atcomet.com</domain>
+        <domain exclude="true">bureauveritas.com
+            <path>/wps/wcm/connect/bv_com/group/home/about-us/our-business/commodities </path>
+        </domain>
+        <domain>cegid.fr</domain>
+        <domain>citibank.co.uk</domain>
+        <domain>citizensbank.com</domain>
+        <domain>conforama.fr</domain>
+        <domain>credit-agricole.fr</domain>
+        <domain>dha.com.tr</domain>
+        <domain>discoverireland.com</domain>
+        <domain>enel.com</domain>
+        <domain>entertainment.nl.msn.com</domain>
+        <domain>frankfurter-sparkasse.de</domain>
+        <domain>fulltono.com</domain>
+        <domain>haier.net</domain>
+        <domain>indiaglitz.com</domain>
+        <domain>janitos.de</domain>
+        <domain>news.fr.msn.com</domain>
+        <domain exclude="true">passport.sohu.com
+            <path>/web/recover.jsp </path>
+        </domain>
+        <domain>preisvergleich.web.de</domain>
+        <domain>skbank.com.tw</domain>
+        <domain>traffic.com</domain>
+        <domain>urssaf.fr</domain>
+        <domain>voegol.com.br</domain>
+        <domain>yuanta.com.tw</domain>
+    </GDITextMetrics>
+    <NoSPDY>
+        <domain>mail.google.com</domain>
+    </NoSPDY>
+    <NoFlash>
+        <domain>aardman.com
+            <platform>arm</platform>
+        </domain>
+        <domain>briggs-riley.com</domain>
+        <domain>bubblepix.com
+            <platform>arm</platform>
+        </domain>
+        <domain>fr-online.de
+            <platform>arm</platform>
+        </domain>
+        <domain>m6replay.fr
+            <platform>arm</platform>
+        </domain>
+        <domain>news24.jp
+            <platform>arm</platform>
+        </domain>
+        <domain>on24.com
+            <platform>arm</platform>
+        </domain>
+        <domain>tnt-online.ru
+            <platform>arm</platform>
+        </domain>
+        <domain>webinato.com</domain>
+    </NoFlash>
+    <BFCache>
+    </BFCache>
+    <EnableUTF8QS>
+        <domain>seedit.com</domain>
+        <domain>open.dbank.com</domain>
+        <domain>plataformaeleven.com</domain>
+        <domain>nopp.co.kr</domain>
+        <domain>bbs.jjwxc.net</domain>
+    </EnableUTF8QS>
+    <NoPrerender>
+    </NoPrerender>
+</iecompatlistdescription>

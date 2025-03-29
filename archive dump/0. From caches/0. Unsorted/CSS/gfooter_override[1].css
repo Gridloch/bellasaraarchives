@@ -1,0 +1,364 @@
+/*	GLOBAL FOOTER OVERRIDES (adobe)
+	$Id: //depot/projects/dylan/releases/rc_14_2/ubi/template/identity/adobe/screen/gfooter_override.css#1 $
+*/
+
+.SiteFooter {
+	width: 1006px;
+	filter: none;
+	-ms-filter: none;
+    background: url(/ubi/template/identity/adobe/screen/SiteFooter/tile_fat.png) no-repeat left top;
+    _background: #383838 url(/ubi/template/identity/adobe/screen/SiteFooter/tile_fat_8bit.png) no-repeat left top;
+	_width: 998px;
+	padding-top: 1px;
+	margin-top: 0;
+}
+
+ul.SiteFooterLinkList {
+	list-style: none;
+	margin: 0 0 16px 0;
+	padding: 0;
+	text-align: left;
+}
+
+ul.SiteFooterLinkListBottom {
+	margin-bottom: 0;
+}
+
+.SiteFooter li {
+	margin-bottom: 6px;
+	padding-bottom: 0;
+}
+
+.SiteFooter h4 {
+	color: #FFF;
+}
+
+.SiteFooterRow {
+	margin-bottom: 2px;
+}
+
+.SiteFooterRegionPanel {
+	bottom: 116px;
+	*bottom: 120px;
+	_bottom: 124px;
+	left: 10px;
+    filter: none;
+}
+
+.SiteFooterRegionPanel li {
+	margin: 2px 0 0 0;
+	line-height: 1.2em;
+}
+
+.SiteFooter .LayoutGrid {
+	_height: 1em;
+	*zoom: 100%;
+	width: 1000px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.SiteFooter .LayoutGrid-1,
+.SiteFooter .LayoutGrid-2,
+.SiteFooter .LayoutGrid-3,
+.SiteFooter .LayoutGrid-4 {
+	width: 181px;
+	_width: 179px;
+}
+
+.SiteFooter .LayoutGrid-1-2,
+.SiteFooter .LayoutGrid-2-3,
+.SiteFooter .LayoutGrid-3-4 {
+	width: 373px;
+	_width: 369px;
+}
+
+.SiteFooter .LayoutGrid-1-3,
+.SiteFooter .LayoutGrid-2-4 {
+	width: 565px;
+	_width: 559px;
+}
+
+.SiteFooter .LayoutGrid-1-4 { 
+	width: 757px;
+	_width: 749px;
+}
+
+.SiteFooter .LayoutGrid-1-5 {
+	width: 1000px;
+	_width: 990px;
+}
+
+.SiteFooter .LayoutGrid-2-5 {
+	width: 808px;
+	_width: 800px;
+}
+
+.SiteFooter .LayoutGrid-3-5 {
+	width: 616px;
+	_width: 610px;
+}
+
+.SiteFooter .LayoutGrid-4-5 {
+	width: 424px;
+	_width: 420px;
+}
+
+.SiteFooter .LayoutGrid-5 {
+	width: 232px;
+	_width: 230px;
+}
+
+.SiteFooterMenuItemIconRegionBlue {
+    background-image: url(/ubi/template/identity/adobe/screen/SiteFooter/region_blue.png);
+}
+
+.SiteFooterMenuItemIconRegionBlack {
+    background-image: url(/ubi/template/identity/adobe/screen/SiteFooter/region_black.png);
+}
+
+.SiteFooterRegionPanelHeaderClose {
+    background: transparent url(/ubi/template/identity/adobe/screen/SiteFooter/close.png) no-repeat;
+}
+
+.SiteFooterMenuItemIconAcrobat {
+	background-position: 0px -1px !important;
+}
+
+.SiteFooterMenuItemIconCloud {
+	background-position: 0px -37px !important;
+}
+
+.SiteFooterMenuItemIconOMS {
+	background-position: 0px -73px !important;
+}
+
+.SiteFooterMenuItemIconCS {
+	background-position: 0px -109px !important;
+}
+
+.SiteFooterMenuItemIconDPS {
+	background-position: 0px -145px !important;
+}
+
+.SiteFooterMenuItemIconElements {
+	background-position: 0px -181px !important;
+}
+
+.SiteFooterMenuItemIconMobile {
+	background-position: 0px -217px !important;
+}
+
+.SiteFooterMenuItemIconPS {
+	background-position: 0px -253px !important;
+}
+
+.SiteFooterEvidonPixel {
+	display: none;
+}
+
+
+/*	PDC specific footer CSS  */
+
+.SiteFooterPDC {
+    padding-top: 9px;
+    clear: both;
+	_height: 100px;
+}
+
+.SiteFooterPDCBar {
+    background: #343434 url(SiteFooter/tile.png) repeat-x left top;
+    _height: 1em;
+    *zoom: 100%;
+}
+
+.SiteFooterPDCBar:after {
+    content: "\0020";
+    height: 0;
+    clear: both;
+    display: block;
+}
+
+.SiteFooterPDCBar img {
+	border: 1px solid #252525; 
+	outline: 1px solid #474747;
+}
+
+.SiteFooterPDCNav {
+    line-height: 19px;
+    padding-left: 11px;
+    padding-right: 11px;
+    position: relative;
+}
+
+.SiteFooterPDCNavItem {
+    margin-left: 11px;
+}
+
+.SiteFooterPDCRegionButton {
+    position: absolute;
+    left: 11px;
+    bottom: 0;
+}
+
+.SiteFooterPDCMenuItemLeft {
+	font-weight: bold;
+}
+
+.SiteFooterPDCMenuItemIcon {
+	padding: 2px 0 2px 38px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+a.SiteFooterPDCMenuItemIcon {
+    _zoom: 1;
+}
+
+.SiteFooterPDCMenuItemIconRegionBlue {
+    background-image: url(SiteFooter/region_blue.png);
+}
+
+.SiteFooterPDCMenuItemIconRegionBlack {
+    background-image: url(SiteFooter/region_black.png);
+}
+
+.SiteFooterPDCMenuItemIconEvidon {
+	background-position: left top;
+	padding-left: 18px;
+	background-image: url(SiteFooter/evidon.png);
+}
+
+.SiteFooterPDCRegionPanel {
+    position: absolute;
+    background-color: #FFF;
+    border: 1px solid;
+    border-color: #D8D8D8 #B0B0B0 #737373;
+    *border-color: #D8D8D8 #2F4E6B #737373;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 5px 10px -moz-rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=180, Strength=4);
+    z-index: 100;
+    bottom: 100%;
+    left: 0;
+    width: 700px;
+    color: #333;
+    padding: 16px;
+    margin-bottom: 6px;
+	margin-left: 6px;
+    line-height: normal;
+}
+
+.SiteFooterPDCRegionPanelHeader {
+    font: 18px "Myriad Pro",Helvetica,sans-serif;
+    margin-bottom: 4px;
+}
+
+.SiteFooterPDCRegionPanelHeaderClose {
+    margin-top: 3px;
+    *margin-top: -18px;
+    float: right;
+    text-indent: -9999px;
+    width: 17px;
+    height: 17px;
+    background: transparent url(SiteFooter/close.png) no-repeat;
+    cursor: pointer;
+}
+
+.SiteFooterPDCRegionPanel ul,
+.SiteFooterPDCRegionPanel li {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+
+.SiteFooterPDCRegionPanel li {
+	margin-top: 2px;
+	line-height: 1.2em;
+}
+
+.SiteFooterPDCRegionPanelRegionHeader {
+	margin: 12px 0 0 0;
+    font-size: 12px;
+	font-weight: bold;
+}
+
+.SiteFooterPDCRegionPanel .Column {
+    padding-left: 0;
+	padding-right: 0;
+}
+
+.SiteFooterPDCRegionPanel a {
+    cursor: pointer;
+}
+
+#SiteFooterPDC .LayoutHItem,
+#SiteFooterPDC a.SiteFooterPDCNavItem {
+	float: right;
+}
+
+#SiteFooterPDC .LayoutHAlignItems {
+	max-width: 680px;
+    _width: 680px;
+}
+
+
+.SiteFooterPDC {
+	width: 1006px;
+    background: transparent url(/ubi/template/identity/adobe/screen/SiteFooter/tile.png) no-repeat left bottom;
+    _background: url(/ubi/template/identity/adobe/screen/SiteFooter/tile_8bit.png) no-repeat left bottom;
+	_width: 999px;
+	padding-top: 1px;
+}
+
+.SiteFooterPDCMenuItemIconRegionBlue {
+    background-image: url(/ubi/template/identity/adobe/screen/SiteFooter/region_blue.png);
+}
+
+.SiteFooterPDCMenuItemIconRegionBlack {
+    background-image: url(/ubi/template/identity/adobe/screen/SiteFooter/region_black.png);
+}
+
+.SiteFooterPDCRegionPanelHeaderClose {
+    background: transparent url(/ubi/template/identity/adobe/screen/SiteFooter/close.png) no-repeat;
+}
+
+.SiteFooterPDCBar {
+	background: none;
+	padding-right: 18px;
+	min-height: 54px;
+}
+
+.SiteFooterPDCBar p {
+	font-size: 12px;
+}
+
+.SiteFooterPDCNav {
+	padding-right: 18px;
+	_padding-right: 20px;
+}
+
+p.SiteFooterPDCRow {
+	margin-bottom: 0;
+	_margin-right: 24px;
+}
+
+.SiteFooterPDCRegionPanel {
+    padding: 14px 16px 16px;
+}
+
+.SiteFooterPDCRegionPanel dd,
+.SiteFooterPDCRegionPanel dt {
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+.SiteFooterPDCRegionPanel dd {
+	line-height: 1.2em;
+	margin-top: 1px;
+}
+
+.SiteFooterPDCRegionPanelHeader span.SiteFooterPDCMenuItemIcon {
+	background-position: left bottom;
+}

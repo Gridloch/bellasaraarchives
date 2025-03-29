@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0"><Ad id="41878636120" sequence="">
+<InLine>
+<AdSystem>AdSense</AdSystem>
+<AdTitle>text</AdTitle>
+<Description>text ad</Description>
+<Error><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=videoplayfailed]]></Error>
+<Impression><![CDATA[http://googleads.g.doubleclick.net/pagead/adview?ai=CTI3GmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIJIFBAgEGAGIBgGAB-jznx8&sigh=xJGjtrcEn9s]]></Impression>
+<Creatives>
+<Creative sequence="" id="">
+<NonLinearAds>
+<TrackingEvents>
+<Tracking event="start"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=part2viewed]]></Tracking>
+<Tracking event="firstQuartile"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=videoplaytime25]]></Tracking>
+<Tracking event="midpoint"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=videoplaytime50]]></Tracking>
+<Tracking event="thirdQuartile"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=videoplaytime75]]></Tracking>
+<Tracking event="complete"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=videoplaytime100]]></Tracking>
+<Tracking event="close"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=overlayadclose]]></Tracking>
+<Tracking event="mute"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=admute]]></Tracking>
+<Tracking event="unmute"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=adunmute]]></Tracking>
+<Tracking event="rewind"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=adrewind]]></Tracking>
+<Tracking event="pause"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=adpause]]></Tracking>
+<Tracking event="resume"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=adresume]]></Tracking>
+<Tracking event="fullscreen"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=adfullscreen]]></Tracking>
+<Tracking event="expand"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=adexpand]]></Tracking>
+<Tracking event="collapse"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=adcollapse]]></Tracking>
+<Tracking event="acceptInvitation"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=acceptinvitation]]></Tracking>
+<Tracking event="creativeView"><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo&label=vast_creativeview]]></Tracking>
+</TrackingEvents>
+<NonLinear id="AdSense" width="1" height="1" scalable="false" maintainAspectRatio="false" minSuggestedDuration="">
+<StaticResource creativeType="text"><![CDATA[thismessage:Extensions/TextAd]]></StaticResource>
+<NonLinearClickThrough><![CDATA[http://www.googleadservices.com/pagead/aclk?sa=L&ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&num=1&cid=5Gh-Bd3g-65lKLj7oJaJzhHK&sig=AOD64_3OdQ9Cjip4GYpaD4ZBjD9n_SEHjQ&client=ca-pub-6219811747049371&adurl=http://506.xg4ken.com/media/redir.php%3Fprof%3D58%26camp%3D80292%26affcode%3Dcr50211%26cid%3D41870509720%7C1201142%7C%26mType%3D%26networkType%3Dcontent%26kdv%3Dc%26url%5B%5D%3Dhttp%253A%252F%252Fwww.intel.fr%252Fcontent%252Fwww%252Ffr%252Ffr%252Fenterprise-mobility%252Fplan-your-enterprise-mobility-strategy.html%253Fcid%253Dsem58p50146d-c]]></NonLinearClickThrough>
+</NonLinear>
+</NonLinearAds>
+</Creative>
+</Creatives>
+<Extensions>
+<Extension type="AdSense">
+<AttributionText>Annonces Google</AttributionText>
+<AttributionUrl><![CDATA[https://www.google.com/url?ct=abg&q=https://www.google.com/adsense/support/bin/request.py%3Fcontact_type%3Dafv_violation%26url%3Dhttp://www.nokia.com/fr-fr/mobiles/telephone-portable/lumia820/%26client%3Dca-pub-6219811747049371%26videoid%3Dyt_aIYm07ACkjU&usg=AFQjCNH5fzGlz3OXo1qQBCFPKFLYrZ3wAA]]></AttributionUrl>
+<PreviousAdInformation>TPrTMJE55hIKEwjk5tqmpuC9AhUU0XwKHYNkADQQARgCINi18h9CBhgBIAEoAQ</PreviousAdInformation>
+<VisibleUrl><![CDATA[intel.fr/Productivité_Mobile]]></VisibleUrl>
+<UI> <config>
+  <context data="default"/>
+  <params>
+   <ad_maximize_time int="100"/>
+   <tar_bottom_margin int="10"/>
+   <attribution_text data="Annonces Google"/>
+   <enable_companion_banner bool="true"/>
+   <request_token_chain_length int="100"/>
+   <use_request_token_for_video bool="true"/>
+   <close_button_padding int="10"/>
+   <bottom_overlay_padding int="5"/>
+   <attribution_url data="https://www.google.com/adsense/support/bin/request.py?contact_type=afv_violation&amp;url=http://www.nokia.com/fr-fr/mobiles/telephone-portable/lumia820/&amp;client=ca-pub-6219811747049371&amp;videoid=yt_aIYm07ACkjU"/>
+   <signals int="19"/>
+   <use_overlay_slide_out_effect bool="false"/>
+   <use_one_line_minimized_state bool="false"/>
+   <minimized_state_alpha int="30"/>
+  </params>
+ </config>
+ <config>
+  <context data="remaximized"/>
+  <params>
+   <head_size_delta int="3"/>
+   <ad_label_size_delta int="-2"/>
+   <text_ad_rounded bool="true"/>
+   <tar_bottom_margin int="9"/>
+   <over_alpha int="100"/>
+   <up_color data="0x666666"/>
+   <up_alpha int="85"/>
+   <num_text_overlay_ads int="3"/>
+   <legacy_font_size_calculation bool="true"/>
+   <show_next_prev_buttons bool="false"/>
+   <max_desc_font_size int="11"/>
+   <min_desc_font_size int="11"/>
+  </params>
+ </config>
+ <config>
+  <context data="fullSlot"/>
+  <params>
+   <show_close bool="true"/>
+   <head_font data="Arial, Helvetica, _sans"/>
+   <head_size_delta int="3"/>
+   <url_font data="Arial, Helvetica, _sans"/>
+   <url_color data="0xbbbbbb"/>
+   <url_size_delta int="0"/>
+   <ads_color data="0x909090"/>
+   <ad_label_size_delta int="-2"/>
+   <head_underlined bool="false"/>
+   <tar_left_margin int="64"/>
+   <tar_min_desired_width int="387"/>
+   <tar_bottom_margin int="9"/>
+   <over_color data="0x666666"/>
+   <over_alpha int="100"/>
+   <up_color data="0x666666"/>
+   <up_alpha int="85"/>
+   <shadow_alpha int="20"/>
+   <lines_per_ad int="3"/>
+   <num_text_overlay_ads int="3"/>
+   <text_ad_vertical_spacing int="4"/>
+   <legacy_font_size_calculation bool="true"/>
+   <border_alpha int="65"/>
+   <attribution_text_top bool="true"/>
+   <border_color data="0x000000"/>
+   <max_desc_font_size int="11"/>
+   <min_desc_font_size int="11"/>
+   <center_text_vertically bool="false"/>
+   <center_text_horizontally bool="false"/>
+   <use_full_ad_slot_height bool="false"/>
+   <use_youtube_close_button bool="false"/>
+   <over_gradient_bottom_color data="0x666666"/>
+   <use_gradient_background bool="false"/>
+   <over_border_color data="0x000000"/>
+   <over_border_alpha int="65"/>
+   <use_pagination_buttons bool="false"/>
+   <use_text_shadow bool="false"/>
+   <use_background_shadow bool="false"/>
+   <corner_radius float="5"/>
+   <max_desired_width int="-1"/>
+   <up_gradient_bottom_color data="0x000000"/>
+  </params>
+ </config>
+</UI>
+<ConversionUrl><![CDATA[http://googleads.g.doubleclick.net/pagead/conversion/?ai=C-jqtmP9LU-S6JpSi8wODyYGgA-iMwK0E2IylgZwBiMTxjy0QASDj-5MDUIiW7Yj______wFg-6HrgugJoAGAjODgA8gBAagDAcgDE5gEBaoEvAFP0G26IgaZXmoQDkfqjKZrRdDOSECv5YIz2TfaLiyD3P6DxDUyj8ouOy4Tp987_GggsjlRsA7_wT0HHvfLXRH15lBaCeHpkn-o674jyEOY6zMDU9uZb2AVxsdG2r1N2HqiBCFOxDEKRuf8Bq2j36yTDNjh90OdhEgX3-PCBR2tNSw4hSrBBaVZDLhvyKCdSKwU4B66Oytzum4LOTbzYDzacnoGfkK0Dq6UKZX2q5TbemkfzkVI3htjgMioIIgGAYAH6POfHw&sigh=aNzh3WOouPo]]></ConversionUrl>
+<QueryId>mP9LU9i3Jcy38gPUvoCgCw</QueryId>
+</Extension>
+<Extension type="TextAd">
+<Line1>Informatique Nomade</Line1>
+<Line2>Téléchargez les guides Intel pour</Line2>
+<Line3>réussir votre stratégie de mobilité</Line3>
+</Extension>
+</Extensions>
+</InLine>
+</Ad>
+</VAST>

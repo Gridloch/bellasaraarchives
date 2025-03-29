@@ -1,0 +1,8 @@
+form.pollanon div.messages.error {
+    display: none;
+}
+
+html.no-js form.pollanon .pollanon-poll-results.hidden {
+    display: block!important;
+    visibility: visible;
+}

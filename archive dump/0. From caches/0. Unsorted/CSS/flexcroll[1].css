@@ -1,0 +1,66 @@
+.scrollgeneric {
+line-height: 1px;
+font-size: 1px;
+position: absolute;
+top: 0; left: 0;
+}
+
+.vscrollerbase {
+width:21px;
+}
+
+.vscrollerbar {
+width: 21px;
+height: 43px !important;
+background-image: url(../images/charte/hero/scrollbar.png);
+_background-image: url(../images/charte/hero/scrollbar.gif);
+cursor:pointer;
+}
+
+
+.vscrollerbar, .hscrollerbar {
+/* paddings of these elements will decide how far the scrollbar will stop in both ends, and are not actually
+used for styling, and are set to 0 by the script, here we will set them the size of our faux arrows */
+padding-bottom: 11px;
+z-index: 2;
+}
+
+* html .vscrollerbar {
+background-image: none;
+_background-image: url(../images/charte/hero/scrollbar.gif);
+padding-bottom: 73px;
+}
+
+
+/* properties for scroller jog box, just in case */
+.scrollerjogbox {
+width: 22px;
+height: 22px;
+top: auto; left: auto;
+bottom: 0px; right: 0px;
+
+}
+
+/* Scroll Bar Master Styling Ends Here */
+
+/* Extra sample styles */
+#histoire.vscrollerbase {
+width:21px;
+}
+#histoire .vscrollerbar {
+width: 21px;
+height: 42px !important;
+background-image: url(../images/charte/hero/scroll-histoire.png);
+}
+
+#histoire .vscrollerbar, #histoire .hscrollerbar {
+/* paddings of these elements will decide how far the scrollbar will stop in both ends, and are not actually
+used for styling, and are set to 0 by the script, here we will set them the size of our faux arrows */
+padding-bottom: 11px;
+z-index: 2;
+}
+
+* html #histoire.vscrollerbar {
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop src='images/charte/hero/scroll-histoire.png');
+background-image: none;
+}

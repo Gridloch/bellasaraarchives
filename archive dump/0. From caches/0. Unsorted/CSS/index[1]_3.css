@@ -1,0 +1,161 @@
+/* test taxobox V3 */
+/* Janvier-février 2012 */
+/* cf. [[Utilisateur:Hexasoft/Taxobox code V3]] */
+
+
+/* - cette partie concerne le style global - */
+
+/* restaure la taille de fonte par défaut */
+.taxobox_v3 {
+font-size: 0.99em !important;
+padding: 1px; /* -> reduction du padding : par défaut 5px */
+}
+.taxobox_v3 .entete.icon {
+padding: 5px 50px 4px 50px;
+background-position: right center !important;
+border: 0;
+}
+.taxobox_v3.large .entete.icon {
+padding: 5px 10px 4px 10px;
+}
+
+/* style global par défaut */
+div.taxobox_v3 .entete, .taxobox_v3 caption, .taxobox_v3 p.bloc {
+font-style: normal;
+}
+/* ne pas utiliser le gras dans la partie gauche des lignes données mixtes */
+.taxobox_v3 th {
+font-weight: normal;
+}
+
+/* - cette partie concerne le style des couleurs uniquement (selon le règne) - */
+
+/* couleurs "animal" (titre, sections) */
+div.taxobox_v3.animal .entete {
+background-color: #FF9999 !important;
+}
+.taxobox_v3.animal caption, .taxobox_v3.animal p.bloc {
+background-color: #FFC0CB !important;
+}
+/* couleur "plante" (titre, sections) */
+div.taxobox_v3.plante .entete {
+background-color: #66CC66 !important;
+}
+.taxobox_v3.plante caption, .taxobox_v3.plante p.bloc {
+background-color: #99DD88 !important;
+}
+/* couleur "champignon" (titre, sections) */
+div.taxobox_v3.champignon .entete {
+background-color: #4682B4 !important;
+}
+.taxobox_v3.champignon caption, .taxobox_v3.champignon p.bloc {
+background-color: #ADD8E6 !important;
+}
+/* couleur "test" (titre, sections) */
+div.taxobox_v3.test .entete {
+background-color: #50A0A0 !important;
+}
+.taxobox_v3.test caption, .taxobox_v3.test p.bloc {
+background-color: #70C0C0 !important;
+}
+/* couleur "algue" (titre, sections) */
+div.taxobox_v3.algue .entete {
+background-color: #50A0A0 !important;
+}
+.taxobox_v3.algue caption, .taxobox_v3.algue p.bloc {
+background-color: #70C0C0 !important;
+}
+/* couleur "archaea" (titre, sections) */
+div.taxobox_v3.archaea .entete {
+background-color: gray !important;
+}
+.taxobox_v3.archaea caption, .taxobox_v3.archaea p.bloc {
+background-color: darkgray !important;
+}
+/* couleur "bactérie" (titre, sections) */
+div.taxobox_v3.bacterie .entete {
+background-color: darkgray !important;
+}
+.taxobox_v3.bacterie caption, .taxobox_v3.bacterie p.bloc {
+background-color: lightgrey !important;
+}
+/* couleur "protiste" (titre, sections) */
+div.taxobox_v3.protiste .entete {
+background-color: goldenrod !important;
+}
+.taxobox_v3.protiste caption, .taxobox_v3.protiste p.bloc {
+background-color: khaki !important;
+}
+/* couleur "virus" (titre, sections) */
+div.taxobox_v3.virus .entete {
+background-color: violet !important;
+}
+.taxobox_v3.virus caption, .taxobox_v3.virus p.bloc {
+background-color: #EEBBEE !important;
+}
+/* couleur "neutre" (titre, sections) */
+div.taxobox_v3.neutre .entete {
+background-color: #EEEEEE !important;
+}
+.taxobox_v3.neutre caption, .taxobox_v3.neutre p.bloc {
+background-color: #EEEEEE !important;
+}
+/* couleur "eucaryote" (titre, sections) */
+div.taxobox_v3.eucaryote .entete {
+background-color: darkgray !important;
+}
+.taxobox_v3.eucaryote caption, .taxobox_v3.eucaryote p.bloc {
+background-color: lightgrey !important;
+}
+/* couleur "procaryote" (titre, sections) */
+div.taxobox_v3.procaryote .entete {
+background-color: darkgray !important;
+}
+.taxobox_v3.procaryote caption, .taxobox_v3.procaryote p.bloc {
+background-color: lightgrey !important;
+}
+
+/* TODO: les autres "règnes" sont à ajouter */
+
+
+/* - cette partie concerne le style typographique uniquement (selon le règne) - */
+
+/* style typographique : zoologie ou rien (botanique) */
+div.taxobox_v3 .taxobox_classification {
+font-style: italic;
+}
+div.taxobox_v3 .taxobox_classification .rnormal {
+font-style: normal;
+}
+div.taxobox_v3.zoologie .taxobox_classification .normal, div.taxobox_v3 th[scope="row"] {
+font-style: normal;
+}
+
+
+
+/* - icones specifiques taxobox. Images non définitives - */
+
+/* - pictogrammes génériques (« règnes ») - */
+.entete.animal          {background: url("//upload.wikimedia.org/wikipedia/commons/d/da/Infobox_animalia.png")                    no-repeat top right;}
+.entete.virus           {background: url("//upload.wikimedia.org/wikipedia/commons/d/dc/Picto_infobox_virus.png")                 no-repeat top right;}
+.entete.plante          {background: url("//upload.wikimedia.org/wikipedia/commons/7/79/Infobox_plantae.png")                     no-repeat top right;}
+.entete.bacterie        {background: url("//upload.wikimedia.org/wikipedia/commons/5/51/Picto_infobox_bacterium.PNG")             no-repeat top right;}
+.entete.champignon      {background: url("//upload.wikimedia.org/wikipedia/commons/b/b9/Picto_Mushroom.png")                      no-repeat top right;}
+.entete.test            {background: url("//upload.wikimedia.org/wikipedia/commons/c/cb/Picto_infobox_tools.png")                 no-repeat top right;}
+/* pictogrammes spécifiques (« sous-règnes ») - */
+.entete.amphibien       {background: url("//upload.wikimedia.org/wikipedia/commons/6/63/Picto_amphibia.png")                      no-repeat top right;}
+.entete.reptile         {background: url("//upload.wikimedia.org/wikipedia/commons/7/7c/Picto_infobox_reptile.png")               no-repeat top right;}
+.entete.cladotest       {background: url("//upload.wikimedia.org/wikipedia/commons/3/3b/Infobox_cladogram.png")               no-repeat top right;}
+
+
+/* - version distincte de "alternance", afin d'être indépendant des choix fait par ailleurs et de pouvoir modifier à volonté l'aspect - */
+
+table.taxoalternance tr, .taxoalternance.wikitable th[scope="row"] {
+background: #fff;
+}
+table.taxoalternance tr:nth-child(odd), .taxoalternance.wikitable tr:nth-child(odd) th[scope="row"] {
+background: #F5F5F5;
+}
+table.taxoalternance tr.odd, table.taxoalternance.wikitable tr.odd th[scope="row"] {
+background: #F5F5F5;
+}

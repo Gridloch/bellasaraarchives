@@ -1,0 +1,423 @@
+/**
+* Feuille de Style du Site : PassionDuTemps.com
+* 
+* MagicCorporation WebSystem v6.0
+* Gestionnaire de Contenu pour site Internet
+* 
+* @package      MC6
+* @subpackage   Index
+* @author       Jean-Christophe Taisne <amonra@magiccorporation.com>
+* @link         http://mc6.magiccorporation.com 
+* @copyright    2000-2009 MagicCorporation
+* @version      6.0 $Id: style.css 232 2009-11-16 17:07:07Z amonra $
+*/
+
+body {
+    width: 1000px;
+    margin: auto;
+    color: #000000;
+    font-family: Tahoma; font-size: 11px;
+    background-color: #b287bc;
+}
+
+blockquote {
+    background: #f7d1ff;
+    border-color: #b287bc #FFFFFF #FFFFFF #b287bc;
+}
+
+fieldset {
+    border: 0 none;
+}
+
+a:link      { font-family: Tahoma; font-size: 11px; color: #800080; text-decoration: underline }
+a:active    { font-family: Tahoma; font-size: 11px; color: #800080; text-decoration: none }
+a:visited   { font-family: Tahoma; font-size: 11px; color: #800080; text-decoration: underline }
+a:hover     { font-family: Tahoma; font-size: 11px; color: #ff4040; text-decoration: none }
+
+a.lien_active {
+    color: #800080; 
+    text-decoration: none;   
+}
+
+span.enligne {
+    color: green;
+    font-weight: bold;
+}
+
+span.horsligne {
+    color: red;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.news_block h2.block_content {
+    margin: 0px;
+}
+
+p, ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#body {
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+    border: 2px solid #9325aa;
+    background: #d1b1da;
+/*    background: #000 url(../../images/body/background.jpg) no-repeat bottom center;*/
+}
+
+#header {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#header_debut {
+    position: relative;   
+    background: transparent url(../../images/header/background.jpg) no-repeat scroll 0% 0%;
+    height: 200px;
+/*    padding-top: 200px; */
+}
+
+#masthead {
+}
+
+#top_nav {
+}
+
+#container {
+/*    position: relative;*/
+    margin: 5px;
+}
+
+#left_col {
+    /* clear: both; */
+    width: 225px;
+    /* position: absolute; */
+    float: left;
+    left: 0px;
+    top: 0px;
+    /* border: 2px solid blue; */
+}
+
+#page_content {
+    /* float: left; */
+    /* position: absolute; */
+    margin-right: 225px;
+    margin-left: 225px;
+    text-align: left;
+    top: 0px;
+    /* border: 2px solid red; */
+    min-width: 550px;
+    max-width: 1000px;
+}
+
+#page_content_left {
+    /* float: left; */
+    margin-left: 225px;
+    text-align: center;
+    /* border: 2px solid red; */
+    min-width: 775px;
+    max-width: 1000px;
+}
+
+#page_content_right {
+    /* float: left; */
+    margin-right: 225px;
+    text-align: center;
+    /* border: 2px solid red; */
+    min-width: 775px;
+    max-width: 1000px;
+
+}
+
+#page_content_big { /* disposition seul */
+    /* float: left; */
+    text-align: center;
+    /* border: 2px solid red; */
+    /* min-width: 1024px;
+    max-width: 1280px; */
+}
+
+#right_col {
+    width: 225px;
+    /* float: right; */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /* border: 2px solid orange; */
+}
+
+#footer {
+    margin: 0;
+    padding: 10px;
+    clear: both;
+    position: relative;
+    width: 1000px;
+/*    height: 25px;*/
+}
+
+.gras{
+	font-weight: bolder;
+}
+
+.displayOff{
+	display: none;
+}
+
+.oui {
+	font-weight: bolder;
+	color: green;
+}
+
+.non {
+	font-weight: bolder;
+	color: #CA0000;
+}
+
+.title_true {
+    color: green;
+    font-size: 18px;
+}
+
+.title_false {
+    color: red;
+    font-size: 18px;
+}
+
+/* EN BETA TEST ************************************************/
+
+.html_div {
+    float: left;
+}
+
+.html_div_clear {
+    clear: both;
+}
+
+.html_div_small {
+    width: 25%;
+    float: left;
+    top: 0px;
+}
+
+.html_div_medium {
+    width: 50%;
+    float: left;
+    left: 0px;
+    top: 0px;
+}
+
+.html_div_big {
+    width: 75%;
+    float: left;
+    left: 0px;
+    top: 0px;
+}
+
+.html_div_content {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.html_div_full {
+    width: 100%;
+    float: left;
+    left: 0px;
+    top: 0px;
+}
+
+span.debug {
+    color: red;
+    
+}
+
+.block {
+    margin: 5px;
+    margin-bottom: 10px; 
+}
+
+.block_title {     
+    color: #FFFFFF;
+/*    margin-bottom: 2px;*/
+    padding: 5px 15px 5px 5px;
+    border: 1px solid #9325aa;
+    border-bottom: none;
+    text-align: right;
+/*    text-transform: uppercase;*/
+    font-weight: bold;
+/*    background: #b287bc;*/
+    background: url(../../images/block/title_background.png) repeat-x top left; 
+}
+
+.block_content { 
+    padding: 5px;
+    border: 1px solid #9325aa;
+    background: #dfc6e4;
+}
+
+.block_info {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block_table {
+    margin: 5px 5px 10px;
+    padding: 0px;
+/*    background: #0D0D0D url(../../images/block/background.jpg) no-repeat bottom right;  */
+}
+
+.html_table {
+    border-collapse: collapse;
+}
+
+.html_table thead tr {
+    background: url(../../images/block/title_background.png) repeat top left;     
+}
+
+.html_table thead th {
+    border-top: 1px solid #9325aa;
+    border-bottom: 1px solid #9325aa;
+    border-left: 1px solid #9325aa;
+    border-right: 1px solid #9325aa;
+/*    padding: 5px;               */
+    padding-left: 3px;
+    height : 25px;
+/*    background-color: #336699;*/
+    color: #FFFFFF;    
+    text-align: left;
+}
+
+.html_table tbody tr {
+/*    ici pour coloriser nos cellules en background si pas de background image dans .html_div_table      */
+    background: #dfc6e4; 
+}
+
+.html_table tbody tr.checked {
+/* colorise une ligne qui a été checked dans html_table() */
+    background-color: #b287bc;    
+}
+
+.html_table tbody tr.checked td {
+/* met en gras le texte qui a été checked dans html_table() */ 
+    font-weight: bold;    
+}
+
+.html_table tbody tr:hover.hover, .html_table tbody tr td:hover.hover, .html_table tbody tr:hover.checked {
+    background: #b287bc;        
+}
+
+/*.html_table th {
+    border: 1px solid #141818;
+    padding: 5px;               
+    background-color: #b287bc;
+    text-align: left;
+} */
+
+.html_table td {
+    border: 1px solid #9325aa;
+    padding: 5px;
+/*    vertical-align: middle;*/
+/*    display: inline;    */
+/*    text-align: left;*/
+/*    display: table-cell;*/
+}
+
+.html_table tfoot th {
+    border-top: 1px solid #9325aa;
+    border-bottom: 1px solid #9325aa;
+    border-left: 1px solid #9325aa;
+    border-right: 1px solid #9325aa;
+/*    padding: 5px;               */
+    padding-left: 3px;
+    height : 25px;
+/*    background-color: #336699;*/
+    color: #FFFFFF;    
+    text-align: left;       
+}
+
+.html_table tfoot tr {
+    background: url(../../images/block/title_background.png) repeat top left;
+}
+
+.html_table_titre {
+    font-weight: bold;
+
+}
+
+/************************* VOTES ***************************/
+#divVote{
+	display: inline-block;
+	width: 49%;
+}
+
+#divVote ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 15px;
+	background: url('../../mc6/images/divers/starrating.png') top left repeat-x;
+}
+
+#divVote ul li{
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: 15px;
+}
+
+#divVote ul li a{
+	display: inline-block;	
+	height: 15px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.aVide{
+	background: url('../../mc6/images/divers/starrating.png') top left;
+}
+
+.aSurvol{
+	background: url('../../mc6/images/divers/starrating.png') center center;
+}
+
+.aVote{
+	background: url('../../mc6/images/divers/starrating.png') bottom center;
+}
+
+#displayVote{
+	display: inline-block;
+	width: 49%;
+}
+
+#displayVote ul{
+	list-style: none;
+	margin: 5px 0 0 0;	
+	padding: 0;
+	height: 15px;
+}
+
+#displayVote ul li{
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: 15px;
+}
+
+#displayVote ul li a{
+	display: inline-block;	
+	height: 15px;
+	width: 100%;
+	cursor: pointer;
+}

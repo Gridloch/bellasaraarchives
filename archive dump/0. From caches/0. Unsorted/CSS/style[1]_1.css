@@ -1,0 +1,158 @@
+/***************************************************/
+/* MagicCorporation WebSystem v6.0                 */
+/* =============================================== */
+/* Copyright 2000-2008 MagicCorporation            */
+/* http://www.magiccorporation.com                 */
+/* Auteur :  Amon-Ra (amonra@magiccorporation.com) */
+/*            Sliver (sliver@magiccorporation.com) */
+/*          Tharkun (tharkun@magiccorporation.com) */
+/*                  Pic (pic@magiccorporation.com) */
+/*       Team TCGDatabase (contact@tgcdatabase.fr) */
+/***************************************************/
+
+form {
+    display:inline;
+}
+
+input[type=submit], input[type=button], input[type=text], select, textarea, input[type=checkbox] {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+}
+
+.lien_menu_admin {
+    padding-right: 10px;
+}
+
+span.enligne {
+    color: green;
+    font-weight: bold;
+}
+
+span.horsligne {
+    color: red;
+    font-weight: bold;
+}
+
+.icon {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.popup {
+    border: 0pt none ; 
+    margin: 0pt; 
+    padding: 0pt; 
+    background-color: rgb(255, 255, 255); 
+    background-image: none; 
+    position: absolute; 
+    z-index: 11000; 
+    top: 0px; 
+    left: 0px; 
+    width: 100%; 
+    height: 100%; 
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.block_popup {
+    clear: both;
+    position: fixed;
+    margin: 0pt; 
+    padding: 0pt;
+    background-color: white;
+    z-index: 11001;
+}
+
+.block_popup div.block, .block_popup div.block_table {
+    margin: 3px;
+}
+
+/* STYLE DES MESSAGES D'ERREURS */
+input.required, textarea.required {
+    border: 1px solid #00A8E6;
+}
+
+input.validation-failed, textarea.validation-failed {
+    border: 1px solid #FF3300;
+    color : #FF3300;
+}
+
+input.validation-passed, textarea.validation-passed {
+    border: 1px solid #00CC00;
+    color : #000;
+}
+
+.validation-advice {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #FF3300;
+    color : #FFF;
+    font-weight: bold;
+}
+
+/* Affichage des tableaux de Posts (MP, Commentaires, Forum) */
+
+.html_link_search p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+div.html_link_search {
+    margin-left: 5px !important;
+}
+
+.html_table td.tab_profil_membre {
+    vertical-align: top;
+    width: 25%;
+}
+
+.html_table td.tab_message {
+    vertical-align: top;
+    width: 75%;
+/*    max-width: 550px;*/
+    overflow: hidden;
+}
+
+.html_table p.message_bottom {
+    vertical-align: bottom;
+    width: 75%;
+}
+
+.signature {
+    text-align: left;
+    vertical-align: bottom;
+    max-height: 80px;
+    max-width: 330px;
+    overflow: hidden;
+}
+
+blockquote {
+    background: #A0CEE6 url(/model/magiccorporation/images/quote.gif) no-repeat scroll right top;
+    border-color: #3C7AB4 #FFFFFF #FFFFFF #3C7AB4;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.pre-spoiler {
+    border: 1px solid #B5C0A8;
+    margin: 0px 10px 1px 10px;
+    padding-left: 10px;
+    background: #E3E9DB;
+    font-weight: bold;
+    color: #6A775B;
+}
+.spoiler {
+    background: #E3E9DB;
+    margin: 0px 10px 15px 10px;
+    padding: 5px;
+    border: 1px solid #B5C0A8;
+}

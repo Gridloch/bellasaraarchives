@@ -1,0 +1,67 @@
+/**
+* Feuille de Style de la base TCGDataBase v2.0
+* 
+* MagicCorporation WebSystem v6.0
+* Gestionnaire de Contenu pour site Internet
+* 
+* @package      MC6
+* @subpackage   Index
+* @author       Jean-Christophe Taisne <amonra@magiccorporation.com>
+* @link         http://mc6.magiccorporation.com 
+* @copyright    2000-2009 MagicCorporation
+* @version      6.0 $Id: style.css 148 2009-11-07 18:42:51Z amonra $
+*/
+
+.tcgdatabase ul {  
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font: bold 13px Verdana;
+    width: 274px; /* Main Menu Item widths */
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.tcgdatabase ul li{
+    position: relative;
+}
+
+/* Top level menu links style */
+.tcgdatabase ul li a{
+    display: block;
+    overflow: auto; /*force hasLayout in IE7 */
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    /* border-bottom: 1px solid #778; */
+    /* border-right: 1px solid #778; */
+}
+
+.tcgdatabase ul li a:link, .tcgdatabase ul li a:visited, .tcgdatabase ul li a:active{
+    background-color: #9325aa; /*background of tabs (default state)*/ 
+}
+
+.tcgdatabase ul li a:visited{
+    color: white;
+}
+
+.tcgdatabase ul li a:hover{
+    background-color: #424242;
+}
+
+/*Sub level menu items */
+.tcgdatabase ul li ul{
+    position: absolute;
+    width: 170px; /*Sub Menu Items width */
+    top: 0;
+    visibility: hidden;
+    z-index: 100;
+}
+
+.tcgdatabase a.subfolderstyle{
+    background: url(../../mc6/images/divers/right.gif) no-repeat 97% 50%;
+}
+
+/* Holly Hack for IE \*/
+* html .tcgdatabase ul li { float: left; height: 1%; }
+* html .tcgdatabase ul li a { height: 1%; }
+/* End */

@@ -1,0 +1,546 @@
+/*
+Theme NAME: Windows Generation
+Theme URL: http://windowsgeneration.fr
+Description: Theme du site Windows Generation
+Version: 1.3
+Author: Julien Renard
+*/
+
+/* HEAD */
+
+/* 
+
+Couleur Bleu: #3baae1
+Couleur Gris de fond: #ebebeb
+
+*/
+
+@font-face {
+    font-family: 'modernewgregular';
+    src: url('fonts/modernewg-webfont.eot');
+    src: url('fonts/modernewg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/modernewg-webfont.woff') format('woff'),
+         url('fonts/modernewg-webfont.ttf') format('truetype'),
+         url('fonts/modernewg-webfont.svg#modernewgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'modernewgsbregular';
+    src: url('fonts/modernewgsb-webfont.eot');
+    src: url('fonts/modernewgsb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/modernewgsb-webfont.woff') format('woff'),
+         url('fonts/modernewgsb-webfont.ttf') format('truetype'),
+         url('fonts/modernewgsb-webfont.svg#modernewgsbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'modernewgslregular';
+    src: url('fonts/modernewgsl-webfont.eot');
+    src: url('fonts/modernewgsl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/modernewgsl-webfont.woff') format('woff'),
+         url('fonts/modernewgsl-webfont.ttf') format('truetype'),
+         url('fonts/modernewgsl-webfont.svg#modernewgslregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'modernewglregular';
+    src: url('fonts/modernewgl-webfont.eot');
+    src: url('fonts/modernewgl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/modernewgl-webfont.woff') format('woff'),
+         url('fonts/modernewgl-webfont.ttf') format('truetype'),
+         url('fonts/modernewgl-webfont.svg#modernewglregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'modernewgsregular';
+    src: url('fonts/modernewgs-webfont.eot');
+    src: url('fonts/modernewgs-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/modernewgs-webfont.woff') format('woff'),
+         url('fonts/modernewgs-webfont.ttf') format('truetype'),
+         url('fonts/modernewgs-webfont.svg#modernewgsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:nomal;}
+body{text-align:center; background-color:#ebebeb; font-family: "modernewgregular"; font-size:14px;}
+.clear{ clear:both;}
+a{text-decoration:none;}
+
+#head {height:410px; width:1050px; position:relative; margin:0 auto; margin-bottom:8px;}
+	#head #menuhead {background:top center no-repeat; height:60px; width:1050px; background-color:#FFF; position:absolute;}
+		#head #menuhead ul{}
+		#head #menuhead ul li{ float:left; list-style:none;}
+		#head #menuhead ul li.logo{ position:absolute; margin-left:53px; margin-top:3px;}
+		#head #menuhead ul li a{text-decoration:none; color:#000; font-family:"modernewgregular"; font-size:15px;}
+		#head #menuhead ul li a span.windows{ color:#3baae1; font-size:36px;}
+		#head #menuhead ul li a span.generation{font-size:36px; font-family:"modernewgslregular";}
+		#head #menuhead ul li a span.fr{font-size:24px;}
+		#head #menuhead ul li.actuWP{ position:absolute; margin-left:425px; margin-top:23px;}
+		#head #menuhead ul li.actuWP a:hover{ color: #3baae1;}
+		#head #menuhead ul li.actuW8{ position:absolute; margin-left:627px; margin-top:23px;}
+		#head #menuhead ul li.actuW8 a:hover{ color: #3baae1;}
+		#head #menuhead ul li.xbox{ position:absolute; margin-left:794px; margin-top:23px;}
+		#head #menuhead ul li.xbox a:hover{ color: #3baae1;}
+		#head #menuhead ul li.boutique{ position:absolute; margin-left:921px; margin-top:21px; height:20px;}
+		#head #menuhead ul li.boutique img{ border:none;}
+		#head #menuhead ul li.boutique span.txt_boutique{ position:absolute; margin-top:2px;}
+		#head #menuhead ul li.boutique a:hover{ color: #3baae1;}
+		/* Pour Chrome / Safari */
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+		#head #menuhead ul li.boutique span.txt_boutique{ position:absolute; margin-top:-22px; margin-left:15px;}}
+		
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+    	/* Safari 5+ ONLY */
+    	::i-block-chrome, #head #menuhead ul li.boutique span.txt_boutique{ position:absolute; margin-top:-22px; margin-left:30px;}}
+		
+
+#head_single{ height:60px; width:1050px; position:relative; margin:0 auto; margin-bottom:8px;}
+	#head_single #menuhead{ background:top center no-repeat; height:60px; width:1050px; background-color:#FFF; position:absolute;}
+		#head_single #menuhead ul{}
+		#head_single #menuhead ul li{ float:left; list-style:none;}
+		#head_single #menuhead ul li.logo{ position:absolute; margin-left:29px;}
+		#head_single #menuhead ul li a{text-decoration:none; color:#000; font-family:"modernewgregular"; font-size:15px;}
+		#head_single #menuhead ul li a span.windows{ color:#3baae1; font-size:36px;}
+		#head_single #menuhead ul li a span.generation{font-size:36px; font-family:"modernewgslregular";}
+		#head_single #menuhead ul li a span.fr{font-size:24px;}
+		#head_single #menuhead ul li.actuWP{ position:absolute; margin-left:400px; margin-top:23px;}
+		#head_single #menuhead ul li.actuWP a:hover{ color: #3baae1;}
+		#head_single #menuhead ul li.actuW8{ position:absolute; margin-left:582px; margin-top:23px;}
+		#head_single #menuhead ul li.actuW8 a:hover{ color: #3baae1;}
+		#head_single #menuhead ul li.actuAppli{ position:absolute; margin-left:730px; margin-top:23px;}
+		#head_single #menuhead ul li.actuAppli a:hover{ color: #3baae1;}
+		#head_single #menuhead ul li.materiels{ position:absolute; margin-left:912px; margin-top:1px; height:20px;}
+		#head_single #menuhead ul li img.logo_msft{ position:absolute; margin-top:19px;}
+		#head_single #menuhead ul li.materiels a:hover{ color: #3baae1;}
+
+
+/* #foo .thumb img { 
+visibility: hidden; 
+} */
+		
+		
+		
+#head #alaune { position:absolute; margin-top:60px; width:1050px; height:350px;}
+		#head #alaune #carrousel{width:1050px; height:350px; visibility: hidden;}
+		#head #alaune .carrousel .slide{ display:block; width:1050px; height:350px; position:relative; float:left;}	
+		#head #alaune .carrousel .slide a{ text-decoration:none;}
+		#head #alaune .carrousel .slide a img{ border:none; display:block;}
+		#head #alaune .carrousel .slide .info-slide{ width:1050px; color:#FFF; bottom:0; background-image:url(images/imgunesgris.png); position:absolute; height:47px; line-height:47px;}
+		#head #alaune .carrousel .slide .info-slide .picto-slide{position:relative; margin-left:20px; margin-top:6px; float:left;}
+		#head #alaune .carrousel .slide .info-slide .texte-slide{position:relative; color:#FFF; font-family:"modernewgsbregular"; font-size:15px; margin-left:10px; float:left;}
+		#head #alaune .carrousel .slide .info-slide .title-slide a{ position:relative; margin-left:20px; font-family:"modernewgsbregular"; font-size:15px; color:#FFF; float:left;}
+		#head #alaune .pagination{position:absolute; margin-left:970px; margin-top:-27px;} 
+		#head #alaune .pagination a{ background:url(images/select_unes.gif) transparent; width:8px; height:8px; margin: 0 5px 0 0; display:inline-block;} 
+		#head #alaune .pagination a.selected{ background-image:url(images/selected_unes.gif); cursor:default;}
+		#head #alaune .pagination a span{display:none;}
+
+	
+#main { width:1050px; margin:0 auto; text-align:left;}
+	#col21{ width:742px; float:left;}
+	#col21 .post-left{ background-position:top left no-repeat; position:relative; width:100px; height:200px;}
+		#col21 .post-info{ position:absolute; width:100px; height:55px; background-image:url(images/imgpostgris.png); margin-left:0; margin-top:-55px;}
+		#col21 .post-date{ position:relative; font-family:"modernewgsbregular"; font-size:14px; text-align:center; text-transform:uppercase; color:#FFF; margin-top:2px;}
+		#col21 .post-cat{ position: absolute; margin-top:5px; margin-left:12px;}
+		#col21 .post-cat a img{ border:none;}
+	#col21 .post-area{ background-color:#FFF;}
+	#col21 .post-title h1{ font-family:"modernewgregular"; font-size:16px; color:#3baae1;}
+	#col21 .post-title h1 a{ font-family:"modernewgregular"; font-size:16px; color:#3baae1;}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#col21 .post-title h1{ font-family:"modernewgregular"; font-size:14px; color:#3baae1;}
+	#col21 .post-title h1 a{ font-family:"modernewgregular"; font-size:14px; color:#3baae1;}}
+	
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+    	/* Safari 5+ ONLY */
+    	::i-block-chrome, #col21 .post-title h1{ font-family:"modernewgregular"; font-size:12px; color:#3baae1;}
+		::i-block-chrome, #col21 .post-title h1 a{ font-family:"modernewgregular"; font-size:12px; color:#3baae1;}}
+	
+	#col21 .post-contenu{ position:absolute; margin-left:130px; margin-top:-174px;}
+		#col21 .post-excerpt{ position:relative; margin-top:8px; font-family:"modernewgregular"; font-size:14px; color:#000; width:585px;}
+		#col21 .post-excerpt a{ font-family:"modernewgregular"; font-size:14px; color:#000;}
+		#col21 .post-comments{ position:absolute; font-family:"modernewgsbregular"; font-size:13px; color:#000; width:40px; height:20px; background-image:url(images/nbcommentaires.gif); background-repeat:no-repeat; margin-top:5px; margin-left:48px;}
+		#col21 .post-comments a{ font-family:"modernewgsbregular"; font-size:13px; color:#000;}
+		#col21 .post-comments span.commentaireaccueil{ position:relative; margin-left:25px;}
+		
+		#col21 .post-comments_single{ position:absolute; font-family:"modernewgsbregular"; font-size:13px; color:#000; width:40px; height:20px; background-image:url(images/nbcommentaires.gif); background-repeat:no-repeat; margin-top:5px; margin-left:48px;}
+		#col21 .post-comments_single a{ font-family:"modernewgsbregular"; font-size:13px; color:#000;}
+		#col21 .post-comments_single span.commentairesingle{ position:relative; margin-left:25px;}
+		
+	#col21 .post-bot{position: relative; margin-top:8px; background-color:#ebebeb;}
+	
+	#col21 .postnext{color: #000; font-family:"modernewgregular"; font-size:14px;}
+	#col21 .postnext img{ border:none;}
+	#col21 .postprev{color: #000; font-family:"modernewgregular"; font-size:14px; margin-left:600px;}
+	#col21 .postprev img{ border:none;}
+	
+#col21 .post-area-single{ background-color:#FFF; width:742; margin-bottom:8px;}	
+#col21 .post-contenu-single{ position:absolute; margin-left:130px; margin-top:-174px; background-color:#FFF;}
+		#col21 .partager_article{margin-top:15px; font-family:"modernewgregular"; font-size:12px; color:#000; width:585px; font-style:italic; height:20px;}
+		#col21 .facebook_partager_article{ margin-left:20px;}
+		#col21 .twitter_partager_article{margin-left:20px;}
+		
+		#col21 .post-content-single{ margin-top:30px; font-family:"modernewgregular"; font-size:14px; color:#000; width:585px;}
+		#col21 .post-content-single a{ font-family:"modernewgregular"; font-size:14px; color:#3baae1;}
+		#col21 .post-content-single p{margin-bottom:30px; width:585px;}
+		#col21 .post-content-single p img{ margin:auto; display:block;}
+		#col21 .post-title-single h1{ font-family:"modernewgregular"; font-size:16px; color:#3baae1;}
+		#col21 .post-title-single h1 a{ font-family:"modernewgregular"; font-size:16px; color:#3baae1; text-decoration:none;}
+		#col21 .post-left-single{position: relative; background-position:top left no-repeat; width:100px; height:200px;}
+		#col21 .post-contenu-single{ position:relative; margin-top:-175px; font-family:"modernewgregular"; font-size:14px; color:#000; width:585px; background-color:#FFF;}
+		#col21 .post-contenu-single a{ font-family:"modernewgregular"; color:#000; text-decoration:underline;}
+		#col21 .post-contenu-single a img{ border:none; text-align:center;}
+		#col21 .img_article{text-align:center;}
+		#col21 .sources_credits{ font-size:12px;}
+		#col21 .source_info{position:relative; margin-top:50px; font-family:"modernewgregular"; font-size:12px;}
+		#col21 #top_image{display:none;}
+		
+		#col21 .post_time{position:relative; margin-top:40px; font-family:"modernewgregular"; font-size:12px; font-style:italic; color:#676767;}
+		#col21 .partager_article2{margin-top:10px; font-family:"modernewgregular"; font-size:12px; color:#000; width:585px; font-style:italic; height:20px;}
+		#col21 .facebook_partager_article2{ margin-left:20px;}
+		#col21 .twitter_partager_article2{margin-left:20px;}
+		#col21 .single-tags{position:relative; font-family:"modernewgsregular"; font-size:12px; font-style:italic; font-weight:bold; height:25px; line-height:25px; margin-top:8px;}
+		#col21 .single-tags span a{ font-family:"modernewgsregular"; font-size:12px; font-style:italic; font-weight:normal; color:#3baae1;}
+		#col21 .btn_sociaux{ position:absolute; height:20px; margin-left:380px; margin-top:-22px;}
+		#col21 .fb-like{ height:21px;}
+		#col21 .twitter-tweet{ height:20px; margin-top:-21px; margin-left:110px;}
+		#col21 .spacer_bottom{ height:15px;}
+		#col21 .adMSLarge{width:742; height:90px; background-color:#107c10;}
+		#col21 .adMSLargeKelkoo{width:742; height:90px; background-color:#f0f3f6;}
+		#col21 .adMSLarge a{ text-decoration:none; border:none;}
+		#col21 .adMSLarge a img{ margin-left:0px; height:90px; border:none;}
+				
+		
+		#col21 .autdescribe{ position: relative; height:108px; width:742px; background-color:#676767;}
+		#col21 .autdescribe .gamertag{ position: absolute; margin-left:25px; width:80px; height:105px; margin-top:0px;}
+		#col21 .autdescribe .name{ position:absolute; font-family:"modernewgregular"; font-weight:bold; font-size:12px; color:#FFF; margin-top:5px; margin-left:130px;}
+		#col21 .autdescribe .describe{ position:absolute; width:585px; font-family:"modernewgregular"; font-size:12px; color:#FFF; margin-top:35px; margin-left:130px;}
+		#col21 .autdescribe .name a{ text-decoration:none; color:#FFF;}
+		#col21 .letcomment{ position:relative; height:50px; width:742px; font-family:"modernewgregular"; font-size:14px; color:#FFF; background-color:#3baae1;}
+		#col21 .letcomment .commenter{ position:absolute; font-family:"modernewgregular"; font-size:14px; color:#FFF; margin-left:608px; margin-top:15px; font-weight:normal;}
+		#col21 .letcomment a span{position:absolute; margin-left:10px;}
+		#col21 .letcomment a img{ border:none;}
+		#col21 .comments{ font-weight:normal; background-color:#3baae1; color:#FFF;}
+		
+		
+		#col21 .avatar-comment{ width:63px; height:63px; position:absolute; float:left; overflow:hidden; margin-left:18px;}
+		#col21 .commentlist{color:#FFF;}
+		#col21 .commentlist a{color:#FFF;}
+		#col21 .comment-content .pseudo{ font-size:12px; font-style:normal; color:#FFF;}
+		#col21 .comment-content .pseudo a{ font-size:12px; font-style:normal; color:#FFF;}
+		#col21 .comment-content{position: relative; width:585px; float:right; margin-bottom:40px; width:585px; margin-right:27px;}
+		
+		#col21 .logged{ color:#FFF; font-family:"modernewgregular"; font-size:12px;}
+		#col21 .logged a{ text-decoration:none; color:#FFF;}
+		#col21 .logged a:hover{ color:#e6e6e6;}
+		
+		#col21 .must_logged{ color:#FFF; font-family:"modernewgregular"; font-size:12px; padding-bottom:20px; margin-left:18px;}
+		#col21 .must_logged a{ text-decoration:none; color:#FFF;}
+		#col21 .must_logged a:hover{ color:#e6e6e6;}
+		
+		#col21 #commentform{position: relative; margin-left:18px;}
+		#col21 .form-pseudo{color:#FFF; font-size:14px; font-family:"modernewgsbregular";}
+		#col21 .form-pseudo-p{ margin-top:5px;}
+		#col21 .form-mail{color:#FFF; font-size:14px; font-family:"modernewgsbregular";}
+		#col21 .form-mail-p{ margin-top:5px;}
+		#col21 #postcomment{margin-left:18px; margin-top:10px; color:#FFF; font-size:14px; font-weight:normal; font-family:"modernewgsbregular";}
+		#col21 .input-pseudo{position: relative; margin-left:20px; font-family:"modernewgregular";}
+		#col21 .input-mail{position: relative; margin-left:20px;  font-family:"modernewgregular";}
+		#col21 .input-comment{ margin-top:5px; width:702px;  font-family:"modernewgregular";}
+		#col21 .formcommentaire{ background-color:#3baae1;}
+		#col21 #commentform input[type="submit"]{ margin-top:10px; margin-bottom:20px; background: transparent url('images/picto_commenter.gif') no-repeat top left; border:none; color:#FFF; font-family:"modernewgsbregular"; font-size:14px; height:20px; text-align:right; width:195px;}
+		#col21 #commentform input[type="submit"]:hover{ margin-top:10px; margin-bottom:20px; background: transparent url('images/picto_commenter.gif') no-repeat top left; border:none; color:#e6e6e6; font-family:"modernewgsbregular"; font-size:14px; height:20px; text-align:right; width:195px;}
+
+		#col21 #disqus_thread { width:700px; padding-top:20px; margin:auto; padding-bottom:10px;}
+		
+		
+		#col21 #login-content{ background-color:#FFF; width:742px; height:300px;}
+		#col21 #login-img{ position:absolute; height:340; width:135px; margin-top:15px; margin-left:102px;}
+		#col21 #login-txt{position: absolute; margin-top:66px; margin-left:300px;}
+		#col21 #login-txt #login-h1{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px;}
+		#col21 #login-txt .user_login{position:relative; margin-top:25px;}
+		#col21 #login-txt #user_login{ height:17px; width:150px; position:relative; margin-left:70px;}
+		#col21 #login-txt .user_password{position:relative; margin-top:25px;}
+		#col21 #login-txt #user_password{ height:17px; width:150px; position:relative; margin-left:41px;}
+		#col21 #login-txt .remember{position:relative; margin-top:25px;}
+		#col21 #login-txt #form_login input[type="submit"]{position:relative; margin-top:25px; height:20px; width:80px; background-color:#3baae1; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:99px;}
+		#col21 #login-txt #form_login input[type="submit"]:hover{position:relative; margin-top:25px; height:20px; width:80px; background-color:#73ccef; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:99px;}
+		#col21 #login-txt .error_login{width:420px; font-family:"modernewgregular"; color:#000; font-size:12px;}
+		#col21 #login-txt .error_login a{color:#3baae1;}
+		#col21 #login-txt .error_login a:hover{color:#73ccef;}
+		
+		#col21 #login-txt_register{position: absolute; margin-top:20px; margin-left:300px;}
+		#col21 #login-txt_register #login-h1{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px;}
+		#col21 #login-txt_register .user_login_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_register #user_login_register{ height:17px; width:150px; position:relative; margin-left:125px;}
+		#col21 #login-txt_register .user_email_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_register #user_email_register{ height:17px; width:150px; position:relative; margin-left:138px;}
+		#col21 #login-txt_register .user_pass_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_register #user_pass_register{ height:17px; width:150px; position:relative; margin-left:95px;}
+		#col21 #login-txt_register #modif_mdp1{ font-size:10px;}
+		#col21 #login-txt_register #modif_mdp2{ font-size:10px;}
+		#col21 #login-txt_register .user_pass2_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_register #user_pass2_register{ height:17px; width:150px; position:relative; margin-left:30px;}
+		#col21 #login-txt_register .verif_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_register #verif_register{ height:17px; width:150px; position:relative; margin-left:71px;}
+		#col21 #login-txt_register #form_register input[type="submit"]{position:relative; margin-top:20px; height:20px; width:80px; background-color:#3baae1; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:138px;}
+		#col21 #login-txt_register #form_register input[type="submit"]:hover{position:relative; margin-top:20px; height:20px; width:80px; background-color:#73ccef; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:138px;}
+		#col21 #login-txt_register .error_register{width:420px; font-family:"modernewgregular"; color:#000; font-size:12px;}
+		#col21 #login-txt_register .error_register a{color:#3baae1;}
+		#col21 #login-txt_register .error_register a:hover{color:#73ccef;}
+		
+#col21 #login-txt_profil{position: absolute; margin-top:60px; margin-left:300px;}
+		#col21 #login-txt_profil #login-h1{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px;}
+		#col21 #login-txt_profil .user_login_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_profil #user_login_register{ height:17px; width:150px; position:relative; margin-left:125px;}
+		#col21 #login-txt_profil .user_email_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_profil #user_email_register{ height:17px; width:150px; position:relative; margin-left:138px;}
+		#col21 #login-txt_profil .user_pass_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_profil #user_pass_register{ height:17px; width:150px; position:relative; margin-left:95px;}
+		#col21 #login-txt_profil #modif_mdp{ font-size:10px;}
+		#col21 #login-txt_profil #modif_mdp2{ font-size:10px; margin-top:10px;}
+		#col21 #login-txt_profil #modif_mdp2 a{ text-decoration:none; color:#3baae1;}
+		#col21 #login-txt_profil .user_pass2_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_profil #user_pass2_register{ height:17px; width:150px; position:relative; margin-left:30px;}
+		#col21 #login-txt_profil .verif_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_profil #verif_register{ height:17px; width:150px; position:relative; margin-left:71px;}
+		#col21 #login-txt_profil #form_register input[type="submit"]{position:relative; margin-top:20px; height:20px; width:80px; background-color:#3baae1; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:138px;}
+		#col21 #login-txt_profil #form_register input[type="submit"]:hover{position:relative; margin-top:20px; height:20px; width:80px; background-color:#73ccef; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:138px;}
+		#col21 #login-txt_profil .error_register{width:420px; font-family:"modernewgregular"; color:#000; font-size:12px;}
+		#col21 #login-txt_profil .error_register a{color:#3baae1;}
+		#col21 #login-txt_profil .error_register a:hover{color:#73ccef;}
+		
+
+#col21 #login-txt_resetpassword{position: absolute; margin-top:60px; margin-left:300px;}
+		#col21 #login-txt_resetpassword #login-h1{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px;}
+		#col21 #login-txt_resetpassword .user_login_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_resetpassword #user_login_register{ height:17px; width:150px; position:relative; margin-left:125px;}
+		#col21 #login-txt_resetpassword .user_email_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_resetpassword #user_email_register{ height:17px; width:150px; position:relative; margin-left:138px;}
+		#col21 #login-txt_resetpassword .user_pass_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_resetpassword #user_pass_register{ height:17px; width:150px; position:relative; margin-left:95px;}
+		#col21 #login-txt_resetpassword .user_pass2_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_resetpassword #user_pass2_register{ height:17px; width:150px; position:relative; margin-left:30px;}
+		#col21 #login-txt_resetpassword .verif_register{position:relative; margin-top:20px;}
+		#col21 #login-txt_resetpassword #verif_register{ height:17px; width:150px; position:relative; margin-left:71px;}
+		#col21 #login-txt_resetpassword #form_register input[type="submit"]{position:relative; margin-top:20px; height:20px; width:80px; background-color:#3baae1; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:138px;}
+		#col21 #login-txt_resetpassword #form_register input[type="submit"]:hover{position:relative; margin-top:20px; height:20px; width:80px; background-color:#73ccef; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:138px;}
+		#col21 #login-txt_resetpassword .error_register{width:420px; font-family:"modernewgregular"; color:#000; font-size:12px;}
+		#col21 #login-txt_resetpassword .error_register a{color:#3baae1;}
+		#col21 #login-txt_resetpassword .error_register a:hover{color:#73ccef;}
+		
+		
+#col21 #lost-content{ background-color:#FFF; width:742px; height:300px;}
+		#col21 #lost-content #login-img{ position:absolute; height:340; width:135px; margin-top:15px; margin-left:102px;}
+		#col21 #lost-content #lost-txt{position: absolute; margin-top:66px; margin-left:330px;}
+		#col21 #lost-content #lost-txt #login-h1{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px;}
+		#col21 #lost-content #lost-txt .user_email_lost{position:relative; margin-top:25px;}
+		#col21 #lost-content #lost-txt #user_email_lost{ height:17px; width:150px; position:relative; margin-left:45px;}
+		#col21 #lost-content #lost-txt #form_lost input[type="submit"]{position:relative; margin-top:25px; height:20px; width:80px; background-color:#3baae1; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:99px;}
+		#col21 #lost-content #lost-txt #form_lost input[type="submit"]:hover{position:relative; margin-top:25px; height:20px; width:80px; background-color:#73ccef; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:99px;}
+		#col21 #lost-content #lost-txt .error_login{width:420px; font-family:"modernewgregular"; color:#000; font-size:12px;}
+		#col21 #lost-content #lost-txt .error_login a{color:#3baae1;}
+		#col21 #lost-content #lost-txt .error_login a:hover{color:#73ccef;}
+		
+		
+#col21 #content_contact{ background-color:#FFF; width:742px; height:620px;}
+		#col21 #content_contact #content-txt{position:absolute; margin-top:20px; margin-left:30px; width:692px;}
+		#col21 #content_contact #login-h1{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px;}
+		#col21 #content_contact #descibe_contact{position:relative; margin-top:10px;}
+		#col21 #content_contact #descibe_contact span{ font-family:"modernewgsbregular";}
+		#col21 #content_contact #descibe_contact a{color:#3baae1;}
+		#col21 #content_contact #contact{position:relative; margin-top:20px;}
+		#col21 #content_contact .champs_obligatoire{ font-size:10px;}
+		#col21 #content_contact #pseudo_contact{ height:17px; width:150px; position:relative; margin-left:125px;}
+		#col21 #content_contact .email_contact{position:relative; margin-top:20px;}
+		#col21 #content_contact #email_contact{ height:17px; width:150px; position:relative; margin-left:138px;}
+		#col21 #content_contact .verif_contact{position:relative; margin-top:20px;}
+		#col21 #content_contact #verif_contact{ height:17px; width:150px; position:relative; margin-left:114px;}
+		#col21 #content_contact .sujet_contact{position:relative; margin-top:20px;}
+		#col21 #content_contact #sujet_contact{ height:20px; width:200px; position:relative; margin-left:162px;}
+		#col21 #content_contact .message_contact{position:relative; margin-top:20px;}
+		#col21 #content_contact #message_contact{ height:100px; width:450px; position:relative; margin-left:121px;}
+		#col21 #content_contact #contact input[type="submit"]{position:relative; margin-top:20px; height:25px; width:80px; background-color:#3baae1; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:595px;}
+		#col21 #content_contact #contact input[type="submit"]:hover{position:relative; margin-top:20px; height:25px; width:80px; background-color:#73ccef; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:595px;}
+		#col21 #content_contact .error_register{width:420px; font-family:"modernewgregular"; color:#000; font-size:12px;}
+		#col21 #content_contact .error_register a{color:#3baae1;}
+		#col21 #content_contact .error_register a:hover{color:#73ccef;}
+		
+#col21 #content_dev{ background-color:#FFF; width:742px; height:535px;}
+		#col21 #content_dev #content-txt{position:absolute; margin-top:20px; margin-left:30px; width:692px;}
+		#col21 #content_dev #login-h1{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px;}
+		#col21 #content_dev #descibe_dev{position:relative; margin-top:10px;}
+		#col21 #content_dev #descibe_dev span{ font-family:"modernewgsbregular";}
+		#col21 #content_dev #descibe_dev a{color:#3baae1;}
+		#col21 #content_dev #contact_dev{position:relative; margin-top:20px;}
+		#col21 #content_dev .champs_obligatoire{ font-size:10px;}
+		#col21 #content_dev #pseudo_dev{ height:17px; width:150px; position:relative; margin-left:125px;}
+		#col21 #content_dev .email_dev{position:relative; margin-top:20px;}
+		#col21 #content_dev #email_dev{ height:17px; width:150px; position:relative; margin-left:138px;}
+		#col21 #content_dev .verif_dev{position:relative; margin-top:20px;}
+		#col21 #content_dev #verif_dev{ height:17px; width:150px; position:relative; margin-left:114px;}
+		#col21 #content_dev .sujet_dev{position:relative; margin-top:20px;}
+		#col21 #content_dev #sujet_dev{ height:20px; width:260px; position:relative; margin-left:102px;}
+		#col21 #content_dev .message_dev{position:relative; margin-top:20px;}
+		#col21 #content_dev #message_dev{ height:100px; width:450px; position:relative; margin-left:121px;}
+		#col21 #content_dev #contact_dev input[type="submit"]{position:relative; margin-top:20px; height:25px; width:80px; background-color:#3baae1; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:595px;}
+		#col21 #content_dev #contact_dev input[type="submit"]:hover{position:relative; margin-top:20px; height:25px; width:80px; background-color:#73ccef; border:none; color:#FFF; font-family:"modernewgregular"; font-size:14px; margin-left:595px;}
+		#col21 #content_dev .error_register{width:420px; font-family:"modernewgregular"; color:#000; font-size:12px;}
+		#col21 #content_dev .error_register a{color:#3baae1;}
+		#col21 #content_dev .error_register a:hover{color:#73ccef;}
+		
+		
+
+		
+		
+#col21 #content_mentions{ background-color:#FFF; width:742px; height:650px; font-family:}
+		#col21 #content_mentions #content-txt{position:absolute; margin-top:20px; margin-left:30px; width:692px; font-size:13px;}
+		#col21 #content_mentions #content-txt span{ font-family:"modernewgsbregular";}
+		#col21 #content_mentions #login-h1{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px;}
+		
+		
+#col21 #content_a_propos{ background-color:#FFF; width:742px; height:280px;}
+		#col21 #content_a_propos #content-txt{position:absolute; margin-top:20px; margin-left:30px; width:692px; font-size:13px;}
+		#col21 #content_a_propos #content-txt span{ font-family:"modernewgsbregular";}
+		#col21 #content_a_propos #login-h1{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px;}
+		#col21 .presentation_equipe{ background-color:#676767;}	
+		#col21 .presentation_equipe #login-h2{color:#3baae1; font-family:"modernewgsbregular"; font-size:14px; margin-left:20px;}
+		#col21 .presentation_contact_mail{ font-size:11px; font-family:"modernewglregular";}
+		
+		#col21 #boutique{ background-color:#FFF; height:1000px; width:1050px;}
+	
+	
+	#col22{ float:right; width:300px; margin-left:8px;}
+	#col22 #search-2{ width:300px; height:44px; background-color:#FFF; margin-bottom:8px;}
+	#col22 #search-2 .champs-search{ width:181px; height:23px; font-family:"modernewgslregular"; font-size:14px; color:#909090; margin-top:9px; margin-left:46px; font-style:italic;}
+	/* Pour Chrome / Safari */
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#col22 #search-2 .champs-search{ width:181px; height:21px; font-family:"modernewgslregular"; font-size:14px; color:#909090; margin-top:9px; margin-left:46px; font-style:italic;}}	
+	#col22 #search-2 .btn-search{ width:25px; height:25px; margin-top:-25px; margin-left:229px;}
+	
+	#col22 .social{ position:relative; height:44px; width:300px; background-color:#FFF; margin-bottom:8px; font-family:"modernewgregular"; font-size:14px;}
+	#col22 .social img{ border:none;}
+	#col22 .social .inscription{ position:absolute; text-decoration:none; color:#000; margin-top:12px; margin-left:30px;}
+	#col22 .social .inscription span{position:absolute; margin-left:10px;}
+	#col22 .social .connexion{ position:absolute; text-decoration:none; color:#3baae1; margin-top:12px; margin-left:175px;}
+	#col22 .social .connexion span{position:absolute; margin-left:9px;}
+	#col22 .social .se_deconnecter{ position:absolute; text-decoration:none; color:#000; margin-top:12px; margin-left:15px;}
+	#col22 .social .se_deconnecter span{position:absolute; margin-left:9px; width:96px;}
+	#col22 .social .mon_compte{ position:absolute; text-decoration:none; color:#3baae1; margin-top:12px; margin-left:176px;}
+	#col22 .social .mon_compte span{position:absolute; margin-left:10px; width:80px;}
+	
+	#col22 #sfc-fanbox-2{ margin-bottom:8px; background-color:#FFF;}
+	
+	#col22 .twitter_follow{position:relative; width:300px; height:74px; background-color:#FFF; margin-bottom:8px;}
+	#col22 .twitter_follow .box_title{background-color:#3baae1; width:300px; height:24px; margin-bottom:15px;}
+	#col22 .twitter_follow .title_follow{ font-family:"modernewgsbregular"; font-size:18px; margin-left:38px; color:#FFF;}
+	#col22 .twitter_follow .btn_follow{ width:300px; height:50px; margin-left:38px; border:thin; border-color:#5dd7fc;}
+	
+	#col22 #simpletags-2{ background-color:#FFF; margin-bottom:8px;}
+	#col22 #simpletags-2 h2{ font-family:"modernewgsbregular"; font-size:14px; color:#3baae1; position:relative; margin-left:25px;}
+	#col22 #simpletags-2 a{ text-decoration:none; color:#000;}
+	#col22 .st-tag-cloud{ width:250px; margin-left:25px; margin-top:2px;}
+	
+	#col22 .adgoogle{ margin-bottom:8px;}
+	#col22 .adgoogle2{ margin-bottom:8px;}
+	#col22 .adMS1{ margin-bottom:8px;}
+	#col22 .adMS1 a{ border:none;}
+	#col22 .adMS1 img{ border:none;}
+	
+	#col22 #partenaires{width:300px; height:125px; background-color:#FFF; margin-bottom:8px;}
+	#col22 #partenaires #title_partenaires{background-color:#3baae1; width:300px; height:24px; margin-bottom:10px;}
+	#col22 #partenaires #title_partenaires #txt_title_partenaires{font-family:"modernewgsbregular"; font-size:18px; margin-left:25px; color:#FFF;}
+	#col22 #partenaires #liste_pertenaires ul{list-style:none;}
+	#col22 #partenaires #liste_pertenaires ul li{ margin-left:25px; margin-bottom:5px;}
+	#col22 #partenaires #liste_pertenaires ul li a{ text-decoration:none; color:#000;}
+	
+	#col22 #suggestion{width:300px; height:100px; background-image:url(images/suggestion.jpg); margin-bottom:8px;}
+	#col22 #suggestion #txt_suggestion{font-family:"modernewgsbregular"; font-size:18px; text-align:center;}
+	#col22 #suggestion #txt_suggestion ul{list-style:none; position:absolute; margin-top:13px; margin-left:41px;}
+	#col22 #suggestion #txt_suggestion ul li{margin-bottom:5px;}
+	#col22 #suggestion #txt_suggestion #l2{ color:#3baae1;}
+	#col22 #suggestion #txt_suggestion #l3{ font-size:11px;}
+	#col22 #suggestion #txt_suggestion ul li a{ text-decoration:underline; color:#000;}
+	
+	#col22 #RS_Sidebar{width:300px; height:267px; margin-bottom:8px; background-image:url(images/BG-RS-SideBar.png); font-family:"modernewgsbregular"; font-size:15px; color:#FFF;}
+	#col22 #RS_Sidebar .txt_RS_SideBar{position:absolute; margin-top:12px; margin-left:16px;}
+	#col22 #RS_Sidebar .Facbook_RS_SideBar{position:absolute; margin-top:80px; margin-left:76px;}
+	#col22 #RS_Sidebar .Twitter_RS_SideBar{position:absolute; margin-top:157px; margin-left:78px;}
+	#col22 #RS_Sidebar .YouTube_RS_SideBar{position:absolute; margin-top:229px; margin-left:91px;}
+	
+	
+	
+	#col22 #applications_WG{width:300px; height:90px; background-color:#00adef; margin-bottom:8px;}
+	#col22 #applications_WG #img_appli{ position:absolute; margin-top:7px; margin-left:20px;}
+	#col22 #applications_WG #txt_appli{ position:absolute; font-family:"modernewgregular"; font-size:15px; text-align:center; margin-left:156px; color:#FFF; margin-top:13px;}
+	#col22 #applications_WG #txt_appli ul{list-style:none;}
+	#col22 #applications_WG #txt_appli ul li{margin-bottom:5px;}
+	#col22 #applications_WG #txt_appli #l2{font-size:16px;}
+	#col22 #applications_WG #txt_appli #l3 span{ margin-left:7px;}
+	#col22 #applications_WG #txt_appli ul li a{ text-decoration:none; color:#FFF;}
+	#col22 #applications_WG #txt_appli ul li a:hover{ text-decoration:underline; color:#FFF;}
+	
+	
+#footer{position:relative; width:1050px; height:200px; background-color:#000; background-repeat:no-repeat; background-position:top left; margin:0 auto;}
+	#footer #most_viewed{ position:absolute; color:#FFF; font-family:"modernewgregular"; font-size:15px; height:20px; width:125px; margin-top:20px; margin-left:-41px;}
+	#footer #most_viewed span{ position:absolute; margin-left:5px; margin-top:0px; width:100px;}
+	#footer #fct_most_viewed{ position:absolute; width:480px; color:#FFF; margin-top:55px; margin-left:40px;}
+	#footer #fct_most_viewed ul li a{color:#FFF;}
+	#footer #fct_most_viewed ul li{list-style:none; text-align:left; font-family:"modernewgregular"; font-size:14px; margin-bottom:10px;}
+	
+	#footer #followus_foot{color:#FFF; width:335px; position:absolute; margin-left:538px; text-align:left;}
+	#footer #followus_foot img{border:none;}
+	#footer #followus_foot #retrouvez_nous{position: relative; margin-top:20px; height:20px;}
+	#footer #followus_foot #retrouvez_nous span{position: absolute; margin-left:10px; margin-top:0px; font-family:"modernewgregular"; font-size:15px;}
+	#footer #followus_foot ul.list_icons_1{position:absolute; margin-top:20px; margin-left:26px;}
+	#footer #followus_foot ul.list_icons_1 li{ float:left; list-style:none; width:60px; text-align:center;}
+	#footer #followus_foot ul.list_icons_1 li a span{display:block; margin-top:13px;}
+	#footer #followus_foot ul.list_icons_1 li a{float:left; width:57px; color:#FFF; font-family:"modernewgregular"; font-size:10px; text-transform:uppercase;}
+	#footer #followus_foot ul.list_icons_1 li a:hover{float:left; width:57px; color:#3baae1; font-family:"modernewgregular"; font-size:10px; text-transform:uppercase;}
+	
+	#footer #followus_foot ul.list_icons_2{position:absolute; margin-top:80px; margin-left:26px;}
+	#footer #followus_foot ul.list_icons_2 li{ float:left; list-style:none; width:60px; text-align:center;}
+	#footer #followus_foot ul.list_icons_2 li a span{display:block; margin-top:13px;}
+	#footer #followus_foot ul.list_icons_2 li a{float:left; width:57px; color:#FFF; font-family:"modernewgregular"; font-size:10px; text-transform:uppercase;}
+	#footer #followus_foot ul.list_icons_2 li a:hover{float:left; width:57px; color:#3baae1; font-family:"modernewgregular"; font-size:10px; text-transform:uppercase;}
+	
+	#footer .TouchCommunities { width:214px; height:85px; position:absolute; margin-top:54px; margin-left:707px;}
+	#footer .TouchCommunities .txt_touch_communities { font-size:10px; color:#FFF; text-align:left; font-family:"modernewglregular"; margin-top:15px;}
+	
+	#footer #mention_wg{width:88px; height:100px; position:absolute; margin-top:43px; margin-left:946px;}
+	#footer #mention_wg ul li{list-style:none; color:#FFF; text-align:center;}
+	#footer #mention_wg .mention_windows{ font-family:"modernewgregular"; font-size:21px; margin-top:0px;}
+	#footer #mention_wg .mention_gen{ font-family:"modernewgregular"; font-weight:100; font-size:19px; margin-top:-4px;}
+	#footer #mention_wg .mention_tdr{ font-family:"modernewgregular"; font-size:10px; margin-top:-3px;}
+	
+	#footer #links_mention1 ul{ text-align:center; width:332px; margin-left:715px;}
+	#footer #links_mention1 ul li{float:left; font-family:"modernewgregular"; font-size:10px; list-style:none; margin-top:170px; padding-right:19px;}
+	#footer #links_mention1 ul li a{color:#FFF;}
+	#footer #links_mention1 ul li a span{color:#FFF; margin-left:5px;}
+	

@@ -1,0 +1,18 @@
+﻿.header{
+	font-family:Arial Unicode MS;
+	font-size:13pt;
+	color:#ffffff;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;
+}
+.upsell{
+	font-family:Arial Unicode MS;
+	font-size:10pt;
+	color:#000000;	
+	leading:-2pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+

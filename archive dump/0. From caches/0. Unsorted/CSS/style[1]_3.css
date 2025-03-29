@@ -1,0 +1,164 @@
+/**  == FONT REPLACEMENT FOR CART PAGES == **/
+.cart_block_right .quickbuy h3,p.make_payment .txtDefault, .blueBtn, .greenBtn, .orangeBtn,submit.blueBtn, submit.greenBtn, submit.orangeBtn, .cartProgress {font-family: 'Arimo';}
+
+/** == CART PAGE LAYOUT == **/
+#cart_leftcolumn{width: 239px;float:left; position:relative; padding-left: 1px; }
+#cart_maincolumn{position: relative; width:818px;float:right; padding: 0;}
+#cart_maincolumn .page_view {padding: 0;margin: 0 20px 0 0;}
+#cart_maincolumn .page_view p {margin: 10px 0;line-height: 16px;}
+#cartTable td {vertical-align: top}
+#cartTable td.tdright {width: 200px; text-align: center;height: 100%;}
+table#tdright1 {height: 100%}
+table#tdright1 td.td1 {vertical-align: top;}
+table#tdright1 td.td2 {vertical-align: bottom !important;}
+
+
+.cart_block_left {position: relative;float: left;width: 560px;}
+.cart_block_right {position: relative;float: right;width: 200px;height: 100%;text-align: center;padding-bottom: 10px;margin-bottom: 20px;}
+.cart_block_right div {font-size: 12px;line-height: 14px;padding: 0 8px;margin-bottom: 10px;}
+
+.cart_block_right .quickbuy {}
+.cart_block_right .quickbuy h3 {font-size: 16px;text-transform: uppercase;color: #11acba;}
+.cart_block_right .quickbuy .textbox {width: 150px;float: left;}
+.cart_block_right .quickbuy .orangeBtn {font-size: 12px;line-height: 14px;padding: 5px 2px 2px 2px;}
+
+.coupon_block {float: right;width: 200px;text-align: center;padding: 0;}
+.coupon_block p {margin: 0 0 10px 0}
+.coupon_block .textbox {width: 150px; /*height: 24px;*/}
+.coupon_block a.orangeBtn {font-size: 14px;}
+
+.updateBtn {float: right;text-align: right;}
+.updateBtn p.ub1{ margin: 5px 0 10px 0;line-height: 170%;}
+.updateBtn p.ub1 a.blueBtn {font-size: 15px;}
+.updateBtn p.ub2 {text-align: center;margin: 0 auto;font-size: 11px;padding: 0;}
+
+.coupon_block table#table1 {float: right;}
+.coupon_block table#table2 {float: right;width: 200px;margin: 20px 0;}
+.coupon_block table#table2 td {padding: 10px 0;}
+.coupon_block table#table2 select.textbox {width: 158px !important;padding: 2px !important; line-height: 20px;height: 22px;}
+.coupon_block table#table2 input.textbox {width: 146px !important;line-height: 18px;height: 18px;}
+.altcheckout {float: right;width: 200px;text-align: center;}
+
+
+/** == TEXTBOXES STYLING == **/
+.textbox, select {
+-moz-box-shadow: inset 0 0 5px #888;
+-webkit-box-shadow: inset 0 0 5px #888;
+box-shadow: inner 0 0 5px #888;
+background: #FFFFFF;
+color: #555555;
+padding: 2px 5px !important;
+border:1px solid #BBB;
+font-size: 12px;
+line-height: 16px !important;
+}
+
+.textboxDisabled {background-color: #11acba;border: 1px solid #333333;font-size: 12px;color: #FFFFFF;}
+select {color: #555555; border: 1px solid #BBB; padding: 2px;}
+
+/** == SITE WIDE BUTTONS == **/
+p.make_payment .txtDefault, .blueBtn, .greenBtn, .orangeBtn,submit.blueBtn, submit.greenBtn, submit.orangeBtn {font-size: 11px;text-align: center;padding: 5px;text-transform: uppercase;border:none;cursor: pointer;margin: 0;}
+.blueBtn, p.make_payment .txtDefault {background: #11acba;color: #FFFFFF;}
+.greenBtn {background: #a4bf0a;color: #FFFFFF;}
+.orangeBtn {background: #f3713d;color: #FFFFFF;}
+.blueBtn:hover, p.make_payment .txtDefault:hover, submit.blueBtn:hover {background: #f3713d;color: #FFFFFF;}
+.greenBtn:hover, submit.greenBtn {background: #f3713d;color: #FFFFFF;}
+.orangeBtn:hover, submit.orangeBtn {background: #11acba;color: #FFFFFF;}
+
+/** == MISCELLANEOUS STYLING == **/
+.txtOldPrice {text-decoration:line-through;}
+.txtSale {color: #11acba;}
+.txtOutOfStock, .txtStockWarn {	color: #FF0000;}
+.txtError {font-weight: bold;color: #050F72;background-color: #FFCECE;border: 1px solid #FF0000;padding: 2px;}
+
+ul#myaccount {overflow: hidden;text-align: left;}
+ul#myaccount li {float: left;width: 200px;padding: 20px;text-align: center;font-size: 14px;}
+ul#myaccount li img {margin-bottom: 10px;}
+ul#myaccount li a {display: block;}
+ul#myaccount li a:hover {/* for IE */  filter:alpha(opacity=5);/* CSS3 standard */ opacity:0.5;/* OLDER Browsers */-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";}
+
+/** REQUIRED TO REMOVE JS BUG / DO NOT DELETE == **/
+a.flashBasket:active, a.flashBasket:link, a.flashBasket:visited, a.flashBasket:hover {}
+
+/** == UNKNOWN == **/
+.addCoupon:hover, .addCoupon:active, .addCoupon:visited, .addCoupon:link  {font-weight: bold;color: #000000;text-decoration: none;font-weight: bold;}
+
+/** == CART PAGES STYLING == **/
+.cartProgress {font-weight: normal;color: #AAA;padding: 4px;text-transform: uppercase;height: 25px;line-height: 200%;text-align: left;font-size: 14px;margin-bottom: 20px;}
+.txtcartProgressCurrent {color: #11acba;}
+.tdcartTitle {padding: 5px; color: #FFFFFF;background-color: #f3713d;}
+
+/** == STEP 1 PAGE == **/
+#login_block_top {border-top: 5px solid #f3713d;padding-top: 10px;width: 350px;float: right;display: inline;margin-right: 40px;padding-left: 10px;}
+.login_block_bottom {border-top: 5px solid #f3713d;padding-top: 10px;padding-right: 40px;float: left;display: inline;width: 358px;}
+#login_block_top h1,.login_block_bottom h2,.login_block_bottom h3 {color: #11acba;text-transform: uppercase;font-size: 16px;margin: 0 0 10px 0;}
+#login_block_top p,.login_block_bottom p {line-height: 130%;}
+table#loginTable {margin: 20px auto 0;}
+table#loginTable .textbox {/*height: 24px;*/}
+.regSep{margin: 0 0 50px 0;}
+.regSep p {margin: 0 0 15px 0}
+
+/** == TABLES & FORMS == **/
+table td {padding: 8px 5px; vertical-align: middle;}
+td.g_button {text-align: center;}
+
+table#ViewCartTable td {}
+table#ViewCartTable p {margin: 0 0 5px 0}
+table#ViewCartTable .textbox {width: 20px;text-align: center; /*padding: 2px 0 0 0; height: 22px;*/}  
+table#ViewCartTable select#shipping-select {padding-top: 0;text-align: left;width: 95px;font-size: 12px;}
+table#ViewCartTable .tdcartOdd, table#ViewCartTable .tdcartEven {background-color: #FFFFFF;border-bottom: 1px dashed #CCC;}
+table#ViewCartTable .tdCartSubTotal {padding-top: 10px;border-top: 5px solid #f3713d;}
+table#EditDeliveryTable,table#FixedDeliveryTable {margin-bottom: 20px;}
+
+table#TAFForm {margin: 10px 0;}
+table#TAFForm td {vertical-align: top;padding: 10px 10px;}
+table#TAFForm .textbox {width: 200px;}
+table#registrationTable .textbox, table#registrationTable select
+table#registrationTable select.textbox {width: 160px !important; }
+table#registrationTable select {padding-top: 3px;}
+table#registrationTable .noaccount { border: 1px dashed #777;width: 335px;}
+table#registrationTable p {margin: 10px !important; line-height: 16px;}
+table#registrationTable .noaccount p.na2 {color: #11acba;text-align: center;}
+
+table#gatewayTable {margin: 30px auto 0;}
+table#gatewayTable td.tdcartOdd {border-bottom: 1px solid #CCC}
+table#gatewayTable td {padding: 8px 0;}
+table#gatewayTable td {text-align: left;}
+
+table#profileTable .textbox {width: 200px; /*padding: 2px 0 0 2px;height: 24px;*/}
+
+table#viewordersTable {margin-bottom: 30px;}
+table#viewordersTable td {vertical-align: top;border-bottom: 1px solid #DDD;}
+table#viewordersTable td p {margin: 0 0 10px 0 !important}
+ol#order_info li {}
+ol#order_info li p {margin: 0;}
+ol#order_info li strong {font-weight: normal;font-size: 18px;color: #11acba;}
+ol#order_info li {margin: 30px 15px}
+
+table#vieworderTable {width: 750px;margin: 20px 0;}
+table#adv_Search .textbox {width: 197px;}
+
+
+/** == ESTELLE'S SHIPPING ESTIMATE MOD == **/
+#se-estimates {
+width:45%; 
+height: 140px;
+margin-bottom: 20px; 
+padding: 5px 8px; 
+border: 1px solid #E1E1E1;
+}
+
+#se-coupon {
+width: 50%; 
+height: 140px;
+margin-bottom: 20px; 
+padding: 5px 8px; 
+border: 1px solid #E1E1E1;
+}
+
+#se-estimates td .textbox {width: 85px;}
+#se-estimates td .textbox_dropdown {width: 130px;}
+
+/** == DEVELLION COPYRIGHT NOTICE == **/
+.txtCopyright, a.txtCopyright {text-align: center;font-size: 11px;padding-top: 5px; color: #666666;}
+a.txtCopyright:hover {text-decoration: none;}

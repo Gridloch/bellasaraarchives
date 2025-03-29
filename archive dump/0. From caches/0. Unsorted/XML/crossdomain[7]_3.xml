@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/crossdomain-policy.dtd">
+<cross-domain-policy>
+  <site-control permitted-cross-domain-policies="master-only"/>
+  <allow-access-from domain="*.android.com"/>
+  <allow-access-from domain="*.blogger.com"/>
+  <allow-access-from domain="*.google.com"/>
+  <allow-access-from domain="*.orkut.com"/>
+  <allow-access-from domain="*.schemer.com"/>
+  <allow-access-from domain="s.ytimg.com"/>
+  <allow-access-from domain="*.youtube.com"/>
+  <allow-http-request-headers-from domain="*" headers="Accept,Accept-Language,Authorization,Cache-Control,Content-Disposition,Content-Encoding,Content-Language,Content-Length,Content-MD5,Content-Range,Content-Type,Date,GData-Version,Host,If-Match,If-Modified-Since,If-None-Match,If-Unmodified-Since,Origin,OriginToken,Pragma,Range,Slug,Transfer-Encoding,X-ClientDetails,X-GData-Client,X-GData-Key,X-Goog-AuthUser,X-Goog-PageId,X-Goog-Encode-Response-If-Executable,X-Goog-Correlation-Id,X-Goog-Request-Info,X-Goog-Upload-Command,X-Goog-Upload-Content-Disposition,X-Goog-Upload-Content-Length,X-Goog-Upload-Content-Type,X-Goog-Upload-Offset,X-Goog-Upload-Protocol,X-Goog-Visitor-Id,X-HTTP-Method-Override,X-JavaScript-User-Agent,X-Origin,X-Referer,X-Upload-Content-Length,X-Upload-Content-Type,X-Use-HTTP-Status-Code-Override,X-YouTube-VVT,X-YouTube-Page-CL,X-YouTube-Page-Timestamp"/>
+</cross-domain-policy>

@@ -1,0 +1,11 @@
+
+form#content-copying-between-territories-form div#autocomplete,
+form#content-copying-within-territory-form div#autocomplete{
+    max-height: 300px !important;
+    overflow-y: scroll;
+}
+form#content-copying-between-territories-form input#edit-content-item-selection,
+form#content-copying-within-territory-form input#edit-content-item-selection{
+    width: 600px;
+}
+

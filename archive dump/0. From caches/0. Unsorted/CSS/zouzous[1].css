@@ -1,0 +1,138 @@
+/* General */
+#pad_zouzous {
+width:720px;
+height:198px;
+margin:0 auto;
+margin-bottom:25px;
+}
+
+.pad {
+display:block;
+width:170px;
+height:198px;
+margin-right:5px;
+float:left;
+}
+
+.pad_head {
+height:63px;
+text-align:center;
+}
+
+.pad_body {
+height:135px;
+}
+
+.pad_body a {
+border:0;
+border-color:#EEEEEE;
+}
+
+.pad_body a img {
+border:0;
+display:block;
+float:right
+}
+
+/* Particulier */
+/* videos */
+#pad_videos {
+}
+#pad_videos .pad_head {
+background: url('../images/charte/zouzous/videos_head.png') bottom right no-repeat;
+padding-left:58px;
+padding-top:12px;
+height:51px;
+width:112px;
+}
+#pad_videos .pad_body {
+background: url('../images/charte/zouzous/videos_body.png') bottom right no-repeat;
+}
+#pad_videos .pad_body img{
+margin-right:26px;
+width:97px;
+height:102px;
+}
+
+/* jeux */
+#pad_jeux {
+margin-right:14px;
+}
+#pad_jeux .pad_head {
+background: url('../images/charte/zouzous/jeux_head.png') bottom right no-repeat;
+padding-left:62px;
+padding-top:15px;
+height:48px;
+width:108px;
+}
+#pad_jeux .pad_body {
+background: url('../images/charte/zouzous/jeux_body.png') bottom right no-repeat;
+width:170px;
+}
+#pad_jeux .pad_body img{
+width:101px;
+height:82px;
+margin-right:25px;
+margin-top:19px;
+}
+
+/* colo */
+#pad_coloriage {
+margin-right:6px;
+}
+#pad_coloriage .pad_head {
+background: url('../images/charte/zouzous/coloriage_head.png') bottom right no-repeat;
+padding-left:42px;
+padding-top:8px;
+height:55px;
+width:128px;
+}
+#pad_coloriage .pad_body {
+background: url('../images/charte/zouzous/coloriage_body.png') bottom right no-repeat;
+}
+#pad_coloriage .pad_body img{
+width:128px;
+height:127px;
+margin-right:24px;
+}
+
+/* creation */
+#pad_activite {
+margin-right:6px;
+}
+#pad_activite .pad_head {
+background: url('../images/charte/zouzous/coloriage_head.png') bottom right no-repeat;
+padding-left:42px;
+padding-top:8px;
+height:55px;
+width:128px;
+}
+#pad_activite .pad_body {
+background: url('../images/charte/zouzous/coloriage_body.png') bottom right no-repeat;
+}
+#pad_activite .pad_body img{
+width:128px;
+height:127px;
+margin-right:24px;
+}
+
+/* images */
+#pad_images {
+}
+#pad_images .pad_head {
+background: url('../images/charte/zouzous/images_head.png') bottom right no-repeat;
+padding-left:58px;
+padding-top:7px;
+height:56px;
+width:112px;
+}
+#pad_images .pad_body {
+background: url('../images/charte/zouzous/images_body.png') bottom right no-repeat;
+height:135px;
+width:170px;
+}
+#pad_images .pad_body img{
+margin-right:16px;
+width:129px;
+height:115px;
+}

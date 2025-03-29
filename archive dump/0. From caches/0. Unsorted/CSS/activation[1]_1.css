@@ -1,0 +1,310 @@
+.activation-main
+{
+    position: relative;
+    left: 13px;
+    background-image: url('../../images/activation-background.jpg' );
+    background-repeat: no-repeat;
+    height: 458px;
+    width: 886px;
+    color: #000000;
+}
+
+.activationbuttonsmalllink
+{
+    font-size: 16px;
+    color: #7F3CA3;
+    text-decoration: none;
+}
+.activation-buttonsmall
+{
+    background-image: url('../../images/activation-buttonsmall.gif' );
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 128px;
+    text-align: center;
+    padding-top: 12px;
+}
+.activationbuttonlink
+{
+    font-size: 14px;
+    color: #7F3CA3;
+    text-decoration: none;
+}
+.activation-button
+{
+    background-image: url('../../images/activation-button.gif' );
+    background-repeat: no-repeat;
+    height: 51px;
+    width: 168px;
+    text-align: center;
+    padding-top: 12px;
+}
+.activationanotherhreflink
+{
+    font-size: 16px;
+    color: #0000EE;
+}
+
+a.activation-check
+{
+    display: block;
+    width: 56px;
+    height: 52px;
+    background: url(../../images/activation-check.gif) 0 0 no-repeat;
+    text-decoration: none;
+}
+a:hover.activation-check
+{
+    background-position: -56px 0;
+}
+.activation-headertext
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.activation-subheadtext
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.activation-specialtext
+{
+    font-size: 16px;
+    color: #910FA7;
+    font-weight: bold;
+}
+.activation-inputtext
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.activation-bodytext
+{
+    font-size: 14px;
+}
+.activation-input
+{
+    background-image: url('../../images/activation-input-background.jpg' );
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-x-position: 0%;
+    background-y-position: 0%;
+    width: 214px;
+    height: 31px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: -moz-use-text-color;
+    border-right-color: -moz-use-text-color;
+    border-bottom-color: -moz-use-text-color;
+    border-left-color: -moz-use-text-color;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.activation-text2
+{
+    position: relative;
+    font-size: 14px;
+}
+
+.activation-leftbox
+{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.activation-rightbox
+{
+    position: relative;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+.activation-inputbox
+{
+    position: absolute;
+    left: 320px;
+    top: 390px;
+}
+
+.activation-leftboxheaderintro
+{
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.activation-leftboxintro
+{
+    position: relative;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 0px;
+    top: -35px;
+    left: -25px;
+    text-align: center;
+}
+
+.activation-inputboxintro
+{
+    position: absolute;
+    left: 130px;
+    top: 205px;
+}
+
+#activation-hints li
+{
+    list-style-type: circle;
+}
+
+.activation-rightboxheader
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #813DA4;
+}
+
+.activation-helpfulhintsbox
+{
+    background-color: #e1d4ee;
+    position: absolute;
+    top: 79px;
+    left: 520px;
+    width: 291px;
+    height: 368px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 5px;
+    text-align: left;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.activation-congratulation-inputbox
+{
+    position: absolute;
+    left: 550px;
+    top: 380px;
+}
+
+.activation-toprow
+{
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+
+.activation-helpfulhintsheader
+{
+	vertical-align: top;
+}
+
+.activation-successCardThumb
+{
+	padding-left:15px;
+	padding-right:0px;
+	padding-top:0px;
+	vertical-align:middle;
+}
+
+.activation-cellCardImage
+{
+	padding-bottom:10px;
+	padding-top:10px;
+	width:480px;
+	height:295px;
+	vertical-align:middle;
+}
+
+.activation-cellCardImageSuccess
+{
+	padding-bottom:10px;
+	padding-top:10px;
+	width:580px;
+	height:295px;
+	vertical-align:middle;
+}
+
+.activation-stableAll
+{
+	position: absolute;
+    left: 80px;
+    top: 410px;
+}
+
+.activation-cellTopLeft
+{
+	padding-top:25px;
+	padding-left:10px;
+	padding-right:1px;
+	padding-bottom:5px;
+	width: 420px;
+}
+
+.activation-cellTopLeftSuccess
+{
+	padding-top:25px;
+	padding-left:10px;
+	padding-right:1px;
+	padding-bottom:5px;
+	width: 520px;
+}
+
+.activation-cellHorseCircle
+{
+	padding-top:20px;
+	padding-left:60px;
+	padding-right:0px;
+	padding-bottom:0px;
+	width:60px;
+}
+
+.activation-tableActivate
+{
+	width:886px;
+}
+
+.activation-questionCircle
+{
+	padding-top:20px;
+	padding-left:40px;
+	padding-right:10px;
+	padding-bottom:5px;
+	width:37px;
+}
+
+.activation-helpHints
+{
+	padding-top:25px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:5px;
+	text-align:left;
+}
+
+.activation-cellMiddleRight
+{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.activation-outerCellSwf
+{
+	vertical-align: middle;
+}

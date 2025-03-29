@@ -1,0 +1,167 @@
+
+/* FR-sprites-dpSprites-3614783419.css start */
+
+#versionBump1 { margin: 0; } 
+.dpSprite { display: -moz-inline-box; display: inline-block; margin: 0;padding: 0; position: relative; overflow: hidden; vertical-align: middle; background-image: url('http://g-ecx.images-amazon.com/images/G/08/common/sprites/sprite-dp-2._V380602528_.png'); background-repeat: no-repeat; }
+.dpSprite span { position: absolute; left: -9999px; }
+.udpSprite { background: url('http://g-ecx.images-amazon.com/images/G/08/common/sprites/udp-sprite-dp-2._V_.') no-repeat; vertical-align: middle; display: inline-block;}
+.s_plus { background-position: -140px -540px; width: 8px;height: 8px; }
+.s_cornerBlueTL { background-position: -120px -520px; width: 5px;height: 5px; }
+.s_cornerBlueTR { background-position: -130px -520px; width: 5px;height: 5px; }
+.s_cornerBlueBL { background-position: -140px -520px; width: 5px;height: 5px; }
+.s_cornerBlueBR { background-position: -150px -520px; width: 5px;height: 5px; }
+.s_bbSubscribeNow { background-position: 0px -60px; width: 160px;height: 27px; }
+.s_snsLogo { background-position: -120px -562px; width: 30px;height: 31px; }
+.s_wlListGradient { background-position: 0px -800px; background-repeat: repeat-x; }
+.s_wlListGradient span { position: static; left: 0px; }
+.s_add2WishList { background-position: 0px -190px; width: 160px;height: 22px; }
+.s_add2WishListLeft { background-position: 0px -220px; width: 137px;height: 22px; }
+.s_add2WishListRight { background-position: -137px -220px; width: 23px;height: 22px; }
+.s_bbAdd2Cart { background-position: 0px 0px; width: 160px;height: 27px; }
+.s_bbBuyNow1Click { background-position: 0px -30px; width: 160px;height: 27px; }
+.s_seeAllBuying { background-position: 0px -130px; width: 147px;height: 22px; }
+.s_bbAdd2CartPrime { background-position: 0px -90px; width: 160px;height: 33px; }
+.s_signUp { background-position: 0px -160px; width: 97px;height: 22px; }
+.s_orderItUsed { background-position: 0px -360px; width: 123px;height: 17px; }
+.s_sellYoursHere { background-position: 0px -380px; width: 90px;height: 17px; }
+.s_add3ToCart { background-position: 0px -400px; width: 213px;height: 22px; }
+.s_addBothToCart { background-position: 0px -430px; width: 172px;height: 22px; }
+.s_addToCart { background-position: 0px -460px; width: 131px;height: 22px; }
+.s_compareTheseItems { background-position: 0px -490px; width: 119px;height: 17px; }
+.s_submitTan { background-position: 0px -510px; width: 78px;height: 22px; }
+.s_starsDisabled { background-position: 0px -540px; width: 57px;height: 12px; }
+.s_zoom { background-position: 0px -560px; width: 81px;height: 16px; }
+.s_spin { background-position: 0px -580px; width: 65px;height: 16px; }
+.s_watch { background-position: 0px -600px; width: 59px;height: 17px; }
+.s_notes { background-position: -120px -600px; width: 34px;height: 10px; }
+.s_calendar { background-position: -70px -540px; width: 25px;height: 17px; }
+.s_calendarDisabled { background-position: -100px -540px; width: 25px;height: 17px; }
+.s_bbPreorder { background-position: -0px -620px; width: 160px;height: 27px; }
+.s_bbPreorder1Click { background-position: -0px -650px; width: 160px;height: 27px; }
+.s_preorderAll3 { background-position: -0px -680px; width: 203px;height: 22px; }
+.s_preorderBoth { background-position: -0px -710px; width: 208px;height: 22px; }
+.s_preorderThis { background-position: -0px -740px; width: 172px;height: 22px; }
+.s_preorderItem { background-position: -0px -770px; width: 96px;height: 20px; }
+.s_add2WishListLeft { width: 141px;height: 22px; }
+.s_add2WishListRight { background-position: -141px -220px; width: 19px;height: 22px; }
+.s_add2BabyReg { background-position: 0px -310px; width: 160px;height: 22px; }
+.addonFlagBig {background-position: 0 -829px; background-repeat: no-repeat; float: left; width: 78px; height: 19px; }
+.addonBadgeSmall { background-position: -0 -851px; background-repeat: no-repeat; width: 66px; height: 16px; }
+.addonDivider { margin-left: 88px; }
+
+/* FR-sprites-dpSprites-3614783419.css end */
+
+/* FR-sprites-accSprites-3326607390.css start */
+
+.accSprite { background-image: url('http://g-ecx.images-amazon.com/images/G/08/common/sprites/sprite-accessories-2._V156421493_.png'); }
+.s_accSelectThis { background-position: 0 0; }
+.s_accRemoveThis { background-position: 0px -30px; }
+#add-selected-to-cart { background-position: 0px -95px; }
+.acc_enabled #add-selected-to-cart { background-position: 0px -60px; }
+.s_accClose { background-position: -40px -130px; width: 13px; height: 13px; }
+#items-selected-trigger { background-position: -20px -130px; width: 13px; height: 13px; }
+.acc_enabled #items-selected-trigger { background-position: 0 -130px; }
+ul#accessories-categories li a:link, ul#accessories-categories li a:visited { background-position: right -157px; }
+div#accessories-box a.see-all { background-position: -60px -127px; }
+.s_accSelectThis, .s_accRemoveThis { width: 140px; height: 22px; }
+#add-selected-to-cart { width: 197px; height: 27px; }
+             
+             
+             
+
+/* FR-sprites-accSprites-3326607390.css end */
+
+/* FR-sprites-metersSprites-1779209209.css start */
+
+.mtrSprite { display: -moz-inline-box; display: inline-block; margin: 0;padding: 0; position: relative; overflow: hidden; vertical-align: middle; background: url('http://g-ecx.images-amazon.com/images/G/08/common/sprites/sprite-meters._V156421388_.png') no-repeat; }
+.mtrSprite span { position: absolute; left: -9999px; }
+.s_mtrVS { background-position: -180px 0px; width: 24px;height: 13px; }
+.s_mtrTopCapBlue { background-position: 0px 0px; width: 12px;height: 5px; }
+.s_mtrBottomCapBlue { background-position: -60px 0px; width: 12px;height: 5px; }
+.s_mtrMidBlue { background-position: -120px 0px; width: 12px;height: 13px; background-repeat: repeat-y; }
+.s_mtrTopCapGrey { background-position: -20px 0px; width: 12px;height: 5px; }
+.s_mtrBottomCapGrey { background-position: -80px 0px; width: 12px;height: 5px; }
+.s_mtrMidGrey { background-position: -140px 0px; width: 12px;height: 13px; background-repeat: repeat-y; }
+.s_mtrTopCapOrange { background-position: -40px 0px; width: 12px;height: 5px; }
+.s_mtrBottomCapOrange { background-position: -100px 0px; width: 12px;height: 5px; }
+.s_mtrMidOrange { background-position: -160px 0px; width: 12px;height: 13px; background-repeat: repeat-y; }
+
+/* FR-sprites-metersSprites-1779209209.css end */
+
+/* FR-sprites-musicSprites-3413985448.css start */
+
+.mscSprite { display: -moz-inline-box; display: inline-block; margin: 0;padding: 0; position: relative; overflow: hidden; vertical-align: middle; background: url('http://g-ecx.images-amazon.com/images/G/08/common/sprites/sprite-music-sampler._V156421383_.png') no-repeat; }
+.mscSprite span { position: absolute; left: -9999px; }
+.s_mscSpeaker { background-position: 0px 0px; width: 16px;height: 15px; }
+.s_mscExtLink { background-position: -20px 0px; width: 111px;height: 22px; }
+
+/* FR-sprites-musicSprites-3413985448.css end */
+
+/* FR-sprites-mediaSprites-1813278136.css start */
+
+.medSprite { display: -moz-inline-box; display: inline-block; margin: 0;padding: 0; position: relative; overflow: hidden; vertical-align: middle; background: url('http://g-ecx.images-amazon.com/images/G/08/common/sprites/sprite-media-platform._V246955036_.png') no-repeat; }
+.medSprite span { position: absolute; left: -9999px; }
+.s_medVHS { background-position: 0px 0px; width: 35px;height: 18px; }
+.s_medDVD { background-position: -40px 0px; width: 35px;height: 19px; }
+.s_medHDDVD { background-position: 0px -30px; width: 35px;height: 12px; }
+.s_medBluRay { background-position: -40px -30px; width: 34px;height: 16px; }
+.s_medDVDR { background-position: -40px 0px; width: 35px;height: 26px; }
+.s_medPS { background-position: 0px -100px; width: 20px;height: 20px; }
+.s_medPS2 { background-position: -20px -100px; width: 20px;height: 20px; }
+.s_medPSP { background-position: -40px -100px; width: 20px;height: 20px; }
+.s_medPS3 { background-position: -60px -100px; width: 20px;height: 20px; }
+.s_medGB { background-position: 0px -120px; width: 20px;height: 20px; }
+.s_medGBAdv { background-position: -20px -120px; width: 20px;height: 20px; }
+.s_medDS { background-position: -40px -120px; width: 20px;height: 20px; }
+.s_medN64 { background-position: 0px -140px; width: 20px;height: 20px; }
+.s_medGamecube { background-position: -20px -140px; width: 20px;height: 20px; }
+.s_medWii { background-position: -40px -140px; width: 20px;height: 20px; }
+.s_medXbox { background-position: 0px -160px; width: 20px;height: 20px; }
+.s_medXbox360 { background-position: -20px -160px; width: 20px;height: 20px; }
+.s_medWin { background-position: 0px -180px; width: 20px;height: 20px; }
+.s_medMac { background-position: -20px -180px; width: 20px;height: 20px; }
+.s_medDreamcast { background-position: -20px -200px; width: 20px;height: 20px; }
+.s_medLinux { background-position: -40px -200px; width: 20px;height: 20px; }
+.s_medVita { background-position: -81px -119px; width: 20px;height: 20px; }
+.s_med3ds { background-position: -61px -119px; width: 20px;height: 20px; }
+
+/* FR-sprites-mediaSprites-1813278136.css end */
+
+/* FR-sprites-rtiSprites-1238313271.css start */
+
+.rtiSprite { display: -moz-inline-box; display: inline-block; margin: 0;padding: 0; position: relative; overflow: hidden; vertical-align: middle; background: url('http://g-ecx.images-amazon.com/images/G/08/common/sprites/sprite-rate-this-item._V156421405_.png') no-repeat; }
+button.rtiSprite { vertical-align: top; border: none; background-color: none; cursor: pointer; }
+.rtiSprite span { position: absolute; left: -9999px; }
+.s_rtiIOwnIt { background-position: 0px 0px; width: 102px;height: 22px; }
+.s_rtiNotInterested { background-position: 0px -30px; width: 94px;height: 22px; }
+
+/* FR-sprites-rtiSprites-1238313271.css end */
+
+/* FR-sprites-sellButtonSprite-1176362545.css start */
+.sb-dotted-row { border-top: 1px dotted #D6D6D6; }
+table.sb-row { margin: 0px 5px; }
+.sb-caret { color: #CC6600; font-size: 15px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+.mbcOfferRow .sb-row-select { background-color: #FCFCC2; cursor: hand; cursor: pointer;}
+ol.noindent { padding: 8px 0px 7px 21px ; margin: 0px; }
+
+/* FR-sprites-sellButtonSprite-1176362545.css end */
+
+/* FR-sprites-miniATFSprite-3234976911.css start */
+#gTTLink .ma_sprite { background-image: url('http://g-ecx.images-amazon.com/images/G/08/common/sprites/quick-jump-sprite._V_.'); overflow:hidden; padding:0; position:relative; }
+ #gTTLink .two_row_position { background-position: 0 -314px; }
+ #gTTLink .three_row_position { background-position: 0 -299px; }
+
+/* FR-sprites-miniATFSprite-3234976911.css end */
+
+/* FR-sprites-buyBoxSprites-2786818489.css start */
+#buyboxusedDivId table.buyBox td.topLeft,
+#buyboxusedDivId table.buyBox td.topRight,
+#buyboxusedDivId table.buyBox td.bottomLeft,
+#buyboxusedDivId table.buyBox td.bottomRight,
+#buyboxrentDivId table.buyBox td.topLeft,
+#buyboxrentDivId table.buyBox td.topRight,
+#buyboxrentDivId table.buyBox td.bottomLeft,
+#buyboxrentDivId table.buyBox td.bottomRight
+{ background-image: url('http://g-ecx.images-amazon.com/images/G/08/common/sprites/sprite_box_ubb._V198144118_.png');}
+
+/* FR-sprites-buyBoxSprites-2786818489.css end */

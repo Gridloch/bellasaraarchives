@@ -1,0 +1,27 @@
+/**
+* Feuille de Style de la rubrique Pub
+* 
+* MagicCorporation WebSystem v6.0
+* Gestionnaire de Contenu pour site Internet
+* 
+* @package      MC6
+* @subpackage   Index
+* @author       Jean-Christophe Taisne <amonra@magiccorporation.com>
+* @link         http://mc6.magiccorporation.com 
+* @copyright    2000-2009 MagicCorporation
+* @version      6.0 $Id: pub.css 99 2009-02-25 10:50:14Z william $
+*/
+
+.block_pub_468x60 {
+    position: absolute;
+    width: 468px;
+    height: 60px;
+/*    background: url(../../images/header/background_pub.png);*/
+    left: 387px;
+    top: 12px;
+}
+
+.block_pub_468x60 img {
+/*    padding-left: 59px;
+    padding-top: 12px;*/    
+}

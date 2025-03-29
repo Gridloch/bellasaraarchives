@@ -1,0 +1,114 @@
+           
+
+a:hover,
+a:active,
+a:focus,
+.button1,
+.button2,
+.brand,
+.selected,
+.marketingArea > div > p > a,
+input.primaryAction,
+a.primaryAction,
+div.watchVideo a.hover div,
+div.watchVideo a:active div,
+div.watchVideo a:focus div,
+body.marketplace .mainNav a.marketplace,
+body.appDetailsPage a#readMore:hover,
+body.appDetailsPage a#moreLanguages:hover,
+body.design .mainNav a.design,
+body.phones .mainNav a.phones,
+body.news .mainNav a.news,
+body.support .mainNav a.support,
+body.overview  #store_overview,
+body.landingPage #store_landing,
+body.oemListPage #oem_apps,
+body.moListPage #mo_apps,
+body.apps #store_apps,
+body.games #store_games,
+body.gameDetails #store_games,
+body.appDetails #store_apps,
+body.wp7 #support_landing_wp7,
+body.wp8 #support_landing_wp8,
+body.support.topicPage #toc a.active,
+body.macAddressPage #macAddressSubmit,
+body.admin_manage #admins_nav > a,
+body.admin_suds #user_devices_nav > a,
+body.admin_myphone #myphone_nav > a,
+body.admin_ccp #ccp_nav > a,
+body.admin_webserver #webserver_nav > a,
+body.admin_tools #tools_nav > a,
+body.admin_cache #cache_nav > a,
+body.fullBleedMarketingPage #main a:hover,
+body.fullBleedMarketingPage #main a.active
+{
+    color: #9B4F96 !important;
+}
+
+.button3:hover,
+.button4:hover,
+.button5:hover,
+.button6:hover,
+#news #heroControl .article,
+.appInfo,
+body.landingPage .spotRow .collectionContainer > .collectionInfo,
+body.noPhonePage #acquire > a.get,
+#buyNow > .button5
+{
+    background-color: #9B4F96 !important;
+}
+
+body.loginPage
+{
+    background-color: #9B4F96 !important;
+}
+
+.button3:hover
+{
+    border-color: #9B4F96;
+}
+
+#purchaseSteps > ul > li.current span
+{
+    border-bottom-color: #9B4F96 !important;
+    color: #9B4F96 !important;
+}
+
+#wplogo
+{
+    background-image: url('http://cmsresources.windowsphone.com/windowsphone/shared/WindowsPhone-68217A-175x25.png');
+    background-repeat: no-repeat;
+}
+
+#wpLoginLogo
+{
+    background-image: url('http://cmsresources.windowsphone.com/windowsphone/shared/WindowsPhone-68217A-220x35.png');
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 35px;
+}
+
+.ratingSmall,
+.ratingLarge,
+.ratingLandingLarge,
+.ratingLandingXXLarge,
+input[type="button"].checkbox,
+input[type="button"].radiobutton,
+#userArea .dropImage,
+#shotViewer #previousShot, 
+#shotViewer #nextShot,
+body.phones.detailsPage ul.specs > li > div > div.icon,
+body.phones.detailsPage #buyNow > .droparrow,
+body.phones.detailsPage #buyNow .dropmenu > li > a.buyLink > span.arrow,
+body.site.search .goArrow,
+body.store.search .goArrow
+{
+    background-image: url('http://cmsresources.windowsphone.com/windowsphone/shared/SiteIcons_68217A.png');
+}
+
+#shotViewer #closeViewer, 
+.popup > a.closePopup,
+a.fillVideoCloseButton
+{
+    background-image: url('http://cmsresources.windowsphone.com/windowsphone/shared/VideoIcons_68217A.png');
+}

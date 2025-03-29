@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ageban>
+<slogan><![CDATA[Le meilleur du basket est<br><font size='+5'>sur PMU.fr</font>]]></slogan>
+<cta2><![CDATA[]]></cta2>
+<banlive><![CDATA[0]]></banlive>
+<match>
+<live><![CDATA[0]]></live>
+<tempsfin><![CDATA[772]]></tempsfin>
+<nommatch><![CDATA[SAISON RÉGULIÈRE]]></nommatch>
+<competition><![CDATA[NBA]]></competition>
+<competition_id><![CDATA[2]]></competition_id>
+<competition_ext><![CDATA[.swf]]></competition_ext>
+<jour><![CDATA[Mercredi 19 février]]></jour>
+<heure><![CDATA[02h30]]></heure>
+<equipe1>
+<nom><![CDATA[Dallas]]></nom>
+<blason>34.swf</blason>
+</equipe1>
+<equipe2>
+<nom><![CDATA[Miami ]]></nom>
+<blason>25.swf</blason>
+</equipe2>
+<cote_1><![CDATA[]]></cote_1>
+<var_1><![CDATA[]]></var_1>
+<cote_n><![CDATA[]]></cote_n>
+<var_n><![CDATA[]]></var_n>
+<cote_2><![CDATA[]]></cote_2>
+<var_2><![CDATA[]]></var_2>
+<score_equipe1><![CDATA[]]></score_equipe1>
+<score_equipe2><![CDATA[]]></score_equipe2>
+</match>
+</ageban>

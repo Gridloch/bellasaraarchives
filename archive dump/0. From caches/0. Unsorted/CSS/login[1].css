@@ -1,0 +1,65 @@
+.loginWrapper {
+	margin: 0px auto;
+	position: relative;
+	width: 950px;
+	z-index: 9999;
+}
+
+.loginWrapper a.buttonMainSignIn,
+.loginWrapper input.buttonMainSignOut{
+	border: 0;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	line-height: 21px;
+	overflow: hidden;
+	text-align: center;
+	text-transform: uppercase;
+	width: 82px;
+}
+
+.loginWrapper a.buttonMainSignIn,
+.loginWrapper input.buttonMainSignOut {
+	background: url(../images/login/loginbuttonsprite.png) no-repeat top;
+	display: block;
+	left: 850px;
+	padding-top: 0px;
+	position: absolute;
+	text-decoration: none;
+	text-transform: uppercase;
+	top: 22px;
+	width: 100px;
+}
+
+.loginWrapper a.buttonMainSignIn:visited {
+	background: url../images/login/loginbuttonsprite.png) no-repeat top;
+}
+
+.loginWrapper a.buttonMainSignIn:focus,
+.loginWrapper a.buttonMainSignIn:hover,
+.loginWrapper input.buttonMainSignOut:hover {
+	background: url(../images/login/loginbuttonsprite.png) no-repeat 0px -22px;
+	border: 0;
+	outline: none;
+}
+
+.loginWrapper a.buttonMainSignIn:active {
+	background: url(../images/login/loginbuttonsprite.png) no-repeat 0px -44px;
+}
+
+.loginWrapper input.buttonMainSignOut {
+	background: url(../images/login/loginbuttonsprite.png) no-repeat top;
+	padding-bottom: 4px;
+}
+
+.loginWrapper .greeting {
+	color: #FFF;
+	font-weight: bold;
+	text-align: right;
+	padding-top: 6px;
+	position: absolute;
+	right: 0;
+	top: -4px;
+}

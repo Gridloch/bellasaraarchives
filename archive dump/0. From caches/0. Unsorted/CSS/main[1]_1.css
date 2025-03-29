@@ -1,0 +1,1371 @@
+* {margin:0;padding:0}
+a {color: #69F;}
+a img {border:0}
+
+
+body {
+	background-color: #FFF;
+	font: normal 12px/1.5 Arial, Helvetica, sans-serif;
+}
+
+
+
+html,
+body {
+	height: 100%;
+}
+#wrapper {
+	min-height: 100%;
+}
+* html #wrapper {
+	height: 100%;
+}
+
+
+
+h4 {
+	line-height: 1.25;
+}
+
+
+
+#main-bnr {
+	height: 100px;
+	margin: 4px auto 10px;
+	width:767px;
+}
+	#main-bnr img {
+		border: 0;
+		display: block;
+		margin: 0 0 0 auto;
+	}
+
+
+
+#chromebar {
+	background: #000102;
+	height: 65px;
+}
+
+
+
+form.search {
+	display: none;
+}
+
+
+
+#disney-common-footer {
+	background: #0b0b0b url(../images/footer-bg.png) repeat-x;
+	border: 1px solid #000;
+	color: #FFF;
+	height: 150px;
+	margin-top: -152px;
+}
+#disney-common-footer .wrapper {
+	margin: 0 auto;
+	height: 128px;
+	padding-top: 20px;
+	position: relative;
+	width: 950px;
+}
+#disney-common-footer ul.vertical-menu {
+	display: inline;
+	float: left;
+	line-height: 1.2;
+	list-style: none;
+	width: 230px;
+}
+#disney-common-footer ul.col1 {
+	margin-left: 10px;
+}
+#disney-common-footer ul.col2 {}
+#disney-common-footer ul.col3 {}
+#disney-common-footer ul.col4 {}
+#disney-common-footer ul.vertical-menu a {
+	color: #FFF;
+	text-decoration: none;
+}
+#disney-common-footer ul.vertical-menu a:hover {
+	text-decoration: underline;
+}
+#disney-common-footer .complete {
+	border-top: 1px solid #848484;
+	bottom: 0;
+	clear: both;
+	color: #FFF;
+	height: 40px;
+	position: absolute;
+	text-shadow: 1px 1px 1 #000;
+	width: 100%;
+}
+#disney-common-footer .complete .copyright {
+	line-height: 43px;
+	position: absolute;
+}
+#disney-common-footer .complete a.disney {
+	display: block;
+	height: 36px;
+	letter-spacing: -99999em;
+	margin: 4px auto 0;
+	overflow: hidden;
+	text-indent: -99999em;
+	width: 99px;
+}
+* html #disney-common-footer .complete a.disney {
+	/*background-image: url(../images/footer-disney-pl.gif);*/ /* TODO: Need to increase with corresponding, localized image of the actual site */
+}
+#disney-common-footer .complete form {
+	position: absolute;
+	right: 0;
+	top: 13px;	
+}
+#disney-common-footer .complete form input {
+	background: #FFF;
+	border: 1px solid #CCC;
+	color: #000;
+	float: left;
+	font: normal 11px/14px Arial, Helvetica, sans-serif;
+	height: 14px;
+	margin-right: 3px;
+	margin-top: 1px;
+	width: 120px;
+}
+#disney-common-footer .complete form button {
+	background: url(../images/chrome/button-search.png) center no-repeat;
+	border: 0;
+	cursor: pointer;
+	float: left;
+	height: 17px;
+	letter-spacing: -99999em;
+	text-indent: -99999em;
+	width: 26px;
+}
+* html #disney-common-footer .complete form button {
+	background-image: url(../images/chrome/button-search.gif);
+}
+
+
+#content {
+	margin: 0 auto;
+	padding: 10px 21px 2px;
+	width: 950px;
+}
+* html #content {height:1%}
+*:first-child+html #content {height:1%}
+#content:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+
+
+#main {
+	margin: auto;
+	padding-bottom: 150px;
+	overflow: hidden;
+}
+
+.g3 {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	width: 170px;
+}
+.g6 {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	width: 350px;
+}
+.g7 {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	width: 410px;
+}
+.g10 {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	width: 590px;
+}
+.g13 {
+	display: inline;
+	float: left;
+	width: 770px;
+}
+.g16 {
+	display: inline;
+	float: left;
+	width: 950px;
+}
+.gFullWidth {
+	display: inline;
+	float: left;
+	margin-left: -22px;
+	margin-right: -22px;
+	width: 994px;
+}
+.last {
+	margin-right: 0 !important;
+}
+
+
+
+.moduleslot {
+	margin-bottom: 10px;
+}
+.module {
+	margin-bottom: 10px;
+}
+.moduleslot .module:last-child {
+	margin-bottom: 0;
+}
+
+
+
+body.pl01 #moduleslot1 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+body.pl01 #moduleslot2 {
+	height: auto !important;
+	height: 410px;
+	min-height: 410px;
+}
+* html body.pl01 .g10 {
+	overflow-x: hidden;
+}
+body.pl01 #moduleslot3 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+body.pl01 #moduleslot4 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+body.pl01 #moduleslot5 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+body.pl01 #moduleslot6 {
+	height: auto !important;
+	height: 93px;
+	min-height: 93px;
+}
+body.pl01 #moduleslot7 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl01 #moduleslot8 {
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl01 #moduleslot9 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+
+body.pl02 #moduleslot1 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl02 #moduleslot2 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl02 #moduleslot3 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl02 #moduleslot4 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl02 #moduleslot5 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl02 #moduleslot6 {
+	background: #FFF url(../images/bg267.jpg) repeat-x 0 100%;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl02 #moduleslot7 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl02 #moduleslot8 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+
+body.pl03 #moduleslot1 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl03 #moduleslot2 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl03 #moduleslot3 {
+	height: auto !important;
+	height: 617px;
+	min-height: 617px;
+}
+body.pl03 #moduleslot4 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl03 #moduleslot5 {
+	height: auto !important;
+	height: 100px;
+	min-height: 100px;
+}
+body.pl03 #moduleslot6 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl03 #moduleslot7 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+
+body.pl03b #moduleslot1 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl03b #moduleslot2 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl03b #moduleslot3 {
+	height: auto !important;
+	height: 617px;
+	min-height: 617px;
+}
+body.pl03b #moduleslot4 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl03b #moduleslot5 {
+	height: auto !important;
+	height: 100px;
+	min-height: 100px;
+}
+body.pl03b #moduleslot6 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl03b #moduleslot7 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+body.pl03b #moduleslot8 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+
+body.pl04 #moduleslot1 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl04 #moduleslot2 {
+	height: auto !important;
+	height: 617px;
+	min-height: 617px;
+}
+body.pl04 #moduleslot3 {
+	height: auto !important;
+	height: 617px;
+	min-height: 617px;
+}
+body.pl04 #moduleslot4 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl04 #moduleslot5 {
+	height: auto !important;
+	height: 100px;
+	min-height: 100px;
+}
+body.pl04 #moduleslot6 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+body.pl04 #moduleslot7 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+
+body.pl06 #moduleslot1 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl06 #moduleslot2 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl06 #moduleslot3 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl06 #moduleslot4 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl06 #moduleslot5 {
+	height: auto !important;
+	height: 100px;
+	min-height: 100px;
+}
+body.pl06 #moduleslot6 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl06 #moduleslot7 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl06 #moduleslot8 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+body.pl06 #moduleslot9 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+
+body.pl07 #moduleslot1 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl07 #moduleslot2 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl07 #moduleslot3 {
+	height: auto !important;
+	height: 617px;
+	min-height: 617px;
+}
+body.pl07 #moduleslot4 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl07 #moduleslot5 {
+	height: auto !important;
+	height: 100px;
+	min-height: 100px;
+}
+body.pl07 #moduleslot6 {
+	height: auto !important;
+	height: 410px;
+	min-height: 410px;
+}
+body.pl07 #moduleslot7 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+body.pl07 #moduleslot8 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+body.pl07 #moduleslot9 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+
+body.pl07b #moduleslot1 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl07b #moduleslot2 {
+	height: auto !important;
+	height: 630px;
+	min-height: 630px;
+}
+body.pl07b #moduleslot3 {
+	height: auto !important;
+	height: 617px;
+	min-height: 617px;
+}
+body.pl07b #moduleslot4 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl07b #moduleslot5 {
+	height: auto !important;
+	height: 100px;
+	min-height: 100px;
+}
+body.pl07b #moduleslot6 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+
+body.pl09 #moduleslot1 {
+	height: auto !important;
+	height: 100px;
+	min-height: 100px;
+}
+body.pl09 #moduleslot2 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl09 #moduleslot3 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl09 #moduleslot4 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+body.pl09 #moduleslot5 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+body.pl09 #moduleslot6 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl09 #moduleslot7 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl09 #moduleslot8 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+	margin-top: -3px;
+}
+
+body.pl10 #moduleslot1 {
+	height: auto !important;
+	height: 450px;
+	min-height: 450px;
+	margin-left: -22px;
+	margin-right: -22px;
+	width: 994px;
+}
+body.pl10 #moduleslot2 {
+	height: auto !important;
+	height: 270px;
+	min-height: 270px;
+}
+body.pl10 #moduleslot3 {
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+
+body.pl11 #moduleslot1 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl11 #moduleslot2 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl11 #moduleslot3 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl11 #moduleslot4 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	clear: both;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl11 #moduleslot5 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+body.pl11 #moduleslot6 {
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+	height: auto !important;
+	height: 267px;
+	min-height: 267px;
+}
+
+body.pl12 #moduleslot1 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl12 #moduleslot2 {
+	height: auto !important;
+	height: 617px;
+	min-height: 617px;
+}
+body.pl12 #moduleslot3 {
+	height: auto !important;
+	height: 617px;
+	min-height: 617px;
+}
+body.pl12 #moduleslot4 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+body.pl12 #moduleslot5 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+
+body.pl13 #moduleslot1 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl13 #moduleslot2 {
+	height: auto !important;
+	height: 520px;
+	min-height: 520px;
+}
+body.pl13 #moduleslot3 {
+	height: auto !important;
+	height: 200px;
+	min-height: 200px;
+}
+
+body.pl141516 #moduleslot1 {
+	height: auto !important;
+	height: 310px;
+	min-height: 310px;
+}
+body.pl141516 #moduleslot2 {
+	height: auto !important;
+	height: 630px;
+	min-height: 630px;
+}
+body.pl141516 #moduleslot3 {
+	height: auto !important;
+	height: 617px;
+	min-height: 617px;
+}
+body.pl141516 #moduleslot4 {
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+}
+body.pl141516 #moduleslot5 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+body.pl141516 #moduleslot6 {
+	height: auto !important;
+	height: 60px;
+	min-height: 60px;
+}
+
+
+
+body.layout-homepage #moduleslot7,
+body.layout-category-pages-1 #moduleslot5,
+body.layout-category-pages-3 #moduleslot3
+{
+	background: #DEDEDE url(../images/bg250.png) repeat-x 0 100%;
+}
+body.layout-tv-stunts #moduleslot1 {
+	display: none;
+}
+
+
+
+body.layout-catalogue-game-player #moduleslot1,
+body.layout-catalogue-video-player #moduleslot1
+{
+	min-height: 300px;
+}
+body.layout-catalogue-game-player #moduleslot2,
+body.layout-catalogue-video-player #moduleslot2
+{
+	margin-right: 0;
+}
+body.layout-catalogue-game-player.wide-game #moduleslot2 {
+	width: 770px;
+}
+body.layout-catalogue-game-player #moduleslot2 object,
+body.layout-catalogue-video-player #moduleslot2 object
+{
+	display: block;
+}
+body.layout-catalogue-game-player #moduleslot3,
+body.layout-catalogue-video-player #moduleslot3
+{
+	margin-right: 0;
+	float: right;
+}
+
+
+
+.module h2 {
+	font: normal 18px/1.25 Arial, Helvetica, sans-serif;
+}
+.module h3 {
+	font: normal 13px/1.25 Arial, Helvetica, sans-serif;
+}
+.module h4 {
+	font: bold 11px/1.25 Arial, Helvetica, sans-serif;
+}
+
+.module h3.title{
+	background: transparent url(../images/module-title-bg.png) repeat-x;
+	clear: both;
+	color: #fff;
+	font: normal 13px Tahoma, Helvetica, Arial, sans-serif;
+	height: 26px;
+	overflow: hidden;
+	padding: 4px 10px 0px 10px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.module-error {
+	background: #FFF url(../images/bg240.gif) repeat-x center bottom;
+	margin: 10px auto;
+	width: 590px;
+}
+.module-error div.bg {}
+.module-error div.bg-404 {
+	background: url(../images/mm-404-500.png) no-repeat;
+	height: 190px;
+	padding: 10px 50px 10px 210px;
+}
+.module-error div.bg-500 {
+	background: url(../images/mm-404-500.png) no-repeat;
+	height: 190px;
+	padding: 10px 50px 10px 210px;
+}
+.module-error div.bg-404 {
+	background: url(../images/mm-404-500.png) no-repeat;
+	height: 190px;
+	padding: 10px 50px 10px 210px;
+}
+.module-error h2 {
+	margin: 1em 0;
+}
+.module-error p {
+	margin: 1em 0;
+}
+
+.module-promo h3,
+.module-carousel h3 {
+	background: url(../images/module-title-bg.png) repeat-x;
+	color: #FFF;
+	clear: both;
+	font: normal 13px Arial, Helvetica, sans-serif;
+	height: 26px;
+	padding: 4px 10px 0px 10px;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+.module-carousel h3 {
+	background: none;
+	color: #000;
+	font-size: 11px;
+	font-weight: bold;
+	height: 12px;
+	padding: 0px 10px 2px 10px;
+	text-align: center;
+}
+
+
+
+/* Button definition */
+a.morebutton {
+	background: transparent url(../images/buttons/morebtn-left.png) no-repeat left -30px;
+	cursor: pointer;
+	font: bold 9px/13px Arial, Helvetica, sans-serif;
+	float: left;
+	padding-left: 12px;
+	position: relative;
+	text-decoration: none;
+}
+a.morebutton span.morebutton {
+	background: url(../images/buttons/morebtn-right.png) no-repeat right -30px;
+	color: white;
+	float: left;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 7px;
+	padding-top: 1px;
+}
+a.morebutton span.morebuttontxtshadow {
+	color: #333;
+	position: relative;
+	z-index: 11;
+}
+a.morebutton span.morebuttontxt {
+	color: #FFF;
+	position: absolute;
+	right: 7px;
+	top: 0;
+	z-index: 12;
+}
+
+a.morebutton:visited {
+	background-position: left -15px;
+}
+a.morebutton:visited span.morebutton {
+	background-position: right -15px;
+}
+a.morebutton:visited span.morebuttontxt {
+	color: #FFF;
+}
+a.morebutton:visited span.morebuttontxtshadow {
+	color: #333;
+}
+
+a.morebutton:hover {
+	background-position: left 0px;
+}
+a.morebutton:hover span.morebutton {
+	background-position: right 0px;
+}
+a.morebutton:hover span.morebuttontxt {
+	color: #000;
+}
+a.morebutton:hover span.morebuttontxtshadow {
+	color: #e7e6e6;
+}
+
+a.morebutton:active {
+	background-position: left -45px;
+}
+a.morebutton:active span.morebutton {
+	background-position: right -45px;
+}
+a.morebutton:active span.morebuttontxt {
+	color: #FFF;
+}
+a.morebutton:active span.morebuttontxtshadow {
+	color: #333;
+}
+p.more a.morebutton {
+	float: right;
+}
+/* End of Button definition */
+
+
+
+/* Disney For You module definition */
+.dfy {
+	background: #dedede url(../images/bg267.jpg) repeat-x scroll 0 100%;
+	display:inline;
+	float:left;
+	height: 267px;
+	overflow: hidden;
+	padding: 0px;
+	position: relative;
+	width:170px;
+	}
+
+.dfy:hover {
+	background: #fff url(../images/bg267.jpg) repeat-x scroll 0 10px;	
+	}
+	
+.dfy .dfypic {
+	background: transparent url(../images/disneyforyou/dfyshadow.png) bottom right no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	height: 121px;
+	margin: 0px;
+	overflow: hidden;
+	padding: 9px 0px 5px 12px;
+	text-transform: uppercase;
+	width: 150px;	
+}
+
+.dfy h4 {
+	display: block;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 14px;
+	padding: 0px 12px;
+	position: relative;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.dfy p {
+	color: #000;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	height: 50px;
+	line-height: 12px;
+	overflow: hidden;
+	padding: 0px 12px;
+	position: relative;
+	text-align: left;
+}
+
+.dfy a.dfysubtitle:link, .dfy a.dfysubtitle:visited {
+	color: #fafafa;
+	background: transparent url(../images/disneyforyou/dfysubtitlebg.png) top left repeat-x;
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height:21px;
+	left: 12px;
+	line-height: 15px;
+	margin: -33px 0px 11px 0px;
+	overflow: hidden;
+	padding: 8px 0px 0px;
+	position:relative;
+	text-align:center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 146px;
+}
+
+.dfy a.dfysubtitle:hover, .dfy a.dfysubtitle:active {
+	color: white;
+	text-decoration: none;
+}
+
+.dfy a img {border: none;}
+/* Disney For You module definition end */
+
+
+
+/* Movie Information module definition */
+div.mi {
+	background: #fff url(../images/bg267.jpg) repeat-x scroll 0 100%;
+	overflow: hidden;
+	padding: 0px 0px 5px 0px;
+	position: relative;
+	width: 100%;
+}
+
+div.mi h4 {
+	padding: 10px 15px 0px;
+	position: relative;
+}
+
+div.mi p {
+	padding: 0px 15px 10px;
+	position: relative;
+}
+
+
+div.mi .miimage {
+	background: transparent url(../images/movieinfo/miimageshadow.png) 18px 16px no-repeat;
+	clear: left;
+	float: left; 
+	height: 122px;
+	padding: 13px 15px 10px;
+	position: relative;
+	width: 144px;
+}
+
+div.mi .micenter {
+	bottom: 0px;
+	clear: both;
+	line-height: 10px;
+	margin: 0px 0px 12px 0px;
+	position: relative;
+	text-align: center;
+	}
+
+/* New MIbutton definition - REQUIRES rewriting HTML in the General Purpose module! */
+a.mibutton {
+	color: #000;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 10px;
+	/* left: 9px; */
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+}	
+
+span.mibuttonfront {
+	background: transparent url(../images/movieinfo/mibutton-left.png) no-repeat;
+	color: #000;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: bold;
+	line-height: 12px;
+	left: 3px;
+	margin: 0;	
+	overflow: hidden;
+	padding: 14px 0px 6px 22px;
+	position: relative;
+}
+
+span.mibutton {
+	background: transparent url(../images/movieinfo/mibutton-right.png) top right no-repeat;
+	color: #000;
+	height: 18px;	
+	left: 0px;
+	line-height: 12px;
+	overflow: hidden;
+	padding: 4px 21px 3px 0px;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+}
+
+span.mibuttontxt {
+	bottom: 3px; 
+	color: white; 
+	right: 25px;
+	position: absolute; 
+}
+
+*:first-child+html span.mibuttontxt {
+	bottom: 5px; 
+	color: white; 
+	position: absolute; 
+	right: 25px;
+}
+
+a.mibutton:visited span.mibuttonfront {
+	background: transparent url(../images/movieinfo/mibutton-left.png) left -22px no-repeat;
+}
+
+a.mibutton:visited span.mibutton {
+	background: transparent url(../images/movieinfo/mibutton-right.png) right -22px no-repeat;
+}
+
+a.mibutton:visited span.mibuttontxt {color: white;}
+
+a.mibutton:hover span.mibuttonfront{
+	background: transparent url(../images/movieinfo/mibutton-left.png) left -44px no-repeat;
+}
+
+a.mibutton:hover span.mibutton {
+	background: transparent url(../images/movieinfo/mibutton-right.png) right -44px no-repeat;
+}
+
+a.mibutton:hover span.mibuttontxt {color: white;}
+
+a.mibutton:active span.mibuttonfront{
+	background: transparent url(../images/movieinfo/mibutton-left.png) left -66px no-repeat;
+}
+
+a.mibutton:active span.mibutton {
+	background: transparent url(../images/movieinfo/mibutton-right.png) right -66px no-repeat;
+}
+
+a.mibutton:active span.mibuttontxt {color: white;}
+
+body.opera span.mibuttonfront,
+body.opera span.mibutton {
+		visibility: hidden;
+		}
+
+body.opera span.mibuttontxt {
+		color: black;
+		}
+
+body.opera a.mibutton:link span.mibuttontxt {color: #8599ff}
+body.opera a.mibutton:visited span.mibuttontxt {color: gray;}
+body.opera a.mibutton:hover span.mibuttontxt {color: #95a9ff; text-decoration: underline;}
+body.opera a.mibutton:active span.mibuttontxt {color: green;}
+/* New MIbutton definition end */
+
+/* Movie Information module definition end */
+
+
+
+div.module-generalPurpose h3.title {
+	z-index: 15;
+}
+div.module-generalPurpose div.tv-schedule {
+	background: url(../images/bg130.gif) repeat-x center bottom #FFF;
+}
+div.module-generalPurpose div.tv-schedule object {
+	position: relative;
+	top: -8px;
+	z-index: 14;
+}
+div.module-generalPurpose h4 {
+	padding: 5px 10px;
+}
+div.module-generalPurpose h4 a {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+div.module-generalPurpose h4 a:hover {
+	text-decoration: underline;
+}
+
+
+
+div.dropshadow img {
+	display: block;
+}
+.featured {
+	background: #FFF url(../images/featured-bg.gif) repeat-x 0 100%;
+	overflow: hidden;
+	padding: 10px 13px;
+	position: relative;
+}
+	.featured h3 {
+		margin: -10px -13px 8px;
+	}
+	.featured h4 {
+		text-transform: uppercase;
+	}
+	.featured div.dropshadow {
+		background: url(../images/dropshadow144x120.png) no-repeat 100% 100%;
+		float: left;
+		margin-right: 13px;
+		padding: 0 3px 3px 0;
+	}
+.more-items{
+	background: #FFF;
+}
+	.more-items h3 {
+		position: relative;
+		z-index: 25;
+	}
+	.more-items table.more {
+		border: 0;
+		border-collapse: collapse;
+		border-spacing: 0;
+		margin-top: -6px;
+		position: relative;
+		width: 590px;
+		z-index: 24;
+	}
+	.more-items tr th {
+		background: #FFF;
+		border-bottom: 1px solid #343434;
+		padding: 8px 13px 6px 13px;
+		text-align: left;
+	}
+	.more-items tr th.first {
+		border-right: 1px solid #343434;
+		padding-left: 99px;
+	}
+	.more-items tr td {
+		background: #FFF;
+		border-bottom: 1px solid #343434;
+		padding: 4px 13px;
+		vertical-align: top;
+		width: 269px;
+	}
+	.more-items tr td.first {
+		border-right: 1px solid #343434;
+		margin-right: 1px;
+		width: 268px;
+	}
+	.more-items tr.odd td {
+		background: url(../images/table-cell-bg.gif) repeat-x 0 100%;
+	}
+	.more-items tr.odd td.description {
+		padding-bottom: 15px;
+		position: relative;
+	}
+	.more-items tr td h4 {
+		text-transform: uppercase;
+	}
+	.more-items td div.dropshadow {
+		background: url(../images/dropshadow72x60.png) no-repeat 100% 100%;
+		float: left;
+		margin-right: 13px;
+		padding: 0 3px 3px 0;
+	}
+	.more-items tr td div.wrapper {
+		height: auto !important;
+		height: 47px;
+		min-height: 47px;
+		padding-bottom: 16px;
+		position: relative;
+	}
+	.more-items tr td div.wrapper p.more {
+		bottom: 3px;
+		position: absolute;
+		right: 0;
+	}
+	.pager {
+		background: #FFF url(../images/table-pager-bg.gif) repeat-x 0 100%;
+		font-weight: bold;
+		line-height: 25px;
+		height: 25px;
+		text-align: center;
+		position: relative;
+	}
+	.pager span a {
+		display: block;
+	}
+	.pager span.prev {
+		background: url(../images/button-arrows.png) no-repeat;
+		float: left;
+		height: 25px;
+		left: 255px;
+		letter-spacing: -99999em;
+		margin-top: 2px;
+		overflow: hidden;
+		position: absolute;
+		text-indent: -99999em;
+		top: 0;
+		width: 25px;
+	}
+	.pager span.next {
+		background: url(../images/button-arrows.png) no-repeat 100% 0;
+		float: left;
+		height: 25px;
+		left: 315px;
+		letter-spacing: -99999em;
+		margin-top: 2px;
+		overflow: hidden;
+		position: absolute;
+		text-indent: -99999em;
+		top: 0;
+		width: 25px;
+	}
+	.pager a {
+		cursor: pointer !important;
+	}
+	.pager a:hover span.prev {
+		background-position: 0 100%;
+	}
+	.pager a:hover span.next {
+		background-position: 100% 100%;
+	}
+	div.paginate div.pager span.prev,
+	div.paginate div.pager span.next
+	{
+		cursor: pointer;
+		-ms-filter:none;
+		filter: none;
+		opacity: 1;
+	}
+	.pager span.prev,
+	.pager span.next,
+	div.paginate div.pager span.disabled
+	{
+		cursor: default;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+		filter: alpha(opacity=30);
+		opacity: .4;
+	}
+	.pager a span.prev,
+	.pager a span.next
+	{
+		-ms-filter:none;
+		filter: none;
+		opacity: 1;
+	}
+	
+	.module-listOfObjects .pager {
+		display: none;
+	}
+	.paginate .pager {
+		clear: both;
+		display: block;
+	}
+
+div.module-videoPlayer {
+	height: 310px;
+}
+
+.dnd-control{
+	width: 18px;
+	height: 18px;
+}
+
+img.out-of-play-dnd {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+div#ad-overlay {
+	position: absolute;
+}
+
+div#ad-overlay object {
+	left: 50%;
+	margin: 200px 0 0 -200px;
+	position: absolute;
+	z-index: 9999;
+}
+
+.custom-state-active {
+	background: #736F6E;
+}

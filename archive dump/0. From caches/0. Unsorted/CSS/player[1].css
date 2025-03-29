@@ -1,0 +1,116 @@
+/* page player universel */
+
+#player{
+	height: 900px;
+	width: 730px;
+}
+
+#flash_jeux_externe {
+    margin: 15px;
+    margin-top: 0;
+}
+
+#header, #container-header{
+	height: 244px;
+}
+#milieu {
+padding-top:32px;	
+}
+#tamagochi-videos, #tamagochi {
+	height: 300px;	
+}
+#tamagochi{
+	height: 300px;
+	width: 250px;
+}
+
+#container-header, #container-milieu, #container-footer{
+background: none;
+}
+
+#body{
+background: none;
+}
+
+/* modules */
+#fan-de
+{
+	width: 235px;
+	height: 200px;
+	padding-bottom: 23px;
+	padding-top:8px;
+}
+	#fan-de .title
+	{
+		height: 26px;
+		width: 234px;
+		background: url('../images/charte/hero/fan-de-titre.png') bottom left no-repeat;
+		padding-left: 8px;
+	}
+		#fan-de .title #titre-fan-de
+		{	position:relative;
+			top:-5px;
+		}
+
+	#fan-de .content
+	{
+		background: url('../images/charte/hero/fan-de-body.png') no-repeat;
+		width: 238px;
+		height: 182px;
+		padding-top: 3px;
+	}
+		#fan-de .content .nombre-de-fan
+		{
+			margin-left: 20px;
+			padding-bottom: 12px;
+		}
+		#fan-de .content .bouton
+		{
+			margin-left: 18px;
+			padding-bottom: 10px;
+		}		
+#programmation{
+	margin-top: 15px;
+}		
+
+/* Popin player jeux externes */
+#lien_fermer{
+	float: right;
+}
+
+
+/**
+ * Iframe
+ */
+ 
+iframe{
+border:0;
+
+background: none;
+background-color: transparent;
+allowTransparency: true; 
+}
+
+#popin_overlay {
+	display:none;
+	background-color: #000;
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+}
+
+#popin {
+width: 711px;
+}
+
+#popin_iframe {
+display:none;
+position:absolute;
+z-index:3;
+}
+
+#popin_myiframe {
+position:absolute;
+z-index:3;
+}

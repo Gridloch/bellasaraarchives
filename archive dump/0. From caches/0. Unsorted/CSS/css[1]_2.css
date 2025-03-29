@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/karla/v3/8gO-GQO6h3meAtqRrd890A.eot);
+  src: local('Karla'), local('Karla-Regular'), url(http://themes.googleusercontent.com/static/fonts/karla/v3/8gO-GQO6h3meAtqRrd890A.eot) format('embedded-opentype'), url(http://themes.googleusercontent.com/static/fonts/karla/v3/azR40LUJrT4HaWK28zHmVA.woff) format('woff');
+}

@@ -1,0 +1,207 @@
+/* Homepage Carousel */
+.homepageCarousel{
+	position: relative;
+}
+
+.homepageCarousel .carousel{
+	margin: -3px 0px 0px 16px;
+	padding-left: 4px;
+}
+
+.homepageCarousel .carousel ul{
+	list-style: none;
+	height: 80px;
+	overflow: hidden;
+}
+
+.homepageCarousel .carousel ul li{
+	background: transparent url(../images/carousel/carousel-img-shadow.png) no-repeat 1px 3px;
+	margin-right: 4px;
+	padding: 3px 3px 3px 0px;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.homepageCarousel .carousel ul li:hover {
+	background: transparent url(../images/carousel/carousel-hover-shadow.png) no-repeat top left;
+	left: 4px;
+	margin-left: -8px;
+	margin-right: 0px;
+	padding: 0px 15px 10px 0px;
+	position: relative; 
+	z-index:800;
+}
+
+.homepageCarousel .carousel ul li a{
+	background-position: top left;
+	background-repeat: no-repeat;
+	display: block;
+	height: 70px;
+	width: 124px;
+}
+
+.homepageCarousel .carousel ul li:hover a img {
+	background: none;
+	background-position: top left;
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0px 0px 0px 0px;
+}
+
+.homepageCarousel .carousel ul li:hover a {
+	background-repeat: no-repeat !important;
+    background-position: top left; 
+	height: 82px;
+	width: 144px;
+}
+
+.homepageCarousel .carousel ul li a:hover img{
+	visibility: hidden;
+}
+
+.homepageCarousel .carousel ul li a img{
+	border: 0px;
+}
+
+.homepageCarousel .previous a,
+.homepageCarousel .next a {
+	background: url(../images/carousel/button_carousel.png) no-repeat;
+	height: 74px;
+	left: 1px;
+	line-height: 200px;
+	overflow: hidden;
+	position: absolute;
+	top: 17px;
+	width: 13px;
+}
+.homepageCarousel .next a {
+	background-position: -20px 0px;
+	left: auto;
+	right: 1px;
+}
+
+.homepageCarousel h3 {
+	height: 15px;
+	overflow: hidden;
+}
+
+/* While page is loading */
+.homepageCarousel .carousel ul li{
+	float: left;
+	height: 70px;
+	overflow: hidden;
+	width: 124px;
+}
+/* End of Homepage Carousel */
+
+
+
+/* Category Page Carousel */
+.categoryPageCarousel{
+	height: 267px;
+	overflow: hidden;
+	position: relative;
+	width: 410px;
+}
+
+.categoryPageCarousel div.title{
+	background: url(../images/module-title-bg.png) repeat-x;
+	padding-top: 4px;
+	position: relative;
+	z-index: 500;
+}
+.categoryPageCarousel h3.title{
+	background: none;
+	height: 27px;
+	padding-top: 0;
+	text-align: left;
+}
+
+.categoryPageCarousel .carousel{
+	position: relative;
+	top: -7px;
+}
+
+.categoryPageCarousel .carousel ul{
+	height: 243px;
+	width: 414px;
+}
+.categoryPageCarousel .carousel ul li{
+	margin-right: 4px;
+}
+
+.categoryPageCarousel .carousel ul li a{
+	display: block;
+	position: relative;
+}
+.categoryPageCarousel .carousel ul li a:hover {}
+
+.categoryPageCarousel .carousel ul li a img{}
+.categoryPageCarousel .carousel ul li a img.itemGlow{
+	left: 0;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+}
+.categoryPageCarousel .carousel ul li a:hover img.itemGlow{
+	visibility: visible;
+}
+
+.categoryPageCarousel .buttons{
+	background: url(../images/carousel/bg-button.png) repeat-x;
+	height: 27px;
+	position: absolute;
+	text-align: center;
+	top: 240px;
+	width: 410px;
+	z-index: 400;
+}
+
+.categoryPageCarousel .buttons .description{
+	color: #FFF;
+	height: 16px;
+	margin: 4px auto;
+	overflow: hidden;
+	width: 344px;
+}
+
+.categoryPageCarousel div.previous,
+.categoryPageCarousel  div.next{
+	position: absolute;
+	top: 243px;
+	z-index: 600;
+}
+
+.categoryPageCarousel div.previous{
+	left: 6px;
+}
+.categoryPageCarousel div.next{
+	right: 6px;
+}
+.categoryPageCarousel a.prev,
+.categoryPageCarousel a.next{
+	background: url(../images/carousel/button-movies.png) no-repeat;
+	display: block;
+	height: 21px;
+	line-height: 100px;
+	overflow: hidden;
+	width: 21px;
+}
+.categoryPageCarousel a.next{
+	background-position: -25px 0px;
+}
+.categoryPageCarousel a.prev:hover{
+	background-position: 0px -25px;
+}
+.categoryPageCarousel a.next:hover{
+	background-position: -25px -25px;
+}
+
+/* While page is loading */
+.categoryPageCarousel .carousel ul li{
+	float: left;
+	height: 248px;
+	overflow: hidden;
+	width: 134px;
+}
+/* End of Category Page Carousel */

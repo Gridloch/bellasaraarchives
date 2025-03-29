@@ -1,0 +1,62 @@
+﻿topnav_item_label{
+	font-family:Arial;
+	font-size:13pt;
+	color:#FFFFFF;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+mainnav_item_label{
+	font-family:Arial;
+	font-size:12pt;
+	color:#FFFFFF;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+subnav_item_label{
+	font-family:Arial;
+	font-size:12pt;
+	color:#FFFFFF;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+name_plaque{
+	font-family:Gill Sans;
+	font-size:16pt;
+	color:#543201;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+horseshoes_count{
+	font-family:Arial;
+	font-size:16pt;
+	color:#FFFFFF	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+horseshoes_btn{
+	font-family:Arial;
+	font-size:12pt;
+	color:#FFFF99;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+logout_btn{
+	font-family:Arial;
+	font-size:12pt;
+	color:#FFFF99;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}

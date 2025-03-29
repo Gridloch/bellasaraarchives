@@ -1,0 +1,196 @@
+﻿header_1{
+	font-family:Times New Roman;
+	font-size:24pt;
+	color:#650099;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:	0pt;
+	text-align:center;	
+}
+hints_1{
+	font-family:Times New Roman;
+	font-size:24pt;
+	color:#650099;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+hints_2{
+	font-family:Arial Unicode MS;
+	font-size:12pt;
+	color:#000000;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:left;	
+}
+codebox_header{
+	font-family:Times New Roman;
+	font-size:18pt;
+	color:#650099;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;	
+}
+codebox_footer{
+	font-family:Arial Unicode MS;
+	font-size:12pt;
+	color:#000000;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:left;	
+}
+codebox_input{
+	font-family:Arial Unicode MS;
+	font-size:16pt;
+	color:#000000;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+successscreen_textblock_header{
+	font-family:Times New Roman;
+	font-size:24pt;
+	color:#650099;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;	
+}
+successscreen_textblock_body{
+	font-family:Arial Unicode MS;
+	font-size:14pt;
+	color:#000000;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:left;	
+}
+cardbox_card_label{
+	font-family:Arial Unicode MS;
+	font-size:14pt;
+	color:#650099;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+medal_tooltip_header{
+	font-family:Arial Unicode MS;
+	font-size:14pt;
+	color:#000000;	
+	leading:-3pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+medal_tooltip_body{
+	font-family:Arial Unicode MS;
+	font-size:12pt;
+	color:#000000;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:left;	
+}
+tooltip_btn_text{
+	font-family:Arial Unicode MS;
+	font-size:14pt;
+	color:#ffffff;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+ticketscreen_congrats_header{
+	font-family:Times New Roman;
+	font-size:24pt;
+	color:#650099;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+ticketscreen_congrats_body{
+	font-family:Arial Unicode MS;
+	font-size:16pt;
+	color:#650099;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+prize_panel_header{
+	font-family:Times New Roman;
+	font-size:16pt;
+	color:#650099;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:left;	
+}
+prizebox_card_label{
+	font-family:Times New Roman;
+	font-size:18pt;
+	color:#650099;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+prizebox_card_description{
+	font-family:Arial Unicode MS;
+	font-size:14pt;
+	color:#650099;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+egamecard_caption{
+	font-family:Arial Unicode MS;
+	font-size:14pt;
+	color:#650099;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:center;	
+}
+error_header{
+	font-family:Times New Roman;
+	font-size:24pt;
+	color:#650099;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:center;
+}
+error_body{
+	font-family:Arial Unicode MS;
+	font-size:14pt;
+	color:#000000;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:left;
+}
+energy_header{
+	font-family:Times New Roman;
+	font-size:24pt;
+	color:#650099;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;
+}
+energy_body{
+	font-family:Arial Unicode MS;
+	font-size:14pt;
+	color:#000000;	
+	leading:0pt;
+	letter-spacing:0pt;
+	text-align:left;
+}
+dependant_card_label{
+	font-family:Arial Unicode MS;
+	font-size:12pt;
+	color:#000000;	
+	leading:0pt;
+	font-weight:bold;
+	letter-spacing:0pt;
+	text-align:left;	
+}

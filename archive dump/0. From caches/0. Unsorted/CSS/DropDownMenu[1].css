@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------*/           
+#mainmenu {
+	width:790px;
+	list-style:none;
+	margin:8px auto 0 auto;
+}
+#mainmenu li {
+	list-style:none;
+	float:left;
+	padding:0 8px;
+}
+#mainmenu a {
+	display:block;
+	text-indent:-2000px;
+	overflow:hidden;
+	text-align:center;
+	padding:0;
+}
+#mainmenu li a.current {
+	background-position:0px -40px;
+}
+/*-------MainMenu-------------*/           
+/*HOME*/
+a#home {
+	background-image:url(../images/menu_home.png);
+	width:75px;
+	height:20px;
+}
+/*Sylvanian World*/
+a#world {
+	background-image:url(../images/menu_world.png);
+	width:167px;
+	height:20px;
+}
+/*Catalog*/
+a#catalog {
+	background-image:url(../images/menu_catalog.png);
+	width:86px;
+	height:20px;
+}
+/*Shop List*/
+a#shop {
+	background-image:url(../images/menu_shop.png);
+	width:82px;
+	height:20px;
+}
+/*Story*/
+a#story {
+	background-image:url(../images/menu_story.png);
+	width:79px;
+	height:20px;
+}
+/*Activity*/
+a#activity {
+	background-image:url(../images/menu_activity.png);
+	width:54px;
+	height:20px;
+}
+/*Download*/
+a#download {
+	background-image:url(../images/menu_download.png);
+	width:132px;
+	height:20px;
+}
+a:hover#home,
+a:hover#world,
+a:hover#catalog,
+a:hover#shop,
+a:hover#story,
+a:hover#activity,
+a:hover#download {
+	background-position:0px -20px;
+}
+/*-------SubMenu-------------*/           
+.submenu {
+	visibility:hidden;
+	position:absolute;
+	z-index:3;/*filter:alpha(Opacity=90);
+	opacity:0.9;*/
+}
+.submenu a {
+	display:block;
+}
+a.menuhover {
+	background-position:0px -20px;
+}
+/*Coloring*/
+.submenu a#coloring {
+	background:url(../images/submenu_coloring.png);
+	width:132px;
+	height:30px;
+}
+/*Wallpaper*/
+.submenu a#wallpaper {
+	background:url(../images/submenu_wallpaper.png);
+	width:132px;
+	height:30px;
+}
+.submenu a:hover#coloring,
+a:hover#wallpaper {
+	background-position:0px -30px;
+}

@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<subnav>
+	<!-- Parents sub menu Content -->
+	
+		
+	
+	<button hbx="LaValléeDesFées" instancename="lavalléedesfées" destination="games/pixiehollow.html">La Vallée Des Fées</button>
+        <button hbx="Mini-jeux" instancename="mini-jeux" destination="games/minigames.html">Mini-jeux</button>
+        <button hbx="Jeuxvidéo" instancename="jeuxvidéo" destination="games/videogames.html">Jeux vidéo</button>
+        <button hbx="Fondsd'écran" instancename="fondsd'écran" destination="games/wallpapers.html">Fonds d'écran</button>
+        <button hbx="Economiseurd'écran" instancename="economiseurd'écran" destination="games/screensaver.html">Economiseur d'écran</button>
+        <button hbx="Icônes" instancename="icônes" destination="games/icons.html">Icônes</button>
+        
+</subnav>
+
+
+
+  

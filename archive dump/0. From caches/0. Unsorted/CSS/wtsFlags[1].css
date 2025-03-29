@@ -1,0 +1,69 @@
+.wtsFlag {
+	margin: 2px;
+}
+.wtsFlags_et, .wtsFlags_ga, .wtsFlags_mk, .wtsFlags_id, .wtsFlags_sw, 
+.wtsFlags_yi, .wtsFlags_zh-CN, .wtsFlags_no, .wtsFlags_ca, .wtsFlags_ht, 
+.wtsFlags_ko, .wtsFlags_gl, .wtsFlags_sq, .wtsFlags_sv, .wtsFlags_sk, 
+.wtsFlags_ru, .wtsFlags_pt, .wtsFlags_cs, .wtsFlags_hi, .wtsFlags_zh-TW, 
+.wtsFlags_el, .wtsFlags_ro, .wtsFlags_nl, .wtsFlags_de, .wtsFlags_is, 
+.wtsFlags_lv, .wtsFlags_fa, .wtsFlags_da, .wtsFlags_hu, .wtsFlags_sr, 
+.wtsFlags_mt, .wtsFlags_ms, .wtsFlags_ja, .wtsFlags_en, .wtsFlags_tr, 
+.wtsFlags_cy, .wtsFlags_hr, .wtsFlags_it, .wtsFlags_fr, .wtsFlags_uk, 
+.wtsFlags_fi, .wtsFlags_be, .wtsFlags_tl, .wtsFlags_vi, .wtsFlags_th, 
+.wtsFlags_pl, .wtsFlags_es, .wtsFlags_ar, .wtsFlags_bg, .wtsFlags_lt, 
+.wtsFlags_af, .wtsFlags_sl, .wtsFlags_iw
+{  background: url('wtsFlags.png') no-repeat; border: 0; width: 16px; height: 11px; }
+
+.wtsFlags_et { background-position: -0px -0px; }
+.wtsFlags_ga { background-position: -16px -0px; }
+.wtsFlags_mk { background-position: -32px -0px; }
+.wtsFlags_id { background-position: -48px -0px; }
+.wtsFlags_sw { background-position: -64px -0px; }
+.wtsFlags_yi { background-position: -80px -0px; }
+.wtsFlags_zh-CN { background-position: -96px -0px; }
+.wtsFlags_no { background-position: -0px -11px; }
+.wtsFlags_ca { background-position: -16px -11px; }
+.wtsFlags_ht { background-position: -32px -11px; }
+.wtsFlags_ko { background-position: -48px -11px; }
+.wtsFlags_gl { background-position: -64px -11px; }
+.wtsFlags_sq { background-position: -80px -11px; }
+.wtsFlags_sv { background-position: -96px -11px; }
+.wtsFlags_sk { background-position: -0px -22px; }
+.wtsFlags_ru { background-position: -16px -22px; }
+.wtsFlags_pt { background-position: -32px -22px; }
+.wtsFlags_cs { background-position: -48px -22px; }
+.wtsFlags_hi { background-position: -64px -22px; }
+.wtsFlags_zh-TW { background-position: -80px -22px; }
+.wtsFlags_el { background-position: -96px -22px; }
+.wtsFlags_ro { background-position: -0px -33px; }
+.wtsFlags_nl { background-position: -16px -33px; }
+.wtsFlags_de { background-position: -32px -33px; }
+.wtsFlags_is { background-position: -48px -33px; }
+.wtsFlags_lv { background-position: -64px -33px; }
+.wtsFlags_fa { background-position: -80px -33px; }
+.wtsFlags_da { background-position: -96px -33px; }
+.wtsFlags_hu { background-position: -0px -44px; }
+.wtsFlags_sr { background-position: -16px -44px; }
+.wtsFlags_mt { background-position: -32px -44px; }
+.wtsFlags_ms { background-position: -48px -44px; }
+.wtsFlags_ja { background-position: -64px -44px; }
+.wtsFlags_en { background-position: -80px -44px; }
+.wtsFlags_tr { background-position: -96px -44px; }
+.wtsFlags_cy { background-position: -0px -55px; }
+.wtsFlags_hr { background-position: -16px -55px; }
+.wtsFlags_it { background-position: -32px -55px; }
+.wtsFlags_fr { background-position: -48px -55px; }
+.wtsFlags_uk { background-position: -64px -55px; }
+.wtsFlags_fi { background-position: -80px -55px; }
+.wtsFlags_be { background-position: -96px -55px; }
+.wtsFlags_tl { background-position: -0px -66px; }
+.wtsFlags_vi { background-position: -16px -66px; }
+.wtsFlags_th { background-position: -32px -66px; }
+.wtsFlags_pl { background-position: -48px -66px; }
+.wtsFlags_es { background-position: -64px -66px; }
+.wtsFlags_ar { background-position: -80px -66px; }
+.wtsFlags_bg { background-position: -96px -66px; }
+.wtsFlags_lt { background-position: -0px -77px; }
+.wtsFlags_af { background-position: -16px -77px; }
+.wtsFlags_sl { background-position: -32px -77px; }
+.wtsFlags_iw { background-position: -48px -77px; }

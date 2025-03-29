@@ -1,0 +1,125 @@
+.disney-common-footer {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 950px;
+	text-align: center;
+}
+.disney-common-footer table {
+	margin-left: auto;
+	margin-right: auto;
+}
+.disney-common-footer td {
+	padding: 3px;
+}
+
+.module-generalPurpose .footer .cookie-policy-statement,
+.temp-footer .cookie-policy-statement,
+#disney-common-footer .cookie-policy-statement,
+.disney-common-footer .cookie-policy-statement
+{
+	background: #ffff9a !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #333 !important;
+	font: normal 10px/1.5 Verdana, sans-serif;
+	margin: 15px auto;
+	padding: 4px 10px;
+	text-align: center;
+}
+.module-generalPurpose .footer .cookie-policy-statement {
+	width: 930px;
+}
+#disney-common-footer .cookie-policy-statement {
+	margin: 10px 20px;
+}
+.module-generalPurpose .footer .cookie-policy-statement a,
+.temp-footer .cookie-policy-statement a,
+#disney-common-footer .cookie-policy-statement a,
+.disney-common-footer .cookie-policy-statement a
+{
+	color: #678d98 !important;
+	text-decoration: underline !important;
+}
+.module-generalPurpose .footer .cookie-policy-statement a:hover,
+.temp-footer .cookie-policy-statement a:hover,
+#disney-common-footer .cookie-policy-statement a:hover,
+.disney-common-footer .cookie-policy-statement a:hover
+{
+	text-decoration: none !important;
+}
+
+
+
+.disney-js-footer {
+	font: normal 10px/1.5 Verdana, sans-serif;
+	text-align: left;
+}
+.disney-js-footer-menu {
+	display: block;
+	list-style: none;
+	margin: 0 0 .5em;
+	padding: 0;
+}
+.disney-js-footer-menu li {
+	display: inline;
+}
+.disney-js-footer-menu a {
+	display: inline-block;
+	padding: 0.15em .5em 0 0.15em;
+}
+.disney-js-footer nav {
+	background: url("disney-logo-footer.png") no-repeat;
+	margin: auto;
+	max-width: 1024px;
+	min-height: 50px;
+	padding-left: 80px;
+	width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+	.disney-js-footer nav {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+
+
+.disney-js-mh-footer {
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+}
+.disney-js-mh-footer-logo {
+	background: url("disney-logo-mh-footer.png") no-repeat;
+	display: block;
+	height: 36px;
+	margin: auto;
+	width: 80px;
+}
+.disney-js-mh-footer nav  {
+	margin: auto;
+	max-width: 1020px;
+}
+.disney-js-mh-footer-menu {
+	list-style: none;
+	margin: 6px 0;
+	padding: 0;
+}
+.disney-js-mh-footer-menu li {
+	display: inline-block;
+	padding: 0 12px 6px;
+}
+.disney-js-mh-footer-menu a {
+	color: #858A8D;
+	text-decoration: none;
+}
+.disney-js-mh-footer-menu a:hover {
+	color: #1786EB;
+}
+.disney-js-mh-footer-legal {
+	margin-bottom: 16px;
+}
+.disney-js-footer-copyright {
+	color: #CCC;
+}

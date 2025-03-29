@@ -1,0 +1,489 @@
+
+/*	MENU CSS $Revision: #1 $
+*/
+
+/*---	SHARED---*/
+.menu {
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 1em;
+	zoom: 1;
+	_height: 1em;
+}
+
+.menu {
+	word-spacing: -1ex;
+	letter-spacing: -1ex;
+	line-height: 0;
+}
+
+.menu * {
+	word-spacing: normal;
+	letter-spacing: normal;
+	line-height: 1.25;
+}
+
+.menu>*,
+.menu>* a {
+	display: inline;
+	display: -moz-inline-box;
+	display: inline-block;
+	zoom: 1;
+}
+ 
+[className~=menu]>*, 
+[className~=menu]>* a {
+ display: inline; /*--- using IE layout mode for IE 7, inline-block doesnt work correctly on natural blocks like <li> in IE 7 ---*/
+}
+
+.pipe:after { 
+	content:"\0020";
+	clear: both;
+	display: block;
+	height:0;
+}
+
+.pipe::after { 
+	content:"\0020";
+	clear: both;
+	display: block;
+	height:0;
+}	
+
+.menu li,
+.menu dt,
+.menu dd,
+.menu li a,
+.menu dd a,
+.menu dt a {
+	_display: inline;
+	_zoom: 1;
+}
+
+.menu * li,
+.menu * dd,
+.menu * dt,
+.menu * li a,
+.menu * dd a,
+.menu * dt a { _display: inline-block; }
+
+.menu li,
+.menu dd,
+.menu dt {
+	padding-bottom: 0; /* unfortunately <LI> is globally redefined to have padding bottom. I need to override that here */
+	_display: inline;
+}
+
+.menu li a,
+.menu dd a,
+.menu dt a { vertical-align: /*\*/ bottom /*/ baseline /**/; }
+
+.menu .selected {
+	padding: .1em 0.8ex;
+	margin-left: 0;
+}
+
+.menu .first { padding-left: 0; }
+
+.menu dt { text-transform: uppercase; margin-bottom: 1.5em; margin-right: 1.5em; }
+
+.menu a.icon {
+	display: block; /* opera */
+	_display: inline-block;
+}
+
+/*---	BOXED---*/
+.boxed {
+	background: #ebebeb url(list.menu/boxshadow.gif) repeat-x bottom left;
+	border-top: 1px solid #b1b1b1;
+	margin: 0 -16px 0 -16px;
+	padding: 0 16px 4px !important;
+	position: relative;
+	list-style-type: none;
+	_zoom: 1;
+}
+
+.boxed li {
+	background-color: #efefef;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #b1b1b1;
+}
+
+.boxed li,
+.boxed dd,
+.boxed dt {
+	padding: 6px 16px;
+	color: #000;
+}
+
+.boxed li a:hover {
+	background-color: #def;
+	color: #000;
+	text-decoration: none;
+}
+
+.boxed li.on { background-color: #f9f9f9; }
+
+.boxed li a:visited { color: #000; }
+
+/*--- replaces "h-nav" ---*/
+dl.boxed {
+	background-image: none;
+	border-top: none;
+	border-bottom: 1px solid #b1b1b1;
+	padding-bottom: 1px;
+	margin: 0 -8px 1em;
+}
+
+.boxed dd,
+.boxed dt {
+	padding: 2px 6px 1px 8px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.boxed dt {
+	_display: inline;
+	_float: left
+}
+
+.boxed dd {	float: right !important; }
+
+/*---	PAGE MENU---*/
+.page {
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+.page ul {
+	list-style-type: none;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+.page ul li a { padding: .1em 0.7ex; }
+
+.page dt,
+.page dd {
+	font-size: 0.917em;
+	text-align: left;
+	line-height: 1.36;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.page .button {
+	padding: .2ex 1ex .3ex;
+	margin-left: 2px;
+	margin-right: 2px;
+	background-repeat: repeat-y;
+	background-position: 0 0;
+}
+
+.page .pipe .selected {	font-weight: bold; }
+
+.page dd.next {
+	background-image: url(list.menu/next_null.gif);
+	margin-left: -1px;
+}
+
+.page dd.prev {
+	margin-left: 10px;
+	background-image: url(list.menu/prev_null.gif);
+}
+
+.page dd.next a { background-image: url(list.menu/next.gif); }
+
+.page dd.prev a { background-image: url(list.menu/prev.gif); }
+
+.page .prev a,
+.page .prev,
+.page .next a,
+.page .next {
+	width: 17px;
+	height: 17px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	/*\*/ overflow: hidden; /**/
+	word-spacing: -3ex;
+	letter-spacing: -3ex;
+}
+
+.page .prev,
+.page .next { font-size: 0; margin-left: 2px; margin-right: 2px;  }
+
+.page dd.prev a:hover,
+.page dd.prev a:focus {
+	background-color: transparent;
+	background-image: url(list.menu/prev_hover.gif);
+}
+
+.page dd.next a:hover,
+.page dd.next a:focus {
+	background-color: transparent;
+	background-image: url(list.menu/next_hover.gif);
+}
+
+.button[class~=selected] { 
+	color: #000; 
+	background-image: url(form/element_selected_bg.gif);
+	cursor: default;
+	margin-top: -1px;
+	padding-bottom: 0.25em;
+	padding-right: 1.7ex;
+}
+
+.button.selected { 
+	background-image: url(form/element_selected_bg.gif); 
+	background-color: #eee; 
+}
+
+.page .etc { vertical-align: bottom; }
+
+.page .selected:hover,
+.page .selected a:hover { outline: none; }
+
+/*---	PATH---*/
+ol.path { list-style-type: none; }
+
+.path:after { /* syntax for IE 8 beta */
+	content:"\0020";
+	clear: both;
+	display: block;
+	height:0;
+}
+
+.path::after {
+	content:"\0020";
+	clear: both;
+	display: block;
+	height:0;
+}
+
+.path>li {
+	display: inline;
+	float: left;
+	_float: none;
+}
+
+[className~=path]>li {
+	float: none;
+}
+
+.path>li:after { /* syntax for IE 8 beta */
+	content: "/";
+	font-weight: normal;
+	margin-right: 1ex;
+}
+
+.path>li::after {
+	content: "/";
+	font-weight: normal;
+	margin-right: 1ex;
+}
+
+ol.path li a {
+	nurse: "$addTextToNode[ /,after,fontWeight normal]"; 
+	behavior:url(/ubi/template/identity/lib/style-nurse.htc);
+}
+
+.path li a { padding: 0.1em 1ex .1em 0; }
+
+/*---	PIPE---*/
+ul.pipe { list-style-type: none; }
+
+.pipe>li+li {
+	background-image: url(theme/pipe.gif);
+	padding-left: 1px;
+}
+
+.pipe dd { margin-left: 0;}
+
+.pipe>dd+dd{
+	background-image: url(theme/pipe.gif);
+	padding-left: 1px;
+}
+
+.pipe li,
+.pipe dd {
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.pipe li a,
+.pipe dd a {
+	padding: 0.1em 1ex;
+	vertical-align: baseline; /* mostly for Opera */
+}
+
+ul.pipe {
+	nurse: "$getDirectChild >$getAdjacent >$addClassToNode[pipe-adjacent]"; 
+	_behavior: url(/ubi/template/identity/lib/style-nurse.htc); }
+
+dl.pipe {
+	nurse: "$getDirectChild >$getAdjacent >$addClassToNode[pipe-adjacent]"; 
+	_behavior: url(/ubi/template/identity/lib/style-nurse.htc); }
+
+.pipe .menu-text { padding: 1px 6px 0; _background-image: none; }
+
+
+.pipe-adjacent {
+	background-image: url(theme/pipe.gif);
+	padding-left: 1px;
+}
+
+/*--- 	COMMA
+	@author mok	---*/
+
+html:not([lang*=""])*.comma>li:after { /* Netscape 6 - 7 */
+	content: ",";
+	padding-right: 1ex;
+}
+
+.comma li:after, 
+.comma dd:after {
+	content: ",";
+	padding-right: 1ex;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { /* for Safari and Chrome */
+	.comma li:after, 
+	.comma dd:after {
+		padding-right: 2.5ex;
+	}
+}
+
+.comma dd:last-child:after,
+.comma li:last-child:after { content: ""; }
+
+.comma li+li { margin-right: 0; }
+
+.comma dt,
+.comma dd {	margin: 0; }
+
+.comma dd,
+.comma li { display: inline;  }
+
+.comma dt { margin-right: 1em; _float: left; }
+
+.comma a:hover { _color: #cc0000 !important; }
+
+.comma li a,
+.comma dd a  {
+	nurse: "$addTextToNode[44,after]";
+	behavior: url(/ubi/template/identity/lib/style-nurse.htc);
+	_padding-right: 1ex;
+	_zoom: 0;
+}
+
+[className~=comma] li a,
+[className~=comma] dd a  {
+	nurse: "$addTextToNode[44,after]";
+	padding-right: 1ex;
+}
+
+.comma  {
+	/* compensate for last comma (remove it with margin) */
+	nurse: "$getLastChild >$getDirectChild >$addStyleToNode[marginRight -1.5ex,runtime]"; 
+	behavior: url(/ubi/template/identity/lib/style-nurse.htc);
+}
+
+/*---	DASH 
+	@author mok---*/
+
+.dash  {
+	padding-left: 0;
+	margin-top: 0;
+}
+
+html:not([lang*=""])*.dash>li:after { /* Netscape 6 - 7 */
+	content: "-";
+	margin-right: 1ex;
+}
+
+body:-moz-last-node .dash li,
+body:-moz-last-node .dash dd {display: inline; }
+
+.dash dt { margin-bottom: 0; _margin-right: 0.5ex; }
+.dash dd { padding: 0; margin: 0; }
+
+.dash  li+li:before, 
+.dash  dd:before {
+	content: "-";	
+	margin-left: 1ex;
+	padding-right: 1ex;
+}
+
+.dash {
+	nurse: "$getDirectChild >$getAdjacent >$addTextToNode[-  ,before]"; 
+	behavior: url(/ubi/template/identity/lib/style-nurse.htc);
+}
+
+.dash li{ _padding-left:0ex ; _padding-right:1ex; }
+
+.dash dd { _padding-left:0.5ex ; _padding-right:0 }
+
+[className~=dash] li { padding-left: 0; padding-right: 1ex; }
+[className~=dash] dd { padding-left: 0.75ex; padding-right: 0; }
+
+/*---	SIDE MENU
+	@author mok---*/
+
+.side-menu {
+	font-size: .917em;
+	margin: 0;
+	padding: 0;
+}
+
+html[lang=ja] .side-menu { font-size: 1em; }
+
+html.ja .side-menu { font-size: 1em; }
+
+.pod-body .side-menu dd { padding-right: 40px; padding-bottom: 8px; }
+
+.side-menu dt {
+	margin: 10px 0 4px;
+	line-height: 1.25;
+	text-transform: uppercase;
+	padding-top: 4px;
+	border-top: 1px solid #CBCBCB;
+	color: #111111;
+}
+
+.pod-body .side-menu dt { padding-top: 8px; }
+
+.side-menu dd { 
+	margin: 4px 0; 
+	text-transform: none; 
+}
+
+.side-menu dl.treelist dt { 
+	border-top: none; 
+	padding-top: 1px;
+}
+
+/*---	META
+	@author mok---*/
+
+.meta dt,
+.meta dd {
+	margin: 0;
+	float: left;
+}
+
+.meta dt {
+	clear: both;
+	width: 30%;
+}
+
+.meta dd {
+	width: 68%;
+	white-space: normal;
+}
+
+/*---	Flush left
+	@author jsutton---*/
+.flush-list-left { margin-left: 0px; padding-left: 0px; }
+.flush-list-left .first-child {	padding: 0.1em 1ex 0.1em 0px !important; }

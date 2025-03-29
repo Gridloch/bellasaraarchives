@@ -1,0 +1,249 @@
+/* footer2 */
+
+#footerlogo {
+	height: 65px; 
+	overflow: hidden; 
+}
+	
+body #disney-common-footer {
+	background: #f1f1f1;
+	border: none;
+	color: #171819;
+	height: 485px;
+	margin: -487px auto 0px;
+	width: 950px;
+}
+
+body #disney-common-footer .wrapper {
+	margin: 0 auto;
+	height: 466px;
+	padding-top: 10px;
+	position: relative;
+	width: 950px;
+}
+
+body #disney-common-footer .footerrow1 {
+	border-top: 1px solid #ddd;
+	clear: both; 
+	height: 175px;
+	overflow: hidden; 
+	padding: 18px 0px 24px;
+}
+	
+body #disney-common-footer .footerrow2 {
+	border-top: 1px solid white;
+	clear: both; 
+	height: 30px;
+	overflow: hidden; 
+	padding: 15px 5px 0px; 
+	text-align:center;
+}
+
+body #disney-common-footer ul.vertical-menu {
+	display:inline;
+	float:left;
+	font-size: 11px;
+	line-height:1.5;
+	list-style:none outside none;
+	padding:0 5px;
+	width:124px;
+}
+
+body #disney-common-footer ul.vertical-menu li a strong{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+body #disney-common-footer ul.col1 {
+	margin-left: 10px;
+}
+
+body #disney-common-footer ul.col2 {}
+body #disney-common-footer ul.col3 {}
+body #disney-common-footer ul.col4 {}
+body #disney-common-footer ul.col5 {}
+body #disney-common-footer ul.col6 {}
+body #disney-common-footer ul.vertical-menu a {
+	color: #171819;
+	text-decoration: none;
+	padding-bottom: 1px;
+}
+
+body #disney-common-footer ul.vertical-menu a:hover {
+	border-bottom: 1px solid steelblue;
+	padding-bottom: 0px;
+	text-decoration: none;
+}
+
+body #disney-common-footer ul.vertical-menu.col7 li a,
+body #disney-common-footer ul.vertical-menu.col7 li a:hover {
+	border: 0px;
+	padding-bottom: 1px;
+	cursor: pointer;
+}
+
+body #disney-common-footer .footerfeatured:hover li:first-child {
+	background-color: #222;
+}
+
+body #disney-common-footer ul.horizontal-img-menu {
+	display:inline;
+	font-size: 11px;
+	line-height:1.5;
+	list-style:none outside none;
+}
+
+body #disney-common-footer ul.horizontal-img-menu li {
+	cursor: pointer;
+	display: inline;
+	padding: 0 5px;
+}
+
+body #disney-common-footer ul.horizontal-img-menu li a,
+body #disney-common-footer ul.horizontal-img-menu li a:visited,
+body #disney-common-footer ul.horizontal-img-menu li a:hover,
+body #disney-common-footer ul.horizontal-img-menu li a:active {
+	text-decoration: none;
+}
+
+body #disney-common-footer .complete {
+	border: none;
+	bottom: 0;
+	clear: both;
+	color: #171819;
+	height: 40px;
+	position: static;
+	text-shadow: 1px 1px 1 #000;
+	width: 100%;
+}
+
+body #disney-common-footer .complete .copyright {
+	line-height: 43px;
+	position: absolute;
+	padding: 0px 10px;
+}
+
+body #disney-common-footer .complete .footerfeatured {
+	/* border-bottom: 1px solid steelblue;
+	border-top: 1px solid steelblue; */
+	line-height: 33px;
+	margin-bottom: 10px;
+	width: 950px;
+	}
+
+body #disney-common-footer .complete .footerfeatured  ul {
+	background: #111; 
+	font-size: 13px;
+	list-style: none outside none;
+	overflow: hidden; 
+}
+
+body #disney-common-footer .complete .footerfeatured  ul li {
+	color: #999; 
+	float: left;
+	padding: 10px;
+}
+
+body #disney-common-footer .complete .footerfeatured  ul li:first-child {
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+
+body #disney-common-footer .complete .footerfeatured  ul li a {
+	color: steelblue;
+	text-decoration: none;
+	padding-bottom: 1px;
+}
+
+body #disney-common-footer .complete .footerfeatured  ul li a:hover {
+	border-bottom: 1px solid #666;
+	padding-bottom: 0px;
+}
+
+body #disney-common-footer .complete .footerlegal {
+	text-align:center;
+}
+
+body #disney-common-footer .complete .footerlegal  ul {
+	font-size: 11px;
+	line-height: 1.5;
+	list-style: none outside none;
+	overflow: hidden; 
+	padding-bottom: 10px;
+}
+
+body #disney-common-footer .complete .footerlegal  ul li {
+	display: inline;
+	padding: 10px;
+}
+
+body #disney-common-footer .complete .footerlegal  ul li a {
+	color: #171819;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+body #disney-common-footer .complete .footerlegal  ul li a:hover {
+	border-bottom: 1px solid steelblue;
+	padding-bottom: 0px;
+}
+
+body #disney-common-footer. complete .footerlegal p {
+	font-size: 11px;
+}	
+	
+body #disney-common-footer .complete a.disney {
+	display: block;
+	height: 36px;
+	letter-spacing: -99999em;
+	margin: 4px auto 0;
+	overflow: hidden;
+	text-indent: -99999em;
+	width: 108px;
+}
+
+* html body #disney-common-footer .complete a.disney {}
+
+body #disney-common-footer .complete form {
+	position: absolute;
+	right: 0;
+	top: 13px;	
+}
+
+body #disney-common-footer .complete form input {
+	background: #FFF;
+	border: 1px solid #CCC;
+	color: #000;
+	float: left;
+	font: normal 11px/14px Helvetica, Arial, sans-serif;
+	height: 14px;
+	margin-right: 3px;
+	margin-top: 1px;
+	width: 120px;
+}
+
+body #disney-common-footer .complete form button {
+	background: url(../images/chrome/button-search.png) center no-repeat;
+	border: 0;
+	cursor: pointer;
+	float: left;
+	height: 17px;
+	letter-spacing: -99999em;
+	text-indent: -99999em;
+	width: 26px;
+}
+
+body #footer-extension { 
+	display: none; 
+	}
+
+* html body #disney-common-footer .complete form button {
+	background-image: url(../images/chrome/button-search.gif);
+}
+
+body #main {
+	margin: auto;
+	padding-bottom: 475px !important;
+	overflow: hidden;
+}
